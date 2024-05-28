@@ -2,77 +2,79 @@
   "posts": [
     {
       "id": "1",
-      "title": "SECRETARÍA DE DERECHOS HUMANOS",
-      "subtitle": "DEPENDIENTE DEL MINISTERIO DE JUSTICIA Y DDHH DE LA NACIÓN",
-      "Dirección": "Av. del Libertador 8151 - Ciudad Autónoma de Buenos Aires",
-      "Teléfono": "0800-122-5878",
-      "WhatsApp": "11-4091-7352",
-      "Email": "denuncias@jus.gob.ar",
-      "content": "La Dirección Nacional de Políticas contra la Violencia Institucional brinda asesoramiento jurídico y asistencia psico-social a víctimas de la violencia institucional y otras graves violaciones a los derechos humanos.Se puede realizar la denuncia llamando al 0800-122-5878 (es una línea gratuita), enviando un mensaje de WhatsApp al 11-4091-7352 o enviar un mail a denuncias@jus.gob.ar La Dirección Nacional de Políticas contra la Violencia Institucional brinda asesoramiento jurídico y asistencia psico-social a víctimas de la violencia institucional y otras graves violaciones a los derechos humanos.",
-      "link": "https://www.argentina.gob.ar/justicia/derechoshumanos"
-    },
-    {
-      "id": "2",
-      "title": "LA PROCURADURÍA DE VIOLENCIA INSTITUCIONAL (PROCUVIN)",
-      "subtitle": "MINISTERIO PÚBLICO FISCAL DE LA NACIÓN",
-      "Dirección": "Av. De Mayo 760",
-      "Teléfono": "+54 11 4338-4300",
-      "content": "Es una Procuraduría que puede intervenir como fiscal principal o coadyuvante en los casos que versen sobre hechos de la competencia de la Procuraduría, en todas las instancias, recibe denuncias de personas que hayan sufrido violencia institucional privadas de la libertad en Servicios Penitenciarios Federales, entre otras. Puede contactar a través del siguiente",
-      "link": "https://www.mpf.gob.ar/procuvin/"
-    },
-    {
-      "id": "3",
-      "title": "DIRECCIÓN DE POLÍTICA CONTRA LA VIOLENCIA INSTITUCIONAL",
-      "subtitle": "PROVINCIA DE BS AS",
-      "Teléfono": "(0221) 5912628 / (0221) 5895591",
-      "Email": " denunciassdh@gmail.com / seguridaddemocratica.ddhh@gmail.com",
-      "content": "El área recepciona y analiza los casos de violencia institucional que reciba por distintas vías. Interviene en los procedimientos administrativos y judiciales, y participa en la creación, adecuación o modificación de normas o programas que tiendan a preservar y garantizar la plena protección de los Derechos Humanos. Además asiste, dictamina y asesora en materia de violencia institucional ante consultas que reciba de  otras dependencias del Estado Provincial. Cuenta con dos líneas telefónicas de atención las 24 horas: (0221) 5912628 y (0221) 5895591.       Cuenta con una línea de atención de 8 a 18 hs: (0221) 4294057 Correos electrónicos:  denunciassdh@gmail.com y seguridaddemocratica.ddhh@gmail.com",
+      "title": "SECRETARÍA LETRADA CONTRA LA VIOLENCIA INSTITUCIONAL",
+      "subtitle": "DEPENDIENTE DEL MINISTERIO PÚBLICO DE LA DEFENSA DE LA CIUDAD AUTÓNOMA DE BUENOS AIRES",
+      "Dirección": "Piedras 441, 1º piso - Ciudad Autónoma de Buenos Aires",
+      "Teléfono": "7091-3387/88",
+      "WhatsApp": "",
+      "Email": "violenciainstitucional@mpdefensa.gob.ar",
+      "content": "Brinda asesoramiento a las víctimas y las asiste en la promoción de las acciones legales respectivas en el ámbito de la Ciudad, entre otras.",
       "link": ""
     },
     {
+      "id": "2",
+      "title": "MINISTERIO PÚBLICO FISCAL ",
+      "subtitle": "DE LA CIUDAD AUTÓNOMA DE BUENOS AIRES",
+      "Teléfono": "0800 33 (FISCAL) 347225 (gratuito, las 24hs)",
+      "content": "Dentro de la Ciudad Autónoma de Buenos Aires hay varias dependencias fiscales donde se puede realizar una denuncia. Tené a mano tu DNI o documento que acredite identidad. Hay distintos mecanismos para hacerlo.Presencial en alguna de las Unidades de Orientación y Denuncian (UOD) que hay en la Ciudad: https://mpfciudad.gob.ar/denuncias/denuncia-presencial",
+      "link": "https://denuncias.fiscalias.gob.ar/"
+    },
+    {
+      "id": "3",
+      "title": "PROCURADURÍA DE VIOLENCIA INSTITUCIONAL (PROCUVIN)",
+      "subtitle": "DEPENDIENTE DEL MINISTERIO PÚBLICO FISCAL DE LA NACIÓN",
+      "Teléfono": "(+54 11) 6089-9054 / 9058 / 9059",
+      "Dirección": "Tte. Gral. Juan Domingo Perón 667, 2° Piso, CABA. (CP:1038)",
+      "Email": "procuvin@mpf.gov.ar",
+      "content": "Recibe denuncias ante prácticas ilícitas perpetradas por agentes estatales que resultan lesivas para la libertad, la integridad, la dignidad y la vida de las personas en estado de vulnerabilidad. Línea de atención a personas privadas de su libertad en cárceles federales o sus familiares (9 a 13hs): (*19) 011-6089-9058 / (*19) 011-6089-9059",
+      "link": "https://www.mpf.gob.ar/procuvin/"
+    },
+    {
       "id": "4",
-      "title": "MAPA INTERACTIVO",
-      "subtitle": "DEL MINISTERIO PUBLICO FISCAL DE ACOMPAÑAMIENTOS  A LAS VICTIMAS",
-      "content": "(CAJ, CAVAJ, CAV, Asesorías de Menores e Incapaces MPBA, Casas de Justicia, Jefaturas Regionales Educativas, hospitales, Dependencias del Ministerio de Salud, Servicios locales y zonales - Organismo Provincial de la Niñez y Adolescencia, Áreas de Género Municipales, Comisarías de la mujer) El ministerio público fiscal cuenta con una modalidad de denuncia online accediendo a la seguridad sin acercarse a una comisaría. Aceptan cualquier tipo de denuncias. Si presenciaste o fuiste víctima de un robo, daño, corrupción policial, venta de drogas, violencia familiar o de género, delito contra la integridad sexual, tenés conocimiento sobre actividades de juego ilegal, competencias clandestinas con vehículos, o sobre comercio ilegal de autopartes, no lo dudes. Las denuncias de corrupción policial, narcotráfico, juego ilegal, comercio ilegal de autopartes y competencias clandestinas con vehículos, se pueden hacer de forma anónima.",
-      "link": "https://www.mpba.gov.ar/v2021/miav-lp"
+      "title": "AGENCIAS TERRITORIALES DE ACCESO A LA JUSTICIA (ATAJO)",
+      "subtitle": "DEPENDIENTE DEL MINISTERIO PÚBLICO FISCAL DE LA NACIÓN",
+      "content": "Es una agencia que recibe y deriva denuncias, evacua consultas y brinda acceso a la información judicial, entre otras. (Atención: Lunes a viernes 9:00 a 15:00 hs.)",
+      "Email": "cjuridicaatajo@mpf.gov.ar ",
+      "Teléfono": "6089-9089/9081/9101",
+      "Dirección": "Juan Domingo Perón, 667, 1° piso, CABA"
     },
     {
       "id": "5",
-      "title": "CAJ LA PLATA CENTRO",
-      "subtitle": "CASA DE JUSTICIA- MINISTERIO PUBLICO FISCAL PBA-",
-      "Dirección": "Calle 35 N° 927 (entre 13 y 14 )",
-      "Teléfono": "221 220 4227",
-      "content": "Lunes a viernes de 8 a 14 hs",
-      "Email": "cajinterministerial@gmail.com"
+      "title": "DEFENSORÍA DEL PUEBLO",
+      "subtitle": "CDE LA CIUDAD AUTÓNOMA DE BUENOS AIRES",
+      "Dirección": "Av. Belgrano 673",
+      "Teléfono": "0800-999-3722",
+      "WhatsApp": "11-7128-8301 ",
+      "content": "Asesora jurídicamente a personas que hayan sufrido violencia institucional por parte de algún miembro de las fuerzas de seguridad que cumpla su función en la Ciudad Autónoma de Buenos Aires. Atención presencial: lunes a viernes de 10:00 a 17:00hs. Centro de contacto (telefónico y WhatsApp): Lunes a Viernes de 9 a 18hs y Sábados, Domingos y feriados de 9 a 15hs. 2.  Mecanismo Local de Prevención de la Tortura CABA. Funciona en el ámbito de la Defensoría. Entre sus funciones está actuar como instancia de evaluación de la aplicación de la Convención contra la Tortura y otros Tratos o Penas Crueles, Inhumanos o Degradantes y su Protocolo Facultativo, así como también fiscalizar el cumplimiento de toda aquella legislación que establezca derechos y garantías de las personas que se encuentren privadas de su libertad. El canal de comunicación es a través de los contactos de la Defensoría arriba provistos."
+      ,
+      "Email": "consultas@defensoria.org.ar"
     },
     {      
       "id": "6",
-      "title": "CAJ LA PLATA EL RINCÓN",
-      "subtitle": "CASA DE JUSTICIA- MINISTERIO PUBLICO FISCAL PBA-",
-      "Dirección": "CIC El Rincón - Calle 442 y 138, Arturo Seguí",
-      "Teléfono": "221- 4705493 / Whatsapp: 221-2268596 / 0800-999-3722",
-      "Email": "cajusina@gmail.com",
-      "content": "Lunes a viernes de 8 a 14 hs"
+      "title": "COMITÉ NACIONAL PARA LA PREVENCIÓN DE  LA TORTURA",
+      "Dirección": "Paraná 341 Piso 1",
+      "WhatsApp": "+54911 3781-7230",
+      "content": "Es un organismo de monitoreo, control y seguimiento de los lugares donde se encuentran personas en situaciones de encierro."
     },
     {
       "id": "7",
-      "title": "CAJ LA PLATA VILLA ELVIRA",
-      "subtitle": "CASA DE JUSTICIA- MINISTERIO PUBLICO FISCAL PBA-",
-      "Dirección": "Calle 609 y 122",
-      "Teléfono": "4453410 / Cel oficina: 2216102192",
-      "Email": "laplatacaj@gmail.com",
-      "content": "Lunes a viernes de 8 a 14 hs"
+      "title": "SECRETARÍA DE DERECHOS HUMANOS",
+      "subtitle": "DEPENDIENTE DEL MINISTERIO DE JUSTICIA Y DDHH DE LA NACIÓN",
+      "Dirección": " Av. del Libertador 8151 - Ciudad Autónoma de Buenos Aires",
+      "Teléfono": "0800-122-5878 (línea gratuita)",
+      "WhatsApp": "11-4091-7352",
+      "Email": "denuncias@jus.gob.ar. ",
+      "content": "Línea de atención a personas privadas de su libertad en cárceles federales o sus familiares (9 a 13hs): (*19) 011-6089-9058 /(*19) 011-6089-9059. La Dirección Nacional de Políticas contra la Violencia Institucional brinda asesoramiento jurídico y asistencia psico-social a víctimas de la violencia institucional y otras graves violaciones a los derechos humanos."
       
     },
     {
       "id": "8",
-      "title": "COMITE CONTRA LA TORTURA",
-      "subtitle": "COMISION PROVINCIAL POR LA MEMORIA",
-      "Dirección": "54 n°487",
-      "Teléfono": "0221 4262910",
+      "title": "CENTROS DE ACCESO A LA JUSTICIA (CAJ)",
+      "subtitle": "DEPENDIENTES DEL MINISTERIO DE JUSTICIA DE LA NACIÓN",
+      "Teléfono": " Línea 137",
       "Email": "comite@comisionporlamemoria.org",
-      "content": "El programa de Recepción de denuncias recepciona denuncias sobre violaciones a los derechos humanos de personas privadas de su libertad a partir de un sistema gratuito de recepción de llamados telefónicos al que acceden directamente las personas detenidas y sus familiares sin costo alguno. También se asiste a familiares que concurren a la sede de la Comisión Provincial por la Memoria.",
-      "link": "https://www.comisionporlamemoria.org/comite/comite/"
+      "content": "Brindan servicio de atención legal gratuita y asesoramiento para realizar denuncias legales. No brindan patrocinio legal. Se sugiere ir de forma presencial debido a que atienden equipos interdisciplinarios en las sedes. ",
+      "link": "Para buscar el CAJ más cercano, comunicarse con el 137, o consultar en: https://www.argentina.gob.ar/justicia/afianzar/caj/listado"
       
     }
 

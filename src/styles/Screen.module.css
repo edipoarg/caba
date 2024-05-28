@@ -111,6 +111,8 @@
         width: 20vw;
         max-width: 20vw;
         margin-left: 11vw;
+        bottom:unset;
+        top:-20vh;
     }
 
     .moreButton {
