@@ -103,7 +103,7 @@ const Nota13 = () => {
           sexuales, que en CABA se mueven entre Constitución, Once y Palermo
           conocen bien de qué se trata.{" "}
         </p>
-        <h6>
+        <h6 className={styles.span}>
           En Argentina, de principios de los 2000 hasta la actualidad, la tasa
           de personas alojadas en cárceles por infracción a la Ley de Drogas
           creció un 252%. Y si miramos sólo a la población trans, vemos que
@@ -198,7 +198,7 @@ const Nota13 = () => {
         con buen coche. Capaz esos son los que nos envenenan y abastecen de
         droga a todo el país, pero como son de ese prototipo que para la Ciudad
         y la policía encajan, no les dicen nada. Entonces, van hacia nosotras”.
-        <h6>
+        <h6 className={styles.span}>
           “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
           calle, me quitan lo poquito que tengo. Porque para ellos no podemos
           tener más de veinte mil pesos en la cartera. Entonces nos dicen: ‘¿de
@@ -272,13 +272,13 @@ const Nota13 = () => {
           como insumo para el show televisivo y los canales montan guardias para
           mostrar la marginalidad.
         </p>
-        <span>
+        <h6 className={styles.span}>
           La comisaría que tiene jurisdicción en Constitución y que actúa en la
           mayoría de estos casos es la Vecinal 1C. Algo característico de esa
           dependencia, y que AMMAR denuncia desde hace años, es la constante
           rotación de sus autoridades, lo que obstaculiza el trabajo de
           concientización que llevan adelante.
-        </span>
+        </h6>
         <h3>cambios legales sin políticas inclusivas</h3>
         <p>
           Una de las pocas personas que en el ámbito judicial recogió el guante
@@ -386,12 +386,12 @@ const Nota13 = () => {
           poblacional que perjudica a grupos específicos”, entre ellos, el trans
           migrante.{" "}
         </p>
-        <span>
+        <h6 className={styles.span}>
           La combinación de cambios legales, sin acompañamiento de políticas
           públicas inclusivas y la persistencia de estereotipos estigmatizantes
           y discriminatorios ha derivado en una reformulación de las lógicas y
           prácticas de criminalización hacia las mujeres trans y travestis.
-        </span>
+        </h6>
         <h3> no todas son soldaditxs narco </h3>
         <p>
           A principios de marzo de 2024, Georgina Orellano publicó un posteo en

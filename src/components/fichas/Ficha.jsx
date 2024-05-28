@@ -69,12 +69,10 @@ const Ficha = () => {
               <li className={styles.name}>{properties.Nombre}</li>
             )}
             {properties.Fecha && (
-              <li className={styles.gender}>Fecha: {properties.Fecha}</li>
+              <li className={styles.age}>Fecha: {properties.Fecha}</li>
             )}
             {properties.Organismo && (
-              <li className={styles.number}>
-                Depende de: {properties.Organismo}
-              </li>
+              <li className={styles.age}>Depende de: {properties.Organismo}</li>
             )}
             {properties.Edad && (
               <li className={styles.age}>Edad: {properties.Edad}</li>
@@ -86,12 +84,10 @@ const Ficha = () => {
               <li className={styles.age}>Teléfono: {properties.Teléfono}</li>
             )}
             {properties.Barrio && (
-              <li className={styles.number}>Ciudad: {properties.Barrio}</li>
+              <li className={styles.age}>Ciudad: {properties.Barrio}</li>
             )}
             {properties.cronica && (
-              <li className={styles.number}>
-                Circunstancias: {properties.cronica}
-              </li>
+              <li className={styles.cronica}>Crónica: {properties.cronica}</li>
             )}
           </ul>
         </div>

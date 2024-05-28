@@ -1,7 +1,7 @@
-.recursosContainer{
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+.recursosContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 1fr;
     width: 100vw;
     max-width: 98vw;
@@ -15,7 +15,7 @@
     z-index: 3000;
 }
 
-.titleContainer{
+.titleContainer {
     display: grid;
     grid-template-columns: 4fr 1fr;
     width: 95%;
@@ -30,11 +30,11 @@
     color: #9e5cdc;
 }
 
-.headerIcon{
+.headerIcon {
     padding: 3vh 8vw;
-    }
+}
 
-.title{
+.title {
     position: relative;
     bottom: 10px;
     padding-left: 2vw;
@@ -43,42 +43,40 @@
     padding-top: 10vh;
     padding-left: 5vh;
 }
-.subTitle{
-padding-left: 2vw;
-color: white;
-font-size: 18px;
-position: relative;
-border-radius: 14px;
-margin: 0;
-padding-left: 5vh;
+
+.subTitle {
+    padding-left: 2vw;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    border-radius: 14px;
+    margin: 0;
+    padding-left: 5vh;
 }
 
-.organizate{
+.organizate {
     width: 25vw;
     height: 3vh;
     border-radius: 14px;
     background-color: #232128;
-    border: solid 1px #9e5cdc;  
+    border: solid 1px #9e5cdc;
     position: absolute;
     right: 10vw;
-    top: 23vh;  
+    top: 23vh;
     box-shadow: 3px 3px 0 1px #9e5cdc;
     padding: 1vh 1vw;
-    text-align: center;   
+    text-align: center;
 }
 
-.recursos{
+.recursos {
     width: 94%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.2vw;
+}
 
-}
-.recursosOutline{
-    
-}
-.recursoContainer{
+.recursoContainer {
     display: grid;
     grid-template-columns: 3fr 1fr;
     height: 10vh;
@@ -91,85 +89,80 @@ padding-left: 5vh;
     box-shadow: 5px 5px 0 3px #232128;
 }
 
-.recursoContainer:hover{
+.recursoContainer:hover {
     background-color: #b9ff39;
     color: #9e5cdc;
     box-shadow: 0px 0px 0px;
-
 }
 
-.icon{
+.icon {
     padding: 0vh 2vw;
     margin-top: 2vh;
-    text-align: right; 
-
+    text-align: right;
 }
 
-.iconName{
+.iconName {
     color: black;
     font-size: 1rem;
-    padding: 0vh 3vw;   
+    padding: 0vh 3vw;
     margin: 0;
     align-self: center;
 }
 
-
 @media (min-width: 768px) {
-    .recursosContainer{
-            border: solid 6vh;
-            border-right: solid 17vw;
-            background-color:  rgba(0, 0, 0, 0.0);
-            border-color: #9e5cdc;
-            position: fixed;
-            z-index: 1500;
-            top: 20vh;
-            display: flex; 
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            grid-template-columns: 1fr 1fr;
-            width: 50vw;
-            max-width: 90vw;
-            height: 35vh;
-            max-height: 100vh;
-            margin: auto;
-            padding: 2vh 1vw;
-            gap: 2vh 0vw;
-            left: 15vw;
-            /* From https://css.glass */
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(11.2px);
-            -webkit-backdrop-filter: blur(11.2px);
+    .recursosContainer {
+        border: solid 6vh;
+        border-right: solid 17vw;
+        background-color: rgba(0, 0, 0, 0.0);
+        border-color: #9e5cdc;
+        position: fixed;
+        z-index: 1500;
+        top: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        width: 50vw;
+        max-width: 90vw;
+        height: 35vh;
+        max-height: 100vh;
+        margin: auto;
+        padding: 2vh 1vw;
+        gap: 2vh 0vw;
+        left: 15vw;
+        /* From https://css.glass */
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.2px);
+        -webkit-backdrop-filter: blur(11.2px);
     }
 
-
-    .titleContainer{
-    position: absolute;
-    left: -10px;
-    width: 30vw;
-    padding-top: 3vh;
-    height: 40vh;
-    max-height: 60vh;
-    border-radius: 0px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.0);
-    background-color: #9e5cdc;
+    .titleContainer {
+        position: absolute;
+        left: -10px;
+        width: 30vw;
+        padding-top: 3vh;
+        height: 40vh;
+        max-height: 60vh;
+        border-radius: 0px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.0);
+        background-color: #9e5cdc;
     }
 
-    .title{
+    .title {
         position: relative;
         bottom: 0vh;
         padding-left: 4vw;
         font-size: 40px;
         color: #232128;
-        
     }
 
-    .subTitle{
+    .subTitle {
         padding-left: 4vw;
         padding-top: 2vh;
     }
 
-    .organizate{
+    .organizate {
         position: absolute;
         top: 1vh;
         left: 31.2vw;
@@ -178,7 +171,7 @@ padding-left: 5vh;
         background-color: #232128;
         color: #b9ff39;
         border-color: #9e5cdc;
-        box-shadow: 0px 0px 0  ;
+        box-shadow: 0px 0px 0;
         padding: 10vh 2vw 0vh 2vw;
         width: 16vw;
         height: 23vh;
@@ -186,84 +179,82 @@ padding-left: 5vh;
         font-size: 1.5rem;
     }
 
-.mapBlur{
-    position: absolute;
-    z-index: 2000;
+    .mapBlur {
+        position: absolute;
+        z-index: 2000;
+        width: 100vw;
+        height: 100vh;
+        /* From https://css.glass */
+        border-radius: 0px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(11.2px);
+    }
 
-    width: 100vw;
-    height: 100vh;
-     /* From https://css.glass */
-     border-radius: 0px;
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur(10px);
-     -webkit-backdrop-filter: blur(11.2px);
-}
+    .recursos {
+        position: absolute;
+        width: 5vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0vw;
+        top: 40vh;
+        left: 0vw;
+    }
 
-.recursos{
-    position: absolute;
-    width: 5vw;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0vw;
-    top: 40vh;
-    left: 0vw;
-}
+    .iconName {
+        position: absolute;
+        top: 12vh;
+        width: 6vw;
+        color: white;
+        font-size: 1rem;
+        padding: 0vh 0vw;
+        margin: 0;
+        align-self: center;
+        text-align: center;
+    }
 
-.iconName{
-    position: absolute;
-    top: 12vh;
-    width: 6vw;
-    color: white;
-    font-size: 1rem;
-    padding: 0vh 0vw;   
-    margin: 0;
-    align-self: center;
-    text-align: center;
-}
+    .recursoContainer {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.0);
+        border: none;
+        box-shadow: 0px 0px 0 0px #232128;
+    }
 
-.recursoContainer{
-    display: grid;
-    background-color: rgba(0, 0, 0, 0.0);
-    border: none;  
-    box-shadow: 0px 0px 0 0px #232128;
-}
+    .recursoContainer:hover {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.0);
+        border: none;
+        box-shadow: 0px 0px 0 0px #232128;
+    }
 
-.recursoContainer:hover{
-    display: grid;
-    background-color: rgba(0, 0, 0, 0.0);
-    border: none;  
-    box-shadow: 0px 0px 0 0px #232128;}
+    .icon {
+        height: 8vh;
+        padding: 0vh 1.5vw;
+        margin-top: 2vh;
+        text-align: right;
+        border: solid 2px #232128;
+        border-color: #232128;
+        color: #b9ff39;
+        background-color: #232128;
+        border-radius: 360px;
+        margin: 0.1vh 0vw;
+        padding-top: 2vh;
+    }
 
-.icon{
-    height: 8vh;
-    padding: 0vh 1.5vw;
-    margin-top: 2vh;
-    text-align: right; 
-    border: solid 2px #232128;
-    border-color: #232128;
-    color: #b9ff39;
-    background-color: #232128;
-    border-radius: 360px;
-    margin: 0.1vh 0vw;
-    padding-top: 2vh;
-}
+    .icon:hover {
+        background-color: #b9ff39;
+        color: #232128;
+        box-shadow: 0px 0px 0px;
+        border-color: #b9ff39;
+        font-size: 1rem;
+    }
 
-.icon:hover{
-    background-color: #b9ff39;
-    color: #232128;
-    box-shadow: 0px 0px 0px;
-    border-color: #b9ff39;
-    font-size: 1rem;
-}
-
-.headerIcon{
-    position: absolute;
-    padding: 0vh 0vw;
-    color: #232128;
-    left: 4vw;
-    top: 0vh;
-}
-
-
+    .headerIcon {
+        position: absolute;
+        padding: 0vh 0vw;
+        color: #232128;
+        left: 4vw;
+        top: 0vh;
+    }
 }

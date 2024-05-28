@@ -1,37 +1,82 @@
-
-.ficha{
-    height: 90vh;
+.ficha {
+    text-align: justify;
 }
-.data{
+
+.data {
     margin: auto;
     margin-top: 10vh;
     max-width: 60vw;
     padding: 5vh 10vw;
-    border: solid 2px green;
+    border: solid 2px #2a8842;
     background-color: #231c26;
     color: white;
-    height: 65vh;
+    margin-bottom: 20vh;
 }
 
-.policeData{
-    background-color: #231c26;
-    color: green;
+.age {
+    font-size: 1rem;
+    padding: 1vh 0vw;
+}
+
+.number {
+    font-size: 1rem;
+    padding: 1vh 0vw;
+}
+
+.policeData {
+    background-color: #131313;
+    color: #2a8842;
     width: 15vw;
     position: absolute;
     left: 70vw;
     top: 15vh;
-    height: 50vh;    
+    height: 50vh;
     padding: 5vh 5vw;
 }
 
-.name{
+.name {
     font-size: 1.5rem;
-    color: violet;
+    color: #9e5cdc;
+    padding-right: 10vw;
+}
+
+.cronica {
+    padding: 1vh 20vw 1vh 0vw;
+}
+
+.number {
+    font-size: 1.1rem;
+}
+
+.title {
+    margin: 0;
+    padding: 1vh 20vw 1vh 0vw;
 }
 
 @media (min-width: 768px) {
-
-    .data{
+    .data {
+        margin-left: 15vw;
         width: 30vw;
+        font-size: 1.3rem;
+    }
+
+    .ficha {
+        font-size: 1.3rem;
+        position: fixed;
+    }
+
+    .cronica {
+        font-size: 1rem;
+        padding: 1vh 0vw;
+        font-size: 1.2rem;
+    }
+
+    .age {
+        font-size: 1.3rem;
+    }
+
+    .number {
+        font-size: 1.5rem;
+        padding-right: 1vw;
     }
 }

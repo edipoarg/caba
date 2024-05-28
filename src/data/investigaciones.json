@@ -1,3 +1,4 @@
+
 [
   {
     "id": "i1",
@@ -147,23 +148,12 @@
       "id": "i13",
       "titulo": "Trans, migrante y peligrosa",
       "autorxs": "Elisa Corzo",
+      "ilus": "Nicolás Daniluk",
       "fecha": "29/03/2022",
       "imagen": "https://static.wixstatic.com/media/0f4ca0_f251793ed7094671bfbee7daf0ddec04~mv2.jpg/v1/fill/w_1211,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TRANS%20MIGRANTE%20x%20Nicol%C3%A1s%20Daniluk%20-%20WEB%20MAPA%20(1).jpg",
       "textoBajada": "Son el eslabón visible de una cadena de narcotráfico que nadie quiere investigar. Trabajadoras sexuales, travestis trans, migrantes, una combinación perfecta para el armado de causas por tenencia y narcomenudeo. ¿Cómo operan el Centro de Monitoreo Urbano, las comisarías y las brigadas de la Policía de la Ciudad en estas investigaciones?",
       "dominio": "trans-migrante",
       "tipoInvestigacion": "informe",
       "region": "Caba"
-    },
-  {
-    "id": "i14",
-    "titulo": "La bonaerense en la mira",
-    "autorxs": "Julia Pascolini",
-    "ilus": "Brenda Greco",
-    "fecha": "12/01/2022",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_8720002caf4347e986b0913169d7bfdc~mv2.jpg/v1/fill/w_1211,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Crisis_salud_Mental_Mapa3.jpg",
-    "textoBajada": "El 27 de junio de 2023 Nazareno Miño disparó su 9mm reglamentaria y mató a Victoria Díaz, su expareja y a Castorina Díaz, hermana de Victoria. Antes de cometer el asesinato, el expolicía había atravesado una internación psiquiátrica por intento de suicidio, tres licencias médicas por trastornos de ansiedad y dos denuncias en su contra: una por violencia de género y otra por amenazas y agresiones. ¿Por qué seguía en poder de su arma?",
-    "dominio": "bonaerense-mira",
-    "tipoInvestigacion": "informe",
-    "region": "La Plata"
-  }
+    }
 ]

@@ -1,59 +1,58 @@
-.Screen{
+.Screen {
     position: fixed;
-    bottom: 25vh; 
+    bottom: 28vh;
     left: 0;
     z-index: 1000;
     height: 15vh;
-display:  grid;
-grid-template-columns: 1fr 1fr;
-width: 100vw;
-margin-left: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    margin-left: 5vw;
 }
 
-.ComisariaScreen{
- padding: 0vh 4vw;
- border: solid 1px;
- z-index: 1000;
- backdrop-filter: blur(11.2px);
- -webkit-backdrop-filter: blur(11.2px);
- margin: 0vh 2vw;
+.ComisariaScreen {
+    padding: 0vh 4vw;
+    border: solid 1px;
+    z-index: 1000;
+    backdrop-filter: blur(11.2px);
+    -webkit-backdrop-filter: blur(11.2px);
+    margin: 0vh 2vw;
 }
 
-.autoridadData{
+.autoridadData {
     padding: 2vh 4vw;
     backdrop-filter: blur(11.2px);
     -webkit-backdrop-filter: blur(11.2px);
     max-width: 30vw;
-
 }
 
-.title{
+.title {
     margin: 0;
     font-size: 1rem;
     font-family: 'Ronnia Bold Condensed'
 }
 
-
-.grade{
-    margin:0;
+.grade {
+    margin: 0;
     padding-top: 1vh;
     font-size: 0.9rem;
 }
 
-.level{
-    margin:0;
+.level {
+    margin: 0;
     padding-top: 1vh;
     font-size: 0.9rem;
 }
 
-.address, .date{
+.address,
+.date {
     padding-top: 1vh;
     margin: 0;
     font-size: 0.9rem;
     font-family: 'Ronnia Thin Condensed';
 }
 
-.autority{
+.autority {
     padding-top: 1vh;
     margin: 0;
     font-size: 1rem;
@@ -61,27 +60,26 @@ margin-left: 5vw;
     max-width: 30vw;
 }
 
-.phone{
+.phone {
     margin: 0;
     padding-bottom: 1vh;
     font-size: 0.9rem;
     font-family: 'Ronnia Thin Condensed';
-
 }
 
-.age{
+.age {
     margin: 0;
     font-family: 'Ronnia Thin Condensed';
-
 }
-.circs{
+
+.circs {
     margin: 0;
     padding-top: 1vh;
     padding-bottom: 2vh;
     font-family: 'Ronnia Thin Condensed';
 }
 
-.moreButton{
+.moreButton {
     margin: 0;
     border: solid 1px #2cb54d;
     border-radius: 14px;
@@ -89,49 +87,45 @@ margin-left: 5vw;
     text-align: center;
     width: 10vw;
     margin-bottom: 2vh;
-    box-shadow: 1px 1px 0 1px ;
+    box-shadow: 1px 1px 0 1px;
 }
-.moreButton:hover{
+
+.moreButton:hover {
     color: #232128;
     background-color: #2cb54d;
 }
 
-.AutoridadesScreen{
-    padding: 2vh 4vw;    
+.AutoridadesScreen {
+    padding: 2vh 4vw;
     width: 8vw;
     backdrop-filter: blur(11.2px);
     -webkit-backdrop-filter: blur(11.2px);
-
 }
 
 @media (min-width: 1000px) {
-    
-    .Screen{
+    .Screen {
         position: relative;
         margin-top: 25vh;
-        display:  grid;
+        display: grid;
         grid-template-columns: 1fr;
         width: 20vw;
         max-width: 20vw;
         margin-left: 11vw;
-        }
+    }
 
-        .moreButton{
-            width: 5vw;
-            padding: 0.3vh 0.5vw;
+    .moreButton {
+        width: 5vw;
+        padding: 0.3vh 0.5vw;
+    }
 
-        }
-        .ComisariaScreen{
-            width: 12vw;
-            margin-top: 35vh;
-            max-width: 12vw;
-            padding: 0vh 1vw;
+    .ComisariaScreen {
+        width: 12vw;
+        margin-top: 35vh;
+        max-width: 12vw;
+        padding: 0vh 1vw;
+    }
 
-        }
-        .autoridadData{
-            padding: 2vh 3vw;
-
-        }
-
-  }
-  
+    .autoridadData {
+        padding: 2vh 3vw;
+    }
+}

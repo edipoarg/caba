@@ -1,100 +1,108 @@
-.todasContainer{
+.todasContainer {
   position: absolute;
-  height: 250vh;
   width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0;
-    gap: 0vh;
-    max-width: 95%;
-    padding-bottom: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  gap: 0vh;
+  max-width: 95%;
+  padding-bottom: 20vh;
 }
 
-.investContainer{
+.investContainer {
   width: 90vw;
-background-color: yellowgreen;
+  background-color: yellowgreen;
+  background-color: black;
+  /* Reemplaza #color-expediente con el color que desees para expediente */
 }
 
-.dataContainer{
+.dataContainer {
   padding-left: 2vw;
   padding-right: 2vw;
 }
 
-.tituloInvestigacion{
+.tituloInvestigacion {
   margin: 0;
   margin-top: 0vh;
 }
 
-.fotoInvestigacion{
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
-    object-fit: cover; 
-    width: 100%;
-    height: 25vh;
+.fotoInvestigacion {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  height: 25vh;
 }
 
-.autorxFecha{
+.autorxFecha {
   margin: 0;
 }
 
 /* TodasInvestigaciones.module.css */
+.linkInvestigacion {
+  border-radius: 14px;
+  width: 90%;
+  justify-self: left;
+  background-color: black;
+  /* Reemplaza #color-expediente con el color que desees para expediente */
+  color: white;
+  height: 50vh;
+  margin: 2vh auto;
+}
 
-.informeBackground {
-    background-color: white; /* Reemplaza #color-informe con el color que desees para informe */
-  }
-  
-  .expedienteBackground {
-    background-color: black; /* Reemplaza #color-expediente con el color que desees para expediente */
-  }
-  
-  .reporteBackground {
-    background-color: green; /* Reemplaza #color-reporte con el color que desees para reporte */
-  }
-  
-  .linkInvestigacion{
-    border-radius: 14px;
-    width: 90%;
-    justify-self: left;
-  margin:  auto;
-
-  }
-
-  .span{
-  color: blue;
+.span {
+  color: #2a8842;
   font-size: 1.3rem;
   margin: 0;
   padding: 1vh 2vw;
   border-left: solid 4px;
   margin-top: 4vh;
+}
 
-  }
+.subTitle {
+  padding-top: 8vh;
+  padding-bottom: 2vh;
+  font-size: 1.6rem;
+  margin: 0
+}
 
-  .subTitle{
-    padding-top: 8vh;
-    padding-bottom: 2vh;
-    font-size: 1.6rem;
-    margin: 0
-  }  
+p {
+  margin: 0;
+  padding: 1vh 0vw;
+}
 
-  p{
-    margin: 0;
-  padding: 1vh 0vw;  }
-  
-  .NotaContainer{
-    padding: 0vh 7vw;
-    text-align: justify;
-  }
- 
+.NotaContainer {
+  padding: 0vh 7vw;
+  text-align: justify;
+}
+
+.tituloInvestigacion {
+  color: #2a8842;
+}
 
 /* Media query para tablet */
 @media (min-width: 768px) {
+  .todasContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1vh 1vw;
+    position: absolute;
+    width: 75vw;
+    right: 10vw;
+  }
 
-    .todasContainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 1vh 1vw;
-        width: 80vw;
-        
-    }
+  .linkInvestigacion {
+    border-radius: 14px;
+    width: 70%;
+    justify-self: left;
+    background-color: black;
+    /* Reemplaza #color-expediente con el color que desees para expediente */
+    color: white;
+    height: 50vh;
+    margin: 2vh auto;
+  }
 
+  .tituloInvestigacion {
+    padding-top: 2vh;
+  }
 }
