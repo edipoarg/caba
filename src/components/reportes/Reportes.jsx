@@ -9,9 +9,10 @@ const Reportes = () => {
     "El 11 de julio se lanzó en la Legislatura porteña el Mapa de la Policía, herramienta digital que propone construir una RED DE CUIDADOS CONTRA LA VIOLENCIA POLICIAL.",
     "El principal objetivo de la iniciativa es VISIBILIZAR EL ABUSO para evitar que se naturalice.",
   ];
-  const tituloSistematico = "titulo SISTEMATICO";
-  const tituloPolitico = "titulo politico";
-  const subtituloPolitico = "subtitulo politico";
+  const tituloSistematico =
+    "La represión a la protesta del nuevo gobierno de ultraderecha";
+  const tituloPolitico = "Autoboicot penitenciario";
+  const subtituloPolitico = "Propuestas contrapopuestas de (in)seguridad";
   const singularImg =
     "https://static.wixstatic.com/media/0f4ca0_568735806ee749b588aae9358978fc13~mv2.jpg/v1/fill/w_1190,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gatillo-mayo-2024-x-panchopepe-PORTADA--WEB-CRISIS.jpg";
   const sistematicoImg =
@@ -36,8 +37,8 @@ const Reportes = () => {
           </section>
           <section className={styles.reportMenu}>
             <div className={styles.reportItem}>
-              <h3>Geolocalización</h3>
-              <h5>de los casos de violencia recibidos por el Mapa.</h5>
+              <h3>Un caso singular</h3>
+              <h5>Las balas del estado policial</h5>
             </div>
             <div className={styles.reportItem}>
               <h3>Análisis de una práctica sistemática</h3>
