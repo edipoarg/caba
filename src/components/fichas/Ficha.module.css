@@ -1,16 +1,16 @@
 .ficha {
     text-align: justify;
+    padding: 5vh 10vw 5vh 10vw;
 }
 
 .data {
+    min-height: 40vh;
     margin: auto;
-    margin-top: 10vh;
     max-width: 60vw;
     padding: 5vh 10vw;
     border: solid 2px #2a8842;
     background-color: #231c26;
     color: white;
-    margin-bottom: 20vh;
 }
 
 .age {
@@ -26,12 +26,9 @@
 .policeData {
     background-color: #131313;
     color: #2a8842;
-    width: 15vw;
-    position: absolute;
-    left: 70vw;
-    top: 15vh;
-    height: 50vh;
     padding: 5vh 5vw;
+    min-height: 25vh;
+    margin-top: 5vh;
 }
 
 .name {
@@ -55,14 +52,19 @@
 
 @media (min-width: 768px) {
     .data {
-        margin-left: 15vw;
-        width: 30vw;
         font-size: 1.3rem;
+        min-height: 60vh;
+        padding: 5vh 5vw;
     }
 
     .ficha {
         font-size: 1.3rem;
-        position: fixed;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 90vh;
+        padding: 5vh 10vw;
+        position: absolute;
+        gap: 5vw;
     }
 
     .cronica {
@@ -78,5 +80,10 @@
     .number {
         font-size: 1.5rem;
         padding-right: 1vw;
+    }
+
+    .policeData {
+        margin-top: 0;
+        min-height: 50vh;
     }
 }
