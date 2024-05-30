@@ -1,25 +1,53 @@
 {
     "posts": [
       {
-        "title": "CENTRO DE ATENCIÓN A VÍCTIMAS DE VIOLENCIA DE GÉNERO",
-        "subtitle": "FACULTAD DE DERECHO UNLP",
-        "Teléfono": " 2216442070 interno 156",
+        "title": "FISCALÍAS DE VIOLENCIA DE GÉNERO",
+        "subtitle": "Reciben denuncias:",
+        "Teléfono": " Las 24hs llamando al 0800-333-47225",
         "Email": "violenciadegenero@jursoc.unlp.edu.ar",
-        "content": "Dia y hora de atención: martes de 14 a 18hs. Desde el Centro nos proponemos brindar asesoramiento gratuito, acompañamiento y realizar intervenciones administrativas y judiciales a aquellas mujeres, niñas o niños y colectivos de la diversidad sexual, que sufran violencia sexista. Se procurará garantizar el ejercicio efectivo de sus derechos y promoviendo una mayor autonomía de las/os afectadas/os, como así también analizar críticamente las políticas públicas de Derechos Humanos relacionadas con la problemática de género y de violencia hacia las mujeres, niñas/os y de la diversidad sexual.",
-        "link": "https://cavjursoc.wordpress.com/"
+        "content": "Por teléfono, por la web o te podés dirigir directamente a las fiscalías especializadas en violencia de género. Encontralas en: https://www.mpf.gob.ar/ufem",
+        "link": " https://denuncias.fiscalias.gob.ar/"
       },
       {
-        "title": "Línea  144",
-        "subtitle": "para llamadas telefónicas en situacion de violencia de género.",
-        "Teléfono": "144 / SI NO PODES HABLAR Comunicate por mensajería de texto a través de WhatsApp o Telegram   221 5085988  |  221 3530500",
-        "content": "Te orientarán, te asesorarán y te darán contención. Las personas que te atienden en la línea nacional 144 son profesionales capacitados. La llamada al 144 no es una denuncia policial. Las 24 horas todos los días."
+        "title": "OFICINA DE VIOLENCIA DOMÉSTICA",
+        "Dirección": "Lavalle 1250 (CABA)",
+        "content": "Atención las 24hs",
+        "link": "https://www.ovd.gov.ar/ovd/"
       },
       {
         "title": "Línea 137",
         "subtitle": "para llamadas telefónicas",
-        "Teléfono": "137 / SI NO PODES HABLAR Comunicate por mensajería de texto a través de WhatsApp o Telegram   221 5085988  |  221 3530500",
-        "content": "Asistencia y acompañamiento para víctimas de violencia familiar y/o sexual y asesoramiento para el acceso a la justicia. Las 24 horas todos los días."
-      }
+        "Teléfono": "137",
+        "content": "Brinda atención a víctimas de violencia familiar y sexual. Podes llamar para que te acompañen a radicar la denuncia en cualquiera de estos espacios, para que cuentes con contención y no estés sola. Con la denuncia podés solicitar medidas de protección tales como una restricción perimetral, botón antipánico, exclusión del hogar, entre otras.",
+        "link": "https://www.argentina.gob.ar/tema/violenciayabuso"
+      },
+      {
+        "title": "Línea 144",
+        "subtitle": "para llamadas telefónicas",
+        "Teléfono": "Comunicate gratis las 24hs a la línea 144.",
+        "content": "Para recibir asesoramiento y consultar por oficinas receptoras de denuncias en otros lugares del país.",
+        "WhatsApp": "1127716463"
+      },
+      {
+        "title": "CENTRO DE JUSTICIA DE LA MUJER Y LGBTIQ+",
+        "Teléfono": "0800-999-68537",
+        "content": "Centros de Atención: La Boca: Av. Pedro de Mendoza 2689 / Microcentro: Av de Mayo 654  / Atención: De lunes a viernes de 9 a 18 hs",
+        "link": "https://cjmujer.gob.ar/",
+        "Email": "cjm@jusbaires.gob.ar"
+      },
+      {
+        "title": "MINISTERIO PÚBLICO DE LA DEFENSA",
+        "link": "https://www.mpd.gov.ar/index.php/violencia-de-genero"
+      },
+      {"title":"FISCALÍAS DE GÉNERO CABA",
+      "link":"https://mpfciudad.gob.ar/tematicas/2020-03-09-21-42-38-violencia-de-genero",
+      "Email": "denuncias@fiscalias.gob.ar",
+      "content":"Cuenta con equipos especializados de violencia de género CABA / Denuncia presencial de lunes a viernes de 9 a 20hs."
+    },
+    {
+      "title": "ESPACIOS DE CERCANÍA",
+      "content": "Podés buscar asistencia y espacios de denuncia cercanos a tu domicilio en: https://www.argentina.gob.ar/tema/violenciayabuso"
+    }
     ]
   }
   
