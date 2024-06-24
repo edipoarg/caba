@@ -2,6 +2,12 @@ import { useState } from "react";
 import styles from "./Denuncia.module.css";
 import Airtable from "airtable";
 import constants from "../../../services/constants";
+import {
+  storage,
+  ref,
+  uploadBytes,
+  getDownloadURL,
+} from "../../../services/firebase";
 
 // Initialize Airtable base
 const base = new Airtable({ apiKey: constants.apiKey }).base(constants.baseId);
@@ -14,7 +20,7 @@ const Denuncia = () => {
   const [agresor, setAgresor] = useState("");
   const [identificacion, setIdentificacion] = useState("");
   const [patente, setPatente] = useState("");
-  const [archivos, setArchivos] = useState(null); // This needs to be handled
+  const [archivo, setArchivo] = useState(null); // Manejo de un solo archivo
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
   const [email, setEmail] = useState("");
@@ -47,25 +53,32 @@ const Denuncia = () => {
       return;
     }
 
-    const recordData = {
-      Fecha: fecha,
-      Hora: hora,
-      Lugar: lugar,
-      Descripcion: descripcion,
-      Agresor: agresor,
-      Identificación: identificacion,
-      Patente: patente,
-      Archivos: archivos, // You need to handle file uploads correctly
-      Nombre: nombre,
-      Teléfono: telefono,
-      Email: email,
-      Visibilizar: visibilizar,
-      Denunciar_legalmente: denunciarLegalmente,
-    };
-
     try {
-      const response = await base("tblLbB2PWSaWbhWG0").create(recordData);
-      console.log("Record created successfully:", response);
+      let fileUrl = null;
+      if (archivo) {
+        const archivoRef = ref(storage, `archivos/${archivo.name}`);
+        const snapshot = await uploadBytes(archivoRef, archivo);
+        fileUrl = await getDownloadURL(snapshot.ref);
+      }
+
+      const recordData = {
+        Fecha: fecha,
+        Hora: hora,
+        Lugar: lugar,
+        Descripcion: descripcion,
+        Agresor: agresor,
+        Identificación: identificacion,
+        Patente: patente,
+        Archivo: fileUrl,
+        Nombre: nombre,
+        Teléfono: telefono,
+        Email: email,
+        Visibilizar: visibilizar,
+        Denunciar_legalmente: denunciarLegalmente,
+      };
+
+      const response = await base("tblfETI1obwfYQg7N").create(recordData);
+      console.log("Registro creado con éxito:", response);
       alert("Denuncia enviada con éxito");
       setFecha("");
       setHora("");
@@ -74,7 +87,7 @@ const Denuncia = () => {
       setAgresor("");
       setIdentificacion("");
       setPatente("");
-      setArchivos(null);
+      setArchivo(null);
       setNombre("");
       setTelefono("");
       setEmail("");
@@ -190,6 +203,9 @@ const Denuncia = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
 
+        <h3>V. ARCHIVO ADJUNTO</h3>
+        <input type="file" onChange={(e) => setArchivo(e.target.files[0])} />
+
         <h3>Marque las opciones deseadas</h3>
         <label>
           <input
@@ -216,8 +232,6 @@ const Denuncia = () => {
             onChange={() => setAceptoTerminos(!aceptoTerminos)}
           />
         </div>
-
-        {/* Agrega aquí el botón de Captcha de no soy un robot */}
 
         <button onClick={handleSubmit}>Enviar</button>
       </section>
