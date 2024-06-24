@@ -17,6 +17,7 @@
     "@react-email/render": "^0.0.12",
     "@vitejs/plugin-react-swc": "^3.6.0",
     "airtable": "^0.12.2",
+    "firebase": "^10.12.2",
     "maplibre-gl": "^3.5.2",
     "nodemailer": "^6.9.13",
     "prop-types": "^15.8.1",
