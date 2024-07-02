@@ -21,4 +21,7 @@ module.exports = {
     ],
     'linebreak-style': 0,
   },
+  parserOptions: {
+    project: ['./tsconfig.json'],
+  }
 }
