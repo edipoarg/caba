@@ -14,7 +14,6 @@
     max-width: 100vw;
 }
 
-
 .titleContainer {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -75,7 +74,6 @@
 }
 
 /*Bloque novedades*/
-
 .investigaciones {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -110,12 +108,10 @@
     padding-top: 1vh;
     font-size: 1rem;
     margin: 0;
-
 }
 
 .icon {
     color: #b9ff39;
-
 }
 
 .notaPrincipal {
@@ -198,11 +194,9 @@
 
 .bajadaContainer {
     display: none;
-
 }
 
 /*bloque reportes*/
-
 .investCol2 {
     height: 50vh;
     margin-top: 1vh;
@@ -212,7 +206,6 @@
     box-sizing: border-box;
     justify-content: space-between;
 }
-
 
 .ultimoReporteContainer {
     height: 17vh;
@@ -264,7 +257,10 @@
     border-radius: 14px;
     height: 15vh;
 }
-.podcastIcon{padding: 0vh 2vw;}
+
+.podcastIcon {
+    padding: 0vh 2vw;
+}
 
 .tituloPodcast {
     padding: 2vh 2vw;
@@ -322,7 +318,6 @@
     padding-left: 2vw;
 }
 
-
 .todasLink {
     border-radius: 14px;
     margin: auto;
@@ -336,10 +331,8 @@
 }
 
 /**************************/
-
 /* Media query para tablet */
 @media (min-width: 768px) {
-
     .investContainer {
         grid-template-columns: 1fr 2fr;
         background-color: rgba(0, 0, 0, 0.1);
@@ -438,7 +431,6 @@
         gap: 2vh 0vw;
     }
 
-
     .notaPrincipal {
         width: 25vw;
         height: 70vh;
@@ -454,7 +446,6 @@
         font-size: 1.6rem;
         margin: 0;
         color: #2a8842;
-
     }
 
     .autorxsContainer {
@@ -494,7 +485,6 @@
         display: block;
     }
 
-
     .investCol2 {
         background-color: white;
         margin: 0;
@@ -514,7 +504,6 @@
         height: unset;
     }
 
-
     .ultimoReporteContainer {
         box-sizing: border-box;
         margin: unset;
@@ -525,7 +514,6 @@
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
 
-
     .todasLinkContainer {
         width: 10vw;
     }
@@ -535,7 +523,4 @@
         width: 10vw;
         margin: auto;
     }
-
-
-
 }
