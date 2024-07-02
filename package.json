@@ -7,7 +7,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc && vite build",
     "lint": "ESLINT_USE_FLAT_CONFIG=false eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
