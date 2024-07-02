@@ -9,6 +9,7 @@ module.exports = {
     "prettier",
     "plugin:prettier/recommended"
   ],
+  parser: '@typescript-eslint/parser',
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
