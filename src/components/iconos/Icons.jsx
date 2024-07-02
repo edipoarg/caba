@@ -23,7 +23,11 @@ import { FaMapMarker } from "react-icons/fa";
 import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
 import { GoPersonFill } from "react-icons/go";
 import PropTypes from "prop-types";
-import { RiAlarmWarningLine, RiForbid2Line, RiSdCardLine } from "react-icons/ri";
+import {
+  RiAlarmWarningLine,
+  RiForbid2Line,
+  RiSdCardLine,
+} from "react-icons/ri";
 import { PiReadCvLogoBold } from "react-icons/pi";
 
 const iconComponents = {
