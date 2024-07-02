@@ -9,13 +9,15 @@ const Ahora = () => {
     info: "Es un reservorio digital de documentos fílmicos y fotográficos sobre hechos de represión ocurridos en el país. Busca detectar, reunir y resguardar de forma eficiente y segura todos los archivos para reconstruir los hechos de violencia en pos de la construcción de verdad y alcance de justicia.",
     informes: [
       {
-        title: "Reporte sobre el operativo policial del 24E",
-        subtitle: "Crónica de una victoria popular",
+        title: "REPORTE SOBRE EL OPERATIVO POLICIAL DEL 24 DE ENERO DE 2024",
+        subtitle:
+          "en el primer paro general y marcha del año convocado por la CGT: CRÓNICA DE UNA VICTORIA POPULAR",
         link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_997c8d0848e34476ad7040bb09b68998.pdf",
       },
       {
-        title: "Reporte sobre el Operativo Policial del 12J",
-        subtitle: "Crónica de una derrota popular",
+        title: "REPORTE SOBRE EL OPERATIVO POLICIAL DEL 12 DE JUNIO DE 2024",
+        subtitle:
+          "jornada de manifestación pacífica contra la aprobación de la Ley Bases: CRÓNICA DE UNA DERROTA POPULAR",
         link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_d2f36b64c1e14921bc308a87ec20d8bc.pdf",
       },
     ],

@@ -30,7 +30,7 @@
 }
 
 .informes {
-    height: 25vh;
+    height: 35vh;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     margin: 10px 0;
     color: black;
     background-color: yellowgreen;
-    height: 15vh;
+    height: 25vh;
     border-radius: 14px;
     padding: 2vh 4vw;
 }
