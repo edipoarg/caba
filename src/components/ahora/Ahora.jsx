@@ -17,7 +17,7 @@ const Ahora = () => {
       {
         title: "REPORTE SOBRE EL OPERATIVO POLICIAL DEL 12 DE JUNIO DE 2024",
         subtitle:
-          "jornada de manifestación pacífica contra la aprobación de la Ley Bases: CRÓNICA DE UNA DERROTA POPULAR",
+          "jornada de manifestación contra la aprobación de la Ley Bases y su brutal represión: CRÓNICA DE UNA DERROTA POPULAR",
         link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_d2f36b64c1e14921bc308a87ec20d8bc.pdf",
       },
     ],

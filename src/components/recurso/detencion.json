@@ -1,36 +1,49 @@
 {
-    "posts": [
-      {
-        "title": "¿QUÉ HACER ANTE UNA DETENCIÓN POLICIAL?",
-        "content": ["Estas recomendaciones son una adaptación del Manual del Pequeño Detenido (2019), elaborado por CORREPI (Coordinadora contra la Represión Policial e Institucional), que desde 1992 se organiza contraeste tipo de violencias en todo el país. Podes descargar el manual acá.", " ",
-        "Las detenciones pueden ser por averiguación de antecedentes o identificación, por una contravención o por un delito. Si te detienen es importante que alguien se presente para que sepan que no estás solx y para que esa persona, desde afuera, pueda exigir que se cumplan las medidas que corresponden. Si sos menor, tiene que ser una persona mayor de edad, preferentemente padre, madre o tutor. Lo primero que esa persona tiene que hacer es pedir que informen por qué te detienen. Que se establezca la causa de detención es clave para que se dé inicio a los siguientes trámites y se agilice la soltura."]
-      },
-      {
-        "title": "CONTACTARSE CON LA POLICÍA",
-        "content": "Podés consultar el teléfono y dirección de la Alcaldía o Comisaría en nuestro MAPA  DE LA POLICÍA DE LA CIUDAD",
-        "link": "https://www.mapadelapolicia.com"
-
-      },
-      {
-        "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
-        "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo."
-      },
-      {
-        "title": " ¿CÓMO APURAR LA CONSTANCIA DE DOMICILIO? ",
-        "content": "La constatación de domicilio pueden hacerla en forma “fehaciente”, es decir, enviando un móvil a tocar timbre en el domicilio que la persona detenida informó, o preguntando a vecinxs, telefónicamente al número que se les indique, o a través de la declaración de alguien que se acerque a la comisaría. Si conocemos qué domicilio va a informar la persona detenida tenemos que ofrecernos a que cumplan el trámite con nosotrxs. Si nos dicen que van a mandar un patrullero, nos tenemos que asegurar que haya alguien  en la casa que diga que la persona vive ahí, o al menos mandar alguien a la puerta que diga que es vecinx y le consta."
-      },
-      {
-        "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
-        "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo."
-      },
-      {
-        "title": "QUÉ HACER CUANDO SALIS EN LIBERTAD",
-        "content": "Al salir en libertad, andá a la guardia de un hospital público o a la salita del barrio si tenés lesiones, para que queden asentadas. Tratá de pedir una constancia de atención o de sacarle una foto al libro de guardia."
-      },
-      {
-        "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
-        "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo."
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "title": "¿QUÉ HACER ANTE UNA DETENCIÓN POLICIAL?",
+      "content": [
+        "Estas recomendaciones son una adaptación del Manual del Pequeño Detenido (2019), elaborado por CORREPI (Coordinadora contra la Represión Policial e Institucional), que desde 1992 se organiza contraeste tipo de violencias en todo el país. Podes descargar el manual acá.",
+        " ",
+        "Las detenciones pueden ser por averiguación de antecedentes o identificación, por una contravención o por un delito. Si te detienen es importante que alguien se presente para que sepan que no estás solx y para que esa persona, desde afuera, pueda exigir que se cumplan las medidas que corresponden. Si sos menor, tiene que ser una persona mayor de edad, preferentemente padre, madre o tutor. Lo primero que esa persona tiene que hacer es pedir que informen por qué te detienen. Que se establezca la causa de detención es clave para que se dé inicio a los siguientes trámites y se agilice la soltura."
+      ]
+    },
+    {
+      "title": "CONTACTARSE CON LA POLICÍA",
+      "content": "Podés consultar el teléfono y dirección de la Alcaldía o Comisaría en nuestro MAPA  DE LA POLICÍA DE LA CIUDAD",
+      "link": "https://www.mapadelapolicia.com"
+    },
+    {
+      "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
+      "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo.  ¿CÓMO APURAR LA CONSTANCIA DE DOMICILIO? La constatación de domicilio pueden hacerla en forma “fehaciente”, es decir, enviando un móvil a tocar timbre en el domicilio que la persona detenida informó, o preguntando a vecinxs, telefónicamente al número que se les indique, o a través de la declaración de alguien que se acerque a la comisaría. Si conocemos qué domicilio va a informar la persona detenida tenemos que ofrecernos a que cumplan el trámite con nosotrxs. Si nos dicen que van a mandar un patrullero, nos tenemos que asegurar que haya alguien  en la casa que diga que la persona vive ahí, o al menos mandar alguien a la puerta que diga que es vecinx y le consta."
+    },
+    {
+      "title": "QUÉ HACER CUANDO SALIS EN LIBERTAD",
+      "content": "Al salir en libertad, andá a la guardia de un hospital público o a la salita del barrio si tenés lesiones, para que queden asentadas. Tratá de pedir una constancia de atención o de sacarle una foto al libro de guardia."
+    },
+    {
+      "title": "PODÉS DENUNCIAR SI SUFRISTE VIOLENCIA",
+      "content": "Una vez en libertad, podés denunciar, directamente en la fiscalía o juzgado de turno  que corresponda según la jurisdicción, cualquier violación a las obligaciones que tiene la policía durante una detención,y cualquier tipo de maltrato que hayas sufrido.",
+      "link": "https://mapadelapolicia.com/#/recursos/institucionales"
+    },
+    {
+      "title": "SI TE LLEVAN POR AVERIGUACION DE ANTECEDENTES O PARA IDENTIFICAR",
+      "content": "Nadie tiene la obligación de llevar el DNI encima, pero cuando la policía sospeche que vos tenés algo que ver con algún delito puede pedirte el DNI. Este tipo de detención es limitado en el tiempo. En CABA, sólo pueden durar 10hs ¿QUÉ HACER SI PASARON LAS 10HS? Pasadas las 10 horas, la persona debe ser liberada, hayan llegado los antecedentes o no. Si no lo hacen, cualquiera (pariente o no, con o sin documento) puede interponer un habeas corpus ante el juzgado de turno de habeas corpus. Tené en cuenta que no deberían alojarte en las mismas celdas que detenidxs con causa.",
+      "link": "https://old.pjn.gov.ar/02_Central/Index100.Asp?Nodo=705&Rubro=815&TipInf=104"
+    },
+    {
+      "title": "SI TE ACUSAN DE UNA CONTROVENCIÓN O FALTA",
+      "content": "ORGANISMO JUDICIAL QUE INTERVIENE: Fiscalía Contravencional, Penal y de Faltas en la Ciudad de Buenos Aires (Fiscalía PCYF). Las contravenciones son conductas que, sin ser delitos, se castigan como si lo fueran,  con penas de multa y arresto. IMPORTANTE: Salvo para contravenciones de tránsito, una persona de menos de 18 años no puede ser detenida por falta o contravención en CABA (Código Contravencional, Ley 1.472). La persona puede ser aprehendida por la policía, que según el código debe consultar “sin demora” al fiscal, que puede ordenar la soltura, notificándole el día y hora en que debe comparecer para la intimación del hecho. Si la fiscalía no ordena liberar, la persona debe ser conducida ante el juez, que decide si la excarcela, o si en el curso de las 48 horas siguientes realiza la audiencia de juicio y dicta sentencia. En la práctica, vemos que lo que sucede es que las fiscalías ordenan trasladar a la persona detenida al día siguiente para la audiencia de intimación del hecho (que es parecida a una indagatoria, te dicen de qué te acusan y con qué pruebas, y podés declarar o no hacerlo, previa entrevista con la defensa oficial o particular), y luego se ordena la soltura. Como primer paso, la policía tiene que tramitar la “planilla de impedimientos” (los antecedentes); constatar el domicilio y hacernos ver por un médico.Una vez resuelto el primer paso, la policía debe consultar nuevamente a la fiscalía. Si se demora la soltura hay que ir a la fiscalía interviniente y a la defensoría oficial. Una vez en libertad, es necesario concurrir a la fiscalía y estar en contacto con la defensoría, salvo que se opte por una defensa particular, para evitar la condena.",
+      "link": "https://mpfciudad.gob.ar/turnos/turnos-pcyf",
+      "Teléfono": "0800-DEFENDER (33-336-337)"
+    },
+    {
+      "title": "SI TE ACUSAN DE UN DELITO",
+      "content": "ORGANISMO JUDICIAL QUE INTERVIENE: En estos casos, hay inmediata intervención judicial, con un fiscal (en prácticamente todas las provincias) o un juez (en el caso de delitos federales o de intervención de la justicia nacional de CABA) que empiezan a tomar decisiones y comunicarlas a la policía. Aunque hayan ordenado tu incomunicación (la policía no puede incomunicarte sin orden judicial), igual tienen obligación de informar a quien se acerque a la comisaría qué delito te imputan; a disposición de qué juez o fiscal estás y qué instrucciones dieron  el juzgado o la fiscalía a la comisaría. En general, la primera instrucción es verificar el domicilio, chequear antecedentes y hacer la vista médica. Con eso cumplido, la policía hace una nueva consulta en la que el juez o fiscal informan si ordenan la soltura o si te llevan al día siguiente para prestar declaración indagatoria. LA DEFENSA: En cualquier caso de detención porque te acusan de haber cometido un delito, necesitás unx abogadx, que puede ser el defensor oficial o unx abogadx particular que proponga tu red.  Si el juez ordena el traslado para indagarte,de inmediato tu familia o amigos tienen que ir al juzgado y averiguar qué defensor oficial está de turno e ir a verlo antes de la audiencia (para que no se olvide de estar presente). QUÉ HACER CUANDO TE LIBERAN: Si te liberan sin llevarte a tribunales para que declares, no te olvides del asunto. Ni bien puedas acercate al juzgado o fiscalía, averiguá quién es tu defensor oficial y andá a verlo. A veces pasa que mucho tiempo después (meses y hasta años) te enterás de la peor manera que te procesaron, o peor, que te llevan a juicio. Y si no estás en contacto con el tribunal o te mudaste, te pueden librar una captura. SI QUEDAS DETENIDE: Si la persona queda detenida, alguien de tu confianza tiene que presentarse en el despacho del defensor oficial para darle todos los elementos que sirvan para la defensa y tratar que pida la excarcelación. Suele ser difícil que nos atiendan de entrada, por eso hay que ir temprano e insistir. "
+    },
+    {
+      "title": "SI SOS MENOR DE EDAD",
+      "content": "ORGANISMO JUDICIAL QUE INTERVIENE: Juzgado de menores. Las personas de menos de 18 años pueden ser detenidas si están cometiendo un delito o por orden judicial, pero no deberían serlo por “averiguación de identidad” o “para identificar”, excepto en los distritos donde se permiten esas detenciones desde los 16. Tampoco pueden detenerte por una contravención, salvo las de tránsito y si sos mayor de 16. Claro que igual pasa en todos lados, con el argumento de que parecías mayor o no dijiste tu edad. Así que, para la denuncia posterior, registra en tu cabeza todo lo que pasa y tené en cuenta que: No te deberían esposar, ni llevar en un auto que no se identifique como policial. Tampoco te deberían encerrar en un calabozo, ni tenerte junto a mayores de edad, ni quitarte los cordones y/o cinturón, ni hacerte “tocar el pianito”, ni incomunicarte. Lo primero que tiene que hacer el policía que te detuvo al entrar a la comisaría es avisar al Juez de Menores de turno. Preguntá si le dieron intervención. Por una parte, es la mejor manera de asegurarte que lo hagan para “blanquear” tu detención, y por otra, demuestra que sabés cosas que normalmente los pibes no conocen, con lo que se van a cuidar un poco más de prepotearte, por si sos “el hijo de alguien…”. Tenés derecho a llamar de inmediato por teléfono a una persona de confianza. El único que puede revisarte es un médico. Aunque tenga guardapolvo, pedile  que te muestre su matrícula (es como un carnet). Nadie más tiene derecho a hacerte quitar la ropa. NUNCA MIENTAS SOBRE TU EDAD: Si te haces pasar por mayor de edad o no das el domicilio para que tu familia no se entere de la detención empeora el panorama ya que dar datos falsos constituye un delito y, al no presentarse tus responsables legales, una vez que con las huellas salte tu edad te mandan a un Instituto. UN ADULTO RESPONSABLE TE TIENE QUE IR A BUSCAR: ​Una persona mayor de edad responsable, preferentemente madre, padre, tutor tiene que ir de inmediato a la comisaría, porque el Juez de Menores sólo ordena la “entrega” del menor a los padres u otro adulto de confianza, que pueda probar el vínculo. Si no hay un mayor responsable puede decidir que estás “en situación de abandono o desamparo” y mandarte a un instituto de menores, donde con seguridad vas a estar abandonado y desamparado. Generalmente el juez ordena la entrega a responsables legales, previo constatar domicilio y visita del médicx."
+    }
+  ]
+}
