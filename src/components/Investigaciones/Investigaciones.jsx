@@ -93,6 +93,11 @@ const Investigaciones = () => {
                 className={styles.podcastContainer}
               >
                 <section style={Temas.investTema} className={styles.podcast}>
+                  <Icons
+                    icon={"podcast"}
+                    className={styles.podcastIcon}
+                    iconSize="2rem"
+                  />
                   <h2 className={styles.tituloPodcast}>Podcast</h2>
                   <div className={styles.bajadaPodcast}>
                     <h5 className={styles.play}>ir</h5>
