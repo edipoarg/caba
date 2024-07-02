@@ -8,10 +8,15 @@
 }
 
 .header {
-    height: 15vh;
+    height: 28vh;
     justify-content: left;
     align-items: center;
     background-color: greenyellow;
+    padding: 4vh 10vw ;
+}
+
+.headerIcon{
+    color: black;
 }
 
 .title {
@@ -20,10 +25,12 @@
 
 .bajada {
     margin: 0;
+    padding: 2vh 0vw;
 }
 
 .info {
     margin: 0;
+    text-align: justify;
 }
 
 .informes {
@@ -47,10 +54,13 @@
 
 }
 
-.informeTitle{margin: 0}
+.informeTitle{margin: 0;
+font-size: 1rem;}
 
 .informeSub{
     margin: 0;
+    padding-bottom: 3vh;
+    font-size: 0.8rem;
 }
 
 .timeline {
@@ -59,12 +69,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+padding-bottom: 10vh;
 }
 
 .link{
     padding: 1vh 5vw;
-    border: solid 1px;
     border-radius: 14px;
+    background-color: black;
+    color: aliceblue;
+}
+.link:hover{
+        border: solid 1px;
+        border-radius: 14px;
+        background-color: yellowgreen;
+        color: black;
+        border: solid 1px black;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -81,12 +100,12 @@
     }
 
     .header {
-        height: 20vh;
+        height: 25vh;
         padding: 7vh 4vw;
     }
 
     .informes {
-        height: 66vh;
+        height: 61vh;
         grid-template-columns: 1fr;
         gap: 1vh;
         padding: 0vh 5vw;
@@ -96,5 +115,10 @@
     .timeline {
         grid-column: 2;
         height: 100vh;
+        padding-bottom: 0;
+    }
+
+    .link{
+        padding: 1vh 3vw;
     }
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Ahora.module.css";
 import Icons from "../iconos/Icons";
@@ -7,12 +6,12 @@ const Ahora = () => {
   const data = {
     title: "A.H.O.R.A.",
     bajada: "Archivo Histórico Orgánico de la Represión Argentina",
-    info: "pegar aqui trexto de info larga lorem ipsum 25",
+    info: "Es un reservorio digital de documentos fílmicos y fotográficos sobre hechos de represión ocurridos en el país. Busca detectar, reunir y resguardar de forma eficiente y segura todos los archivos para reconstruir los hechos de violencia en pos de la construcción de verdad y alcance de justicia.",
     informes: [
       {
-        title: "Reporte sobre 9M",
+        title: "Reporte sobre el operativo policial del 24E",
         subtitle: "Crónica de una victoria popular",
-        link: "https://www.google.com",
+        link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_997c8d0848e34476ad7040bb09b68998.pdf",
       },
       {
         title: "Reporte sobre el Operativo Policial del 12J",
@@ -26,7 +25,7 @@ const Ahora = () => {
     <section className={styles.ahora}>
       <section className={styles.column}>
         <section className={styles.header}>
-          <Icons icon={"AHORA"} className={styles.headerIcon} iconSize="4rem" />
+          <Icons icon={"AHORA"} className={styles.headerIcon} iconSize="3rem" />
           <h2 className={styles.title}>{data.title}</h2>
           <h4 className={styles.bajada}>{data.bajada}</h4>
           <h5 className={styles.info}>{data.info}</h5>
