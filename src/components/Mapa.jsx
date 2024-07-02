@@ -4,6 +4,7 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
 import LogoMapa from "./LogoMapa";
+// eslint-disable-next-line no-redeclare
 import Screen from "./Screen";
 import styles from "../styles/Mapa.module.css";
 

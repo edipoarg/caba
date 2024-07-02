@@ -1,17 +1,30 @@
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 
 // Función para recortar texto si supera el límite de caracteres
-const truncateText = (text, maxLength) => {
-  // Asegúrate de que el texto no sea null ni undefined
-  const safeText = text ?? ""; // Usa una cadena vacía si text es null o undefined
-  if (safeText.length > maxLength) {
-    return safeText.substring(0, maxLength) + "...";
+const truncateText = (text: string | null, maxLength: number): string => {
+  if (text === null) return "";
+  if (text.length > maxLength) {
+    return text.substring(0, maxLength) + "...";
   }
-  return safeText;
+  return text;
 };
 
+type Props = {
+  title: string | null;
+  level: string | null;
+  address: string | null;
+  phone: string | null;
+  age: string | null;
+  date: string | null;
+  circs: string | null;
+  caseId: string | null;
+  autority: string | null;
+  grade: string | null;
+};
+
+// Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
+// eslint-disable-next-line no-redeclare
 const Screen = ({
   title,
   level,
@@ -23,7 +36,7 @@ const Screen = ({
   caseId,
   autority,
   grade,
-}) => {
+}: Props) => {
   return (
     <section className={styles.Screen}>
       <section className={styles.ComisariaScreen}>
@@ -35,8 +48,6 @@ const Screen = ({
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
           <h4 className={styles.circs}>{truncateText(circs, 95)}</h4>
-
-          {/* Renderizar solo si 'caseId' tiene datos */}
           {caseId && (
             <Link to={`/ficha/${caseId}`}>
               <h3 className={styles.moreButton}>Ver +</h3>
@@ -44,8 +55,6 @@ const Screen = ({
           )}
         </section>
       </section>
-
-      {/* Renderizar solo si 'grade' y 'autority' tienen datos */}
       {(grade || autority) && (
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
@@ -56,19 +65,6 @@ const Screen = ({
       )}
     </section>
   );
-};
-
-Screen.propTypes = {
-  title: PropTypes.string,
-  level: PropTypes.string,
-  address: PropTypes.string,
-  date: PropTypes.string,
-  phone: PropTypes.string,
-  age: PropTypes.string,
-  circs: PropTypes.string,
-  caseId: PropTypes.string,
-  autority: PropTypes.string,
-  grade: PropTypes.string,
 };
 
 export default Screen;
