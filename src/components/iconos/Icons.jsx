@@ -23,7 +23,7 @@ import { FaMapMarker } from "react-icons/fa";
 import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
 import { GoPersonFill } from "react-icons/go";
 import PropTypes from "prop-types";
-import { RiAlarmWarningLine, RiForbid2Line } from "react-icons/ri";
+import { RiAlarmWarningLine, RiForbid2Line, RiSdCardLine } from "react-icons/ri";
 import { PiReadCvLogoBold } from "react-icons/pi";
 
 const iconComponents = {
@@ -37,6 +37,7 @@ const iconComponents = {
   contacto: <SiMaildotru />,
   gatillo: <GiGunshot />,
   menu: <IoAppsOutline />,
+  AHORA: <RiSdCardLine />,
 
   /*denuncias*/
   indiv: <GoPersonFill />,

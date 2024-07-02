@@ -1,16 +1,35 @@
 {
     "posts": [
       {
-        "title": "",
-        "content": ""
+        "title": "¿QUÉ HACER ANTE UNA DETENCIÓN POLICIAL?",
+        "content": ["Estas recomendaciones son una adaptación del Manual del Pequeño Detenido (2019), elaborado por CORREPI (Coordinadora contra la Represión Policial e Institucional), que desde 1992 se organiza contraeste tipo de violencias en todo el país. Podes descargar el manual acá.", " ",
+        "Las detenciones pueden ser por averiguación de antecedentes o identificación, por una contravención o por un delito. Si te detienen es importante que alguien se presente para que sepan que no estás solx y para que esa persona, desde afuera, pueda exigir que se cumplan las medidas que corresponden. Si sos menor, tiene que ser una persona mayor de edad, preferentemente padre, madre o tutor. Lo primero que esa persona tiene que hacer es pedir que informen por qué te detienen. Que se establezca la causa de detención es clave para que se dé inicio a los siguientes trámites y se agilice la soltura."]
       },
       {
-        "title": "",
-        "content": ""
+        "title": "CONTACTARSE CON LA POLICÍA",
+        "content": "Podés consultar el teléfono y dirección de la Alcaldía o Comisaría en nuestro MAPA  DE LA POLICÍA DE LA CIUDAD",
+        "link": "https://www.mapadelapolicia.com"
+
       },
       {
-        "title": "",
-        "content": ""
+        "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
+        "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo."
+      },
+      {
+        "title": " ¿CÓMO APURAR LA CONSTANCIA DE DOMICILIO? ",
+        "content": "La constatación de domicilio pueden hacerla en forma “fehaciente”, es decir, enviando un móvil a tocar timbre en el domicilio que la persona detenida informó, o preguntando a vecinxs, telefónicamente al número que se les indique, o a través de la declaración de alguien que se acerque a la comisaría. Si conocemos qué domicilio va a informar la persona detenida tenemos que ofrecernos a que cumplan el trámite con nosotrxs. Si nos dicen que van a mandar un patrullero, nos tenemos que asegurar que haya alguien  en la casa que diga que la persona vive ahí, o al menos mandar alguien a la puerta que diga que es vecinx y le consta."
+      },
+      {
+        "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
+        "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo."
+      },
+      {
+        "title": "QUÉ HACER CUANDO SALIS EN LIBERTAD",
+        "content": "Al salir en libertad, andá a la guardia de un hospital público o a la salita del barrio si tenés lesiones, para que queden asentadas. Tratá de pedir una constancia de atención o de sacarle una foto al libro de guardia."
+      },
+      {
+        "title": "LOS ANTECEDENTES, LA REVISIÓN MÉDICA Y EL DOMICILIO",
+        "content": "Que llegue la planilla de antecedentes y venga el médicx -o lleven a la persona detenida al hospital- es clave para acelerar la salida del detenidx, y por eso mismo la policía se demora en hacerlo."
       }
     ]
   }

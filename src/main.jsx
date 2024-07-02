@@ -22,6 +22,7 @@ import Root from "./routes/Root.jsx";
 import Ficha from "./components/fichas/Ficha";
 import Organizate from "./components/recurso/Organizate.jsx";
 import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
+import Ahora from "./components/ahora/Ahora.jsx";
 
 const loader = async () => ({
   urls: await getURLs({
@@ -61,6 +62,7 @@ const router = createHashRouter([
       { path: "/investigacion/:dominio", element: <Investigacion /> },
       { path: "/lista", element: <TodasInvestigaciones /> },
       { path: "/ficha/:Contador", element: <Ficha /> },
+      { path: "/ahora", element: <Ahora /> },
     ],
   },
 ]);
