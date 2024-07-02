@@ -1,65 +1,51 @@
-import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Ficha.module.css";
+import dependenciasCaba from "../../data/dependenciasCaba.json";
+import gatilloCaba from "../../data/gatilloCaba.json";
+import reportesCaba from "../../data/reportesCaba.json";
+
+// Determinar el tipo de caso según el primer carácter del Contador
+const getTipoDeCasoByContadorParam = (contador) => {
+  if (contador[0] === "d") {
+    return "dependencias";
+  } else if (contador[0] === "g") {
+    return "gatillo";
+  } else if (contador[0] === "r") {
+    return "reportes";
+  } else {
+    return "no encontrado";
+  }
+};
+
+const titleByTipoCaso = {
+  gatillo: "Caso de gatillo fácil",
+  dependencias: "dependencia policial",
+  reportes: "Reporte de violencia policial",
+};
+
+const dataByTipoCaso = {
+  gatillo: gatilloCaba,
+  dependencias: dependenciasCaba,
+  reportes: reportesCaba,
+};
 
 const Ficha = () => {
-  const { Contador } = useParams();
-  const [caso, setCaso] = useState(null);
-  let tipoCaso;
-
-  // Determinar el tipo de caso según el primer carácter del Contador
-  if (Contador[0] === "d") {
-    tipoCaso = "dependencias";
-  } else if (Contador[0] === "g") {
-    tipoCaso = "gatillo";
-  } else if (Contador[0] === "r") {
-    tipoCaso = "reportes";
-  } else {
-    tipoCaso = "no encontrado";
-  }
-
-  useEffect(() => {
-    const fetchCaso = async () => {
-      try {
-        // Obtener los datos del archivo JSON correspondiente al tipo de caso
-        const response = await fetch(`data/${tipoCaso}Caba.json`);
-        const data = await response.json();
-
-        // Encontrar el caso por Contador
-        const casoEncontrado = data.features.find(
-          (c) => c.properties.Contador === Contador,
-        );
-        if (casoEncontrado) {
-          setCaso(casoEncontrado);
-        } else {
-          console.log("Caso no encontrado");
-        }
-      } catch (error) {
-        console.error("Error al cargar los datos del caso:", error);
-      }
-    };
-
-    fetchCaso();
-  }, [Contador, tipoCaso]);
-
-  if (!caso) {
-    return <div>Cargando...</div>;
-  }
-
+  const { Contador: contador } = useParams();
+  const tipoCaso = getTipoDeCasoByContadorParam(contador);
+  if (tipoCaso === "no encontrado") return <div>Tipo de caso inválido.</div>;
+  const dataDelTipoDelCaso = dataByTipoCaso[tipoCaso];
+  const caso = dataDelTipoDelCaso.features.find(
+    // FIXME Esto no está claro!
+    (c) => c.properties.Contador === contador,
+  );
+  if (!caso) return <div>Caso no encontrado.</div>;
   const { properties } = caso;
-
   return (
     <>
       <section className={styles.ficha}>
         <div className={styles.data}>
           <h2 className={styles.title}>
-            {tipoCaso === "gatillo"
-              ? "Caso de gatillo fácil"
-              : tipoCaso === "dependencias"
-                ? "dependencia policial"
-                : tipoCaso === "reportes"
-                  ? "Reporte de violencia policial"
-                  : "Tipo Desconocido"}
+            {titleByTipoCaso(tipoCaso) ?? "Tipo Desconocido"}
           </h2>
           <ul>
             {properties.Dependencia && (
