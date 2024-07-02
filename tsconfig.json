@@ -28,5 +28,5 @@
     // https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
     "noUncheckedIndexedAccess": true
   },
-  "include": ["src", "services"]
+  "include": ["src", "services", "css.d.ts"]
 }
