@@ -39,12 +39,12 @@ const Investigacion = () => {
   return (
     <>
       <section className={styles.investigacionContainer}>
-        <img
-          src={investigacion.imagen}
-          alt={`Foto de la investigación: ${investigacion.titulo}`}
-          className={styles.fotoInvestigacion}
-        />
         <section className={styles.header}>
+          <img
+            src={investigacion.imagen}
+            alt={`Foto de la investigación: ${investigacion.titulo}`}
+            className={styles.fotoInvestigacion}
+          />
           <section className={styles.basicInfo}>
             <div className={styles.autorxsContainer}></div>
             <h1 className={styles.title}>{investigacion.titulo}</h1>
@@ -55,10 +55,10 @@ const Investigacion = () => {
               </section>
               <h4 className={styles.date}>{investigacion.fecha}</h4>
             </section>
+            <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
           </section>
         </section>
         <section className={styles.textContainer}>
-          <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
           <Nota14></Nota14>
         </section>
       </section>

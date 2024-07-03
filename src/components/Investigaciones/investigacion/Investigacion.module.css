@@ -4,8 +4,9 @@
 }
 
 .fotoInvestigacion {
-    width: 96vw;
-    border-radius: 12px;
+    width: 90vw;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .header {
@@ -42,8 +43,12 @@
     margin-top: 1vh;
 }
 
+.date {
+    margin-right: 5vw;
+}
+
 .lead {
-    padding: 4vh 8vw;
+    padding: 4vh 5%;
     font-size: 1rem;
     text-align: justify;
 }
@@ -54,7 +59,7 @@
     padding-top: 3vh;
     padding-bottom: 1vh;
     justify-self: left;
-    padding-left: 2vw;
+    padding-left: 4vw;
     gap: 1vw;
 }
 
@@ -94,7 +99,7 @@
 
     .fotoInvestigacion {
         height: 65vh;
-        width: 88vw;
+        width: 80vw;
         object-fit: cover;
         object-position: center;
     }
@@ -108,8 +113,6 @@
     }
 
     .header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         width: 80vw;
     }
 
