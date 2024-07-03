@@ -46,17 +46,11 @@ const Ahora = () => {
       </section>
       <section className={styles.timeline}>
         <iframe
-          title="timeline1"
-          src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ujC1unW4bq-RwrPKS3Mh5E-BhR__ardLEj3TrBXWfSs&font=Fjalla-Average&lang=es&timenav_position=top&initial_zoom=1&height=600"
-          width="100%"
-          height="500"
-          frameBorder="0"
-        ></iframe>
-        <iframe
+          className={styles.iframe}
           title="timeline2"
           src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1CyVCS6vcIyl28B5ZU96CsE3ktTSOkOeG4aQ-8rm2nwo&font=Default&lang=en&initial_zoom=2&height=650"
           width="100%"
-          height="500"
+          height="100%"
           frameBorder="0"
         ></iframe>
       </section>

@@ -39,12 +39,12 @@ const Investigacion = () => {
   return (
     <>
       <section className={styles.investigacionContainer}>
+        <img
+          src={investigacion.imagen}
+          alt={`Foto de la investigación: ${investigacion.titulo}`}
+          className={styles.fotoInvestigacion}
+        />
         <section className={styles.header}>
-          <img
-            src={investigacion.imagen}
-            alt={`Foto de la investigación: ${investigacion.titulo}`}
-            className={styles.fotoInvestigacion}
-          />
           <section className={styles.basicInfo}>
             <div className={styles.autorxsContainer}></div>
             <h1 className={styles.title}>{investigacion.titulo}</h1>

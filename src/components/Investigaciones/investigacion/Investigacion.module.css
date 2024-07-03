@@ -4,10 +4,8 @@ height: 100vh;
 }
 
 .fotoInvestigacion{
-width: 90vw;
-border-top-right-radius: 12px;
-border-top-left-radius: 12px;
-
+width: 96vw;
+border-radius: 12px;
 }
 
 
@@ -95,7 +93,7 @@ font-size: 1.5rem;}
         width: 100vw;
     }
     .fotoInvestigacion{
-        width: 40vw;
+      
         }
 
         .investigacionContainer{

@@ -1,5 +1,4 @@
 .ahora {
-    height: 100vh;
     width: 100vw;
 }
 
@@ -18,6 +17,8 @@
 .title {
     margin: 0;
 }
+
+.iframe{height: 90vh;}
 
 .bajada {
     margin: 0;
@@ -44,7 +45,6 @@
     margin: 10px 0;
     color: black;
     background-color: yellowgreen;
-    height: 25vh;
     border-radius: 14px;
     padding: 2vh 4vw;
 }
@@ -74,6 +74,7 @@
     border-radius: 14px;
     background-color: black;
     color: aliceblue;
+    margin-bottom: 1vh;
 }
 
 .link:hover {
@@ -115,6 +116,10 @@
         height: 100vh;
         padding-bottom: 0;
     }
+
+    .iframe{height: 90vh;
+    padding-top: 10vh;}
+
 
     .link {
         padding: 1vh 3vw;
