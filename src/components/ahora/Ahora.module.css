@@ -18,7 +18,9 @@
     margin: 0;
 }
 
-.iframe{height: 90vh;}
+.iframe {
+    height: 90vh;
+}
 
 .bajada {
     margin: 0;
@@ -117,9 +119,10 @@
         padding-bottom: 0;
     }
 
-    .iframe{height: 90vh;
-    padding-top: 10vh;}
-
+    .iframe {
+        height: 90vh;
+        padding-top: 10vh;
+    }
 
     .link {
         padding: 1vh 3vw;

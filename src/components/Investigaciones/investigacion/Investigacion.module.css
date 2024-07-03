@@ -1,50 +1,54 @@
-.investigacionContainer{
-background-color: #e6e6e6;
-height: 100vh;
+.investigacionContainer {
+    background-color: #e6e6e6;
+    height: 100vh;
 }
 
-.fotoInvestigacion{
-width: 96vw;
-border-radius: 12px;
+.fotoInvestigacion {
+    width: 96vw;
+    border-radius: 12px;
 }
 
-
-.header{
+.header {
     background-color: #231c26;
     width: 90vw;
     margin: auto;
     border-radius: 14px;
     border-top-right-radius: 12px;
-     border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
-.basicInfo{
+.basicInfo {
     color: white;
     padding: 1vh 2vw;
 }
 
-.title{padding: 1vh 03vw;
-font-size: 1.5rem;}
+.title {
+    padding: 1vh 03vw;
+    font-size: 1.5rem;
+}
 
-.title, .autor, .date, .lead, .text{
+.title,
+.autor,
+.date,
+.lead,
+.text {
     margin: 0
 }
 
-.textContainer{
+.textContainer {
     background-color: white;
     border-radius: 14px;
     margin: auto;
     margin-top: 1vh;
 }
 
-.lead{
+.lead {
     padding: 4vh 8vw;
     font-size: 1rem;
     text-align: justify;
-
 }
 
-.autorxs{
+.autorxs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 3vh;
@@ -54,20 +58,19 @@ font-size: 1.5rem;}
     gap: 1vw;
 }
 
-.more{
+.more {
     display: grid;
     grid-template-columns: 3fr 1fr;
-
 }
 
-.date{
+.date {
     justify-self: right;
     padding-right: 2vw;
-    padding-top: 4vh;    
+    padding-top: 4vh;
     font-size: 0.8rem;
 }
 
-.autor{
+.autor {
     justify-self: center;
     justify-items: center;
     align-items: center;
@@ -80,60 +83,58 @@ font-size: 1.5rem;}
     font-size: 0.7rem;
 }
 
-
-.notaCompleta{
+.notaCompleta {
     background-color: white;
 }
 
-
 @media (min-width: 768px) {
-
-
-    body{
+    body {
         width: 100vw;
     }
-    .fotoInvestigacion{
-      
-        }
 
-        .investigacionContainer{
-            background-color: #e6e6e6;
-            height: auto;
-            margin-left: 10vw;
-            padding-top: 2vh;
-            padding-bottom: 5vh;
+    .fotoInvestigacion {
+        height: 65vh;
+        width: 88vw;
+        object-fit: cover;
+        object-position: center;
+    }
 
-            }
-            .header{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                width: 80vw;
-            }
-            
-            .notaCompleta{
-                background-color: white;
-                width: 70vw;
-            }
+    .investigacionContainer {
+        background-color: #e6e6e6;
+        height: auto;
+        margin-left: 10vw;
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+    }
 
-            .textContainer{
-                background-color: white;
-                border-radius: 14px;
-                margin: auto;
-                margin-top: 1vh;
-                width: 80vw;
-                padding-bottom: 10vh;
-            }
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80vw;
+    }
 
-            .title{
-                padding-top: 10vh;
-                padding-bottom: 5vh;
-                font-size: 3rem;
-                color: #2a8842;
+    .notaCompleta {
+        background-color: white;
+        width: 70vw;
+    }
 
-            }
-            
-            .lead{
-                font-size: 1.5rem;
-            }
-            
+    .textContainer {
+        background-color: white;
+        border-radius: 14px;
+        margin: auto;
+        margin-top: 1vh;
+        width: 80vw;
+        padding-bottom: 10vh;
+    }
+
+    .title {
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        font-size: 3rem;
+        color: #2a8842;
+    }
+
+    .lead {
+        font-size: 1.5rem;
+    }
 }
