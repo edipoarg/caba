@@ -1,3 +1,9 @@
+import {
+  Caso,
+  casoIsCasoDependencia,
+  casoIsCasoGatillo,
+  casoIsCasoReportes,
+} from "../models/models";
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
 
@@ -10,33 +16,71 @@ const truncateText = (text: string | null, maxLength: number): string => {
   return text;
 };
 
-type Props = {
-  title: string | null;
-  level: string | null;
-  address: string | null;
-  phone: string | null;
-  age: string | null;
-  date: string | null;
-  circs: string | null;
-  caseId: string | null;
-  autority: string | null;
-  grade: string | null;
+type Props = { caso: Caso | null };
+
+type ScreenData = {
+  title: string;
+  date?: string;
+  address?: string;
+  phone?: string;
+  age?: string;
+  circs?: string;
+  caseId?: string;
+  grade?: string;
+  authority?: string;
+  level?: string;
+};
+
+const getScreenDataForCase = (caso: Caso | null): ScreenData => {
+  const title = caso?.properties.Nombre ?? "Elegí una dependencia o un caso";
+  if (caso !== null) {
+    if (casoIsCasoDependencia(caso)) {
+      return {
+        title,
+        caseId: caso.properties.Contador,
+        level: caso.properties.Dependencia,
+        address: caso.properties.Dirección,
+        phone: caso.properties.Teléfono,
+      };
+    } else if (casoIsCasoGatillo(caso)) {
+      return {
+        title,
+        date: caso.properties.Fecha,
+        caseId: caso.properties.Contador,
+        circs: caso.properties.cronica,
+        authority: caso.properties.policia_involucrado,
+      };
+    } else if (casoIsCasoReportes(caso)) {
+      return {
+        title,
+        date: caso.properties.Fecha,
+        circs: caso.properties.cronica,
+        caseId: caso.properties.Contador,
+        authority: caso.properties.policia_involucrado,
+      };
+    }
+  }
+  return {
+    title,
+  };
 };
 
 // Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
 // eslint-disable-next-line no-redeclare
-const Screen = ({
-  title,
-  level,
-  address,
-  phone,
-  age,
-  date,
-  circs,
-  caseId,
-  autority,
-  grade,
-}: Props) => {
+const Screen = ({ caso }: Props) => {
+  const {
+    title,
+    date,
+    address,
+    phone,
+    age,
+    circs,
+    caseId,
+    grade,
+    authority,
+    level,
+  } = getScreenDataForCase(caso);
+
   return (
     <section className={styles.Screen}>
       <section className={styles.ComisariaScreen}>
@@ -47,7 +91,7 @@ const Screen = ({
           <h4 className={styles.address}>{address}</h4>
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
-          <h4 className={styles.circs}>{truncateText(circs, 95)}</h4>
+          <h4 className={styles.circs}>{truncateText(circs ?? null, 95)}</h4>
           {caseId && (
             <Link to={`/ficha/${caseId}`}>
               <h3 className={styles.moreButton}>Ver +</h3>
@@ -55,11 +99,11 @@ const Screen = ({
           )}
         </section>
       </section>
-      {(grade || autority) && (
+      {(grade || authority) && (
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
-          {autority && (
-            <h2 className={styles.autority}> {truncateText(autority, 35)} </h2>
+          {authority && (
+            <h2 className={styles.authority}>{truncateText(authority, 35)}</h2>
           )}
         </section>
       )}

@@ -4,7 +4,7 @@ import gatilloCaba from "../../data/gatilloCaba.json";
 import reportesCaba from "../../data/reportesCaba.json";
 import styles from "./Ficha.module.css";
 import {
-  DataDeCaso,
+  DataDeCasos,
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
@@ -31,7 +31,7 @@ const titleByTipoCaso: Record<TipoDeCaso, string> = {
   reportes: "Reporte de violencia policial",
 };
 
-const dataByTipoCaso: Record<TipoDeCaso, DataDeCaso> = {
+const dataByTipoCaso: Record<TipoDeCaso, DataDeCasos> = {
   gatillo: gatilloCaba,
   dependencias: dependenciasCaba,
   reportes: reportesCaba,
