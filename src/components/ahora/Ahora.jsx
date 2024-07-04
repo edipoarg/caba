@@ -6,18 +6,18 @@ const Ahora = () => {
   const data = {
     title: "A.H.O.R.A.",
     bajada: "Archivo Histórico Orgánico de la Represión Argentina",
-    info: "Es un reservorio digital de documentos fílmicos y fotográficos sobre hechos de represión ocurridos en el país. Busca detectar, reunir y resguardar de forma eficiente y segura todos los archivos para reconstruir los hechos de violencia en pos de la construcción de verdad y alcance de justicia.",
+    info: "Es un reservorio digital de documentos fílmicos y fotográficos sobre hechos de represión ocurridos en el país. Nos proponemos almacenar y resguardar de forma eficiente y segura las imágenes recolectadas, para reconstruir a través del análisis colectivo la violencia estatal, con la intención de aportar a la producción de verdad histórica y la búsqueda de justicia.",
     informes: [
       {
         title: "REPORTE SOBRE EL OPERATIVO POLICIAL DEL 24 DE ENERO DE 2024",
         subtitle:
-          "en el primer paro general y marcha del año convocado por la CGT: CRÓNICA DE UNA VICTORIA POPULAR",
+          "CRÓNICA DE UNA VICTORIA POPULAR. Paro general y movilización convocada por la CGT.",
         link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_997c8d0848e34476ad7040bb09b68998.pdf",
       },
       {
         title: "REPORTE SOBRE EL OPERATIVO POLICIAL DEL 12 DE JUNIO DE 2024",
         subtitle:
-          "jornada de manifestación contra la aprobación de la Ley Bases y su brutal represión: CRÓNICA DE UNA DERROTA POPULAR",
+          "CRÓNICA DE UNA DERROTA POPULAR. Manifestación en contra de la Ley Bases.",
         link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_d2f36b64c1e14921bc308a87ec20d8bc.pdf",
       },
     ],
