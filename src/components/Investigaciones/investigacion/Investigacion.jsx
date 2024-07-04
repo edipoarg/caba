@@ -55,10 +55,10 @@ const Investigacion = () => {
               </section>
               <h4 className={styles.date}>{investigacion.fecha}</h4>
             </section>
+            <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
           </section>
         </section>
         <section className={styles.textContainer}>
-          <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
           <Nota14></Nota14>
         </section>
       </section>

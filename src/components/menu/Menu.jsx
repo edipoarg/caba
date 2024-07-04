@@ -9,7 +9,7 @@ const menuItems = [
   { path: "/investigaciones", icon: "investigaciones" },
   { path: "/reportes", icon: "reportes" },
   { path: "/gatillo-facil", icon: "gatillo" },
-  { path: "/jefatura", icon: "jefatura" },
+  { path: "/ahora", icon: "AHORA" },
   {
     path: "https://open.spotify.com/show/1fhXtCulH39aZgv9P7WH7k",
     icon: "podcast",

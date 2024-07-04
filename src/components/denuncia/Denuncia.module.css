@@ -21,7 +21,7 @@ input{
     border-radius: 28px;
     padding: 5px 5px 5px 15px;
     box-shadow: 3px 2px 5px #b6bac3, -3px -3px 5px #ffffff;
-
+    margin: 0vh 0.5vw;
 }
 
 @media (min-width: 768px) {

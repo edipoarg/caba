@@ -103,13 +103,15 @@ const Nota14 = () => {
           sexuales, que en CABA se mueven entre Constitución, Once y Palermo
           conocen bien de qué se trata.{" "}
         </p>
-        <h6>
+        <h6 className={styles.span}>
           En Argentina, de principios de los 2000 hasta la actualidad, la tasa
           de personas alojadas en cárceles por infracción a la Ley de Drogas
           creció un 252%. Y si miramos sólo a la población trans, vemos que
           entre 2015 y 2017 su presencia en las prisiones se multiplicó.
         </h6>
-        <h3>“y yo no veo que eso le hagan a otra gente”</h3>
+        <h3 className={styles.subTile}>
+          “y yo no veo que eso le hagan a otra gente”
+        </h3>
         <p>
           Corre el mes de octubre de 2023. La militancia progresista está
           abocada en intentar frenar lo que será un triunfo arrollador del
@@ -198,14 +200,14 @@ const Nota14 = () => {
         con buen coche. Capaz esos son los que nos envenenan y abastecen de
         droga a todo el país, pero como son de ese prototipo que para la Ciudad
         y la policía encajan, no les dicen nada. Entonces, van hacia nosotras”.
-        <h6>
+        <h6 className={styles.span}>
           “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
           calle, me quitan lo poquito que tengo. Porque para ellos no podemos
           tener más de veinte mil pesos en la cartera. Entonces nos dicen: ‘¿de
           dónde sacó esa plata?’, y tenemos que ir a la comisaría a rendir de
           dónde sacamos”
         </h6>
-        <h3>monitoreo y armado de causas penales</h3>
+        <h3 className={styles.subTile}>monitoreo y armado de causas penales</h3>
         <p>
           Pablo Ibarra trabaja en la Secretaría de Violencia Institucional del
           Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos
@@ -272,14 +274,16 @@ const Nota14 = () => {
           como insumo para el show televisivo y los canales montan guardias para
           mostrar la marginalidad.
         </p>
-        <span>
+        <h6 className={styles.span}>
           La comisaría que tiene jurisdicción en Constitución y que actúa en la
           mayoría de estos casos es la Vecinal 1C. Algo característico de esa
           dependencia, y que AMMAR denuncia desde hace años, es la constante
           rotación de sus autoridades, lo que obstaculiza el trabajo de
           concientización que llevan adelante.
-        </span>
-        <h3>cambios legales sin políticas inclusivas</h3>
+        </h6>
+        <h3 className={styles.subTile}>
+          cambios legales sin políticas inclusivas
+        </h3>
         <p>
           Una de las pocas personas que en el ámbito judicial recogió el guante
           de lo que hace años denuncian las organizaciones de Derechos Humanos
@@ -386,13 +390,13 @@ const Nota14 = () => {
           poblacional que perjudica a grupos específicos”, entre ellos, el trans
           migrante.{" "}
         </p>
-        <span>
+        <h6 className={styles.span}>
           La combinación de cambios legales, sin acompañamiento de políticas
           públicas inclusivas y la persistencia de estereotipos estigmatizantes
           y discriminatorios ha derivado en una reformulación de las lógicas y
           prácticas de criminalización hacia las mujeres trans y travestis.
-        </span>
-        <h3> no todas son soldaditxs narco </h3>
+        </h6>
+        <h3 className={styles.subTile}> no todas son soldaditxs narco </h3>
         <p>
           A principios de marzo de 2024, Georgina Orellano publicó un posteo en
           sus redes sociales desde la esquina en la que trabaja desde hace 17

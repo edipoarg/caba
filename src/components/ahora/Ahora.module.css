@@ -1,0 +1,132 @@
+.ahora {
+    width: 100vw;
+}
+
+.header {
+    height: 28vh;
+    justify-content: left;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 4vh 10vw;
+}
+
+.headerIcon {
+    color: black;
+}
+
+.title {
+    margin: 0;
+}
+
+.iframe {
+    height: 90vh;
+}
+
+.bajada {
+    margin: 0;
+    padding: 2vh 0vw;
+}
+
+.info {
+    margin: 0;
+    text-align: justify;
+}
+
+.informes {
+    height: 35vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding: 0vh 5vw;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+}
+
+.informe {
+    margin: 10px 0;
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 14px;
+    padding: 2vh 4vw;
+}
+
+.informeTitle {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.informeSub {
+    margin: 0;
+    padding-bottom: 3vh;
+    font-size: 0.8rem;
+}
+
+.timeline {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+}
+
+.link {
+    padding: 1vh 5vw;
+    border-radius: 14px;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 1vh;
+}
+
+.link:hover {
+    border: solid 1px;
+    border-radius: 14px;
+    background-color: yellowgreen;
+    color: black;
+    border: solid 1px black;
+}
+
+@media only screen and (min-width: 1024px) {
+    .ahora {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        height: 100vh;
+    }
+
+    .column {
+        height: 100vh;
+        width: 30vw;
+        padding-left: 10vw;
+        background-color: white;
+    }
+
+    .header {
+        height: auto;
+        padding: 7vh 4vw;
+    }
+
+    .informes {
+        height: auto;
+        grid-template-columns: 1fr;
+        gap: 1vh;
+        padding: 0vh 5vw;
+        align-content: center;
+    }
+
+    .timeline {
+        grid-column: 2;
+        height: 100vh;
+        padding-bottom: 0;
+        background-color: white;
+    }
+
+    .iframe {
+        height: 90vh;
+        padding-top: 10vh;
+    }
+
+    .link {
+        padding: 1vh 3vw;
+    }
+}
