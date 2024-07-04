@@ -4,6 +4,7 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
 import LogoMapa from "./LogoMapa";
+// eslint-disable-next-line no-redeclare
 import Screen from "./Screen";
 import styles from "../styles/Mapa.module.css";
 
@@ -27,21 +28,20 @@ import {
 
 // MARKERS IMPORTS
 import { dependenciasCaba } from "../data/index";
-import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
+import DependenciasMarkers from "./dependenciasMarkers/DependenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
 import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
 
 //Filtros Import
 import Filtros from "./filtros/Filtros";
+import { Caso } from "../models/models";
 
-/** @typedef {"reportes" | "dependencias" | "gatillo" | "all"} Filtro */
+type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 
 const Mapa = () => {
-  /** @type {[Filtro, (f: Filtro) => void; ]} */
-  const [currentFilter, setCurrentFilter] = useState("all");
+  const [currentFilter, setCurrentFilter] = useState<Filtro>("all");
 
-  /** @type {(f: Filtro) => void; } */
-  const handleFilterChange = (newFilter) => {
+  const handleFilterChange = (newFilter: Filtro): void => {
     if (newFilter === currentFilter) setCurrentFilter("all");
     else setCurrentFilter(newFilter);
   };
@@ -80,18 +80,10 @@ const Mapa = () => {
     setIsCloseButtonClicked(!isCloseButtonClicked);
   };
 
-  //Seleccion
-  const [setSelectedFeatureId] = useState(null);
-  const [selectedMarkerId, setSelectedMarkerId] = useState(null);
+  const [selectedMarkerId, setSelectedMarkerId] = useState<string | null>(null);
 
   // SCREEN INFO
-  const [popupInfo, setPopupInfo] = useState(null);
-
-  // HOVER
-  const handleHover = (event) => {
-    setSelectedFeatureId(event.features?.[0]?.id || null);
-  };
-  const handleLeave = () => setSelectedFeatureId(null);
+  const [selectedCase, setSelectedCase] = useState<Caso | null>(null);
 
   return (
     <>
@@ -128,28 +120,9 @@ const Mapa = () => {
             )}
           </a>
         </div>
-        <Screen
-          title={
-            popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
-          }
-          level={popupInfo ? popupInfo.level : null}
-          autority={popupInfo ? popupInfo.autority : null}
-          grade={popupInfo ? popupInfo.grade : null}
-          address={popupInfo ? popupInfo.address : null}
-          date={popupInfo ? popupInfo.date : null}
-          phone={popupInfo ? popupInfo.phone : null}
-          age={popupInfo ? popupInfo.age : null}
-          circs={popupInfo ? popupInfo.circs : null}
-          caseId={popupInfo ? popupInfo.caseId : null}
-        />
+        <Screen caso={selectedCase} />
 
-        <MapGL
-          id="mapa"
-          mapLib={maplibregl}
-          {...mapProps}
-          onHover={handleHover}
-          onLeave={handleLeave}
-        >
+        <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
           <NavigationControl position="top-right" />
           <DepsSource data={departamentos} />
           <BarriosCabaSource data={barriosCaba} />
@@ -161,7 +134,7 @@ const Mapa = () => {
           {(currentFilter === "all" || currentFilter === "dependencias") && (
             <DependenciasMarkers
               dependencias={dependenciasCaba}
-              setPopupInfo={setPopupInfo}
+              setSelectedCase={setSelectedCase}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
             />
@@ -170,7 +143,7 @@ const Mapa = () => {
           {(currentFilter === "all" || currentFilter === "gatillo") && (
             <GatilloMarkers
               gatillos={gatillo}
-              setPopupInfo={setPopupInfo}
+              setSelectedCase={setSelectedCase}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
             />
@@ -178,8 +151,8 @@ const Mapa = () => {
 
           {(currentFilter === "all" || currentFilter === "reportes") && (
             <ReportesMarkers
-              reportesPin={reportes}
-              setPopupInfo={setPopupInfo}
+              dataDeReportes={reportes}
+              setSelectedCase={setSelectedCase}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
             />
