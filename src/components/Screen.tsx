@@ -6,6 +6,7 @@ import {
 } from "../models/models";
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
+import cargos from "../data/cargos.json";
 
 // Función para recortar texto si supera el límite de caracteres
 const truncateText = (text: string | null, maxLength: number): string => {
@@ -35,12 +36,17 @@ const getScreenDataForCase = (caso: Caso | null): ScreenData => {
   const title = caso?.properties.Nombre ?? "Elegí una dependencia o un caso";
   if (caso !== null) {
     if (casoIsCasoDependencia(caso)) {
+      const oficialAsociado = cargos.find((cargo) => {
+        return cargo.C_Dependencia === caso.properties.Nombre;
+      });
       return {
         title,
         caseId: caso.properties.Contador,
         level: caso.properties.Dependencia,
         address: caso.properties.Dirección,
         phone: caso.properties.Teléfono,
+        grade: oficialAsociado?.C_GRADO,
+        authority: oficialAsociado?.C_Efectivo_AyN,
       };
     } else if (casoIsCasoGatillo(caso)) {
       return {
