@@ -98,15 +98,16 @@
         height: 100vh;
         width: 30vw;
         padding-left: 10vw;
+        background-color: white;
     }
 
     .header {
-        height: 25vh;
+        height: auto;
         padding: 7vh 4vw;
     }
 
     .informes {
-        height: 61vh;
+        height: auto;
         grid-template-columns: 1fr;
         gap: 1vh;
         padding: 0vh 5vw;
@@ -117,6 +118,7 @@
         grid-column: 2;
         height: 100vh;
         padding-bottom: 0;
+        background-color: white;
     }
 
     .iframe {
