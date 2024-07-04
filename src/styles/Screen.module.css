@@ -38,12 +38,6 @@
     font-size: 0.9rem;
 }
 
-.level {
-    margin: 0;
-    padding-top: 1vh;
-    font-size: 0.9rem;
-}
-
 .address,
 .date {
     padding-top: 1vh;
@@ -52,7 +46,7 @@
     font-family: 'Ronnia Thin Condensed';
 }
 
-.autority {
+.authority {
     padding-top: 1vh;
     margin: 0;
     font-size: 1rem;
@@ -111,8 +105,8 @@
         width: 20vw;
         max-width: 20vw;
         margin-left: 11vw;
-        bottom:unset;
-        top:-20vh;
+        bottom: unset;
+        top: -20vh;
     }
 
     .moreButton {

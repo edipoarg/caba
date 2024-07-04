@@ -6,7 +6,7 @@ interface CasoBase {
   };
 }
 
-interface CasoDependencia extends CasoBase {
+export interface CasoDependencia extends CasoBase {
   properties: {
     Contador: string;
     Dependencia: string;
@@ -22,7 +22,7 @@ interface CasoDependencia extends CasoBase {
   };
 }
 
-interface CasoGatillo extends CasoBase {
+export interface CasoGatillo extends CasoBase {
   properties: {
     Contador: string;
     Nombre: string;
@@ -38,7 +38,7 @@ interface CasoGatillo extends CasoBase {
   };
 }
 
-interface CasoReportes extends CasoBase {
+export interface CasoReportes extends CasoBase {
   properties: {
     Contador: string;
     Fecha: string;
@@ -53,10 +53,10 @@ interface CasoReportes extends CasoBase {
   };
 }
 
-type Caso = CasoDependencia | CasoGatillo | CasoReportes;
+export type Caso = CasoDependencia | CasoGatillo | CasoReportes;
 
 /** Este tipo representa lo que está en los JSONs de casos */
-export type DataDeCaso<T extends Caso = Caso> = {
+export type DataDeCasos<T extends Caso = Caso> = {
   type: string;
   features: T[];
 };
