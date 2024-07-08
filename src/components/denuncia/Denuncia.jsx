@@ -77,7 +77,7 @@ const Denuncia = () => {
         Denunciar_legalmente: denunciarLegalmente,
       };
 
-      const response = await base("tblfETI1obwfYQg7N").create(recordData);
+      const response = await base("tblLbB2PWSaWbhWG0").create(recordData);
       console.log("Registro creado con éxito:", response);
       alert("Denuncia enviada con éxito");
       setFecha("");
