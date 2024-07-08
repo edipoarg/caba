@@ -237,7 +237,7 @@ const Denuncia = () => {
           />
         </div>
         <Recaptcha
-          sitekey="TU_CLAVE_DE_SITIO"
+          sitekey={constants.reCaptchaKey}
           onChange={(newToken) => setToken(newToken)}
         />
 
