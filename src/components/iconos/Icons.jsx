@@ -31,7 +31,6 @@ import {
 import { PiReadCvLogoBold } from "react-icons/pi";
 import { FiArrowDown } from "react-icons/fi";
 
-
 const iconComponents = {
   mapa: <TbZoomExclamation />,
   denuncias: <BsMegaphone />,
@@ -61,7 +60,7 @@ const iconComponents = {
   /* investigaciones */
   autorx: <SlPencil />,
   ilus: <HiOutlinePhoto />,
-  flecha: <FiArrowDown/>,
+  flecha: <FiArrowDown />,
 
   /*Markers*/
   dependencia: <FaMapMarker />,
