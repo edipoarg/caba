@@ -1,5 +1,4 @@
 import styles from "./Investigaciones.module.css";
-import Temas from "../Temas";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
 import Mapa from "../Mapa";
@@ -66,12 +65,23 @@ const Investigaciones = () => {
                   </section>
                 </article>
               </Link>
+              <Link to="/lista" className={styles.todasLinkContainer}>
+                  <section
+                    className={styles.todasLink}
+                  >
+                            <Icons
+                    icon={"flecha"}
+                    className={styles.linkIcon}
+                    iconSize="2rem"
+                  />
+                    <h2 className={styles.flecha}>Más investigaciones</h2>
+                  </section>
+                </Link>
             </section>
 
             <section className={styles.investCol2}>
               <Link
                 to="/reportes"
-                style={Temas.reportesTema}
                 className={styles.ultimoReporteContainer}
               >
                 <img src="" alt="" className={styles.fotoUltimoReporte} />
@@ -89,44 +99,30 @@ const Investigaciones = () => {
               </Link>
               <a
                 href="https://open.spotify.com/show/1fhXtCulH39aZgv9P7WH7k"
-                style={Temas.investTema}
                 className={styles.podcastContainer}
               >
-                <section style={Temas.investTema} className={styles.podcast}>
+                <section className={styles.podcast}>
                   <Icons
                     icon={"podcast"}
                     className={styles.podcastIcon}
-                    iconSize="2rem"
+                    iconSize="2.8rem"
                   />
                   <h2 className={styles.tituloPodcast}>Podcast</h2>
                   <div className={styles.bajadaPodcast}>
-                    <h5 className={styles.play}>ir</h5>
                   </div>
                 </section>
               </a>
-              <section className={styles.investMore}>
                 <Link
                   to="/autorxs"
-                  style={Temas.investTema}
                   className={styles.autorxsSectionContainer}
                 >
                   <section
-                    style={Temas.investTema}
                     className={styles.autorxsSection}
                   >
                     <h2 className={styles.tituloAutorxsSection}>Autorxs</h2>
                     <div></div>
                   </section>
                 </Link>
-                <Link to="/lista" className={styles.todasLinkContainer}>
-                  <section
-                    style={Temas.investTema}
-                    className={styles.todasLink}
-                  >
-                    <h5 className={styles.flecha}>Todas</h5>
-                  </section>
-                </Link>
-              </section>
             </section>
           </section>
         </section>
