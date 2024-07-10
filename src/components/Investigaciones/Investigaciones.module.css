@@ -7,7 +7,7 @@
     position: fixed;
     margin: 0;
     padding: 0;
-    background-color: #e6e6e6;
+    background-color: #232128;
     height: 90vh;
     z-index: 5000;
     padding-top: 2vh;
@@ -20,17 +20,18 @@
     width: 95vw;
     margin: auto;
     max-width: 95%;
-    height: 35vh;
-    max-height: 60vh;
+    height: 23vh;
     padding: 0;
     border-radius: 14px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    background-color: #232128;
-    color: #b9ff39;
+    background-color: #e6e6e6;
+    color: #232128;
 }
 
 .headerIcon {
-    padding: 3vh 8vw;
+    position: relative;
+    top: 6vh;
+    color: #2a8842;
 }
 
 .title {
@@ -76,7 +77,7 @@
 /*Bloque novedades*/
 .investigaciones {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     max-width: 95%;
     margin: auto;
 }
@@ -89,11 +90,8 @@
     /* Centra los elementos horizontalmente */
     justify-content: center;
     grid-template-columns: 1fr;
-    height: 50vh;
-    max-height: 50vh;
     margin: auto;
     padding: 1vh 1vw;
-    gap: 2vh 0vw;
 }
 
 .infoNotaPrincipal {
@@ -106,33 +104,29 @@
 
 .tituloNotaPrincipal {
     padding-top: 1vh;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
 }
 
-.icon {
-    color: #b9ff39;
-}
-
 .notaPrincipal {
-    width: 50vw;
-    height: 50vh;
-    max-height: 50vh;
+    height: 53vh;
     padding: 0;
     border-radius: 14px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    background-color: #232128;
+    background-color: #2a8842;
     color: aliceblue;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1vh;
 }
 
 .fotoNotaPrincipal {
-    width: 100%;
+    height: 26vh;
+    width: 60vw;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    max-height: 30vh;
+    max-height: 40vh;
     object-fit: cover;
 }
 
@@ -198,23 +192,23 @@
 
 /*bloque reportes*/
 .investCol2 {
-    height: 50vh;
     margin-top: 1vh;
     width: 95%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     justify-content: space-between;
+    height: 64vh;
 }
 
 .ultimoReporteContainer {
-    height: 17vh;
-    max-height: 17vh;
+    height: 28vh;
     padding: 0;
     border-radius: 14px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    background-color: #b9ff39;
 }
 
 .datosReporte {
@@ -241,47 +235,33 @@
     margin: 0vh;
 }
 
-/*bloque poscast y autorxs*/
-.investMore {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1vw;
-}
-
 .podcastContainer {
     border-radius: 14px;
+    color: #2a8842;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .podcast {
     padding-left: 0vw;
     border-radius: 14px;
-    height: 15vh;
+    height: 24vh;
+    border: solid 1px;
+    display: grid;
 }
 
 .podcastIcon {
-    padding: 0vh 2vw;
+    margin: auto;
+    padding-top: 3vh;
 }
 
 .tituloPodcast {
-    padding: 2vh 2vw;
-    font-size: 1rem;
-    margin: 0;
-}
-
-.podcastContainer {
-    box-sizing: border-box;
-    border: solid 1px #b9ff39;
-    width: 100%;
-}
-
-.podcast {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    padding: 1vh 2vw;
+    margin: auto;
 }
 
 .podcast>h2 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 .bajadaPodcast {
@@ -311,7 +291,8 @@
 .autorxsSectionContainer {
     border-radius: 14px;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
+    background-color: #e6e6e6;
 }
 
 .tituloAutorxsSection {
@@ -319,9 +300,17 @@
 }
 
 .todasLink {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     border-radius: 14px;
     margin: auto;
-    height: 15vh;
+    background-color: #e6e6e6;
+    height: 10vh;
+}
+
+.linkIcon {
+    color: #2a8842;
+    margin: auto;
 }
 
 .flecha {
@@ -381,7 +370,8 @@
     }
 
     .headerIcon {
-        padding: 1vh 4vw;
+        left: 4vw;
+        top: 0vh;
         color: #2a8842;
     }
 
@@ -422,17 +412,26 @@
         top: 10vh;
         left: 35vw;
         background-color: white;
-        width: 30vw;
+        width: 40vw;
         max-width: 90vw;
         height: 90vh;
         max-height: 80vh;
         margin: auto;
-        padding: 0vh 0vw;
+        padding: 0vh 1vw;
         gap: 2vh 0vw;
     }
 
+    .fotoNotaPrincipal {
+        height: 35vh;
+        width: 35vw;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        max-height: 40vh;
+        object-fit: cover;
+    }
+
     .notaPrincipal {
-        width: 25vw;
+        width: 34vw;
         height: 70vh;
         max-height: 75vh;
         padding: 0;
@@ -445,7 +444,7 @@
         padding-top: 3vh;
         font-size: 1.6rem;
         margin: 0;
-        color: #2a8842;
+        color: #232128;
     }
 
     .autorxsContainer {
@@ -490,18 +489,10 @@
         margin: 0;
         position: absolute;
         top: 10vh;
-        left: 62vw;
-        width: 25vw;
+        left: 70vw;
+        width: 20vw;
         height: 80vh;
         padding: 5vh;
-    }
-
-    .investMore {
-        gap: 2vh;
-        max-width: 25vw;
-        padding-top: unset;
-        margin: unset;
-        height: unset;
     }
 
     .ultimoReporteContainer {
@@ -520,7 +511,21 @@
 
     .todasLink {
         border-radius: 14px;
-        width: 10vw;
+        width: 15vw;
         margin: auto;
+        background-color: rgba(0, 0, 0, 0.0);
+        font-size: 0.9rem;
+        color: #2a8842;
+        padding-top: 3vh;
+        padding-left: 36vw;
+    }
+
+    .linkIcon {
+        border: solid 1px #2a8842;
+        border-radius: 180px;
+        height: 5vh;
+        width: 6vh;
+        text-align: center;
+        padding-top: 1vh;
     }
 }
