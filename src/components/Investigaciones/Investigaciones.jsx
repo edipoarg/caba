@@ -66,24 +66,19 @@ const Investigaciones = () => {
                 </article>
               </Link>
               <Link to="/lista" className={styles.todasLinkContainer}>
-                  <section
-                    className={styles.todasLink}
-                  >
-                            <Icons
+                <section className={styles.todasLink}>
+                  <Icons
                     icon={"flecha"}
                     className={styles.linkIcon}
                     iconSize="2rem"
                   />
-                    <h2 className={styles.flecha}>Más investigaciones</h2>
-                  </section>
-                </Link>
+                  <h2 className={styles.flecha}>Más investigaciones</h2>
+                </section>
+              </Link>
             </section>
 
             <section className={styles.investCol2}>
-              <Link
-                to="/reportes"
-                className={styles.ultimoReporteContainer}
-              >
+              <Link to="/reportes" className={styles.ultimoReporteContainer}>
                 <img src="" alt="" className={styles.fotoUltimoReporte} />
                 <section className={styles.datosReporte}>
                   <h4 className={styles.fechaUltimoReporte}>
@@ -108,21 +103,15 @@ const Investigaciones = () => {
                     iconSize="2.8rem"
                   />
                   <h2 className={styles.tituloPodcast}>Podcast</h2>
-                  <div className={styles.bajadaPodcast}>
-                  </div>
+                  <div className={styles.bajadaPodcast}></div>
                 </section>
               </a>
-                <Link
-                  to="/autorxs"
-                  className={styles.autorxsSectionContainer}
-                >
-                  <section
-                    className={styles.autorxsSection}
-                  >
-                    <h2 className={styles.tituloAutorxsSection}>Autorxs</h2>
-                    <div></div>
-                  </section>
-                </Link>
+              <Link to="/autorxs" className={styles.autorxsSectionContainer}>
+                <section className={styles.autorxsSection}>
+                  <h2 className={styles.tituloAutorxsSection}>Autorxs</h2>
+                  <div></div>
+                </section>
+              </Link>
             </section>
           </section>
         </section>
