@@ -5,12 +5,11 @@ import constants from "./constants";
 
 const firebaseConfig = {
   apiKey: constants.firebaseKey,
-  authDomain: "mapadelapolicia-3a727.firebaseapp.com",
-  projectId: "mapadelapolicia-3a727",
-  storageBucket: "mapadelapolicia-3a727.appspot.com",
-  messagingSenderId: "934050971737",
-  appId: "1:934050971737:web:1e31e973b129e3308fb148",
-  measurementId: "G-FRB1PPTX0L",
+  authDomain: "mapadelapoliciacaba-5011d.firebaseapp.com",
+  projectId: "mapadelapoliciacaba-5011d",
+  storageBucket: "mapadelapoliciacaba-5011d.appspot.com",
+  messagingSenderId: "613709364108",
+  appId: "1:613709364108:web:bb047b55dc138e68de74a9",
 };
 
 // Initialize Firebase
