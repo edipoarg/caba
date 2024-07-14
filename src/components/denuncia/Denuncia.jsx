@@ -54,9 +54,7 @@ const Denuncia = () => {
       alert("Por favor acepta los términos y condiciones.");
       return;
     }
-    if (!token) {
-      alert("Completa el reCAPTCHA para enviar el formulario.");
-    }
+  
     try {
       let fileUrl = null;
       if (archivo) {
@@ -236,10 +234,6 @@ const Denuncia = () => {
             onChange={() => setAceptoTerminos(!aceptoTerminos)}
           />
         </div>
-        <Recaptcha
-          sitekey={constants.reCaptchaKey}
-          onChange={(newToken) => setToken(newToken)}
-        />
 
         <button onClick={handleSubmit}>Enviar</button>
       </section>
