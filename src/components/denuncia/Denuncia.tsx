@@ -20,7 +20,7 @@ const Denuncia = () => {
   const [agresor, setAgresor] = useState("");
   const [identificacion, setIdentificacion] = useState("");
   const [patente, setPatente] = useState("");
-  const [archivo, setArchivo] = useState(null); // Manejo de un solo archivo
+  const [archivos, setArchivos] = useState<null | FileList>(null);
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
   const [email, setEmail] = useState("");
@@ -54,11 +54,17 @@ const Denuncia = () => {
     }
 
     try {
-      let fileUrl = null;
-      if (archivo) {
-        const archivoRef = ref(storage, `archivos/${archivo.name}`);
-        const snapshot = await uploadBytes(archivoRef, archivo);
-        fileUrl = await getDownloadURL(snapshot.ref);
+      const fileUrls: string[] = [];
+      if (archivos) {
+        for (let i = 0; i < archivos.length; i++) {
+          const archivo = archivos[i];
+          if (archivo) {
+            const archivoRef = ref(storage, `archivos/${archivo.name}`);
+            const snapshot = await uploadBytes(archivoRef, archivo);
+            const fileUrl = await getDownloadURL(snapshot.ref);
+            fileUrls.push(fileUrl);
+          }
+        }
       }
 
       const recordData = {
@@ -69,7 +75,8 @@ const Denuncia = () => {
         Agresor: agresor,
         Identificación: identificacion,
         Patente: patente,
-        Archivo: fileUrl,
+        // commas are legal parts of URLs, so separating URLs with commas and spaces makes sense
+        Archivos: fileUrls.join(" , "),
         Nombre: nombre,
         Teléfono: telefono,
         Email: email,
@@ -87,7 +94,7 @@ const Denuncia = () => {
       setAgresor("");
       setIdentificacion("");
       setPatente("");
-      setArchivo(null);
+      setArchivos(null);
       setNombre("");
       setTelefono("");
       setEmail("");
@@ -204,7 +211,13 @@ const Denuncia = () => {
         />
 
         <h3>V. ARCHIVO ADJUNTO</h3>
-        <input type="file" onChange={(e) => setArchivo(e.target.files[0])} />
+        <input
+          type="file"
+          multiple={true}
+          onChange={(e) => {
+            setArchivos(e.target.files);
+          }}
+        />
 
         <h3>Marque las opciones deseadas</h3>
         <label>
