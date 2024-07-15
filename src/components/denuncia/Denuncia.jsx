@@ -2,7 +2,6 @@ import { useState } from "react";
 import styles from "./Denuncia.module.css";
 import Airtable from "airtable";
 import constants from "../../../services/constants";
-import Recaptcha from "react-google-recaptcha";
 import {
   storage,
   ref,
@@ -28,7 +27,6 @@ const Denuncia = () => {
   const [visibilizar, setVisibilizar] = useState(false);
   const [denunciarLegalmente, setDenunciarLegalmente] = useState(false);
   const [aceptoTerminos, setAceptoTerminos] = useState(false);
-  const [token, setToken] = useState(null); // Estado para almacenar el token de reCAPTCHA
 
   const handleSubmit = async () => {
     if (
@@ -54,7 +52,7 @@ const Denuncia = () => {
       alert("Por favor acepta los términos y condiciones.");
       return;
     }
-  
+
     try {
       let fileUrl = null;
       if (archivo) {
