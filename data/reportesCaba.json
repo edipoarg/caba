@@ -1,0 +1,2498 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r1",
+        "Fecha": "11/4/2022",
+        "Hora": "16:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Lima 319",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Detención injustificada - Expulsión del espacio físico - Insultos e intimidación",
+        "policia_involucrado": "Policía de apellido Saucedo",
+        "cronica": "La persona denunciante relata que un grupo de manifestantes se estaban dirigiendo  hacia la ENERC luego de la movilización frente a las puertas del INCAA para exigir la renuncia de Luis Puenzo,  cuando varios efectivos de la Policía de la ciudad empezaron a avanzar desde la vereda de enfrente. Luego de avanzar, lanzaron golpes a lxs manifestantes y detuvieron a tres de ellxs. El operativo finalizo al hacerse presente el ministro de cultura Tristán Bauer."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38192298885624,
+          -34.61208452299154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r2",
+        "Fecha": "1/8/2022",
+        "Hora": "19:30:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Corrientes 3300",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Detención injustificada - Expulsión del espacio físico - Acoso - Insultos e intimidación - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El denunciante iba de regreso a su casa luego de la movilización en Plaza de Mayo por los cinco años de impunidad en el caso de Santiago Maldonado. Cuando salió del Subte B, en la estación Carlos Gardel, se sorprendió al observar que había seis colectivos policiales, quince motos y ocho patrulleros, todos dispuestos sobre el lado impar de la avenida. La policía estaba increpando a la gente, deteniéndola sin aparentes justificativos. Un policía lo empujó y le exigió que camine por la calle. En ese momento el denunciante se dispuso a filmar pero entonces un oficial se acercó y le exigió que muestre el carnet de periodista junto a su documento de identidad. El policía le dijo que era abogado y que no podía filmar. Intentó secuestrar su cámara, pero no lo logró. Luego de unos minutos tensos de discusión, el denunciante logró salir de la situación, llegar a su casa que queda cerca del lugar y filmar otro video. Pasada aproximadamente una hora el operativo continuaba. Cuando volvió a pasar por el lugar rumbo al supermercado dos policías (uno identificado únicamente con chaleco y el otro de civil) lo “ficharon” (es decir lo reconocieron), lo persiguieron y a la salida de las compras lo acompañaron hasta llegar a su domicilio. Por lo que pudo averiguar el operativo era para detener a una persona que había realizado una pintada en la calle. Durante ese momento la policía demoraba injustificadamente a todo aquel que pasaba, particularmente a aquellxs con aspecto “sospechoso”. La mayoría de los oficiales no tenían identificación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.411678948382395,
+          -34.60404828669069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r3",
+        "Fecha": "1/8/2022",
+        "Hora": "21:15:00",
+        "Barrio": "Constitución",
+        "Direccion": "Salta 1493",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 1 de Agosto de 2022, en la calle Salta 1493, detuvieron a un grupo de mujeres cuando se encontraba en la puerta de un hotel alojamiento, por la figura contravencional que reprime la oferta y demanda ostensible en la vía pública (art. 96). Le sacaron fotos en calle y no les entregaron copia del acta, solo permitieron sacarle una foto con sus celulares."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38317336372585,
+          -34.625688458963914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r4",
+        "Fecha": "12/7/2022",
+        "Hora": "14:09:36",
+        "Barrio": "Constitución",
+        "Direccion": "Salta 1479",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación",
+        "policia_involucrado": "Patrullero con número de dominio MLH 91",
+        "cronica": "El 12 de julio de 2022 en la calle Salta 1479 barrio de Constitución una mujer trans fue detenida sin justificativos por efectivos de la Policía de la Ciudad, quienes la obligaron a desvestirse en la vía pública. El patrullero que conducían los efectivos tenía el número de dominio MLH 911. Una mujer logró fotografiar el momento."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38301903303641,
+          -34.625478329993946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r5",
+        "Fecha": "10/8/2022",
+        "Hora": "18:13:00",
+        "Barrio": "Constitución",
+        "Direccion": "Salta 1479",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 10 de agosto de 2022, en Salta 1479, la policía paró y le pidió a una trabajadora sexual revisarle la cartera sin justificación válida."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38301903303641,
+          -34.625478329993946
+                ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r6",
+        "Fecha": "14/8/2022",
+        "Hora": "8:35:00",
+        "Barrio": "Constitución",
+        "Direccion": "Santiago del Estero y Av. Garay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 14 de agosto de 2022, en Santiago del Estero esquina Garay, la policía le notifica a una trabajadora sexual que hubo un robo en la zona y que la van a revisar. También le piden el DNI.\nSe presenta en el lugar el vecino que denunció el robo y le dice a los efectivos policiales que efectivamente fue ella. El hombre estaba alcholizado.\nElla les manifiesta que no conoce al hombre, que había estaba trabajando toda la noche y que la revisen. No le encuentran ningún celular, salvo el de ella.\nIgualmente se la llevan detenida y le imputan un robo. Queda detenida en la Comisaría Vecinal 1, en Av. San Juan y Av. Entre Ríos desde las 9 de la mañana hasta las 00hs.\nEl celular se encuentra horas después en el espacio público, por otra vecina que lo devuelve en la comisaría. El denunciante retiró el celular y la denuncia, pero la compañera permaneció detenida hasta la noche."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3843798907087,
+          -34.62686236121181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r7",
+        "Fecha": "15/8/2022",
+        "Hora": "19:05:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Suipacha y Lavalle",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Acoso",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un joven denunció que un oficial de la Policía de la Ciudad, a cargo de la vigilancia de la zona de Lavalle y Suipacha, acosa sistemáticamete a su novia y que los hostigó de diferentes maneras. Relató que este policía, del que desconoce su nombre hizo comentarios obscenos hacia su pareja, en reiteradas ocasiones. También contó que durante la fase 1 de la pandemia los amenazaba con llevarlos presos cuando iban a hacer las compras. Por último, denunció que en una ocasión le pidieron intervención a otros policías de la zona pero éstos no les creyeron e ignoraron su relato."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37954790420148,
+          -34.60227285206907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r8",
+        "Fecha": "18/8/2022",
+        "Hora": "23:45:00",
+        "Barrio": "Colegiales",
+        "Direccion": "Av. Corrientes y Humbolt",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Agentes de Prevención CABA",
+        "Nombre": "Puños o patadas - Expulsión del espacio físico - Acoso - Insultos e intimidación - Retención injustificada de documentos - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante es trabajadora del espacio público y asegura que la policía reiteradamente secuestra la mercadería de lxs vendedorxs ambulantes. Relata que lxs corren, les pegan, agreden y llevan detenidxs, incluso a adultos mayores. Contó el caso puntual de una compañera detenida el jueves 18 de agosto. También contó que a ella la detuvieron por dos horas cuando ni siquiera estaba vendiendo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44585216187442,
+          -34.59318992876256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r9",
+        "Fecha": "18/8/2022",
+        "Hora": "15:00:00",
+        "Barrio": "Villa Soldati",
+        "Direccion": "Alcaidia 8 de la Policía de la Ciudad",
+        "Lugar": "en una dependencia policial",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico - Insultos e intimidación",
+        "policia_involucrado": "Policía que se identificó como \"Juan Pérez",
+        "cronica": "El denunciante es abogado y relató que mientras estaba entrevistando a su cliente en la Alcaidía 8 de Villa Soldati, se apersonó un oficial y lo apuró para terminar la entrevista basándose en que tenía otras personas en espera para visitas. Luego comenzó a faltarle el respeto delante de otros detenidos y de los familiares de su cliente. En ese contexto el abogado le dijo al oficial que no había problema, que estaba haciendo su trabajo y que ya estaba finalizando. Ante el pedido del letrado el policía se identificó como \"Juan Pérez\" y respondió de mala manera. El denunciante le pidió que no le faltara el respeto. Entonces el policía lo miró y le preguntó si lo estaba amenazando. Luego se fue del lugar abruptamente. Una vez finalizada la entrevista el abogado solicitó que se certifique la firma de su cliente y pidió hablar con el superior inmediato. Le respondieron que no había ninguno en toda la alcaida. Se dirigió entonces a la guardia de intervenciones rápidas siendo atendido por el oficial Franco y el inspector Cordaba a quienes les comentó lo acontecido. “No podemos hacer nada”, fue la respuesta. Sin darle más información le dijeron que ellos “no corresponden a la alcaida”. No tuvieron voluntad de dejar asentado en ningún lado lo ocurrido y respondieron que debía ir a una comisaría de la jurisdicción a denunciar el hecho. Finalmente el abogado decidió retirarse de la alcaida porque temió que hubiera represalia con su defendido."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45525096712717,
+          -34.67319074315783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r10",
+        "Fecha": "19/8/2022",
+        "Hora": "0:00:00",
+        "Barrio": "Chacarita",
+        "Direccion": "Av. Corrientes y Humbolt",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Acoso - Insultos e intimidación - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante vio la violenta detención de una mujer que vendía souvenires de Ricardo Arjona a la salida del recital del cantante guatemalteco. Dijo que se le tiraron encima y le pusieron la pierna en la espalda, pese a que ella pedía a gritos que la soltaran porque la estaban lastimando. Relató que cuando se acercó para ver cómo ayudarla le dijeron que circulara, a lo que respondió que quería asegurarse de que no le hicieran daño a la trabajadora. Acto seguido amenazaron a la testigo con llevarla detenida junto con la otra mujer."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44585216187442,
+          -34.59318992876256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r11",
+        "Fecha": "19/8/2022",
+        "Hora": "16:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Defensa 185",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Acoso -Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El policía que se encontraba en la esquina de las calles Defensa y Alsina amenazó al denunciante por haber sacado una foto de en la que dos personas se estaban peleando y el oficial de policía no intervenía sino que sólo se acercó para verlos de cerca, sin siquiera separarlos o notificar la situación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37218464016382,
+          -34.60971520810078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r12",
+        "Fecha": "2/8/2022",
+        "Hora": "23:30:00",
+        "Barrio": "Constitución",
+        "Direccion": "Santiago del Estero y Av. Garay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención Injustificada - Acoso - Hostigamiento Policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Tres mujeres trans migrantes fueron detenidas por efectivos de la Policía de la Ciudad cuando iban a comprar comida. Las pusieron contra la pared y las revisaron alegando que las cámaras habían registrado una actitud sospechosa. Los oficiales nunca se identificaron. Luego las revisaron dentro de un hotel transitorio y les sacaron $15.000."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3843798907087,
+          -34.62686236121181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r13",
+        "Fecha": "22/8/2022",
+        "Hora": "20:22:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Juncal y Uruguay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Gases lacrimógenos - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión a manifestantes que se expresaban en contra del poder judicial y el juicio contra Cristina Fernández de Kirchner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38761652003778,
+          -34.592621335265605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r14",
+        "Fecha": "27/8/2022",
+        "Hora": "18:00:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Juncal y Uruguay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión a manifestantes que se expresaban en contra del poder judicial y el juicio contra Cristina Fernández de Kirchner"
+            },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38761652003778,
+          -34.592621335265605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r15",
+        "Fecha": "27/8/2022",
+        "Hora": "18:15:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Juncal y Uruguay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión a manifestantes que se expresaban en contra del poder judicial y el juicio contra Cristina Fernández de Kirchner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38761652003778,
+          -34.592621335265605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r16",
+        "Fecha": "27/8/2022",
+        "Hora": "19:00:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Uruguay y Juncal",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Gases lacrimógenos - Expulsión del espacio físico - Acoso - Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión a manifestantes que se expresaban en contra del poder judicial y el juicio contra Cristina Fernández de Kirchner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38761652003778,
+          -34.592621335265605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r17",
+        "Fecha": "27/8/2022",
+        "Hora": "14:15:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Juncal y parana",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Filmación y fotografías sin permiso",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión a manifestantes que se expresaban en contra del poder judicial y el juicio contra Cristina Fernández de Kirchner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.388753989349645,
+          -34.59259313901813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r18",
+        "Fecha": "3/8/2022",
+        "Hora": "17:45:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Av. Santa Fe 1830",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante caminaba por la vereda de Avenida Santa Fe a la altura del 1830 cuando vio a un señor de unos sesenta años sentado en el piso y rodeado de, por lo menos, seis policías que le hacían un cerco como para aislarlos de los transeúntes. Los efectivos tenían una actitud intimidante, dos de ellos estaban mirando papeles y el resto invitaba a circular a quienes, como la denunciante, pasaban por el lugar. El señor estaba esposado y tenía a su lado un almohadón, una manta, y algunos paquetes de medias y pañuelos. La denunciante intentó hacer contacto visual con el señor, pero tuvo que seguir transitando y no supo qué pasó después."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.393715989349424,
+          -34.595922948221244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r19",
+        "Fecha": "8/8/2022",
+        "Hora": "21:41:00",
+        "Barrio": "Constitución",
+        "Direccion": "Av. Garay y San José",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Una mujer trans migrante, salió del hotel donde vive para ir a comprar y fue detenida sin explicarle los motivos y de manera arbitraria. Tuvo que abrir la cartera y le consultaron por el origen de los $4.000 que llevaba encima, entre otros interrogantes intimidatorios."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38570791818376,
+          -34.62686944744726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r20",
+        "Fecha": "12/12/2022",
+        "Hora": "11:50:00",
+        "Barrio": "Nuñez",
+        "Direccion": "Estación Nuñez Tren Mitre",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 12 de diciembre a las 11:50 horas en la estación Nuñez del ferrocarril Mitre un chico se subió al tren en el último segundo antes de que cierren las puertas. Pasaron varios minutos y la formación no avanzaba, hasta que abrieron las puertas y subió un grupo de policías buscando a un presunto ladrón. Una persona señaló al chico que había entrado último y los efectivos le pidieron que baje. El chico con los ojos llenos de lágrimas salió del vagón por sus propios medios y para reducirlo lo golpearon contra un banco de metal. El pibe gritaba y lloraba, entonces la denunciante se levantó a pedir que no lo golpeen pero se cerraron las puertas del tren y no alcanzó a bajarse. No sabe cómo terminó la situación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.462659218188236,
+          -34.54870070139928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r21",
+        "Fecha": "13/12/2022",
+        "Hora": "18:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Zona Obelisco",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Gases lacrimógenos",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381538218185014,
+          -34.60353576195275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r22",
+        "Fecha": "13/12/2022",
+        "Hora": "20:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Zona Obelisco",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención",
+        "Nombre": "Puños o patadas - Detención injustificada - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381538218185014,
+          -34.60353576195275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r23",
+        "Fecha": "13/12/2022",
+        "Hora": "18:30:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Zona Obelisco",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Agentes de Prevención CABA",
+        "Nombre": "Expulsión del espacio físico - Insultos e intimidación - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381538218185014,
+          -34.60353576195275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r24",
+        "Fecha": "15/12/2022",
+        "Hora": "13:22:00",
+        "Barrio": "Villa Riachuelo",
+        "Direccion": "Martiniano Leguizamón 4347",
+        "Lugar": "en una dependencia policial",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Violencia institucional",
+        "policia_involucrado": "Policías de la Comisaría Comunal 8",
+        "cronica": "En la Comisaría Comunal 8 no le tomaron la denuncia por violencia de género a una mujer víctima alegando que el agresor es su pareja y además la discriminan por ser de otro país."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47521956236095,
+          -34.67886502940757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r25",
+        "Fecha": "18/12/2022",
+        "Hora": "17:45:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "9 de julio y Diagonal Norte",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38211730469309,
+          -34.60362372394589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r26",
+        "Fecha": "20/12/2022",
+        "Hora": "21:30:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Corrientes 999",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Disparos con armas de fuego - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38076934702106,
+          -34.60335138517743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r27",
+        "Fecha": "20/12/2022",
+        "Hora": "21:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "9 de julio y Av. Corrientes",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención",
+        "Nombre": "Disparos con armas de fuego - Puños o patadas - Detención injustificada - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.382128033529106,
+          -34.60368554029042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r28",
+        "Fecha": "20/12/2022",
+        "Hora": "22:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Lima 339",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención",
+        "Nombre": "Disparos con armas de fuego - Puños o patadas - Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía reprimió los festejos por la victoria de la selección argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.382272504692615,
+          -34.612269693116446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r29",
+        "Fecha": "9/12/2020",
+        "Hora": "15:00:00",
+        "Barrio": "Coghlan",
+        "Direccion": "Estación Coghlan",
+        "Lugar": "en una plaza o parque",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El hijo de la denunciante tiene dos años y estaba jugando con su papá en la plaza que se encuentra en la estación de tren Coghlan, cuando un efectivo de la comisaría 12 se apersonó de pronto y le pidió el documento. Al instante llegó más personal policial. Lo acusaron al papá por un intento de robo de una moto que se encontraba aproximadamente a 150 metros del lugar donde estaban. Él les explicó que no hizo nada pero el jefe de calle le pegó una piña en las costillas y lo esposó. Todo delante del niño. Después de una hora le dieron aviso a la denunciante de lo que sucedía, que vive cerca pero cuando llega a la plaza ya se habían llevado al papá del nene. Su hijo estaba solo, rodeado de más de diez efectivos, totalmente asustado tapándose la cara con la lona del cochecito en el que estaba sentado. El detenido estuvo dos días en la comisaría, luego declaró ante una jueza, salió en libertad y lo sobreseyeron. Nunca supieron el motivo concreto de la sospecha y la acusación. Cuando preguntaron, les respondieron que era secreto de sumario. Realizaron la denuncia en la Defensoría del pueblo y en la fiscalía. La causa está archivada."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47526930284324,
+          -34.5650653029071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r30",
+        "Fecha": "11/9/2022",
+        "Hora": "13:30:00",
+        "Barrio": "La Boca",
+        "Direccion": "Pinzón y Martín Rodríguez",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Gases lacrimógenos - Expulsión del espacio físico - Insultos e intimidación",
+        "policia_involucrado": "Jefe del operativo: Latorre",
+        "cronica": "El domingo 11 de septiembre jugaron Boca contra River en la Bombonera. El club pidió a los hinchas xeneizes llegar temprano, por eso a las 13:30 la denunciante ya estaba en el ingreso de Pinzón y Martín Rodríguez. Pero no abrían la valla, entonces se generó un embudo con mucha gente, muy apretados. Una persona tiró dos botellas de plástico vacías desde atrás. Eso habrá enojado a los agentes. Quienes estaban agolpados sintieron que algo iba a pasar. Los chicos levantaban las manos para demostrar que no tenían nada, que querían ingresar de forma pacífica. Pero no les importó: comenzaron a tirar gas pimienta. Y ahí cuando ya no podían respirar por los gases, les pegaron. Lxs hinchas estaban muy vulnerables. Un policía varón se ensañó con la denunciante, la insultó (“hija de puta”) y le pegó con su bastón. Latorre es el apellido del jefe del operativo. No pudo identificar al policía que la agredió. Había niños en el lugar. Al día siguiente se levantó y fue a la guardia del Bazterrica porque estaba con mucho dolor. Tenía varios hematomas. Hizo la denuncia ante el equipo especializado en violencia institucional de la Fiscalía  11, ubicada en Berutti 3345, 3er piso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.361348647019334,
+          -34.63410131967044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r31",
+        "Fecha": "15/9/2022",
+        "Hora": "10:30:00",
+        "Barrio": "Caballito",
+        "Direccion": "Av. San Martin 1320",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación - Impedir grabar - Abandono de persona",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un hombre  sin documentación identificatoria que no se supo si era menor o mayor de edad yacía desmayada en la vereda de la estación Retiro. La denunciante se acercó con un grupo de personas para asistirla pero la Policía de la Ciudad no las dejó y se ocupó de alejarlas. Tampoco llamaban al SAME, por lo que tuvieron que gestionar la ambulancia los propios transeuntes. Una señora visiblemente enojada por la situación les preguntó a los efectivos si lo querían dejar morir, a lo que un agente policial respondió: \"mejor que se muera, así no le roba la cartera\". Luego les pidieron los documentos, con claros fines intimidatorios, pero no se los dieron porque no correspondía. Finalmente llegó la ambulancia. Intentaron dejar precedente de la violencia institucional y del abandono de persona en la Defensoría del Pueblo y en Procuvin, pero en ninguna de estas instituciones les tomaron el testimonio."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44791536236501,
+          -34.607102601194235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r32",
+        "Fecha": "28/9/2020",
+        "Hora": "16:30:00",
+        "Barrio": "Palermo",
+        "Direccion": "Figueroa Alcorta y San Martin de Tours",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Disparos con armas de fuego",
+        "policia_involucrado": "Inspector Juan Pablo Roldán",
+        "cronica": "Un hombre en situación de calle, con enfermedades psiquiátricas, desorientado y con un cuchillo en la mano, es acribillado a tiros por un policía del Cuerpo de Montada de Policía Federal Argentina, sin piedad.\n\nhttps://ip.digital/nota/130-murio-rodrigo-roza-el-hombre-que-asesino-al-policia-roldan-en-palermo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40346006236657,
+          -34.57737546432187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r33",
+        "Fecha": "6/9/2022",
+        "Hora": "12:00:00",
+        "Barrio": "Constitución",
+        "Direccion": "Santiago del Estero 1506",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El pasado 6/9/2022, en la calle Santiago del Estero 1506, la policía de la ciudad,  hostigo y detuvo arbitrariamente a una trabajadora sexual. El hecho sucedió mientras la víctima estaba conversando con un hombre. La excusa de los agentes que llevaron a cabo el operativo, fue haber alertado través del sistema de monitoreo que esta habría entregado algo a una persona, cuando llegaron al lugar del hecho, revisaron a ambos, no encontrándole nada a ella y encontrando 6 envoltorios en las ropas de él. A él lo dejaron irse con normalidad y a ella la detuvieron."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.384225464885866,
+          -34.62609291465033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r34",
+        "Fecha": "2/7/2021",
+        "Hora": "2:49:00",
+        "Barrio": "Villa General Mitre",
+        "Direccion": "Zona Comisaría Vecinal 11A ( Alfredo Bufano 1800)",
+        "Lugar": "en un domicilio o negocio",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Coima - Allanamiento ilegal",
+        "policia_involucrado": "Se negaron a identificarse",
+        "cronica": "El denunciante cuenta que mientras festejaba su cumpleaños en su casa, ubicada cerca de la Comisaría Vecinal 11A, dos policías golpearon a la puerta y entraron a la fuerza al domicilio sin explicar por qué y sin orden judicial. El denunciante y otras personas presentes les pidieron salir a la calle para hablar. Uno de los uniformados salió y el otro se quedó, se sentó y comenzó a proferir exclamaciones de forma prepotente. Luego de aproximadamente veinte minutos de insistentes comentarios intimidatorios que daban a entender que quería dinero, un amigo del denunciante le dio plata al policía. El agente entonces respondió: “entendiste todo”. Luego se fueron del lugar. Ninguno accedió a identificarse."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.473001802973215,
+          -34.61095345354736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r35",
+        "Fecha": "24/11/2021",
+        "Hora": "13:00:00",
+        "Barrio": "Villa Urquiza",
+        "Direccion": "Av. Constituyentes 5.600",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación - Retención injustificada de documentos - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El denunciante es fotógrafo y cotidianamente hace registros de la Ciudad. Ese día se encontraba en el barrio de Villa Urquiza cuando vio un oficial de la policía estacionado con su auto particular (un Audi) sobre la rampa para personas con movilidad reducida, obstruyendo la misma. Junto a él se encontraba otra oficial, una mujer que nunca se identificó (pero que ya conocía). El denunciante sacó una foto al auto y la oficial se bajó y fue a decirle que lo que estaba haciendo era ilegal. El fotógrafo les comentó que esto no era así y que sabía que es su derecho constitucional registrar el accionar de funcionarios públicos. Les mencionó los artículos que lo protegían y le mencionó también que las fotos y videos son una herramienta de defensa legal de los civiles para con las fuerzas de seguridad. Esto disparó la ira de la oficial. Le pidieron su documento de identidad y llamaron a refuerzos. Tanto la oficial como los efectivos que llegaron empezaron a insultarlo y amenazarlo: “Vos sos un ignorante, no sabes nada, no sos nada, no sos nadie, si quiero te desaparezco y a nadie le importa”. “Ya nos vas a llamar llorando y te vamos a dejar irreconocible en una zanja\". El fotógrafo volvió a citarles los artículos y entonces un policía de mayor edad lo trató con respeto pero le dijo que era mentira lo que decía y que los hechos eran como los relataba la fuerza policial. Luego le devolvió el DNI. El denunciante hizo la denuncia en la fiscalía, pero al ver que eso habilitaba a que obtengan sus datos personales, incluyendo el domicilio, le generó miedo a represalias. Refiere que le pasó más de una vez que policías amenacen con desaparecerlo. En otra ocasión, sacando fotos a un edificio, la misma oficial creyó que la estaba fotografiando y también lo increpó."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50160006453872,
+          -34.57464447370968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r36",
+        "Fecha": "25/3/2022",
+        "Hora": "21:00:00",
+        "Barrio": "La Boca",
+        "Direccion": "Brandsen 600",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención",
+        "Nombre": "Puños o patadas - Expulsión del espacio físico - Insultos e intimidación - Impedir grabar - Amenazas",
+        "policia_involucrado": "No se identificaron.",
+        "cronica": "Estaba por comenzar el partido entre Argentina y Venezuela en el estadio de Boca Juniors cuando la policía le impidió el ingreso a un grupo de personas pese a tener la entrada paga, entre los que se encontraba el denunciante. Al generarse un tumulto, la policía comenzó a golpearlos con puños y bastones y a insultar a las personas que reclamaban su ingreso. Luego de unos minutos los apartaron aludiendo que una patrulla estaba en camino para llevarlos detenidos por agredir a la fuerza policial. Ante el pedido para que los efectivos se identifiquen la respuesta fue que no tenían por qué hacerlo y que si sabían leer tenían la identificación en el chaleco. En ese momento la policía comenzó a filmar con flash la cara de las personas diciendo que era para “constatar quienes eran los individuos que los habían agredido”. Cuando le preguntaron dónde iban a mostrar esa filmación no tuvieron respuesta. La persona denunciante alude complicidad entre el club y la policía ya que personas con chaleco naranja e identificación de STAFF les dijeron: “aunque hayan pagado las entradas no iban a poder ingresar porque el estadio estaba colapsado”. Finalmente la patrulla nunca llegó y despues de treinta minutos los dejaron ir. En el momento de irse el denunciante observó una ambulancia que procuraba ingresar a un lugar donde había gente herida producto de la represión pero el propio tumulto y la policía le impidióeron el acceso, a pesar de que el conductor le pedía por favor a la policía que libere el paso para atender a la gente."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.36229122123936,
+          -34.63537914262426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r37",
+        "Fecha": "19/5/2022",
+        "Hora": "16:00:00",
+        "Barrio": "Villa Crespo",
+        "Direccion": "Ramírez de Velasco y Serrano",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedentramiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante cuenta que su hijo fue detenido por polícias que lo amedrentaron diciéndolo que buscaban una persona de su mismo \"colorcito\". Una mujer policía lo hostigó con preguntas y le gritaba de dònde venía, a dónde iba, qué estaba haciendo a esta hora, porque \"justo ayer había pasado un robo y era como vos, morochito\". Cuando el otro policía se da cuenta que es menor, lo deja ir. El chico mide 1.75 metros pero tiene trece años y se asustó mucho."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44009867671021,
+          -34.59471679073782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r38",
+        "Fecha": "6/6/2022",
+        "Hora": "16:30:00",
+        "Barrio": "Boedo",
+        "Direccion": "Av. La Plata 1700",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amenaza",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Estaba volviendo del gimnasio hacia su casa cuando se le acercaron dos hombres vistiendo chalecos de la policía y de mala manera le exigieron que exhiba el DNI. Cuando les preguntó el motivo porque le resulta extraño el requerimiento, el policía le respondió: \"¿qué querés, que te lo pida en tu casa?\".  Luego comenzaron a hacerle distintas preguntas sobre su actividad. Finalmente lo dejaron ir."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.424770161362005,
+          -34.63451003338955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r39",
+        "Fecha": "9/7/2022",
+        "Hora": "11:00:00",
+        "Barrio": "Villa del Parque",
+        "Direccion": "Av. Francisco Beiró y Cuenca",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Detención injustificada - Expulsión del espacio físico - Acoso - Insultos e intimidación - Impedir grabar - Violencia de género",
+        "policia_involucrado": "Óscar  Benítez y  Lucas Pintos",
+        "cronica": "Quién realizó la denuncia es un joven no binarie y su mamá es paciente psiquiátrica. Todo comenzó cuando la mujer fue a hacer un reclamo a un local de artículos electrónicos en Villa del Parque, por un producto que le habían vendido y no funcionaba. En el local se negaron a cambiarlo y, ante la insistencia, quienes atendían llamaron a otra comerciante vecina, que amenazó a la mujer con golpearla. Entonces ella llamó al 911 y, luego de varios intentos en los que le cortaron el teléfono, llegó un patrullero con dos agentes que al intervenir golpearon al padre del denunciante que había llegado al lugar. Al denunciante, por su parte, lo amenazaron con secuestrarle el teléfono por filmar la situación. Unas horas después, luego de que la mujer y su hijo radicaran una denuncia por estafa contra el local, se cruzaron nuevamente con las comerciantes y se generó una situación de violencia. Luego, los mismos agentes que habían estado más temprano en el local, retuvieron a la mujer y al hijo en la vía pública por unas tres horas, tras lo cual los llevaron detenidos a la Comisaria 11B (ex 45). Los alojaron en una celda con otros siete hombres, los dejaron incomunicados, y no les informaron los motivos de la detención. Allí permanecieron por 27 horas. Les imputaron los delitos de robo, lesiones leves y amenazas, cosa de la que tomaron conocimiento posteriormente. El denunciante precisó que ya radicaron la denuncia contra los dos oficiales intervinientes, a los que pudieron identificar, en la Oficina de Transparencia, donde ya hay un expediente. También denunciaron que les hurtaron el acta donde realizaron una primera denuncia por estafa contra el local comercial."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49821256020988,
+          -34.59732292193815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r40",
+        "Fecha": "12/7/2022",
+        "Hora": "16:57:00",
+        "Barrio": "La Boca",
+        "Direccion": "Puente Nicolás Avellaneda",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amenazas - Hostigamiento - Inacción policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante estaba embarazada e iba circulando en una moto con su pareja. Ambos estaban sin casco cruzando el Puente Avellaneda, en La Boca. La policía los frena y uno de los agentes a punta de pistola les exige bajar del vehículo. No los revisan pero labran un acta donde dice que estaban sin casco y sin registro. Les retuvieron la moto, a lo que la denunciante y su pareja no se negaron porque sabían que no correspondía andar sin casco. \nLuego del hecho la mujer contó que intentaron hacer la denuncia en la Comisaria 24 (Actual Comisaría Vecinal 4C) de la Boca, donde rechazaron el pedido, aludiendo que no tomaban denuncias hacia policías. Además, le dijeron que si los lastimaban solo podían llamar al SAME."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.35561821683128,
+          -34.637779074582774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r41",
+        "Fecha": "16/7/2022",
+        "Hora": "15:15:00",
+        "Barrio": "Almagro",
+        "Direccion": "Muñiz e Hipólito Yrigoyen",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención. Policía de la Ciudad.",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El denunciante estaba con su novia y la bebé de ambos cuando vieron sobre la calle Muñiz, entre Irigoyen y Rivadavia, en la vereda del Hospital de Odontología José Dueñas, que varios policías tenían detenido y esposado a un hombre migrante reducido en el suelo. El detenido lloraba y decía que no había hecho nada. El denunciante vio cómo le pegaban la cabeza contra la pared. Intentó, junto con su novia, gritarles que no lo hicieran, pero los efectivos maltrataban a quienes intentaban intervenir. Había un señor que también discutía con los transeúntes y aseguraba que el detenido había entrado a robarle a su casa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42752115494432,
+          -34.614216736527396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r42",
+        "Fecha": "23/7/2022",
+        "Hora": "6:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Lavalle 520",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Tortura",
+        "policia_involucrado": "Patrullero sin patente, ninguno de los policías se identificó.",
+        "cronica": "La denunciante volvía junto a dos amigas de Barhein, salón de baile ubicado en Lavalle 345. Eran aproximadamente las 6 de la mañana (entre las 5:30 y las 6:30 am) y subían por Lavalle hacia la Avenida 9 de julio. A la altura del 520 había un patrullero (sin patente) estacionado sobre la mano derecha y, al pasar, escucharon los gritos de una persona que estaba dentro del vehículo mientras dos efectivos policiales le pegaban. Era un joven de entre 25 y 30 años. Afuera otros tres policías parecían divertirse con la situación. La denunciante y sus amigas interpelaron a los policías, quienes reaccionaron proponiéndoles que actuaran como testigas de un supuesto delito. Ellas se negaron y entonces los efectivos comenzaron a hostigarlas. Decidieron irse. Mientras se alejaban volvieron a escuchar los gritos del joven, a quien siguieron pegándole. Ningún policía se identificó."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37415001718122,
+          -34.60201702728641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r43",
+        "Fecha": "27/7/2022",
+        "Hora": "19:16:00",
+        "Barrio": "Montserrat",
+        "Direccion": "San José y Av. de Mayo",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "Jonatan Escudero",
+        "cronica": "La denunciante iba en un auto de Cabify por la calle San José, acompañada por su madre. Eran las 19.15 y el tráfico estaba detenido, por lo que costaba cruzar Avenida de Mayo. Cuando por fin pudieron llegar a la esquina que juntaba ambas calles, ella vio un grupito de gente que se amontonaba. Algunos filmaban la escena con sus celulares. Luego de unos instantes de confusión logró entender qué sucedía: un policía le pegaba con su bastón a un joven, que apenas atinaba a protegerse con el brazo. Estaban en medio de la calle. Cuando el auto pudo cruzar la denunciante comenzó a filmar con su celular. El policía volvió a golpear ahora más violentamente, mientras el joven retrocedía por la calle San José, hacia Hipólito Yrigoyen. No se defendía. Tampoco contra atacaba. El uniformado pateó algo que había en el piso y le gritó: “Tomatela. Agarrá tus cosas y tomatela”. La denunciante no logró descular qué era aquel bulto. ¿Una mochila? Un nuevo golpe, directo a la cabeza. Muy violento. Ella abrió la puerta del auto para filmar mejor. Le gritó al conductor que parara, pero este le pidió que cerrara y echó a andar. La mamá de la denunciante estaba muy asustada. Los mozos del bar que se encuentra en la esquina de Av. De Mayo y San José miraban los hechos de violencia explícita desde su lugar de trabajo. ¿Qué había pasado? El personal de seguridad del local de comida Mostaza ubicado en esa esquina llamó a la policía porque el joven supuestamente estaba incomodando a los clientes del lugar. El oficial Jonatan Escudero lo golpeó salvajemente y luego lo detuvo a las 19:30 hs. Un día más tarde, siendo las 19:45 hs, el ciudadano es dejado en libertad acusado en una causa penal por “resistencia a la autoridad”. Gracias a la circulación del video que aquí difundimos, el Ministerio de Seguridad hizo trascender que el oficial no actuó bajo protocolo y determinó su pase a disponibilidad. También se abrió una causa penal contra el policía agresor, que tramita en la Fiscalía 11, especializada en Violencia Institucional."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.386287403690396,
+          -34.60919974860438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r44",
+        "Fecha": "14/8/2022",
+        "Hora": "",
+        "Barrio": "Barracas",
+        "Direccion": "Dr. Ramón Carrillo 375",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Disparos con armas de fuego",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un oficial de policía se encontraba en el Servicio 2 del Hospital cumpliendo funciones de consigna de un paciente, es decir había sido asignado al cuidado de esa persona. Se producjo una discusión en el interior del Servicio, entre el paciente y el efectivo y para calmar y disuadir la agresividad del paciente el policía amenazó con su arma y disparó un tiro al suelo. La versión policial afirma (aunque no pudimos conseguir el informe de forma escrita) que el paciente atacó con un chuchillo marca Tramontina al agente, cuasándole una herida en el cuello. Pero según la versión ofrecida por la delegación gremial del Sindicato Único de Trabajadores y Empleados de la CABA, la fuerza le plantó un cuchillo al paciente para justificar la reacción policial. El episodio no fue publicado en ningún medio de comunicación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38309504787148,
+          -34.636523371486724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r45",
+        "Fecha": "8/4/2022",
+        "Hora": "14:00:00",
+        "Barrio": "Parque Chacabuco",
+        "Direccion": "Beauchef y Zuviría",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amenaza",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El denunciante es menor de edad, posee un certificado de discapacidad, y ese día estaba sufriendo un ataque de pánico. Por eso llamó al 911 para que lo asistan y trasladen a su hogar en el barrio de Caballito. Pero los policías de forma agresiva le dijeron que lo iban a llevar a la comisaría. Luego de varias idas y vueltas el denunciante los convenció de que lo llevaran a su casa ya que “era más fácil” y sólo estaba sufriendo de un ataque de ansiedad, no cometiendo un delito. Luego de este episodio el denunciante se comunicó con el 911 para pedir que los policías que habían intervenido no sean enviados cuando solicite ayuda por sus ataques de pánico. Cuenta que llama seguido al 911, tanto para recibir ayuda cuando tiene sus crisis psiquiátricas como para otras situaciones que ve en el barrio, como choques, robos o situaciones de acoso. En una ocasión lo amenazaron con iniciarle una causa judicial por llamar tanto al 911, porque pensaban que los quería engañar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.432215080859685,
+          -34.6285930954372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r46",
+        "Fecha": "1/8/2022",
+        "Hora": "13:30:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Corrientes 3300",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada - Expulsión del espacio físico - Acoso - Insultos e intimidación - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El denunciante iba de regreso a su casa luego de la movilización en Plaza de Mayo por los cinco años de impunidad en el caso de Santiago Maldonado. Cuando salió del Subte B, en la estación Carlos Gardel, se sorprendió al observar que había seis colectivos policiales, quince motos y ocho patrulleros, todos dispuestos sobre el lado impar de la avenida. La policía estaba increpando a la gente, deteniéndola sin aparentes justificativos. Un policía lo empujó y le exigió que camine por la calle. En ese momento el denunciante se dispuso a filmar pero entonces un oficial se acercó y le exigió que muestre el carnet de periodista junto a su documento de identidad. El policía le dijo que era abogado y que no podía filmar. Intentó secuestrar su cámara, pero no lo logró. Luego de unos minutos tensos de discusión, el denunciante logró salir de la situación, llegar a su casa que queda cerca del lugar y filmar otro video. Pasada aproximadamente una hora el operativo continuaba. Cuando volvió a pasar por el lugar rumbo al supermercado dos policías (uno identificado únicamente con chaleco y el otro de civil) lo “ficharon” (es decir lo reconocieron), lo persiguieron y a la salida de las compras lo acompañaron hasta llegar a su domicilio. Por lo que pudo averiguar el operativo era para detener a una persona que había realizado una pintada en la calle. Durante ese momento la policía demoraba injustificadamente a todo aquel que pasaba, particularmente a aquellxs con aspecto “sospechoso”. La mayoría de los oficiales no tenían identificación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.411614108295126,
+          -34.60360721648058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r47",
+        "Fecha": "15/8/2020",
+        "Hora": "19:05:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Suipacha y Lavalle",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Acoso callejero  - Hostigamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El joven denunció que un oficial de la Policía de la Ciudad que está cargo de la vigilancia de la zona de Lavalle y Suipacha acosa sistemáticamete a su novia y que los hostigó de diferentes maneras. Relató que este policía, del que desconoce su nombre y al que caracterizó como de contextura grande, \"pelado\" y “canoso” hizo comentarios obscenos hacia su pareja, en reiteradas ocasiones. También contó que durante la fase 1 de la pandemia los amenazaba con llevarlos presos cuando iban a hacer las compras. Por último, denunció que en una ocasión le pidieron intervención a otros policías de la zona pero éstos no les creyeron e ignoraron su relato."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.379547903690714,
+          -34.602343500466176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r48",
+        "Fecha": "15/8/2022",
+        "Hora": "20:30:00",
+        "Barrio": "Boedo",
+        "Direccion": "Maza 1230",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada, Insultos e intimidación",
+        "policia_involucrado": "Efectivos de la Comisaría 5B.",
+        "cronica": "El denunciante paseaba a su perro por el barrio de Boedo. Bajaba por Avenida San Juan, dobló a la derecha en Maza rumbo a Cochabamba. A 30 metros de la esquina vio a dos policías mujeres que mantenían retenidos a cuatro jóvenes de entre 18 y 23 años. El denunciante se detuvo junto a su perro y otro vecino a observar lo que pasaba. Pronto llegaron patrulleros y cuatriciclos con varios policías. Lo que siguió fue violento: gritos, empujones contra la pared. Dos policías muy agresivos sacaron las tonfas y amenazaron con golpearlos. “Negros de mierda, ustedes no son del barrio, que hacen acá”, les gritaban. Los chicos tomaban unas cervezas en la vereda. Estaban asustados, sin ninguna actitud de resistencia. Les pidieron los documentos, averiguaron antecedentes. No tenían. Los dejaron ir. Los efectivos eran de la Comisaría 5B."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41450661903554,
+          -34.62563545874564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r49",
+        "Fecha": "22/8/2022",
+        "Hora": "20:22:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Juncal y Uruguay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Gases lacrimógenos - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La decisión del Gobierno de la Ciudad de Buenos Aires de vallar las cuatro esquinas que rodean el departamento de la vicepresidenta de la Nación Cristina Fernández de Kirchner el Juncal y Uruguay, barrio de Recoleta, para impedir el acceso de sus seguidores al lugar provocó un enfrentamiento callejero entre los manifestantes y la policía justo antes de anochecer. Los militantes kirchneristas se dieron cita durante la tarde en la plaza Vicente López justo frente al vallado ubicado en Juncal y Montevideo, mientras otros manifestantes se ubicaron frente al vallado de Juncal y Talcahuano. Cuando estaba por caer la noche y era evidente que las negociaciones con las autoridades del Ministerio de Seguridad no iban a llegar a buen puerto, algunos activistas desplazaron las vallas y atravesaron los cordones policiales para acceder al edificio donde su lideresa había quedado aislada. La policía reaccionó arrojando gases lacrimógenos y lanzando agua desde un camión hidrante, además de intentar evitar el ingreso de los manifestantes con empujones y palazos. Sin embargo fueron sobrepasados y tuvieron que replegarse. Detuvieron y golpearon duramente a tres dirigentes de La Cámpora de la Provincia de Buenos Aires, todos ellos funcionarios. Más tarde golpearon y hostigaron al diputado nacional Máximo Kirchner, cuando intentaba acceder a la casa de su madre. En los días siguientes se conocieron públicamente audios policiales donde mostraban un claro odio político respecto de los dirigentes peronistas. También apareció una cartuchera que se le había caído a un efectivo policial en el marco de un forcejeo, cargada con municiones letales lo cuál está prohibido por la ley. Consultado por semejante ilegalidad el Ministro de Seguridad argumentó que fue un error del policía y no del operativo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38758189348182,
+          -34.59273624469421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r50",
+        "Fecha": "7/10/2022",
+        "Hora": "15:00:00",
+        "Barrio": "Villa Lugano, Barrio 20",
+        "Direccion": "Araujo manzana 21 casa 41",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Su hermano tuvo una discusión con un vecino en el barrio 20. La policía intervino con mucha prepotencia y entonces él intentó escapar, corriendo hacia su casa que estaba cerca. A tres casas de su hogar un efectivo lo alcanzó y lo golpeó con tanta saña que le abrieron la cabeza con el garrote (tonfa). La hermana intervino para pedir que no le siguieran pegando pero ella también fue recibida con golpes. Y la detuvieron. Los llevaron a ambos a la Comisaría Vecinal del barrio. A la hermana la soltaron unas horas más tarde. El hermano pasó la noche en una Aicaldía y al día siguiente tuvo una audiencia donde le imputaron el delito de resistencia a la autoridad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46421350327988,
+          -34.672277375485656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r51",
+        "Fecha": "22/10/2022",
+        "Hora": "8:30:00",
+        "Barrio": "Villa del Parque",
+        "Direccion": "Tinogasta 3398",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "Óscar Benítez",
+        "cronica": "Una persona queer no binarie denuncia el acoso policial constante a partir de un conflicto que tuvo su madre con una vecina, que llamó a la policía y los efectivos se llevaron detenida a su mamá. La tuvieron en la Comisaría 11B, en una celda junto con otros detenidos varones. Esa noche la derivaron al hospital Zubizarreta, de Devoto, donde le dieron medicación, pero al llevarla nuevamente a la comisaria los oficiales no le brindaron la medicación prescripta por la psiquiatra del Zubizarreta. Guillermo González, principal de la Comisaría, se quedó con la medicación. Al día siguiente Ramiro habló con el Ministerio de Justicia y Derechos Humanos para asesorarse, ya que en la comisaria no le brindaban información sobre el estado de su madre. A las 7 de la mañana la llevaron a la Fiscalía 24 a declarar. Luego la derivaron al Hospital Moyano, pues la causa fue desestimada por ser paciente psiquiátrica (lo cuál fue determinado por una pericia psicológica). Denunciaron en la Oficina de Transparencia. Y también acudieron al Ministerio Público Fiscal donde tuvieron que prestar declaración testimonial sobre los hechos ocurridos. Intervino la Fiscalía Penal, Contravencional y de Faltas Nº11 de la Unidad Fiscal Este, Beruti 3345 Piso 3, donde entregó su declaración a una auxiliar (Yamila Macri) el 27 de septiembre a las 13 horas. Creyeron que las cosas irían mejor y que la policía sería investigada a profundidad, pero desde que salieron de la Comisaría han sido hostigades y acosades por agentes porteños, entre ellos Ricardo Barreda, quien gritó y amenazó a su papá en la vía púbica porque creía que lo filmaba. Otros oficiales pasan en autos, los miran y se ríen. El accionar policial los expuso a una situación muy dañina moral y éticamente, según la denunciante."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49801547721866,
+          -34.60191393775892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r52",
+        "Fecha": "19/10/2022",
+        "Hora": "12:15:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Estación 9 de julio - Línea D",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detencion de une menor",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 19/10 se dirigia a su trabajo y al pasar por la estación 9 de julio de la linea D para hacer la combinacion entre lnea C y B, ve que habia tres policías, dos hombres y una mujer, y dos personas sentadas que eran un chico de no más de 30 años y una niña menor de edad de aproximadamente 7 años. Ella quiso consultar qué es lo que estaba ocurriendo y fotografio la situación, a lo que la policia le dijo que no podia sacarle fotos porque la niña era menor, ante esto respondió que cómo podía ser que estén deteniendo a una menor. Ella llamó a la policía porque consultó a la gente del subte a qué numero podría llamar y no supieron brindarle ningún numero de utilidad, del llamado surgió que iban a llamar  un móvil para que vaya a contener la situación, cosa que no ocurrió. Fruto de esta situación el policia que salió en la foto comenzó a gritarle por interesarse en lo que estaba ocurriendo. Refiere que la menor estaba asustada y nadie estaba conteniendola, sino que los policías estaban distraídos utilizando el celular."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38001974467582,
+          -34.60431171804191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r53",
+        "Fecha": "24/10/2022",
+        "Hora": "17:32:00",
+        "Barrio": "Floresta",
+        "Direccion": "Magariños y Bahia blanca",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 25 de octubre a la mañana llamó a la Policía de la Ciudad porque en la fachada de su casa habían sacado el medidor de gas y cambiado la cerradura. Llegaron a las 17:30, cuando el denunciante ya se había percatado que la autora de ambos cambios había sido su hermana. Al explicarle a los policías la situación, ellos respondieron de muy mala manera diciendo que no podía llamar a la policia por boludeces y que estaba malgastando recursos del estado. “Me trataron como si no valiese nada, como si no fuese humano”. Eran cinco policías. Uno de ellos lo llevó a la esquina y lo empezó a prepotear. Se acercaba hasta ponerse cara a cara para decirle las cosas de manera irrespetuosa e intimidatoria. Quedó todo filmado por la cámara de seguridad ubicada en ese lugar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49042015500646,
+          -34.620039882430966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r54",
+        "Fecha": "27/10/2022",
+        "Hora": "19:15:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Rodriguez Peña 1022",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante relata que fue testigo de una situación de insultos e intimidación por parte de la Policía de la Ciudad hacia un chico que estaba vendiendo plantas. El hecho fue en la calle Rodriguez Peña camino hacia Marcelo T. de Alvear aproximadamente a las 19:15 horas, mientras ella se dirigia a un supermercado ubicado en esa cuadra. Refiere que ya a mitad de cuadra se escuchaban 5 o 6 efectivos hombres gritando insultos y tratando de manera intimidante a un joven que estaba vendiendo plantas en la vía pública, quien les pedía que lo tratasen como a un ciudadano más. Al salir del supermercado, luego de 15 minutos aproximadamente, seguían agrediendo al joven, a quien habían empujado contra la pared y reducido. La denunciante refiere que no es la primera vez que vive episodios desagradables con la policía por esa zona. Recuerda particularmente un hecho ocurrido el año pasado cuando unos oficiales se acercaron a ella y su grupo de amigos mientras estaban en la Plaza Rodriguez Peña, los amenazaron con encarcelarlos por infringir “la ley de espacios públicos\". Destaca que justamente por esta experiencia previa, sintió miedo de ayudar en esta ocasión."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.392100297840386,
+          -34.59680450712879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r55",
+        "Fecha": "3/11/2022",
+        "Hora": "22:25:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Vicente López 2050",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico - Empujones",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Había 7 u 8 personas esperando por una mesa de un restaurante frente al cementerio de La Recoleta, aproximadamente a las 22:30 horas, cuando se acercó una persona en situación de calle intoxicada y les pidió fuego para prender un cigarrillo. De inmediato se acercó un efectivo de la Policía de la Ciudad y le pidió que se aparte. La persona se separó, pero luego volvió a acercarse dos veces más y a la tercera el policía fue hasta la esquina a buscar a otro compañero que parecía integrante de la fuerza de seguridad pero su uniforme era negro y no estaba identificado. Entonces empezaron a empujar a la persona. La denunciante y sus amigos le pidieron que no lo empujaran así, porque estaban haciendo un uso excesivo de la fuerza. Cuando se acercaron pudieron ver que la persona tenía el ojo lastimado y creen que fue producto de los empujones, ya que cuando anteriormente no tenia ese golpe. El oficial, que no estaba correctamente identificado, de manera prepotente les advirtió que no podían involucrarse y que no podíamos decirles cómo debían hacer su trabajo. Finalmente se llevaron a la persona intoxicada y no saben qué pasó después.",
+        "coordinates": ", "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39388660420233,
+          -34.58914088362582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r56",
+        "Fecha": "9/11/2022",
+        "Hora": "10:15:00",
+        "Barrio": "San Cristóbal",
+        "Direccion": "Catamarca 300",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La hija de quien denuncia, de 13 años, iba camino a tomarse el colectivo 103 por la calle Catamarca al 300 en dirección hacia la calle Moreno. Eran las 10:15 horas de la mañana del martes 8 de noviembre y se acercó un policía que estaba parado en la esquina, para preguntarle si era prostituta."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40640309598178,
+          -34.61353044605014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r57",
+        "Fecha": "23/11/2022",
+        "Hora": "16:45:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Av. Las Heras y Av. Pueyrredón",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Violencia policial indiscriminada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 23 de noviembre a las 16:30 horas en avenida Las Heras del lado par, a media cuadra de Pueyrredón, la denunciante (vecina del barrio de Recoleta) vio un amontonamiento de gente. Al acercarse se percató de que un hombre que ella conocía de haberlo visto deambulando en el barrio y que presumiblemente teía problemas de salud mental estaba siendo reducido por 4 o 5 policías. Cuenta que lo tenían \"retorcido\" en el suelo y le estaban doblando el cuello y el codo. También había dos autos policiales. A todas luces se notaba que era una persona psiquiátrica y los uniformados no parecían tener idea de cómo tratar a una persona en una situación de vulnerabilidad de este estilo. La denunciante se dirigió a una policía mujer, que era teniente y aparentemente tenía algún cargo, y le dijo que no entendía cómo podían tratar así a un ser humano, sin importar qué hubiera hecho. Uno de los policias le gritó, con tono irrespetuoso y luego de haberse quitado el nombre del uniforme: \"cállese la boca señora\". Ella respondió: \"momentito, porque usted está para defendernos a todos, para eso le pagamos, no deshonre su uniforme.\" Cuenta que siempre que se le planta a la policía la terminan tratando bien, por su aspecto y color de piel, pero igualmente le da miedo enfrentarlos. Refiere que nota que la Policia de la Ciudad está \"fatal\" y siempre se la agarran con personas vulnerables."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39727949071096,
+          -34.58734598133688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r58",
+        "Fecha": "6/9/2022",
+        "Hora": "12:00:00",
+        "Barrio": "Constitución",
+        "Direccion": "Santiago del Estero 1506",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 6 de septiembre a las 12 horas efectivos de la Policía de la Ciudad hostigaron y detuvieron injustificadamente a una trabajadora sexual que estaba conversando con un hombre en la calle Santiago del Estero, barrio de Constitución. Según la versión policial desde el sistema de monitoreo alertaron que ella habría entregado algo a una persona, presumiblemente droga. Cuando llegaron al lugar del hecho revisaron a ambos, al hombre y a la trabajadora sexual (quienes operan las cámaras aportaron la vestimenta de la trabajadora), no encontrándole nada a ella y sí seis envoltorios en las ropas de él. Luego de una consulta con la Fiscalía a cargo, al señor lo dejaron irse con normalidad y a ella la detuvieron."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38421974652789,
+          -34.62606640222694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r59",
+        "Fecha": "12/12/2022",
+        "Hora": "11:50:00",
+        "Barrio": "Nuñez",
+        "Direccion": "Estación Nuñez Tren Mitre",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 12 de diciembre a las 11:50 horas en la estación Nuñez del ferrocarril Mitre un chico se subió al tren en el último segundo antes de que cierren las puertas. Pasaron varios minutos y la formación no avanzaba. Hasta que abrieron las puertas y subió un grupo de policías buscando a un presunto ladrón. Una persona señaló al chico que había entrado último y los efectivos le pidieron que baje. El chico con los ojos llenos de lágrimas salió del vagón por sus propios medios y para reducirlo lo golpearon contra un banco de metal. El pibe gritaba y lloraba, entonces la denunciante se levantó a pedir que no lo golpeen pero se cerraron las puertas del tren y no alcanzó a bajarse. No sabe cómo terminó la situación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46268864303861,
+          -34.54882774637002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r60",
+        "Fecha": "20/12/2022",
+        "Hora": "21:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Zona Obelisco",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención",
+        "Nombre": "Disparos con armas de fuego",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policia reprimió los festejos por la victoria de la Selección Argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38153338975758,
+          -34.60281455144229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r61",
+        "Fecha": "20/12/2022",
+        "Hora": "21:30:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Corrientes 999",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Disparos con armas de fuego",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policia reprimió los festejos por la victoria de la Selección Argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38075861769296,
+          -34.60334255434366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r62",
+        "Fecha": "20/12/2022",
+        "Hora": "22:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Lima 339",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "(DOU) Operaciones Urbanas de Contención",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policia reprimió los festejos por la victoria de la Selección Argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38218667351156,
+          -34.61226969322175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r63",
+        "Fecha": "20/12/2022",
+        "Hora": "21:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Obelisco",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policia reprimió los festejos por la victoria de la Selección Argentina de fútbol."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38153823831262,
+          -34.603588687765026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r64",
+        "Fecha": "5/1/2023",
+        "Hora": "21:30:00",
+        "Barrio": "Chacarita",
+        "Direccion": "Giribone 751",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante vio desde su balcón en el barrio de Chacarita cómo la Policía de la Ciudad golpeaba a un chico y le pegaba porque supuestamente había robado una cartera cerca. Le gritaban que se vaya y lo insultaban y pateaban. Luego, se fueron del lugar dejándo al chico tirado y golpeado. Ante ello, la misma denunciante llamó al SAME y lo se llevaron para hacerle un chequeo por los golpes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.453603019806366,
+          -34.58083800644626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r65",
+        "Fecha": "21/1/2023",
+        "Hora": "14:00:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Av. Pueyrredón 1055",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Detención injustificada-  Insultos e intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Detuvieron a un chico joven que se quería subir al colectivo. Dos efectivos de la Policía de la Ciudad lo pusieron contra la pared sin motivo, no lo dejaban irse, pero tampoco hacían nada mas. Cuando el chico se frustró les dijo que si lo iban a detener que lo detuvieran pero los policías sólo lo empujaban para que quedara en la pared. Cuando el joven se cansó de la situación sin explicaciones, les manoteó el pecho y aparecieron dos patrullas y un sinfín de policias. Entre 5 policías lo tiraron al piso, le pegaron y después de un rato lo esposaron. Cuando el chico se paró tenía un tajo en la cara y toda la cabeza sangrando, no podía hablar ni caminar bien."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40343506213291,
+          -34.59770774780635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r66",
+        "Fecha": "14/2/2023",
+        "Hora": "16:50:00",
+        "Barrio": "La Boca",
+        "Direccion": "Aristóbulo del Valle 200",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La calle estaba cortada y la denunciante llegó a la esquina en su auto cuando un policía se acercó enojado, gritándole que no podía pasar y la corrió una cuadra, luego de desenfundar el arma. Ella frenó el auto y el policía comenzó a hostigarla por ser extranjera, con una actitud muy xenófoba. Fue el mismo dia que mataron a la agente policial Maribel Nélida Zalazar en Retiro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.357440317949575,
+          -34.631427053762245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r67",
+        "Fecha": "26/2/2023",
+        "Hora": "0:15:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Marcelo T. De Alvear y Suipacha",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Expulsión del espacio físico- Insultos e intimidación - Impedir grabar",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Una agente de la Policía de la Ciudad golpeó a un hombre mayor en situación de calle al frente de un conjunto de ciudadanos que estaban en un bar con mesas en la calle. Varias de las personas que presenciaron el hecho le exigieron que lo dejara tranquilo y algunos comenzaron a filmar. Frente a esto la policía tiró el celular de una persona que estaba filmando e insultó a otras que intentaban hacer lo mismo. El conflicto se disipó cuando un patrullero con dos agentes tranquilizaron a la policía."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37992103329665,
+          -34.59636776617021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r68",
+        "Fecha": "6/3/2023",
+        "Hora": "7:30:00",
+        "Barrio": "Caballito",
+        "Direccion": "Av. Rivadavia e Hidalgo",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un vendedor ambulante fue agarrado por un Policía de la Ciudad del brazo desde atrás, mientras otros dos lo acorralaban por adelante contra uno de los carteles de publicidad callejera. Las personas que presenciaban el hecho pidieron que no lo trataran así, pero eso generó más efusividad en el abuso contra el trabajador. A los pocos minutos aparecieron 6 policías que llegaron en 3 motos. En ese momento tuvo lugar un forcejeo para esposarlo, hasta que lo lograron. Luego lo subieron al patrullero junto con las mesitas que utilizaba para comerciar, con la intención de llevarlo a la Comisaría 6B. La denunciante se acercó a un policía para preguntar por qué se lo llevaban y le respondieron que era por resistencia a la autoridad, ante lo cual ella y otras personas comenzaron en seguida a manifestar que nunca se había resistido. Mientras la gente más le decía que lo dejaran, más efusividad había en cómo lo apretaban al vendedor. A los minutos aparecieron 6 policías más arriba de 3 motos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43771411795028,
+          -34.618681628390554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r69",
+        "Fecha": "8/3/2023",
+        "Hora": "19:30:00",
+        "Barrio": "Villa Urquiza",
+        "Direccion": "Mendoza y Ávalos",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un vendedor de plantas que suele trabajar en el barrio es atacado por sorpresa y por la espalda por un agente policial que lo empujó y como el vendedor tenía las plantas en el hombro, estas salen volando y se desparraman por el piso. Es ahí donde la persona que brinda testimonio comienza a filmar. Mientras el vendedor preguntaba qué pasaba y por qué lo trataban así, en ningún momento el efectivo le explicó por qué lo agrede. Luego lo tiró al piso y le exigió que se quedara quieto. La persona que filmaba se fue de la situación por miedo a que la detuvieran también, pero luego retornó y vio que había  otros tres policías y un patrullero, mientras el vendedor continuaba retenido."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.483629732992675,
+          -34.57548288199098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r70",
+        "Fecha": "16/3/2023",
+        "Hora": "17:15:00",
+        "Barrio": "Puerto Madero",
+        "Direccion": "Olga Cossettini 730",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial - Acoso",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Frente al Hotel Hilton había 4 Policías de la Ciudad increpando a un vendedor ambulante de plantas. Al preguntar el por qué del operativo no supieron responder con exactitud."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.36367643329607,
+          -34.60588798236393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r71",
+        "Fecha": "23/3/2023",
+        "Hora": "",
+        "Barrio": "Nuñez",
+        "Direccion": "Estadio Monumental",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Golpes - Gases lacrimónegos - Balas de goma",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Luego de horas de espera y una latente tensión, una multitud que no pudo ingresar al estadio, fue reprimida por la Policía de la Ciudad con palos, gases y balas de goma, en el estadio Monumental antes que comience el partido Argentina-Panamá. El origen del conflicto es que cientos de hinchas habrían sido estafados con entradas truchas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44989941197988,
+          -34.542682253567996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r72",
+        "Fecha": "24/3/2023",
+        "Hora": "18:45:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Estacion Agüero de la Línea D",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Al bajar a la estación el denunciante se encontró con un despliegue de unos diez policías que estaban agrediendo a un hombre esposado que gritaba que cesaran con el maltrato y pedían que lo ayuden porque en la comisaría le iban a pegar. Se acercó y el detenido se encontraba en el suelo llorando, mientras un oficial lo tenía maniatado con su pierna y le pedió que dejara de agredrirlo. El hombre detenido le pidió que me comunique con su familia pero los policías no la dejaban hablar con él ni filmar. Finalmente se lo llevaron en un patrullero."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.407135424678096,
+          -34.59120784230576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r73",
+        "Fecha": "3/4/2023",
+        "Hora": "12:20:00",
+        "Barrio": "Mataderos",
+        "Direccion": "General Paz y Juan Manuel de Rosas",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Golpes - Gases lacrimónegos - Balas de goma",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Tras el asesinato del colectivero Daniel Barrientos en el partido bonaerense de La Matanza, trabajadores de la linea 620 se movilizaron en la bajada de General Paz. La presencia del Ministro de Seguridad provincial, Sergio Berni, motivó la reacción violenta de quienes protestaban. Sin que se solicitaran refuerzos, decenas de agentes de la Policía de la Ciudad se hicieron presentes y evacuaron al Ministro agredido hacia el lindante territorio porteño. Como parte de esa operación la policía reprimió con palos, balas de goma y gases a quienes protestaban. En el marco de esa represión se pudo ver cómo un agente policial golpeó salvajemente con un escudo a un trabajador que se acercaba pacíficamente a dialogar con las manos en alto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51838829113091,
+          -34.662340694105296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r74",
+        "Fecha": "5/4/2023",
+        "Hora": "",
+        "Barrio": "Constitución",
+        "Direccion": "Garay y Salta",
+        "Lugar": "en la vía pública y dependencia policial",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial, Detención injustificada",
+        "policia_involucrado": "Subcomisario Rivello",
+        "cronica": "Agentes de la Policía de la Ciudad golpearon a una trabajadora sexual trans que exigía la devolución de su dinero, acusando a los efectivos de haberle robado. Intervino Georgina Orellano, Secretaria General de la Asociación de Mujeres Meretrices de Argentina (AMMAR), a quien invitaron a subirse al patrullero para “acompañarla y calmarla”. Cuando llegaron a la comisaría 1C el Subcomisario Rivello intentó sacarla del patrullero del cuello y al defenderse Orellano fue arrestada por “resistencia a la autoridad”. Varias trabajadoras sexuales se movilizaron para pedir su liberación y la Policía de la Ciudad respondió tirando gas pimienta. Luego de 5 horas de detención injustificada, Orellano fue liberada."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3827828028397,
+          -34.62671390493075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r75",
+        "Fecha": "21/4/2023",
+        "Hora": "18:00:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Facultad de Derecho",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Allanamiento ilegal",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Con la excusa de detener a dos personas que habrían cometido un robo, efectivos de la Policía de la Ciudad ingresaron a la institución universitaria sin orden judicial y armada, violando la autonomía universitaria. Estuvieron casi una hora a pesar que varios estudiantes intentaron resistir el atropello."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39191523167818,
+          -34.58240904401678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r76",
+        "Fecha": "22/4/2023",
+        "Hora": "11:30:00",
+        "Barrio": "Caballito",
+        "Direccion": "Estación Río de Janeiro de la Línea A",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Impedir grabar - Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El sábado 22 de abril del 2023 por la mañana, un policía de la ciudad intentó detener a un hombre que se encontraba junto a sus tres hijas menores de edad. El hombre había intentado pasar los molinetes sin pagar el subte porque no estaba habilitada la cabina. El policía lo increpó y luego apareció una empleada del subte que habilitó la carga. El hombre cargó su SUBE y pasó al subte pagando los boletos, pero el policía insistió con prepotencia. Quiso retenerlo a la fuerza, el hombre lo empujó y así llegaron a la puerta del vagón a empujones, con las niñas en el medio llorando. El policía quería que el hombre bajara a toda costa y no respetó en ningún momento ni a él ni a las niñas que estaban asustadas por la situación de violencia. Las personas que estabamos presentes comenzamos a intervenir porque el policía no cedía y mantenía la formación detenida. Comenzaron a filmar y el policía se puso peor, decía que no podían hacerlo porque es \"una persona\". La situación siguió escalando hasta que vino un segundo policía que tampoco supo qué hacer y finalmente permitieron avanzar al subte luego de que un tercer policía llegara al lugar (también a los gritos, la violencia fue escalando). Este último tuvo que ceder porque las personas en la formación defendieron al hombre, pero la policía insistía en que tenía que bajar y argumentaban que el hombre lo había agredido."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42932639096813,
+          -34.61496841970188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r77",
+        "Fecha": "24/4/2023",
+        "Hora": "",
+        "Barrio": "Constitución",
+        "Direccion": "Independencia y Bernardo de Irigoyen",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Marcelo cartoneaba como cada día con su moto cuando la policía porteña se interpuso en su camino y le pidió el permiso para transportar residuos en seco. Como no contaba con esa habilitación, los agentes le incautaron su vehículo y toda la mercadería que había recolectado durante una larga jornada de 14 horas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38035221980422,
+          -34.61749680211569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r78",
+        "Fecha": "26/4/2023",
+        "Hora": "",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Callao y Av. Corrientes",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Violencia en detención y operativo desmedido de siete oficiales, un patrullero y una moto para detener a un joven que ya había sido esposado por un agente previamente, y a quien durante la detención lo habían asfixiado con brutalidad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.392305275623585,
+          -34.60431997216257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r79",
+        "Fecha": "30/4/2023",
+        "Hora": "",
+        "Barrio": "Constitución",
+        "Direccion": "Santiago del Estero y Av. Juan de Garay",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial - Amedentramiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 30 de abril del 2023 se llevo a cabo un operativo desmedido de más de diez efectivos de la Policía de la Ciudad de Buenos Aires que agredieron y detuvieron a una trabajadora trans como también a las compañeras que estaban filmando. Todo el tiempo durante el cual se llevó a cabo el operativo, los agentes vulneraron su derecho a la identidad de genero."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38436916213116,
+          -34.62684470433389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r80",
+        "Fecha": "1/5/2023",
+        "Hora": "12:00:00",
+        "Barrio": "Caballito",
+        "Direccion": "Parque Centenario",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Agencia Gubernamental de Control (AGC)",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un vendedor ambulante que se había quedado sin empleo quince días antes fue increpado por agentes de  la Agencia Gubernamental de Control (AGC) del Gobierno de la Ciudad de Buenos Aires y luego le incautaron toda la mercadería. El suceso tuvo lugar durante el día del trabajador. Varios vecinos mostraron apoyo para que lo dejaran trabajar, pero el decomiso continuó."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.435403177477426,
+          -34.60585192254318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r81",
+        "Fecha": "2/5/2023",
+        "Hora": "",
+        "Barrio": "Caballito",
+        "Direccion": "Av. Rivadavia y Rojas",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Una persona que se encontraba juntando cartones en la vía pública recibió el hostigamiento de dos agentes quienes intentaron impedirle que siguiera trabajando. Pero la agresión se detuvo cuando un grupo de vecinxs salió en su defensa contra la policía."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44135928911401,
+          -34.62019806984221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r82",
+        "Fecha": "8/5/2023",
+        "Hora": "9:15:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Corrientes y Montevideo",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Varias personas que caminaban por la calle Corrientes presenciaron la detención violenta de un menor de edad en la vía pública. El chico pedía que no lo maltraten pero lo esposaron y mantuvieron maniatado, hasta que se lo llevaron detenido en un patrullero."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38935604678749,
+          -34.60405191754413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r83",
+        "Fecha": "25/5/2023",
+        "Hora": "14:30:00",
+        "Barrio": "Caballito",
+        "Direccion": "Acoyte y Rivadavia",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un joven que vendía paltas en la vía pública fue increpado por dos agentes de la Policía de la Ciudad, que le informan que está prohibida su venta al mismo tiempo que le patean el cajón y las paltas. Este hecho finaliza al involucrarse los vecinos que atestiguaron todo y salieron en su defensa. Esto evitó que les secuestren la mercadería."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43649075361786,
+          -34.61822615176293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r84",
+        "Fecha": "3/6/2023",
+        "Hora": "",
+        "Barrio": "Parque Patricios",
+        "Direccion": "Hospital Garrahan",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un efectivo de la Policía de la Ciudad se hizo presente en el hospital Garrahan mientras se estaba realizando una asamblea de “franqueros” en el marco del plan de lucha que llevaban a cabo por la reducción de la jornada laboral. La intención del policía era amedrentarlos y se dedicó a realizar toda clase de preguntas sobre la asamblea: cuánto tiempo duraría, quiénes eran los responsables, cuál era el motivo, etc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39341275049337,
+          -34.63064400204348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r85",
+        "Fecha": "13/6/2023",
+        "Hora": "15:34:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Pueyrredón 250",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante estaba yendo a la facultad cuando vió un grupo de gente amontanada alrededor de dos jovenes, uno que era claramente menor de edad y otro adolescente probablemente mayor, que estaban llorando desesperados porque unos 15 agentes de la Policáa de la Ciudad de Buenos Aires los habían detenido. Luego los subieron violentamente al patrullero."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40620951795098,
+          -34.60689427572047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r86",
+        "Fecha": "17/6/2023",
+        "Hora": "",
+        "Barrio": "Almagro",
+        "Direccion": "Pringles 340",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El Gobierno de la Ciudad desplegó un gigantezco operativo con el objetivo de desalojar Casa Pringles, un espacio comunitario donde vivían varias familias sin vivienda, funcionaba un merendero, se brindaba apoyo escolar, entre otras actividades sociales y culturales. Ante la solidaridad de vecinxs y militantes populares, la Policía de la Ciudad actuó violentamente reprimiendo con golpes y deteniendo a varias personas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42788427747739,
+          -34.607946838052676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r87",
+        "Fecha": "17/7/2023",
+        "Hora": "",
+        "Barrio": "Balvanera",
+        "Direccion": "Lavalle 1958",
+        "Lugar": "en una dependencia policial",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "Policías de la Comisaría Comunal 3",
+        "cronica": "En una requisa en la Comisaría Comunal 3 agentes policiales golpearon a varios de los detenidos. Algunos de ellos tenían deficiencias cardíacas por lo que tuvieron que ser hospitalizados por las heridas causadas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39469488911496,
+          -34.60322932536384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r88",
+        "Fecha": "21/7/2023",
+        "Hora": "19:30:00",
+        "Barrio": "Palermo",
+        "Direccion": "Estación Plaza Italia de la Línea D de subte",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Agentes de Prevención CABA",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Detuvieron a jóven trabajador de Pedidos Ya por subir con bicicleta al subte.\nLo golperon fuerte en la cabeza y le doblaron piernas y brazos.\nAl ser consultados los efectivos policiales no sabían responder por qué actuaban.\nEran en total 8."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.421640206315296,
+          -34.580955073790236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r89",
+        "Fecha": "1/8/2023",
+        "Hora": "8:15:00",
+        "Barrio": "Belgrano",
+        "Direccion": "Echeverría y Romulo Naon",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Negativa a recibir una denuncia",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El martes 1 de agosto a las 8:15 de la mañana una mujer de mediana edad caminaba con su hija de 8 años para llevarla al colegio. Se dirigía por la calle Rómulo Naon del barrio de Belgrano, y mientras estaba cruzando en la intersección de Echeverría estuvo a punto de ser embestida por un patrullero de la Policía de la Ciudad de Buenos Aires. Logró esquivar el vehículo, protegiendo a su hija y pudo identificar a una mujer policía (de cabello largo y oscuro, 40 años aproximadamente) que conducía el móvil sin sacar la vista del celular. La agente en ningún momento detuvo el auto ante los gritos de la mujer y de la niña ni para disculparse, ni para constatar su estado de salud. Ante esta situación, la denunciante consultó a un agente de una de las garitas de la calle Superí (cercana al lugar del hecho) que le sugirió acercarse a la comisaría vecinal 13C de la calle Mendoza 2263. En la comisaría se negaron a tomarle la denuncia argumentando que ningún patrullero perteneciente a esa dependencia transitó por la zona en el horario señalado."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46960220446193,
+          -34.570901313553136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r90",
+        "Fecha": "2/8/2023",
+        "Hora": "23:15:00",
+        "Barrio": "Flores",
+        "Direccion": "Nazca y Rivadavia",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante estaba comiendo en la pizzería que está en la esquina de las avenidas Nazca y Rivadavia y vio como  jóvenes de entre 15 y 17 años esperaban el colectivo en la parada frente a la vidriera del local. Se acercó un agente de la Policia de la ciudad de Buenos Aires  y comenzó a hablarles de forma prepotente, a juzgar por la gestualidad. Uno a uno los fue señalando para que se pararan contra la pared y los fue requisando. Les pidió los documentos y ellos respondieron que eran menores. Enseguida llegaron varios patrulleros y policías corriendo y empezaron a insultarlos y provocarlos. Hubo corridas. Agredieron físicamente a dos y a uno de los chicos lo tiraron al piso y le pegaron. La testigo filmó y presenció todo desde adentro de la pizzería. No pudo registrar nombres. Los jóvenes eran vecinos porque en cierto momento vino la mamá de uno de ellos y luego de discutir con los agentes, se llevó al hijo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4696310143025,
+          -34.6307055563649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r91",
+        "Fecha": "4/8/2023",
+        "Hora": "0:00:00",
+        "Barrio": "Villa Urquiza",
+        "Direccion": "Plaza Zapiola (Juramento y Donado)",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante iba caminando por la Plaza Zapiola cuando escucha a dos agentes de la Policia de la ciudad de Buenos Aires interrogando a un grupo de chicos menores de edad que estaban sentados en las hamacas de la plaza. Los agentes los intimidaron por estar en las hamacas a esa hora de la noche diciendo que por la edad ellos no podian estar en el espacio publico. La denunciante, que es abogada, comenzó a explicar a los menores y a los agentes no era cierto que habia un limite horario para estar en el espacio publico y  rato los policias se retiraron."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47549871609918,
+          -34.57366595941412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r92",
+        "Fecha": "14/9/2023",
+        "Hora": "21:34:00",
+        "Barrio": "Belgrano",
+        "Direccion": "Juramento casi Cabildo",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Policía le pegó palazos a persona en situación de calle e intentó de detenerla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.455510360281146,
+          -34.5617431418933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r93",
+        "Fecha": "18/9/2023",
+        "Hora": "",
+        "Barrio": "Chacarita",
+        "Direccion": "Av. Dorrego y Av. Corrientes",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El pasado 18/9/2023, una mujer denuncia haber presenciado el maltrato hacia un un joven con discapacidad motriz por parte de la policía de la ciudad. Según la denunciante,  los agentes hicieron  descender a la víctima en la intersección de las avenidas Dorrego y Corrientes. El argumento de los agentes policiales consistía en que el joven estaba haciendo disturbios en el transporte. Algunos testigos refirieron que los efectivos le habrían tirado gas pimienta."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44909103061815,
+          -34.59120593357995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r94",
+        "Fecha": "27/10/2023",
+        "Hora": "14:00:00",
+        "Barrio": "Flores",
+        "Direccion": "Barrio Rivadavia 1 Casa 664",
+        "Lugar": "en un domicilio o negocio",
+        "fuerza_involucrada": "Gendarmería Nacional",
+        "Nombre": "Coima",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Una vecina llamó al 911 por una discusión con un vecino en la que recibió amenazas graves que incluían un hacha. Después de ser entrevistada por personal de Gendarmería Nacional le pidieron que se retire para entrevistar a la otra parte, quien ante la negativa de mostrar el hacha con la que amenazó a la vecina sacó dinero y se lo dio al cabo masculino de Gendarmería que se retiró posterior a recibirlo, suponemos a cambio de no quitarle el instrumento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44111203946666,
+          -34.646579862832056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r95",
+        "Fecha": "2/11/2023",
+        "Hora": "20:00:00",
+        "Barrio": "Palermo",
+        "Direccion": "Av. Lacroze 1820",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El pasado 2/11/2023 a las 20 horas en la avenida Federico Lacroze, una mujer presenció la retención de 3 menores de edad de entre 11 y 13 años por parte de un agente de la policía de la ciudad. El argumento del efectivo fue el presunto robo de un perfume en una farmacia. \nEl policía no vio el supuesto robo, solamente vió a los tres niños caminando con una caja de perfume en la mano. La denunciante refiere que cuando se acercó para ver que estaba sucediendo, el agente  estaba amenazando a los niños con “romperles las piernas” si corrían. Los menores vivían en el barrio Padre Carlos Mugica (ex Villa 31), lugar en el que trabaja la denunciante. Luego de un intercambio de palabras el efectivo permitió que los niños se retiren junto con la denunciante no sin antes insultarlos y amenazarlos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43970746213484,
+          -34.56466268234184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r96",
+        "Fecha": "23/11/2023",
+        "Hora": "10:06:00",
+        "Barrio": "Retiro",
+        "Direccion": "Tres sargentos y Reconquista",
+        "Lugar": "",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El pasado 23/11/2023 a las 10 de la mañana, un hombre vio a efectivos policiales junto con 3 camiones del ministerio de ambiente y espacio público de la ciudad de Buenos Aires, desalojar a 3 jovenes en situación de calle que estaban viviendo en esa esquina."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.372810131442826,
+          -34.59775715339587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r97",
+        "Fecha": "16/12/2023",
+        "Hora": "16:01:00",
+        "Barrio": "Palermo",
+        "Direccion": "Jorge Luis Borges 1795",
+        "Lugar": "",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El pasado 23/11/2023, una persona denuncia que en la plazoleta Julio Cortázar (en las calles Serrano y Honduras), pudo presenciar una situación de violencia y hostigamiento policial por parte de 3 efectivos de la policía de la ciudad (2 mujeres y un varón), hacia un hombre de 30 años aproximadamente que estaba en situación de calle mientras tomaba mates con personas que habían ido a pasear a la plaza. Lo hicieron levantarse y lo empezaron a \"escoltar\" por el medio de la calle para que se vaya, hostigándolo con sus bastones en la mano y caminando cerca de él. Al hombre se le cayó la mochila, se la patearon y lo empujaron. El hombre discutía con ellos y trataba de defenderse y los policías no dejaban de hostigarlo hasta que encontraron el espacio entre un auto y un contenedor de basura y el policía varón golpeó con el bastón. El hombre logró salir de ahí y una de las mujeres le hizo una zancadilla y lo empezaron a golpear en el piso. Logró soltarse y empezó a pedir que filmen y ahí los policías lo tiraron nuevamente en el piso y en el medio de la calle Borges y Costa Rica, en plena esquina, le pegaron en el piso y lo fueron llevando hacia un costado sin dejarlo levantarse. Luego de esto la persona denunciante sintió temor por lo tenso de la situación y se retiró."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42823018911592,
+          -34.58733052243635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r98",
+        "Fecha": "2/2/2024",
+        "Hora": "22:30:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Callao y Sarmiento",
+        "Lugar": "",
+        "fuerza_involucrada": "Agentes de Prevención CABA",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 2 de febrero, en el marco de las movilizaciones en contra de la ley ómnibus, que se estaba tratando en el congreso nacional, y la represión llevada a cabo por las fuerzas de seguridad, una reportera gráfica que estaba participando en la cobertura se contacta con el mapa de la policía par denunciar los siguientes hechos: La denunciante cuenta que luego de cubrir la manifestación el 2 de febrero al retirarse por Avenida Callao llegando a Sarmiento (una cuadra del subte) presenció una detención por parte de la policía que venía de las dos manos de la avenida. Ante este hecho, sacó su celular para filmar e intentar pedir nombres de los detenidos. Se cubrió la boca para protegerse de los posibles gases . Al verla con la boca tapada un policía le bajo la remera con sus manos y ahí la denunciante decide retroceder. Al retroceder cruzó la calle para buscar un lugar seguro y la increparon tres policías varones de la PFA armados agarrándola del cuello y llevándola a la calle Perón donde le revisaron la mochila y le pidieron documentos aislándola durante tres horas sin poder avisarle a nadie donde estaba y tapada y ocultada por el cordón policial junto a las personas detenidas . Ninguna de las personas que los detuvieron se identificó. Durante el tiempo que duro la detención la denunciante estuvo rodeada por agentes mujeres de la policía de la ciudad y también había una persona de civil con una remera de Dragon Ball Z perteneciente a la PFA. le sacaban fotos y se reían todo el tiempo y no respondieron ninguna de las preguntas que les hacia la denunciante. Lxs pusieron contra la pared y lxs fotografiaron a todxs de frente y perfil sin dar explicaciones. Ante reiteradas veces de pedir ir al baño la llevaron escoltada por cuatro policías a un estacionamiento. La tuvieron esposada durante toda la detención. Finalmente pudo aportarle su teléfono a un periodista que logró contactar a sus amigos. En ese momento, al ver que entra en comunicación con alguien deciden liberarla."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39218070445987,
+          -34.60539844382311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r99",
+        "Fecha": "8/2/2024",
+        "Hora": "20:46:00",
+        "Barrio": "Almagro",
+        "Direccion": "Av. Rivadavia 4217",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 8 de febrero de 2024 a las 20:30 horas una mujer que estaba por entrar a su casa vio cómo dos agentes de la Policía de la Ciudad de Buenos Aires le revisaron arbitrariamente la mochila a un señor de avanzada edad. Dentro de la mochila el hombre tenía únicamente ropa de trabajo. La denunciante comentó que cuando los policías vieron que ella estaba observando la situación lo dejaron ir."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.425275262131905,
+          -34.61295518509531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r100",
+        "Fecha": "13/3/2024",
+        "Hora": "5:30:00",
+        "Barrio": "Palermo",
+        "Direccion": "Fray Justo Santa Maria de Oro 2353",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "Patrullero nro 7754 de la Policía de la Ciudad.",
+        "cronica": "El día 13 de marzo de 2024 a las 5:30 horas en la calle Fray Justo Santa Maria de Oro al 2350 mientras llovía una persona dormía en la calle bajo un techo. Arribó al lugar un patrullero de la Policía de la Ciudad de Buenos Aires (patrullero nro 7754) y entre cinco efectivos lo esposaron boca abajo. El hombre gritaba “no hice nada, hace 3 horas que estoy durmiendo aquí”. El denunciante del hecho se despertó con los gritos y lo vio desde su ventana, logró ver que se lo llevaron, pero no pudo identificar si fue dentro del patrullero o caminando."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42576379097013,
+          -34.580714372941564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r101",
+        "Fecha": "14/3/2024",
+        "Hora": "23:59:00",
+        "Barrio": "Palermo",
+        "Direccion": "Fray Justo Santa Maria de Oro 2350",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento policial",
+        "policia_involucrado": "Patrulleros Nro 7755 y 8205 de la Policía de la Ciudad",
+        "cronica": "El día 14 de marzo de 2024 a las 2:30 horas de la madrugada en la calle Fray Justo Santa Maria de Oro al 2350, un hombre vio desde su ventana cómo un grupo de vendedores ambulantes fueron demorados por varios policías de la ciudad de Buenos Aires. Los vendedores intentaban entrar a una casa “tomada” para venderle a la mujer que vive allí en una dinámica común del barrio, cuando fueron encarados por aproximadamente 5 o 6 policías y dos patrulleros (patrulleros Nro 7755 y 8205). No fueron detenidos, pero sí les sacaron fotos y les pidieron sus datos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42597611980638,
+          -34.580631439394864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r102",
+        "Fecha": "27/12/2023",
+        "Hora": "14:30:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Corrientes y Av. Callao",
+        "Lugar": "",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Golpes - Amendrentamiento",
+        "policia_involucrado": "Comisario Hugo Infante",
+        "cronica": "Una  mujer denuncia en la página del mapa de la policía haber sido amedrentada y golpeada por un agente policial  cuando se estaba retirando de la movilización a tribunales en contra del DNU 70/23."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39232673329611,
+          -34.604214002067636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r103",
+        "Fecha": "30/1/2024",
+        "Hora": "1:00:00",
+        "Barrio": "Chacarita",
+        "Direccion": "Frente al cementerio de la Chacarita, cerca de los puestos de flores de la entrada",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Puños o patadas - Gases Lacrimógenos - Amenazas - Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El martes 30/1 a las 13 horas aproximadamente, en Parque los Andes, Chacarita, la policía de la ciudad interviene violentamente en lo que aparentemente era una discusión de una pareja en la vía pública. Los hechos comienzan con la intervención de un efectivo policial en un conflicto entre dos personas, que empieza a subir de tono, llenándose el parque los Andes de agentes de la policía de la ciudad, 25 aproximadamente, algunos de los cuales estaban en cuatriciclo. Los efectivos, golpearon, tiraron gases lacrimógenos, apuntaron con armas desenfundadas a personas que estaban en el parque y se llevaron detenidas a 3 de ellas (1 menor de edad). Una vez que uno de ellos fue liberado realizo una denuncia por violencia institucional. Desde el mapa de la Policia quedamos en contacto permanente con el equipo de Violencia institucional del Ministerio Publico de la defensa de la ciudad de Buenos Aires. Desde el mapa de la policía, contactamos a quien nos hizo llegar la denuncia (con videos adjuntos) con el equipo de violencia institucional del ministerio público de defensa para darle seguimiento al caso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45632314678842,
+          -34.587581988240096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r104",
+        "Fecha": "31/1/2024",
+        "Hora": "20:30:00",
+        "Barrio": "Monsterrat",
+        "Direccion": "Vereda del Cine Gaumont",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Gendarmería Nacional",
+        "Nombre": "Amendrentamiento - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante contó que el 31 de enero del 2024 en el marco del tratamiento de la Ley Ómnibus y de las convocatorias que habían surgido para que la población se manifestara en contra de su aprobación, se acercó con su pareja a las inmediaciones del Congreso. Comentó que la situación estaba tranquila, había mucha presencia policial en la zona, pero que hasta tipo las 19hs la situación no se veía compleja. Cerca de las 20hs la situación empezó a “enrarecerse”, los policías aportados sobre las calles Callao y Avda. Rivadavia comenzaron a moverse para el lado de la plaza de los Dos Congresos y la gente comenzó a inquietarse. Rápidamente la situación se volvió mucho más violenta, los policías comenzaron a subirse a las veredas, en forma de cordón, para arrinconar a la gente sobre las paredes del Cine Gaumount y que quedaran apretadas. Adriana cuenta que pudo zafar de esa situación, pero que cuando quiso salir quedo atrapada entre otras personas que también buscaban salir para el lado de la calle. Ahí relata que quedó encerada en una garita de parada de colectivo sin poder moverse y que por esa situación aún tenía hematomas en el cuerpo. Fue ayudada por otras personas que la rodeaban para salir de este apretujón y luego de eso se alejó de la zona camino a su casa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.389578960278484,
+          -34.60861515664007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r105",
+        "Fecha": "4/4/2024",
+        "Hora": "22:50:00",
+        "Barrio": "Palermo",
+        "Direccion": "Fray Justo Sta. María de Oro 2330",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "Patrulleros nro 8236 y 8125 de la Policía de la Ciudad",
+        "cronica": "El día 4 de abril de 2024 a las 22:50 horas, en la calle Fray Justo Santa Maria de Oro al 2330, un grupo de tres policías detuvo a tres jóvenes, dos de ellos cartoneros, por tener entre sus cosas un cartel de subte viejo. A uno de ellos, que alegaba no tener nada que ver con el tema, lo dejaron ir después de comunicarse con la fiscalía. El denunciante comentó que este estaba \"mejor arreglado\" que los otros dos. Arribaron luego al lugar dos patrulleros (Nro. 8236 y 8125) y una camioneta de la Policía de la Ciudad, llegando a ser un total de ocho efectivos. Se llevaron detenidos a los dos jóvenes cartoneros en uno de los patrulleros, mientras que en la camioneta se llevaron el cartel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42601546213386,
+          -34.58070417294885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r106",
+        "Fecha": "7/5/2024",
+        "Hora": "18:58:00",
+        "Barrio": "Palermo",
+        "Direccion": "Fray Justo Sta. María de Oro 2350",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amendrentamiento - Expulsión del espacio físico",
+        "policia_involucrado": "Patrullero nro 7914 de la Policía de la Ciudad.",
+        "cronica": "El día 7 de mayo de 2024 a las 18:58 horas, en la calle Fray Justo Santa Maria de Oro al 2350, un grupo de 6 policías de una division de Flores increparon a 3 personas en situacion de calle que estaban acostados en colchones en la calle. El denunciante los filmó y habló con los efectivos para que no los expulsen de donde estaban. Contó que le tomaron los datos, pero no los echaron finalmente. El denunciante volvió unas horas después y las 3 personas seguían allí, habiendo ordenado un poco el lugar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.425954662630616,
+          -34.580657939339126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r107",
+        "Fecha": "13/5/2024",
+        "Hora": "8:28:00",
+        "Barrio": "Flores",
+        "Direccion": "Estación Flores del Tren Sarmiento",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Amenazas - Amendrentamiento",
+        "policia_involucrado": "Gonzalo Suárez",
+        "cronica": "El día 13 de mayo a las 8:28 horas, en la estación Flores del tren Sarmiento, el denunciante estaba sentado esperando el tren para ir a trabajar cuando un efectivo de la Policía Federal le pidió el documento de identidad. El denunciante le preguntó el motivo por el cual se lo pedían y el efectivo respondió de mala manera que podía pedirlo siempre. Se acercó en ese momento un segundo policía que según relató el denunciante empezó \"verduguearlo\", haciendo comentarios como que \"lo iban a educar\" y menospreciándolo porque era un civil. A partir de la discusión, uno de los policías le dijo en tono amenazante que en caso de que tuviera antecedentes lo podían retener por 24hs y, si el sistema no funcionase, podrían \"guardarlo\" por 48hs. Se dio una charla tensa. Luego, cuando exhibió el DNI se lo sacaron de la mano violentamente. Finalmente, verificaron que no tenía antecedentes y se fueron."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.465730527681195,
+          -34.627633763516485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r108",
+        "Fecha": "20/12/2023",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza de Mayo",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal, Gendarmería, Prefectura, la Policía de Seguridad Aeroportuaria y el Servicio Penitenciario",
+        "Nombre": "Represión a la protesta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Sin tener jurisdicción, la ministra de Seguridad nacional, Patricia Bullrich, dispuso en la Ciudad de Buenos Aires un megaoperativo represivo con miles de efectivos de las cinco fuerzas federales en una movilización que se dirigía a Plaza de Mayo. El titular de la Policía porteña, Diego Kravetz, expresó su malestar. Más tarde, las autoridades porteñas intentaron apaciguar el conflicto. La realidad es que hubo un nivel de invasión de jurisdicción pocas veces vista. En las 35 páginas de la Orden de Servicio para el operativo hay capítulos asombrosos: El uso de embarcaciones en el Riachuelo / Drones / Perros / En algunos puntos, se ordena la intervención de numerosas brigadas de civil, eso sí, usando chalecos que digan Policía Federal Argentina. En el Puente Pueyrredón, dos grupos de combate, dos unidades de contención, 7 brigadas de civil, un Mando de Apoyo Logístico, vehículos, camiones hidrantes. Durante la marcha, el presidente Milei se hizo presente en el Departamento Central de la Policía Federal y en la llamada Sala de Situación. Desde ahí hizo un simulacro de entender lo que estaba pasando, pero lo fundamental era darle el respaldo al operativo, con las ministras Bullrich y Sandra Pettovello paradas detrás."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37227786991075,
+          -34.60760686179388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r109",
+        "Fecha": "22/12/2023",
+        "Hora": "12:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av. Presidente Julio A. Roca 782",
+        "Lugar": "otro",
+        "fuerza_involucrada": "Infantería - Policía Federal",
+        "Nombre": "Violencia Institucional - Intimidación - Amendrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En medio de un clima de fuerte tensión social, ATE realizaba una actividad en rechazo al DNU de Javier Milei frente al edificio de SOMISA, en la ciudad de Buenos Aires, cuando la Infantería ingresó al lugar. En el edificio funciona la Jefatura de Gabinete de Ministros de Nación. Allí ingresaron los efectivos de la Policía Federal cuando los trabajadores de esa dependencia estaban reunidos para analizar el impacto del decreto en sus fuentes de trabajo. Los empleados estatales se encontraban en alerta porque la Jefatura de Gabinete podría decretar que a partir del 1 de enero, los contratos no sean renovados."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.377159788998746,
+          -34.612493994137694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r110",
+        "Fecha": "27/12/2023",
+        "Hora": "12:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Talcahuano 600",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En la movilización frente a Tribunales los gobiernos nacional y de la CABA fracasaron en su intento de aplicar el “protocolo de orden público”. Luego fue la propia Policía porteña la que cortó Corrientes y amedrentó a quienes transitaban por la vereda. En su violenta arremetida por calles aledañas golpearon a periodistas y detuvieron a varias personas, entre ellas un trabajador de prensa de ATE. Son, por lo menos, 7 las personas detenidas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.384467868594676,
+          -34.601688389229956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r111",
+        "Fecha": "11/01/2024",
+        "Hora": "21:00:00",
+        "Barrio": "Floresta",
+        "Direccion": "Margariños Cervantes 3800",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Intimidación - Amendrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Vecinos y vecinas de la Comuna N°10 denunciaron que efectivos de la Policía de la Ciudad de Buenos Aires irrumpieron en una asamblea que estaban realizando en el barrio de Floresta para organizarse frente a las políticas del presidente Javier Milei. El hecho ocurrió por la noche del martes, y desde la asamblea advirtieron que los agentes les sacaron fotos y les pidieron información sobre la reunión que llevaban a cabo en una de las plazas del barrio. Fuentes de la fuerza porteña reconocieron la presencia policial en la asamblea: aseguraron que sólo fue para \"informar que había una reunión de vecinos\"."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.489250404342094,
+          -34.619055812283335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r112",
+        "Fecha": "18/03/2024",
+        "Hora": "11:30:00",
+        "Barrio": "Barracas",
+        "Direccion": "Puente Pueyrredón",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal, Prefectura Naval Argentina, Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - gas pimienta - balas de goma - golpes - gases lacrimógenos",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Máxima tensión por represión policial a manifestantes en ingresos a CABA.\nLos incidentes se produjeron en la subida del Puente Pueyrredón y el Puente Saavedra. Las organizaciones sociales se movilizaron en el marco de la jornada de protesta “El hambre es el límite” en reclamo de asistencia alimentaria para comedores y merenderos comunitarios, entre otras demandas. Desde minutos después de las 11.30, los manifestantes y las fuerzas de seguridad se encontraron cara a cara. Los efectivos de la Policía Federal y de la Prefectura Naval Argentina utilizaron gas pimienta para recomponer el cordón de las fuerzas policiales. Una situación similar se vivió en Puente Saavedra, cuando efectivos de la Policía de la Ciudad de Buenos Aires arremetieron contra los manifestantes con carros hidrantes y gases lacrimógenos. De la protesta participan la Unión de Trabajadores y Trabajadoras de la Economía Popular (UTEP), la Unidad Piquetera (UP), el Frente de Lucha Piquetero, el Frente de Organizaciones en Lucha (FOL), el Bloque Piquetero Nacional, el Bloque de Organizaciones en lucha, y la organización barrial La Poderosa, entre otras."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37131048776474,
+          -34.654728133418864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r113",
+        "Fecha": "18/03/2024",
+        "Hora": "11:30:00",
+        "Barrio": "Núñez",
+        "Direccion": "Puente Saavedra",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal, Prefectura Naval Argentina, Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - gas pimienta - balas de goma - golpes - gases lacrimógenos",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Máxima tensión por represión policial a manifestantes en ingresos a CABA\nLos incidentes se produjeron en la subida del Puente Pueyrredón, en Avellaneda, y el Puente Saavedra. Las organizaciones sociales se movilizan en el marco de la jornada de protesta “El hambre es el límite” en reclamo de asistencia alimentaria para comedores y merenderos comunitarios, entre otras demandas. Desde minutos después de las 11.30, los manifestantes y las fuerzas de seguridad se encontraron cara a cara. Los efectivos de la Policía Federal y de la Prefectura Naval Argentina utilizaron gas pimienta para recomponer el cordón de las fuerzas policiales. Una situación similar se vivió en Puente Saavedra, cuando efectivos de la Policía de la Ciudad de Buenos Aires arremetió contra los manifestantes con carros hidrantes y gases lacrimógenos. De la protesta participan la Unión de Trabajadores y Trabajadoras de la Economía Popular (UTEP), la Unidad Piquetera (UP), el Frente de Lucha Piquetero, el Frente de Organizaciones en Lucha (FOL), el Bloque Piquetero Nacional, el Bloque de Organizaciones en lucha, y la organización barrial La Poderosa, entre otras."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47540570465604,
+          -34.53939196365963
+        ]
+      }
+    }
+  ]
+}
