@@ -1,0 +1,1117 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features":[
+    {
+      "type": "Feature",
+      "properties": {
+    "Contador": "g1",
+    "Nombre": "Lucas Soria",
+    "Edad": 17,
+    "Año": 2013,
+    "Fecha": "18/11/2013",
+    "cronica": "El 18 de noviembre de 2013, Lucas intentó robarle una cartera a una mujer que iba en un auto y que resultó ser efectiva de la policía Metropolitana. Ella sacó su arma y lo fusiló por la espalda. Él iba desarmado.",
+    "Barrio": "Barrio Cildañez",
+    "Direccion": "Dellepiane y Escalada",
+    "link": "http://www.archivoinfojus.gob.ar/nacionales/cortaron-la-autopista-dellepiane-por-una-denuncia-de-gatillo-facil-2169.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.47293736666879, -34.66223156734974]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g2",
+    "Nombre": "María Delia Esperanza",
+    "Edad": 71,
+    "Año": 2019,
+    "Fecha": "11/6/2019",
+    "cronica": "Los policías Sonia Soloaga y Diego Pachila dieron el alerta de que en una casa de Parque Avellaneda, que tenía la puerta abierta, encontraron los cuerpos sin vida de un matrimonio de ancianos. Un mes después se estableció que fueron ellos quienes entraron a robar a la casa y los mataron.",
+    "Barrio": "Parque Avellaneda",
+    "Direccion": "Eugenio Garzón 3587",
+    "link": "https://www.infobae.com/sociedad/policiales/2019/07/17/detuvieron-a-una-pareja-de-policias-por-el-crimen-de-un-matrimonio-en-parque-avellaneda/",
+    "policia_involucrado": "Sonia Soloaga y Diego Pachila",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.47189226035869, -34.64024153616952]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g3",
+    "Nombre": "Cristhian \"Paragüita\" Toledo Medina",
+    "Edad": 25,
+    "Año": 2017,
+    "Fecha": "15/7/2017",
+    "cronica": "En un semáforo hubo una discusión entre Cristhian, que iba en un auto con dos amigos, y el policía, que los comenzó a perseguir mientras disparaba su arma reglamentaria. Mató a Cristhian y los dos amigos se salvaron de ser ejecutados porque una vez detenidos los autos se acercaron muchos vecinos de la Villa 21-24.",
+    "Barrio": "Barracas",
+    "Direccion": "Villa 21-24",
+    "link": "https://www.tiempoar.com.ar/informacion-general/perpetua-para-el-policia-adrian-otero-por-asesinato-de-cristian-toledo/, https://www.pagina12.com.ar/53672-el-uniformado-que-se-propuso-un-crimen,",
+    "policia_involucrado": "Adrián Otero",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.399519017866325, -34.65534235531898]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g4",
+    "Nombre": "Juan Francisco Ghergo",
+    "Edad": 29,
+    "Año": 2021,
+    "Fecha": "31/5/2021",
+    "cronica": "El policía y el muchacho se citaron en Saavedra por redes porque el primero quería vender su celular. Juan le arrebató el teléfono y corrió. El policía lo persiguió y mató. Según el policía, Juan tenía un arma y le disparó. La autopsia estableció que el jóven murió de un tiro en la espalda.",
+    "Barrio": "Saavedra",
+    "Direccion": "Superí 4200",
+    "link": "https://www.infobae.com/sociedad/policiales/2021/06/01/quien-era-el-ladron-asesinado-por-un-policia-en-saavedra-los-videos-de-los-ataques-a-patrulleros-tras-su-muerte/, https://www.saavedraonline.com.ar/este-era-juan-el-mensaje-sobre-el-vecino-que-murio-baleado-por-un-policia-que-divide-a-saavedra-en-las-redes/,",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.4814942763876, -34.54942916967397]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g5",
+    "Nombre": "Alejandro Miranda",
+    "Edad": 43,
+    "Año": 2017,
+    "Fecha": "28/5/2017",
+    "cronica": "El agente se encuentra imputado por el homicidio de Miranda y fue separado de la fuerza.  De madrugada, Alejandro salió a comprar algo en Lugano. La policia perseguía unos presuntos ladrones a los tiros. Dos disparos lo alcanzaron. Murió tres días después.",
+    "Barrio": "Lugano",
+    "Direccion": "SIN DATOS",
+    "link": "",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.376078813495866, -34.5891139649442]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g6",
+    "Nombre": "Lucas Cabello",
+    "Edad": 20,
+    "Año": 2015,
+    "Fecha": "9/11/2015",
+    "cronica": "El 9 de noviembre de 2015, Lucas Cabello (20 años) tuvo unun cruce de palabras en la puerta de su casa de La Boca con el agente Roberto Ayala, de la policía Metropolitana. Éste efectuó tres disparos en su contra: el primero fue a pocos centímetros y entró por la quijada. Ya en el piso, el oficial lo remató con otros dos disparos. Lucas sobrevivió, quedó cuadripléjico y aún se recupera de severas lesiones.",
+    "Barrio": "La Boca",
+    "Direccion": "Martín Rodríguez al 500",
+    "link": "https://www.lanacion.com.ar/seguridad/hostigamiento-en-la-boca-filmo-al-policia-condenado-por-balearlo-que-violaba-la-restriccion-de-nid19082021/",
+    "policia_involucrado": "Ricardo Ayala",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.36216250521751, -34.632554827752465]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g7",
+    "Nombre": "Adolfo Salguero",
+    "Edad": 44,
+    "Año": 2020,
+    "Fecha": "7/9/2020",
+    "cronica": "Una mujer policía iba en su auto por Ciudad Oculta. Un hombre se acercó a la puerta del acompañante con un arma de juguete. La oficial le disparó dos veces y lo mató. Luego argumentó que el hombre rompió el vidrio de la ventanilla con una piedra y metió medio cuerpo en el auto, pero los peritajes demostraron que el vidrio se rompió de adentro hacia afuera, con los disparos.",
+    "Barrio": "Villa Lugano",
+    "Direccion": "Ciudad Oculta",
+    "link": "https://www.cronica.com.ar/policiales/Mujer-policia-abatio-a-delincuente-que-quiso-robarle-en-Ciudad-Oculta-20200907-0055.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.491373207758755, -34.67090935215032]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g8",
+    "Nombre": "Claudio Romano",
+    "Edad": 35,
+    "Año": 2019,
+    "Fecha": "1/10/2019",
+    "cronica": "Claudio se asomó a la ventanilla de un patrullero y causó heridas leves con una navaja al conductor. Los policías Daniela López, Ramón Pérez y Beatriz Manzanelli le dispararon y cuando estaba en el suelo con varias heridas en pelvis, piernas y pie, que le impedían levantarse, lo remataron.",
+    "Barrio": "Villa Crespo",
+    "Direccion": "Malabia 900",
+    "link": "https://www.telam.com.ar/notas/202010/520563-remisero-asesinado-policia-villa-crespo.html",
+    "policia_involucrado": "Daniela López, Ramón Pérez y Beatriz Manzanelli",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.43423176288942, -34.59520912778812]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g9",
+    "Nombre": "N.N. Masculino",
+    "Edad": 18,
+    "Año": 2017,
+    "Fecha": "23/4/2017",
+    "cronica": "El pibe escapaba de la persecución policial en un auto que había robado. Cuando lo rodearon, terminó con un disparo en la cabeza. La versión oficial fue que se suicidó.",
+    "Barrio": "Lugano",
+    "Direccion": "Barrio Inta",
+    "link": "https://www.clarin.com/policiales/video-tiros-despidieron-lugano-ladron-muerto_0_H1BwnOARx.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.48608768861758, -34.683635743815614]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g10",
+    "Nombre": "Nahuel Acosta",
+    "Edad": 18,
+    "Año": 2019,
+    "Fecha": "7/12/2019",
+    "cronica": "Nahuel y otro joven quisieron robarle la moto al policía en la puerta de la casa de su novia. Nahuel tenía las dos manos sosteniendo la moto, muy pesada para él, y daba la espalda al policía, cuando éste le disparó y lo mató. Estaba desarmado.",
+    "Barrio": "Barracas",
+    "Direccion": "Villa 21-24. Avenida General Iriarte 3400",
+    "link": "http://www.correpi.org/2020/a-un-ano-de-su-fusilamiento-gritamos-nahuel-acosta-presente/, https://www.laizquierdadiario.com/Otro-pibe-asesinado-por-gatillo-facil-en-la-Ciudad",
+    "policia_involucrado": "Daniel Alejandro Lucero Quiroga",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.395837435352114, -34.651383181980115]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g11",
+    "Nombre": "Maximiliano Ezequiel Martínez",
+    "Edad": 25,
+    "Año": 2017,
+    "Fecha": "24/3/2017",
+    "cronica": "El muchacho caminaba por el Bajo Flores cuando le dispararon varias veces desde un auto.\nPersonal de gendarmería persiguió y detuvo a los ocupantes del auto, narcos del barrio, uno de ellos policía.",
+    "Barrio": "Bajo Flores",
+    "Direccion": "Timbó y Carabobo",
+    "link": "https://www.diariojornada.com.ar/183763/policiales/asesinaron_a_un_joven/",
+    "policia_involucrado": "Emanuel González",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.45621825665075, -34.6276122346508]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g12",
+    "Nombre": "Matías Rodríguez",
+    "Edad": 16,
+    "Año": 2018,
+    "Fecha": "25/4/2018",
+    "cronica": "La comunidad educativa de la Escuela Municipal de Enseñanza Media 3 del Distrito Escolar 19 y organizaciones del Bajo Flores denunciaron que el chico fue fusilado por la espalda por el policía  Ángel César Nicolás Santillán y no estaba armado.",
+    "Barrio": "Flores",
+    "Direccion": "Eva Perón y José Martí.",
+    "link": "https://www.tiempoar.com.ar/informacion-general/denuncian-en-flores-otro-caso-de-gatillo-facil-un-policia-mato-a-un-chico-de-16-anos-por-la-espalda/",
+    "policia_involucrado": "Ángel César Nicolás Santillán",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.46384806288658, -34.64420642101406]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g13",
+    "Nombre": "Elías Mareco",
+    "Edad": 17,
+    "Año": 2020,
+    "Fecha": "22/8/2020",
+    "cronica": "La policía de la Ciudad comenzó a perseguir un auto que tenía pedido de secuestro porque lo habían robado más temprano. En la persecución, después de varios choques, de los cinco ocupantes dos quedaron heridos, otros dos fueron detenidos, y el quinto, el más joven de todos y que no estaba armado, murió en el asiento de atrás del auto por los disparos policiales.",
+    "Barrio": "Caballito",
+    "Direccion": "Alberdi y Víctor Martínez",
+    "link": "https://www.clarin.com/policiales/persecucion-tiroteo-delincuente-muerto-caballito_0_JFAQvS6KE.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-34.62365731260766, -58.444991705218]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g14",
+    "Nombre": "Hernán Gómez",
+    "Edad": 27,
+    "Año": 2018,
+    "Fecha": "16/11/2018",
+    "cronica": "El muchacho rompió el vidrio de un auto. La dueña del vehículo, Analía de Jesús Costilla, policía de la Ciudad, le disparó al pecho y lo mató.",
+    "Barrio": "Villa Zabaleta",
+    "Direccion": "Iriarte y Alcorta",
+    "link": "https://www.agenciapacourondo.com.ar/violencia-institucional/gatillo-facil-de-hernan-gomez-la-policia-lo-mato-dos-semanas-despues-que-nos",
+    "policia_involucrado": "Analía de Jesús Costilla",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.405434076381574, -34.64993688331638]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g15",
+    "Nombre": "Pablo Pereyra",
+    "Edad": 39,
+    "Año": 2020,
+    "Fecha": "31/12/2020",
+    "cronica": "Una mujer policía circulaba por el centro de la ciudad en su auto. En Constitución y Presidente Luis Sáenz Peña, una persona aprovechó la ventana abierta para arrebatarle el celular. La mujer bajó del auto y lo corrió una cuadra mientras le disparaba. Una de las balas impactó a un cartonero que estaba trabajando a 100 metros. Murió dos semanas después.",
+    "Barrio": "Monserrat",
+    "Direccion": "Constitución y Presidente Luis Sáenz Peña",
+    "link": "https://www.infobae.com/sociedad/2021/01/13/murio-el-cartonero-que-habia-sido-baleado-por-una-policia-de-la-ciudad-en-constitucion/",
+    "policia_involucrado": "Pablo Facundo Cisneros",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.38712713220874, -34.62463801368421]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g16",
+    "Nombre": "Cristian Spelzini",
+    "Edad": 30,
+    "Año": 2017,
+    "Fecha": "5/7/2017",
+    "cronica": "El 26 de mayo, Cristian estaba en un corte de la avenida Piedrabuena con unos pocos vecinos en protesta por la falta de luz. Desde una camioneta del Gobierno. de la Ciudad, el ex policía, que manejaba, le disparó, perforándole un bazo y pulmón. Luego argumentó que el chico se quiso meter por la ventana para robar, cosa que los demás vecinos niegan. Estuvo internado y le hicieron varias operaciones hasta que falleció.",
+    "Barrio": "Sin datos",
+    "Direccion": "Sin datos",
+    "link": "",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0,0]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g17",
+    "Nombre": "Marcelo Ariel Viveros",
+    "Edad": 25,
+    "Año": 2018,
+    "Fecha": "30/4/2018",
+    "cronica": "A la madrugada, en un tren del Belgrano, dos personas intentaron robarle el celular al policía. Cuando intentaron huir, les disparó y mató a Nahuel, que recibió tres disparos, en la axila, el glúteo y la espalda. El otro fue detenido",
+    "Barrio": "",
+    "Direccion": "Tren Belgrano Norte",
+    "coordinates": "-34.5891139649442, -58.376078813495866",
+    "link": "https://www.diariohuarpe.com/nota/2018-5-22-1-25-4-procesaron-a-un-policia-que-mato-a-un-ladron-que-intento-robarle",
+    "policia_involucrado": "Rubén Jesús Ortega",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-34.74002430894733, -58.28149100679334]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g18",
+    "Nombre": "N.N. Masculino",
+    "Edad": 20,
+    "Año": 2017,
+    "Fecha": "23/7/2017",
+    "cronica": "El dueño de un Peugeot 308 alertó al 911 que le robaron el auto en la Av. Gral. Paz. Hubo una persecución hasta hasta Villa Luro, donde el auto robado chocó. Uno de sus ocupantes murió de un disparo en la cabeza, otro tenía un tiro en el brazo.",
+    "Barrio": "Villa Luro",
+    "Direccion": "Corro y Aranguren",
+    "link": "https://www.clarin.com/policiales/persecucion-tiroteo-choque-villa-luro-ladron-muerto-detenidos_0_ryaX5K7rW.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.49834960521739, -34.63288933945485]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g19",
+    "Nombre": "Matías Alejandro Guerra",
+    "Edad": 22,
+    "Año": 2013,
+    "Fecha": "1/3/2013",
+    "cronica": "El 1 de marzo de 2013, Matías Guerra junto a otra persona intentó robar con un arma un auto y se dieron a la fuga. Fueron perseguidos por el agente Víctor Fausto More, que presenció la escena. Matías, en su desesperación por escapar, introdujo medio cuerpo por la ventanilla del acompañante de un auto que pasaba. Su cuerpo quedó, de forma parcial, sobre el acompañante del vehículo. El policía disparó varias veces. Matías recibió cuatro disparos, dos por la espalda y otros dos con signos de proximidad y de frente. Por eso, a partir de la reconstrucción del crimen, los dos últimos disparos se produjeron cuando Matías yacía herido y desarmado (el arma había quedado en el asiento del auto) en el pavimento. En este sentido, el informe de la autopsia expresó que \"el o los tiradores debieron estar en un plano superior\". No obstante, el policía fue sobreseído.",
+    "Barrio": "Pompeya",
+    "Direccion": "Avenida Facunto Cruz y Gual",
+    "link": "https://www.anred.org/2014/07/18/justicia-para-matias-guerra/",
+    "policia_involucrado": "Policía metropolitano Víctor Fausto More. Situación Procesal: Sobreseído por legítima defensa y cumplimiento de un deber legal, la querella logró revertirlo pero al tiempo lo volvieron a sobreseer.",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-60.70518927655448, -31.627860350584047]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g20",
+    "Nombre": "Dilan Aarón Carpio",
+    "Edad": 16,
+    "Año": 2017,
+    "Fecha": "13/9/2017",
+    "cronica": "Carpio entró a robar a un Carrefour Express junto a otro joven. La Policía llegó al lugar alertada por el 911. Forcejearon. El policía primero le disparó en una mano y Carpio cayó al suelo. El policía lo mató con un disparo en la cabeza.",
+    "Barrio": "San Nicolás",
+    "Direccion": "Viamonte al 300",
+    "link": "https://www.elcohetealaluna.com/asi-mata-la-policia-de-macri/",
+    "policia_involucrado": "Gonzalo José Escobar",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.37130100521939, -34.59944634606655]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g21",
+    "Nombre": "Pablo Nicolás Britos",
+    "Edad": 17,
+    "Año": 2018,
+    "Fecha": "14/10/2018",
+    "cronica": "Inspector Daniel Héctor Oviedo de la Comunal 9B. Situación Procesal: Fue indagado, no tenemos más datos. Circunstancias: El policía disparó siete veces contra el chico, que murió 10 días después",
+    "Barrio": "Sin datos",
+    "Direccion": "Sin datos",
+    "link": "",
+    "policia_involucrado": "Inspector Daniel Héctor Oviedo",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0, 0]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g22",
+    "Nombre": "N.N. Masculino",
+    "Edad": 31,
+    "Año": 2019,
+    "Fecha": "18/10/2019",
+    "cronica": "Dos personas entraron a robar en un local de venta de celulares en Liniers. Cuando escapaban, un policía de la Ciudad que estaba en el local les disparó y mató a uno.",
+    "Barrio": "Liniers",
+    "Direccion": "Rivadavia al 11400",
+    "link": "https://www.telam.com.ar/notas/201910/401439-mujer-efectivo-policia-de-la-ciudad-disparos-ladron-local-liniers.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.52474317401381, -34.63877069084725]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g23",
+    "Nombre": "Diego Villarreal Cabrera",
+    "Edad": 32,
+    "Año": 2017,
+    "Fecha": "18/10/2017",
+    "cronica": "Un grupo de amigos se levantó de la mesa en una pizzería en Constitución, intentando irse sin pagar. Un policía que estaba en el lugar, junto a los custodios privados, y otros cuatro policía que acudieron, detuvieron a uno de ellos y lo golpearon con tal fuerza que murió en el momento.",
+    "Barrio": "Constitución",
+    "Direccion": "Estación Constitución",
+    "link": "https://www.anred.org/2017/10/26/lo-mataron-por-ser-paraguayo-el-crimen-de-diego-villarreal/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.38045043723456, -34.6281673868559]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g24",
+    "Nombre": "Andrés Rodríguez",
+    "Edad": 23,
+    "Año": 2018,
+    "Fecha": "24/2/2018",
+    "cronica": "Cinco jóvenes iban en un auto que la policía comenzó a perseguir a los tiros. Lograron entrar a la guardia del hospital Santojanni. El conductor tenía 4 disparos en la espalda, fue internado y operado. Otros tres escaparon y el quinto quedó muerto en el asiento trasero",
+    "Barrio": "Liniers",
+    "Direccion": "Hospital Santojanni",
+    "coordinates": ", ",
+    "link": "https://www.minutouno.com/sociedad/policiales/tiros-persecucion-y-muerte-el-hospital-santojanni-n3063072",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.51517630521653, -34.64869515084599]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g25",
+    "Nombre": "Alberto Antonio Chirico",
+    "Edad": 71,
+    "Año": 2019,
+    "Fecha": "11/6/2019",
+    "cronica": "Los policías Sonia Soloaga y Diego Pachila dieron el alerta de que en una casa de Parque Avellaneda, que tenía la puerta abierta, encontraron los cuerpos sin vida de un matrimonio de ancianos. Un mes después se estableció que fueron ellos quienes entraron a robar a la casa y los mataron.",
+    "Barrio": "Parque Avellaneda",
+    "Direccion": "Eugenio Garzón 3587",
+    "link": "https://www.infobae.com/sociedad/policiales/2019/07/17/detuvieron-a-una-pareja-de-policias-por-el-crimen-de-un-matrimonio-en-parque-avellaneda/",
+    "policia_involucrado": "Sonia Soloaga y Diego Pachila",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.47191414165767, -34.640191235664275]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g26",
+    "Nombre": "N.N. Masculino",
+    "Edad": "sin datos",
+    "Año": 2020,
+    "Fecha": "27/10/2020",
+    "cronica": "Dos policías y dos civiles resultaron heridos a tiros este martes por la mañana durante una balacera en la que se realizaron al menos 24 disparos y que se inició cuando un hombre le quitó el arma reglamentaria a un agente de Policía de la Ciudad, tras lo cual fue reducido de un balazo y detenido a metros del acceso a la estación de trenes San Martín, del barrio porteño de Retiro.",
+    "Barrio": "Villa 31",
+    "Direccion": "RAMOS MEJIA Y PADRE MUJICA",
+    "link": "https://www.clarin.com/policiales/hombre-robo-arma-policia-comenzo-tiros-retiro-heridos_0_RRlJ_ug5M.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.37332896288972, -34.58995611997175]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g27",
+    "Nombre": "Lucas González",
+    "Edad": 17,
+    "Año": 2021,
+    "Fecha": "17/11/2021",
+    "cronica": "Lucas y sus amigos salían del club Barracas. Pararon el auto frente a un kiosco para bajar a comprar un jugo. Fueron interceptados por un auto sin identificación, con sus ocupantes armados, por lo que trataron de eludirlo. El auto los persiguió, y sus ocupantes, que eran policías de civil, les dispararon. Lucas, que iba en el asiento del acompañante, recibió dos disparos en la cabeza. Los efectivos involucrados en el hecho son Inspector Gabriel Isassi, oficial mayor Fabián López y oficial José Nievas, de la División Sumarios y Brigadas de la Comuna 4.",
+    "Barrio": "Barracas",
+    "Direccion": "Iriarte y Luna",
+    "link": "https://www.pagina12.com.ar/tags/15549-lucas-gonzalez",
+    "policia_involucrado": "Principales imputados: inspector Gabriel Isassi, oficial José Nieva y oficial mayor Fabián López. Otros comisarios procesados: Fabián Du Santos, Juan Romero y Rodolfo Ozan",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.3954519340512, -34.65139788240787]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g28",
+    "Nombre": "N.N. Masculino",
+    "Edad": 29,
+    "Año": 2021,
+    "Fecha": "9/2/2021",
+    "cronica": "Imputados: Policías de la brigada de Robos y Hurtos de la Comisaría Vecinal 14 A de la Policía de la Ciudad.",
+    "Barrio": "",
+    "Direccion": "",
+    "link": "https://tn.com.ar/policiales/2021/09/02/palermo-un-delincuente-intento-robar-una-zapateria-y-se-enfrento-con-la-policia/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0, 0]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g29",
+    "Nombre": "Héctor \"el Zurdo\" Ferreyra",
+    "Edad": 50,
+    "Año": 2019,
+    "Fecha": "26/2/2019",
+    "cronica": "Héctor era una persona en situación de calle. Murió en el marco de un operativo policial para \"limpiar\" la zona de Barrancas de Belgrano. La policía sostuvo que se autolesionó.",
+    "Barrio": "Belgrano",
+    "Direccion": "Barrancas de Belgrano",
+    "link": "https://elgritodelsur.com.ar/2019/09/otra-muerte-situacion-de-calle.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.44923849277066, -34.55981007919497]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g30",
+    "Nombre": "Giovanni Daniel  Yacquez Rodríguez",
+    "Edad": 35,
+    "Año": 2021,
+    "Fecha": "5/3/2021",
+    "cronica": "Fue detenido cuando tuvo un brote a causa de su consumo en casa de la novia y rompió algunas cosas. Aunque el daño es un delito excarcelable, y en el traslado los propios policías dejaron constancia que no estaba lúcido y no reaccionaba, el fiscal de Ciudad ordenó la detención. A las pocas horas de ingresar a la comisaría 9 C lo encontraron ahorcado.",
+    "Barrio": "San Cristóbal",
+    "Direccion": "Alberti 1665",
+    "link": "https://www.pagina12.com.ar/336276-la-muerte-visita-a-menudo-los-calabozos-portenos",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.39995068987825, -34.62903266537524]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g31",
+    "Nombre": "Nicolás Mendoza",
+    "Edad": 16,
+    "Año": 2017,
+    "Fecha": "26/11/2017",
+    "cronica": "En Lugano, a metros de una casilla de gendarmería, el adolescente recibió dos tiros, el segundo por la espalda, disparados por un policía. El pibe no tenía armas y los vecinos aseguran que fue un fusilamiento.",
+    "Barrio": "Lugano",
+    "Direccion": "Escalada y Delepiane",
+    "link": "https://prensaobrera.com/libertades-democraticas/lugano-basta-de-gatillo-facil-justicia-por-nicolas-mendoza/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.47292008987616, -34.66225105366942]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g32",
+    "Nombre": "Bernardo Salgueiro",
+    "Edad": 22,
+    "Año": 2008,
+    "Fecha": "12/7/2008",
+    "cronica": "Murió el 7 de diciembre de 2008 durante la represión conjunta entre la Federal y la Metropolitana para desalojar la toma del Parque Indoamericano por un grupo de familias sin vivienda.",
+    "Barrio": "Soldatti",
+    "Direccion": "Parque Indoamericano",
+    "link": "https://www.cels.org.ar/web/2014/12/cuatro-anos-de-la-toma-del-parque-indoamericano-impunidad-por-los-asesinatos-y-falta-de-respuesta-a-los-problemas-de-vivienda/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.463488376380546, -34.66614878801096]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g33",
+    "Nombre": "Nehuén Rodríguez",
+    "Edad": 18,
+    "Año": 2014,
+    "Fecha": "15/12/2014",
+    "cronica": "El 15 de diciembre de 2014, Nehuén Rodríguez (18 años) manejaba su moto Gilera GLA 110 cuando fue atropellado por una camioneta Ford Ranger de la policía Metropolitana. El móvil policial, que iba a más de cien kilómetros por hora, cruzó el semáforo en rojo y sin accionar la sirena. Nehuén murió dos horas después en el Hopital Argetich. El conductor de la camioneta era el agente Germán Castagnasso, que fue condenado a 3 años de prisión en suspenso y 6 de inhabilitación especial para conducir vehículos. Lo acompañaba el agente Daniel Soria Barba.",
+    "Barrio": "Barracas",
+    "Direccion": "Brandsen y Ramón Carrillo",
+    "coordinates": ", ",
+    "link": "https://www.pagina12.com.ar/98154-el-juicio-por-la-muerte-de-nehuen-rodriguez",
+    "policia_involucrado": "Germán Castagnasso y Soria Barba, condenados a tres años de prisión en suspenso por homicidio culposo agravado",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.38144152055656, -34.638292783110494]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g34",
+    "Nombre": "Cristian Alan Hussain",
+    "Edad": 26,
+    "Año": 2017,
+    "Fecha": "23/6/2017",
+    "cronica": "El muchacho, a pie, se cruzó con el policía, que junto a su pareja, también policía, iba uniformado en su auto por Perito Moreno y Varela. Recibió tres disparos del arma reglamentaria del policía, dos de frente y uno desde atrás. El policía habla de un intento de robo, pero hay testigos que lo desmienten. Cristian no estaba armado.",
+    "Barrio": "Bajo Flores",
+    "Direccion": "Av Perito Moreno y Av Varela",
+    "link": "",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.444498576381484, -34.65098284359689]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g35",
+    "Nombre": "Roberto Claudio Autero",
+    "Edad": 16,
+    "Año": 2015,
+    "Fecha": "7/2/2015",
+    "cronica": "El 7 de febrero de 2015, mientras el policía Sebastián Ezequiel Torres estaba descansando dentro de su vehículo estacionado, Roberto y otros dos jóvenes le golpearon la ventanilla, mostrándole  un arma de juguete. Al advertirlo, el policía sacó su arma reglamentaria y los jóvenes huyeron, el arma se le había trabado. Cuando logró destrabarla, en cuestión de segundos, bajó del automóvil. Desde la vereda, quieto, erguido y parado sobre sus dos piernas, a casi 19 metros de distancia, apuntó a la cabeza de Roberto Claudio Autero –mientras él corría de espaldas– y le disparó un solo tiro, directo a la nuca. El joven cayó al piso y falleció al instante. El proyectil ingresó por la nuca y salió por la frente.",
+    "Barrio": "Caballito",
+    "Direccion": "Rosario al 300, Parque Rivadavia",
+    "link": "https://www.cosecharoja.org/un-policia-debera-explicar-el-crimen-de-un-pibe-de-la-calle/",
+    "policia_involucrado": "agente Sebastián Ezequiel Torres",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.433205076383416, -34.61894823874113]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g36",
+    "Nombre": "N.N. Masculino",
+    "Edad": "",
+    "Año": 2020,
+    "Fecha": "15/8/2020",
+    "cronica": "El oficial Pablo Méndez estaba de civil en la parada de colectivos cuando ocurrió un intento de robo. El policía se identificó y comenzó a dispararle a los ladrones, que habían llegado al lucgar en un Chevrolet Meriva. Uno de los asaltantes quedó tirado dentro del vehículo en que se desplazaban con una herida de bala en el abdomen, por lo que fue trasladado de urgencia al hospital Argerich, donde falleció horas más tarde.",
+    "Barrio": "Nueva Pompeya",
+    "Direccion": "Av La Plata 2369",
+    "coordinates": ",",
+    "link": "https://www.clarin.com/policiales/policia-defendio-robo-pompeya-mato-ladron-quedo-detenido_0__QCzm00w5.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -58.4231649340518, -34.64196597059072]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g37",
+    "Nombre": "N.N. Masculino",
+    "Edad": 15,
+    "Año": 2020,
+    "Fecha": "16/10/2020",
+    "cronica": "Un hombre de 32 años subió a un colectivo 47 en Lugano, junto a un chico de 15. Le robaron el celular a una pasajera y apuntaron al chofer. Una oficial de la policía de la Ciudad, que estaba de franco sentada en el fondo, sacó su arma y disparó dos veces. Un disparo dio en el parabrisas, el otro en el chico. Aunque lograron saltar del colectivo y obligaron a un automovilista a llevarlos al hospital, el joven murió.",
+    "Barrio": "Lugano",
+    "Direccion": "Somellera y Avenida Argentina",
+    "link": "https://www.lt9.com.ar/42676-una-policia-mato-de-un-tiro-a-un-chico-de-15-anos-que-subio-a-robar-a-un-colectivo-en-villa-lugano",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.472258991719734, -34.67222636610412]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g38",
+    "Nombre": "N.N. Masculino",
+    "Edad": "sin datos",
+    "Año": 2016,
+    "Fecha": "3/8/2016",
+    "cronica": "Un patrullero de la Metropolitana comenzó a perseguir un auto con pedido de secuestro en el que iban cuatro chicos. Cuando lo alcanzaron, lo embistieron para detenerlo, y volcó. Como consecuencia del arrollamiento, uno de los pibes murió y los otros tres resultaron heridos.",
+    "Barrio": "Sin datos",
+    "Direccion": "Sin datos",
+    "link": "",
+    "policia_involucrado": "Sin datos",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0, 0]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g39",
+    "Nombre": "Rubén Sarso",
+    "Edad": 30,
+    "Año": 2020,
+    "Fecha": "27/4/2020",
+    "cronica": "En el barrio de Flores, una mujer policía vio a dos jóvenes que intentaban robar la rueda de un auto estacionado. Al darles la voz de alto, corrieron y subieron a un auto. La mujer policía disparó y mató de un tiro en la cabeza al que iba al volante, mientras que su acompañante, que según ella estaba armado, escapó corriendo, pero fue detenido poco después.",
+    "Barrio": "Flores",
+    "Direccion": "Pedernera 900",
+    "link": "https://www.infobae.com/sociedad/policiales/2020/04/28/detuvieron-a-una-policia-de-la-ciudad-de-buenos-aires-que-mato-de-un-tiro-en-la-cabeza-a-un-robaruedas/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.45771672055657, -34.638750628426514]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g40",
+    "Nombre": "N.N. Masculino",
+    "Edad": 25,
+    "Año": 2019,
+    "Fecha": "13/11/2019",
+    "cronica": "Policías que iban en patrullero vieron, cerca de la cancha de San Lorenzo, que dos jóvenes le arrebataban los celulares a dos peatones y huían en un auto en el que había una tercera persona. Después de una persecución hasta Boedo, el auto chocó contra otro estacionado. El conductor estaba muerto por un disparo. Los otros dos fueron detenidos.",
+    "Barrio": "Boedo",
+    "Direccion": "Salcedo 3955 (esq. Quintino Bocayuva)",
+    "link": "https://www.clarin.com/policiales/persecucion-choque-boedo-delincuente-muerto-detenidos_0_LtkEeUTb.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.41999398188494, -34.63431598297378]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g41",
+    "Nombre": "N.N. Masculino",
+    "Edad": "sin datos",
+    "Año": 2022,
+    "Fecha": "17/3/2022",
+    "cronica": "Un hombre murió de un balazo en el tórax en el barrio porteño de Parque Chacabuco tras una persecución policial que comenzó cuando una vecina lo denunció por el robo de su cartera con su teléfono celular y su billetera, informaron hoy fuentes policiales.",
+    "Barrio": "Parque Chacabuco",
+    "Direccion": "Riglos y República",
+    "coordinates": "-34.63338364598145, -58.4344095610431",
+    "link": "https://www.telam.com.ar/notas/202203/586734-un-hombre-murio-tras-una-persecucion-tras-un-robo-en-parque-chacabuco.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-34.74002430894733, -58.28149100679334]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g42",
+    "Nombre": "Bruno Germán Pappa",
+    "Edad": 25,
+    "Año": 2011,
+    "Fecha": "9/8/2011",
+    "cronica": "El 8 de septiembre de 2011, el agente de la Metropolitana, Enzo Fabián Alvarez, persiguió por más de una cuadra a Bruno Germán Pappa luego de que la víctima, en bicicleta, le robara un bolso, en el barrio porteño de Chacarita. Después de alcanzarlo, el policía forcejeó y lo redujo. Cuando Pappa se encontraba en el suelo, le disparó a la cara a una distancia de entre 10 y 15 centímetros. Fue condenado a prisión perpetua.",
+    "Barrio": "Chacarita",
+    "Direccion": "General Juan Gregorio Lemos & Leiva",
+    "link": "https://www.pagina12.com.ar/diario/sociedad/3-271051-2015-04-22.html , https://www.eldestapeweb.com/nota/gatillo-facil-prision-perpetua-para-un-policia-de-la-metropolitana-2015-5-21-19-29-0,",
+    "policia_involucrado": "Agente Enzo Fabián Alvarez",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.447408234055004, -34.589192686405404]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g43",
+    "Nombre": "Ezequiel Foppiano",
+    "Edad": 24,
+    "Año": 2012,
+    "Fecha": "22/11/2012",
+    "cronica": "El 22 de noviembre de 2012, Ezequiel viajó con su madre desde Ezeiza a Parque Chacabuco para una entrevista laboral. Un policía lo confundió con un ladrón y lo mató de un disparo por la espalda.",
+    "Barrio": "Parque Chacabuco",
+    "Direccion": "Parque Chacabuco",
+    "link": "",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.43952900521737, -34.63516011190023]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g44",
+    "Nombre": "Angel Fernando Marabotto Duarte",
+    "Edad": 23,
+    "Año": 2020,
+    "Fecha": "22/9/2020",
+    "cronica": "Cuatro personas se trasladaban en un auto con pedido de captura. Policías en motocicletas los comenzaron a perseguir. Cuando bajaron del auto, uno logró escapar a pie, dos fueron detenidos y el cuarto fue muerto por la espalda",
+    "Barrio": "Chacarita",
+    "Direccion": "Forest y Maure",
+    "link": "https://www.cronica.com.ar/policiales/Chacarita-delincuente-abatido-era-uno-de-los-profugos-de-la-comisaria-de-Jose-C.-Paz-20200924-0014.html",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -58.45219064755052, -34.5870080462452]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g45",
+    "Nombre": "Andrés Vieira",
+    "Edad": 35,
+    "Año": 2018,
+    "Fecha": "2/9/2018",
+    "cronica": "Vieira fue asesinado de cinco balazos en el pecho un día y medio después de denunciar a la Policía de la Ciudad de Buenos Aires por haberlo golpeado y humillado.",
+    "Barrio": "Almagro",
+    "Direccion": "Rivadavia 3600",
+    "link": "https://www.tiempoar.com.ar/politica/denuncio-a-la-policia-por-acoso-y-a-los-dos-dias-aparecio-asesinado/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.41705589172337, -34.61109371163666]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g46",
+    "Nombre": "Rossemary Chura Puña",
+    "Edad": 28,
+    "Año": 2008,
+    "Fecha": "12/7/2008",
+    "cronica": "Murió el 7 de diciembre de 2008 durante la represión conjunta entre la Federal y la Metropolitana para desalojar la toma del Parque Indoamericano por un grupo de familias sin vivienda.",
+    "Barrio": "Soldatti",
+    "Direccion": "Parque Indoamericano",
+    "link": "https://www.cels.org.ar/web/2014/12/cuatro-anos-de-la-toma-del-parque-indoamericano-impunidad-por-los-asesinatos-y-falta-de-respuesta-a-los-problemas-de-vivienda/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.463488376380546, -34.66614878801096]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g47",
+    "Nombre": "Jorge Martín Gómez",
+    "Edad": 42,
+    "Año": 2019,
+    "Fecha": "19/8/2019",
+    "cronica": "El hombre, desorientado y alterado por alguna crisis o brote, caminaba por la calzada, con un cuchillo común de cocina en la mano. Varios policías lo rodearon. Uno de ellos le aplicó una patada al pecho que lo tiró al piso. Golpeó la cabeza con el pavimento y murió.",
+    "Barrio": "San Cristóbal",
+    "Direccion": "Carlos Calvo 2600",
+    "link": "https://www.telam.com.ar/notas/202108/565859-juicio-caba-policia-mato-hombre-patada.htm",
+    "policia_involucrado": "Esteban Armando Ramírez",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.40191246288793, -34.621076924376574]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g48",
+    "Nombre": "Mauro Díaz",
+    "Edad": 36,
+    "Año": 2018,
+    "Fecha": "14/1/2018",
+    "cronica": "Mauro Díaz, de 36, murió baleado cuando tres asaltantes se tirotearon con la policía mientras intentaban robarle el auto.",
+    "Barrio": "Villa Urquiza",
+    "Direccion": "Núñez y Zado",
+    "link": "https://www.pagina12.com.ar/89448-en-medio-de-una-persecucion",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.505295262890904, -34.569350262030135]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g49",
+    "Nombre": "Emilio Canaviri Álvarez",
+    "Edad": 42,
+    "Año": 2008,
+    "Fecha": "12/7/2008",
+    "cronica": "El 7 de diciembre de 2008, cuando estaba dejando el predio ocupado en el Parque Indoamericano, con una bandera en las manos, le dispararon en el pecho. Sus compañeros lo llevaron en remís al Hospital Piñeiro ya que las ambulancias se negaban a entrar al lugar. Murió en la puerta del Hospital. Si bien no se pudo establecer responsabilidad directa de la Metropolitana en los disparos, la policia no garantizó su seguridad durante el operativo por lo que le cabe una responsabilidad por omisión.",
+    "Barrio": "Soldatti",
+    "Direccion": "Parque Indoamericano",
+    "coordinates": "-34.66614878801096, -58.463488376380546",
+    "link": "https://www.cels.org.ar/web/2014/12/cuatro-anos-de-la-toma-del-parque-indoamericano-impunidad-por-los-asesinatos-y-falta-de-respuesta-a-los-problemas-de-vivienda/",
+    "policia_involucrado": "",
+    "fuerza_involucrada": "Policía Metropolitana"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-34.74002430894733, -58.28149100679334]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g50",
+    "Nombre": "Nazareno Maximiliano Galeano",
+    "Edad": 19,
+    "Año": 2017,
+    "Fecha": "11/7/2017",
+    "cronica": "Nazareno fue asesinado tras una persecución que empezó en provincia y terminó en Villa Luro, CABA. Según los testigos, lo fusilaron cuando estaba en el piso, luego de entregarse.",
+    "Barrio": "Villa Luro",
+    "Direccion": "Villa Luro",
+    "link": "",
+    "policia_involucrado": "Agente de la Policia de la Ciudad",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ -58.51102045184476, -34.63490207589081]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g51",
+    "Nombre": "Matías Moyano",
+    "Edad": 28,
+    "Año": 2020,
+    "Fecha": "22/11/2020",
+    "cronica": "Matías, que tenía una evidente discapacidad mental, se acercó a la puerta del Banco Francés empuñando un arma de juguete. Los policías cerraron la puerta del banco y le dispararon dos veces en el abdomen. Falleció horas después en el Hospital pirovano.",
+    "Barrio": "Villa Urquiza",
+    "Direccion": "Tomás Le Breton y Avenida Triunvirato",
+    "coordinates": ", ",
+    "link": "https://www.nueva-ciudad.com.ar/notas/202112/47929-la-legislatura-aprobo-un-proyecto-para-que-la-policia-portena-se-forme-en-discapacidad-y-salud-mental.html",
+    "policia_involucrado": "Agente de la Comisaría 12C de la Policía de la Ciudad",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.49037540184612, -34.57068618226875]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g52",
+    "Nombre": "Eduardo Ramón Ocampo",
+    "Edad": 35,
+    "Año": 2021,
+    "Fecha": "7/12/2021",
+    "cronica": "El 7 de diciembre de 2021, Eduardo Ramón Ocampo fue fusilado por la espalda por el oficial de la Policía de la Ciudad, Juan Federico López. Junto con otra persona, intentó sustraer las pertenencias de López y su novia, pero no lo logró. Eduardo no estaba armado y emprendía la huída cuando el oficial disparó.",
+    "Barrio": "Sin datos",
+    "Direccion": "Sin datos",
+    "link": "https://www.correpi.org/2023/memorias-de-diciembre/#:~:text=El%207%20de%20diciembre%20de%202021%2C%20Eduardo%20Ram%C3%B3n%20Ocampo%20fue,hu%C3%ADda%20cuando%20el%20oficial%20dispar%C3%B3.",
+    "policia_involucrado": "Juan Federico López",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0, 0]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g53",
+    "Nombre": "Facundo Molares Schoenfeld",
+    "Edad": 48,
+    "Año": 2023,
+    "Fecha": "10/8/2023",
+    "cronica": "Facundo, conocido militante popular (MTR Elegimos Luchar) y foto-reportero, participó de una actividad política en la Plaza de la República. Al terminar el acto, cuando desconcentraban pacíficamente, la policía desplegó un operativo represivo. Facundo fue detenido y reducido violentamente (tirado al piso, con policías presionando con sus botas a la altura de los pulmones y causando dificultades para respirar). El stress que produjo esa situación precipitó la muerte de Facundo, que sufría patologías cardíacas previas.",
+    "Barrio": "Monserrat",
+    "Direccion": "Obelisco",
+    "link": "https://revistacrisis.com.ar/notas/quien-mato-facundo",
+    "policia_involucrado": "Agente de la Policía de la Ciudad",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.38165119468282, -34.60390912432964]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g54",
+    "Nombre": "Ricardo Aldo Aparicio",
+    "Edad": 40,
+    "Año": 2023,
+    "Fecha": "24/9/2023",
+    "cronica": "Dos hombres robaron un vehículo de un diplomático turco. Con un operativo cerrojo la policía los ubicó y empredió la persecución. Ricardo Aldo Aparicio, que conducía el auto rocado, chocó con un auto estacionado. La policía lo mató de un tiro en la cabeza.",
+    "Barrio": "Palermo",
+    "Direccion": "Gelly y Salguero",
+    "link": "https://www.infobae.com/sociedad/policiales/2023/09/24/motochorros-le-robaron-el-auto-a-un-diplomatico-turco-en-palermo-la-policia-los-persiguio-y-mato-a-uno-de-los-delincuentes/",
+    "policia_involucrado": "Agente de la Comisaría 14C de la Policía de la Ciudad",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.405527384094846, -34.577428490629906]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "Contador": "g55",
+    "Nombre": "N.N. Masculino",
+    "Edad": "Sin datos",
+    "Año": 2023,
+    "Fecha": "13/4/2023",
+    "cronica": "Dos personas intentaron arrebatarle la mochila a un policía de civil que viajaba en un colectivo de la línea 143, quien se identificó y les apuntó. Ambos saltaron a la calle para huir, el policía disparo y mató a unode ellos.",
+    "Barrio": "Nueva Pompeya",
+    "Direccion": "Bonorino y la Avenida Fernández de la Cruz",
+    "link": "https://tn.com.ar/policiales/2023/04/14/un-policia-mato-a-un-delincuente-que-intento-robarle-la-mochila-mientras-subia-a-un-colectivo/",
+    "policia_involucrado": "Oficial de la comisaría 8A de la Policía de la Ciudad.",
+    "fuerza_involucrada": "Policía de la Ciudad"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.43441190901723, -34.65303788144927]
+  }
+}
+]}
