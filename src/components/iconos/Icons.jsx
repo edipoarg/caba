@@ -29,6 +29,7 @@ import {
   RiSdCardLine,
 } from "react-icons/ri";
 import { PiReadCvLogoBold } from "react-icons/pi";
+import { FiArrowDown } from "react-icons/fi";
 
 const iconComponents = {
   mapa: <TbZoomExclamation />,
@@ -59,6 +60,7 @@ const iconComponents = {
   /* investigaciones */
   autorx: <SlPencil />,
   ilus: <HiOutlinePhoto />,
+  flecha: <FiArrowDown />,
 
   /*Markers*/
   dependencia: <FaMapMarker />,
