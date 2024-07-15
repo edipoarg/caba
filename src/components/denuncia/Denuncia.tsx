@@ -66,7 +66,7 @@ const Denuncia = () => {
           }
         }
       }
-
+      /* Objeto con la data para guardar en airtable */
       const recordData = {
         Fecha: fecha,
         Hora: hora,
