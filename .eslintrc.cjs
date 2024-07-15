@@ -21,6 +21,12 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'linebreak-style': 0,
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        'argsIgnorePattern': '^_'
+      }
+    ],
   },
   parserOptions: {
     project: ['./tsconfig.json'],
