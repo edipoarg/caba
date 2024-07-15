@@ -5,7 +5,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Investigaciones from "./components/Investigaciones/Investigaciones.jsx";
-import Denuncia from "./components/denuncia/Denuncia.jsx";
+import Denuncia from "./components/denuncia/Denuncia";
 import Denuncias from "./components/denuncias/Denuncias.jsx";
 import Recursos from "./components/recursos/Recursos.jsx";
 import Jefatura from "./components/jefatura/Jefatura.jsx";
