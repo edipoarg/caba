@@ -14,10 +14,12 @@ jobs:
         VITE_API_F_KEY: ${{ secrets.VITE_API_F_KEY }}
         VITE_BASE_ID: ${{ secrets.VITE_BASE_ID }}
         VITE_FIREBASE_KEY: ${{ secrets.VITE_FIREBASE_KEY }}
+        VITE_RECAPTCHA_KEY: ${{ secrets.VITE_RECAPTCHA_KEY}}
       run: |
         echo "VITE_API_F_KEY=$VITE_API_F_KEY" >> .env
         echo "VITE_BASE_ID=$VITE_BASE_ID" >> .env
         echo "VITE_FIREBASE_KEY=$VITE_FIREBASE_KEY" >> .env
+        echo "VITE_RECAPTCHA_KEY=$VITE_RECAPTCHA_KEY" >> .env
 
     - uses: actions/checkout@v2
     - name: Install modules
