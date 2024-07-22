@@ -1,20 +1,11 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "./FichaAutorxs.module.css";
-import autorxsData from "../../../data/autorxs.json";
-
-type Autor = {
-  nombre: string;
-  imagen: string;
-  info: string;
-  enlaceVer: string;
-  notas?: string[];
-  twitter?: string;
-};
+import { Autor } from "../../../models/autorxs";
 
 const fetchAutor = async (enlaceVer: string): Promise<Autor | null> => {
   const response = await fetch("data/autorxs.json");
-  const data: typeof autorxsData = await response.json();
+  const data: Autor[] = await response.json();
   // Buscar el autor por el enlaceVer
   return data.find((autor) => autor.enlaceVer === `/${enlaceVer}`) ?? null;
 };
