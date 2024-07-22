@@ -3,7 +3,7 @@ import {
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
-} from "../models/models";
+} from "../models/casos";
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
 import cargos from "../data/cargos.json";
