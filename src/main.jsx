@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { loader as getURLs } from "./components/Loader.jsx";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
@@ -24,19 +23,6 @@ import Organizate from "./components/recurso/Organizate.jsx";
 import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
 import Ahora from "./components/ahora/Ahora.jsx";
 
-const loader = async () => ({
-  urls: await getURLs({
-    casos: "/data/casos.json",
-    barriosCaba: "/data/barriosCaba.json",
-    departamentos: "/data/departamentos.json",
-    caba: "/data/caba.json",
-    laPlata: "/data/laPlata.json",
-    departamentosLaPlata: "/data/departamentosLaPlata.json",
-    dependenciasCaba: "/data/dependenciasCaba.json",
-    gatillo: "/data/gatilloCaba.json",
-  }),
-});
-
 // Not using BrowserRouter because of github pages.
 // https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
 const router = createHashRouter([
@@ -44,11 +30,11 @@ const router = createHashRouter([
     path: "/",
     element: <Root />,
     children: [
-      { path: "/", element: <App />, loader },
-      { path: "/denuncias", element: <Denuncias />, loader },
+      { path: "/", element: <App /> },
+      { path: "/denuncias", element: <Denuncias /> },
       { path: "/denuncia", element: <Denuncia /> },
-      { path: "/recursos", element: <Recursos />, loader },
-      { path: "/investigaciones", element: <Investigaciones />, loader },
+      { path: "/recursos", element: <Recursos /> },
+      { path: "/investigaciones", element: <Investigaciones /> },
       { path: "/jefatura", element: <Jefatura /> },
       { path: "/reportes", element: <Reportes /> },
       { path: "/nosotrxs", element: <Nosotrxs /> },
