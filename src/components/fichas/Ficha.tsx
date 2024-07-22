@@ -9,7 +9,7 @@ import {
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
-} from "../../models/models";
+} from "../../models/casos";
 import cargos from "../../data/cargos.json";
 
 type TipoDeCaso = "dependencias" | "gatillo" | "reportes";

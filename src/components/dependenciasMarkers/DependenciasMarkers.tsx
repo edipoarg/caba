@@ -1,7 +1,7 @@
 import { Marker } from "react-map-gl/maplibre";
 import styles from "./DependenciasMarkers.module.css";
 import Icons from "../iconos/Icons";
-import { CasoDependencia, DataDeCasos } from "../../models/models";
+import { CasoDependencia, DataDeCasos } from "../../models/casos";
 
 type Props = {
   dependencias: DataDeCasos<CasoDependencia>;
