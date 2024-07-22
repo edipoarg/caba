@@ -1,40 +1,36 @@
-// Investigacion.jsx
-
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
 import Nota14 from "../todasInvest/Nota14";
+import { Investigacion as InvestigacionModel } from "../../../models/investigacion";
+
+const fetchInvestigacionByDominio = async (
+  dominio?: string,
+): Promise<InvestigacionModel | null> => {
+  const response = await fetch(`/data/investigaciones.json`);
+  const data: InvestigacionModel[] = await response.json();
+  return data.find((item) => item.dominio === dominio) ?? null;
+};
 
 const Investigacion = () => {
   const { dominio } = useParams();
-  const [investigacion, setInvestigacion] = useState(null);
+  const [investigacion, setInvestigacion] = useState<
+    InvestigacionModel | null | "loading"
+  >("loading");
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`/data/investigaciones.json`); // Ajusta la ruta según tu estructura
-        const data = await response.json();
-        const investigacionSeleccionada = data.find(
-          (item) => item.dominio === dominio,
-        );
-
-        if (investigacionSeleccionada) {
-          setInvestigacion(investigacionSeleccionada);
-        } else {
-          // Manejar el caso donde no se encuentra la investigación con el dominio proporcionado
-        }
-      } catch (error) {
-        console.error("Error al cargar datos:", error);
-      }
-    };
-
-    fetchData();
+    if (dominio !== undefined)
+      fetchInvestigacionByDominio(dominio)
+        .then(setInvestigacion)
+        .catch(() => {
+          setInvestigacion(null);
+        });
   }, [dominio]);
 
-  if (!investigacion) {
-    // Puedes mostrar un mensaje de carga o redirigir a una página de error
-    return <p>Cargando...</p>;
+  if (investigacion === null) {
+    return <p>Error al obtener la investigación</p>;
   }
+  if (investigacion === "loading") return <p>Cargando...</p>;
 
   return (
     <>
@@ -59,7 +55,7 @@ const Investigacion = () => {
           </section>
         </section>
         <section className={styles.textContainer}>
-          <Nota14></Nota14>
+          <Nota14 />
         </section>
       </section>
     </>
