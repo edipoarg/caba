@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
-import LogoMapa from "./LogoMapa";
+import LogoMapa from "../LogoMapa";
 // eslint-disable-next-line no-redeclare
-import Screen from "./Screen";
-import styles from "../styles/Mapa.module.css";
+import Screen from "../Screen";
+import styles from "./Mapa.module.css";
 
 // GEOJSON IMPORTS
 import {
@@ -14,29 +14,29 @@ import {
   caba,
   barriosCaba,
   laPlata,
-  departamentosLaPlata,
-  reportes,
-  gatillo,
-} from "../data/index";
+} from "./geojson-data/index";
+
 import {
   DepsSource,
   CabaSource,
   BarriosCabaSource,
   LaPlataSource,
   DepartamentosLaPlataSource,
-} from "./Sources";
+} from "../Sources";
 
 // MARKERS IMPORTS
-import { dependenciasCaba } from "../data/index";
-import DependenciasMarkers from "./dependenciasMarkers/DependenciasMarkers";
-import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
-import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
+import DependenciasMarkers from "../dependenciasMarkers/DependenciasMarkers";
+import GatilloMarkers from "../gatilloMarkers/GatilloMarkers";
+import ReportesMarkers from "../reportesMarkers/ReportesMarkers";
 
 //Filtros Import
-import Filtros from "./filtros/Filtros";
-import { Caso } from "../models/casos";
-import { Cargo } from "../models/cargos";
-import { getCargos } from "../data/fetching";
+import Filtros from "../filtros/Filtros";
+import { Caso } from "../../models/casos";
+import {
+  CasosDependenciaContext,
+  CasosGatilloContext,
+  CasosReportesContext,
+} from "../../routes/Root";
 
 type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 
@@ -47,19 +47,6 @@ const Mapa = () => {
     if (newFilter === currentFilter) setCurrentFilter("all");
     else setCurrentFilter(newFilter);
   };
-
-  const [cargos, setCargos] = useState<Cargo[] | "loading" | null>("loading");
-
-  useEffect(() => {
-    getCargos()
-      .then((cargos) => {
-        if (cargos) setCargos(cargos);
-        else setCargos(null);
-      })
-      .catch(() => {
-        setCargos(null);
-      });
-  }, []);
 
   // PROPERTIES OF THE MAP
   const mapProps = {
@@ -100,6 +87,26 @@ const Mapa = () => {
   // SCREEN INFO
   const [selectedCase, setSelectedCase] = useState<Caso | null>(null);
 
+  const casosDependencia = useContext(CasosDependenciaContext);
+  const casosReportes = useContext(CasosReportesContext);
+  const casosGatillo = useContext(CasosGatilloContext);
+
+  if (
+    casosDependencia === "loading" ||
+    casosReportes === "loading" ||
+    casosGatillo == "loading"
+  )
+    return <p>Cargando...</p>;
+
+  if (casosDependencia === null)
+    return <p>Ocurrió un error al cargar los datos de dependencias</p>;
+
+  if (casosReportes === null)
+    return <p>Ocurrió un error al cargar los datos de reportes</p>;
+
+  if (casosGatillo === null)
+    return <p>Ocurrió un error al cargar los casos de gatillo fácil</p>;
+
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
@@ -119,7 +126,8 @@ const Mapa = () => {
           {/* Render different button content based on the state */}
           <a
             aria-label="Hide"
-            onClick={() => {
+            onClick={(e) => {
+              e.preventDefault();
               handleClickCloseButton();
               toggleFiltrosVisibility();
             }}
@@ -135,7 +143,7 @@ const Mapa = () => {
             )}
           </a>
         </div>
-        <Screen caso={selectedCase} cargos={cargos} />
+        <Screen caso={selectedCase} />
 
         <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
           <NavigationControl position="top-right" />
@@ -143,12 +151,12 @@ const Mapa = () => {
           <BarriosCabaSource data={barriosCaba} />
           <CabaSource data={caba} />
           <LaPlataSource data={laPlata} />
-          <DepartamentosLaPlataSource data={departamentosLaPlata} />
+          <DepartamentosLaPlataSource data={laPlata} />
 
           {/* Renderiza los marcadores de las dependencias */}
           {(currentFilter === "all" || currentFilter === "dependencias") && (
             <DependenciasMarkers
-              dependencias={dependenciasCaba}
+              dependencias={casosDependencia}
               setSelectedCase={setSelectedCase}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
@@ -157,7 +165,7 @@ const Mapa = () => {
 
           {(currentFilter === "all" || currentFilter === "gatillo") && (
             <GatilloMarkers
-              gatillos={gatillo}
+              gatillos={casosGatillo}
               setSelectedCase={setSelectedCase}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
@@ -166,7 +174,7 @@ const Mapa = () => {
 
           {(currentFilter === "all" || currentFilter === "reportes") && (
             <ReportesMarkers
-              dataDeReportes={reportes}
+              dataDeReportes={casosReportes}
               setSelectedCase={setSelectedCase}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}

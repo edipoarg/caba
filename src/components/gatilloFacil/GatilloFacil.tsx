@@ -1,27 +1,15 @@
-import { useEffect, useState } from "react";
+import { useContext } from "react";
 import styles from "./GatilloFacil.module.css";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
-import { CasoGatillo } from "../../models/casos";
-import { fetchCasosDeGatilloCABA } from "../../data/fetching";
+import { CasosGatilloContext } from "../../routes/Root";
 
 const GatilloFacil = () => {
-  const [cases, setCases] = useState<CasoGatillo[] | "loading" | null>(
-    "loading",
-  );
+  const casesData = useContext(CasosGatilloContext);
 
-  useEffect(() => {
-    fetchCasosDeGatilloCABA()
-      .then((data) => {
-        setCases(data);
-      })
-      .catch(() => {
-        setCases(null);
-      });
-  }, []);
-
-  if (cases === "loading") return <p>Cargando...</p>;
-  if (cases === null) return <p>Error al obtener los casos.</p>;
+  if (casesData === "loading") return <p>Cargando...</p>;
+  if (casesData === null) return <p>Error al obtener los casos.</p>;
+  const cases = casesData.features;
 
   return (
     <>

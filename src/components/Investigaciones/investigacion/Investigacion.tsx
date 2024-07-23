@@ -3,14 +3,7 @@ import { useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
 import Nota14 from "../todasInvest/Nota14";
 import { Investigacion as InvestigacionModel } from "../../../models/investigacion";
-
-const fetchInvestigacionByDominio = async (
-  dominio?: string,
-): Promise<InvestigacionModel | null> => {
-  const response = await fetch(`/data/investigaciones.json`);
-  const data: InvestigacionModel[] = await response.json();
-  return data.find((item) => item.dominio === dominio) ?? null;
-};
+import { fetchInvestigacionByDominio } from "../../../data/fetching";
 
 const Investigacion = () => {
   const { dominio } = useParams();

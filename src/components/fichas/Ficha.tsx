@@ -1,7 +1,4 @@
 import { useParams } from "react-router-dom";
-import dependenciasCaba from "../../data/dependenciasCaba.json";
-import gatilloCaba from "../../data/gatilloCaba.json";
-import reportesCaba from "../../data/reportesCaba.json";
 import styles from "./Ficha.module.css";
 import {
   CasoDependencia,
@@ -10,7 +7,14 @@ import {
   casoIsCasoGatillo,
   casoIsCasoReportes,
 } from "../../models/casos";
-import cargos from "../../data/cargos.json";
+import { Cargo } from "../../models/cargos";
+import { useContext } from "react";
+import {
+  CargosContext,
+  CasosDependenciaContext,
+  CasosGatilloContext,
+  CasosReportesContext,
+} from "../../routes/Root";
 
 type TipoDeCaso = "dependencias" | "gatillo" | "reportes";
 
@@ -33,32 +37,60 @@ const titleByTipoCaso: Record<TipoDeCaso, string> = {
   reportes: "Reporte de violencia policial",
 };
 
-const dataByTipoCaso: Record<TipoDeCaso, DataDeCasos> = {
-  gatillo: gatilloCaba,
-  dependencias: dependenciasCaba,
-  reportes: reportesCaba,
-};
-
-const getOfficerDataByDependencia = (dependencia: CasoDependencia) => {
-  const associatedOfficer = cargos.find(
-    (cargo) => cargo.C_Dependencia === dependencia.properties.Nombre,
-  );
-  if (associatedOfficer === undefined) return null;
-  return {
-    nombreCompleto: associatedOfficer.C_Efectivo_AyN,
-    lps: associatedOfficer.C_LPS,
-    grado: associatedOfficer.C_GRADO,
-    desde: associatedOfficer.C_Desde_Cargo,
-    hasta: associatedOfficer.C_Hasta_Cargo,
-    email: associatedOfficer.C_Correo,
+const getOfficerDataByDependencia =
+  (cargos: Cargo[]) => (dependencia: CasoDependencia) => {
+    const associatedOfficer = cargos.find(
+      (cargo) => cargo.C_Dependencia === dependencia.properties.Nombre,
+    );
+    if (associatedOfficer === undefined) return null;
+    return {
+      nombreCompleto: associatedOfficer.C_Efectivo_AyN,
+      lps: associatedOfficer.C_LPS,
+      grado: associatedOfficer.C_GRADO,
+      desde: associatedOfficer.C_Desde_Cargo,
+      hasta: associatedOfficer.C_Hasta_Cargo,
+      email: associatedOfficer.C_Correo,
+    };
   };
-};
 
 const Ficha = () => {
   const { Contador: contador } = useParams();
+
+  const cargos = useContext(CargosContext);
+  const casosDependencia = useContext(CasosDependenciaContext);
+  const casosReportes = useContext(CasosReportesContext);
+  const casosGatillo = useContext(CasosGatilloContext);
+
+  if (
+    cargos === "loading" ||
+    casosDependencia === "loading" ||
+    casosReportes === "loading" ||
+    casosGatillo == "loading"
+  )
+    return <p>Cargando...</p>;
+
+  if (cargos === null)
+    return <p>Ocurrió un error al cargar los datos de cargos</p>;
+
+  if (casosDependencia === null)
+    return <p>Ocurrió un error al cargar los datos de dependencias</p>;
+
+  if (casosReportes === null)
+    return <p>Ocurrió un error al cargar los datos de reportes</p>;
+
+  if (casosGatillo === null)
+    return <p>Ocurrió un error al cargar los casos de gatillo fácil</p>;
+
   if (contador === undefined) return <div>URL inválido (sin contador).</div>;
   const tipoCaso = getTipoDeCasoByContadorParam(contador);
   if (tipoCaso === "no encontrado") return <div>Tipo de caso inválido.</div>;
+
+  const dataByTipoCaso: Record<TipoDeCaso, DataDeCasos> = {
+    gatillo: casosGatillo,
+    dependencias: casosDependencia,
+    reportes: casosReportes,
+  };
+
   const dataDelTipoDelCaso = dataByTipoCaso[tipoCaso];
   const caso = dataDelTipoDelCaso.features.find(
     // "contador" es el ID del caso
@@ -66,7 +98,7 @@ const Ficha = () => {
   );
   if (!caso) return <div>Caso no encontrado.</div>;
   const dependenciaOfficerData = casoIsCasoDependencia(caso)
-    ? getOfficerDataByDependencia(caso)
+    ? getOfficerDataByDependencia(cargos)(caso)
     : null;
   const thereIsPoliceData =
     dependenciaOfficerData !== null ||
