@@ -1,7 +1,7 @@
 import styles from "./Investigaciones.module.css";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
-import Mapa from "../Mapa";
+import Mapa from "../Mapa/Mapa";
 
 const tituloNotaPrincipal = "Trans, migrante y peligrosa";
 const fechaUltimoReporte = "08/05/2024";

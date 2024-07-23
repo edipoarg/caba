@@ -2,12 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./TodasInvestigaciones.module.css"; // Ajusta la ruta según sea necesario
 import { Investigacion } from "../../../models/investigacion";
-
-const fetchInvestigaciones = async (): Promise<Investigacion[] | null> => {
-  const response = await fetch(`/data/investigaciones.json`);
-  const data: Investigacion[] = await response.json();
-  return data;
-};
+import { fetchInvestigaciones } from "../../../data/fetching";
 
 const TodasInvestigaciones = () => {
   const [investigaciones, setInvestigaciones] = useState<

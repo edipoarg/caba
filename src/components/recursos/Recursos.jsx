@@ -1,7 +1,7 @@
 import Icons from "../iconos/Icons";
 import { Link } from "react-router-dom";
 import styles from "./Recursos.module.css";
-import Mapa from "../Mapa";
+import Mapa from "../Mapa/Mapa";
 
 const recursosItems = [
   {

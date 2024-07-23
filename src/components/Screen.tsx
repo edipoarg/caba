@@ -7,6 +7,8 @@ import {
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
 import { Cargo } from "../models/cargos";
+import { useContext } from "react";
+import { CargosContext } from "../routes/Root";
 
 // Función para recortar texto si supera el límite de caracteres
 const truncateText = (text: string | null, maxLength: number): string => {
@@ -19,7 +21,6 @@ const truncateText = (text: string | null, maxLength: number): string => {
 
 type Props = {
   caso: Caso | null;
-  cargos: Cargo[] | "loading" | null;
 };
 
 type ScreenData = {
@@ -78,9 +79,12 @@ const getScreenDataForCase =
 
 // Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
 // eslint-disable-next-line no-redeclare
-const Screen = ({ caso, cargos }: Props) => {
+const Screen = ({ caso }: Props) => {
+  const cargos = useContext(CargosContext);
   if (cargos === "loading") return <p>Cargando...</p>;
-  if (cargos === null) return <p>Error cargando data</p>;
+  if (cargos === null)
+    return <p>Ocurrió un error al cargar los datos de la página</p>;
+
   const screenData = getScreenDataForCase(cargos)(caso);
   const {
     title,
