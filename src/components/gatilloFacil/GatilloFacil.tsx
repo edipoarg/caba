@@ -3,12 +3,7 @@ import styles from "./GatilloFacil.module.css";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
 import { CasoGatillo } from "../../models/casos";
-
-const fetchGatilloCABA = async (): Promise<CasoGatillo[] | null> => {
-  const response = await fetch("data/gatilloCaba.json");
-  const data: { features: CasoGatillo[] } | undefined = await response.json();
-  return data?.features ?? null;
-};
+import { fetchCasosDeGatilloCABA } from "../../data/fetching";
 
 const GatilloFacil = () => {
   const [cases, setCases] = useState<CasoGatillo[] | "loading" | null>(
@@ -16,7 +11,7 @@ const GatilloFacil = () => {
   );
 
   useEffect(() => {
-    fetchGatilloCABA()
+    fetchCasosDeGatilloCABA()
       .then((data) => {
         setCases(data);
       })
