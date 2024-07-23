@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -35,6 +35,8 @@ import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
 //Filtros Import
 import Filtros from "./filtros/Filtros";
 import { Caso } from "../models/casos";
+import { Cargo } from "../models/cargos";
+import { getCargos } from "../data/fetching";
 
 type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 
@@ -45,6 +47,19 @@ const Mapa = () => {
     if (newFilter === currentFilter) setCurrentFilter("all");
     else setCurrentFilter(newFilter);
   };
+
+  const [cargos, setCargos] = useState<Cargo[] | "loading" | null>("loading");
+
+  useEffect(() => {
+    getCargos()
+      .then((cargos) => {
+        if (cargos) setCargos(cargos);
+        else setCargos(null);
+      })
+      .catch(() => {
+        setCargos(null);
+      });
+  }, []);
 
   // PROPERTIES OF THE MAP
   const mapProps = {
@@ -120,7 +135,7 @@ const Mapa = () => {
             )}
           </a>
         </div>
-        <Screen caso={selectedCase} />
+        <Screen caso={selectedCase} cargos={cargos} />
 
         <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
           <NavigationControl position="top-right" />
