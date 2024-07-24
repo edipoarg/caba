@@ -1,41 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { loader as getURLs } from "./components/Loader.jsx";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Investigaciones from "./components/Investigaciones/Investigaciones.jsx";
+import Investigaciones from "./components/Investigaciones/Investigaciones";
 import Denuncia from "./components/denuncia/Denuncia";
-import Denuncias from "./components/denuncias/Denuncias.jsx";
-import Recursos from "./components/recursos/Recursos.jsx";
-import Jefatura from "./components/jefatura/Jefatura.jsx";
-import Reportes from "./components/reportes/Reportes.jsx";
-import Nosotrxs from "./components/us/Nosotrxs.jsx";
-import Menu from "./components/menu/Menu.jsx";
-import GatilloFacil from "./components/gatilloFacil/GatilloFacil.jsx";
-import Podcast from "./components/podcast/Podcast.jsx";
-import Recurso from "./components/recurso/Recurso.jsx";
-import Autorxs from "./components/Investigaciones/autorxs/Autorxs.jsx";
-import FichaAutorxs from "./components/Investigaciones/autorxs/FichaAutorxs.jsx";
-import Investigacion from "./components/Investigaciones/investigacion/Investigacion.jsx";
-import Root from "./routes/Root.jsx";
+import Denuncias from "./components/denuncias/Denuncias";
+import Recursos from "./components/recursos/Recursos";
+import Jefatura from "./components/jefatura/Jefatura";
+import Reportes from "./components/reportes/Reportes";
+import Nosotrxs from "./components/us/Nosotrxs";
+import Menu from "./components/menu/Menu";
+import GatilloFacil from "./components/gatilloFacil/GatilloFacil";
+import Podcast from "./components/podcast/Podcast";
+import Recurso from "./components/recurso/Recurso";
+import Autorxs from "./components/Investigaciones/autorxs/Autorxs";
+import FichaAutorxs from "./components/Investigaciones/autorxs/FichaAutorxs";
+import Investigacion from "./components/Investigaciones/investigacion/Investigacion";
+import Root from "./routes/Root";
 import Ficha from "./components/fichas/Ficha";
-import Organizate from "./components/recurso/Organizate.jsx";
-import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
-import Ahora from "./components/ahora/Ahora.jsx";
-
-const loader = async () => ({
-  urls: await getURLs({
-    casos: "/data/casos.json",
-    barriosCaba: "/data/barriosCaba.json",
-    departamentos: "/data/departamentos.json",
-    caba: "/data/caba.json",
-    laPlata: "/data/laPlata.json",
-    departamentosLaPlata: "/data/departamentosLaPlata.json",
-    dependenciasCaba: "/data/dependenciasCaba.json",
-    gatillo: "/data/gatilloCaba.json",
-  }),
-});
+import Organizate from "./components/recurso/Organizate";
+import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones";
+import Ahora from "./components/ahora/Ahora";
 
 // Not using BrowserRouter because of github pages.
 // https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
@@ -44,11 +30,11 @@ const router = createHashRouter([
     path: "/",
     element: <Root />,
     children: [
-      { path: "/", element: <App />, loader },
-      { path: "/denuncias", element: <Denuncias />, loader },
+      { path: "/", element: <App /> },
+      { path: "/denuncias", element: <Denuncias /> },
       { path: "/denuncia", element: <Denuncia /> },
-      { path: "/recursos", element: <Recursos />, loader },
-      { path: "/investigaciones", element: <Investigaciones />, loader },
+      { path: "/recursos", element: <Recursos /> },
+      { path: "/investigaciones", element: <Investigaciones /> },
       { path: "/jefatura", element: <Jefatura /> },
       { path: "/reportes", element: <Reportes /> },
       { path: "/nosotrxs", element: <Nosotrxs /> },
