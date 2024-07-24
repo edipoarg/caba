@@ -1,16 +1,27 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./TodasInvestigaciones.module.css"; // Ajusta la ruta según sea necesario
+import { Investigacion } from "../../../models/investigacion";
+
+const fetchInvestigaciones = async (): Promise<Investigacion[] | null> => {
+  const response = await fetch(`/data/investigaciones.json`);
+  const data: Investigacion[] = await response.json();
+  return data;
+};
 
 const TodasInvestigaciones = () => {
-  const [investigaciones, setInvestigaciones] = useState([]);
+  const [investigaciones, setInvestigaciones] = useState<
+    Investigacion[] | null | "loading"
+  >("loading");
 
   useEffect(() => {
-    fetch("/data/investigaciones.json")
-      .then((response) => response.json())
+    fetchInvestigaciones()
       .then((data) => setInvestigaciones(data))
-      .catch((error) => console.error("Error fetching the data:", error));
+      .catch(() => setInvestigaciones(null));
   }, []);
+
+  if (investigaciones === null) return <p>Error al cargar los datos.</p>;
+  if (investigaciones === "loading") return <p>Cargando...</p>;
 
   return (
     <>

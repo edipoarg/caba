@@ -34,7 +34,7 @@ import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
 
 //Filtros Import
 import Filtros from "./filtros/Filtros";
-import { Caso } from "../models/models";
+import { Caso } from "../models/casos";
 
 type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 

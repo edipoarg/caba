@@ -1,23 +1,35 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "./Autorxs.module.css";
+import { Autor } from "../../../models/autorxs";
+
+const fetchAutorxs = async (): Promise<Autor[] | null> => {
+  const response = await fetch("data/autorxs.json");
+  const data: Autor[] = await response.json();
+  return data;
+};
 
 const Autorxs = () => {
-  const [autorxsData, setAutorxsData] = useState([]);
+  const [autorxsData, setAutorxsData] = useState<"error" | "loading" | Autor[]>(
+    "loading",
+  );
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/data/autorxs.json");
-        const data = await response.json();
-        setAutorxsData(data);
-      } catch (error) {
-        console.error("Error al cargar datos:", error);
-      }
-    };
-
-    fetchData();
+    fetchAutorxs()
+      .then((autorxs) => {
+        if (autorxs === null) {
+          setAutorxsData("error");
+          return;
+        }
+        setAutorxsData(autorxs);
+      })
+      .catch(() => {
+        setAutorxsData("error");
+      });
   }, []);
+
+  if (autorxsData === "error") return <div>Error buscando autorxs</div>;
+  if (autorxsData === "loading") return <div>Cargando...</div>;
 
   return (
     <section className={styles.container}>
