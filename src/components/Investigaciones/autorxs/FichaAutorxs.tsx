@@ -2,13 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "./FichaAutorxs.module.css";
 import { Autor } from "../../../models/autorxs";
-
-const fetchAutor = async (enlaceVer: string): Promise<Autor | null> => {
-  const response = await fetch("data/autorxs.json");
-  const data: Autor[] = await response.json();
-  // Buscar el autor por el enlaceVer
-  return data.find((autor) => autor.enlaceVer === `/${enlaceVer}`) ?? null;
-};
+import { fetchAutor } from "../../../data/fetching";
 
 const FichaAutorxs = () => {
   const { enlaceVer } = useParams(); // Usa el nombre del parámetro de la URL
