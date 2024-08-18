@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import styles from "./TodasInvestigaciones.module.css"; // Ajusta la ruta según sea necesario
+import styles from "./TodasInvestigaciones.module.css";
 
 const TodasInvestigaciones = () => {
   const [investigaciones, setInvestigaciones] = useState([]);
@@ -8,7 +8,10 @@ const TodasInvestigaciones = () => {
   useEffect(() => {
     fetch("/data/investigaciones.json")
       .then((response) => response.json())
-      .then((data) => setInvestigaciones(data))
+      .then((data) => {
+        const investigacionesInvertidas = data.reverse().slice(1);
+        setInvestigaciones(investigacionesInvertidas);
+      })
       .catch((error) => console.error("Error fetching the data:", error));
   }, []);
 
