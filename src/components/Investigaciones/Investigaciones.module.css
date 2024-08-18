@@ -4,10 +4,10 @@
 }
 
 .investContainer {
-    position: fixed;
+    position: absolute;
     margin: 0;
     padding: 0;
-    background-color: #232128;
+    background-color: #23212824;
     height: 90vh;
     z-index: 5000;
     padding-top: 2vh;
@@ -198,7 +198,8 @@
     flex-direction: column;
     box-sizing: border-box;
     justify-content: space-between;
-    height: 64vh;
+    height: 53vh;
+    gap: 1vh;
 }
 
 .ultimoReporteContainer {
@@ -335,17 +336,7 @@
         left: 5vw;
     }
 
-    .mapBlur {
-        position: absolute;
-        z-index: 2000;
-        width: 100vw;
-        height: 100vh;
-        /* From https://css.glass */
-        border-radius: 0px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(11.2px);
-    }
+   
 
     .titleContainer {
         position: relative;
