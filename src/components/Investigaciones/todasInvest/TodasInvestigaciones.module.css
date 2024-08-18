@@ -1,5 +1,6 @@
 .todasContainer {
   position: absolute;
+  top: 80vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,6 +8,8 @@
   gap: 0vh;
   max-width: 95%;
   padding-bottom: 20vh;
+  z-index: 5000;
+  margin: 0 auto;
 }
 
 .investContainer {
@@ -24,6 +27,7 @@
 .tituloInvestigacion {
   margin: 0;
   margin-top: 0vh;
+  padding-top: 2vh;
 }
 
 .fotoInvestigacion {
@@ -46,8 +50,9 @@
   background-color: black;
   /* Reemplaza #color-expediente con el color que desees para expediente */
   color: white;
-  height: 50vh;
+  min-height: 35vh;
   margin: 2vh auto;
+  padding-bottom: 2vh;
 }
 
 .span {
