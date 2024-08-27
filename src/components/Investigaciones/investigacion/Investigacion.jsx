@@ -1,13 +1,39 @@
-// Investigacion.jsx
-
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
-import Nota14 from "../todasInvest/Nota14";
+import Nota01 from "../todasInvest/Nota01";
+import Nota02 from "../todasInvest/Nota02";
+import Nota03 from "../todasInvest/Nota03";
+import Nota04 from "../todasInvest/Nota04";
+import Nota05 from "../todasInvest/Nota05";
+import Nota06 from "../todasInvest/Nota06";
+import Nota07 from "../todasInvest/Nota07";
+import Nota08 from "../todasInvest/Nota08";
+import Nota09 from "../todasInvest/Nota09";
+import Nota10 from "../todasInvest/Nota10";
+import Nota11 from "../todasInvest/Nota11";
+import Nota12 from "../todasInvest/Nota12";
+import Nota13 from "../todasInvest/Nota13";
 
 const Investigacion = () => {
   const { dominio } = useParams();
   const [investigacion, setInvestigacion] = useState(null);
+
+  const componentesNotas = {
+    "breve-historia": Nota01,
+    "gatillo-38-casos": Nota02,
+    "tu-cara-me-suena": Nota03,
+    "lucas-gonzalez": Nota04,
+    arshak: Nota05,
+    metropolitana: Nota06,
+    "toma-de-escuelas": Nota07,
+    "policia-parte": Nota08,
+    "tiro-descarga": Nota09,
+    "de-la-calle": Nota10,
+    "sin-noticias-cuarto": Nota11,
+    "a-el-lo-baleo": Nota12,
+    "trans-migrante": Nota13,
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,6 +48,7 @@ const Investigacion = () => {
           setInvestigacion(investigacionSeleccionada);
         } else {
           // Manejar el caso donde no se encuentra la investigación con el dominio proporcionado
+          setInvestigacion(null); // o podrías redirigir a una página de error
         }
       } catch (error) {
         console.error("Error al cargar datos:", error);
@@ -35,6 +62,9 @@ const Investigacion = () => {
     // Puedes mostrar un mensaje de carga o redirigir a una página de error
     return <p>Cargando...</p>;
   }
+
+  // Obtener el componente correspondiente basado en el dominio
+  const ComponenteNota = componentesNotas[dominio];
 
   return (
     <>
@@ -59,7 +89,11 @@ const Investigacion = () => {
           </section>
         </section>
         <section className={styles.textContainer}>
-          <Nota14></Nota14>
+          {ComponenteNota ? (
+            <ComponenteNota />
+          ) : (
+            <p>Investigación no encontrada.</p>
+          )}
         </section>
       </section>
     </>

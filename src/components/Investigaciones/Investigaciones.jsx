@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
 import MapaBlur from "../MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
+import { useState } from "react";
 
 const tituloNotaPrincipal = "Trans, migrante y peligrosa";
 const fechaUltimoReporte = "08/05/2024";
@@ -14,6 +15,8 @@ const ilusNotaPrincipal = "Nicolás Daniluk";
 const numeroReporte = "Cuarto";
 
 const Investigaciones = () => {
+  const [activeFilter, setActiveFilter] = useState(null);
+
   return (
     <>
       <div className={styles.background}></div>
@@ -27,9 +30,25 @@ const Investigaciones = () => {
           />
 
           <section className={styles.typeMenu}>
-            <h3 className={styles.type}>Informes</h3>
-            <h3 className={styles.type}>Detrás del expediente</h3>
-            <h3 className={styles.type}>Reportes</h3>
+            <h3
+              className={`${styles.type} ${
+                activeFilter === "informe" ? styles.active : ""
+              }`}
+              onClick={() => setActiveFilter("informe")}
+            >
+              Informes
+            </h3>
+            <h3
+              className={`${styles.type} ${
+                activeFilter === "expediente" ? styles.active : ""
+              }`}
+              onClick={() => setActiveFilter("expediente")}
+            >
+              Detrás del expediente
+            </h3>
+            <Link to="/reportes">
+              <h3 className={styles.type}>Reportes</h3>
+            </Link>
           </section>
         </section>
 
@@ -105,7 +124,7 @@ const Investigaciones = () => {
           </section>
         </section>
       </section>
-      <TodasInvestigaciones />
+      <TodasInvestigaciones filter={activeFilter} />
       <MapaBlur />
     </>
   );
