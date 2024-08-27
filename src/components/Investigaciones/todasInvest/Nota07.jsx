@@ -3,7 +3,7 @@ import styles from "./TodasInvestigaciones.module.css";
 const Nota07 = () => {
   return (
     <>
-      <p>
+      <h4 className={styles.singularText}>
         Existen diversos dispositivos territoriales especializados donde las
         personas de los barrios populares acuden para atender las denuncias de
         violencias de género en la Ciudad de Buenos Aires cuando la comisaría no
@@ -11,8 +11,8 @@ const Nota07 = () => {
         (CAJ), la Asesoría General Tutelar, la línea telefónica 137, la Oficina
         de Violencia Doméstica (dependiente de la Corte Suprema de Justicia de
         la Nación - OVD) y ATAJO.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         El 23 de septiembre de 2022, alumnos secundarios de al menos 14 escuelas
         porteñas decidieron, mediante una votación de sus Centros de
         Estudiantes, hacer una toma de los establecimientos que duraría,
@@ -24,8 +24,8 @@ const Nota07 = () => {
         empresas, una medida impulsada desde el año anterior por el Gobierno de
         la Ciudad y que busca incentivar la inserción laboral de los
         estudiantes, tras finalizar sus estudios.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Los colegios que se sumaron a las tomas y protestas fueron, entre otros,
         la Escuela Normal Superior Lenguas Vivas Sofía Esther Broquen de
         Spangenberg ─conocida como Lengüitas─, la Escuela Superior Especializada
@@ -51,16 +51,16 @@ const Nota07 = () => {
         los colegios. De esta manera, más de 300 alumnos se sumaron a una lucha
         de estudiantil que duraría meses pero cuyas consecuencias continúan
         hasta el día de hoy.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         La respuesta del Gobierno porteño a las tomas no tardaría en llegar. El
         Gobernador de la Ciudad, Horacio Rodriguéz Larreta, fue tajante: “No
         vamos a dialogar con los que anulan el diálogo”, aseguraba el 30 de
         septiembre. “Con los que mantengan las tomas vamos a ser inflexibles, no
         hay diálogo ante la extorsión. No vamos a permitir que pequeños grupos
         marquen el ritmo de la educación en la Ciudad de Buenos Aires&quot;.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         En esa línea, unos días antes, a través del Ministerio de Educación
         comandado por Soledad Acuña, se libró un comunicado que aseguraba que la
         Ciudad “decidió denunciar penalmente a los adultos responsables de los
@@ -70,8 +70,8 @@ const Nota07 = () => {
         “además, se está preparando una demanda civil para transferirles el
         costo correspondiente al pago de los sueldos a docentes y no docentes
         por cada día sin clases debido a la toma de la escuela”.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         De forma simultánea a las declaraciones públicas, durante las jornadas
         de lucha estudiantil cientos de padres recibían por la madrugada, y a
         través de la policía de la Ciudad, los apercibimientos por parte del
@@ -83,8 +83,8 @@ const Nota07 = () => {
         autoridad del Ministerio de Educación porteño que luego elevará el
         expediente administrativo para intervención de las áreas de la
         Procuración General.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         El 29 de septiembre, la Secretaría de Derechos Humanos presentó un
         habeas corpus preventivo para que se retire a la policía de la puerta de
         los colegios. “La Secretaría de Derechos Humanos de la Nación no puede
@@ -106,14 +106,14 @@ const Nota07 = () => {
         puede constituirse en un delito, ni por parte de quienes ejercen ese
         derecho, que son les pibis, y menos aún, por parte de sus familias, ya
         que no hay norma legal que ampare semejante atropello”.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         “Nuestra obligación como adultos es enseñarles a los chicos a dialogar y
         a participar, pero entendiendo siempre que hay otros derechos que deben
         respetarse y que todas esas diferencias deben poder convivir en una
         misma sociedad”, afirmó Acuña a la prensa el 24 de octubre.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Mientras tanto, las tomas estudiantiles comenzaron a denunciar que
         efectivos policiales intentaban entrar a los edificios ocupados. Alumnos
         de la Escuela Rogelio Yrurtia filmaron el momento en que un oficial se
@@ -123,8 +123,8 @@ const Nota07 = () => {
         les pasaban data a los policías. Y así, hablaban entre ellos, iban y
         venían con patrulleros. Tocaban la puerta y no les atendíamos, entonces
         se ponían muy intensos, y empezaban a golpear fuerte”, contó una alumna.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Para reconstruir los sucesos que movilizaron a cientos de estudiantes
         secundarios porteños este medio intentó, en reiteradas ocasiones,
         contactar a varios padres y estudiantes que participaron activamente en
@@ -137,7 +137,7 @@ const Nota07 = () => {
         rodea el estallido estudiantil podría tener que ver con esas posibles
         demandas pero, sobretodo, por las represalias ministeriales anunciadas a
         la prensa. Ninguna de las cuales, al día de hoy, pudo confirmarse.
-      </p>
+      </h4>
       <h6 className={styles.span}>
         El reclamo era unísono: exigían mejoras en la infraestructura escolar y
         en la calidad y cantidad de las viandas escolares suministradas por el
@@ -145,16 +145,16 @@ const Nota07 = () => {
         empresas, una medida impulsada desde el año anterior por el Gobierno de
         la Ciudad.
       </h6>
-      <h3 className={styles.subTile}>Por las ventanas del Mariano Acosta</h3>
+      <h3 className={styles.subTitle}>Por las ventanas del Mariano Acosta</h3>
       <h6 className={styles.span}>
         Julio Pasquarelli, vicerrector de la escuela Mariano Acosta, vio una
         nota pegada en la ventanilla de su auto, justo antes de subirse para ir
         al trabajo.
       </h6>
-      <h3 className={styles.subTile}>
+      <h3 className={styles.subTitle}>
         ─Tano, trosko, la próxima no la contás.
       </h3>
-      <p>
+      <h4 className={styles.singularText}>
         Con los ojos entrecerrados por el desvelo, miró hacia ambos lados de la
         calle. La noche anterior, alguien, a propósito, había cortado la luz de
         la escuela durante la toma de los alumnos y él se había quedado en
@@ -168,20 +168,20 @@ const Nota07 = () => {
         la lucha estudiantil y criticó las represalias que sus padres sufrieron
         con las supuestas demandas y apercibimientos de la Justicia porteña. El
         video, claro, había llegado también a la ministra de Educación.{" "}
-      </p>
+      </h4>
       “Durante la toma ilegal del Mariano Acosta, su vicerrector se paró frente
       a los alumnos a alentar la toma con micrófono en mano y una actitud
       prepotente que está muy lejos de la ejemplaridad que requiere su rol”,
       twitteó Acuña el 8 de noviembre. Y agregó: “Vamos a rechazar y sancionar
       las conductas que vayan en contra de este principio. No vamos a tolerar el
       adoctrinamiento en nuestras escuelas”.
-      <p>
+      <h4 className={styles.singularText}>
         ─ Un día me dicen “Julio, saliste en la tapa de Clarín”. Y era verdad.
         El 8 de noviembre, en uno de los márgenes, decía “Acuña sanciona a
         vicerrector”. En La Nación lo mismo. Me acusaban de hacer
         “adoctrinamiento K”.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Es un martes de noviembre del 2022 y Julio Pasquarelli está sentado en
         un bar del centro de la ciudad. Además de trabajar como docente del
         colegio desde hace 25 años, es un exalumno. Dice que “hay que saber leer
@@ -190,8 +190,8 @@ const Nota07 = () => {
         rap, Valentín Oliva Mónaco, más conocido como WOS. Si de saber leer se
         trata, estos tres han estado entre los mejores exégetas de sus tiempos y
         hoy son referentes a la hora de repasar la historia de la institución.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ Lo primero que hice cuando me enteré lo de la sanción fue fijarme en
         las plataformas de comunicación que tiene el ministerio con nosotros y
         no tenía ninguna notificación. Yo decía: ¿no me está adoctrinando el que
@@ -204,8 +204,8 @@ const Nota07 = () => {
         el Acosta pasan novecientos estudiantes del secundario, nueve mil en
         primario, quinientos en el terciario, con turnos de mañana, tarde y
         noche.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─El Gobierno terceriza todo lo que es el mantenimiento. Nos cuesta mucho
         lograr que todo funcione. Los canales de comunicación con ellos no son
         eficientes. La escuela va a cumplir 150 años. Es parte de la historia de
@@ -216,15 +216,15 @@ const Nota07 = () => {
         inmediata en el Acosta fue durante 2022, cuando se viralizó un meme que
         los alumnos hicieron de una grieta en la pared que estaba hace meses. La
         empresa tercerizada del Estado apareció a los pocos días y lo solucionó.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ La gran cantidad de arreglos que se han hecho son gracias a las
         familias de la escuela ─ retoma el vicerrector─. No son por el Gobierno
         de la Ciudad. Durante la toma de septiembre circuló un video donde se
         mostraban instalaciones rotas (por los alumnos) y era mentira. Los
         mismos estudiantes repararon lugares que estaban en desuso mientras
         estaban en la institución. Había una necesidad de criminalizar.
-      </p>
+      </h4>
       <h6 className={styles.span}>
         Lo primero que hice cuando me enteré lo de la sanción fue fijarme en las
         plataformas de comunicación que tiene el ministerio con nosotros y no
@@ -232,38 +232,38 @@ const Nota07 = () => {
         está acusando, el que me está castigando? ¿Hay un adoctrinamiento malo y
         otro bueno?{" "}
       </h6>
-      <h3 className={styles.subTile}>Viandas insuficientes </h3>
-      <p>
+      <h3 className={styles.subTitle}>Viandas insuficientes </h3>
+      <h4 className={styles.singularText}>
         A los problemas edilicios se le suma el tema de las viandas
         estudiantiles, uno de los reclamos unificados de los diferentes Centros
         de Estudiantes durante las tomas.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ Faltaban un montón. Empecé el año con 800 estudiantes de jornada
         completa y recibíamos 360 viandas. Tengo estudiantes que no pueden ir al
         kiosco a comprarse un almuerzo o traer tres veces por semana la comida
         de la casa, cuenta Julio.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Las escasas entregas de los alimentos tenían una justificación por parte
         del Gobierno: no estaban obligados a abastecer a todos los alumnos. Si
         el colegio necesitaba más viandas, debía hacer un trámite que consistía
         en llenar información personal de los familiares de los estudiantes,
         como un recibo de sueldo y una constancia de Anses, y enviárselas al
         ministerio de Educación.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ Muchas familias se negaron a entregar esos datos o no los tenían. Solo
         logré recibir 167 bandejas de comida extra ─ señala el vicerrector.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         El valor nutricional de esos empaquetados también fue foco de discusión
         del movimiento estudiantil. Su contenido ─la mayoría de las veces un
         sanguchito de jamón o de queso, nunca ambos y una fruta─ no cumplía con
         los requisitos necesarios para el consumo de un adolescente promedio.
-      </p>
-      <h3 className={styles.subTile}>Noche de sabotaje </h3>
-      <p>
+      </h4>
+      <h3 className={styles.subTitle}>Noche de sabotaje </h3>
+      <h4 className={styles.singularText}>
         Durante los días que duró la toma en el Acosta, sucedieron hechos que a
         Julio le llamaron la atención. La noche del sábado 23 de septiembre,
         última jornada en que unos 300 alumnos se quedarían en la escuela para
@@ -272,30 +272,30 @@ const Nota07 = () => {
         empresa de electricidad MIG S.A, que terceriza el Gobierno de la Ciudad.
         “No tenemos a nadie para mandar ahora”, le dijeron desde la compañía.
         “Van a tener que desalojar”.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ Los chicos no se iban a ir a ningún lado. Ahí es cuando bajo a la sala
         de máquinas con una linterna y me encuentro que había un cable muy
         grande arrancado y un tornillo enorme en el suelo. Solo alguien que
         conozca de electricidad y tenga herramientas podía hacer algo así.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Cuando Pasquarelli salió del establecimiento esa noche, se encontró
         sorpresivamente en la calle con un trabajador de la empresa
         electricidad. Lo dejó pasar y bajaron a revisar el tablero averiado. ─
         Esto está a punto de estallar. Hay que desalojar ya ─ le dijo el
         empleado.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Julio arqueó las cejas y miró la valija que llevaba el hombre de MIG
         S.A. Tenía herramientas pesadas. Algo en esa escena no encajaba.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ El único que podía haber arrancado el cable tenía que tener
         herramientas similares a la de esa persona ─retoma el vicerrector. Por
         supuesto que me enojé y le pedí explicaciones.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         El hombre de la compañía salió furtivo del establecimiento, entre
         insultos de algunos padres que todavía estaban ahí y la penumbra que
         inundaba al Acosta. Julio se quedó hasta el amanecer, velando por los
@@ -306,8 +306,8 @@ const Nota07 = () => {
         luz al colegio al día siguiente. Desde entonces, con la toma finalizada
         el 28 de septiembre, la relación entre el Acosta y las autoridades
         educativas del Gobierno de la Ciudad se tensionaría todavía más.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ Siempre mantuve mi postura de no estar a favor de la toma de edificios
         públicos, pero sí de defender lo que decidan los y las estudiantes. No
         entiendo porque apoyarlos es “adoctrinar”, se pregunta. El 17 de enero
@@ -315,23 +315,23 @@ const Nota07 = () => {
         mensaje del rector del Acosta. La Dirección Superior de Escuelas,
         dependiente de la Dirección General de Sumarios de la Procuración
         General de la Ciudad, pedía un informe de su desempeño durante el 2022.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ Creo que esto encuadra en un acoso administrativo ─apunta el
         vicerrector─. Siento que quieren imponer un disciplinamiento a través de
         un sumario que nunca llegó.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         Además, cuenta, su correo personal de email sufrió varios intentos de
         hackeo desde que ocurrió el conflicto. Sin embargo, hubo un hecho
         puntual que a Julio lo asustó. Durante una semana, y en diferentes
         lugares, encontró su auto con extrañas manchas rojas y espesas: era
         sangre.{" "}
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         ─ No digo que esto tenga que ver con todo lo que pasó en el Acosta, pero
         no puedo dejarlo pasar. Es posible que tome medidas legales.{" "}
-      </p>
+      </h4>
       <h6 className={styles.span}>
         Lo primero que hice cuando me enteré lo de la sanción fue fijarme en las
         plataformas de comunicación que tiene el ministerio con nosotros y no
@@ -339,8 +339,8 @@ const Nota07 = () => {
         está acusando, el que me está castigando? ¿Hay un adoctrinamiento malo y
         otro bueno?{" "}
       </h6>
-      <h3 className={styles.subTile}>Un final impreciso </h3>
-      <p>
+      <h3 className={styles.subTitle}>Un final impreciso </h3>
+      <h4 className={styles.singularText}>
         El 18 de noviembre de 2022 se llevó a cabo el evento “La noche de la
         educación”, un encuentro que reúne a referentes del sector público y
         privado para debatir en torno de la enseñanza primaria y secundaria en
@@ -354,8 +354,8 @@ const Nota07 = () => {
         degradación comenzó cuando los sindicatos empezaron a sentarse en las
         sillas de los ministerios y entonces el interés del niño pasó a ser
         remplazado por el del sindicato”.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         En aquella jornada, la ministra también se refirió al “mérito” dentro de
         las aulas: “Se dejó de vincular a la escuela con el mundo del trabajo.
         Hoy pensar esa vinculación es de “neoliberal” o “mercantilista”. Hay una
@@ -373,8 +373,8 @@ const Nota07 = () => {
         paulatino y por decisión de las asambleas estudiantiles en cada
         institución. Algunos quedaron a la espera de mesas de diálogo con Acuña
         que nunca se llevaron a cabo.
-      </p>
-      <p>
+      </h4>
+      <h4 className={styles.singularText}>
         “A pesar de que hubo algunos arreglos mínimos, por ejemplo, colocaron un
         plástico protector a las ventanas para que los vidrios no estallen,
         todavía hay muchos arreglos pendientes. La situación no mejoró. No hubo
@@ -383,7 +383,7 @@ const Nota07 = () => {
         lectivo, los reclamos que paralizaron a más de 15 escuelas porteñas y
         movilizaron a más de 300 estudiantes, aún siguen vigentes. Casi a la
         espera del nuevo comienzo.
-      </p>
+      </h4>
     </>
   );
 };

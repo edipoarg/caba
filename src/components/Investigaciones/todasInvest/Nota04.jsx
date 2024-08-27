@@ -4,39 +4,41 @@ const Nota04 = () => {
   return (
     <>
       <div className={styles.NotaContainer}>
-        <p>
+        <h4 className={styles.singularText}>
           En la fría madrugada del 29 agosto de 2019, una mujer travesti de 45
           años, peruana, a la que llamaremos Roxana, conversa con un taxista
           estacionado en doble fila al 1200 de la calle Pavón, en el barrio
           porteño de Constitución. El hombre —pongámosle Oscar—, un cliente y
           dealer habitué de la zona, la invita a dar una vuelta en el vehículo y
           ella acepta, tentada también por el convite de un poco de cocaína.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Mientras terminan de ponerse de acuerdo, ven que se acerca un
           Chevrolet Corsa. Como el taxi impide el paso, Roxana y Oscar apuran
           los planes. Ella se sube en el asiento de atrás y el tachero arranca,
           pero solo avanzan unos metros. Del Corsa se bajan tres hombres y dan
           la voz de alto: son policías de la brigada de la Comisaría Comunal 1.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Luego de hacerlos descender, los revisan y encuentran 53 envoltorios
           con un total de 6,10 gramos de cocaína: dos estaban en el asiento
           trasero y el resto en el baúl.
-        </p>
+        </h4>
 
-        <p>Pero esa es la versión de Roxana. </p>
+        <h4 className={styles.singularText}>
+          Pero esa es la versión de Roxana.{" "}
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           El relato policial, y el que va a permitir iniciar un proceso judicial
           que se extenderá durante dos años y acumulará fojas y fojas con
           fotografías, declaraciones, oficios, trámites a embajadas, exámenes de
           laboratorio y estudios médicos, es sutilmente distinto.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Los tres oficiales, que vestían de civil y se movían en un auto sin
           identificar, declaran que esa noche conducían por calle Pavón cuando
           se vieron obligados a detener la marcha porque un taxi estacionado en
@@ -44,23 +46,23 @@ const Nota04 = () => {
           al vehículo “se encontraba parado al lado de la puerta del acompañante
           un travesti el cual conversaba gesticulando, no llegando a observar si
           realizaban un intercambio o pasamano”.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Agregan que “al percatarse el travestido” de su presencia,
           “rápidamente aborda el vehículo en el asiento trasero”, lo que los
           oficiales interpretan como “una actitud evasiva”. Entonces, proceden
           con el operativo de requisa y posterior detención.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Con los hechos antes descriptos se arma la causa penal 44393/2019-0,
           en la que se acusa a Roxana por tenencia de estupefacientes para
           comercialización, que a falta de pruebas el fiscal Paulo Gaspani luego
           acotará a tenencia.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En 2020 se añade otro hecho, ocurrido en la madrugada del 6 de febrero
           de 2020 y que de nuevo tendrá sostén en el relato de los integrantes
           de la brigada de la Comunal 1: un oficial de esa dependencia declara
@@ -68,29 +70,31 @@ const Nota04 = () => {
           en una persiana de un comercio de calle Pavón al 1200. Dice que Roxana
           estaba a punto de entregarlo a un cartonero, pero que la operación se
           interrumpió cuando la mujer se percató de la presencia policial.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Ella declarará otra cosa: que era otra compañera la que tenía esa
           droga, que ella estaba en el bar “copeteando” y que no vio cuando
           encontraron la droga. Dice también que el cartonero apareció de la
           nada y que lo agarraron porque ya tenía un pedido de captura. Sobre el
           policía que la detiene, cuenta: “Es un gordito de cabello paradito y
           yo siento que me hostiga”.{" "}
-        </p>
+        </h4>
 
-        <p>Ninguna de sus declaraciones será tenida en cuenta. </p>
+        <h4 className={styles.singularText}>
+          Ninguna de sus declaraciones será tenida en cuenta.{" "}
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En mayo de 2021, Roxana acepta los cargos que el fiscal le imputa por
           esos dos hechos, para finalizar el proceso con un juicio abreviado y
           una condena a un año de prisión domiciliaria. El beneficio se concede
           por su grave estado de salud, es HIV positivo y padece insuficiencia
           renal severa, y por el contexto de crisis sanitaria por la pandemia de
           covid-19.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Hasta acá, la historia de Roxana no es novedosa. Y es que en
           Argentina, entre 2002 y 2017 hasta la actualidad, la tasa de personas
           alojadas en cárceles por infracción a la Ley de Drogas creció un 252%.
@@ -98,9 +102,9 @@ const Nota04 = () => {
           su presencia en las prisiones se multiplicó. Además, si en 2015 solo
           el 30% de esa población estaba presa por algún delito vinculado a
           estupefacientes, en 2017 la proporción trepó al 70%
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           La información, elaborada en base a datos del Sistema Nacional de
           Ejecución de la Pena (SNEEP), es parte de un informe del Centro de
           Estudios Legales y Sociales (CELS), irónicamente titulado “La guerra
@@ -108,15 +112,15 @@ const Nota04 = () => {
           que se concentra en perseguir a personas pobres, “cuya detención no
           incide en la desarticulación del negocio ni de las redes de
           ilegalidades que se propagan para su desarrollo”.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Y sigue: “Donde sí tiene consecuencias la guerra contra el
           narcotráfico es en las vidas de miles de personas que son perseguidas
           por la policía e ingresadas en el sistema penal”. Las trabajadoras
           sexuales, que en CABA se mueven entre Constitución, Once y Palermo
           conocen bien de qué se trata.{" "}
-        </p>
+        </h4>
 
         <h6 className={styles.span}>
           En Argentina, de principios de los 2000 hasta la actualidad, la tasa
@@ -125,11 +129,11 @@ const Nota04 = () => {
           entre 2015 y 2017 su presencia en las prisiones se multiplicó.
         </h6>
 
-        <h3 className={styles.subTile}>
+        <h3 className={styles.subTitle}>
           “y yo no veo que eso le hagan a otra gente”
         </h3>
 
-        <p>
+        <h4 className={styles.singularText}>
           Corre el mes de octubre de 2023. La militancia progresista está
           abocada en intentar frenar lo que será un triunfo arrollador del
           ultraderechista Javier Milei, actual presidente de la Nación. Pero en
@@ -139,15 +143,15 @@ const Nota04 = () => {
           representa a las trabajadoras sexuales. Esa tarde soleada pero fresca
           de primavera, la vieja casa chorizo pintada de rojo se convierte en
           consultorio oftalmológico.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Cuando golpeo la puerta me recibe una chica trans. Le digo que busco a
           Georgina Orellano, la secretaria general del sindicato, y me manda
           para el fondo.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En la entrada hay un pequeño salón dispuesto como sala de espera:
           sentadas en dos filas enfrentadas, una decena de mujeres travestis
           trans charlan entre sí; otras están con la vista clavada en sus
@@ -155,9 +159,9 @@ const Nota04 = () => {
           brillantes. Las chicas apoyan la quijada y los técnicos colocan
           distintos lentes, calibran manijas y rueditas, y anotan en una
           planilla.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Al fondo, sentada en una mesa, con una minifalda ajustada, medias
           transparentes y botas está Georgina, que recibe a las chicas en la
           mesa de la cocina para indicarles cuándo tienen que volver para
@@ -165,18 +169,18 @@ const Nota04 = () => {
           presentarme. Me dice que me siente frente a ella, que Yokhari Márquez
           —la responsable del área social de AMMAR, con quien pacté la
           entrevista— está un poco retrasada, pero que enseguida llega.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Mientras espero, me presenta a Natalí, una mujer trans colombiana de
           casi 50 años. Natalí me cuenta que está súper ansiosa, a la espera de
           la visita de su mamá, a quien no ve desde hace unos 8 años debido a
           una causa judicial por drogas que le impide regularizar su situación
           migratoria y salir del país. “Es lo único bueno que me va a pasar en
           años”, dice.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Cuando llegó al país no encontró el paraíso. Dice que a pesar de la
           Ley de Cupo Laboral travesti trans, la falta de documentación y de
           estudios, hacen que la única salida sea la calle. &quot;Nos ven riendo
@@ -190,18 +194,18 @@ const Nota04 = () => {
           distintos. Ayer me peleé con una femenina. Le dije: &apos;No venga a
           ser tan prepotente, si usted me habla educadamente yo me
           voy&apos;&quot;.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Otras veces, los encara &quot;aunque sé que no lo debo hacer, pero me
           saca la rabia. Porque yo sé que la chica no está digo al digo al
           policía, &apos;¿le encontró algo que la comprometa?&apos;, y me dicen
           &apos;no, pero lo vimos en la cámara&apos;. Y le digo, &apos;la cámara
           no ha visto ni mierda, ustedes por joder, por tocarla, por llamar la
           atención, para que la gente diga: Ah, cómo trabaja&apos;&quot;.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Yokhari Márquez Ortiz, dirigenta del área social del sindicato de
           trabajadoras sexuales, coincide. Y explica que eso es lo que viven
           todas, todos los días. “Si yo estoy en la calle y venís y me das un
@@ -213,9 +217,9 @@ const Nota04 = () => {
           en la cartera. Entonces nos dicen: &quot;¿de dónde sacó esa
           plata?&quot;, y tenemos que ir a la comisaría a rendir de dónde
           sacamos esa plata”.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           “Eso nos hacen —subraya Yokhari— y yo no veo que eso le hagan a otra
           gente. No puedo caminar libremente por mi barrio, donde vivo y ejerzo
           mi trabajo. Cuando los policías hacen sus razias arbitrarias a las
@@ -224,16 +228,16 @@ const Nota04 = () => {
           las personas por portación de rostro y de vestimenta”, dice y
           caracteriza con claridad la política criminal del Gobierno de la
           Ciudad.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Agrega: “Esa gente ves tú en las comisarías y en los patrulleros. No
           ves gente que para ellos no son sospechosos. No ves gente blanca, con
           buena ropa, con buen coche. Capaz esos son los que nos envenenan y
           abastecen de droga a todo el país, pero como son de ese prototipo que
           para la Ciudad y la policía encajan, no les dicen nada. Entonces, van
           hacia nosotras”.
-        </p>
+        </h4>
 
         <h6 className={styles.span}>
           “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
@@ -243,25 +247,27 @@ const Nota04 = () => {
           comisaría a rendir de dónde sacamos”
         </h6>
 
-        <h3 className={styles.subTile}>monitoreo y armado de causas penales</h3>
+        <h3 className={styles.subTitle}>
+          monitoreo y armado de causas penales
+        </h3>
 
-        <p>
+        <h4 className={styles.singularText}>
           Pablo Ibarra trabaja en la Secretaría de Violencia Institucional del
           Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos
           Aires. Dice: “Si sos trans y estás en Constitución, ya está.
           Básicamente, estás condenada a recibir en algún momento de tu jornada,
           en algún momento de la semana, algún tipo de hostigamiento policial”.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           A partir de su testimonio es posible conocer detalles del modo
           particular en que se da la persecución a manos de la Policía de la
           Ciudad. Como había señalado Yokhari de AMMAR, el inicio de los casos
           que involucran a personas trans, trabajadoras sexuales, se dan a
           partir de la intervención del Centro de Monitoreo Urbano.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           “Monitoreo Urbano avisa al policía (la mayoría de las veces,
           refiriéndose a un travestido), y el policía va, detecta y revisa medio
           arbitrariamente”. La persona “puede tener una bolsita, puede no tener
@@ -270,35 +276,35 @@ const Nota04 = () => {
           la discriminación estereotipada previa es transversal: “Hay prejuicio
           por parte de la policía de calle, de los agentes del CMU y —-también—
           de las propias fiscalías”.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           La comisaría que tiene jurisdicción en Constitución y que actúa en la
           mayoría de estos casos es la Vecinal 1C. Algo característico de esa
           dependencia, y que AMMAR denuncia desde hace años, es la constante
           rotación de sus autoridades, lo que obstaculiza el trabajo de
           concientización que llevan adelante.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En relación a denuncias por la intervención de las brigadas (como las
           que actuaron en la causa de Roxana), Ibarra dice que no son la mayoría
           de los casos que llegan fiscalía pero lo que se observa es la
           brutalidad: las trabajadoras sexuales han consignado desde requisas
           vejatorias hasta robo de pertenencias, y también, que les plantan
           drogas.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           El abogado explica que esto se vincula al marco gris de actuación en
           el que se maneja la policía ya que si bien intervienen por orden
           judicial y, a priori, no tienen asignadas tareas de prevención, el
           estado policial, que habilita a todos los agentes de la Policía de la
           Ciudad a intervenir cuando están fuera de servicio, ampara esas
           actuaciones.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Al cierre de esta investigación, se conoció que a partir de una
           denuncia de AMMAR -que acompañó la cartera de Ibarra-, la fiscalía
           especializada en Violencia Institucional de Ciudad ordenó el traslado
@@ -308,9 +314,9 @@ const Nota04 = () => {
           había pedido que una serie de hechos similares ocurridos en
           Constitución se investigaran en una sola causa, por su carácter
           sistemático.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Las autoras Laura Malacalza y Sofía Caravelos, en un artículo que se
           menciona en detalle más adelante, añadieron otra constante clave en
           estos casos que es moneda corriente en la Ciudad de Buenos Aires: la
@@ -319,7 +325,7 @@ const Nota04 = () => {
           sociales. Cada tanto, además, esos relatos son tomados como insumo
           para el show televisivo y los canales montan guardias para mostrar la
           marginalidad.
-        </p>
+        </h4>
 
         <h6 className={styles.span}>
           La comisaría que tiene jurisdicción en Constitución y que actúa en la
@@ -329,11 +335,11 @@ const Nota04 = () => {
           concientización que llevan adelante.
         </h6>
 
-        <h3 className={styles.subTile}>
+        <h3 className={styles.subTitle}>
           cambios legales sin políticas inclusivas
         </h3>
 
-        <p>
+        <h4 className={styles.singularText}>
           Una de las pocas personas que en el ámbito judicial recogió el guante
           de lo que hace años denuncian las organizaciones de Derechos Humanos
           como AMMAR es Karina Andrade, a cargo del Juzgado en lo Penal
@@ -341,9 +347,9 @@ const Nota04 = () => {
           para evaluar el “acuerdo de avenimiento” (juicio abreviado) al que
           había llegado Roxana con el fiscal Paulo Gaspani y en el que había
           aceptado una condena por dos hechos de tenencia de estupefacientes.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Luego de analizar lo actuado, conocer a la acusada y preguntarle sobre
           sus condiciones de vida, elaboró un extenso escrito en el que decidió
           rechazar el acuerdo. Para la jueza, la causa era resultado más de los
@@ -354,18 +360,18 @@ const Nota04 = () => {
           esta situación, resulta cuestionable que se encuentre en una posición
           de igualdad y libertad para ejercer sus derechos o decir cuanto
           quisiera o pensara”, explicó.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Entre otros, Andrade citó un informe de la CIDH (Comisión
           Interamericana de Derechos Humanos), que afirma que las personas trans
           enfrentan “pobreza, exclusión social y altas tasas de inaccesibilidad
           a la vivienda”, lo que las presiona a trabajar en “economías
           informales altamente criminalizadas, como el trabajo sexual o el sexo
           por supervivencia”.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Al respecto, las estadísticas sobre la población trans en Buenos Aires
           son elocuentes. “La revolución de las mariposas”, un informe elaborado
           en 2017 en base a una encuesta en barrios de CABA, revela que solo una
@@ -389,9 +395,9 @@ const Nota04 = () => {
           considerar que los policías estaban vestidos de civil, en un auto sin
           identificar, por lo que difícilmente podían ser reconocidos como
           miembros de una fuerza de seguridad.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En los últimos años hubo cambios legales que impactaron en la
           población trans migrante. Al respecto, Laurana Malacalza (actual
           subsecretaria de Políticas contra las Violencias por Razones de Género
@@ -403,9 +409,9 @@ const Nota04 = () => {
           (2004), tallaron la imagen de un país más amable para recibir a este
           colectivo, distintos factores se conjugaron para que esto no se
           traduzca en mayor acceso a derechos.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En ese marco —analizan las autoras— fue clave la desfederalización de
           la Ley de Drogas, o sea, la transferencia de delitos menores como
           tenencia o menudeo del ámbito federal al provincial. Lo explican así:
@@ -424,9 +430,9 @@ const Nota04 = () => {
           uso indiscriminado de la prisión preventiva en la provincia de Buenos
           Aires. Esto sin dudas, explica el creciente aumento de personas trans
           y travestis encarceladas”.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En Ciudad de Buenos Aires, la desfederalización se aplicó, a pesar de
           las advertencias de las organizaciones, en enero de 2019 (en Provincia
           fue en 2004). En el ya citado informe del CELS sobre drogas se señalan
@@ -434,9 +440,9 @@ const Nota04 = () => {
           causas por Drogas en la Justicia local (una suba del 54% en solo 9
           meses) y un recrudecimiento de la persecución a los consumidores (que
           representaron el 72% del total de las causas).
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Ocho de cada diez de esas causas “fueron iniciadas por la policía de
           la Ciudad” y, del total, el 74% fueron archivadas porque prevaleció el
           criterio de que es inconstitucional penar el consumo. “Es decir que la
@@ -445,7 +451,7 @@ const Nota04 = () => {
           política de persecución callejera opera como una medida de control
           poblacional que perjudica a grupos específicos”, entre ellos, el trans
           migrante.{" "}
-        </p>
+        </h4>
 
         <h6 className={styles.span}>
           La combinación de cambios legales, sin acompañamiento de políticas
@@ -456,7 +462,7 @@ const Nota04 = () => {
 
         <h3 className={styles.subTitle}> no todas son soldaditxs narco </h3>
 
-        <p>
+        <h4 className={styles.singularText}>
           A principios de marzo de 2024, Georgina Orellano publicó un posteo en
           sus redes sociales desde la esquina en la que trabaja desde hace 17
           años. “En menos de dos meses (de gobierno de Javier Milei), dos
@@ -475,9 +481,9 @@ const Nota04 = () => {
           entonces, de forma crítica a los análisis rápidos que enseguida ponen
           etiquetas y hablan de quienes echan mano del rebusque como “soldaditos
           de los narcos”.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           El posteo de Orellano coincide con una demanda histórica impulsada por
           las organizaciones sociales que exige que la investigación penal
           escale en la cadena de responsabilidades y no se quede en el simple
@@ -488,9 +494,9 @@ const Nota04 = () => {
           judiciales, en el marco de causas por menudeo. En ambas, el fiscal
           pidió la absolución de las imputadas, trans y migrantes, por su
           situación de vulnerabilidad.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           “Mientras solo el 3% de la población total privada de la libertad en
           el Servicio Penitenciario Bonaerense (SPB) es extranjera, la población
           de mujeres trans y travestis extranjeras representa el 85% de la
@@ -498,9 +504,9 @@ const Nota04 = () => {
           precisaba el informe. Picardi complementaba: “En el caso de las
           mujeres trans y travestis migrantes privadas de libertad en el SPB, el
           100% está presa por estupefacientes”.{" "}
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           Claudia Vázquez Haro, presidenta de OTrans, es categórica: “Las
           travestis no son narcotraficantes, son excluidas”. Y añade un eje
           clave: la edad. “Son personas a las que les plantan drogas, o son
@@ -512,9 +518,9 @@ const Nota04 = () => {
           para tener sexo con hombres o varios hombres en una noche, o en su
           defecto, es la que tiene que vender al menudeo porque al otro día no
           tiene para comer”.
-        </p>
+        </h4>
 
-        <p>
+        <h4 className={styles.singularText}>
           En suma, “todas van presas y nunca va preso el narcotraficante que
           tiene íntima relación con un sector del poder político, con un sector
           del poder judicial y de la policía”. En el contexto actual, bajo la
@@ -525,7 +531,7 @@ const Nota04 = () => {
           ministra de Seguridad de la Nación, Patricia Bullrich, de prohibir a
           las fuerzas de Seguridad el uso del lenguaje inclusivo “son elementos
           que dan cuenta de que estamos en un momento de mucha preocupación”.
-        </p>
+        </h4>
       </div>
     </>
   );
