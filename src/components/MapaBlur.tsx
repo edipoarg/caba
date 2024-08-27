@@ -6,21 +6,8 @@ import LogoMapa from "./LogoMapa";
 // eslint-disable-next-line no-redeclare
 import styles from "../styles/MapaBlur.module.css";
 
-// GEOJSON IMPORTS
-import {
-  departamentos,
-  caba,
-  barriosCaba,
-  laPlata,
-  departamentosLaPlata,
-} from "../data/index";
-import {
-  DepsSource,
-  CabaSource,
-  BarriosCabaSource,
-  LaPlataSource,
-  DepartamentosLaPlataSource,
-} from "./Sources";
+import { BarriosCabaSource } from "./Sources";
+import { barriosCaba } from "./Mapa/geojson-data";
 
 const Mapa = () => {
   // PROPERTIES OF THE MAP
@@ -55,11 +42,7 @@ const Mapa = () => {
         </Link>
         <section className={styles.mapBlur}></section>
         <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
-          <DepsSource data={departamentos} />
           <BarriosCabaSource data={barriosCaba} />
-          <CabaSource data={caba} />
-          <LaPlataSource data={laPlata} />
-          <DepartamentosLaPlataSource data={departamentosLaPlata} />
         </MapGL>
         <LogoMapa />
       </section>
