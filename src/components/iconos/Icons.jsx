@@ -88,7 +88,7 @@ const Icons = ({ icon, className, iconSize }) => {
 
 Icons.propTypes = {
   icon: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired,
+  className: PropTypes.string,
   iconSize: PropTypes.string.isRequired,
 };
 

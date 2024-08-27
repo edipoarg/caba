@@ -3,10 +3,12 @@ import {
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
-} from "../models/models";
+} from "../models/casos";
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
-import cargos from "../data/cargos.json";
+import { Cargo } from "../models/cargos";
+import { useContext } from "react";
+import { CargosContext } from "../routes/Root";
 
 // Función para recortar texto si supera el límite de caracteres
 const truncateText = (text: string | null, maxLength: number): string => {
@@ -17,7 +19,9 @@ const truncateText = (text: string | null, maxLength: number): string => {
   return text;
 };
 
-type Props = { caso: Caso | null };
+type Props = {
+  caso: Caso | null;
+};
 
 type ScreenData = {
   title: string;
@@ -32,48 +36,56 @@ type ScreenData = {
   level?: string;
 };
 
-const getScreenDataForCase = (caso: Caso | null): ScreenData => {
-  const title = caso?.properties.Nombre ?? "Elegí una dependencia o un caso";
-  if (caso !== null) {
-    if (casoIsCasoDependencia(caso)) {
-      const oficialAsociado = cargos.find((cargo) => {
-        return cargo.C_Dependencia === caso.properties.Nombre;
-      });
-      return {
-        title,
-        caseId: caso.properties.Contador,
-        level: caso.properties.Dependencia,
-        address: caso.properties.Dirección,
-        phone: caso.properties.Teléfono,
-        grade: oficialAsociado?.C_GRADO,
-        authority: oficialAsociado?.C_Efectivo_AyN,
-      };
-    } else if (casoIsCasoGatillo(caso)) {
-      return {
-        title,
-        date: caso.properties.Fecha,
-        caseId: caso.properties.Contador,
-        circs: caso.properties.cronica,
-        authority: caso.properties.policia_involucrado,
-      };
-    } else if (casoIsCasoReportes(caso)) {
-      return {
-        title,
-        date: caso.properties.Fecha,
-        circs: caso.properties.cronica,
-        caseId: caso.properties.Contador,
-        authority: caso.properties.policia_involucrado,
-      };
+const getScreenDataForCase =
+  (cargos: Cargo[]) =>
+  (caso: Caso | null): ScreenData => {
+    const title = caso?.properties.Nombre ?? "Elegí una dependencia o un caso";
+    if (caso !== null) {
+      if (casoIsCasoDependencia(caso)) {
+        const oficialAsociado = cargos.find((cargo) => {
+          return cargo.C_Dependencia === caso.properties.Nombre;
+        });
+        return {
+          title,
+          caseId: caso.properties.Contador,
+          level: caso.properties.Dependencia,
+          address: caso.properties.Dirección,
+          phone: caso.properties.Teléfono,
+          grade: oficialAsociado?.C_GRADO,
+          authority: oficialAsociado?.C_Efectivo_AyN,
+        };
+      } else if (casoIsCasoGatillo(caso)) {
+        return {
+          title,
+          date: caso.properties.Fecha,
+          caseId: caso.properties.Contador,
+          circs: caso.properties.cronica,
+          authority: caso.properties.policia_involucrado,
+        };
+      } else if (casoIsCasoReportes(caso)) {
+        return {
+          title,
+          date: caso.properties.Fecha,
+          circs: caso.properties.cronica,
+          caseId: caso.properties.Contador,
+          authority: caso.properties.policia_involucrado,
+        };
+      }
     }
-  }
-  return {
-    title,
+    return {
+      title,
+    };
   };
-};
 
 // Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
 // eslint-disable-next-line no-redeclare
 const Screen = ({ caso }: Props) => {
+  const cargos = useContext(CargosContext);
+  if (cargos === "loading") return <p>Cargando...</p>;
+  if (cargos === null)
+    return <p>Ocurrió un error al cargar los datos de la página</p>;
+
+  const screenData = getScreenDataForCase(cargos)(caso);
   const {
     title,
     date,
@@ -85,8 +97,7 @@ const Screen = ({ caso }: Props) => {
     grade,
     authority,
     level,
-  } = getScreenDataForCase(caso);
-
+  } = screenData;
   return (
     <section className={styles.Screen}>
       <section className={styles.ComisariaScreen}>
