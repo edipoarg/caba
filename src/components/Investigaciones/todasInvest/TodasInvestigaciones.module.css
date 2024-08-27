@@ -1,5 +1,6 @@
 .todasContainer {
   position: absolute;
+  top: 80vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,6 +8,8 @@
   gap: 0vh;
   max-width: 95%;
   padding-bottom: 20vh;
+  z-index: 5000;
+  margin: 0 auto;
 }
 
 .investContainer {
@@ -24,6 +27,7 @@
 .tituloInvestigacion {
   margin: 0;
   margin-top: 0vh;
+  padding-top: 2vh;
 }
 
 .fotoInvestigacion {
@@ -34,36 +38,61 @@
   height: 25vh;
 }
 
+
+.singularText {
+  margin: 0;
+  padding: 1vh 0vw;
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 1vh 10vw;
+  }
+
 .autorxFecha {
   margin: 0;
+  text-align: left;
+  font-size: 0.8rem;
+  padding-top: 3vh;
 }
 
-/* TodasInvestigaciones.module.css */
 .linkInvestigacion {
   border-radius: 14px;
   width: 90%;
   justify-self: left;
   background-color: black;
-  /* Reemplaza #color-expediente con el color que desees para expediente */
   color: white;
-  height: 50vh;
+  min-height: 35vh;
+  height: fit-content;
   margin: 2vh auto;
+  padding-bottom: 2vh;
+}
+
+.investigacionContainer{
+  height: fit-content;
 }
 
 .span {
   color: #2a8842;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   margin: 0;
-  padding: 1vh 2vw;
-  border-left: solid 4px;
-  margin-top: 4vh;
+  padding: 1vh 10vw;
+  border-left: solid 5px;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  padding-left: 4vw;
+  margin-left: 10vw;
+  text-align: justify;
 }
 
+.link{
+  color: rgb(159, 100, 219);
+  text-decoration: underline;
+}
 .subTitle {
+  padding: 0vh 10vw;
   padding-top: 8vh;
   padding-bottom: 2vh;
-  font-size: 1.6rem;
-  margin: 0
+  font-size: 2rem;
+  margin: 0;
 }
 
 p {
@@ -79,9 +108,67 @@ p {
 
 .tituloInvestigacion {
   color: #2a8842;
+  padding-bottom: 1vh;
 }
 
-/* Media query para tablet */
+.autorxFecha{padding-bottom: 0.5vh;}
+
+.mapGoogle, .videoContainer, .image2 {
+  max-width: 100%;
+padding: 2vh 10vw;}
+
+.image2{max-width: 80vw;}
+
+.ilusContainer, .autorxContainer{
+  display: flex;
+}
+
+.autorx {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.ilus {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.autorxContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-self: center;
+  justify-items: left;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-self: left;
+  border-radius: 14px;
+  padding: 0.5vh 1vw;
+  width: fit-content;
+  padding-left: 0;
+}
+
+.icon{
+  color: rgb(185, 123, 243);
+  padding-right: 0.5vw;
+}
+
+.ilusContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-self: left;
+  justify-items: left;
+  align-items: center;
+  align-self: center;
+  align-content: left;
+  justify-self: left;
+
+  padding: 0vh 1vw;
+  width: fit-content;
+  padding-bottom: 1vh;
+  padding-left: 0;
+}
+
 @media (min-width: 768px) {
 
   .NotaContainer {
@@ -96,6 +183,7 @@ p {
     position: absolute;
     width: 75vw;
     right: 10vw;
+    top: 90vh;
   }
 
   .linkInvestigacion {
@@ -105,7 +193,8 @@ p {
     background-color: black;
     /* Reemplaza #color-expediente con el color que desees para expediente */
     color: white;
-    height: 50vh;
+    min-height: 50vh;
+    height: fit-content;
     margin: 2vh auto;
   }
 

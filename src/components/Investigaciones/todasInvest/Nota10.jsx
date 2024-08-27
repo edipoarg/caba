@@ -3,7 +3,7 @@ import styles from "./TodasInvestigaciones.module.css";
 const Nota10 = () => {
   return (
     <>
-      <p>
+      <h4 className={styles.singularText}>
         —Señora, ¿quiere salir de testigo? —, le dice un policía de la Ciudad a
         una mujer que graba con su celular la detención violenta de un hombre en
         situación de calle. Es 14 de septiembre de 2023 y son las 11 de la
@@ -15,9 +15,9 @@ const Nota10 = () => {
         el accionar de la Policía, siempre y cuando no obstaculice su trabajo.
         Pero cuando se trata de personas que viven en la calle un factor clave
         para el abuso de las fuerzas parece ser la complicidad.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Tres meses antes, el 29 de junio de 2023, algunas de las 160 personas en
         situación de calle que se habían instalado en el Aeroparque Jorge
         Newbery quedaron afuera. El personal especializado del ministerio de
@@ -32,9 +32,9 @@ const Nota10 = () => {
         la chance de regresar. Sus pertenencias, por caso, terminaron en la
         basura, incluidos sus DNI y carnets de discapacidad. Los que aún estaban
         adentro juntaron lo que pudieron. Fueron desalojados.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         El director nacional de la PSA, José Glinski, dijo al Mapa de la Policía
         que el motivo de esta medida fue la queja permanente de los pasajeros y
         una decisión de la administración local –el gobierno de la Ciudad de
@@ -46,7 +46,7 @@ const Nota10 = () => {
         alguno de los centros de inclusión social donde pueden conseguir ducha,
         cama y comida. Pero hay algo detrás de la frase “es más complejo” con la
         que se suelen cerrar las discusiones sobre los conflictos sociales.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         Personal especializado del ministerio de Desarrollo Humano y Hábitat de
@@ -57,7 +57,7 @@ const Nota10 = () => {
 
       <h3 className={styles.subTitle}>Nadie sabe cuántos son</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Para conocer las diferentes aristas de la violencia institucional que la
         población en situación de calle afronta, entre ellas, la violencia
         policial es necesario abordar de forma previa los datos existentes. Del
@@ -80,9 +80,9 @@ const Nota10 = () => {
         respecto del año anterior (3.511 personas), el número dista mucho de
         acercarse a las 7.251 personas que, ya en 2019, reportaba el Censo
         Popular de Personas en situación de calle.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Las herramientas legislativas disponibles, por sí solas, tampoco parecen
         suficientes para abordar la problemática. La Ley N° 27.654, de Personas
         en Situación de Calle y Familias sin Techo, se reglamentó recién en
@@ -92,9 +92,9 @@ const Nota10 = () => {
         padres en la calle, a metros de la Casa Rosada. Cuando llamaron al 911,
         ya no respiraba. Según trascendió, las dificultades respiratorias
         derivaron de su exposición a la intemperie.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Desde la Asamblea Popular por los Derechos de las Personas en Situación
         de Calle (PSC) afirman que existe, además, una sobreexposición de la
         problemática y una tendencia contrapuesta, la invisibilización. Los sin
@@ -104,7 +104,7 @@ const Nota10 = () => {
         una persona tira un colchón en la vereda, en la entrada de edificio, en
         un cajero automático o una esquina, y la policía recibe llamados
         pidiendo que la saquen.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         Si bien en 2023, el registro censal de la ciudad de Buenos Aires marcó
@@ -116,7 +116,7 @@ const Nota10 = () => {
 
       <h3 className={styles.subTitle}>Las limitaciones del relato oficial</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Según el sitio oficial, existen 26 centros de inclusión social en
         Capital Federal. Hay establecimientos de gestión asociada -es decir,
         articulados con organizaciones de la sociedad civil, empresas y
@@ -138,30 +138,32 @@ const Nota10 = () => {
         Carlana del Movimiento de Trabajadores Excluidos (MTE), que también
         participa en la asistencia a las personas desplazadas y que continúan en
         los alrededores de Aeroparque.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Los principales obstáculos que impiden considerar a los centros de
         inclusión como una verdadera opción para quienes viven en la calle,
         según las organizaciones sociales consultadas, pueden resumirse así:
-      </p>
+      </h4>
 
-      <p>No hay vacantes en la mayoría y se implementan listas de espera.</p>
+      <h4 className={styles.singularText}>
+        No hay vacantes en la mayoría y se implementan listas de espera.
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Al llamar a la línea 108 de asistencia, las camionetas del BAP tardan
         horas en acudir. Muchas veces no lo hacen.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Las condiciones de convivencia son hostiles. Hay robos, frío y
         violencia. Los adultos mayores prefieren quedarse en la calle: no se
         sienten capaces de defenderse.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Una condición para entrar es abandonar o dar en adopción a sus mascotas.{" "}
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         “Les cambiaron el nombre para que parezcan otra cosa, pero me cuesta no
@@ -173,7 +175,7 @@ const Nota10 = () => {
         Espacio público al servicio de la represión
       </h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Los apuñalan, les roban, los hostigan, les tiran agua a los colchones y
         hasta les prenden fuego a sus pertenencias y a ellos mismos. Esos datos
         surgen del Registro Único de Violencias (RUV), elaborado por las
@@ -182,24 +184,24 @@ const Nota10 = () => {
         (PSC). Se trata de un mapeo a nivel nacional construido en base a
         noticias periodísticas y al relevamiento informal de organizaciones
         sociales que, en su metodología, clasifica tres tipos de violencia:
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         la estructural, que consiste en las lesiones físicas graves producto de
         dormir a la intemperie;{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         la social, que se refiere a las agresiones ejercidas por ciudadanos de a
         pie que pueden o no estar, también, en situación de calle.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         la institucional, que incluye los ataques físicos o simbólicos por parte
         de las fuerzas de seguridad y funcionarios públicos.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En relación a este último tipo de violencia, aún cuando existen
         denuncias tanto en el RUV como en el Mapa de la Policía acerca de la que
         ejerce la policía de la Ciudad, durante esta investigación los
@@ -207,9 +209,9 @@ const Nota10 = () => {
         hostilidad no siempre la ejercen directamente las fuerzas de seguridad,
         sino los funcionarios de otras áreas. En particular, quienes dependen
         del ministerio de Espacio Público e Higiene Urbana de la Ciudad.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En mayo de este año, la justicia porteña, a partir del reclamos de las
         organizaciones sociales y el pedido del legislador Martín Barroetaveña
         (FDT), frenó una licitación del Gobierno de CABA en la que se buscaba
@@ -223,9 +225,9 @@ const Nota10 = () => {
         restos de podas de jardín, residuos voluminosos, materiales
         descartados”. Es decir, el interés en trabajar sobre esta problemática
         era una preocupación estética.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Durante el último año y mientras se sustanciaba la polémica licitación,
         trascendieron –además- testimonios y denuncias públicas acerca de
         operativos de “limpieza” que realizan funcionarios del gobierno de la
@@ -241,9 +243,9 @@ const Nota10 = () => {
         de este tipo de manejos. Este registro audiovisual derivó en un hábeas
         corpus presentado ante la Justicia por la secretaría de Derechos Humanos
         de la Nación “por los graves hechos de violencia institucional”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         La ministra de Espacio Público e Higiene Urbana, desde donde se ordenan
         los operativos de “limpieza”, es Clara Muzzio. La funcionaria, además,
         fue elegida por el candidato a jefe de Gobierno de Juntos por el Cambio,
@@ -268,9 +270,9 @@ const Nota10 = () => {
         no se puede saber exactamente qué pasó. La decisión de decirles que
         vayan a otro lado no es nuestra porque no es nuestra área de trabajo”,
         expresaron.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Como puede observarse, la propuesta política de la plataforma Macri-
         Muzzio en relación a las personas que viven en la calle no incluye
         ninguna acción concreta para su resolución. Es decir, otra que no sea el
@@ -282,7 +284,7 @@ const Nota10 = () => {
         e inmobiliarias, aleja mucho más la zanahoria de una solución
         habitacional para las personas que ya se habían olvidado de lo que es
         vivir bajo techo.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         La ministra de Espacio Público e Higiene Urbana, desde donde se ordenan
@@ -293,7 +295,7 @@ const Nota10 = () => {
 
       <h3 className={styles.subTitle}>Ecos de un pasado reciente</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         El 29 de octubre de 2008, bajo la administración de Mauricio Macri, se
         creó a través del decreto 1232/2008, el organismo fuera de nivel Unidad
         de Control del Espacio Público (Ucep) dependiente de la Subsecretaría de
@@ -302,9 +304,9 @@ const Nota10 = () => {
         ocupación del Espacio Público por elementos no autorizados, coordinando
         acciones con el área correspondiente al Ministerio de Justicia y
         Seguridad&quot;.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         La actual legisladora Claudia Neira, de Unión por la Ciudad, patrocinó a
         Liliana Parada en la denuncia que derivó en la investigación al entonces
         jefe de Gobierno, Mauricio Macri, a quien fue el titular de la Ucep,
@@ -315,9 +317,9 @@ const Nota10 = () => {
         operaba como una especie de grupo parapolicial. La Ucep, en connivencia
         con las fuerzas de seguridad y haciendo uso de móviles no identificados,
         atacaban a los indigentes.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Consultada por el Mapa de la Policía, Neira trazó diferencias claras con
         respecto a lo que se comprobó que se hacía entonces y la situación
         actual, pero con algunas similitudes. “Yo no tengo noticias de que hoy
@@ -328,9 +330,9 @@ const Nota10 = () => {
         seguimiento que hicimos, había amigos, familiares y hasta funcionarios
         que pedían que le saquen una persona en situación de calle que se había
         instalado en la puerta de su edificio”.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En ese momento, las alarmas se prendieron cuando se comenzó a hablar de
         aquellos que desaparecían de la vía pública y ya no volvían a aparecer.
         La legisladora contó que los testimonios daban cuenta de operativos
@@ -341,9 +343,9 @@ const Nota10 = () => {
         “limpieza” tienen pecheras de la Ciudad y muchas veces son acompañados
         por policías con uniformes reglamentarios. Por lo demás, si bien la
         operativa no es tan grave como la de la Ucep, es altamente violenta.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         El decreto de la creación de la antigua Ucep no está derogado. Las
         funciones que regula pasaron al ministerio de Espacio Público e Higiene
         Urbana, del que dependía aquella Unidad desde el primer momento y el que
@@ -353,7 +355,7 @@ const Nota10 = () => {
         Neira. La memoria de aquellas prácticas represivas subsiste en la
         institución, una memoria que con cada operativo violento rescata de las
         sombras una pequeña porción del pasado al que no queremos volver.
-      </p>
+      </h4>
     </>
   );
 };

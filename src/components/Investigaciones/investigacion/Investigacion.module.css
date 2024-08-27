@@ -1,6 +1,5 @@
 .investigacionContainer {
     background-color: #e6e6e6;
-    height: 100vh;
 }
 
 .fotoInvestigacion {
@@ -24,8 +23,9 @@
 }
 
 .title {
-    padding: 1vh 03vw;
-    font-size: 1.5rem;
+    padding: 1vh 5vw;
+    font-size: 2.2rem;
+    color: #2a8842;
 }
 
 .title,
@@ -41,6 +41,8 @@
     border-radius: 14px;
     margin: auto;
     margin-top: 1vh;
+    padding-top: 8vh;
+
 }
 
 .date {
@@ -49,7 +51,7 @@
 
 .lead {
     padding: 4vh 5%;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: justify;
 }
 

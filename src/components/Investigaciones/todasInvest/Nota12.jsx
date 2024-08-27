@@ -3,7 +3,7 @@ import styles from "./TodasInvestigaciones.module.css";
 const Nota12 = () => {
   return (
     <div className={styles.NotaContainer}>
-      <p>
+      <h4 className={styles.singularText}>
         Gabriel Mastrángelo sube a la autopista 25 de mayo con su motocicleta y
         acelera. Marcelo Garro, policía motorizado de la Ciudad de Buenos Aires,
         lo persigue desde atrás. Es 19 de noviembre de 2022 por la tarde y
@@ -24,7 +24,7 @@ const Nota12 = () => {
         tirándolo al suelo. Sobre el pavimento, con una bala en su cuerpo, la
         pesadilla de Gabriel con la Motorizada no termina. Tampoco había
         empezado ese día.
-      </p>
+      </h4>
     </div>
   );
 };
