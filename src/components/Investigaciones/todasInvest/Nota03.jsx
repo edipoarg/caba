@@ -3,12 +3,12 @@ import styles from "./TodasInvestigaciones.module.css";
 const Nota03 = () => {
   return (
     <>
-      <p>
+      <h4 className={styles.singularText}>
         “Nunca pensé que me iba a tocar vivir algo así. Me tocó a mí, pero le
         puede tocar a cualquiera. Fue un error de la máquina”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Consultado por los medios que se habían apostado en la estación Retiro,
         Guillermo Federico Ibarrola reflexionaba sobre la pesadilla que vivió
         durante los seis días anteriores. Un sábado de fines de julio de 2019,
@@ -25,9 +25,9 @@ const Nota03 = () => {
         comida. “Ahí cambió el trato”, dijo al regresar luego de que la fiscal
         del caso le comprara el pasaje de vuelta para volver a su casa en
         Ezeiza.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Dos meses antes, Leo Colombo Viña bajó a la estación Callao del Subte B
         para ir al trabajo. Antes de que el tren llegara a la estación, un
         oficial de la Policía de la Ciudad se le acercó y le pidió el DNI. Le
@@ -44,9 +44,9 @@ const Nota03 = () => {
         mano armada, además de otro nombre, otro apellido y otra fecha de
         nacimiento. Un pequeño detalle: el que coincidía era el número de
         documento.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Al menos ocho detenciones erróneas como las descriptas, con experiencias
         más o menos traumáticas para los damnificados, trascendieron en los
         medios durante 2019. Todas se dieron en la Ciudad Autónoma de Buenos
@@ -65,7 +65,7 @@ const Nota03 = () => {
         justicia. Los casos citados al inicio de la nota correspondían a
         personas que no figuraban en la lista de prófugos, pero sus números de
         DNI habían sido ingresados por “errores de carga”.
-      </p>
+      </h4>
 
       <h6 className={styles.supan}>
         Mientras caminan por la calle o bajan de un transporte público, miles de
@@ -75,9 +75,9 @@ const Nota03 = () => {
         40 mil prófugos de la justicia.
       </h6>
 
-      <h3 className={styles.subTile}>El futuro ya llegó</h3>
+      <h3 className={styles.subTitle}>El futuro ya llegó</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         El nuevo gadget policial se denomina Sistema de Reconocimiento Facial de
         Prófugos (SRFP) y comenzó a funcionar el 25 de abril de 2019. En junio
         de ese año también se inauguró el Centro de Monitoreo Urbano (CMU) de la
@@ -96,9 +96,9 @@ const Nota03 = () => {
         reconocimiento facial con eficiencia. Por un limitante de licenciamiento
         de ese software, el gobierno solo puede escanear 300 cámaras en
         simultáneo, aunque puede ir rotando por diferentes zonas de la ciudad.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         La provisión del SRFP se realizó por contratación directa a la misma
         empresa que provee la infraestructura del sistema de videovigilancia
         porteño, Danaide S.A., firma mencionada por Cristina Fernández de
@@ -109,9 +109,9 @@ const Nota03 = () => {
         funcionó durante poco más de un año, pero apenas comenzada la pandemia
         la obligatoriedad del uso de barbijos y tapabocas que cubren parte de la
         cara forzó la interrupción de su empleo.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Según el gobierno de la CABA, la utilización del sistema fue un éxito y
         desde su puesta en marcha 1.695 personas fueron identificadas y puestas
         a disposición de la Justicia. Muchas de ellas terminaron detenidas por
@@ -123,9 +123,9 @@ const Nota03 = () => {
         toda clase de rebeldías, inclusive testigos que no se han presentado a
         declarar y no pueden ser ubicados. Así, gran parte de las
         identificaciones positivas concluyen en una notificación del juzgado.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En el plano legal, la Resolución 398/19 sustentó la activación del SRFP.
         En octubre de 2020, sin mucho debate, la Legislatura aprobó
         modificaciones a la Ley de Seguridad Pública que reguló y avaló el uso
@@ -139,7 +139,7 @@ const Nota03 = () => {
         Estado, el Sistema Federal de Identificación Biométrica para la
         Seguridad (SIBIOS), fue una iniciativa del kirchnerismo aprobada en
         2011.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         La norma contó con los votos del oficialismo porteño, pero el proyecto
@@ -150,9 +150,9 @@ const Nota03 = () => {
         las fuerzas políticas.
       </h6>
 
-      <h3 className={styles.subTile}>Portación de cara</h3>
+      <h3 className={styles.subTitle}>Portación de cara</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Durante 2019 varias ONGs presentaron pedidos de acceso a la información
         para obtener datos sobre el SRFP y gran parte de lo que sabemos sobre su
         funcionamiento proviene de esas solicitudes. La Asociación por los
@@ -164,9 +164,9 @@ const Nota03 = () => {
         (CELS) y la fundación Vía Libre, entre otras, que llevó a que el juez
         porteño Roberto Gallardo determinara la suspensión del uso del sistema
         en abril de 2022 como medida precautoria.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         La disposición del Juez Gallardo, que cuenta con un largo historial de
         fallos incómodos para el gobierno de la CABA, fue noticia en todos los
         medios y volvió a poner sobre el tapete el debate sobre la aplicación de
@@ -183,9 +183,9 @@ const Nota03 = () => {
         tecnología con graves implicaciones para la privacidad para buscar en
         una lista de 46 mil personas que actualmente incluye a menores y delitos
         no graves y que no se actualice y compruebe con cuidado su exactitud”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Los sistemas de reconocimiento facial, al igual que muchos otros métodos
         de identificación y control de individuos, comienzan aplicándose en
         situaciones excepcionales y a grupos limitados, para extenderse luego a
@@ -202,7 +202,7 @@ const Nota03 = () => {
         través de cámaras de vigilancia. Alemania también, y el Parlamento
         Europeo ha clasificado estas tecnologías como un riesgo inaceptable
         cuando es aplicada de forma masiva y en tiempo real a la población.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         Los primeros usos se llevaron a cabo los aeropuertos “calientes” (con
@@ -213,9 +213,9 @@ const Nota03 = () => {
         excepción se convirtió en regla.{" "}
       </h6>
 
-      <h3 className={styles.subTile}>Olfato policial 4.0</h3>
+      <h3 className={styles.subTitle}>Olfato policial 4.0</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Los sesgos merecen un apartado especial: se ha probado que la tecnología
         de Inteligencia Artificial (IA) que se utiliza para realizar la
         identificación de rostros hace diferencias según raza o edad, ya que los
@@ -226,9 +226,9 @@ const Nota03 = () => {
         expuestos que otros a la identificación errónea. No hace falta aclarar
         que esos segmentos de la población también son los más vulnerables a la
         violencia institucional por parte de las fuerzas de seguridad.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Consultado por crisis, Rodrigo Iglesias, abogado de ODIA y apoderado de
         la causa que consiguió la suspensión del SRFP, sostiene que el gobierno
         de la ciudad “contrató un sistema racista”. Según él, el gran problema
@@ -246,16 +246,16 @@ const Nota03 = () => {
         aprende, genera un mayor sesgo racial”. Cabe aclarar que el mismo
         sistema no reconoce a las personas de ascendencia asiática, mientras que
         a los colorados “les clava un 98 o 99 por ciento”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         El fallo de Gallardo se fundamenta en la falta de una evaluación previa
         de su impacto en la privacidad y protección de datos de los ciudadanos,
         en las falencias de la lista del CoNaRC, en la falta de auditorías y
         mecanismos de control sobre el desempeño del SRFP y en un llamativo
         exceso de consultas biométricas que necesita de una explicación más
         detallada.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         “Me pusieron a mí y me detecta con un 97% de efectividad. lo pusimos a
@@ -264,9 +264,9 @@ const Nota03 = () => {
         los colorados les clava un 98 o 99 por ciento”.
       </h6>
 
-      <h3 className={styles.subTile}>Fiesta de datos</h3>
+      <h3 className={styles.subTitle}>Fiesta de datos</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Para obtener las caras de las personas buscadas por la justicia listadas
         en la CoNaRC, el Sistema de Reconocimiento Facial de Prófugos realiza
         una solicitud automática a la base de datos del Registro Nacional de las
@@ -283,9 +283,9 @@ const Nota03 = () => {
         marzo de 2022, se encontró con un número exorbitante: 9.900.282 de
         solicitudes correspondientes a siete millones de personas, entre las
         cuales aparecieron numerosos políticos, empresarios y periodistas.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         No existe una respuesta clara por parte de las autoridades de CABA sobre
         cuál es el objeto de estas consultas, ni bajo qué convenio se
         realizaban. También es llamativo el número de solicitudes para algunas
@@ -295,9 +295,9 @@ const Nota03 = () => {
         Alberto Fernández, Presidente de la Nación, Axel Kicillof, Gobernador de
         la provincia de Buenos Aires, el diputado Javier Milei, o la exministra
         de seguridad Patricia Bullrich.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Para Iglesias “hay un montón de indicios de que algo raro pasa, no
         sabemos si es espionaje, si es un atentado contra la democracia, o una
         utilización desmedida por parte de la fuerza y nada más”. Luego agrega:
@@ -306,7 +306,7 @@ const Nota03 = () => {
         una app de los policías de la Ciudad y cuando vos hacés el análisis de
         las consultas que hicieron, te dan pico los fines de semana”. ¿Acaso la
         fiesta de consultas podría tener una motivación lúdica?
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         También es llamativo el número de solicitudes para algunas figuras de la
@@ -318,18 +318,18 @@ const Nota03 = () => {
         patricia bullrich.
       </h6>
 
-      <h3 className={styles.subTile}>Ciudad de cromañon</h3>
+      <h3 className={styles.subTitle}>Ciudad de cromañon</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Es que el SRFP también permitía la realización de consultas manuales por
         parte de los operadores del Centro de Monitoreo Urbano, es decir, sin
         que haya un disparador de la alarma de coincidencia biométrica. Esos 400
         operadores que monitorean las cámaras de seguridad porteñas pueden,
         según su criterio, buscar en la base de datos de Renaper a cualquier
         persona que aparezca en las imágenes captadas por las cámaras.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En un escenario en el que el software emite un alerta, el oficial puede
         consultar los datos personales de la persona demorada, incluido su
         domicilio. Durante el proceso, el Sistema de Monitoreo Integral Urbano
@@ -346,17 +346,17 @@ const Nota03 = () => {
         hacer consultas, si se están haciendo o no, si hay un protocolo. Eso no
         lo sabemos porque hay que pedir un informe para saber cuántas consultas
         se hicieron”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         El gobierno de la ciudad afirma que las actualizaciones del software de
         Renaper y las consultas se hacen semanalmente y que no hubo
         consecuencias negativas para la población a raíz de la filtración de
         datos masiva que reconoce. Sin embargo, no brindan detalles sobre la
         cantidad de consultas, el objeto o el protocolo de actuación.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Además de las consultas manuales, existen también las automáticas,
         generadas por el SRFP cuando se produce una coincidencia biométrica con
         una persona buscada. Estas consultas son las que se esperarían encontrar
@@ -367,18 +367,18 @@ const Nota03 = () => {
         disposición de la Justicia, solo el 12% proviene de alertas generadas
         por el sistema, mientras que el 88% restante fue producto de consultas
         manuales.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         ¿A dónde se dirige la tecnología de control social en Argentina? ¿Cuál
         es el fin último del uso de tecnologías de identificación biométrica?
         ¿Qué grado de control sobre la población está dispuesto a aceptar el
         ciudadano medio en pos de una mayor seguridad? ¿Cuál es la respuesta de
         las autoridades al creciente reclamo de mayor seguridad por parte de la
         ciudadanía?
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En una sociedad del control, la vigilancia no se manifiesta solo en la
         cantidad de cámaras instaladas en la vía pública sino en la posibilidad
         de ser monitoreado en tiempo real en cualquier momento del día. La
@@ -390,9 +390,9 @@ const Nota03 = () => {
         implementación de estas medidas. Seguridad entendida como la certeza de
         que no se sufrirá ningún daño, en un sentido amplio que incluye la
         integridad física, el patrimonio y la tranquilidad psíquica.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En la búsqueda de esa seguridad se justifican las excepciones a la
         privacidad y a la protección de datos. Es la máxima según la cual “si no
         tengo nada que esconder, no tengo nada que temer”. Pero esa máxima
@@ -402,15 +402,15 @@ const Nota03 = () => {
         privacidad. El impacto del reconocimiento facial no se agota en la
         afectación a la privacidad de un individuo, sino que afecta a toda la
         sociedad.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En la búsqueda de esa seguridad se justifican las excepciones a la
         privacidad y a la protección de datos. Es la máxima según la cual “si no
         tengo nada que esconder, no tengo nada que temer”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         La seguridad, la transparencia y el acceso a la información son
         principios fundamentales en una sociedad democrática. La posibilidad de
         ser vigilado en todo momento no parece ser un buen precio a pagar por
@@ -422,7 +422,7 @@ const Nota03 = () => {
         vuelva a implementar en el futuro. Por lo tanto, es necesario seguir
         debatiendo y reflexionando sobre los límites del control social y la
         vigilancia en una sociedad democrática.
-      </p>
+      </h4>
     </>
   );
 };

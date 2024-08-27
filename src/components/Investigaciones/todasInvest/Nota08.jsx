@@ -3,7 +3,7 @@ import styles from "./TodasInvestigaciones.module.css";
 const Nota08 = () => {
   return (
     <>
-      <p>
+      <h4 className={styles.singularText}>
         Cuando las mujeres, lesbianas, gays, bisexuales, travestis, trans,
         intersexuales y más (LGBTIQ+) toman la decisión de denunciar al agresor,
         el primer organismo estatal con el que se encuentran es la comisaría del
@@ -11,9 +11,9 @@ const Nota08 = () => {
         abordar estas temáticas, ya sea en cuestiones relativas a las normativas
         vigentes, procedimientos y protocolos como también en la manera de
         abordar –humanamente- a la persona que denuncia.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Una de las formas de sortear esta barrera es que la persona que denuncia
         no vaya sola a la comisaría, al menos es la manera más efectiva que la
         Red del Bajo Flores encontró en su contexto. “Hay más cabida cuando
@@ -23,9 +23,9 @@ const Nota08 = () => {
         Griselda Galarza. También cuenta que hay demoras en la sustanciación de
         las exclusiones de hogar, medida que tiene que ordenar la Justicia pero
         que le corresponde garantizar a la policía. Un control que está ausente.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Galarza es docente, vicedirectora de la única escuela secundaria que hay
         en el Bajo Flores e integra, desde que se creó, la Red de docentes,
         familias y organizaciones del barrio. En 2015, la comunidad del Bajo
@@ -40,9 +40,9 @@ const Nota08 = () => {
         las comisarías de su jurisdicción: la comisaría vecinal 4 B, en calle
         Quilmes y la comisaría vecinal 7 A que se encuentra sobre Bonorino, la
         ex 38.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         “Lo primero que tenemos que hacer es ponernos al servicio de la
         compañera, ser sororas, escucharla, sostenerla, brindarle en ese momento
         en que ella está pasando la situación de violencia, o que atravesó,
@@ -62,9 +62,9 @@ const Nota08 = () => {
         sus palabras: “Institución no hay ninguna que nos acompañe. Acá en el
         barrio estamos en la desidia, no tenemos acompañamiento de ninguna
         institución. Y las acompañamos desde las organizaciones”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En este sentido, Maka Barrera Veliz, de la organización Somos Fuego de
         la CTA en el barrio Mujica, cuenta que “las experiencias que tuvimos con
         la policía fueron malísimas siempre y hay mujeres que han sido
@@ -73,9 +73,9 @@ const Nota08 = () => {
         violencia no se los toman muy en serio. Los destacamentos en sí no toman
         denuncias, directamente te derivan a las comisarías que están
         alrededor”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En Barrio Fátima la situación es similar. Rosa Ortega, presidenta del
         barrio, cuenta que cuando decide hacer la denuncia, la persona se dirige
         al refugio que gestiona junto a otras compañeras, allí la asesoran y, si
@@ -91,9 +91,9 @@ const Nota08 = () => {
         hace la denuncia, desde el refugio llaman al juzgado para agilizar el
         trámite y acompañan como pueden a las denunciantes que, en general,
         están decaídas y tienen miedo&quot;.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Aunque, aclara, no hay personal suficiente para acompañarlas. Rosa
         resalta que las barreras para denunciar no solo se concretan en la
         distancia que tienen que recorrer sino también en la cantidad de
@@ -108,7 +108,7 @@ const Nota08 = () => {
         cuando el Estado está ausente: es muy usual que ante la falta de
         contención, a la semana, la denunciante vuelva a la relación de pareja
         con el violento.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         Rosa Ortega, de barrio Fátima, resalta que las barreras para denunciar
@@ -121,7 +121,7 @@ const Nota08 = () => {
         El espacio gris de la burocracia jurisdiccional
       </h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Existen diversos dispositivos territoriales especializados donde las
         personas de los barrios populares acuden para atender las denuncias de
         violencias de género en la Ciudad de Buenos Aires cuando la comisaría no
@@ -129,9 +129,9 @@ const Nota08 = () => {
         (CAJ), la Asesoría General Tutelar, la línea telefónica 137, la Oficina
         de Violencia Doméstica (dependiente de la Corte Suprema de Justicia de
         la Nación - OVD) y ATAJO.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         El Decreto presidencial N° 864/2011 dice que el Operativo Unidad
         Cinturón Sur tendrá por objeto optimizar el servicio de seguridad
         ciudadana de un sector de la Ciudad de Buenos Aires considerado violento
@@ -143,9 +143,9 @@ const Nota08 = () => {
         periferia y gendarmería, adentro. “Ahí ya hay un quilombo. Si hacés la
         denuncia en la policía de la Ciudad, a la villa no entra. Fin del
         cuento”, dice.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En el libro “Mujeres Armadas”, Sabrina Calandrón relata una experiencia
         en un operativo en la madrugada de Villa Soldati en donde este tironeo
         entre la policía y gendarmería se encuentra a la orden del día. La
@@ -157,7 +157,7 @@ const Nota08 = () => {
         capacidad de accionar y presenta grises en donde los efectivos buscan
         cubrirse y desvincularse de responsabilidades. Y en ese gris quedan las
         organizaciones sociales y comunitarias.{" "}
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         En el Bajo Flores, cuenta Griselda Galarza, la policía de la Ciudad
@@ -168,7 +168,7 @@ const Nota08 = () => {
 
       <h3 className={styles.subTitle}>Lo que debería funcionar</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Existen diversos dispositivos territoriales especializados donde las
         personas de los barrios populares acuden para atender las denuncias de
         violencias de género en la Ciudad de Buenos Aires cuando la comisaría no
@@ -176,9 +176,9 @@ const Nota08 = () => {
         (CAJ), la Asesoría General Tutelar, la línea telefónica 137, la Oficina
         de Violencia Doméstica (dependiente de la Corte Suprema de Justicia de
         la Nación - OVD) y ATAJO.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En este estado de situación ¿cómo deberían funcionar las comisarías de
         la Ciudad de Buenos Aires en relación a este tipo de denuncias? Silvia
         Mercado es Comisario Inspector y está al frente del Departamento
@@ -192,9 +192,9 @@ const Nota08 = () => {
         en Zabaleta, la norte está a una cuadra del DOT y el anexo está en
         Chacarita “para que la víctima no se tenga que ir hasta la otra punta”,
         explica Mercado y menciona que en la sur hay mayor demanda.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         “Cuando la víctima denuncia, se le toma la declaración y se consulta al
         juzgado, acorde a lo que diga es cómo se sigue con la denuncia. Si, por
         ejemplo, presenta lesiones, primero se hace que la asista la 137 que es
@@ -207,9 +207,9 @@ const Nota08 = () => {
         cada caso es diferente”, dice. Cabe mencionar que la línea 137 no recibe
         denuncias pero sí es un canal para que las víctimas de violencias de
         género obtengan información y acompañamiento.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En contraste con lo que se viene recabando en el presente informe,
         Mercado reseña que la policía de la Ciudad tiene un sistema aceitado en
         la temática por la experiencia de trabajo que acumula desde 2009. “En 13
@@ -225,9 +225,9 @@ const Nota08 = () => {
         personal policial, que da estas capacitaciones y articulamos mucho con
         el gobierno de la Ciudad, con la Dirección General de la Mujer, nos
         capacitamos en trata, violencia en adultos mayores”, dice Mercado.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         En relación a la recepción de denuncias por violencia de género,
         expresó: “El operador policial de género tiene que estar capacitado. No
         es lo mismo tomar la denuncia de una víctima de violencia de género que
@@ -237,16 +237,16 @@ const Nota08 = () => {
         está a la altura de las circunstancias. De la escuela de cadetes vienen
         con formación en género. El problema es con el policía viejo por un tema
         cultural y generacional”.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Ante la pregunta sobre si tienen protocolo de actuación ante este tipo
         de denuncias, Mercado responde que no tienen pero que sí cuentan con una
         guía de actuación que es la primera intervención del policía con la
         víctima para toda la Policía de la ciudad. Se llama Primera intervención
         del personal con la víctima. Aunque, según dice, no es de carácter
         público sino administrativa.{" "}
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         &quot;El operador policial de género tiene que estar capacitado. No es
@@ -260,7 +260,7 @@ const Nota08 = () => {
         Políticas sin capilaridad para las clases populares
       </h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Existen diversos dispositivos territoriales especializados donde las
         personas de los barrios populares acuden para atender las denuncias de
         violencias de género en la Ciudad de Buenos Aires cuando la comisaría no
@@ -268,9 +268,9 @@ const Nota08 = () => {
         (CAJ), la Asesoría General Tutelar, la línea telefónica 137, la Oficina
         de Violencia Doméstica (dependiente de la Corte Suprema de Justicia de
         la Nación - OVD) y ATAJO.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Hay otros problemas más estructurales que inciden de forma directa en la
         imposibilidad de denunciar las violencias de género, uno de ellos es la
         ausencia de políticas públicas que den respuesta a los problemas reales.
@@ -283,9 +283,9 @@ const Nota08 = () => {
         territorio, son políticas básicamente que están destinadas solo a una
         clase social, no son para las clases populares”, explica Griselda
         Galarza.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Pero no solo se trata de que las ayudas económicas existan y lleguen.
         También hay que combatir la precariedad que rodea a las políticas
         destinadas a atender las violencias de género en los barrios: no se
@@ -298,9 +298,9 @@ const Nota08 = () => {
         ofrecer alojamiento a la mujer que denuncia y a sus hijos. “Hay un
         abandono histórico del estado en relación a las políticas de cuidado y
         protección de derechos”, afirma Galarza.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Desde la Villa 20, Romina Ávila, abogada y coordinadora del Centro de
         Acceso a la Justicia (CAJ) también asegura que se necesitan con urgencia
         políticas públicas que generen trabajo genuino para las víctimas.
@@ -310,9 +310,9 @@ const Nota08 = () => {
         políticas tienen poco presupuesto, a las políticas las sostenemos los
         trabajadores y trabajadoras que realmente lo hacemos con mucho empeño,
         cariño y dedicación”.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Pero la precariedad no solo se vive en los dispositivos creados para
         afrontar las violencias de género en los barrios, hay una falta de
         reconocimiento estatal de los derechos mínimos de las personas que
@@ -327,17 +327,17 @@ const Nota08 = () => {
         por dinero. Deberíamos de tener en cada barrio un espacio donde
         denunciar y que te brinden acompañamiento. Trabajar con un equipo para
         evitar estos quilombos”.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Maka Barrera Veliz, desde su experiencia en barrio Mujica, cuenta que
         “muchas veces hemos sentido que las instituciones del Estado no
         acompañan como tendría que ser, porque te ponen muchas trabas en el
         camino. La mujer está siendo violentada y te mandan a tu casa de nuevo a
         que sigas corriendo peligro”.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Romina Ávila va más allá y afirma que el Poder Judicial es un eslabón
         importante frente a la lucha por la impunidad de los agresores, un
         eslabón que funciona muy mal. “No están preparados para acompañar a las
@@ -348,7 +348,7 @@ const Nota08 = () => {
         hace que funcionen mal las comisarías y las unidades de género. Haría
         falta un trabajo más articulado y mancomunado con las comisarías”,
         agrega.
-      </p>
+      </h4>
 
       <h6 className={styles.span}>
         No solo se trata de que las ayudas económicas existan y lleguen. También
@@ -361,7 +361,7 @@ const Nota08 = () => {
 
       <h3 className={styles.subTitle}>Al pie del colapso</h3>
 
-      <p>
+      <h4 className={styles.singularText}>
         Existen diversos dispositivos territoriales especializados donde las
         personas de los barrios populares acuden para atender las denuncias de
         violencias de género en la Ciudad de Buenos Aires cuando la comisaría no
@@ -369,9 +369,9 @@ const Nota08 = () => {
         (CAJ), la Asesoría General Tutelar, la línea telefónica 137, la Oficina
         de Violencia Doméstica (dependiente de la Corte Suprema de Justicia de
         la Nación - OVD) y ATAJO.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Las referentas barriales consultadas en este informe coincidieron en que
         la mayoría son de difícil acceso ya sea por la distancia en que se
         encuentran en relación a los barrios, la imposibilidad de dar una
@@ -382,9 +382,9 @@ const Nota08 = () => {
         hacia las mujeres del Bajo Flores que es pésimo: demoras de horas y
         horas y se suma que después no hay dispositivo donde derivarlas”, cuenta
         Griselda.{" "}
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Dentro de la Ciudad de Buenos Aires, las víctimas que más acuden a la
         Línea 137 son de Villa Lugano y de Flores, así lo contó su coordinadora,
         Mariela Bañares. “Podría suponerse que se debe a la superpoblación de
@@ -403,9 +403,9 @@ const Nota08 = () => {
         en el ámbito familiar y de las víctimas de delitos sexuales para la
         detención de los agresores, sino también la promoción del acceso a la
         justicia”, asegura.
-      </p>
+      </h4>
 
-      <p>
+      <h4 className={styles.singularText}>
         Los testimonios brindados en este informe pretenden esbozar, apenas, un
         estado de situación cuyos datos concretos nunca fueron recabados por las
         instituciones públicas involucradas. No obstante, se trata de una
@@ -413,7 +413,7 @@ const Nota08 = () => {
         emprender el camino sinuoso de la denuncia por violencia de género en la
         Ciudad y sobretodo, el rol y las responsabilidades que le caben a la
         policía.{" "}
-      </p>
+      </h4>
     </>
   );
 };
