@@ -102,11 +102,14 @@ const Nota14 = () => {
           ilegalidades que se propagan para su desarrollo”.{" "}
         </h4>
         <h4 className={styles.singularText}>
-          Y sigue: “Donde sí tiene consecuencias la guerra contra el
-          narcotráfico es en las vidas de miles de personas que son perseguidas
-          por la policía e ingresadas en el sistema penal”. Las trabajadoras
-          sexuales, que en CABA se mueven entre Constitución, Once y Palermo
-          conocen bien de qué se trata.{" "}
+          Y sigue: “Donde sí tiene consecuencias{" "}
+          <a className={styles.link} href="https://cels.org.ar/drogas/">
+            la guerra contra el narcotráfico
+          </a>{" "}
+          es en las vidas de miles de personas que son perseguidas por la por la
+          policía e ingresadas en el sistema penal”. Las trabajadoras sexuales,
+          que en CABA se mueven entre Constitución, Once y Palermo conocen bien
+          de qué se trata.{" "}
         </h4>
         <h6 className={styles.span}>
           En Argentina, de principios de los 2000 hasta la actualidad, la tasa
