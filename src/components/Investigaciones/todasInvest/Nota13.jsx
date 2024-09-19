@@ -102,11 +102,14 @@ const Nota13 = () => {
           ilegalidades que se propagan para su desarrollo”.{" "}
         </h4>
         <h4 className={styles.singularText}>
-          Y sigue: “Donde sí tiene consecuencias la guerra contra el
-          narcotráfico es en las vidas de miles de personas que son perseguidas
-          por la policía e ingresadas en el sistema penal”. Las trabajadoras
-          sexuales, que en CABA se mueven entre Constitución, Once y Palermo
-          conocen bien de qué se trata.{" "}
+          Y sigue: “Donde sí tiene consecuencias{" "}
+          <a className={styles.link} href="https://cels.org.ar/drogas/">
+            la guerra contra el narcotráfico
+          </a>{" "}
+          es en las vidas de miles de personas que son perseguidas por la
+          policía e ingresadas en el sistema penal”. Las trabajadoras sexuales,
+          que en CABA se mueven entre Constitución, Once y Palermo conocen bien
+          de qué se trata.{" "}
         </h4>
         <h6 className={styles.span}>
           En Argentina, de principios de los 2000 hasta la actualidad, la tasa
@@ -114,17 +117,26 @@ const Nota13 = () => {
           creció un 252%. Y si miramos sólo a la población trans, vemos que
           entre 2015 y 2017 su presencia en las prisiones se multiplicó.
         </h6>
-        <h3>“y yo no veo que eso le hagan a otra gente”</h3>
+        <h3 className={styles.subTitle}>
+          “y yo no veo que eso le hagan a otra gente”
+        </h3>
         <h4 className={styles.singularText}>
           Corre el mes de octubre de 2023. La militancia progresista está
           abocada en intentar frenar lo que será un triunfo arrollador del
           ultraderechista Javier Milei, actual presidente de la Nación. Pero en
-          la sede de la Asociación de Mujeres Meretrices de la Argentina en
-          Acción por Nuestros Derechos (AMMAR), en el barrio porteño de
-          Constitución, se palpita otra cosa. Se trata del sindicato que
-          representa a las trabajadoras sexuales. Esa tarde soleada pero fresca
-          de primavera, la vieja casa chorizo pintada de rojo se convierte en
-          consultorio oftalmológico.
+          la sede de la{" "}
+          <a
+            href="https://www.ammar.org.ar/-Secretaria-General-8-.html"
+            className={styles.link}
+          >
+            {" "}
+            Asociación de Mujeres Meretrices de la Argentina en Acción por
+            Nuestros Derechos (AMMAR)
+          </a>
+          , en el barrio porteño de Constitución, se palpita otra cosa. Se trata
+          del sindicato que representa a las trabajadoras sexuales. Esa tarde
+          soleada pero fresca de primavera, la vieja casa chorizo pintada de
+          rojo se convierte en consultorio oftalmológico.
         </h4>
         <h4 className={styles.singularText}>
           Cuando golpeo la puerta me recibe una chica trans. Le digo que busco a
@@ -164,12 +176,18 @@ const Nota13 = () => {
           pensarán ‘qué fácil es esa vida’. Pero no es fácil. Tenemos que vivir,
           primero que nada, el insulto de la gente. Porque pasan y nos gritan
           ‘zorra’, nos escupen, nos tiran huevos, piedras; me han pegado, me han
-          robado, me han cortado”, describe Natalí. Pero además, el
-          hostigamiento policial. “Es todos los días lo mismo. Lo primero que
-          hago es maquillarme pensando en qué policía me voy a encontrar, porque
-          todos los días tienen turnos distintos. Ayer me peleé con una
-          femenina. Le dije: ‘No venga a ser tan prepotente, si usted me habla
-          educadamente yo me voy‘”.
+          robado, me han cortado”, describe Natalí.{" "}
+          <a
+            href="https://www.youtube.com/watch?v=biPMCOhfG70"
+            className={styles.link}
+          >
+            Pero además, el hostigamiento policial.
+          </a>{" "}
+          “Es todos los días lo mismo. Lo primero que hago es maquillarme
+          pensando en qué policía me voy a encontrar, porque todos los días
+          tienen turnos distintos. Ayer me peleé con una femenina. Le dije: ‘No
+          venga a ser tan prepotente, si usted me habla educadamente yo me
+          voy‘”.
         </h4>
         <h4 className={styles.singularText}>
           Otras veces, los encara “aunque sé que no lo debo hacer, pero me saca
@@ -210,7 +228,9 @@ const Nota13 = () => {
           dónde sacó esa plata?’, y tenemos que ir a la comisaría a rendir de
           dónde sacamos”
         </h6>
-        <h3>monitoreo y armado de causas penales</h3>
+        <h3 className={styles.subTitle}>
+          monitoreo y armado de causas penales
+        </h3>
         <h4 className={styles.singularText}>
           Pablo Ibarra trabaja en la Secretaría de Violencia Institucional del
           Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos
@@ -273,11 +293,16 @@ const Nota13 = () => {
           Las autoras Laura Malacalza y Sofía Caravelos, en un artículo que se
           menciona en detalle más adelante, añadieron otra constante clave en
           estos casos que es moneda corriente en la Ciudad de Buenos Aires: la
-          intervención de los grupos de vecinos en alerta cuyas denuncias sirven
-          como puntapié de muchas causas y de la construcción de estigmas
-          sociales. Cada tanto, además, esos relatos son tomados como insumo
-          para el show televisivo y los canales montan guardias para mostrar la
-          marginalidad.
+          <a
+            href="https://www.instagram.com/p/CvaqIt8Pqw2/?next=%2Feooscrew%2Ffeed%2F&hl=fr"
+            className={styles.link}
+          >
+            intervención de los grupos de vecinos en alerta
+          </a>{" "}
+          cuyas denuncias sirven como puntapié de muchas causas y de la
+          construcción de estigmas sociales. Cada tanto, además, esos relatos
+          son tomados como insumo para el show televisivo y los canales montan
+          guardias para mostrar la marginalidad.
         </h4>
         <h6 className={styles.span}>
           La comisaría que tiene jurisdicción en Constitución y que actúa en la
@@ -286,7 +311,9 @@ const Nota13 = () => {
           rotación de sus autoridades, lo que obstaculiza el trabajo de
           concientización que llevan adelante.
         </h6>
-        <h3>cambios legales sin políticas inclusivas</h3>
+        <h3 className={styles.subTitle}>
+          cambios legales sin políticas inclusivas
+        </h3>
         <h4 className={styles.singularText}>
           Una de las pocas personas que en el ámbito judicial recogió el guante
           de lo que hace años denuncian las organizaciones de Derechos Humanos
@@ -318,28 +345,34 @@ const Nota13 = () => {
         </h4>
         <h4 className={styles.singularText}>
           Al respecto, las estadísticas sobre la población trans en Buenos Aires
-          son elocuentes. “La revolución de las mariposas”, un informe elaborado
-          en 2017 en base a una encuesta en barrios de CABA, revela que solo una
-          pequeña porción de las mujeres trans accede a un trabajo formal (9%).
-          Las que viven de trabajos precarios e informales son el 15% y las que
-          acceden a alguna ayuda estatal, el 3,6%. “Para el resto, más del 70%,
-          la prostitución sigue siendo la principal fuente de ingresos”, señala
-          el estudio. A lo que se suma la persecución policial y penal. “Las
-          mujeres trans son perfiladas por la policía como peligrosas,
-          haciéndolas más vulnerables al abuso policial, a la criminalización y
-          a ser encarceladas”, indicó la jueza. Además cuestionó que en los dos
-          años de proceso judicial no se respetó la identidad autopercibida de
-          la acusada, tal como obliga la ley de Identidad de Género (26.743)
-          sancionada en 2012. Y puso en duda la calificación legal de tenencia
-          de estupefacientes, así como la legalidad de todo el procedimiento
-          policial que inició la causa: estar conversando con otra persona que
-          está dentro de un automóvil o abordar un taxi no son motivos fundados
-          para iniciar un proceso de detención y requisa por la presunta
-          comisión de un delito. En esa línea, también desestimó la existencia
-          de una “actitud evasiva” por parte de Roxana y el taxista, al
-          considerar que los policías estaban vestidos de civil, en un auto sin
-          identificar, por lo que difícilmente podían ser reconocidos como
-          miembros de una fuerza de seguridad.
+          son elocuentes.{" "}
+          <a
+            href="http://bibliots.trabajosocial.unlp.edu.ar/meran/opac-detail.pl?id1=14709"
+            className={styles.link}
+          >
+            “La revolución de las mariposas”
+          </a>
+          , un informe elaborado en 2017 en base a una encuesta en barrios de
+          CABA, revela que solo una pequeña porción de las mujeres trans accede
+          a un trabajo formal (9%). Las que viven de trabajos precarios e
+          informales son el 15% y las que acceden a alguna ayuda estatal, el
+          3,6%. “Para el resto, más del 70%, la prostitución sigue siendo la
+          principal fuente de ingresos”, señala el estudio. A lo que se suma la
+          persecución policial y penal. “Las mujeres trans son perfiladas por la
+          policía como peligrosas, haciéndolas más vulnerables al abuso
+          policial, a la criminalización y a ser encarceladas”, indicó la jueza.
+          Además cuestionó que en los dos años de proceso judicial no se respetó
+          la identidad autopercibida de la acusada, tal como obliga la ley de
+          Identidad de Género (26.743) sancionada en 2012. Y puso en duda la
+          calificación legal de tenencia de estupefacientes, así como la
+          legalidad de todo el procedimiento policial que inició la causa: estar
+          conversando con otra persona que está dentro de un automóvil o abordar
+          un taxi no son motivos fundados para iniciar un proceso de detención y
+          requisa por la presunta comisión de un delito. En esa línea, también
+          desestimó la existencia de una “actitud evasiva” por parte de Roxana y
+          el taxista, al considerar que los policías estaban vestidos de civil,
+          en un auto sin identificar, por lo que difícilmente podían ser
+          reconocidos como miembros de una fuerza de seguridad.
         </h4>
         <h4 className={styles.singularText}>
           En los últimos años hubo cambios legales que impactaron en la
@@ -399,7 +432,7 @@ const Nota13 = () => {
           y discriminatorios ha derivado en una reformulación de las lógicas y
           prácticas de criminalización hacia las mujeres trans y travestis.
         </h6>
-        <h3> no todas son soldaditxs narco </h3>
+        <h3 className={styles.subTitle}> no todas son soldaditxs narco </h3>
         <h4 className={styles.singularText}>
           A principios de marzo de 2024, Georgina Orellano publicó un posteo en
           sus redes sociales desde la esquina en la que trabaja desde hace 17
@@ -424,13 +457,19 @@ const Nota13 = () => {
           El posteo de Orellano coincide con una demanda histórica impulsada por
           las organizaciones sociales que exige que la investigación penal
           escale en la cadena de responsabilidades y no se quede en el simple
-          menudeo. En 2019, OTrans confeccionó un informe sobre la persecución
-          que sufre el colectivo trans migrante, que fue retomado por el fiscal
-          Franco Picardi, titular de la Fiscalía Nacional en lo Criminal y
-          Correccional Federal N° 5, para fundamentar al menos dos decisiones
-          judiciales, en el marco de causas por menudeo. En ambas, el fiscal
-          pidió la absolución de las imputadas, trans y migrantes, por su
-          situación de vulnerabilidad.{" "}
+          menudeo. En 2019, OTrans confeccionó{" "}
+          <a
+            href="https://www.upr-info.org/sites/default/files/documents/2017-10/js14_upr28_arg_s_annexe1.pdf"
+            className={styles.link}
+          >
+            un informe
+          </a>{" "}
+          sobre la persecución que sufre el colectivo trans migrante, que fue
+          retomado por el fiscal Franco Picardi, titular de la Fiscalía Nacional
+          en lo Criminal y Correccional Federal N° 5, para fundamentar al menos
+          dos decisiones judiciales, en el marco de causas por menudeo. En
+          ambas, el fiscal pidió la absolución de las imputadas, trans y
+          migrantes, por su situación de vulnerabilidad.{" "}
         </h4>
         <h4 className={styles.singularText}>
           “Mientras solo el 3% de la población total privada de la libertad en
@@ -442,17 +481,22 @@ const Nota13 = () => {
           100% está presa por estupefacientes”.{" "}
         </h4>
         <h4 className={styles.singularText}>
-          Claudia Vázquez Haro, presidenta de OTrans, es categórica: “Las
-          travestis no son narcotraficantes, son excluidas”. Y añade un eje
-          clave: la edad. “Son personas a las que les plantan drogas, o son
-          compañeras que la mayoría supera los 30 años, cuando como promedio las
-          travestis no superamos los 35 años de edad por muertes con causas
-          evitables”. Vázquez Haro dice: “Imaginate una travesti mayor de 25
-          años, con problemas de consumo problemático, enfermedades crónicas,
-          situación de prostitución, que se ve obligada a sobrevivir drogada
-          para tener sexo con hombres o varios hombres en una noche, o en su
-          defecto, es la que tiene que vender al menudeo porque al otro día no
-          tiene para comer”.
+          <a
+            href="https://perio.unlp.edu.ar/2022/11/28/otrans-argentina-una-decada-en-defensa-de-los-derechos-travesti-trans/"
+            className={styles.link}
+          >
+            Claudia Vázquez Haro, presidenta de OTrans
+          </a>{" "}
+          , es categórica: “Las travestis no son narcotraficantes, son
+          excluidas”. Y añade un eje clave: la edad. “Son personas a las que les
+          plantan drogas, o son compañeras que la mayoría supera los 30 años,
+          cuando como promedio las travestis no superamos los 35 años de edad
+          por muertes con causas evitables”. Vázquez Haro dice: “Imaginate una
+          travesti mayor de 25 años, con problemas de consumo problemático,
+          enfermedades crónicas, situación de prostitución, que se ve obligada a
+          sobrevivir drogada para tener sexo con hombres o varios hombres en una
+          noche, o en su defecto, es la que tiene que vender al menudeo porque
+          al otro día no tiene para comer”.
         </h4>
         <h4 className={styles.singularText}>
           En suma, “todas van presas y nunca va preso el narcotraficante que

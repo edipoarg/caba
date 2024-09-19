@@ -155,6 +155,18 @@
         "dominio": "trans-migrante",
         "tipoInvestigacion": "informe",
         "region": "Caba"
+      },
+      {
+        "id": "i14",
+        "titulo": "Nadie sabe lo que un cuerpo puede",
+        "autorxs": "Facundo Cifelli",
+        "ilus": "Panchopepe",
+        "fecha": "19/09/2024",
+        "imagen": "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg",
+        "textoBajada": "Lo que ocurre entre una detención y otra no es más que tiempo que se diluye en sueños de libertad. Un hombre y una maquinaria estatal que lo arrastra y lo devuelve para exponer un cuerpo fracturado, un alma sola. De requisas y hospitales, un circuito que se muestra ineludible dentro las comisarías de la Ciudad de Buenos Aires donde la División de Unidad Táctica de Intervenciones de Alcaildías tiene una sombría preponderancia.",
+        "dominio": "nadie-sabe",
+        "tipoInvestigacion": "informe",
+        "region": "Caba"
       }
   ]
   
