@@ -5,501 +5,423 @@ const Nota14 = () => {
     <>
       <div className={styles.NotaContainer}>
         <h4 className={styles.singularText}>
-          En la fría madrugada del 29 agosto de 2019, una mujer travesti de 45
-          años, peruana, a la que llamaremos Roxana, conversa con un taxista
-          estacionado en doble fila al 1200 de la calle Pavón, en el barrio
-          porteño de Constitución. El hombre —pongámosle Oscar—, un cliente y
-          dealer habitué de la zona, la invita a dar una vuelta en el vehículo y
-          ella acepta, tentada también por el convite de un poco de cocaína.
+          Antonio Romero quedó detenido, sin denuncia formal, cuando el mes de
+          julio del 2023 apenas asomaba en el calendario. No era la primera vez
+          que ganaba entradas para el encierro, pero sí que caía de esta forma:
+          sin denunciante afectado por los actos de su delincuencia, sino más
+          bien por una máquina. Una cámara del Gobierno de la Ciudad de Buenos
+          Aires lo vio merodeando un auto e intentando abrir el baúl en el
+          barrio de Once. Bajo la causa número 39163/23, a cargo del Tribunal
+          Oral 16 de Capital Federal, El Tucu (como lo llaman por provenir de la
+          provincia de Tucumán) quedó procesado y en tránsito al penal de
+          Devoto. Fue alojado en la comisaría vecinal 3C, ubicada en Lavalle
+          1958. Allí, el 17 de Julio de 2023, un grupo de policías que llevaban
+          su rostro cubierto con pasamontañas le regalaron a él (y a cuatro
+          detenidos más) una golpiza con descargas eléctricas y golpes en la
+          cabeza en medio de una requisa (poco) habitual. Este hecho lo dejó
+          internado en el Hospital Ramos Mejía.
         </h4>
         <h4 className={styles.singularText}>
-          Mientras terminan de ponerse de acuerdo, ven que se acerca un
-          Chevrolet Corsa. Como el taxi impide el paso, Roxana y Oscar apuran
-          los planes. Ella se sube en el asiento de atrás y el tachero arranca,
-          pero solo avanzan unos metros. Del Corsa se bajan tres hombres y dan
-          la voz de alto: son policías de la brigada de la Comisaría Comunal 1.
+          Llevaba cerca de dos semanas en observación y aún faltaba que le
+          realizaran algunos estudios médicos antes de salir del hospital cuando
+          fui a verlo. La sala era amplia, camas ocupadas en ambos laterales,
+          sueros y monitores de pulsos cardíacos. Los médicos cruzaban con aire
+          apresurado el salón. Comparado con la comisaría 3C, aquello era un
+          lujo. Diez años atrás, El Tucu había sufrido un ACV y a partir de
+          entonces las funciones biológicas de su corazón andaban como con baja
+          batería. Las descargas eléctricas que recibió en la comisaría lo
+          dejaron al límite del adiós.
         </h4>
         <h4 className={styles.singularText}>
-          Luego de hacerlos descender, los revisan y encuentran 53 envoltorios
-          con un total de 6,10 gramos de cocaína: dos estaban en el asiento
-          trasero y el resto en el baúl.
+          -Él es mi consigna, con esas palabras me saludó, esposado en la
+          camilla y señalando a un policía de civil. De esa manera, me advertía
+          de antemano los límites que tendría nuestra conversación. Luego, se
+          incorporó. Incluso sentado se notaba que era enorme, casi dos metros.
+          De piel oscura, los tatuajes malgastados en sus brazos eran toda una
+          marca identitaria para sus 51 años, la misma que llevan las personas
+          que pasaron largos años en prisión.
         </h4>
         <h4 className={styles.singularText}>
-          {" "}
-          Pero esa es la versión de Roxana.{" "}
+          Bajo la luz hospitalaria, Antonio Romero -delincuente desde temprana
+          edad- se parecía más a un ser humano degradado en todas las aristas de
+          la existencia que a un psicópata al estilo “American Psycho”, o a
+          algún personaje de Hitchcock. Lo conocí hace más de dos años atrás en
+          el barrio robado de Constitución. Hasta el momento, no me dejó saber
+          de su prontuario más temible, ni el eco de sus paisajes internos. Sin
+          embargo, se mostró siempre como un sujeto amable. Como si supiera
+          mejor que nadie cómo debía manejarse una relación por conveniencia.
         </h4>
         <h4 className={styles.singularText}>
-          El relato policial, y el que va a permitir iniciar un proceso judicial
-          que se extenderá durante dos años y acumulará fojas y fojas con
-          fotografías, declaraciones, oficios, trámites a embajadas, exámenes de
-          laboratorio y estudios médicos, es sutilmente distinto.
+          -Quiero hablar con vos, estoy cansado de todo lo que le hacen a los
+          pibes en las comisarías, yo estoy acostumbrado… pasé la mitad de mi
+          vida preso. Sé todo lo que hacen, cómo mueven la droga… yo estuve
+          metido. Pero no quiero más, me susurró después de pedirle al consigna
+          de turno que nos dejara solos un momento. Me sugirió que pidiera el
+          informe médico de su ingreso al hospital, allí había registro de lo
+          golpeado que había llegado su cuerpo. Hasta la fecha de publicación de
+          esta nota, ese informe es una incógnita.
         </h4>
         <h4 className={styles.singularText}>
-          Los tres oficiales, que vestían de civil y se movían en un auto sin
-          identificar, declaran que esa noche conducían por calle Pavón cuando
-          se vieron obligados a detener la marcha porque un taxi estacionado en
-          doble fila les impedía la circulación. En ese momento, notan que junto
-          al vehículo “se encontraba parado al lado de la puerta del acompañante
-          un travesti el cual conversaba gesticulando, no llegando a observar si
-          realizaban un intercambio o pasamano”.{" "}
+          Casi un mes después de aquel encuentro recibí una llamada por cobrar
+          desde el pabellón 9, módulo 3, de la cárcel de Devoto. Lo habían
+          trasladado al servicio penitenciario apenas salido del hospital, sin
+          denuncia ni sentencia firme. El informe médico seguía sin aparecer y
+          las autoridades policiales alegaban que su internación se había debido
+          a un episodio de asma.
         </h4>
         <h4 className={styles.singularText}>
-          Agregan que “al percatarse el travestido” de su presencia,
-          “rápidamente aborda el vehículo en el asiento trasero”, lo que los
-          oficiales interpretan como “una actitud evasiva”. Entonces, proceden
-          con el operativo de requisa y posterior detención.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          Con los hechos antes descriptos se arma la causa penal 44393/2019-0,
-          en la que se acusa a Roxana por tenencia de estupefacientes para
-          comercialización, que a falta de pruebas el fiscal Paulo Gaspani luego
-          acotará a tenencia.
-        </h4>
-        <h4 className={styles.singularText}>
-          En 2020 se añade otro hecho, ocurrido en la madrugada del 6 de febrero
-          de 2020 y que de nuevo tendrá sostén en el relato de los integrantes
-          de la brigada de la Comunal 1: un oficial de esa dependencia declara
-          el secuestro de 19 envoltorios con 2,09 gramos de cocaína, encontrados
-          en una persiana de un comercio de calle Pavón al 1200. Dice que Roxana
-          estaba a punto de entregarlo a un cartonero, pero que la operación se
-          interrumpió cuando la mujer se percató de la presencia policial.
-        </h4>
-        <h4 className={styles.singularText}>
-          Ella declarará otra cosa: que era otra compañera la que tenía esa
-          droga, que ella estaba en el bar “copeteando” y que no vio cuando
-          encontraron la droga. Dice también que el cartonero apareció de la
-          nada y que lo agarraron porque ya tenía un pedido de captura. Sobre el
-          policía que la detiene, cuenta: “Es un gordito de cabello paradito y
-          yo siento que me hostiga”.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          Ninguna de sus declaraciones será tenida en cuenta.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          En mayo de 2021, Roxana acepta los cargos que el fiscal le imputa por
-          esos dos hechos, para finalizar el proceso con un juicio abreviado y
-          una condena a un año de prisión domiciliaria. El beneficio se concede
-          por su grave estado de salud, es HIV positivo y padece insuficiencia
-          renal severa, y por el contexto de crisis sanitaria por la pandemia de
-          covid-19.
-        </h4>
-        <h4 className={styles.singularText}>
-          Hasta acá, la historia de Roxana no es novedosa. Y es que en
-          Argentina, entre 2002 y 2017 hasta la actualidad, la tasa de personas
-          alojadas en cárceles por infracción a la Ley de Drogas creció un 252%.
-          Y si miramos solo a la población trans, vemos que, entre 2015 y 2017,
-          su presencia en las prisiones se multiplicó. Además, si en 2015 solo
-          el 30% de esa población estaba presa por algún delito vinculado a
-          estupefacientes, en 2017 la proporción trepó al 70%
-        </h4>
-        <h4 className={styles.singularText}>
-          La información, elaborada en base a datos del Sistema Nacional de
-          Ejecución de la Pena (SNEEP), es parte de un informe del Centro de
-          Estudios Legales y Sociales (CELS), irónicamente titulado “La guerra
-          contra el narcotráfico”, que da cuenta de la ineficacia de un enfoque
-          que se concentra en perseguir a personas pobres, “cuya detención no
-          incide en la desarticulación del negocio ni de las redes de
-          ilegalidades que se propagan para su desarrollo”.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          Y sigue: “Donde sí tiene consecuencias{" "}
-          <a className={styles.link} href="https://cels.org.ar/drogas/">
-            la guerra contra el narcotráfico
-          </a>{" "}
-          es en las vidas de miles de personas que son perseguidas por la por la
-          policía e ingresadas en el sistema penal”. Las trabajadoras sexuales,
-          que en CABA se mueven entre Constitución, Once y Palermo conocen bien
-          de qué se trata.{" "}
+          Lo que sigue es una reconstrucción de los hechos más recientes de
+          violencia policial vividos por El Tucu. Una recopilación que comenzó
+          con una visita al hospital y conversaciones semanales que mantuve con
+          él durante su detención en Devoto, así como visitas y encuentros
+          posteriores, en aquellas otras detenciones.
         </h4>
         <h6 className={styles.span}>
-          En Argentina, de principios de los 2000 hasta la actualidad, la tasa
-          de personas alojadas en cárceles por infracción a la Ley de Drogas
-          creció un 252%. Y si miramos sólo a la población trans, vemos que
-          entre 2015 y 2017 su presencia en las prisiones se multiplicó.
+          -Quiero hablar con vos, estoy cansado de todo lo que le hacen a los
+          pibes en las comisarías, yo estoy acostumbrado… pasé la mitad de mi
+          vida preso. Sé todo lo que hacen, cómo mueven la droga… yo estuve
+          metido. Pero no quiero más.
         </h6>
-        <h3 className={styles.subTitle}>
-          “y yo no veo que eso le hagan a otra gente”
-        </h3>
+        <h3 className={styles.subTitle}>Uniformados de “requisa”</h3>
         <h4 className={styles.singularText}>
-          Corre el mes de octubre de 2023. La militancia progresista está
-          abocada en intentar frenar lo que será un triunfo arrollador del
-          ultraderechista Javier Milei, actual presidente de la Nación. Pero en
-          la sede de la Asociación de Mujeres Meretrices de la Argentina en
-          Acción por Nuestros Derechos (AMMAR), en el barrio porteño de
-          Constitución, se palpita otra cosa. Se trata del sindicato que
-          representa a las trabajadoras sexuales. Esa tarde soleada pero fresca
-          de primavera, la vieja casa chorizo pintada de rojo se convierte en
-          consultorio oftalmológico.
+          Dos meses después de aquella visita al hospital, el 22 de septiembre
+          de 2023, El Tucu se comunicó desde Devoto para decirme que le habían
+          dado la libertad y que saldría en los próximos 10 días hábiles ya que
+          no había testigos, ni denuncia del dueño del vehículo, ni acto
+          consumado. Pasó unos días en situación de calle hasta que logró
+          conseguir trabajo en una obra en construcción, sabía hacer todo tipo
+          de oficios. Consiguió habitación en un hotel cercano al Abasto y
+          conoció a una mujer llamada Andrea, quien sería su pareja a partir de
+          entonces.
         </h4>
         <h4 className={styles.singularText}>
-          Cuando golpeo la puerta me recibe una chica trans. Le digo que busco a
-          Georgina Orellano, la secretaria general del sindicato, y me manda
-          para el fondo.{" "}
+          El 25 de octubre de 2023 fue citado a declarar por los hechos
+          ocurridos en la comisaría 3C. En su declaración contó que el jueves 17
+          de Julio de 2023, sin recordar el horario, mientras se hallaba en el
+          calabozo N° 4 junto a otros dos reclusos, repentinamente, se presentó
+          personal de la requisa. Se trataba, según consta en la declaración, de
+          “varios uniformados con cascos de asalto y pasamontañas, sin
+          identificación, que querían ingresar a un cuarto detenido que se
+          resistía a la fuerza a entrar al calabozo, momento en el cual uno de
+          los uniformados le arrojó gas pimienta en el rostro y a todos allí
+          presentes”. Ese mismo agente, luego, les propinó a todos varias
+          descargas eléctricas con un elemento que no pudo reconocer pero que le
+          causaron dolor en el pecho, mareos y vómitos. El Tucu, que ya tenía en
+          su historia clínica asma bronquial y problemas cardíacos, se
+          desvaneció. Lo trasladaron entonces al Hospital Ramos Mejía donde
+          estuvo internado apenas un día para después regresar al mismo
+          calabozo.
         </h4>
         <h4 className={styles.singularText}>
-          En la entrada hay un pequeño salón dispuesto como sala de espera:
-          sentadas en dos filas enfrentadas, una decena de mujeres travestis
-          trans charlan entre sí; otras están con la vista clavada en sus
-          teléfonos. En la habitación que sigue hay dos aparatos sofisticados y
-          brillantes. Las chicas apoyan la quijada y los técnicos colocan
-          distintos lentes, calibran manijas y rueditas, y anotan en una
-          planilla.
+          Dijo que al volver, un agente de unos 36 años, de baja estatura y piel
+          trigueña, sin decirle su nombre le pidió disculpas ya que era el
+          oficial a cargo del grupo de requisas. Poco después sufrió un paro
+          cardíaco. Fue hospitalizado en la sala de terapia del mismo hospital
+          del que había sido dado de alta. Tras diez días, fue trasladado a la
+          unidad N° 2 de Devoto del Servicio Penitenciario Federal. Cuando fue
+          indagado por el fiscal, El Tucu aclaró que las agresiones que sufrió
+          fueron autoría de la unidad de requisa y que los agentes
+          pertenecientes a la comisaría no habían tenido participación sino que
+          lo habían auxiliado. Que los cascos de asalto y pasamontañas que
+          cubrían el rostro de los atacantes le impedía identificarlos.
         </h4>
         <h4 className={styles.singularText}>
-          Al fondo, sentada en una mesa, con una minifalda ajustada, medias
-          transparentes y botas está Georgina, que recibe a las chicas en la
-          mesa de la cocina para indicarles cuándo tienen que volver para
-          retirar los anteojos. Cuando termina con una de ellas, aprovecho para
-          presentarme. Me dice que me siente frente a ella, que Yokhari Márquez
-          —la responsable del área social de AMMAR, con quien pacté la
-          entrevista— está un poco retrasada, pero que enseguida llega.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          Mientras espero, me presenta a Natalí, una mujer trans colombiana de
-          casi 50 años. Natalí me cuenta que está súper ansiosa, a la espera de
-          la visita de su mamá, a quien no ve desde hace unos 8 años debido a
-          una causa judicial por drogas que le impide regularizar su situación
-          migratoria y salir del país. “Es lo único bueno que me va a pasar en
-          años”, dice.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          Cuando llegó al país no encontró el paraíso. Dice que a pesar de la
-          Ley de Cupo Laboral travesti trans, la falta de documentación y de
-          estudios, hacen que la única salida sea la calle. “Nos ven riendo y
-          pensarán ‘qué fácil es esa vida’. Pero no es fácil. Tenemos que vivir,
-          primero que nada, el insulto de la gente. Porque pasan y nos gritan
-          ‘zorra’, nos escupen, nos tiran huevos, piedras; me han pegado, me han
-          robado, me han cortado”, describe Natalí. Pero además, el
-          hostigamiento policial. “Es todos los días lo mismo. Lo primero que
-          hago es maquillarme pensando en qué policía me voy a encontrar, porque
-          todos los días tienen turnos distintos. Ayer me peleé con una
-          femenina. Le dije: ‘No venga a ser tan prepotente, si usted me habla
-          educadamente yo me voy‘”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Otras veces, los encara “aunque sé que no lo debo hacer, pero me saca
-          la rabia. Porque yo sé que la chica no está haciendo nada. Le digo al
-          policía, ‘¿le encontró algo que la comprometa?‘, y me dicen ‘no, pero
-          lo vimos en la cámara’. Y le digo, ‘la cámara no ha visto ni mierda,
-          ustedes por joder, por tocarla, por llamar la atención, para que la
-          gente diga: Ah, cómo trabaja‘”.
+          La División de Unidad Táctica de Intervenciones de Alcaildías (DUTIA),
+          según contó al Mapa de la Policía un integrante del Comité Nacional
+          para la Prevención de la Tortura (CNPT), es un cuerpo específico de
+          intervención frente a conflictos y requisas. Se caracteriza por
+          utilizar boinas rojas. Se creó con motivo del crecimiento incesante de
+          personas alojadas en comisarías. Las mismas alcaildías fueron una
+          respuesta de alojamiento transitorio ante el desborde que padecían las
+          comisarías vecinales como la 3C. DUTIA, en un principio solo actuaba
+          en las alcaidías, pero con el hacinamiento existente se expandió a
+          todo tipo de centros de encierro. “Es común que las guardias internas
+          de las comisarías recurran a la DUTIA frente a un conflicto como puede
+          ser un intento de fuga, un motín o una requisa”, como sucedió aquel 17
+          de julio, en las circunstancias narradas por El Tucu. Según el último
+          informe del Ministerio Público de la Defensa de la Ciudad , la
+          comisaría 3C alojaba en un sector a 28 personas en una celda con dos
+          letrinas y sin agua potable y en otro sector, a 20 personas sin baño.
+          Se registró una gran cantidad de mosquitos, inundaciones en el
+          edificio cada vez que llueve, y la falta de instalaciones mínimas que
+          permitieran conservar los alimentos de los detenidos.
         </h4>
 
-        <h4 className={styles.singularText}>
-          Yokhari Márquez Ortiz, dirigenta del área social del sindicato de
-          trabajadoras sexuales, coincide. Y explica que eso es lo que viven
-          todas, todos los días. “Si yo estoy en la calle y venís y me das un
-          abrazo, o me das la mano, la cámara dice que te estoy dando algo”,
-          ejemplifica en referencia al rol del Centro de Monitoreo Urbano (CMU)
-          de la Policía de la Ciudad. Y continúa: “Entonces vienen y me hacen la
-          detención arbitraria, me desnudan en la calle, me quitan lo poquito
-          que tengo. Porque para ellos no podemos tener más de veinte mil pesos
-          en la cartera. Entonces nos dicen: ‘¿de dónde sacó esa plata?’, y
-          tenemos que ir a la comisaría a rendir de dónde sacamos esa plata”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          {" "}
-          “Eso nos hacen —subraya Yokhari— y yo no veo que eso le hagan a otra
-          gente. No puedo caminar libremente por mi barrio, donde vivo y ejerzo
-          mi trabajo. Cuando los policías hacen sus razias arbitrarias a las
-          primeras que van a raziar (sic) es a las chicas trabajadoras sexuales,
-          al colectivo migrante trans, a las personas en situación de calle, y a
-          las personas por portación de rostro y de vestimenta”, dice y
-          caracteriza con claridad la política criminal del Gobierno de la
-          Ciudad. Agrega: “Esa gente ves tú en las comisarías y en los
-          patrulleros. No ves gente que para ellos no son sospechosos. No ves
-          gente blanca, con buena ropa, con buen coche. Capaz esos son los que
-          nos envenenan y abastecen de droga a todo el país, pero como son de
-          ese prototipo que para la Ciudad y la policía encajan, no les dicen
-          nada. Entonces, van hacia nosotras”.{" "}
-        </h4>
         <h6 className={styles.span}>
-          “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
-          calle, me quitan lo poquito que tengo. Porque para ellos no podemos
-          tener más de veinte mil pesos en la cartera. Entonces nos dicen: ‘¿de
-          dónde sacó esa plata?’, y tenemos que ir a la comisaría a rendir de
-          dónde sacamos”
+          La División de Unidad Táctica de Intervenciones de Alcaildías (DUTIA)
+          es un cuerpo específico de intervención frente a conflictos y
+          requisas. Se caracteriza por utilizar boinas rojas. Se creó con motivo
+          del crecimiento incesante de personas alojadas en comisarías.
         </h6>
         <h3 className={styles.subTitle}>
-          monitoreo y armado de causas penales
+          35 personas y una celda sin ventanas{" "}
         </h3>
         <h4 className={styles.singularText}>
           {" "}
-          Pablo Ibarra trabaja en la Secretaría de Violencia Institucional del
-          Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos
-          Aires. Dice: “Si sos trans y estás en Constitución, ya está.
-          Básicamente, estás condenada a recibir en algún momento de tu jornada,
-          en algún momento de la semana, algún tipo de hostigamiento policial”.
+          Durante el siguiente mes El Tucu anduvo libre por la calle. Su
+          expectativa de avanzar con la denuncia por lo sucedido en la comisaría
+          3C había bajado. La defensa oficial había investigado poco y nada de
+          lo sucedido. No logró obtener el informe médico que daba cuenta de las
+          lesiones con las que llegó al hospital, ni pudo recuperar sus
+          pertenecías olvidadas en Devoto. Parecía tener miedo de &quot;hacerlo
+          bien&quot; cada vez que salía del encierro. Es así que el 28 de
+          noviembre de 2023 me llegó un mensaje de la Defensoría Penal N° 8 a
+          cargo de Silvia Martínez. Luego de casi dos meses de libertad, estaba
+          nuevamente detenido.
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          A partir de su testimonio es posible conocer detalles del modo
-          particular en que se da la persecución a manos de la Policía de la
-          Ciudad. Como había señalado Yokhari de AMMAR, el inicio de los casos
-          que involucran a personas trans, trabajadoras sexuales, se dan a
-          partir de la intervención del Centro de Monitoreo Urbano.
+          Según su relato se encontró con un amigo que había salido de estar
+          preso, al que no veía hacía mucho tiempo. A éste se le ocurrió
+          llevarse la pantalla de un auto (se vendían en esa fecha a 50 mil
+          pesos en el mercado negro), y así fue: su amigo la sacó del auto y la
+          descartó al lado de un contenedor de basura en la calle Corrientes.
+          Cuando El Tucu fue a levantarla se encontró con un oficial de policía
+          a su lado. A diferencia del otro muchacho, no intentó huir. Como no lo
+          habían encontrado “in fraganti”, ni estaba involucrado directamente en
+          el hurto, pensó que lo dejarían ir fácilmente. No fue así. Esta vez lo
+          trasladaron a la comisaría vecinal 3A ubicada en Lavalle 2625, con un
+          máximo de 4 meses de detención. Allí iba a durar poco tiempo.{" "}
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          “Monitoreo Urbano avisa al policía (la mayoría de las veces,
-          refiriéndose a un travestido), y el policía va, detecta y revisa medio
-          arbitrariamente”. La persona “puede tener una bolsita, puede no tener
-          una bolsita, puede tener plata, puede no tener plata, pero siempre se
-          come algún tipo de secuencia”, indica. Para él, eso da cuenta de que
-          la discriminación estereotipada previa es transversal: “Hay prejuicio
-          por parte de la policía de calle, de los agentes del CMU y —-también—
-          de las propias fiscalías”.
+          Los medicamentos que El Tucu debía tomar a causa de sus enfermedades
+          de base eran: hidroclorotiazida 25 mg/día para hipertensión arterial;
+          amiodarona 400 mg/día para tratar arritmia ventricular y ritmo
+          cardíaco anormal; bisoprolol 5mg/día para la presión arterial alta;
+          omeprazol 20 mg/día para que el cóctel de medicamentos no sea mortal;
+          budesonide puff de rescate para el asma. Todos los medicamentos
+          mencionados fueron denegados por las autoridades de la comisaría.
+          Había pasado semanas sin tomar la medicación necesaria, lo que lo
+          llevó, en un almuerzo, a discutir con los oficiales. Resultó levemente
+          herido y, como cortina de humo, fue trasladado a los hospitales Ramos
+          Mejía y Argerich. Pero jamás lo bajaron del patrullero. La
+          deambulación nocturna cargada de amenazas e incertidumbre parece ser
+          otra práctica común de la Policía de la Ciudad.
+        </h4>
+        <h4 className={styles.singularText}>
+          A partir de ese hecho lo trasladaron a la comisaría 5 A, ubicada en
+          las calles Billinghurst y Corrientes. Allí es donde recuperé contacto
+          con él. En esa comisaría el régimen funciona de manera cerrada. Las
+          visitas se pueden realizar los martes de 16 a 19 horas o los sábados
+          de 10 a 18 horas. El teléfono se puede usar solamente 10 minutos por
+          día y con una custodia policial que monitorea la comunicación. El Tucu
+          compartía una celda sin ventanas con 35 personas más. Para bañarse
+          tenía tres minutos y si tardaba era amenazado, golpeado o le reducían
+          el tiempo de uso telefónico como castigo. Pero el problema más grande
+          para él era que seguían negándole la medicación. Esto lo llevó a hacer
+          una huelga de hambre y a amenazar con cocerse la boca.
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          La comisaría que tiene jurisdicción en Constitución y que actúa en la
-          mayoría de estos casos es la Vecinal 1C. Algo característico de esa
-          dependencia, y que AMMAR denuncia desde hace años, es la constante
-          rotación de sus autoridades, lo que obstaculiza el trabajo de
-          concientización que llevan adelante.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          {" "}
-          En relación a denuncias por la intervención de las brigadas (como las
-          que actuaron en la causa de Roxana), Ibarra dice que no son la mayoría
-          de los casos que llegan fiscalía pero lo que se observa es la
-          brutalidad: las trabajadoras sexuales han consignado desde requisas
-          vejatorias hasta robo de pertenencias, y también, que les plantan
-          drogas.{" "}
+          El martes 5 de diciembre de 2023, pasadas las 16 horas, me trasladé a
+          la comisaría con Santiago Kozicki, un abogado que el Centro de
+          Estudios Legales y Sociales (CELS) había puesto a disposición. Cuando
+          quisimos verlo nos informaron que “el imputado está en la comisaría en
+          calidad de alojado, no pertenece a la 5 A, sino a la 3 A”. Por dicho
+          motivo no permitieron la visita de más de una persona. Santiago se
+          quedó afuera pero pactó con las autoridades de la comisaría un
+          encuentro con el detenido que sucedería al día siguiente. Al ingresar
+          me encerraron en un cuarto. Me sacaron todo lo que llevaba en los
+          bolsillos y me revisaron el cuerpo entero por sobre la ropa. Fui
+          obligado a apagar el celular y a dejarlo apartado. No era la primera
+          vez que iba a visitar a alguien que estaba detenido, pero sí que me
+          hacían pasar por esa situación antes de ingresar a la visita.
         </h4>
 
         <h4 className={styles.singularText}>
+          El Tucu apareció con un termo y un mate lleno de azúcar, cebó y me
+          convidó. Hice como si me gustara el mate dulce, aquella táctica
+          popular para mitigar el hambre. Nos reímos. “Sos el último eslabón”,
+          me decía enigmáticamente, una y otra vez. Pidió ropa y elementos de
+          higiene. Entre susurros y palabras claves contó lo sucedido. Se lo
+          notaba cansado y más flaco. Pero tenía esperanza: al día siguiente, el
+          6 de diciembre, tenía audiencia con el juez, su defensa pedía la
+          excarcelación. Esperaba pasar las fiestas con su pareja que “encima
+          está embarazada”. - ¿Es tuyo, Tucu? - Si, me respondió.
+        </h4>
+
+        <h6 className={styles.span}>
+          En la comisaría 5A el régimen funciona de manera cerrada. El teléfono
+          se puede usar solamente 10 minutos por día y con una custodia policial
+          que monitorea la comunicación. El Tucu compartía una celda sin
+          ventanas con 35 personas más. Para bañarse tenía tres minutos y si
+          tardaba era amenazado, golpeado o le reducían el tiempo de uso
+          telefónico como castigo.
+        </h6>
+        <h3 className={styles.subTitle}>Pasados los tres minutos </h3>
+        <h4 className={styles.singularText}>
           {" "}
-          El abogado explica que esto se vincula al marco gris de actuación en
-          el que se maneja la policía ya que si bien intervienen por orden
-          judicial y, a priori, no tienen asignadas tareas de prevención, el
-          estado policial, que habilita a todos los agentes de la Policía de la
-          Ciudad a intervenir cuando están fuera de servicio, ampara esas
-          actuaciones.{" "}
+          Al día siguiente Santiago, el abogado, fue a visitarlo temprano como
+          tenía pactado. No dejaron que lo viera. Un aire extraño corría en el
+          ambiente. Al mediodía, Andrea -la futura madre de su hijo- fue a
+          llevarle comida pero tampoco la dejaron verlo. Ella insistió, escuchó
+          gritos provenientes del sector de las celdas. Un oficial salió para
+          comunicarle que su marido “se había descompensado” y que lo
+          trasladarían al hospital Durand. Desesperada, se dirigió allí por su
+          cuenta. Al llegar, un oficial le dijo que había llegado sin signos de
+          vida.
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          Al cierre de esta investigación, se conoció que a partir de una
-          denuncia de AMMAR -que acompañó la cartera de Ibarra-, la fiscalía
-          especializada en Violencia Institucional de Ciudad ordenó el traslado
-          preventivo de los agentes de la comisaría 1C, Rocío Maldonado y
-          Orlando Silvero, por distintos hechos de maltrato físico y psicológico
-          contra trabajadoras sexuales travesti trans. La secretaría también
-          había pedido que una serie de hechos similares ocurridos en
-          Constitución se investigaran en una sola causa, por su carácter
-          sistemático.
+          La información que el inspector Ávila, de la comisaría 5A, le otorgó
+          entonces a la defensa de El Tucu para dar cuenta del episodio fue la
+          siguiente: “Antonio Romero se descompensó. Tenía pocos signos vitales
+          cuando entró, lo llevaron al Durand para estabilizarlo”. También
+          informaron que iban a trasladarlo a la comisaría 8BIS (hecho que jamás
+          sucedió), ubicada en Lugano, pero que por el momento estaba en
+          observación en el Durand.
         </h4>
         <h4 className={styles.singularText}>
-          Las autoras Laura Malacalza y Sofía Caravelos, en un artículo que se
-          menciona en detalle más adelante, añadieron otra constante clave en
-          estos casos que es moneda corriente en la Ciudad de Buenos Aires: la
-          intervención de los grupos de vecinos en alerta cuyas denuncias sirven
-          como puntapié de muchas causas y de la construcción de estigmas
-          sociales. Cada tanto, además, esos relatos son tomados como insumo
-          para el show televisivo y los canales montan guardias para mostrar la
-          marginalidad.
+          {" "}
+          Alrededor de las 19 horas, Andrea logró hablar con el médico Juan
+          Blajeroh, que le dio el parte. Según él, El Tucu había llegado al
+          hospital con convulsiones pero habían logrado estabilizarlo. Cuando
+          pudo, sin permiso, Andrea ingresó a la sala donde estaba su compañero.
+          Lo vio acostado y enchufado a los típicos aparatos médicos de terapia.
+          Él le dijo algunas cosas al oído, ella tomó nota en su agenda. Al
+          menos cinco oficiales de la comisaría 3A y de la 5A irrumpieron, le
+          dijeron que se tenía que ir porque El Tucu estaba allí en calidad de
+          detenido. Del brazo, la sacaron afuera de la sala. Andrea me llamó.
+        </h4>
+        <h4 className={styles.singularText}>
+          Mientras relataba los hechos, una segunda voz empezó a increparla. Un
+          oficial le insistía en que se tenía que ir, aún cuando tenía derecho a
+          permanecer en el hospital porque era familiar. La llamada se cortó y
+          decidí ir hasta allí.
+        </h4>
+        <h4 className={styles.singularText}>
+          {" "}
+          Llegué pasadas las 19.30 horas pero me negaron la visita. Andrea
+          seguía ahí. Era la primera vez que la veía: menuda, morocha, castaña y
+          con acento andino. Cubría la mitad de su rostro con un barbijo, así
+          todas las veces que nos vimos. Jamás conocí el gesto de su sonrisa,
+          solo la preocupación de sus ojos. Nos sentamos frente a la puerta de
+          la sala donde estaba El Tucu, bajo una especie de pérgola rodeada de
+          ambulancias. Había dos oficiales custodiando el ingreso: Jorge
+          Rodríguez y Franco Cáceres, de la comisaría 3A. Andrea sacó su agenda.
+          El Tucu había señalado a los oficiales Zapata y Spatta, de la
+          comisaría 5A como quienes le habían propinado la golpiza de ese día.
+          Según contó, se había pasado unos minutos de los tres otorgados para
+          bañarse. Discutieron y, entonces, ellos le pegaron en la cabeza, lo
+          empujaron contra una reja, y él se desvaneció.
+        </h4>
+        <h4 className={styles.singularText}>
+          A las 22 horas de aquel día el abogado del CELS se comunicó reenviando
+          un mensaje proveniente de la comisaría: “ROMERO ROBERTO ANTONIO, de CV
+          3A (alojado en 5A), Srio. 665102, Carátula: Av. Ilícito el mismo se
+          encuentra en el Hospital Durán, en el día de hoy el enunciado se
+          sentía mal por lo cual fue derivado al nosocomio y en el Hospital tuvo
+          convulsiones...ahora le van a realizar una tomografía Computada por lo
+          sucedido”. El mensaje de la Policía de la Ciudad no coincidía con el
+          parte del Durand que dictaminó como motivo de ingreso: “Síncope Escore
+          de EGYSYS – U 5. Paciente de 51 años con antecedentes y factores de
+          riesgo previamente mencionados es traído por patrullero a guardia
+          externa por presentar episodio sincopal en contexto de discusión con
+          reconstitución posterior ad integrum, niega angor o equivalentes
+          anginosos, refiere episodios similares de 6 meses de evolución…”. El
+          Tucu, según el informe médico, ingresó al hospital con pérdida de
+          conciencia súbita.
+        </h4>
+        <h4 className={styles.singularText}>
+          {" "}
+          Por segunda vez en menos de un año, terminaba internado a causa de la
+          violencia instituida por la policía dentro de sus propias comisarías.
+          La realidad, como un bucle. Debido a los antecedentes de arritmia, El
+          Tucu quedó en sala de cardiología del hospital Durand, donde pasó su
+          cumpleaños N° 52. Le hicieron vastos estudios médicos y le indicaron
+          un nuevo tratamiento: amiodarana 900 mg/día, Aspirina 100 mg/día,
+          atorvastatina 40 mg/día y una dieta hiposódica.
         </h4>
         <h6 className={styles.span}>
-          La comisaría que tiene jurisdicción en Constitución y que actúa en la
-          mayoría de estos casos es la Vecinal 1C. Algo característico de esa
-          dependencia, y que AMMAR denuncia desde hace años, es la constante
-          rotación de sus autoridades, lo que obstaculiza el trabajo de
-          concientización que llevan adelante.
+          Por segunda vez en menos de un año, terminaba internado a causa de la
+          violencia instituida por la policía dentro de sus propias comisarías.
+          La realidad, como un bucle.
         </h6>
-        <h3 className={styles.subTitle}>
-          cambios legales sin políticas inclusivas
-        </h3>
         <h4 className={styles.singularText}>
           {" "}
-          Una de las pocas personas que en el ámbito judicial recogió el guante
-          de lo que hace años denuncian las organizaciones de Derechos Humanos
-          como AMMAR es Karina Andrade, a cargo del Juzgado en lo Penal
-          Contravencional y de Faltas n° 15. A la magistrada le tocó intervenir
-          para evaluar el “acuerdo de avenimiento” (juicio abreviado) al que
-          había llegado Roxana con el fiscal Paulo Gaspani y en el que había
-          aceptado una condena por dos hechos de tenencia de estupefacientes.
+          El 11 de diciembre de 2023, entré a la habitación 224 de la unidad
+          coronaria acompañado por Andrea. Al ingresar, como déjà vu, vi al
+          hombre acostado, semi desnudo en la primera camilla. A su lado, otra
+          cama ocupada por una persona y más atrás, un hombre sentado mirando
+          por una ventana que apenas dejaba pasar algunos reflejos de la luz del
+          día. Era una mañana de mucho sol. Le pregunté por su consigna
+          policial, me señaló a los dos jóvenes que estaban en la sala.
         </h4>
         <h4 className={styles.singularText}>
-          {" "}
-          Luego de analizar lo actuado, conocer a la acusada y preguntarle sobre
-          sus condiciones de vida, elaboró un extenso escrito en el que decidió
-          rechazar el acuerdo. Para la jueza, la causa era resultado más de los
-          prejuicios de los agentes que intervinieron. “La acusada se presentó
-          para manifestar que aceptaba su condena, y renunciaba a su derecho de
-          ir a juicio, en un proceso penal que no tuvo hacia ella un trato
-          digno, pese a que lleva aproximadamente dos años de duración. Frente a
-          esta situación, resulta cuestionable que se encuentre en una posición
-          de igualdad y libertad para ejercer sus derechos o decir cuanto
-          quisiera o pensara”, explicó.
+          - Son pibes piolas, ya me conocen de antes, dijo. Me miró y me guiñó
+          un ojo -tenía uno más chico que el otro- mientras se reía. - Vos me
+          entendés. Hablamos más de una hora. Se incorporó y vi una cicatriz que
+          le recorría de lado a lado el ancho del cuerpo, a la altura del
+          ombligo. Era profunda, le dividía la panza en dos pliegues. - ¿Cómo te
+          la ganaste?, le pregunté. - Tengo mucho para contarte. La primera vez
+          estuve 19 años preso, la segunda, 6. ¿Sabes la cantidad de veces que
+          me torturaron? No puedo hablar ahora. Estoy vivo gracias a Dios, es un
+          milagro. - Sos el Bruce Willis negro y argentino. Reímos. - ¿Podes
+          creer que me cobran 1000 pesos por ver la tele? La ficha se compra
+          afuera y dura 24 horas. Ahora todo es guita.
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          Entre otros, Andrade citó un informe de la CIDH (Comisión
-          Interamericana de Derechos Humanos), que afirma que las personas trans
-          enfrentan “pobreza, exclusión social y altas tasas de inaccesibilidad
-          a la vivienda”, lo que las presiona a trabajar en “economías
-          informales altamente criminalizadas, como el trabajo sexual o el sexo
-          por supervivencia”.{" "}
+          Quince días después, a cuatro de nochebuena, El Tucu fue intervenido
+          quirúrgicamente: los médicos decidieron ponerle un catéter. Para ese
+          entonces, su causa había sido elevada a juicio y estaba a cargo de la
+          Defensoría Pública Oficial Adjunta, ubicada en Av. Roque Sáenz Peña
+          1190, a cargo de Javier Aldo Marino.
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          Al respecto, las estadísticas sobre la población trans en Buenos Aires
-          son elocuentes. “La revolución de las mariposas”, un informe elaborado
-          en 2017 en base a una encuesta en barrios de CABA, revela que solo una
-          pequeña porción de las mujeres trans accede a un trabajo formal (9%).
-          Las que viven de trabajos precarios e informales son el 15% y las que
-          acceden a alguna ayuda estatal, el 3,6%. “Para el resto, más del 70%,
-          la prostitución sigue siendo la principal fuente de ingresos”, señala
-          el estudio. A lo que se suma la persecución policial y penal. “Las
-          mujeres trans son perfiladas por la policía como peligrosas,
-          haciéndolas más vulnerables al abuso policial, a la criminalización y
-          a ser encarceladas”, indicó la jueza. Además cuestionó que en los dos
-          años de proceso judicial no se respetó la identidad autopercibida de
-          la acusada, tal como obliga la ley de Identidad de Género (26.743)
-          sancionada en 2012. Y puso en duda la calificación legal de tenencia
-          de estupefacientes, así como la legalidad de todo el procedimiento
-          policial que inició la causa: estar conversando con otra persona que
-          está dentro de un automóvil o abordar un taxi no son motivos fundados
-          para iniciar un proceso de detención y requisa por la presunta
-          comisión de un delito. En esa línea, también desestimó la existencia
-          de una “actitud evasiva” por parte de Roxana y el taxista, al
-          considerar que los policías estaban vestidos de civil, en un auto sin
-          identificar, por lo que difícilmente podían ser reconocidos como
-          miembros de una fuerza de seguridad.
+          Se recuperó una vez más. Le dieron el alta solo para devolverlo a la
+          misma comisaría en la que le habían ocasionado la última internación.
+          El Ministerio Público de la Defensa de CABA y la Defensoría General de
+          la Nación (DGN), tomaron intervención en el caso con un escrito que se
+          presentó en la causa donde se investigan como hechos de tortura lo
+          sucesos de la comisaría vecinal 3C y se agregan los hechos sucedidos
+          en la 5A.
         </h4>
         <h4 className={styles.singularText}>
-          {" "}
-          En los últimos años hubo cambios legales que impactaron en la
-          población trans migrante. Al respecto, Laurana Malacalza (actual
-          subsecretaria de Políticas contra las Violencias por Razones de Género
-          bonaerense) y Sofía Caravelos, publicaron en 2019 un artículo en la
-          Revista Cuestiones Criminales (UNQUI). Allí plantearon una hipótesis
-          centrada en el territorio bonaerense pero que puede extenderse a la
-          CABA: si bien la derogación de los códigos contravencionales, junto a
-          la sanción de la Ley de Identidad de Género (2012) y la de Migraciones
-          (2004), tallaron la imagen de un país más amable para recibir a este
-          colectivo, distintos factores se conjugaron para que esto no se
-          traduzca en mayor acceso a derechos.{" "}
+          El Tucu pasó las fiestas en situación de encierro, corroborándose
+          falsa aquella frase de esperanza senil que escuchamos cada año: por
+          más que se proclame, el año nuevo no trae consigo vida nueva.
         </h4>
         <h4 className={styles.singularText}>
-          En ese marco —analizan las autoras— fue clave la desfederalización de
-          la Ley de Drogas, o sea, la transferencia de delitos menores como
-          tenencia o menudeo del ámbito federal al provincial. Lo explican así:
-          “La combinación de cambios legales, sin acompañamiento de políticas
-          públicas inclusivas y la persistencia de estereotipos estigmatizantes
-          y discriminatorios ha derivado en una reformulación de las lógicas y
-          prácticas de criminalización hacia las mujeres trans y travestis. Sus
-          cuerpos son concebidos como objeto de transacciones comerciales, tanto
-          de tipo sexual como vinculada a la venta de estupefacientes,
-          dimensiones que retornan hacia el colectivo trans y travesti a través
-          de un recrudecimiento de los mecanismos represivos y su virtual
-          expulsión del espacio público”. Y siguen: “En este sentido, las
-          figuras legales que se les aplican se trasladan desde el ámbito
-          contravencional al penal. Advertimos entonces la imputación de delitos
-          cada vez más graves, con penas cada vez más altas, en un contexto de
-          uso indiscriminado de la prisión preventiva en la provincia de Buenos
-          Aires. Esto sin dudas, explica el creciente aumento de personas trans
-          y travestis encarceladas”.
+          El sábado 06 de enero de 2024 llegó un mensaje de Andrea: &quot;Hola
+          buen día, anoche llevaron a Antonio al Ramos Mejía. La policía le
+          volvió a pegar. Te aviso porque Antonio me pidió que te contara”. La
+          realidad, como un bucle.
         </h4>
         <h4 className={styles.singularText}>
-          {" "}
-          En Ciudad de Buenos Aires, la desfederalización se aplicó, a pesar de
-          las advertencias de las organizaciones, en enero de 2019 (en Provincia
-          fue en 2004). En el ya citado informe del CELS sobre drogas se señalan
-          los primeros efectos de la implementación: un aumento abrupto de
-          causas por Drogas en la Justicia local (una suba del 54% en solo 9
-          meses) y un recrudecimiento de la persecución a los consumidores (que
-          representaron el 72% del total de las causas).
+          El viernes 05 de enero de 2024 a las 21.30 horas, los oficiales de
+          apellidos Figueroa, Lobos y Reyes, ordenaron una requisa en el lugar.
+          Cortaron la luz de la comisaría. Entraron a las celdas y reprimieron a
+          todos los internos, pegándoles y tirando gas pimienta. Para El Tucu,
+          reservaron un trato especial: lo apartaron llevándolo a un cuarto y
+          allí le propinaron golpes con bastones reglamentarios, dejándole
+          múltiples lesiones en la espalda.
         </h4>
         <h4 className={styles.singularText}>
-          {" "}
-          Ocho de cada diez de esas causas “fueron iniciadas por la policía de
-          la Ciudad” y, del total, el 74% fueron archivadas porque prevaleció el
-          criterio de que es inconstitucional penar el consumo. “Es decir que la
-          actividad de la Policía de la Ciudad se centró en casos irrelevantes
-          que luego fueron desechados por el sistema judicial. Pero esta
-          política de persecución callejera opera como una medida de control
-          poblacional que perjudica a grupos específicos”, entre ellos, el trans
-          migrante.{" "}
+          -Ellos saben dónde pegar, me decía la mujer. Tenía razón. Esta vez
+          duró menos de una noche en el hospital. Llegó con la vía respiratoria
+          tapada por el gas arrojado por la policía, le dieron una inyección en
+          el pecho para que pueda volver a respirar con normalidad y lo
+          trasladaron, de regreso, a la comisaría vecinal 5A. Allí permanecería
+          hasta su libertad, fechada en abril del año 2024.
         </h4>
+        <h4 className={styles.singularText}>
+          Han pasado varios meses y, a la fecha de la presente publicación, El
+          Tucu sigue en libertad. Le perdí el rastro por un tiempo pero volvió a
+          contestarme hace unos días. Todavía parece tener miedo de
+          &quot;hacerlo bien&quot; pero esta vez no volvió sobre sus pasos
+          aunque la sombra del encierro ronde sus días. Pero sigue en libertad.
+          Al menos por ahora.
+        </h4>
+
         <h6 className={styles.span}>
-          La combinación de cambios legales, sin acompañamiento de políticas
-          públicas inclusivas y la persistencia de estereotipos estigmatizantes
-          y discriminatorios ha derivado en una reformulación de las lógicas y
-          prácticas de criminalización hacia las mujeres trans y travestis.
+          Cortaron la luz de la comisaría. Entraron a las celdas y reprimieron a
+          todos los internos, pegándoles y tirando gas pimienta. El cuerpo de
+          requisa, perteneciente a la misma Policía de la Ciudad, se caracteriza
+          por utilizar boinas rojas.
         </h6>
-        <h3 className={styles.subTitle}> no todas son soldaditxs narco </h3>
-        <h4 className={styles.singularText}>
-          {" "}
-          A principios de marzo de 2024, Georgina Orellano publicó un posteo en
-          sus redes sociales desde la esquina en la que trabaja desde hace 17
-          años. “En menos de dos meses (de gobierno de Javier Milei), dos
-          compañeras trans perdieron su vida en medio de peleas callejeras,
-          conflictos por territorios, por dinero, por sobrevivir, por intentar
-          ganarse el mango para pagar un techo en una pieza de un conventillo,
-          por intentar ayudar a su familia, por intentar sostener las tres
-          comidas diarias”. Hacía referencia a lo que ocurre alrededor del
-          “pasamano”, la venta de estupefacientes a baja escala, o incluso del
-          comercio de “mentiritas”: Geniol picado, o algún otro analgésico de
-          bajo costo, que simula ser cocaína. “El costo de vida se encareció
-          tanto que salir a trabajar, pagar transporte, gastar en morfi y ganar
-          una miseria ya no es conveniente, y frente a esas injusticias sociales
-          aparecen estrategias de supervivencia que no son nuevas en los barrios
-          pero que en los últimos meses son casi la única salida”. Se refirió,
-          entonces, de forma crítica a los análisis rápidos que enseguida ponen
-          etiquetas y hablan de quienes echan mano del rebusque como “soldaditos
-          de los narcos”.
-        </h4>
-        <h4 className={styles.singularText}>
-          {" "}
-          El posteo de Orellano coincide con una demanda histórica impulsada por
-          las organizaciones sociales que exige que la investigación penal
-          escale en la cadena de responsabilidades y no se quede en el simple
-          menudeo. En 2019, OTrans confeccionó un informe sobre la persecución
-          que sufre el colectivo trans migrante, que fue retomado por el fiscal
-          Franco Picardi, titular de la Fiscalía Nacional en lo Criminal y
-          Correccional Federal N° 5, para fundamentar al menos dos decisiones
-          judiciales, en el marco de causas por menudeo. En ambas, el fiscal
-          pidió la absolución de las imputadas, trans y migrantes, por su
-          situación de vulnerabilidad.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          {" "}
-          “Mientras solo el 3% de la población total privada de la libertad en
-          el Servicio Penitenciario Bonaerense (SPB) es extranjera, la población
-          de mujeres trans y travestis extranjeras representa el 85% de la
-          población total de mujeres trans y travestis privadas de su libertad”,
-          precisaba el informe. Picardi complementaba: “En el caso de las
-          mujeres trans y travestis migrantes privadas de libertad en el SPB, el
-          100% está presa por estupefacientes”.{" "}
-        </h4>
-        <h4 className={styles.singularText}>
-          Claudia Vázquez Haro, presidenta de OTrans, es categórica: “Las
-          travestis no son narcotraficantes, son excluidas”. Y añade un eje
-          clave: la edad. “Son personas a las que les plantan drogas, o son
-          compañeras que la mayoría supera los 30 años, cuando como promedio las
-          travestis no superamos los 35 años de edad por muertes con causas
-          evitables”. Vázquez Haro dice: “Imaginate una travesti mayor de 25
-          años, con problemas de consumo problemático, enfermedades crónicas,
-          situación de prostitución, que se ve obligada a sobrevivir drogada
-          para tener sexo con hombres o varios hombres en una noche, o en su
-          defecto, es la que tiene que vender al menudeo porque al otro día no
-          tiene para comer”.
-        </h4>
-        <h4 className={styles.singularText}>
-          En suma, “todas van presas y nunca va preso el narcotraficante que
-          tiene íntima relación con un sector del poder político, con un sector
-          del poder judicial y de la policía”. En el contexto actual, bajo la
-          gestión de Javier Milei, dice que la situación se ha complejizado.
-          “Aumentan las detenciones arbitrarias, aumentan los malos tratos, que
-          en CABA siempre han sido un problema, y aumenta la violencia en la vía
-          pública”. En ese marco, el cierre del INADI y la resolución de la
-          ministra de Seguridad de la Nación, Patricia Bullrich, de prohibir a
-          las fuerzas de Seguridad el uso del lenguaje inclusivo “son elementos
-          que dan cuenta de que estamos en un momento de mucha preocupación”.
-        </h4>
       </div>
     </>
   );

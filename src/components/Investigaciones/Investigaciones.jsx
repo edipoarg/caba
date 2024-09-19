@@ -5,13 +5,13 @@ import MapaBlur from "../MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
-const tituloNotaPrincipal = "Trans, migrante y peligrosa";
-const fechaUltimoReporte = "08/05/2024";
+const tituloNotaPrincipal = "Nadie sabe lo que un cuerpo puede";
+const fechaUltimoReporte = "19/09/2024";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_f251793ed7094671bfbee7daf0ddec04~mv2.jpg/v1/fill/w_1211,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TRANS%20MIGRANTE%20x%20Nicol%C3%A1s%20Daniluk%20-%20WEB%20MAPA%20(1).jpg";
+  "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg";
 const fechaNotaPrincipal = "29/03/2022";
-const autorxsNotaPrincipal = " Elisa Corso";
-const ilusNotaPrincipal = "Nicolás Daniluk";
+const autorxsNotaPrincipal = "Facundo Cifelli";
+const ilusNotaPrincipal = "Panchopepe";
 const numeroReporte = "Cuarto";
 
 const Investigaciones = () => {
@@ -54,7 +54,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/trans-migrante">
+            <Link to="/investigacion/nadie-sabe">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
