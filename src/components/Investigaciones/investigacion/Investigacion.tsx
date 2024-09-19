@@ -14,6 +14,7 @@ import Nota10 from "../todasInvest/Nota10";
 import Nota11 from "../todasInvest/Nota11";
 import Nota12 from "../todasInvest/Nota12";
 import Nota13 from "../todasInvest/Nota13";
+import Nota14 from "../todasInvest/Nota14";
 
 interface InvestigacionModel {
   id: string;
@@ -45,6 +46,7 @@ const componentesNotas: ComponentesNotas = {
   "sin-noticias-cuarto": Nota11,
   "a-el-lo-baleo": Nota12,
   "trans-migrante": Nota13,
+  "nadie-sabe": Nota14,
 };
 
 const Investigacion = () => {
