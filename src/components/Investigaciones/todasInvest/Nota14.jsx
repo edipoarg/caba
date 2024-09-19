@@ -126,23 +126,36 @@ const Nota14 = () => {
           cubrían el rostro de los atacantes le impedía identificarlos.
         </h4>
         <h4 className={styles.singularText}>
-          La División de Unidad Táctica de Intervenciones de Alcaildías (DUTIA),
-          según contó al Mapa de la Policía un integrante del Comité Nacional
-          para la Prevención de la Tortura (CNPT), es un cuerpo específico de
-          intervención frente a conflictos y requisas. Se caracteriza por
-          utilizar boinas rojas. Se creó con motivo del crecimiento incesante de
-          personas alojadas en comisarías. Las mismas alcaildías fueron una
-          respuesta de alojamiento transitorio ante el desborde que padecían las
-          comisarías vecinales como la 3C. DUTIA, en un principio solo actuaba
-          en las alcaidías, pero con el hacinamiento existente se expandió a
-          todo tipo de centros de encierro. “Es común que las guardias internas
-          de las comisarías recurran a la DUTIA frente a un conflicto como puede
-          ser un intento de fuga, un motín o una requisa”, como sucedió aquel 17
-          de julio, en las circunstancias narradas por El Tucu. Según el último
-          informe del Ministerio Público de la Defensa de la Ciudad , la
-          comisaría 3C alojaba en un sector a 28 personas en una celda con dos
-          letrinas y sin agua potable y en otro sector, a 20 personas sin baño.
-          Se registró una gran cantidad de mosquitos, inundaciones en el
+          <a
+            className={styles.link}
+            href="https://www.tiktok.com/@gustavocoriaok/video/7304394332453227782"
+          >
+            {" "}
+            La División de Unidad Táctica de Intervenciones de Alcaildías
+          </a>{" "}
+          (DUTIA), según contó al Mapa de la Policía un integrante del Comité
+          Nacional para la Prevención de la Tortura (CNPT), es un cuerpo
+          específico de intervención frente a conflictos y requisas. Se
+          caracteriza por utilizar boinas rojas. Se creó con motivo del
+          crecimiento incesante de personas alojadas en comisarías. Las mismas
+          alcaildías fueron una respuesta de alojamiento transitorio ante el
+          desborde que padecían las comisarías vecinales como la 3C. DUTIA, en
+          un principio solo actuaba en las alcaidías, pero con el hacinamiento
+          existente se expandió a todo tipo de centros de encierro. “Es común
+          que las guardias internas de las comisarías recurran a la DUTIA frente
+          a un conflicto como puede ser un intento de fuga, un motín o una
+          requisa”, como sucedió aquel 17 de julio, en las circunstancias
+          narradas por El Tucu.{" "}
+          <a
+            className={styles.link}
+            href="https://defensoria.org.ar/biblioteca/"
+          >
+            Según el último informe del Ministerio Público de la Defensa de la
+            Ciudad{" "}
+          </a>
+          , la comisaría 3C alojaba en un sector a 28 personas en una celda con
+          dos letrinas y sin agua potable y en otro sector, a 20 personas sin
+          baño. Se registró una gran cantidad de mosquitos, inundaciones en el
           edificio cada vez que llueve, y la falta de instalaciones mínimas que
           permitieran conservar los alimentos de los detenidos.
         </h4>
@@ -379,6 +392,12 @@ const Nota14 = () => {
           sucesos de la comisaría vecinal 3C y se agregan los hechos sucedidos
           en la 5A.
         </h4>
+        <h6 className={styles.span}>
+          Cortaron la luz de la comisaría. Entraron a las celdas y reprimieron a
+          todos los internos, pegándoles y tirando gas pimienta. El cuerpo de
+          requisa, perteneciente a la misma Policía de la Ciudad, se caracteriza
+          por utilizar boinas rojas.
+        </h6>
         <h4 className={styles.singularText}>
           El Tucu pasó las fiestas en situación de encierro, corroborándose
           falsa aquella frase de esperanza senil que escuchamos cada año: por
@@ -415,13 +434,6 @@ const Nota14 = () => {
           aunque la sombra del encierro ronde sus días. Pero sigue en libertad.
           Al menos por ahora.
         </h4>
-
-        <h6 className={styles.span}>
-          Cortaron la luz de la comisaría. Entraron a las celdas y reprimieron a
-          todos los internos, pegándoles y tirando gas pimienta. El cuerpo de
-          requisa, perteneciente a la misma Policía de la Ciudad, se caracteriza
-          por utilizar boinas rojas.
-        </h6>
       </div>
     </>
   );
