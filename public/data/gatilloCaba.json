@@ -1112,6 +1112,168 @@
   "geometry": {
     "type": "Point",
     "coordinates": [-58.43441190901723, -34.65303788144927]
-  }
-}
+  }},
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "g56",
+        "Nombre": "Juan Roman Maciel Vallejos",
+        "Edad": 25,
+        "Año": 2024,
+        "Fecha": "06/03/2024",
+        "cronica": "Juan Román Maciel fue asesinado por Yanina Marotte, suboficial de la Policía Federal el 6 de marzo del 2024 cerca de las seis de la mañana en el barrio de Villa Lugano en las cercanías de la colectora de la Avenida General, luego de que él junto a otro sujeto le hayan robado el teléfono celular a la mujer, que estaba de civil. Luego del forcejeo donde fue amenazada por una réplica de un arma, ella se reincorporó y persiguió al sujeto armado y efectuó varios disparos y lo hirió de muerte. La propia ministra de Seguridad, Patricia Bullrich, días después apoyó a la suboficial de la PFA.",
+        "Barrio": "Villa Lugano",
+        "Direccion": "Colectora de la avenida General Paz y Av. Argentina",
+        "link": "https://www.lanacion.com.ar/seguridad/falta-de-merito-no-encontraron-pruebas-para-sostener-la-acusacion-contra-la-suboficial-de-la-policia-nid22032024/",
+        "policia_involucrado": "Yanina Marotte, suboficial de la Policía Federal",
+        "fuerza_involucrada": "Policía Federal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.47667404999885, -34.672389296990545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "g57",
+        "Nombre": "Yoel Alejandro Silvero",
+        "Edad": 22,
+        "Año": 2024,
+        "Fecha": "09/03/2024",
+        "cronica": "Yoel Alejandro Silvero fue asesinado por un efectivo de la Policía de la Provincia de Buenos Aires el 11 de marzo del 2024 a las siete de la tarde en el barrio de Villa Lugano en el marco de un robo de su camioneta entre cuatro personas al efectivo, que estaba de civil junto a su pareja. Luego de los disparos, el hombre cayó al piso, y ante la demora en la llegada de una ambulancia, fueron los propios vecinos los que llevaron el cuerpo malherido hasta el Hospital General de Agudos Cecilia Grierson donde murió. En tanto, el oficial fue detenido y alojado en la comisaría 8A de la Policía de la Ciudad y la causa fue caratulada como homicidio. Además, se le secuestró su arma reglamentaria: una pistola Bersa Thunder 9 milímetros.",
+        "Barrio": "Villa Lugano",
+        "Direccion": "Avenida General Francisco Fernández de la Cruz y Larraya",
+        "link": "https://www.lanacion.com.ar/seguridad/un-policia-mato-de-un-balazo-a-uno-de-los-cuatro-delincuentes-que-quisieron-robarle-la-camioneta-nid11032024/",
+        "policia_involucrado": "Efectivo de la Policía de la Provincia de Buenos Aires",
+        "fuerza_involucrada": "Policía de la Provincia de Buenos Aires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.46617645907181, -34.67901603240415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "g58",
+        "Nombre": "Fidel Corbalan",
+        "Edad": 18,
+        "Año": 2024,
+        "Fecha": "15/03/2024",
+        "cronica": "Fidel Corbalan, de 18 años de edad, fue asesinado por un efectivo de la Policía de la Ciudad de Buenos Aires el dieciséis de marzo del 2024 en el barrio de San Telmo en el marco de un intento de robo con armas, mientras que dos de sus compañeros terminaron heridos.",
+        "Barrio": "San Telmo",
+        "Direccion": "San Lorenzo y Balcarce",
+        "link": "https://www.clarin.com/policiales/san-telmo-policia-civil-mato-ladron-hirio-intentaron-robarle-auto_0_kK63Tc2mZ9.html",
+        "policia_involucrado": "Efectivo de la Policía de la Ciudad",
+        "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.37000355907475, -34.61646985931613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "g59",
+        "Nombre": "NN",
+        "Edad": "-",
+        "Año": 2024,
+        "Fecha": "11/04/2024",
+        "cronica": "Un varón sin identificar fue abatido el once de abril del 2024 cerca de las 19hs por un efectivo de la Policía de la Ciudad, que estaba de civil y en franco de servicio, que intervino en el robo de un automóvil en el barrio porteño de Barracas. En el tiroteo también resultó herido un joven de 16 años, que era compañero del joven que perdió la vida.",
+        "Barrio": "Barracas",
+        "Direccion": "Vélez Sarsfield e Iriarte",
+        "link": "https://www.cronica.com.ar/policiales/Robo-tiroteo-y-muerte-en-Barracas-20240411-0098.html",
+        "policia_involucrado": "Efectivo de la Policía de la Ciudad",
+        "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.38896163023745, -34.65101500397192]
+      }
+    },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g60",
+          "Nombre": "NN",
+          "Edad": "-",
+          "Año": 2024,
+          "Fecha": "18/04/2024",
+          "cronica": "Un joven fue asesinado por un efectivo del cuerpo de bomberos de la Policía de la Ciudad de Buenos Aires en el barrio de Villa Crespo el diecinueve de abril del 2024, cuando aquel junto a otros dos jóvenes lo interceptaron e intentaron robarle. Los tres jóvenes llegaron en dos motos. Con un arma blanca, amenazaron al hombre con robarle. Ante la situación, el efectivo sacó su arma reglamentaria y efectuó varios disparos. Uno de los jóvenes murió en el lugar y otro resultó herido en la zona del glúteo, por lo que fue trasladado al Hospital Durand. En tanto, el tercer joven logró escapar. El agente no sufrió heridas.",
+          "Barrio": "Villa Crespo",
+          "Direccion": "Castillo y Lavalleja",
+          "link": "https://www.clarin.com/policiales/bombero-ciudad-asaltado-villa-crespo-saco-arma-mato-tiro-ladron_0_HzLz6fAHAD.html",
+          "policia_involucrado": "Efectivo del cuerpo de bomberos",
+          "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.43111614558234, -34.59868596426597]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g61",
+          "Nombre": "NN",
+          "Edad": "-",
+          "Año": 2024,
+          "Fecha": "18/05/2024",
+          "cronica": "Un joven fue asesinado en un tiroteo con efectivos de la Policía de la Ciudad de Buenos Aires el dieciocho de mayo del 2024. El hecho ocurrió en la calle Superí, cerca de la salida a la Panamericana. Iba en un auto robado junto a otro joven, intentando llegar a la Provincia de Buenos Aires. Fueron perseguidos por ocho móviles de la Policía de la Ciudad, y al quedar encerrados saltaron del puente para luego dar paso a un tiroteo entre ellos y los agentes. Uno de los jóvenes murió en el lugar, mientras que el otro fue derivado al Hospital Pirovano con fracturas múltiples debido a la caída desde la altura, de aproximadamente cinco metros. Por su parte, el personal policial resultó ileso.",
+          "Barrio": "Saavedra",
+          "Direccion": "Calle Superí, cerca de la salida a la Panamericana",
+          "link": "https://www.lanacion.com.ar/politica/ladrones-se-fugaron-en-un-auto-se-arrojaron-de-un-puente-y-se-tirotearon-con-la-policia-un-muerto-nid18052024/",
+          "policia_involucrado": "Efectivos de la Policía de la Ciudad",
+          "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.48553136156123, -34.544310072441405]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g62",
+          "Nombre": "Carlos Morales",
+          "Edad": 48,
+          "Año": 2024,
+          "Fecha": "28/05/2024",
+          "cronica": "Un oficial de la Policía de la ciudad mató a Carlos Morales, de 48 años, que se había metido a un local de comidas en la zona de Congreso, donde amenazaba a los oficiales y a otros clientes con un cuchillo, luego de haber golpeado a su propia madre en la calle. Los hechos ocurrieron sobre la avenida Rivadavia al 1.700, esquina Callao, el 28 de mayo del 2024. Toda la secuencia quedó grabada por el diputado sanjuanino José Peluc (La Libertad Avanza), que se encontraba cenando en el lugar y llegó a filmar el primer avance de Morales.",
+          "Barrio": "Congreso",
+          "Direccion": "Rivadavia al 1.700",
+          "link": "https://www.clarin.com/policiales/hombre-ataco-policia-cuchillo-restaurante-venia-atravesando-situacion-dificil_0_owNPrFZlyn.html",
+          "policia_involucrado": "Oficial de la Policía de la Ciudad",
+          "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.39077329160999, -34.60918415755838]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g63",
+          "Nombre": "NN",
+          "Edad": "-",
+          "Año": 2024,
+          "Fecha": "06/07/2024",
+          "cronica": "Un oficial de la Policía de la Ciudad mató a un sujeto de un disparo en la cabeza el 6 de julio de 2024 en el barrio porteño de Caballito, cuando el sujeto quiso robarle aprovechando que el agente estaba dentro de un auto ante un semáforo. El agente era un inspector del Instituto Superior de Seguridad Pública (ISSP) de la fuerza de seguridad de CABA, que ese día se encontraba fuera de servicio. En el marco del intento de robo, el inspector le pegó un tiro en la cabeza al sujeto con su arma reglamentaria, y el individuo perdió la vida en el acto.",
+          "Barrio": "Caballito",
+          "Direccion": "Riglos y Avenida Directorio",
+          "link": "https://www.clarin.com/policiales/policia-ciudad-mato-ladron-intento-robarle-caballito-civil_0_8IgEmBNwnV.html",
+          "policia_involucrado": "Inspector del ISSP",
+          "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.43570194743082, -34.62808216542243]
+        }
+      }
+    
+    
+  
 ]}
