@@ -6,13 +6,13 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
 const tituloNotaPrincipal = "Nadie sabe lo que un cuerpo puede";
-const fechaUltimoReporte = "19/09/2024";
+const fechaUltimoReporte = "16/12/2024";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg";
 const fechaNotaPrincipal = "29/03/2022";
 const autorxsNotaPrincipal = "Facundo Cifelli";
 const ilusNotaPrincipal = "Panchopepe";
-const numeroReporte = "Cuarto";
+const numeroReporte = "Quinto";
 
 const Investigaciones = () => {
   const [activeFilter, setActiveFilter] = useState(null);
@@ -88,7 +88,10 @@ const Investigaciones = () => {
           </section>
 
           <section className={styles.investCol2}>
-            <Link to="/reportes" className={styles.ultimoReporteContainer}>
+            <Link
+              to="https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b842b32fa4c4452498e07a1d8b6da1bf.pdf"
+              className={styles.ultimoReporteContainer}
+            >
               <img src="" alt="" className={styles.fotoUltimoReporte} />
               <section className={styles.datosReporte}>
                 <h4 className={styles.fechaUltimoReporte}>

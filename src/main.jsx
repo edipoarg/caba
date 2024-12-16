@@ -8,7 +8,7 @@ import Denuncia from "./components/denuncia/Denuncia";
 import Denuncias from "./components/denuncias/Denuncias";
 import Recursos from "./components/recursos/Recursos";
 import Jefatura from "./components/jefatura/Jefatura";
-import Reportes from "./components/reportes/Reportes";
+import Reportes2 from "./components/reportes/Reportes2";
 import Nosotrxs from "./components/us/Nosotrxs";
 import Menu from "./components/menu/Menu";
 import GatilloFacil from "./components/gatilloFacil/GatilloFacil";
@@ -36,7 +36,7 @@ const router = createHashRouter([
       { path: "/recursos", element: <Recursos /> },
       { path: "/investigaciones", element: <Investigaciones /> },
       { path: "/jefatura", element: <Jefatura /> },
-      { path: "/reportes", element: <Reportes /> },
+      { path: "/reportes", element: <Reportes2 /> },
       { path: "/nosotrxs", element: <Nosotrxs /> },
       { path: "/menu", element: <Menu /> },
       { path: "/podcast", element: <Podcast /> },
