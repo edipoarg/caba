@@ -209,18 +209,22 @@ const Nota13 = () => {
           en la cartera. Entonces nos dicen: ‘¿de dónde sacó esa plata?’, y
           tenemos que ir a la comisaría a rendir de dónde sacamos esa plata”.
         </h4>
-        “Eso nos hacen —subraya Yokhari— y yo no veo que eso le hagan a otra
-        gente. No puedo caminar libremente por mi barrio, donde vivo y ejerzo mi
-        trabajo. Cuando los policías hacen sus razias arbitrarias a las primeras
-        que van a raziar (sic) es a las chicas trabajadoras sexuales, al
-        colectivo migrante trans, a las personas en situación de calle, y a las
-        personas por portación de rostro y de vestimenta”, dice y caracteriza
-        con claridad la política criminal del Gobierno de la Ciudad. Agrega:
-        “Esa gente ves tú en las comisarías y en los patrulleros. No ves gente
-        que para ellos no son sospechosos. No ves gente blanca, con buena ropa,
-        con buen coche. Capaz esos son los que nos envenenan y abastecen de
-        droga a todo el país, pero como son de ese prototipo que para la Ciudad
-        y la policía encajan, no les dicen nada. Entonces, van hacia nosotras”.
+        <h4 className={styles.singularText}>
+          “Eso nos hacen —subraya Yokhari— y yo no veo que eso le hagan a otra
+          gente. No puedo caminar libremente por mi barrio, donde vivo y ejerzo
+          mi trabajo. Cuando los policías hacen sus razias arbitrarias a las
+          primeras que van a raziar (sic) es a las chicas trabajadoras sexuales,
+          al al colectivo migrante trans, a las personas en situación de calle,
+          y a las personas por portación de rostro y de vestimenta”, dice y
+          caracteriza con claridad la política criminal del Gobierno de la
+          Ciudad. Agrega: “Esa gente ves tú en las comisarías y en los
+          patrulleros. No ves gente que para ellos no son sospechosos. No ves
+          gente blanca, con buena ropa, con buen coche. Capaz esos son los que
+          nos envenenan y abastecen de droga a todo el país, pero como son de
+          ese prototipo que para la Ciudad y la policía encajan, no les dicen
+          nada. Entonces, van hacia nosotras”.
+        </h4>
+
         <h6 className={styles.span}>
           “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
           calle, me quitan lo poquito que tengo. Porque para ellos no podemos
