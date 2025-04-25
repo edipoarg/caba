@@ -9,7 +9,7 @@ const tituloNotaPrincipal = "Nadie sabe lo que un cuerpo puede";
 const fechaUltimoReporte = "16/12/2024";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg";
-const fechaNotaPrincipal = "29/03/2022";
+const fechaNotaPrincipal = "29/03/2024";
 const autorxsNotaPrincipal = "Facundo Cifelli";
 const ilusNotaPrincipal = "Panchopepe";
 const numeroReporte = "Quinto";

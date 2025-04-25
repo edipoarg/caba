@@ -5,532 +5,529 @@ const Nota04 = () => {
     <>
       <div className={styles.NotaContainer}>
         <h4 className={styles.singularText}>
-          En la fría madrugada del 29 agosto de 2019, una mujer travesti de 45
-          años, peruana, a la que llamaremos Roxana, conversa con un taxista
-          estacionado en doble fila al 1200 de la calle Pavón, en el barrio
-          porteño de Constitución. El hombre —pongámosle Oscar—, un cliente y
-          dealer habitué de la zona, la invita a dar una vuelta en el vehículo y
-          ella acepta, tentada también por el convite de un poco de cocaína.
+          ¿Qué pasó Rodo? ¿se mandaron un moco? _ Si, un re mocazo
+          aparentemente. Le dije a Inca que está como subcomisario que vaya y
+          busque lo que tenga que buscar para justificar esto, que mande gente
+          de Brigada al recorrido a ver si realmente descartaron. Los detenidos
+          que están vivos refieren que son jugadores de fútbol. _ ¡Uhh! _ Son
+          cuatro pendejitos aparentemente jugadores de fútbol. El tiro está de
+          atrás hacia adelante, entró por el vidrio del acompañante trasero y le
+          pegó al acompañante de adelante. _ ¡Uh boludo están hasta la chota! _
+          Yo lo llamo a Santana, por qué no lo llamas al Perro y le decís que
+          vengan a emprolijar esta cagada. _ Si ahí lo llamo.
         </h4>
 
         <h4 className={styles.singularText}>
-          Mientras terminan de ponerse de acuerdo, ven que se acerca un
-          Chevrolet Corsa. Como el taxi impide el paso, Roxana y Oscar apuran
-          los planes. Ella se sube en el asiento de atrás y el tachero arranca,
-          pero solo avanzan unos metros. Del Corsa se bajan tres hombres y dan
-          la voz de alto: son policías de la brigada de la Comisaría Comunal 1.
+          Intercambio telefónico entre Rodolfo Alejandro Ozán, comisario en jefe
+          de la Comisaría Vecinal 4A y Fabián Alberto Du Santos, comisario de la
+          División Operaciones CV 4D, Policía de la Ciudad
         </h4>
 
         <h4 className={styles.singularText}>
-          Luego de hacerlos descender, los revisan y encuentran 53 envoltorios
-          con un total de 6,10 gramos de cocaína: dos estaban en el asiento
-          trasero y el resto en el baúl.
+          El 17 de noviembre del 2021, entre las 8:15 y las 8:30 horas, Lucas
+          González (17) y sus tres amigos Julián Salas, Joaquín Zuniga y Niven
+          Huanca terminaron un entrenamiento de fútbol en el Club Barracas
+          Central. Emprendieron el regreso a sus casas, hacia el barrio San
+          Eduardo de la localidad bonaerense de Florencio Varela, en el auto del
+          padre de Julián.
         </h4>
 
         <h4 className={styles.singularText}>
-          Pero esa es la versión de Roxana.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          El relato policial, y el que va a permitir iniciar un proceso judicial
-          que se extenderá durante dos años y acumulará fojas y fojas con
-          fotografías, declaraciones, oficios, trámites a embajadas, exámenes de
-          laboratorio y estudios médicos, es sutilmente distinto.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Los tres oficiales, que vestían de civil y se movían en un auto sin
-          identificar, declaran que esa noche conducían por calle Pavón cuando
-          se vieron obligados a detener la marcha porque un taxi estacionado en
-          doble fila les impedía la circulación. En ese momento, notan que junto
-          al vehículo “se encontraba parado al lado de la puerta del acompañante
-          un travesti el cual conversaba gesticulando, no llegando a observar si
-          realizaban un intercambio o pasamano”.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Agregan que “al percatarse el travestido” de su presencia,
-          “rápidamente aborda el vehículo en el asiento trasero”, lo que los
-          oficiales interpretan como “una actitud evasiva”. Entonces, proceden
-          con el operativo de requisa y posterior detención.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Con los hechos antes descriptos se arma la causa penal 44393/2019-0,
-          en la que se acusa a Roxana por tenencia de estupefacientes para
-          comercialización, que a falta de pruebas el fiscal Paulo Gaspani luego
-          acotará a tenencia.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          En 2020 se añade otro hecho, ocurrido en la madrugada del 6 de febrero
-          de 2020 y que de nuevo tendrá sostén en el relato de los integrantes
-          de la brigada de la Comunal 1: un oficial de esa dependencia declara
-          el secuestro de 19 envoltorios con 2,09 gramos de cocaína, encontrados
-          en una persiana de un comercio de calle Pavón al 1200. Dice que Roxana
-          estaba a punto de entregarlo a un cartonero, pero que la operación se
-          interrumpió cuando la mujer se percató de la presencia policial.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Ella declarará otra cosa: que era otra compañera la que tenía esa
-          droga, que ella estaba en el bar “copeteando” y que no vio cuando
-          encontraron la droga. Dice también que el cartonero apareció de la
-          nada y que lo agarraron porque ya tenía un pedido de captura. Sobre el
-          policía que la detiene, cuenta: “Es un gordito de cabello paradito y
-          yo siento que me hostiga”.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Ninguna de sus declaraciones será tenida en cuenta.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          En mayo de 2021, Roxana acepta los cargos que el fiscal le imputa por
-          esos dos hechos, para finalizar el proceso con un juicio abreviado y
-          una condena a un año de prisión domiciliaria. El beneficio se concede
-          por su grave estado de salud, es HIV positivo y padece insuficiencia
-          renal severa, y por el contexto de crisis sanitaria por la pandemia de
-          covid-19.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Hasta acá, la historia de Roxana no es novedosa. Y es que en
-          Argentina, entre 2002 y 2017 hasta la actualidad, la tasa de personas
-          alojadas en cárceles por infracción a la Ley de Drogas creció un 252%.
-          Y si miramos solo a la población trans, vemos que, entre 2015 y 2017,
-          su presencia en las prisiones se multiplicó. Además, si en 2015 solo
-          el 30% de esa población estaba presa por algún delito vinculado a
-          estupefacientes, en 2017 la proporción trepó al 70%
-        </h4>
-
-        <h4 className={styles.singularText}>
-          La información, elaborada en base a datos del Sistema Nacional de
-          Ejecución de la Pena (SNEEP), es parte de un informe del Centro de
-          Estudios Legales y Sociales (CELS), irónicamente titulado “La guerra
-          contra el narcotráfico”, que da cuenta de la ineficacia de un enfoque
-          que se concentra en perseguir a personas pobres, “cuya detención no
-          incide en la desarticulación del negocio ni de las redes de
-          ilegalidades que se propagan para su desarrollo”.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Y sigue: “Donde sí tiene consecuencias la guerra contra el
-          narcotráfico es en las vidas de miles de personas que son perseguidas
-          por la policía e ingresadas en el sistema penal”. Las trabajadoras
-          sexuales, que en CABA se mueven entre Constitución, Once y Palermo
-          conocen bien de qué se trata.{" "}
+          En el trayecto pararon en un kiosco ubicado en la intersección de la
+          Avenida General Tomas de Iriarte y Luna a comprar un jugo. En ese
+          momento un auto Nissan Tiida blanco, sin patente y sin balizas se les
+          cruzó y bajaron tres hombres armados, apuntándoles. Eran policías de
+          la Ciudad de la División Brigadas y Sumarios de la Comisaría Vecinal
+          4D, vestidos de civil, sin ningún tipo de identificación. No hicieron
+          mención a que pertenecían a la fuerza. Los chicos pensaron que querían
+          robarles el auto y arrancaron. Entonces, los oficiales realizaron más
+          de 20 disparos. Cinco impactaron contra el auto y uno en la cabeza de
+          Lucas. “Se cruzó el auto y apenas se bajaron los hombres comenzaron a
+          disparar. Cuando se bajó el conductor vi el arma y en la desesperación
+          lo único que hice fue arrancar. Mi amigo empezó a gritar, lo vi de
+          reojo a Lucas que estaba re mal y mientras yo estaba manejando se puso
+          en mis rodillas. Fue muy feo ver a mi amigo baleado sin razón alguna.
+          No nos siguieron, solo nos dispararon, se supone que si son policías
+          nos tenían que seguir. Si para un auto, se baja un chabón con un arma,
+          jamás te va a pasar por la cabeza que es policía, pensábamos que nos
+          querían robar”, relató Julián Salas, días después de lo sucedido, ante
+          las cámaras de televisión.
         </h4>
 
         <h6 className={styles.span}>
-          En Argentina, de principios de los 2000 hasta la actualidad, la tasa
-          de personas alojadas en cárceles por infracción a la Ley de Drogas
-          creció un 252%. Y si miramos sólo a la población trans, vemos que
-          entre 2015 y 2017 su presencia en las prisiones se multiplicó.
+          Eran policías de la Ciudad. No hicieron mención a que pertenecían a la
+          fuerza. Los chicos pensaron que querían robarles el auto y arrancaron.
+          Entonces, los oficiales realizaron más de 20 disparos. Cinco
+          impactaron contra el auto y uno en la cabeza de Lucas.
+        </h6>
+
+        <h3 className={styles.subTitle}>Las imputaciones</h3>
+
+        <h4 className={styles.singularText}>
+          Los tres hombres que interceptaron a los jóvenes eran el inspector
+          Juan José Nieva, el oficial mayor Fabián Andrés López y el oficial
+          Gabriel Alejandro Issasi, de la División Brigadas y Sumarios de la
+          Comisaría Vecinal 4D. Después de los disparos, Julián Salas, que
+          conducía el auto, siguió unas cuadras más hasta que vio a dos
+          oficiales mujeres: Micaela Fariña y Lorena Miño. Les pidió ayuda,
+          mientras su amigo Lucas agonizaba. En lugar de escucharlo, lo
+          detuvieron.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          “Les dije que tenía a mi amigo con un tiro y me dijeron que me baje
+          del auto. Yo estaba asustado y llamé a mi mamá para contarle lo que
+          había pasado (…) llegaron un montón de policías, nos trataron muy mal,
+          nos pusieron esposas y nos tiraron al piso. Nos preguntaron de dónde
+          éramos y nos dijeron que éramos unos villeros y que nos tenían que dar
+          un tiro en la cabeza a cada uno. Uno me preguntó dónde tenía el arma
+          con la que había matado a mi amigo cuando habían sido esos hijos de
+          puta que frenaron y le dispararon a mi amigo”, recuerda Julián.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Lucas falleció al día siguiente en el Hospital El Cruce de Florencio
+          Varela y mientras su corazón se apagaba, la Policía porteña festejaba
+          su quinto aniversario de creación. Paradójicamente, ese 17 de
+          noviembre, Guillermo Madero, director del Comité de Seguridad del
+          Fútbol del Gobierno porteño hablaba en un acto del orgullo que sentía
+          por la Policía de la Ciudad. Esa fuerza que acumula 121 asesinatos de
+          los cuales, al menos,{" "}
+          <a
+            href="https://www.mapadelapolicia.com/#/investigacion/tu-cara-me-suena"
+            className={styles.link}
+          >
+            38 fueron cometidos en territorio porteño.{" "}
+          </a>{" "}
+          Moreno, hasta el 2019, se desempeñó como Director Nacional de
+          Seguridad en Espectáculos Futbolísticos de la Ciudad y había declarado
+          que trabajaba para &quot;no tener ningún barra en las tribunas &quot;
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Los oficiales Nieva, López e Issasi están acusados del delito de
+          “homicidio agravado por haber sido cometido con alevosía, por placer,
+          por odio racial, por el concurso premeditado de dos o más personas y
+          por cometerse abusando de su función o cargo”. También se los acusa
+          por el intento de homicidio agravado, por las mismas causales, de los
+          tres amigos que estaban con Lucas y privación ilegal de la libertad
+          “agravada por abuso funcional y sin previsión de la ley”.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          El día del crimen, la oficial Daniela Lozano estaba patrullando en una
+          plaza cercana donde ocurrió el hecho, escuchó los disparos y se acercó
+          al lugar. Habló con los tres policías que estaban de civil y la
+          mandaron a cubrir el tránsito. En su declaración como testigo, contó
+          que tuvo una comunicación telefónica con el inspector Cuevas quien le
+          reconoció que habían plantado un arma para simular un enfrentamiento
+          que nunca existió.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          El fiscal que investiga el caso, Leonel Gómez Barbella, aseguró que
+          existe una estructura piramidal que intentó ocultar el crimen y que
+          involucra a otros once policías de las comisarías vecinales 4A y 4D y
+          de la División Sumarios y Brigada. Fabián Alberto Du Santos (comisario
+          puesto en disponibilidad, División Operaciones CV 4D), Juan Horacio
+          Romero (comisario puesto en disponibilidad, ex División Sumarios y
+          Brigadas CC4), Roberto Orlando Inca (subcomisario de la División
+          Sumarios y Brigadas de Prevención CC4), Héctor Carlos Cuevas
+          (principal de la Comuna vecinal 4D), Sebastián Jorge Baidón (oficial
+          Comisaría Vecinal 4D), Ramón Jesús Chocobar (subcomisario, 2° Jefe
+          División Operaciones CV 4D), Jonathan Alexis Martínez (oficial
+          Comisaría Vecinal 4D), Ángel Darío Arévalos (oficial Comisaría Vecinal
+          4D), Daniel Rubén Espinosa (oficial Comisaría Vecinal 4D), Daniel
+          Alberto Santana (comisario inspector Departamento CC 4) y Rodolfo
+          Alejandro Ozán (comisario puesto en disponibilidad, exjefe de la
+          Comisaría Vecinal 4ª) están acusados por encubrimiento del crimen y se
+          encuentran con prisión preventiva. La investigación señala que
+          “alteraron los rastros y pruebas del delito que cometieron Nieva,
+          López e Issasi, al arribar inmediatamente e intentar fraguarlo para
+          aparentar que se había tratado de un ‘enfrentamiento’, colocando para
+          ello un arma de utilería”. Mientras que las oficiales Micaela Fariña y
+          Lorena Miño, quedaron en libertad el pasado 12 de enero luego de que
+          la Sala IV de la Cámara de Apelaciones en lo Criminal y Correccional
+          porteña considerara que no hay pruebas suficientes que demuestren que
+          “estuvieran en conocimiento de lo realmente ocurrido y del plan urdido
+          posteriormente” por los tres oficiales de la Brigada.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          El pasado 20 de julio, el Juzgado Criminal y Correccional N° 7, había
+          rechazado la excarcelación de la oficial de la División Sumarios y
+          Brigadas de la Comuna N° 4, Teresa María Luján Scorza, imputada como
+          una de las partícipes del encubrimiento del crimen, la detención
+          ilegal y las torturas cometidas a los amigos de Lucas. La jueza Paula
+          Verónica Martínez había argumentado que existía &quot;una posibilidad
+          cierta de que, en caso de recuperar la libertad, Scorza pueda ocultar,
+          alterar, modificar y/o destruir pruebas fundamentales o influir en
+          testigos&quot;, teniendo en cuenta &quot;la relación de poder,
+          recursos y condiciones que cuenta como imputada integrante de una
+          fuerza de seguridad&quot;, según expresó la resolución de la Justicia.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Scorza había sido reconocida en una rueda fotográfica por Joaquín
+          Zuniga, uno de los jóvenes detenidos por la policía, como la oficial
+          que, cuando estaban esposados y tirados en el piso bajo la falsa
+          sospecha de ser dos delincuentes, les gritó: “¿dónde tenés la droga?,
+          que era un chorro, que a su amigo le tiraron porque hizo las cosas
+          mal”. Sin embargo, el 4 de agosto pasado, la misma jueza ordenó
+          liberarla por falta de mérito argumentando que la fiscalía, “a pesar
+          de contar con otras medidas posibles de concreción, no acercó pruebas
+          que sustentaran su imputación” y que Joaquín Zuniga no fue categórico
+          en el señalamiento durante el reconocimiento fotográfico.
+        </h4>
+
+        <h6 className={styles.span}>
+          Los tres hombres que interceptaron a los jóvenes eran el inspector
+          Juan José Nieva, el oficial mayor Fabián Andrés López y el oficial
+          Gabriel Alejandro Issasi, de la División Brigadas y Sumarios de la
+          Comisaría Vecinal 4D.
+        </h6>
+
+        <h3 className={styles.subTitle}>La pérdida</h3>
+
+        <h4 className={styles.singularText}>
+          Lucas González tenía 17 años, era hincha de Defensa y Justicia y en
+          diciembre del 2021 iba a probarse para volver al club de sus amores,
+          pero no lo dejaron llegar. Jugaba de 10 y estaba terminando el
+          secundario en horario vespertino para no interrumpir sus
+          entrenamientos. “El tema del estudio era algo de lo que hablábamos
+          seguido, yo le insistía mucho en que pensara alguna carrera
+          universitaria o terciaria, temía que apostara todo al fútbol, no
+          porque no creyera en él, sino porque se muy bien lo difícil que
+          resulta llegar a primera división”, cuenta su tía, Carolina González.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          “Siempre estábamos muy juntos, vivimos en el mismo terreno. Lucas fue
+          mi primer sobrino y para mí era como un hijo. Su hermana Valentina de
+          14 años me dice ‘nadie me entiende, lo extraño mucho’. Lucas era un
+          chico muy aniñado, miraba una película de terror y a la noche tenía
+          miedo de subir la escalera solo”. Hace una pausa y continúa: “El
+          hermano más chiquito, Tiziano de 9, también lo extraña, lo dibuja.
+          Durante toda la pandemia estuvieron los tres encerrados, todo el
+          tiempo jugando, se entretenían juntos, parecía que los tres tenían
+          nueve años. Lucas recién había empezado con la actividad de
+          entrenamiento”.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          “Hay cosas que no sé sobre lo que pasó (…) no pude volver a dormir
+          bien desde lo de Lucas. A veces me vienen los pensamientos sobre cómo
+          lo cuidábamos, no lo dejábamos salir sin saber dónde estaba,
+          conocíamos sus miedos, sus inquietudes. Sufro mucho cuando pienso qué
+          cosas terribles habrá pasado en ese momento, me pregunto cómo lo
+          habrán tratado si querían hacerlos pasar por delincuentes, todas esas
+          cosas me llevan a lugares muy feos. No sé si estoy lista para conocer
+          esos detalles. No quiero leer para evitar más dolor”, dice.
+        </h4>
+
+        <h3 className={styles.subTitle}>Se dispara racismo</h3>
+
+        <h4 className={styles.singularText}>
+          La querella busca enmarcar el crimen de Lucas como de odio racial. Es
+          decir, no se trataría de un caso de “gatillo fácil”, entendido como un
+          crimen que obedece al descuido o negligencia de los agentes en el uso
+          del arma sino de una persecución específica a personas jóvenes,
+          marrones, de barrios populares y que se visten de una determinada
+          manera.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          En Argentina hay un racismo por portación de cara, cuando uno tiene
+          una visera y tez de color marrón es una persona sospechosa para la
+          policía, algo que es tremendamente lamentable, pero que existe en
+          varios países del mundo. Creo que este va a ser el primer juicio de
+          racismo estructural por color de piel de toda la historia argentina”,
+          dice Gregorio Dalbón, abogado de la querella por la familia de Lucas y
+          los tres amigos que viajaban con él al momento del crimen.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Por el momento resta la confirmación de la fecha del juicio que estará
+          a cargo del Tribunal Oral Criminal Nacional N° 25 donde los policías
+          implicados serán juzgados. En este sentido, el abogado señala: “El por
+          qué tiran, matan y encubren lo vamos a tener solucionado en el debate
+          oral, creo que ahí se va a descubrir no solamente los tres tiradores a
+          los que les cabe reclusión perpetua sino a los que encubrieron que son
+          los otros nueve que están detenidos a los que les va a caber la pena
+          de encubrimiento agravado por el delito anterior y además
+          incumplimiento de los deberes de funcionarios públicos, privación
+          ilegítima de la libertad y todas las cuestiones que han sucedido que
+          fue un caso paradigmático porque las víctimas terminaron presas y los
+          victimarios terminaron en libertad”.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Los policías inventaron la versión del enfrentamiento y para que
+          resulte creíble mantuvieron a los jóvenes esposados durante varias
+          horas, plantaron un arma de utilería en el auto donde viajaba Lucas y
+          demoraron en dar aviso a la Justicia sobre el hecho. “Nosotros tuvimos
+          que dar vuelta la historia, recordemos que estos chicos fueron a un
+          reformatorio la noche del día del crimen, Lucas fue internado en un
+          hospital como detenido y los policías estaban prófugos. Tuvimos que
+          darlo vuelta y trabajarlo para que los policías sean detenidos y para
+          que los chicos sean sobreseídos”, asegura Dalbón. De la investigación
+          también se desprende que los policías ejercieron tormentos y
+          sufrimientos psicológicos sobre los jóvenes mientras que “los
+          mantuvieron durante más de dos horas esposados contra el piso boca
+          abajo y luego sentados, sin intervención judicial alguna”, aseguró.
+          Solo les sacaron las esposas cuando llegó el padre de uno de ellos y
+          les dijo que no podían tratarlos de esa manera por ser menores de
+          edad. Pero luego los subieron a un patrullero donde los retuvieron por
+          más de siete horas, entre las 12:30 y las 19:40.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          “Todos creen que uno va por una historia de gatillo fácil pero la
+          perspectiva que tengo (…) no va a ir sobre el gatillo fácil sino que
+          va a ir por el homicidio y el crimen por odio racial, que es lo que
+          entiendo que sucedió con Lucas y sus compañeros”, dice el abogado. “Si
+          estos chicos estaban arriba de un Audi no hubieran tenido ningún tipo
+          de inconveniente, pero estaban arriba de un auto nacional que salía de
+          un lugar que era una villa donde está el club donde ellos entrenan.
+          Este tipo de circunstancias, de persecución policial con una brigada
+          de civil sin identificarse no ocurre en Barrio Parque ni en Barrio
+          Norte. Ocurrió, casualmente, a la salida de una villa. Estas
+          situaciones son las que quiero hacer resaltar a los jueces para que
+          este juicio sea un antes y un después en lo que significa la
+          discriminación por color de piel en la Argentina. A estos chicos los
+          persiguieron y les tiraron por su color, no por otra cosa”, señala
+          Dalbón.
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Al referirse a la marcha que se llevó a cabo el 22 de noviembre de
+          2021 en Plaza Lavalle, Tribunales, para pedir Justicia por Lucas,
+          afirma: “hubo más o menos cuatro mil personas, si el chico hubiera
+          sido blanco y de ojos celestes, la gente (…) hubiera llegado hasta la
+          catedral de la Plaza de Mayo, el tema es que el chico era marrón y
+          cuando los chicos son de tez marrón, la sociedad se preocupa bastante
+          poco. En cambio, si el chico era blanco, de ojos celestes e hijo de un
+          empresario, aparecen los Blumberg”.
+        </h4>
+
+        <h6 className={styles.span}>
+          En Argentina hay un racismo por portación de cara, cuando uno tiene
+          una visera y tez de color marrón es una persona sospechosa para la
+          policía, algo que es tremendamente lamentable, pero que existe.
         </h6>
 
         <h3 className={styles.subTitle}>
-          “y yo no veo que eso le hagan a otra gente”
+          {" "}
+          Herencia de impunidad: las brigadas
         </h3>
 
         <h4 className={styles.singularText}>
-          Corre el mes de octubre de 2023. La militancia progresista está
-          abocada en intentar frenar lo que será un triunfo arrollador del
-          ultraderechista Javier Milei, actual presidente de la Nación. Pero en
-          la sede de la Asociación de Mujeres Meretrices de la Argentina en
-          Acción por Nuestros Derechos (AMMAR), en el barrio porteño de
-          Constitución, se palpita otra cosa. Se trata del sindicato que
-          representa a las trabajadoras sexuales. Esa tarde soleada pero fresca
-          de primavera, la vieja casa chorizo pintada de rojo se convierte en
-          consultorio oftalmológico.
+          <a
+            href="https://www.mapadelapolicia.com/#/investigacion/breve-historia"
+            className={styles.link}
+          >
+            El traspaso
+          </a>{" "}
+          de parte de la Policía Federal Argentina a la Ciudad de Buenos Aires
+          implicó grandes cambios en la estructura operativa de la fuerza,
+          incluyendo la gestión de ‘brigadas’ (nombre no oficial que quedó de la
+          Federal). En 2018 se intentó establecer un esquema de prevención (para
+          la policía de calle) y otro de investigación (destinado a las
+          brigadas) pero no hubo acuerdo para concretarlo.
         </h4>
 
         <h4 className={styles.singularText}>
-          Cuando golpeo la puerta me recibe una chica trans. Le digo que busco a
-          Georgina Orellano, la secretaria general del sindicato, y me manda
-          para el fondo.{" "}
+          Durante dos años la socióloga Leslie MacColman realizó más de cien
+          entrevistas con personas relacionadas con las reformas policiales en
+          Argentina -incluyendo actores políticos de diferentes partidos,
+          policías y activistas- lo que formó parte de una investigación
+          exhaustiva donde analizó a las brigadas. Su tesis doctoral se centró
+          en los orígenes de la Policía de la Ciudad, aún habiendo realizado una
+          investigación profunda y rigurosa, asegura que hay muchos aspectos de
+          las brigadas que no logró clarificar “porque es difícil conseguir
+          información sobre su composición y funcionamiento”.
         </h4>
 
         <h4 className={styles.singularText}>
-          En la entrada hay un pequeño salón dispuesto como sala de espera:
-          sentadas en dos filas enfrentadas, una decena de mujeres travestis
-          trans charlan entre sí; otras están con la vista clavada en sus
-          teléfonos. En la habitación que sigue hay dos aparatos sofisticados y
-          brillantes. Las chicas apoyan la quijada y los técnicos colocan
-          distintos lentes, calibran manijas y rueditas, y anotan en una
-          planilla.
+          Su trabajo académico finalizó en 2019, hasta la fecha hubo importantes
+          cambios a nivel social, económico y político y puede que algunas cosas
+          se hayan modificado, sin embargo, su investigación deja entrever el
+          entramado de corrupción y el modus operandi de las brigadas que se
+          mantiene al día de hoy. “En la Policía Federal Argentina (PFA), las
+          brigadas eran una pieza clave en las llamadas ‘quintas’ de recaudación
+          ilícita. Las brigadas conocían, entre otras cosas, dónde había mayor
+          actividad comercial y dónde se concentraban actividades ilícitas
+          vinculadas al juego clandestino, la venta de drogas, la esclavitud
+          sexual, los talleres clandestinos, los desarmaderos de autos, etc.
+          Dicho conocimiento les permitía negociar acuerdos con diversos actores
+          locales, incluyendo actores criminales. Bajo la dirección del
+          comisario o subcomisario de turno, las brigadas ofrecían protección
+          policial a cambio de pagos periódicos que luego fueron repartidos
+          entre miembros de la brigada, sus superiores e, incluso, los altos
+          mandos de la PFA. Los que no accedían a pagar a veces sufrían
+          represalias físicas o legales. Si bien, no todos sus miembros
+          participan de actividades ilícitas, las brigadas tenían una reputación
+          generalizada de ser el brazo de la PFA que regulaba el crimen
+          callejero”, explica MacColman.
         </h4>
 
         <h4 className={styles.singularText}>
-          Al fondo, sentada en una mesa, con una minifalda ajustada, medias
-          transparentes y botas está Georgina, que recibe a las chicas en la
-          mesa de la cocina para indicarles cuándo tienen que volver para
-          retirar los anteojos. Cuando termina con una de ellas, aprovecho para
-          presentarme. Me dice que me siente frente a ella, que Yokhari Márquez
-          —la responsable del área social de AMMAR, con quien pacté la
-          entrevista— está un poco retrasada, pero que enseguida llega.{" "}
+          Varias de las personas con las que la socióloga conversó coincidían en
+          que la brigada era una especie de “patota”: “No es una acción de la
+          policía uniformada, es la brigada de investigación que trabaja con el
+          comisario, con el subcomisario, y son estos los que van a tu negocio y
+          dicen ‘¿cómo le va Leslie, anda bien el negocio no? Si, si, bueno ¿yo?
+          ¿Cuánto va a colaborar con la jurisdicción?’ Pero es una persona
+          vestida así de gaucho que, no de policía uniformada”, esto dijo una de
+          las personas entrevistadas y otra aseguró: “Las brigadas siempre eran
+          los que cobraban las coimas. El comisario sabía qué negocio estaba
+          acá, cuál estaba allá. Le iban a decir que necesitaban seguridad en la
+          puerta. O si estaban haciendo algo medio turbio, pasaba a brigada cada
+          tanto”, afirma.
         </h4>
 
         <h4 className={styles.singularText}>
-          Mientras espero, me presenta a Natalí, una mujer trans colombiana de
-          casi 50 años. Natalí me cuenta que está súper ansiosa, a la espera de
-          la visita de su mamá, a quien no ve desde hace unos 8 años debido a
-          una causa judicial por drogas que le impide regularizar su situación
-          migratoria y salir del país. “Es lo único bueno que me va a pasar en
-          años”, dice.{" "}
+          “A nivel central – en la jefatura de la Policía de la Ciudad – seguían
+          operando las brigadas especializadas en materia de Robos y Hurtos,
+          Sustracción de Automotor, Drogas, Cibercrimen, etc. que tenían
+          jurisdicción en toda la ciudad. A nivel comuna, ante la falta de
+          lineamientos claros del Ministerio, la gestión de brigadas se tornó
+          más ad hoc. Si bien, no era como la PFA, donde cada comisario armaba y
+          manejaba sus propias brigadas con relativa autonomía, los comisarios
+          lograron recuperar cierta independencia que la estructura de la
+          Policía de la Ciudad les había quitado”, afirma.{" "}
         </h4>
-
         <h4 className={styles.singularText}>
-          Cuando llegó al país no encontró el paraíso. Dice que a pesar de la
-          Ley de Cupo Laboral travesti trans, la falta de documentación y de
-          estudios, hacen que la única salida sea la calle. &quot;Nos ven riendo
-          y pensarán &apos;qué fácil es esa vida&apos;. Pero no es fácil.
-          Tenemos que vivir, primero que nada, el insulto de la gente. Porque
-          pasan y nos gritan &apos;zorra&apos;, nos escupen, nos tiran huevos,
-          piedras; me han pegado, me han robado, me han cortado&quot;, describe
-          Natalí. Pero además, el hostigamiento policial. &quot;Es todos los
-          días lo mismo. Lo primero que hago es maquillarme pensando en qué
-          policía me voy a encontrar, porque todos los días tienen turnos
-          distintos. Ayer me peleé con una femenina. Le dije: &apos;No venga a
-          ser tan prepotente, si usted me habla educadamente yo me
-          voy&apos;&quot;.
+          MacColman explica que en 2019 se produjo una puja entre diversos
+          actores dentro de la Policía de la Ciudad sobre el control de las
+          brigadas: “La brigada comunal solía salir a recorrer la jurisdicción
+          sin avisar a los comisarios justamente porque quería detectar
+          irregularidades o delitos vinculados a la actividad policial. Pero los
+          comisarios se quejaron mucho y, eventualmente, vino una orden de
+          arriba que la brigada tenía que avisar por radio cada vez que salía”.
         </h4>
-
         <h4 className={styles.singularText}>
-          Otras veces, los encara &quot;aunque sé que no lo debo hacer, pero me
-          saca la rabia. Porque yo sé que la chica no está digo al digo al
-          policía, &apos;¿le encontró algo que la comprometa?&apos;, y me dicen
-          &apos;no, pero lo vimos en la cámara&apos;. Y le digo, &apos;la cámara
-          no ha visto ni mierda, ustedes por joder, por tocarla, por llamar la
-          atención, para que la gente diga: Ah, cómo trabaja&apos;&quot;.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Yokhari Márquez Ortiz, dirigenta del área social del sindicato de
-          trabajadoras sexuales, coincide. Y explica que eso es lo que viven
-          todas, todos los días. “Si yo estoy en la calle y venís y me das un
-          abrazo, o me das la mano, la cámara dice que te estoy dando algo”,
-          ejemplifica en referencia al rol del Centro de Monitoreo Urbano (CMU)
-          de la Policía de la Ciudad. Y continúa: “Entonces vienen y me hacen la
-          detención arbitraria, me desnudan en la calle, me quitan lo poquito
-          que tengo. Porque para ellos no podemos tener más de veinte mil pesos
-          en la cartera. Entonces nos dicen: &quot;¿de dónde sacó esa
-          plata?&quot;, y tenemos que ir a la comisaría a rendir de dónde
-          sacamos esa plata”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          “Eso nos hacen —subraya Yokhari— y yo no veo que eso le hagan a otra
-          gente. No puedo caminar libremente por mi barrio, donde vivo y ejerzo
-          mi trabajo. Cuando los policías hacen sus razias arbitrarias a las
-          primeras que van a raziar (sic) es a las chicas trabajadoras sexuales,
-          al colectivo migrante trans, a las personas en situación de calle, y a
-          las personas por portación de rostro y de vestimenta”, dice y
-          caracteriza con claridad la política criminal del Gobierno de la
-          Ciudad.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Agrega: “Esa gente ves tú en las comisarías y en los patrulleros. No
-          ves gente que para ellos no son sospechosos. No ves gente blanca, con
-          buena ropa, con buen coche. Capaz esos son los que nos envenenan y
-          abastecen de droga a todo el país, pero como son de ese prototipo que
-          para la Ciudad y la policía encajan, no les dicen nada. Entonces, van
-          hacia nosotras”.
-        </h4>
-
-        <h6 className={styles.span}>
-          “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
-          calle, me quitan lo poquito que tengo. Porque para ellos no podemos
-          tener más de veinte mil pesos en la cartera. Entonces nos dicen:
-          &apos;¿de &apos;¿de dónde sacó esa plata?&apos;, y tenemos que ir a la
-          comisaría a rendir de dónde sacamos”
-        </h6>
-
-        <h3 className={styles.subTitle}>
-          monitoreo y armado de causas penales
-        </h3>
-
-        <h4 className={styles.singularText}>
-          Pablo Ibarra trabaja en la Secretaría de Violencia Institucional del
-          Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos
-          Aires. Dice: “Si sos trans y estás en Constitución, ya está.
-          Básicamente, estás condenada a recibir en algún momento de tu jornada,
-          en algún momento de la semana, algún tipo de hostigamiento policial”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          A partir de su testimonio es posible conocer detalles del modo
-          particular en que se da la persecución a manos de la Policía de la
-          Ciudad. Como había señalado Yokhari de AMMAR, el inicio de los casos
-          que involucran a personas trans, trabajadoras sexuales, se dan a
-          partir de la intervención del Centro de Monitoreo Urbano.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          “Monitoreo Urbano avisa al policía (la mayoría de las veces,
-          refiriéndose a un travestido), y el policía va, detecta y revisa medio
-          arbitrariamente”. La persona “puede tener una bolsita, puede no tener
-          una bolsita, puede tener plata, puede no tener plata, pero siempre se
-          come algún tipo de secuencia”, indica. Para él, eso da cuenta de que
-          la discriminación estereotipada previa es transversal: “Hay prejuicio
-          por parte de la policía de calle, de los agentes del CMU y —-también—
-          de las propias fiscalías”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          La comisaría que tiene jurisdicción en Constitución y que actúa en la
-          mayoría de estos casos es la Vecinal 1C. Algo característico de esa
-          dependencia, y que AMMAR denuncia desde hace años, es la constante
-          rotación de sus autoridades, lo que obstaculiza el trabajo de
-          concientización que llevan adelante.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          En relación a denuncias por la intervención de las brigadas (como las
-          que actuaron en la causa de Roxana), Ibarra dice que no son la mayoría
-          de los casos que llegan fiscalía pero lo que se observa es la
-          brutalidad: las trabajadoras sexuales han consignado desde requisas
-          vejatorias hasta robo de pertenencias, y también, que les plantan
-          drogas.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          El abogado explica que esto se vincula al marco gris de actuación en
-          el que se maneja la policía ya que si bien intervienen por orden
-          judicial y, a priori, no tienen asignadas tareas de prevención, el
-          estado policial, que habilita a todos los agentes de la Policía de la
-          Ciudad a intervenir cuando están fuera de servicio, ampara esas
-          actuaciones.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Al cierre de esta investigación, se conoció que a partir de una
-          denuncia de AMMAR -que acompañó la cartera de Ibarra-, la fiscalía
-          especializada en Violencia Institucional de Ciudad ordenó el traslado
-          preventivo de los agentes de la comisaría 1C, Rocío Maldonado y
-          Orlando Silvero, por distintos hechos de maltrato físico y psicológico
-          contra trabajadoras sexuales travesti trans. La secretaría también
-          había pedido que una serie de hechos similares ocurridos en
-          Constitución se investigaran en una sola causa, por su carácter
-          sistemático.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Las autoras Laura Malacalza y Sofía Caravelos, en un artículo que se
-          menciona en detalle más adelante, añadieron otra constante clave en
-          estos casos que es moneda corriente en la Ciudad de Buenos Aires: la
-          intervención de los grupos de vecinos en alerta cuyas denuncias sirven
-          como puntapié de muchas causas y de la construcción de estigmas
-          sociales. Cada tanto, además, esos relatos son tomados como insumo
-          para el show televisivo y los canales montan guardias para mostrar la
-          marginalidad.
+          A raíz de su investigación la socióloga pudo comprobar que, si bien la
+          creación de la Policía de la Ciudad cambió las reglas de juego para
+          muchos policías, las brigadas continúan operando con sus propias
+          lógicas por fuera del sistema de control que establece la propia
+          policía: “No está del todo claro cómo o quién los controla, lo cual
+          contribuye a la proliferación de abusos. Cuando entrevisté a
+          trabajadores sexuales, por ejemplo, me dijeron que algunas brigadas
+          solían exigirles dinero, drogas o favores sexuales, amenazando con
+          armar una causa judicial si no cumplían. Un grupo de jóvenes en
+          situación de calle cerca de una de las villas más grandes de la Ciudad
+          me dijo algo parecido. Según ellos, ciertas brigadas de la zona
+          ofrecían protección a grupos criminales a cambio de elementos robados
+          o droga. ‘La brigada acá arregla con todos, con todos los narcos y
+          transas,’ dijo uno. Otro joven acotó que ‘La brigada no los molesta,
+          pero cuando no les paga empiezan a molestar. Empiezan a allanar.’ Para
+          ellos, al igual que otros informantes míos, el traspaso de Policía
+          Federal Argentina a la Policía de la Ciudad trajo un cambio de
+          uniforme pero no cambió los patrones abusivos de las brigadas
+          policiales”.
         </h4>
 
         <h6 className={styles.span}>
-          La comisaría que tiene jurisdicción en Constitución y que actúa en la
-          mayoría de estos casos es la Vecinal 1C. Algo característico de esa
-          dependencia, y que AMMAR denuncia desde hace años, es la constante
-          rotación de sus autoridades, lo que obstaculiza el trabajo de
-          concientización que llevan adelante.
+          Si bien la creación de la Policía de la Ciudad cambió las reglas de
+          juego para muchos policías, las brigadas continúan operando con sus
+          propias lógicas por fuera del sistema de control que establece la
+          propia policía.
         </h6>
 
-        <h3 className={styles.subTitle}>
-          cambios legales sin políticas inclusivas
-        </h3>
+        <h3 className={styles.subTitle}> Un antecedente televisado</h3>
 
         <h4 className={styles.singularText}>
-          Una de las pocas personas que en el ámbito judicial recogió el guante
-          de lo que hace años denuncian las organizaciones de Derechos Humanos
-          como AMMAR es Karina Andrade, a cargo del Juzgado en lo Penal
-          Contravencional y de Faltas n° 15. A la magistrada le tocó intervenir
-          para evaluar el “acuerdo de avenimiento” (juicio abreviado) al que
-          había llegado Roxana con el fiscal Paulo Gaspani y en el que había
-          aceptado una condena por dos hechos de tenencia de estupefacientes.
+          María del Carmen Verdú, abogada y referente de la Coordinadora Contra
+          la Represión Policial e Institucional (CORREPI) cuenta que “las
+          brigadas (en realidad, el servicio de calle) existen desde que el
+          mundo es mundo. La Policía de la Ciudad conservó en ese punto la
+          estructura preexistente de la PFA, que también se repite en las
+          policías provinciales. Lo sorprendente es que haya gente que se hayan
+          desayunado con el caso de Lucas sobre el tema, mientras cualquier
+          vecino o vecina de cualquier barrio te puede contar en qué auto anda
+          la brigada de la zona, quiénes son y cómo recaudan”.
         </h4>
 
         <h4 className={styles.singularText}>
-          Luego de analizar lo actuado, conocer a la acusada y preguntarle sobre
-          sus condiciones de vida, elaboró un extenso escrito en el que decidió
-          rechazar el acuerdo. Para la jueza, la causa era resultado más de los
-          prejuicios de los agentes que intervinieron. “La acusada se presentó
-          para manifestar que aceptaba su condena, y renunciaba a su derecho de
-          ir a juicio, en un proceso penal que no tuvo hacia ella un trato
-          digno, pese a que lleva aproximadamente dos años de duración. Frente a
-          esta situación, resulta cuestionable que se encuentre en una posición
-          de igualdad y libertad para ejercer sus derechos o decir cuanto
-          quisiera o pensara”, explicó.
+          Prosigue: “en los papeles, el servicio de calle o brigadas es un
+          pequeño grupo de policías que son destacados por su conocimiento de la
+          zona, para circular de civil y en autos no identificados, ‘para
+          prevenir delitos y contravenciones’. La verdad de la milanesa, es que
+          efectivamente ubican esos lugares ‘de interés’, pero para cobrar
+          peaje, dejarlos funcionar o extorsionar de otras formas. Son los
+          recaudadores en los barrios, los que pasan a buscar la ‘cuota’ por
+          desarmaderos, prostíbulos, kioscos de merca, etc., en los que, además,
+          muchas veces directamente son socios. También los que manejan los
+          informantes o ‘buches’ que convenientemente dan datos de los que son
+          renuentes a cooperar”.
         </h4>
 
         <h4 className={styles.singularText}>
-          Entre otros, Andrade citó un informe de la CIDH (Comisión
-          Interamericana de Derechos Humanos), que afirma que las personas trans
-          enfrentan “pobreza, exclusión social y altas tasas de inaccesibilidad
-          a la vivienda”, lo que las presiona a trabajar en “economías
-          informales altamente criminalizadas, como el trabajo sexual o el sexo
-          por supervivencia”.{" "}
+          Verdú recuerda un episodio del año 2002, cuando CORREPI denunció el
+          accionar de la Brigada de la misma comisaría implicada en el caso de
+          Lucas González, que por entonces era la 30ª de la PFA, en la causa por
+          la detención legal y extorsión a Desiderio Meza. Los implicados eran
+          el sargento Roque Mona, el oficial inspector Mario Machado, el
+          subcomisario Edgardo Cejas y los suboficiales Jorge Fernández y
+          Domingo Castiglione. “El hombre fue detenido en la puerta de su casa
+          con la excusa de una ´detención para identificar´ (averiguación de
+          antecedentes). La brigada lo llevó a la comisaría, donde le dieron un
+          par de cachetazos para que entendiera que no era joda, y le dijeron
+          que si en 72 horas no pagaba 2.000 dólares, le armaban una causa por
+          tenencia de armas de guerra y explosivos. El pobre formoseño tenía
+          alguna causa ya purgada por robo, lo que lo convertía en perfecto
+          blanco para la extorsión”, explica la abogada. “Lo acompañamos a
+          denunciar judicialmente y el fiscal autorizó a montar una cámara
+          oculta para registrar el momento de la entrega del dinero con ayuda de
+          un equipo de investigación periodística (&quot;Telenoche
+          Investiga&quot;). A pesar de que en el momento crucial hubo una
+          filtración y avisaron al jefe de la brigada, que encontró y trató de
+          destruir la cinta, se recuperó lo suficiente como para condenarlos.
+          Hubo dos juicios, en el segundo salió la condena”, recuerda Verdú.
         </h4>
 
         <h4 className={styles.singularText}>
-          Al respecto, las estadísticas sobre la población trans en Buenos Aires
-          son elocuentes. “La revolución de las mariposas”, un informe elaborado
-          en 2017 en base a una encuesta en barrios de CABA, revela que solo una
-          pequeña porción de las mujeres trans accede a un trabajo formal (9%).
-          Las que viven de trabajos precarios e informales son el 15% y las que
-          acceden a alguna ayuda estatal, el 3,6%. “Para el resto, más del 70%,
-          la prostitución sigue siendo la principal fuente de ingresos”, señala
-          el estudio. A lo que se suma la persecución policial y penal. “Las
-          mujeres trans son perfiladas por la policía como peligrosas,
-          haciéndolas más vulnerables al abuso policial, a la criminalización y
-          a ser encarceladas”, indicó la jueza. Además cuestionó que en los dos
-          años de proceso judicial no se respetó la identidad autopercibida de
-          la acusada, tal como obliga la ley de Identidad de Género (26.743)
-          sancionada en 2012. Y puso en duda la calificación legal de tenencia
-          de estupefacientes, así como la legalidad de todo el procedimiento
-          policial que inició la causa: estar conversando con otra persona que
-          está dentro de un automóvil o abordar un taxi no son motivos fundados
-          para iniciar un proceso de detención y requisa por la presunta
-          comisión de un delito. En esa línea, también desestimó la existencia
-          de una “actitud evasiva” por parte de Roxana y el taxista, al
-          considerar que los policías estaban vestidos de civil, en un auto sin
-          identificar, por lo que difícilmente podían ser reconocidos como
-          miembros de una fuerza de seguridad.
+          Los jueces Hugo Boano, Marcelo Avrutín Suárez y Gustavo Valle del
+          Tribunal Oral Porteño N° 2 condenaron a Machado y Mona a cuatro años y
+          medio de cárcel, y el doble de tiempo de inhabilitación especial, por
+          privación ilegal de la libertad y extorsión, ésta en grado de
+          tentativa. A Machado se lo sentenció también por lesiones leves -por
+          golpear a Meza en la comisaría, delante de su hijo de tres años-; y a
+          Mona por daño, por haber roto la cámara que Desiderio llevaba oculta
+          el día en que, bajo vigilancia policial y judicial, acudió a cumplir
+          con el pago reclamado por los policías. Cejas y Fernández recibieron
+          cuatro años de cárcel. Al primero le sumaron coacción y al otro, la
+          tentativa de extorsión. Castiglione, por su parte, fue absuelto.
         </h4>
-
-        <h4 className={styles.singularText}>
-          En los últimos años hubo cambios legales que impactaron en la
-          población trans migrante. Al respecto, Laurana Malacalza (actual
-          subsecretaria de Políticas contra las Violencias por Razones de Género
-          bonaerense) y Sofía Caravelos, publicaron en 2019 un artículo en la
-          Revista Cuestiones Criminales (UNQUI). Allí plantearon una hipótesis
-          centrada en el territorio bonaerense pero que puede extenderse a la
-          CABA: si bien la derogación de los códigos contravencionales, junto a
-          la sanción de la Ley de Identidad de Género (2012) y la de Migraciones
-          (2004), tallaron la imagen de un país más amable para recibir a este
-          colectivo, distintos factores se conjugaron para que esto no se
-          traduzca en mayor acceso a derechos.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          En ese marco —analizan las autoras— fue clave la desfederalización de
-          la Ley de Drogas, o sea, la transferencia de delitos menores como
-          tenencia o menudeo del ámbito federal al provincial. Lo explican así:
-          “La combinación de cambios legales, sin acompañamiento de políticas
-          públicas inclusivas y la persistencia de estereotipos estigmatizantes
-          y discriminatorios ha derivado en una reformulación de las lógicas y
-          prácticas de criminalización hacia las mujeres trans y travestis. Sus
-          cuerpos son concebidos como objeto de transacciones comerciales, tanto
-          de tipo sexual como vinculada a la venta de estupefacientes,
-          dimensiones que retornan hacia el colectivo trans y travesti a través
-          de un recrudecimiento de los mecanismos represivos y su virtual
-          expulsión del espacio público”. Y siguen: “En este sentido, las
-          figuras legales que se les aplican se trasladan desde el ámbito
-          contravencional al penal. Advertimos entonces la imputación de delitos
-          cada vez más graves, con penas cada vez más altas, en un contexto de
-          uso indiscriminado de la prisión preventiva en la provincia de Buenos
-          Aires. Esto sin dudas, explica el creciente aumento de personas trans
-          y travestis encarceladas”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          En Ciudad de Buenos Aires, la desfederalización se aplicó, a pesar de
-          las advertencias de las organizaciones, en enero de 2019 (en Provincia
-          fue en 2004). En el ya citado informe del CELS sobre drogas se señalan
-          los primeros efectos de la implementación: un aumento abrupto de
-          causas por Drogas en la Justicia local (una suba del 54% en solo 9
-          meses) y un recrudecimiento de la persecución a los consumidores (que
-          representaron el 72% del total de las causas).
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Ocho de cada diez de esas causas “fueron iniciadas por la policía de
-          la Ciudad” y, del total, el 74% fueron archivadas porque prevaleció el
-          criterio de que es inconstitucional penar el consumo. “Es decir que la
-          actividad de la Policía de la Ciudad se centró en casos irrelevantes
-          que luego fueron desechados por el sistema judicial. Pero esta
-          política de persecución callejera opera como una medida de control
-          poblacional que perjudica a grupos específicos”, entre ellos, el trans
-          migrante.{" "}
-        </h4>
-
         <h6 className={styles.span}>
-          La combinación de cambios legales, sin acompañamiento de políticas
-          públicas inclusivas y la persistencia de estereotipos estigmatizantes
-          y discriminatorios ha derivado en una reformulación de las lógicas y
-          prácticas de criminalización hacia las mujeres trans y travestis.
+          En los papeles, las brigadas son un pequeño grupo de policías que son
+          destacados por su conocimiento de la zona, para circular de civil y en
+          autos no identificados, ‘para prevenir delitos y contravenciones’ pero
+          se ubican esos lugares para cobrar peaje.
         </h6>
 
-        <h3 className={styles.subTitle}> no todas son soldaditxs narco </h3>
+        <h3 className={styles.subTitle}> Actúan como parapoliciales</h3>
 
         <h4 className={styles.singularText}>
-          A principios de marzo de 2024, Georgina Orellano publicó un posteo en
-          sus redes sociales desde la esquina en la que trabaja desde hace 17
-          años. “En menos de dos meses (de gobierno de Javier Milei), dos
-          compañeras trans perdieron su vida en medio de peleas callejeras,
-          conflictos por territorios, por dinero, por sobrevivir, por intentar
-          ganarse el mango para pagar un techo en una pieza de un conventillo,
-          por intentar ayudar a su familia, por intentar sostener las tres
-          comidas diarias”. Hacía referencia a lo que ocurre alrededor del
-          “pasamano”, la venta de estupefacientes a baja escala, o incluso del
-          comercio de “mentiritas”: Geniol picado, o algún otro analgésico de
-          bajo costo, que simula ser cocaína. “El costo de vida se encareció
-          tanto que salir a trabajar, pagar transporte, gastar en morfi y ganar
-          una miseria ya no es conveniente, y frente a esas injusticias sociales
-          aparecen estrategias de supervivencia que no son nuevas en los barrios
-          pero que en los últimos meses son casi la única salida”. Se refirió,
-          entonces, de forma crítica a los análisis rápidos que enseguida ponen
-          etiquetas y hablan de quienes echan mano del rebusque como “soldaditos
-          de los narcos”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          El posteo de Orellano coincide con una demanda histórica impulsada por
-          las organizaciones sociales que exige que la investigación penal
-          escale en la cadena de responsabilidades y no se quede en el simple
-          menudeo. En 2019, OTrans confeccionó un informe sobre la persecución
-          que sufre el colectivo trans migrante, que fue retomado por el fiscal
-          Franco Picardi, titular de la Fiscalía Nacional en lo Criminal y
-          Correccional Federal N° 5, para fundamentar al menos dos decisiones
-          judiciales, en el marco de causas por menudeo. En ambas, el fiscal
-          pidió la absolución de las imputadas, trans y migrantes, por su
-          situación de vulnerabilidad.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          “Mientras solo el 3% de la población total privada de la libertad en
-          el Servicio Penitenciario Bonaerense (SPB) es extranjera, la población
-          de mujeres trans y travestis extranjeras representa el 85% de la
-          población total de mujeres trans y travestis privadas de su libertad”,
-          precisaba el informe. Picardi complementaba: “En el caso de las
-          mujeres trans y travestis migrantes privadas de libertad en el SPB, el
-          100% está presa por estupefacientes”.{" "}
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Claudia Vázquez Haro, presidenta de OTrans, es categórica: “Las
-          travestis no son narcotraficantes, son excluidas”. Y añade un eje
-          clave: la edad. “Son personas a las que les plantan drogas, o son
-          compañeras que la mayoría supera los 30 años, cuando como promedio las
-          travestis no superamos los 35 años de edad por muertes con causas
-          evitables”. Vázquez Haro dice: “Imaginate una travesti mayor de 25
-          años, con problemas de consumo problemático, enfermedades crónicas,
-          situación de prostitución, que se ve obligada a sobrevivir drogada
-          para tener sexo con hombres o varios hombres en una noche, o en su
-          defecto, es la que tiene que vender al menudeo porque al otro día no
-          tiene para comer”.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          En suma, “todas van presas y nunca va preso el narcotraficante que
-          tiene íntima relación con un sector del poder político, con un sector
-          del poder judicial y de la policía”. En el contexto actual, bajo la
-          gestión de Javier Milei, dice que la situación se ha complejizado.
-          “Aumentan las detenciones arbitrarias, aumentan los malos tratos, que
-          en CABA siempre han sido un problema, y aumenta la violencia en la vía
-          pública”. En ese marco, el cierre del INADI y la resolución de la
-          ministra de Seguridad de la Nación, Patricia Bullrich, de prohibir a
-          las fuerzas de Seguridad el uso del lenguaje inclusivo “son elementos
-          que dan cuenta de que estamos en un momento de mucha preocupación”.
+          La abogada penalista y magíster en Criminología, Claudia Cesaroni,
+          dice: “Este caso (crimen de Lucas González) desnuda varias cuestiones
+          vinculadas a las prácticas policiales. Una es la existencia de
+          brigadas que actúan como parapoliciales porque no están identificadas.
+          Son autos civiles, no patrulleros y entonces las personas que son
+          perseguidas por este tipo de autos tienen todo el derecho del mundo a
+          asustarse, a acelerar y a pensar que les quieren robar o que los
+          quieren hacer algo dañoso y huir. Esa huida (sirve) a la policía para
+          la segunda cuestión, que tiene que ver con las prácticas policiales,
+          que es ejecutar a personas con el argumento de que están cometiendo un
+          delito (…) que sería huir. Este caso genera indignación y
+          probablemente tendrá condenas muy duras contra los policías porque
+          estos chicos eran ´inocentes´ y lo digo entre comillas, no porque no
+          lo fueran, sino porque esta distinción a mí también me parece un
+          problema. Aunque estos chicos hubieran cometido un delito, aunque
+          estuvieran escapando de la Policía, creo que tampoco estaría
+          justificado dispararles de esa manera por el riesgo justamente de
+          provocar muertes, que es lo que definitivamente pasó con Lucas”.
         </h4>
       </div>
     </>
