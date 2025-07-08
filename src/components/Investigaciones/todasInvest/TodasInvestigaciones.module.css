@@ -38,14 +38,13 @@
   height: 25vh;
 }
 
-
 .singularText {
   margin: 0;
   padding: 1vh 0vw;
   font-size: 1.3rem;
   text-align: justify;
   padding: 1vh 10vw;
-  }
+}
 
 .autorxFecha {
   margin: 0;
@@ -66,7 +65,7 @@
   padding-bottom: 2vh;
 }
 
-.investigacionContainer{
+.investigacionContainer {
   height: fit-content;
 }
 
@@ -83,10 +82,11 @@
   text-align: justify;
 }
 
-.link{
+.link {
   color: rgb(159, 100, 219);
   text-decoration: underline;
 }
+
 .subTitle {
   padding: 0vh 10vw;
   padding-top: 8vh;
@@ -111,15 +111,23 @@ p {
   padding-bottom: 1vh;
 }
 
-.autorxFecha{padding-bottom: 0.5vh;}
+.autorxFecha {
+  padding-bottom: 0.5vh;
+}
 
-.mapGoogle, .videoContainer, .image2 {
+.mapGoogle,
+.videoContainer,
+.image2 {
   max-width: 100%;
-padding: 2vh 10vw;}
+  padding: 2vh 10vw;
+}
 
-.image2{max-width: 80vw;}
+.image2 {
+  max-width: 80vw;
+}
 
-.ilusContainer, .autorxContainer{
+.ilusContainer,
+.autorxContainer {
   display: flex;
 }
 
@@ -148,7 +156,7 @@ padding: 2vh 10vw;}
   padding-left: 0;
 }
 
-.icon{
+.icon {
   color: rgb(185, 123, 243);
   padding-right: 0.5vw;
 }
@@ -162,14 +170,13 @@ padding: 2vh 10vw;}
   align-self: center;
   align-content: left;
   justify-self: left;
-
   padding: 0vh 1vw;
   width: fit-content;
   padding-bottom: 1vh;
   padding-left: 0;
 }
 
-.podcast{
+.podcast {
   margin: auto;
   border: none;
   height: 160px;
@@ -177,12 +184,12 @@ padding: 2vh 10vw;}
 }
 
 @media (min-width: 768px) {
-
   .NotaContainer {
     padding: 0vh 7vw;
     text-align: justify;
     padding-bottom: 0vh;
   }
+
   .todasContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -208,8 +215,8 @@ padding: 2vh 10vw;}
   .tituloInvestigacion {
     padding-top: 2vh;
   }
-  .podcast{
 
-  width: 48%;
-}
+  .podcast {
+    width: 48%;
+  }
 }
