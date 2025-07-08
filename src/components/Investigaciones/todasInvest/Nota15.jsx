@@ -176,7 +176,7 @@ const Nota15 = () => {
         </h4>
         <h4 className={styles.singularText}>
           {" "}
-          -Imágenes crudas de foto-reporteras/os;
+          -Imágenes crudas de fotorreporteras/os;
         </h4>
         <h4 className={styles.singularText}>
           {" "}
