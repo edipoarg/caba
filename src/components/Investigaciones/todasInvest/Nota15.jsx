@@ -199,15 +199,15 @@ const Nota15 = () => {
         <h4 className={styles.singularText}>
           {" "}
           Al mismo tiempo, se determinó que la munición era un cartucho de gas
-          lacrimógeno, cuyo uso está regulado: deben dispararse en un ángulo de
-          45 grados y nunca de forma directa al cuerpo, debido a su peso y
-          letalidad. Se trata de un arma solo para uso disuasivo y debe
-          dispararse hacia arriba. Las fotos con las que se cotejaron los videos
-          dio el dato preciso de que a esa hora y en ese lugar solo había
-          efectivos de Gendarmería Nacional (GNA) y se encontró que, en los
-          minutos previos, disparó varias veces en inclinación horizontal hacia
-          los manifestantes. Esto habla de una práctica sistemática y coordinada
-          de un uso incorrecto de las armas no letales y no de un tiro aislado.
+          lacrimógeno, cuyo uso está regulado: este tipo de proyectiles deben
+          dispararse en un ángulo de 45 grados y nunca de forma directa al
+          cuerpo, debido a su peso y letalidad. Se trata de un arma solo para
+          uso disuasivo. Las fotos con las que se cotejaron los videos dio el
+          dato preciso de que a esa hora y en ese lugar solo había efectivos de
+          Gendarmería Nacional (GNA) y se encontró que, en los minutos previos,
+          se disparó varias veces en inclinación horizontal hacia los
+          manifestantes. Esto habla de una práctica sistemática y coordinada de
+          un uso incorrecto de las armas no letales y no de un tiro aislado.
         </h4>
         <h4 className={styles.singularText}>
           La geolocalización de los teléfonos celulares, la acústica de los
@@ -281,7 +281,8 @@ const Nota15 = () => {
           se publicó a cuatro días de la manifestación, y consistía en la
           identificación exacta del tirador y la cadena de mando a la que
           obedecía. Ambos videos elaborados por el realizador audiovisual Alejo
-          Fraile.
+          Fraile en la dirección y edición y Micaela Minervini y Mario Santucho
+          en guion y prensa.
         </h4>
         <h4 className={styles.singularText}>
           La estructura del Mapa que se construyó desde su creación fue clave en
@@ -349,11 +350,11 @@ const Nota15 = () => {
           por el disparo del gendarme pusieron en riesgo la vida de Pablo.
         </h4>
         <h4 className={styles.singularText}>
-          Finalmente, el lunes 2 de junio se anunció a través de esta misma
-          cuenta que Pablo sería dado de alta de la terapia intensiva del
-          Hospital Ramos Mejía, y trasladado al Hospital de Rehabilitación
-          Manuel Rocca. Allí se encuentra desde ese momento, en donde cursa una
-          rehabilitación y proceso de adaptación a las secuelas.
+          Finalmente, el lunes 2 de junio se anunció que Pablo sería dado de
+          alta de la terapia intensiva del Hospital Ramos Mejía, y trasladado al
+          Hospital de Rehabilitación Manuel Rocca. Allí se encuentra desde ese
+          momento, en donde cursa una rehabilitación y proceso de adaptación a
+          las secuelas.
         </h4>
         <h4 className={styles.singularText}>
           El Mapa de la Policía fue citado en la Justicia para mostrar el
@@ -393,6 +394,12 @@ const Nota15 = () => {
           la participación ciudadana, la organización popular y la resistencia
           al uso violento de las fuerzas de seguridad por parte del Estado.
         </h6>
+
+        <h4 className={styles.singularText}>
+          Esta reconstrucción se llevó a cabo con el material cedido, entre
+          otros colaboradores, por Indymedia, Kaloian Santos Cabrera, Javier
+          Aranciva, Enfoque Rojo Y La Izquierda Diario.
+        </h4>
 
         <iframe
           src="https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b0e2adfcf7ed412baf3e5012c60eac7a.pdf"
