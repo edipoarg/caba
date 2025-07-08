@@ -169,6 +169,13 @@ padding: 2vh 10vw;}
   padding-left: 0;
 }
 
+.podcast{
+  margin: auto;
+  border: none;
+  height: 160px;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
 
   .NotaContainer {
@@ -201,4 +208,8 @@ padding: 2vh 10vw;}
   .tituloInvestigacion {
     padding-top: 2vh;
   }
+  .podcast{
+
+  width: 48%;
+}
 }

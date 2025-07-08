@@ -119,10 +119,17 @@ const Nota15 = () => {
         <h4 className={styles.singularText}>
           {" "}
           Los resultados de la experiencia se publicaron en dos partes, una a
-          horas del hecho y otra a tan solo 4 días. Cuando se le consultó a la
-          ministra Patricia Bullrich sobre esto contestó: “Las reconstrucciones
-          que están haciendo no cumplen con los protocolos de las fuerzas de
-          seguridad y no tienen análisis rigurosos”.
+          horas del hecho y otra a tan solo 4 días.{" "}
+          <a
+            className={styles.link}
+            href="https://www.youtube.com/watch?v=B03Xs2SZyFM"
+          >
+            {" "}
+            Cuando se le consultó a la ministra Patricia Bullrich
+          </a>{" "}
+          sobre esto contestó: “Las reconstrucciones que están haciendo no
+          cumplen con los protocolos de las fuerzas de seguridad y no tienen
+          análisis rigurosos”.
         </h4>
 
         <h6 className={styles.span}>
@@ -263,10 +270,18 @@ const Nota15 = () => {
           –3 de Marzo a las 15.49–, donde se expusieron los primeros datos
           mencionados como la hora exacta, el tipo de proyectil, el lugar desde
           donde salió el disparo y el modo sistemático de mal uso de las armas
-          no letales. La segunda parte se publicó a cuatro días de la
-          manifestación, y consistía en la identificación exacta del tirador y
-          la cadena de mando a la que obedecía. Ambos videos elaborados por el
-          realizador audiovisual Alejo Fraile.
+          no letales.{" "}
+          <a
+            className={styles.link}
+            href="https://www.instagram.com/reel/DHTIC0nsMzW/?igsh=N2tqanFsN3NvYjl4"
+          >
+            {" "}
+            La segunda parte{" "}
+          </a>{" "}
+          se publicó a cuatro días de la manifestación, y consistía en la
+          identificación exacta del tirador y la cadena de mando a la que
+          obedecía. Ambos videos elaborados por el realizador audiovisual Alejo
+          Fraile.
         </h4>
         <h4 className={styles.singularText}>
           La estructura del Mapa que se construyó desde su creación fue clave en
@@ -352,12 +367,39 @@ const Nota15 = () => {
           “hecho fortuito”, producto de la mala visibilidad y de la imprudencia
           de la víctima por ubicarse &quot;en la línea de tiro&quot;.
         </h4>
+        <h4 className={styles.singularText}>
+          Podés escuchar más detalles de la reconstrucción en los talleres de
+          A.H.O.R.A. en el canal de Spotify del Mapa de la Policía:
+        </h4>
+
+        <iframe
+          className={styles.podcast}
+          src="https://open.spotify.com/embed/episode/5kTFYBBb2Vv6dBmhb98shX?utm_source=generator"
+          allowFullScreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        />
+
+        <iframe
+          className={styles.podcast}
+          src="https://open.spotify.com/embed/episode/5weoqfudRseBnVv4p9yNsU?utm_source=generator"
+          allowFullScreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        />
+
         <h6 className={styles.span}>
           El Mapa de la Policía fue citado en la Justicia para mostrar el
           material desmenuzado que se usó para las reconstrucciones, un hito en
           la participación ciudadana, la organización popular y la resistencia
           al uso violento de las fuerzas de seguridad por parte del Estado.
         </h6>
+
+        <iframe
+          src="https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b0e2adfcf7ed412baf3e5012c60eac7a.pdf"
+          width="100%"
+          height="800px"
+        ></iframe>
       </div>
     </>
   );
