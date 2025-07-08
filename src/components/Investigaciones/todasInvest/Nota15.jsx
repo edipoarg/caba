@@ -397,8 +397,8 @@ const Nota15 = () => {
 
         <h4 className={styles.singularText}>
           Esta reconstrucción se llevó a cabo con el material cedido, entre
-          otros colaboradores, por Indymedia, Kaloian Santos Cabrera, Javier
-          Aranciva, Enfoque Rojo Y La Izquierda Diario.
+          otros colaboradores, por Indymedia, Emmanuel Coria, Kaloian Santos
+          Cabrera, Javier Aranciva, Enfoque Rojo Y La Izquierda Diario.
         </h4>
 
         <iframe
