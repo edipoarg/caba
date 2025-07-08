@@ -106,7 +106,7 @@ const Nota15 = () => {
           investigación de ese episodio.
         </h4>
         <h4 className={styles.singularText}>
-          De esta experiencia participaron fotorreporteros, periodistas,
+          De esta experiencia participaron fotorreporteras/os, periodistas,
           videastas, peritos, diseñadores y numerosas personas que poseen
           diferentes saberes. Muchos de ellos nucleados en Mapa de la Policía y
           Archivo Histórico Orgánico de la Represión en Argentina (A.H.O.R.A.),
@@ -213,7 +213,7 @@ const Nota15 = () => {
           La geolocalización de los teléfonos celulares, la acústica de los
           disparos, la técnica de estadísticas, el análisis de paredes y
           pinturas, son algunas de las técnicas que se utilizaron en este
-          trabajo. Estas metodologías usaron en otras causas a lo largo de
+          trabajo. Estas metodologías se usaron en otras causas a lo largo de
           nuestra historia como la de Teresa Rodriguez (se hizo una
           reconstrucción acústica), lo sucedido en el puente Pueyrredón con
           Maximiliano Kosteki y Darío Santillán (reconstrucción acústica), la
@@ -267,7 +267,7 @@ const Nota15 = () => {
             {" "}
             a pocas horas del hecho{" "}
           </a>{" "}
-          –3 de Marzo a las 15.49–, donde se expusieron los primeros datos
+          -13 de Marzo a las 15.49-, donde se expusieron los primeros datos
           mencionados como la hora exacta, el tipo de proyectil, el lugar desde
           donde salió el disparo y el modo sistemático de mal uso de las armas
           no letales.{" "}
@@ -332,7 +332,7 @@ const Nota15 = () => {
           encefálica. Luego vinieron otras cinco intervenciones más, la mayoría
           de ellas para tratar una constante pérdida de líquido cefalorraquídeo
           producto del impacto y la fractura. Todo esto durante casi tres meses
-          de internación en la terapia intensiva de ese mismo Hospital.
+          de internación en terapia intensiva del Hospital Ramos Mejía.
         </h4>
         <h4 className={styles.singularText}>
           La familia del fotorreportero se presentó como querellante con la
@@ -345,9 +345,8 @@ const Nota15 = () => {
           catéter para subsanar la pérdida de líquido cefalorraquídeo, Pablo fue
           visitado por peritos y expertos del cuerpo médico forense que
           iniciaron un trabajo ordenado por la jueza a cargo de la causa, María
-          Servini de Cubría. La intención era constatar si las lesiones
-          ocasionadas por el disparo del gendarme pusieron en riesgo la vida de
-          Pablo.
+          Servini de Cubría. Este peritaje constató que las lesiones ocasionadas
+          por el disparo del gendarme pusieron en riesgo la vida de Pablo.
         </h4>
         <h4 className={styles.singularText}>
           Finalmente, el lunes 2 de junio se anunció a través de esta misma
