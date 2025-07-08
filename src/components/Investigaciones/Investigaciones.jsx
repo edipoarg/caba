@@ -5,13 +5,14 @@ import MapaBlur from "../MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
-const tituloNotaPrincipal = "Nadie sabe lo que un cuerpo puede";
-const fechaUltimoReporte = "16/12/2024";
+const tituloNotaPrincipal =
+  "El método Grillo: cómo reconstruir una verdad manipulada";
+const fechaUltimoReporte = "08/12/2024";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg";
-const fechaNotaPrincipal = "29/03/2024";
-const autorxsNotaPrincipal = "Facundo Cifelli";
-const ilusNotaPrincipal = "Panchopepe";
+  "https://static.wixstatic.com/media/0f4ca0_48a8974295c84e0e9bdb33ea96ed467d~mv2.jpg/v1/fill/w_1762,h_1084,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GRILLO%20x%20nicolas%20daniluk%20-%20WEB%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "09/07/2025";
+const autorxsNotaPrincipal = ["Facundo Cifelli y  Luz Conde "];
+const ilusNotaPrincipal = "Nicolás Daniluk";
 const numeroReporte = "Quinto";
 
 const Investigaciones = () => {
@@ -54,7 +55,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/nadie-sabe">
+            <Link to="/investigacion/metodo-pablo-grillo">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
