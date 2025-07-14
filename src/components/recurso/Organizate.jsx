@@ -12,7 +12,7 @@ const Organizate = () => {
           </h4>
         </div>
         <div className={styles.logosBox}>
-          <h4 className={styles.logos}>logos</h4>
+          <h4 className={styles.logos}></h4>
         </div>
       </section>
     </>
