@@ -12,7 +12,6 @@ const recursosItems = [
   { path: "detencion", icon: "detencion", nombre: "Ante Detención" },
   { path: "guia", icon: "guia", nombre: "Guía Básica" },
   { path: "genero", icon: "genero", nombre: "Recursos de Género" },
-  { path: "ambulantes", icon: "ambulantes", nombre: "Recursos Ambulantes" },
   { path: "migrantes", icon: "migrantes", nombre: "Recursos para Migrantes" },
   { path: "filmar", icon: "filmar", nombre: "Cómo Filmar" },
 ];
