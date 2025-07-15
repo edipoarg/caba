@@ -141,6 +141,14 @@ p {
   text-decoration: underline;
 }
 
+.autorx:hover {
+  color: rgb(185, 123, 243);
+}
+
+.ilus:hover {
+  color: rgb(185, 123, 243);
+}
+
 .autorxContainer {
   display: grid;
   grid-template-columns: 1fr 4fr;

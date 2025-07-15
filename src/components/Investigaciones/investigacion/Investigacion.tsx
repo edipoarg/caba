@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
 import Nota01 from "../todasInvest/Nota01";
 import Nota02 from "../todasInvest/Nota02";
@@ -22,18 +22,21 @@ interface InvestigacionModel {
   dominio: string;
   imagen: string;
   titulo: string;
-  autorxs: string;
-  ilus: string;
+  autorxs: string[];
+  ilus: string[];
   fecha: string;
   textoBajada: string;
   tipoInvestigacion: string;
 }
 
-type ComponentesNotas = {
-  [key: string]: React.FC<unknown>;
+type Autorx = {
+  nombre: string;
+  imagen: string;
+  info: string;
+  enlaceVer: string;
 };
 
-const componentesNotas: ComponentesNotas = {
+const componentesNotas: { [key: string]: React.FC<unknown> } = {
   "breve-historia": Nota01,
   "gatillo-38-casos": Nota02,
   "tu-cara-me-suena": Nota03,
@@ -56,41 +59,56 @@ const Investigacion = () => {
   const [investigacion, setInvestigacion] = useState<
     InvestigacionModel | null | "loading"
   >("loading");
+  const [autorxsData, setAutorxsData] = useState<
+    Autorx[] | "loading" | "error"
+  >("loading");
 
   useEffect(() => {
     if (!dominio) {
-      setInvestigacion(null); // Redirigir o manejar la ausencia de dominio
+      setInvestigacion(null);
       return;
     }
-
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`/data/investigaciones.json`);
-        const data: InvestigacionModel[] = await response.json();
-        const investigacionSeleccionada = data.find(
-          (item) => item.dominio === dominio,
-        );
-
-        if (investigacionSeleccionada) {
-          setInvestigacion(investigacionSeleccionada);
-        } else {
-          setInvestigacion(null);
-        }
-      } catch (error) {
-        console.error("Error al cargar datos:", error);
-        setInvestigacion(null);
-      }
-    };
-
-    fetchData();
+    fetch("/data/investigaciones.json")
+      .then((res) => res.json())
+      .then((data: InvestigacionModel[]) => {
+        const encontrada = data.find((item) => item.dominio === dominio);
+        setInvestigacion(encontrada || null);
+      })
+      .catch(() => setInvestigacion(null));
   }, [dominio]);
 
-  if (investigacion === null) {
-    return <p>Error al obtener la investigación</p>;
-  }
-  if (investigacion === "loading") return <p>Cargando...</p>;
+  useEffect(() => {
+    fetch("/data/autorxs.json")
+      .then((r) => r.json())
+      .then(setAutorxsData)
+      .catch(() => setAutorxsData("error"));
+  }, []);
 
-  // Verifica si dominio es una clave en componentesNotas
+  if (investigacion === "loading" || autorxsData === "loading")
+    return <p>Cargando...</p>;
+  if (investigacion === null) return <p>Error al obtener la investigación</p>;
+  if (autorxsData === "error") return <p>Error cargando autorxs.</p>;
+
+  const getAutorxByEnlaceVer = (enlaceVer: string) =>
+    (autorxsData as Autorx[]).find((a) => a.enlaceVer === enlaceVer);
+
+  const NombreLink = ({ enlaceVer }: { enlaceVer: string }) => {
+    const autorx = getAutorxByEnlaceVer(enlaceVer);
+    if (!autorx) return <span>{enlaceVer}</span>;
+    return (
+      <Link to={autorx.enlaceVer} className={styles.autorxLink}>
+        {autorx.nombre}
+      </Link>
+    );
+  };
+
+  const autorxs = Array.isArray(investigacion.autorxs)
+    ? investigacion.autorxs
+    : [investigacion.autorxs];
+  const ilustradorxs = Array.isArray(investigacion.ilus)
+    ? investigacion.ilus
+    : [investigacion.ilus];
+
   const ComponenteNota = dominio ? componentesNotas[dominio] || null : null;
 
   return (
@@ -107,8 +125,22 @@ const Investigacion = () => {
             <h1 className={styles.title}>{investigacion.titulo}</h1>
             <section className={styles.more}>
               <section className={styles.autorxs}>
-                <h4 className={styles.autor}>{investigacion.autorxs}</h4>
-                <h4 className={styles.autor}>{investigacion.ilus}</h4>
+                <h4 className={styles.autor}>
+                  {autorxs.map((enlaceVer, idx) => (
+                    <span key={enlaceVer}>
+                      <NombreLink enlaceVer={enlaceVer} />
+                      {idx < autorxs.length - 1 && ", "}
+                    </span>
+                  ))}
+                </h4>
+                <h4 className={styles.autor}>
+                  {ilustradorxs.map((enlaceVer, idx) => (
+                    <span key={enlaceVer}>
+                      <NombreLink enlaceVer={enlaceVer} />
+                      {idx < ilustradorxs.length - 1 && ", "}
+                    </span>
+                  ))}
+                </h4>
               </section>
               <h4 className={styles.date}>{investigacion.fecha}</h4>
             </section>
