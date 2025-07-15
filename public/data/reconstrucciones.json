@@ -1,0 +1,24 @@
+{
+  "reconstrucciones": [
+    {
+      "id": 1,
+      "titulo": "Reconstrucción caso Facundo Molares",
+      "descripcion": "Análisis minucioso del accionar policial y judicial en la muerte de Facundo Molares, ocurrida durante una represión a la protesta en CABA, 2023."
+    },
+    {
+      "id": 2,
+      "titulo": "Reconstrucción caso Fabrizia Pegoraro",
+      "descripcion": "Reconstrucción colectiva del operativo policial donde resultó herida con gas pimienta Fabrizia Pegoraro, una niña de 10 años."
+    },
+    {
+      "id": 3,
+      "titulo": "Reconstrucción caso Pablo Grillo",
+      "descripcion": "Investigación sobre la represión a trabajadores despedidos en Puente Pueyrredón y la detención ilegal de Pablo Grillo."
+    },
+     {
+      "id": 3,
+      "titulo": "Reconstrucción skate-park",
+      "descripcion": "Reconstrucción sobre los hechos sucedidos en el skatepark de Mataderos."
+    }
+  ]
+}

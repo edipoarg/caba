@@ -1,0 +1,104 @@
+{
+  "reportes": [
+    {
+      "id": 1,
+      "titulo": "Primer reporte de Violencia Policial del Mapa de la Policía",
+      "fecha": "12 de septiembre de 2022",
+      "cantidadCasosRelevados": 48,
+      "casosSingulares": [
+        {
+          "titulo": "Caso 1: Policía golpea a un ciudadano en taxi",
+          "descripcion": "El 27 de julio, una persona viajaba en taxi y filmó a un policía golpeando a un ciudadano en el centro de la ciudad. El video fue difundido, se contactaron con el Ministerio Público de la Defensa, que ya había iniciado una causa penal contra el agresor. El Ministerio de Seguridad intervino y pasó a disponibilidad al oficial involucrado."
+        },
+        {
+          "titulo": "Caso 2: Policía dispara arma en el Hospital Borda",
+          "descripcion": "El 14 de agosto, un policía disparó su arma dentro del Servicio 2 del Hospital Borda tras un altercado con un paciente. El hecho fue denunciado en redes sociales por un sindicato pero no tuvo eco en medios ni se conocieron datos del agente implicado."
+        }
+      ],
+      "casoSistematico": {
+        "titulo": "El hostigamiento policial a las trabajadoras sexuales de Constitución",
+        "bajada": "Desde que lanzamos la herramienta se registraron y verificaron 11 hechos de hostigamiento policial a trabajadoras sexuales en el barrio de Constitución. El número de víctimas es mayor ya que en algunos casos las trabajadoras se encontraban en grupos cuya cantidad de integrantes no fue especificada.", 
+        "aclaraciones": "Para entender por qué consideramos una práctica sistemática de violencia policial a la siguiente sucesión de hechos hay que tener en cuenta que en la Argentina la prostitución no es un delito. Esta figura sí aparece mencionada en el Código Contravencional y de Faltas de la Ciudad de Buenos Aires, que aun así no penaliza la prostitución como tal sino su  ostensibilidad, término particularmente ambiguo y difuso que habilita un amplio margen de arbitrariedad para que sea la policía quien define si hay o no una falta, condicionando así la posterior interpretación judicial. A pesar de no contar con un marco normativo respaldatorio, la Policía de la Ciudad insiste en hostigar a mujeres cis, trans y migrantes en ejercicio del trabajo sexual o por “sospechar” que podrían llegar a ejercerlo.",
+        "cuerpo": "De los 11 hechos registrados: 10 resultaron en detenciones arbitrarias, uno de los cuales incluyó la acusación falsa de un robo de teléfono celular. 2 terminaron con la expulsión del espacio público obligando a las trabajadoras a retirarse de la calle como si se tratara de un lugar con derecho de admisión. 8 incluyeron requisas en el espacio público y en uno de ellos la violencia escaló al punto de obligar a la trabajadora a desvestirse en plena calle. 1 caso de multa por el art. 96 del Código de Faltas (ostentabilidad de la prostitución). 1 vez la policía le quitó el dinero que llevaba consigo, conducta que lisa y llanamente constituye un robo. 8 fueron la cantidad de mujeres trans hostigadas por la Policía de la Ciudad que hemos relevado. Sin embargo, este número se eleva ya que una de las denuncias refiere a un grupo de mujeres trans, cuya cantidad de integrantes no fue especificada. 11 Hostigamiento / 10 Detención / 8 Requisa ilegal / 2 Expulsión del espacio público / 1 Robo / 1 Multa / 1 Vejaciones ",
+        "resaltado": "La totalidad de las denuncias recibidas se ubican en el barrio Constitución y especialmente en las intersecciones de Salta y Pavón (7), Salta al 1400 (2), Santiago del Estero y Av. Garay (2). El cuadrante donde ocurren los hechos se limita a seis manzanas lindantes a la Plaza Constitución. Una zona que está bajo el radio de influencia de la Comisaría Vecinal 1C, ex #18, ubicada en Av. San Juan 1727. Se trata de una Comisaría con graves antecedentes en relacion con el pedido de coimas y la violencia contra personas que trabajan en la calle, lo cual da cuenta de un comportamiento institucional sostenido. Para muestra bastan dos botones: - El 27 de agosto de 2020 la Justicia allanó directamente la Comisaría y detuvo a toda la plana mayor por pedir coimas a motoqueros para permitirles trabajar y evitar el secuestro de sus vehículos, según cuenta el portal Nueva Ciudad en este artículo. - El 21 de junio de 2022, el Tribunal Oral en lo Criminal 16 condenó a la policía Flavia Beatriz Juárez a prisión perpetua por el homicidio del recolector de residuos Pablo Ricardi Pereyra acontecido el 31 de diciembre de 2020, como detalla esta nota del diario Página 12. En una causa penal distinta se investiga por encubrimiento al personal de la seccional 1C // El momento del día en que ocurren más hechos de hostigamiento (6) es la franja horaria de 12 a 19 horas, lo cual responde a la exposición de la actividad en un horario de alto tránsito de personas en las inmediaciones. Como afirmó Georgina Orellano, secretaria general de la Asociación de Mujeres Meretrices de Argentina (AMMAR)",
+        "notas": "esas son las zonas donde se despliegan con más frecuencia estos operativos violentos. La mayoría de las víctimas no solo trabajan, sino que viven en esos barrios y sufren constantemente atropellos por ser, además de trabajadoras sexuales, migrantes. Son paraguayas, ecuatorianas, peruanas, que denunciaron violencia verbal y física por parte de los policías, lo que refleja la mirada racista y transfóbica que todavía está enquistada en las fuerzas de seguridad"
+      },
+      "casoPolitico": {
+        "titulo": "La reacción antidemocrática del Gobierno de la Ciudad y de un sector del Poder Judicial",
+        "bajada": "El 26 de julio de 2022 la fiscal Celsa Ramírez solicitó “la clausura/bloqueo preventivo de la página web www.mapadelapolicia.com”, en el marco de un proceso penal contra la legisladora Ofelia Fernández iniciado por la militante del oficialismo porteño María Florencia Arietto. El intento de censura del Mapa y de criminalización de una de sus impulsoras resultaba a todas luces insustancial desde el punto de vista jurídico, pero explicitó la animadversión con que el Gobierno de la Ciudad reaccionó ante la iniciativa ciudadana, luego de que el ministro de Seguridad Marcelo D'Alessandro la criticara duramente en los medios de comunicación por considerarla “persecutoria”",
+        "aclaraciones": "El diseño y la construcción del Mapa de la Policía llevó varios meses de trabajo, pero finalmente se publicó en un momento en particular sensible de la realidad nacional. De un lado, por la agudización de la crisis social y económica que sacude al país; de otra parte, por la mutación e intensificación del conflicto político que se tornó evidente con el intento de magnicidio de la vicepresidenta de la Nación, Cristina Fernández de Kirchner, el jueves 1 de septiembre. En ese marco dos intervenciones del Gobierno de la Ciudad de Buenos Aires llamaron nuestra atención por su marcada naturaleza antidemocrática, que se proyecta sobre la Policía de la Ciudad por ser el brazo ejecutor de su política de seguridad.",
+        "cuerpo": "La ofensiva articulada entre una abogada-militante de alto perfil partidario, un importante funcionario del Poder Ejecutivo y una fiscal de estrechas vinculaciones con el oficialismo, puso de manifiesto el desprecio por las mejores prácticas republicanas, en contradicción con el relato institucional del partido gobernante. El 18 de agosto último, el juez de primera instancia en lo Penal, Contravencional y de Faltas de la Ciudad, Pablo Casas, dictó un fallo ejemplar donde “no hace lugar a bloqueo de página web por inexistencia de delito”. Y termina con la siguiente frase: “En conclusión, en la medida que el sitio web Mapa de la Policía tiende a la defensa y promoción de derechos individuales, como de otros bienes jurídicos supraindividuales vinculados con el regular funcionamiento de la administración pública y la legalidad de los actos de las personas encargadas de ejercer la función pública, mal podría implicar al mismo tiempo la comisión de un delito contra los aludidos bienes jurídicos. Deviene entonces improcedente la medida cautelar pretendida por la parte, lo que impone su rechazo”. Recomendamos la lectura de la interesante resolución judicial",
+        "resaltado": "El 27 de agosto de 2022 el Gobierno de la Ciudad decidió interrumpir con vallas policiales el acceso al departamento de la Vicepresidenta de la Nación, Cristina Fernández de Kirchner. El objetivo era impedir el arribo de sus seguidores, que habían decidido apoyarla luego de que un grupo de manifestantes anti kirchneristas se reunieran frente a la casa de la ex presidenta para festejar el pedido de cárcel formulado por el fiscal federal Diego Luciani.La torpe medida del Ministerio de Seguridad porteño elevó los niveles de tensión política a una escala inédita. En lugar de dispersar a les militantes, el efecto fue una multiplicación de la concurrencia que sumó a figuras claves del oficialismo nacional, entre otros los ministros Gabriel Katopodis y Daniel Filmus, el gobernador de la Provincia de Buenos Aires Axel Kicillof y varios diputados nacionales (Natalia Zaracho, Itai Hagman, Federico Fagioli, Victoria Tolosa Paz). Como dijo un atónito efectivo policial cuando reportaba a sus superiores, todos ellos se convirtieron en “unos manifestantes más”.Cerca de las 18 horas y luego de varios intentos fallidos de negociación, les manifestantes arrasaron con las vallas y perforaron las líneas policiales, hasta posicionarse frente al edificio donde vive Cristina Fernández, lo que dejó en ridículo la operación montada por el Gobierno de la Ciudad, que lejos de una autocrítica decidió subir la apuesta en el plano discursivo. DOS DETALLES VINCULADOS. AL OPERATIVO DE SEGURIDAD NO PASARON DESAPERCIBIDOS",
+        "notas": "En el preciso momento en que las vallas fueron desmontadas por la multitud, los efectivos policiales quedaron atrapados y expuestos a una posible represalia por parte de les manifestantes, que sin embargo se comportaron de manera pacífica. Como consecuencia de uno de los forcejeos entre quienes protestaban y los agentes policiales, la cartuchera de municiones que portaba el efectivo cayó al piso y fue recogida por una persona que estaba en el lugar. Al entregarlo en la sede de la Agencia Nacional de Materiales Controlados (ANMAC) se determinó el contenido: dos cargadores calibre 9 MM Parabellum con 32 municiones letales.Esto último está expresamente prohibido por el artículo 99 de la Ley de Seguridad de la Ciudad de Buenos Aires, que reza: “No está autorizado a la portación de armas de fuego y municiones de poder letal el personal policial que por su función en el operativo esté destinado a entrar en contacto físico directo con los manifestantes”. La explicación del ministro D'Alessandro es que se trató de un descuido personal del agente.Cinco días después de este lamentable operativo, un militante de extrema derecha intentó disparar contra la Vicepresidenta de la Nación y estuvo a punto de cometer un magnicidio que hubiera abierto una ventana a lo desconocido en la historia argentina."
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Segundo reporte de Violencia Policial del Mapa de la Policía",
+      "fecha": "23 de febrero de 2023",
+      "cantidadCasosRelevados": 61,
+      "casosSingulares": [],
+      "casoSistematico": {
+        "titulo": "Las muertes causadas por la policía de la Ciudad en el Conurbano Bonaerense.",
+        "bajada": "La base de datos del Centro de Estudios Legales y Sociales (CELS) registra que, desde su puesta en funcionamiento en enero de 2017 y hasta el 30 de noviembre de 2022, la Policía de la Ciudad mató en diferentes circunstancias a 136 personas.",
+        "aclaraciones": "La Policía de la Ciudad despliega sus más de 20 mil efectivos en la Ciudad Autónoma de Buenos Aires. Sin embargo, la gran mayoría de las muertes provocadas por policías porteños no ocurren en la Capital Federal, sino en el Conurbano.",
+        "cuerpo": "De estos casos, 40 ocurrieron en la CABA mientras que 96 tuvieron lugar en el Conurbano. Es decir, más del 70% de las intervenciones letales de la Policía de la Ciudad no ocurrieron en la jurisdicción donde desempeña sus tareas, sino en el cinturón de barrios populares que la rodea. La evolución anual de los hechos muestra que esta tendencia constituye un patrón heredado de la Policía Federal. Pero también se observa que en los últimos años esa distribución desigual de las muertes se ha acentuado. Y en los dos últimos años prácticamente 9 de cada 10 casos ocurrieron en el Conurbano. Entre enero y noviembre de 2022, por ejemplo, murieron al menos 15 particulares en hechos de violencia con participación de agentes de la Policía de la Ciudad. En el 80% de esos casos los funcionarios policiales se encontraban “fuera de servicio”. Y el 87% sucedió en el Conurbano Bonaerense, por lo que únicamente el 13% restante tuvo lugar en CABA. 17 La Matanza / 11 Avellaneda / 11 Lomas de Zamora / 9 Almirante Brown / 9 Merlo / 6 Quilmes / 6 Lanus / 4 José C. Paz / 4 E. Echeverria / 3 Hurlingam / 3 San Martín / 2 Morón / 2 F. Varela / 2 Berazategui / 2 Tigre / 1 Ituzaingó / 1 San Isidro / 1 Moreno / 1 Marcos Paz / 1 Vicente Lopez",
+        "resaltado": "La gran mayoría de las intervenciones letales por parte de los policías porteños en el Conurbano se registran como “intentos de robo a efectivos policiales sin uniforme”, a los que responden haciendo uso de su arma. El 80,3 % de los casos registrados (80 sobre 96) responde a este patrón. Muchas veces se trata del intento de robarle el auto o moto particular del agente. En este tipo de escenas la tramitación judicial suele beneficiar a los policías porque se trataría de situaciones de legítima defensa, salvo en ocasiones muy específicas en las que se puede verificar que la persona muerta no llevaba armas. En tres casos, los policías de franco que mataron al supuesto asaltante estaban trabajando como choferes de Uber al ocurrir el hecho. También se observan intervenciones de policías fuera de servicio para intentar conjurar un delito en curso que no los tiene como víctimas (7 casos - 7,3% del total); situaciones de uso del arma para resolver conflictos personales (7 casos - 7,3% del total, entre los que se destacan dos femicidios); y dos asesinatos por error (un policía confundió a su hermano con un ladrón y lo mató) o uso irracional de la fuerza (un transeúnte muerto por un policía fuera de servicio al quedar en medio de sus disparos).",
+        "notas": "El “estado policial” es la situación jurídica que permite a efectivos de diferentes fuerzas policiales y de seguridad portar armas fuera del horario de servicio. Y es una de las herencias más polémicas del modelo policial militarizado, por lo que su eliminación permitiría a las y los policías percibirse como trabajadores antes que como soldados. En los últimos años se produjeron algunos avances: la portación del arma las 24 horas era una obligación hasta hace pocas décadas, pero con la democracia se aprobaron leyes en algunas jurisdicciones que transformaron esa “obligación” en un “derecho”. Es decir, se deja librada a la decisión individual la portación o no del arma, aunque en la práctica casi todos los policías se siguen llevando el armamento a casa. La excepción es la Policía de Seguridad Aeroportuaria, que obliga a sus efectivos entregar el arma al terminar la jornada laboral. La particularidad en el caso de la Policía de la Ciudad es la exportación de la violencia letal. Como la inmensa mayoría de los integrantes de esta fuerza viven en el Conurbano, la habilitación a portar armamento fuera de servicio implica la existencia de miles de armas listas para ser disparadas todos los días en el territorio de la Provincia. Al mismo tiempo, esta violencia está invisibilizada: como no son acciones que tengan lugar durante el servicio policial, el Gobierno porteño se desentiende del problema remitiéndolo a la esfera privada de los funcionarios, eludiendo las responsabilidades institucionales por sus consecuencias."
+      },
+      "casoPolitico": {
+        "titulo": "El escándalo del ministro de Seguridad porteño Marcelo D´Alessandro.",
+        "cuerpo": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Tercer reporte de Violencia Policial del Mapa de la Policía",
+      "fecha": "07/2023",
+      "cantidadCasosRelevados": null,
+      "geolocalizacion": "",
+      "casosSingulares": [],
+      "casoSistematico": {
+        "titulo": "La pesadilla de los detenidos en Alcaldías y Comisarías porteñas.",
+        "cuerpo": ""
+      },
+      "casoPolitico": {
+        "titulo": "La sobre-actuación represiva del Jefe de Gobierno coincidió con su peor resultado electoral.",
+        "cuerpo": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Cuarto reporte de Violencia Policial del Mapa de la Policía",
+      "fecha": "8 de mayo de 2024",
+      "cantidadCasosRelevados": null,
+      "geolocalizacion": "",
+      "casosSingulares": [],
+      "casoSistematico": {
+        "titulo": "La represión a la protesta del nuevo gobierno de ultraderecha",
+        "cuerpo": ""
+      },
+      "casoPolitico": {
+        "titulo": "Autoboicot penitenciario",
+        "cuerpo": "Propuestas contrapopuestas de (in)seguridad"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Quinto reporte de Violencia Policial del Mapa de la Policía",
+      "fecha": "16/12/2024",
+      "cantidadCasosRelevados": null,
+      "geolocalizacion": "",
+      "pdf": "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b842b32fa4c4452498e07a1d8b6da1bf.pdf",
+      "casosSingulares": [],
+      "casoSistematico": {
+        "titulo": "El regreso de las razzias",
+        "cuerpo": ""
+      },
+      "casoPolitico": {
+        "titulo": "El oxímoron de las armas menos letales",
+        "cuerpo": ""
+      }
+    }
+  ]
+}

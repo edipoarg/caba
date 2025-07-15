@@ -1,0 +1,11 @@
+{
+  "informes": [
+    {
+      "id": 1,
+      "titulo": "Informe Judicial: Pablo Grillo",
+      "bajada": "Análisis exhaustivo del proceso judicial de Pablo Grillo, destacando irregularidades y el impacto en los derechos humanos.",
+      "fecha": "Septiembre 2023",
+      "linkPDF": "https://example.com/ruta-a-pdf-pablo-grillo.pdf"
+    }
+  ]
+}
