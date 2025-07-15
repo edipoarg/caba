@@ -131,7 +131,6 @@ const Nota15 = () => {
           cumplen con los protocolos de las fuerzas de seguridad y no tienen
           análisis rigurosos”.
         </h4>
-
         <h6 className={styles.span}>
           Ni bien se conoció la existencia de un herido grave producto del
           impacto en la cabeza de un proyectil disparado por las fuerzas de
@@ -371,7 +370,6 @@ const Nota15 = () => {
           Podés escuchar más detalles de la reconstrucción en los talleres de
           A.H.O.R.A. en el canal de Spotify del Mapa de la Policía:
         </h4>
-
         <iframe
           className={styles.podcast}
           src="https://open.spotify.com/embed/episode/5kTFYBBb2Vv6dBmhb98shX?utm_source=generator"
@@ -379,7 +377,6 @@ const Nota15 = () => {
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         />
-
         <iframe
           className={styles.podcast}
           src="https://open.spotify.com/embed/episode/5weoqfudRseBnVv4p9yNsU?utm_source=generator"
@@ -387,18 +384,26 @@ const Nota15 = () => {
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         />
-
         <h6 className={styles.span}>
           El Mapa de la Policía fue citado en la Justicia para mostrar el
           material desmenuzado que se usó para las reconstrucciones, un hito en
           la participación ciudadana, la organización popular y la resistencia
           al uso violento de las fuerzas de seguridad por parte del Estado.
         </h6>
-
         <h4 className={styles.singularText}>
           Esta reconstrucción se llevó a cabo con el material cedido, entre
           otros colaboradores, por Indymedia, Emmanuel Coria, Kaloian Santos
           Cabrera, Javier Aranciva, Enfoque Rojo Y La Izquierda Diario.
+        </h4>
+        <h4 className={styles.singularText}>
+          PDF del informe{" "}
+          <a
+            className={styles.link}
+            href="https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b0e2adfcf7ed412baf3e5012c60eac7a.pdf"
+          >
+            {" "}
+            aqui
+          </a>{" "}
         </h4>
 
         <iframe
