@@ -1,53 +1,53 @@
 {
-    "posts": [
-      {
-        "title": "FISCALÍAS DE VIOLENCIA DE GÉNERO",
-        "subtitle": "Reciben denuncias:",
-        "Teléfono": " Las 24hs llamando al 0800-333-47225",
-        "Email": "violenciadegenero@jursoc.unlp.edu.ar",
-        "content": "Por teléfono, por la web o te podés dirigir directamente a las fiscalías especializadas en violencia de género. Encontralas en: https://www.mpf.gob.ar/ufem",
-        "link": " https://denuncias.fiscalias.gob.ar/"
-      },
-      {
-        "title": "OFICINA DE VIOLENCIA DOMÉSTICA",
-        "Dirección": "Lavalle 1250 (CABA)",
-        "content": "Atención las 24hs",
-        "link": "https://www.ovd.gov.ar/ovd/"
-      },
-      {
-        "title": "Línea 137",
-        "subtitle": "para llamadas telefónicas",
-        "Teléfono": "137",
-        "content": "Brinda atención a víctimas de violencia familiar y sexual. Podes llamar para que te acompañen a radicar la denuncia en cualquiera de estos espacios, para que cuentes con contención y no estés sola. Con la denuncia podés solicitar medidas de protección tales como una restricción perimetral, botón antipánico, exclusión del hogar, entre otras.",
-        "link": "https://www.argentina.gob.ar/tema/violenciayabuso"
-      },
-      {
-        "title": "Línea 144",
-        "subtitle": "para llamadas telefónicas",
-        "Teléfono": "Comunicate gratis las 24hs a la línea 144.",
-        "content": "Para recibir asesoramiento y consultar por oficinas receptoras de denuncias en otros lugares del país.",
-        "WhatsApp": "1127716463"
-      },
-      {
-        "title": "CENTRO DE JUSTICIA DE LA MUJER Y LGBTIQ+",
-        "Teléfono": "0800-999-68537",
-        "content": "Centros de Atención: La Boca: Av. Pedro de Mendoza 2689 / Microcentro: Av de Mayo 654  / Atención: De lunes a viernes de 9 a 18 hs",
-        "link": "https://cjmujer.gob.ar/",
-        "Email": "cjm@jusbaires.gob.ar"
-      },
-      {
-        "title": "MINISTERIO PÚBLICO DE LA DEFENSA",
-        "link": "https://www.mpd.gov.ar/index.php/violencia-de-genero"
-      },
-      {"title":"FISCALÍAS DE GÉNERO CABA",
-      "link":"https://mpfciudad.gob.ar/tematicas/2020-03-09-21-42-38-violencia-de-genero",
+  "posts": [
+    {
+      "title": "FISCALÍAS DE VIOLENCIA DE GÉNERO",
+      "subtitle": "Reciben denuncias:",
+      "Teléfono": "Las 24hs llamando al 0800-333-47225",
+      "Email": "violenciadegenero@jursoc.unlp.edu.ar",
+      "content": "Por teléfono, por la web o te podés dirigir directamente a las fiscalías especializadas en violencia de género. Encontralas en: https://www.mpf.gob.ar/ufem",
+      "link": "https://denuncias.fiscalias.gob.ar/"
+    },
+    {
+      "title": "OFICINA DE VIOLENCIA DOMÉSTICA",
+      "Dirección": "Lavalle 1250 (CABA)",
+      "content": "Atención las 24hs",
+      "link": "https://www.ovd.gov.ar/ovd/"
+    },
+    {
+      "title": "Línea 137",
+      "subtitle": "para llamadas telefónicas",
+      "Teléfono": "137",
+      "content": "Brinda atención a víctimas de violencia familiar y sexual. Podes llamar para que te acompañen a radicar la denuncia en cualquiera de estos espacios, para que cuentes con contención y no estés sola. Con la denuncia podés solicitar medidas de protección tales como una restricción perimetral, botón antipánico, exclusión del hogar, entre otras.",
+      "link": "https://www.argentina.gob.ar/tema/violenciayabuso"
+    },
+    {
+      "title": "Línea 144",
+      "subtitle": "para llamadas telefónicas",
+      "Teléfono": "Comunicate gratis las 24hs a la línea 144.",
+      "content": "Para recibir asesoramiento y consultar por oficinas receptoras de denuncias en otros lugares del país.",
+      "WhatsApp": "1127716463"
+    },
+    {
+      "title": "CENTRO DE JUSTICIA DE LA MUJER Y LGBTIQ+",
+      "Teléfono": "0800-999-68537",
+      "Email": "cjm@jusbaires.gob.ar",
+      "content": "Centros de Atención: La Boca: Av. Pedro de Mendoza 2689 / Microcentro: Av de Mayo 654  / Atención: De lunes a viernes de 9 a 18 hs",
+      "link": "https://cjmujer.gob.ar/"
+    },
+    {
+      "title": "MINISTERIO PÚBLICO DE LA DEFENSA",
+      "link": "https://www.mpd.gov.ar/index.php/violencia-de-genero"
+    },
+    {
+      "title": "FISCALÍAS DE GÉNERO CABA",
+      "link": "https://mpfciudad.gob.ar/tematicas/2020-03-09-21-42-38-violencia-de-genero",
       "Email": "denuncias@fiscalias.gob.ar",
-      "content":"Cuenta con equipos especializados de violencia de género CABA / Denuncia presencial de lunes a viernes de 9 a 20hs."
+      "content": "Cuenta con equipos especializados de violencia de género CABA / Denuncia presencial de lunes a viernes de 9 a 20hs."
     },
     {
       "title": "ESPACIOS DE CERCANÍA",
       "content": "Podés buscar asistencia y espacios de denuncia cercanos a tu domicilio en: https://www.argentina.gob.ar/tema/violenciayabuso"
     }
-    ]
-  }
-  
+  ]
+}

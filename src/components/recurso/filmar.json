@@ -1,21 +1,20 @@
 {
-    "posts": [
-      {
-        "title": "NO HAY NINGUNA LEY QUE PROHÍBA FILMAR",
-        "content": "No hay ninguna ley que prohíba filmar a la policía siempre y cuando no se obstaculice su accionar. En tanto funcionarios del Estado, todos los actos de la policía son de carácter público, así como todos los hechos que ocurren en el espacio público.\n\nFilmar es un derecho a controlar el desempeño de un funcionario público. Sacar fotos y/o filmar son derechos propios de la libertad de expresión que reconocen y protegen la Constitución Nacional (Art. 14, 32 y ss) y los tratados de derechos humanos (por ejemplo, Art. 13 y 14 CADH).\n\nLas fuerzas de seguridad que censuran una filmación cometen un acto ilegal e incumplen sus funciones. Filmar el accionar policial forma parte de nuestro derecho a que los funcionarios de las fuerzas de seguridad se presenten con sus debidas identificaciones, expliquen las razones por cuales llevan adelante determinado operativo y qué organismo judicial lo ordenaron.\n\n(Fuente: LID)."
-      },
-      {
-        "title": "PERO PRIMERO EL AUTOCUIDADO",
-        "content": "Aunque como dijimos no hay impedimentos legales para filmar un operativo policial, antes que nada es importante evaluar la seguridad:\n\n- ¿Grabar te pone a vos (o a otrxs) en un mayor riesgo?\n- ¿Viola la privacidad o dignidad de otrxs?\n- ¿El ángulo del que grabas podría revelar dónde estás ubicadx?\n\nUna recomendación para proteger a quienes están siendo víctimas de abusos policiales es NO registrar sus rostros o marcas que lxs identifiquen, como por ejemplo tatuajes.\n\nIntenta que otras personas lo sepan de inmediato que estás grabando, dónde estás y qué está pasando*."
-      },
-      {
-        "title": "TIPS PARA MEJORAR EL VALOR DE LA PRUEBA DE FOTO O VIDEO",
-        "content": "Fijar fecha, hora y ubicación de GPS correctas en el dispositivo.\n\nUsar el micrófono y/o documentación escrita para registrar:\n- fecha, hora y lugar\n- quién está filmando\n- a quién se está filmando\n- otras personas con información\n\nEn la medida de lo posible filmá sin interrupción (o grabaciones de mínimo 10”), hace varias tomas distintas y mantené la cámara lo más estable posible (mejor si está apoyada sobre alguna superficie). \n\nSi es posible acercate para registrar la identificación del agente o del vehículo que utiliza (placa, rango, patente del móvil, etc). *Esta información es clave para cualquier tipo de registro, no solo audiovisual. Es importante tomar nota o mandar los datos por mensaje para que queden asegurados. \n\nProtege el archivo realizando copias de respaldo o enviándolo a personas de tu confianza."
-      },
-      {
-        "title": "¿LO COMPARTO EN REDES SOCIALES?",
-        "content": "Esto depende de varios factores. En principio hay que preguntarse si al publicarlo pones en riesgo tu integridad o la de las personas que aparecen en el video, por ejemplo, facilitando la persecución policial/judicial de dichas personas. \n\nSi crees que son riesgos posibles, podes recurrir a algunas estrategias para garantizar tu anonimato. Podes pasarle el video a periodistas o abogadxs de confianza para que ellxs lo difundan y, para preservar la identidad de quienes son filmadxs, podés desenfocar sus rostros, borrar metadatos, entre otras.\n\nMás allá de estas consideraciones, tené en cuenta que la transmisión en vivo a través de alguna plataforma de redes sociales garantiza el almacenamiento automático en línea.\n\nCompartimos una serie de guías elaboradas por Witness con información útil  ante diversas situaciones: es.witness.org/recursos/"
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "title": "NO HAY NINGUNA LEY QUE PROHÍBA FILMAR",
+      "content": "No hay ninguna ley que prohíba filmar a la policía siempre y cuando no se obstaculice su accionar. En tanto funcionarios del Estado, todos los actos de la policía son de carácter público, así como todos los hechos que ocurren en el espacio público.\n\nFilmar es un derecho a controlar el desempeño de un funcionario público. Sacar fotos y/o filmar son derechos propios de la libertad de expresión que reconocen y protegen la Constitución Nacional (Art. 14, 32 y ss) y los tratados de derechos humanos (por ejemplo, Art. 13 y 14 CADH).\n\nLas fuerzas de seguridad que censuran una filmación cometen un acto ilegal e incumplen sus funciones. Filmar el accionar policial forma parte de nuestro derecho a que los funcionarios de las fuerzas de seguridad se presenten con sus debidas identificaciones, expliquen las razones por cuales llevan adelante determinado operativo y qué organismo judicial lo ordenaron.\n\n(Fuente: LID)."
+    },
+    {
+      "title": "PERO PRIMERO EL AUTOCUIDADO",
+      "content": "Aunque como dijimos no hay impedimentos legales para filmar un operativo policial, antes que nada es importante evaluar la seguridad:\n\n- ¿Grabar te pone a vos (o a otrxs) en un mayor riesgo?\n- ¿Viola la privacidad o dignidad de otrxs?\n- ¿El ángulo del que grabas podría revelar dónde estás ubicadx?\n\nUna recomendación para proteger a quienes están siendo víctimas de abusos policiales es NO registrar sus rostros o marcas que lxs identifiquen, como por ejemplo tatuajes.\n\nIntenta que otras personas lo sepan de inmediato que estás grabando, dónde estás y qué está pasando*."
+    },
+    {
+      "title": "TIPS PARA MEJORAR EL VALOR DE LA PRUEBA DE FOTO O VIDEO",
+      "content": "Fijar fecha, hora y ubicación de GPS correctas en el dispositivo.\n\nUsar el micrófono y/o documentación escrita para registrar:\n- fecha, hora y lugar\n- quién está filmando\n- a quién se está filmando\n- otras personas con información\n\nEn la medida de lo posible filmá sin interrupción (o grabaciones de mínimo 10”), hace varias tomas distintas y mantené la cámara lo más estable posible (mejor si está apoyada sobre alguna superficie). \n\nSi es posible acercate para registrar la identificación del agente o del vehículo que utiliza (placa, rango, patente del móvil, etc). *Esta información es clave para cualquier tipo de registro, no solo audiovisual. Es importante tomar nota o mandar los datos por mensaje para que queden asegurados. \n\nProtege el archivo realizando copias de respaldo o enviándolo a personas de tu confianza."
+    },
+    {
+      "title": "¿LO COMPARTO EN REDES SOCIALES?",
+      "content": "Esto depende de varios factores. En principio hay que preguntarse si al publicarlo pones en riesgo tu integridad o la de las personas que aparecen en el video, por ejemplo, facilitando la persecución policial/judicial de dichas personas. \n\nSi crees que son riesgos posibles, podes recurrir a algunas estrategias para garantizar tu anonimato. Podes pasarle el video a periodistas o abogadxs de confianza para que ellxs lo difundan y, para preservar la identidad de quienes son filmadxs, podés desenfocar sus rostros, borrar metadatos, entre otras.\n\nMás allá de estas consideraciones, tené en cuenta que la transmisión en vivo a través de alguna plataforma de redes sociales garantiza el almacenamiento automático en línea.\n\nCompartimos una serie de guías elaboradas por Witness con información útil  ante diversas situaciones: es.witness.org/recursos/"
+    }
+  ]
+}
