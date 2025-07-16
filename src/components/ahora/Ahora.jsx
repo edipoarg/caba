@@ -14,12 +14,6 @@ const Ahora = () => {
           "CRÓNICA DE UNA VICTORIA POPULAR. Paro general y movilización convocada por la CGT.",
         link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_997c8d0848e34476ad7040bb09b68998.pdf",
       },
-      {
-        title: "REPORTE SOBRE EL OPERATIVO POLICIAL DEL 12 DE JUNIO DE 2024",
-        subtitle:
-          "CRÓNICA DE UNA DERROTA POPULAR. Manifestación en contra de la Ley Bases.",
-        link: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_d2f36b64c1e14921bc308a87ec20d8bc.pdf",
-      },
     ],
   };
 
