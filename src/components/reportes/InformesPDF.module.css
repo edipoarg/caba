@@ -1,0 +1,29 @@
+@import "./reportesVars.css";
+
+.block { /* .informesPDFBlock */
+  grid-area: informes;
+  background: var(--color-card-bg);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 40vh;
+}
+
+.list  { list-style: none; margin: 0; padding: 0; }    /* .informesPDFList */
+.item  {                                               /* .informePDFItem */
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  padding: 0.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+.item:hover {
+  background: var(--color-text);
+  color: var(--color-card-bg);
+}
+
+.date { font-size: 0.85rem; }  /* .informeDate */

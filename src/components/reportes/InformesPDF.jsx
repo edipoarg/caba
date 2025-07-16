@@ -1,5 +1,5 @@
 import ReportesIcon from "./ReportesIcon";
-import styles from "./Reportes.module.css";
+import styles from "./InformesPDF.module.css";
 
 export default function InformesPDF({ informes }) {
   if (!informes?.length) return null;

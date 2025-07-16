@@ -1,0 +1,49 @@
+
+@import "./reportesVars.css";
+
+.gridContainer {
+  display: grid;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: var(--padding);
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+  grid-template-areas:
+    "ultimo"
+    "anteriores"
+    "reconstrucciones"
+    "informes";
+  overflow-y: auto;
+}
+
+/* Desktop (navbar fija a la izquierda) */
+@media (min-width: 1080px) {
+  .gridContainer {
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "ultimo anteriores"
+      "reconstrucciones informes";
+    padding-left: 20vw;
+    height: 90vh;
+    min-height: 100vh;
+  }
+}
+
+/* Móvil: todo apilado */
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "ultimo"
+      "anteriores"
+      "reconstrucciones"
+      "informes";
+    height: auto !important;
+    max-height: none;
+  }
+}

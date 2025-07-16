@@ -1,4 +1,4 @@
-import styles from "./Reportes.module.css";
+import styles from "./ReportesGrid.module.css";
 import useReportesData from "./hooks/useReportesData";
 
 import UltimoReporte from "./UltimoReporte";
@@ -17,13 +17,12 @@ export default function Reportes() {
   const sorted = [...reportes].sort((a, b) => a.id - b.id);
   const ultimo = sorted.at(-1);
   const anteriores = sorted.slice(0, -1);
-  const ultimaRecon = reconstrucciones?.at(-1) ?? null;
 
   return (
     <div className={styles.gridContainer}>
       <UltimoReporte reporte={ultimo} />
       <ReportesAnteriores lista={anteriores} />
-      <Reconstrucciones item={ultimaRecon} />
+      <Reconstrucciones lista={reconstrucciones} />
       <InformesPDF informes={informesPDF} />
     </div>
   );

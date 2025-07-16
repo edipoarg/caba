@@ -1,4 +1,4 @@
-import styles from "./Reportes.module.css";
+import styles from "./ReportesIcon.module.css";
 
 export default function ReportesIcon({ type, className }) {
   const cls = className ?? styles.iconSmall;

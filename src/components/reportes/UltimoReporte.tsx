@@ -1,13 +1,40 @@
 import ReportesIcon from "./ReportesIcon";
-import styles from "./Reportes.module.css";
+import styles from "./UltimoReporte.module.css";
 
-export default function UltimoReporte({ reporte }) {
+interface CasoBreve {
+  titulo: string;
+}
+
+interface Reporte {
+  id: number;
+  titulo: string;
+  pdf: string;
+  cantidadCasosRelevados?: number;
+  casosSingulares?: CasoBreve[];
+  casoSistematico?: CasoBreve;
+  casoPolitico?: CasoBreve;
+}
+
+interface Props {
+  reporte: Reporte | null;
+}
+
+export default function UltimoReporte({ reporte }: Props) {
   if (!reporte) return null;
 
+  const casosSingulares = reporte.casosSingulares ?? [];
+
   return (
-    <section className={styles.ultimoReporteBlock}>
-      <button className={styles.ultimoReporteBtn}>
+    <section className={styles.block}>
+      {/* Enlace con apariencia de botón */}
+      <a
+        href={reporte.pdf}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.btn}
+      >
         <ReportesIcon type="folder" className={styles.iconLarge} />
+
         <h2>{reporte.titulo}</h2>
 
         <p>
@@ -15,11 +42,11 @@ export default function UltimoReporte({ reporte }) {
           {reporte.cantidadCasosRelevados ?? "No disponible"}
         </p>
 
-        {reporte.casosSingulares?.length > 0 && (
+        {casosSingulares.length > 0 && (
           <div className={styles.detailsList}>
             <h4>Casos singulares:</h4>
             <ul>
-              {reporte.casosSingulares.map((c, i) => (
+              {casosSingulares.map((c, i) => (
                 <li key={i}>{c.titulo}</li>
               ))}
             </ul>
@@ -32,13 +59,14 @@ export default function UltimoReporte({ reporte }) {
             {reporte.casoSistematico.titulo}
           </p>
         )}
+
         {reporte.casoPolitico?.titulo && (
           <p className={styles.detailItem}>
             <strong>Caso político: </strong>
             {reporte.casoPolitico.titulo}
           </p>
         )}
-      </button>
+      </a>
     </section>
   );
 }

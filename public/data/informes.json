@@ -5,6 +5,7 @@
       "titulo": "Primer reporte de Violencia Policial del Mapa de la Policía",
       "fecha": "12 de septiembre de 2022",
       "cantidadCasosRelevados": 48,
+      "pdf": "https://04c269b2-e174-4e62-9b7d-1851eceeaba6.filesusr.com/ugd/0f4ca0_bbd53ec100444e3eb88b7379fa71048b.pdf",
       "casosSingulares": [
         {
           "titulo": "Caso 1: Policía golpea a un ciudadano en taxi",
@@ -37,6 +38,7 @@
       "titulo": "Segundo reporte de Violencia Policial del Mapa de la Policía",
       "fecha": "23 de febrero de 2023",
       "cantidadCasosRelevados": 61,
+      "pdf": "https://04c269b2-e174-4e62-9b7d-1851eceeaba6.filesusr.com/ugd/0f4ca0_0d758bfb82974280be66dc7534ea99ff.pdf",
       "casosSingulares": [],
       "casoSistematico": {
         "titulo": "Las muertes causadas por la policía de la Ciudad en el Conurbano Bonaerense.",

@@ -11,9 +11,9 @@ export default function useReportesData() {
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/informes.json").then(r => r.json()),
-      fetch("/data/reconstrucciones.json").then(r => r.json()),
-      fetch("/data/informesPDF.json").then(r => r.json()),
+      fetch("/data/informes.json").then((r) => r.json()),
+      fetch("/data/reconstrucciones.json").then((r) => r.json()),
+      fetch("/data/informesPDF.json").then((r) => r.json()),
     ])
       .then(([r1, r2, r3]) =>
         setState({
@@ -25,9 +25,13 @@ export default function useReportesData() {
         }),
       )
       .catch(() =>
-        setState(prev => ({ ...prev, loading: false, error: "Error al cargar los datos." })),
+        setState((prev) => ({
+          ...prev,
+          loading: false,
+          error: "Error al cargar los datos.",
+        })),
       );
   }, []);
 
-  return state;                 // { reportes, reconstrucciones, informesPDF, loading, error }
+  return state;
 }

@@ -1,0 +1,16 @@
+@import "./reportesVars.css";
+
+.iconLarge {
+  width: 60px;
+  height: 60px;
+  fill: var(--color-text);
+  margin: 12px auto;
+}
+
+.iconSmall {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-text);
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}
