@@ -1,0 +1,39 @@
+{
+  "jobs": [
+    {
+      "output": "public/data/autorxs.json",
+      "tableId": "mbx2g2esoeu12pn",
+      "fields": [
+        "nombre",
+        "imagen copy",
+        "imagen",
+        "info",
+        "twitter",
+        "enlaceVer",
+        "Id",
+        "CreatedAt",
+        "UpdatedAt",
+        "notas",
+        "ilustraciones en notas"
+      ]
+    },
+    {
+      "output": "public/data/investigaciones.json",
+      "tableId": "mx3xb8p8dk56s9r",
+      "fields": [
+        "titulo",
+        "fecha",
+        "imagen copy",
+        "imagen",
+        "textoBajada",
+        "dominio",
+        "tipoInvestigacion",
+        "region",
+        "Id",
+        "CreatedAt",
+        "UpdatedAt",
+        "Notes"
+      ]
+    }
+  ]
+}

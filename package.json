@@ -11,7 +11,8 @@
     "lint": "ESLINT_USE_FLAT_CONFIG=false eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
-    "config": "tsx ./src/schemas/m2cms.ts ./public/config.yml ./src/schemas/models"
+    "config": "tsx ./src/schemas/m2cms.ts ./public/config.yml ./src/schemas/models",
+    "fetch:noco": "tsx --tsconfig tsconfig.scripts.json ./scripts/fetch-nocodb.ts noco.config.json"
   },
   "dependencies": {
     "@react-email/render": "^0.0.12",
@@ -26,11 +27,13 @@
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
     "react-map-gl": "^7.1.6",
-    "react-router-dom": "^6.17.0"
+    "react-router-dom": "^6.17.0",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitejs/plugin-react": "^4.0.3",
