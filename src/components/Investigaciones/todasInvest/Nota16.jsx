@@ -22,23 +22,18 @@ const Nota16 = () => {
           pero no imposible: se trata de un barrio no oficial, con contornos
           indefinidos, en el extremo sur de Flores y en el límite con Nueva
           Pompeya. Su principal punto de referencia es el estadio Nuevo
-          Gasómetro, del Club San Lorenzo de Almagro.
-        </h4>
-        <h4 className={styles.singularText}>
-          El acceso más evidente se advierte al avanzar hacia el sur por avenida
-          Varela, desde su intersección con Eva Perón. Si se pasa por el
-          Hospital Piñero, uno de los principales centros de salud al que
-          acceden los vecinos, se llega al Cementerio, entre florerías,
-          marmolerías y broncerías -negocios típicos de las inmediaciones de
-          todo camposanto citadino-. Allí también se encuentra la terminal del
-          colectivo 132 y pasa el 76, único medio de transporte que se interna
-          en la villa de manera sostenida.
-        </h4>
-        <h4 className={styles.singularText}>
-          En abril de este año, la línea 23 acortó su recorrido y dejó de
-          ingresar al Bajo, limitando aún más las opciones de traslado de los
-          vecinos. Solo el reclamo y la presión comunitaria logró que se
-          revirtiera esta decisión hace unas semanas.
+          Gasómetro, del Club San Lorenzo de Almagro. El acceso más evidente se
+          advierte al avanzar hacia el sur por avenida Varela, desde su
+          intersección con Eva Perón. Si se pasa por el Hospital Piñero, uno de
+          los principales centros de salud al que acceden los vecinos, se llega
+          al Cementerio, entre florerías, marmolerías y broncerías -negocios
+          típicos de las inmediaciones de todo camposanto citadino-. Allí
+          también se encuentra la terminal del colectivo 132 y pasa el 76, único
+          medio de transporte que se interna en la villa de manera sostenida. En
+          abril de este año, la línea 23 acortó su recorrido y dejó de ingresar
+          al Bajo, limitando aún más las opciones de traslado de los vecinos.
+          Solo el reclamo y la presión comunitaria logró que se revirtiera esta
+          decisión hace unas semanas.
         </h4>
         <h4 className={styles.singularText}>
           Más adelante está la esquina de Varela y Castañares. Los cuatro
@@ -46,13 +41,10 @@ const Nota16 = () => {
           toda lógica peatonal: sus luces desincronizadas reflejan a un Estado
           que tampoco se entiende con el territorio. En consecuencia, e incluso
           cuando están en funcionamiento que es la mitad de las veces, no se
-          sabe cuándo es seguro cruzar.
-        </h4>
-        <h4 className={styles.singularText}>
-          Es una tarea colectiva que marca la táctica de supervivencia: alguien
-          atina a tomar la posta y los demás se suman. Los autos y camiones
-          frenan de prepo y se entra a esa zona que, por acuerdo implícito,
-          corresponde al Bajo Flores.
+          sabe cuándo es seguro cruzar. Es una tarea colectiva que marca la
+          táctica de supervivencia: alguien atina a tomar la posta y los demás
+          se suman. Los autos y camiones frenan de prepo y se entra a esa zona
+          que, por acuerdo implícito, corresponde al Bajo Flores.
         </h4>
         <h4 className={styles.singularText}>
           El reconocimiento de este límite no es azaroso, porque lo importante
@@ -101,23 +93,19 @@ const Nota16 = () => {
           </a>{" "}
           por el entonces presidente Mauricio Macri. Sin embargo, en la
           práctica, las fuerzas federales siguieron operando. La Policía de la
-          Ciudad se limitaba a accionar solamente en las orillas.
-        </h4>
-        <h4 className={styles.singularText}>
-          Así lo relata S., una militante social con años de recorrida del
-          barrio que ve cómo el límite se marca por la fuerza: “Agarro por
-          Castañares y veo dos situaciones horribles. En la primera, dos
-          policías que estaban en moto cruzan de una forma súper violenta y se
-          suben a la vereda. Venían dos pibitos con cara de nenes que estaban
-          comiendo. Les gritaron, les cruzaron la moto y los pusieron contra la
-          pared para palparlos. Tenían 12, 13 años, como mucho. Incluso se
-          notaba que venían de la escuela porque estaban con la mochila.
-        </h4>
-        <h4 className={styles.singularText}>
-          Hago un tramito más y ahí mismo por Castañares se usa mucho que vayan
-          a quemar los cables para sacarles el cobre. Unas personas estaban en
-          eso y llegó una camioneta de la Policía, se les puso adelante y los
-          increparon también de manera súper violenta”.
+          Ciudad se limitaba a accionar solamente en las orillas. Así lo relata
+          S., una militante social con años de recorrida del barrio que ve cómo
+          el límite se marca por la fuerza: “Agarro por Castañares y veo dos
+          situaciones horribles. En la primera, dos policías que estaban en moto
+          cruzan de una forma súper violenta y se suben a la vereda. Venían dos
+          pibitos con cara de nenes que estaban comiendo. Les gritaron, les
+          cruzaron la moto y los pusieron contra la pared para palparlos. Tenían
+          12, 13 años, como mucho. Incluso se notaba que venían de la escuela
+          porque estaban con la mochila. Hago un tramito más y ahí mismo por
+          Castañares se usa mucho que vayan a quemar los cables para sacarles el
+          cobre. Unas personas estaban en eso y llegó una camioneta de la
+          Policía, se les puso adelante y los increparon también de manera súper
+          violenta”.
         </h4>
         <h4 className={styles.singularText}>
           Según relatan algunos vecinos, la relación con esa fuerza siempre fue
@@ -125,13 +113,10 @@ const Nota16 = () => {
           presencia más cercana de identificación con el territorio y sus
           habitantes. En definitiva, estaban adentro. Y cuando se trabaja tantos
           años en delimitar un adentro y un afuera, esa integración tiene
-          significados complejos.
-        </h4>
-        <h4 className={styles.singularText}>
-          “La Policía de la Ciudad no entra para darte un certificado de
-          domicilio, pero para una requisa o una denuncia sí. Traen citaciones o
-          denuncias del juzgado, hacen razzias o requisas, pero no traen
-          seguridad. Gendarmería trae seguridad”, cuenta S.
+          significados complejos. “La Policía de la Ciudad no entra para darte
+          un certificado de domicilio, pero para una requisa o una denuncia sí.
+          Traen citaciones o denuncias del juzgado, hacen razzias o requisas,
+          pero no traen seguridad. Gendarmería trae seguridad”, cuenta S.
         </h4>
         <h6 className={styles.span}>
           En 2017, con la renombrada Policía de la Ciudad, el operativo fue dado
@@ -156,37 +141,30 @@ const Nota16 = () => {
           en este territorio antes de la llegada de Gendarmería: “La violencia
           era en el Barrio Rivadavia y el Barrio Illia. Se afanaba a la gente
           que salía de laburar de la villa. Es decir, se ejercía violencia hacia
-          adentro”.
-        </h4>
-        <h4 className={styles.singularText}>
-          Y, en ese sentido, tiene una interpretación más profunda sobre esta
-          situación: “Los pibes que son de ascendencia argentina y que creen que
-          tienen el derecho de la natividad eligen afanar a los extranjeros por
-          eso: porque saben que hay menos derechos ahí para ellos”. En la
-          interseccionalidad de la marginación, el conflicto interno brotaba
-          constantemente.
+          adentro”. Y, en ese sentido, tiene una interpretación más profunda
+          sobre esta situación: “Los pibes que son de ascendencia argentina y
+          que creen que tienen el derecho de la natividad eligen afanar a los
+          extranjeros por eso: porque saben que hay menos derechos ahí para
+          ellos”. En la interseccionalidad de la marginación, el conflicto
+          interno brotaba constantemente.
         </h4>
         <h4 className={styles.singularText}>
           Con la llegada de GNA y la instalación de puestos o “garitas” dentro
           del bajo y principalmente en la villa 1-11-14, esto mermó:
           “Solucionaron un problema y por eso se los valoró tanto. Lo que pasa
           con la Gendarmería -y para mí es clave entenderlo- es que son agentes
-          externos igual que la gente que vive en la villa.
-        </h4>
-        <h4 className={styles.singularText}>
-          O sea, te traen un pibe de Misiones, por ejemplo. Se integran bien al
-          barrio porque tienen los mismos problemas del barrio, porque comen lo
-          mismo que nosotros, viven lo mismo que nosotros, están en la noche,
-          viven nuestra vida y tienen los problemas que tendrían en el barrio.
+          externos igual que la gente que vive en la villa. O sea, te traen un
+          pibe de Misiones, por ejemplo. Se integran bien al barrio porque
+          tienen los mismos problemas del barrio, porque comen lo mismo que
+          nosotros, viven lo mismo que nosotros, están en la noche, viven
+          nuestra vida y tienen los problemas que tendrían en el barrio.
           Entonces, la integración de ellos real es esa. Ya eran extranjeros
           antes de venir, ya eran agentes que no tenían que ver con la Policía
           de la Ciudad, que a lo sumo viene del Conurbano. Los gendarmes tampoco
-          son de acá.
+          son de acá. Solamente representan una posición estatal pero, ¿qué tan
+          distinto es un paraguayo de un gendarme?” reflexiona Pablo.
         </h4>
-        <h4 className={styles.singularText}>
-          Solamente representan una posición estatal pero, ¿qué tan distinto es
-          un paraguayo de un gendarme?” reflexiona Pablo.
-        </h4>
+
         <h4 className={styles.singularText}>
           Por otro lado, los oficiales de la fuerza local parecen funcionar como
           una aduana de hecho. Es decir, controlan el ingreso y egreso de los
@@ -194,8 +172,6 @@ const Nota16 = () => {
           regulación fronterizo en medio de lo que Pablo describe como
           corrupción a cielo abierto: “Antes, la Policía entraba solamente a
           allanar y también entraba la Brigada, que era la policía de civil.
-        </h4>
-        <h4 className={styles.singularText}>
           Cuando pusieron a Gendarmería adentro del barrio, la Policía solamente
           iba hasta Varela y Castañares, los límites. Y así se convirtió en un
           agente de aduanas. Su única relación y negocio con el barrio era
@@ -209,13 +185,12 @@ const Nota16 = () => {
           y qué tipo de talleres, cómo se manejan las mercancías, quiénes son
           los actores involucrados y cómo intervenir para sacar provecho
           mediante el control. Un agente que, históricamente y a través de la
-          ostentación de poder, teje en silencios y apropiaciones.
+          ostentación de poder, teje en silencios y apropiaciones. Dicta quién
+          puede avanzar y quién debe quedarse en los márgenes. Quizás un indicio
+          -no menor- del propio arquetipo que cosechó la Policía de la Ciudad en
+          la villa.
         </h4>
-        <h4 className={styles.singularText}>
-          Dicta quién puede avanzar y quién debe quedarse en los márgenes.
-          Quizás un indicio -no menor- del propio arquetipo que cosechó la
-          Policía de la Ciudad en la villa.
-        </h4>
+        <h4 className={styles.singularText}></h4>
         <h4 className={styles.singularText}>
           De todos modos, el abuso de poder por parte de la Gendarmería también
           fue problemático. Al recordar ese período, se mencionan oficiales que
@@ -236,16 +211,14 @@ const Nota16 = () => {
             obligaban a un grupo de jóvenes a ‘bailar
           </a>
           ” –hacer saltos de rana– por circular sin barbijo durante la
-          cuarentena.
+          cuarentena. Estos hechos evidencian la complejidad tanto de la
+          actividad vecinal como la de los que llegan como trabajadores “del
+          orden” y encuentran un territorio liberado para sus excesos. Pero para
+          estar más adentro, para conocer realmente las necesidades de un
+          espacio hay que estar, ir hacia el centro. Y en el centro de la villa,
+          ahí es donde está el narco.
         </h4>
-        <h4 className={styles.singularText}>
-          Estos hechos evidencian la complejidad tanto de la actividad vecinal
-          como la de los que llegan como trabajadores “del orden” y encuentran
-          un territorio liberado para sus excesos. Pero para estar más adentro,
-          para conocer realmente las necesidades de un espacio hay que estar, ir
-          hacia el centro. Y en el centro de la villa, ahí es donde está el
-          narco.
-        </h4>
+
         <h6 className={styles.span}>
           “Lo que pasa con la Gendarmería y para mí es clave entenderlo es que
           en realidad los gendarmes son agentes externos igual que la gente que
@@ -260,15 +233,12 @@ const Nota16 = () => {
           trabajen o colaboren con el narco, gozarán de su cuidado. Si el
           negocio prospera, parece prosperar también el resto del barrio, ya que
           pueden abrir y operar con tranquilidad quienes tengan comercios de
-          cualquier tipo.
-        </h4>
-        <h4 className={styles.singularText}>
-          Es contraintuitivo para quien no lo viva, pero el narco se erige como
-          un garante de las vacantes para las que el Estado se muestra obsoleto.
-          “Creo que le quitaría la parte moral para hablar de esto. Diría que es
-          el cuerpo de mayor ductilidad y entendimiento comunitario, con
-          prácticas comunitarias; que entiende mejor las relaciones del barrio”,
-          comenta Pablo.
+          cualquier tipo. Es contraintuitivo para quien no lo viva, pero el
+          narco se erige como un garante de las vacantes para las que el Estado
+          se muestra obsoleto. “Creo que le quitaría la parte moral para hablar
+          de esto. Diría que es el cuerpo de mayor ductilidad y entendimiento
+          comunitario, con prácticas comunitarias; que entiende mejor las
+          relaciones del barrio”, comenta Pablo.
         </h4>
         <h4 className={styles.singularText}>
           De todos modos, se plantea como un equilibrio que carece de solidez y
@@ -286,15 +256,13 @@ const Nota16 = () => {
           >
             la detención de los cabecillas de bandas narcos
           </a>
-          en la 1-11-14.
+          en la 1-11-14. En la falta de planificación de este golpe, la
+          consecuencia inmediata fue el reflote de zonas liberadas que fueron
+          terreno de enfrentamientos entre bandas por el control de ese espacio
+          acéfalo. Por parte del Gobierno, no hubo red de contención para los
+          que no estaban involucrados en el delito.
         </h4>
-        <h4 className={styles.singularText}>
-          En la falta de planificación de este golpe, la consecuencia inmediata
-          fue el reflote de zonas liberadas que fueron terreno de
-          enfrentamientos entre bandas por el control de ese espacio acéfalo.
-          Por parte del Gobierno, no hubo red de contención para los que no
-          estaban involucrados en el delito.
-        </h4>
+
         <h6 className={styles.span}>
           El narcomenudeo es un delito, pero en el Bajo, porta la garantía de
           ser una carta de seguridad.
@@ -320,39 +288,33 @@ const Nota16 = () => {
           >
             se manifestaron para impedirlo
           </a>{" "}
-          con cortes de calle y acampes.
+          con cortes de calle y acampes. Finalmente, a mediados de enero de este
+          año, se retiró definitivamente del barrio e ingresó la Policía de la
+          Ciudad. Se ven oficiales de esta fuerza apostados en esos espacios.
+          Hay camionetas sobre Av. Perito Moreno, Torres y Bonorino. Los
+          efectivos caminan el barrio empuñando armas largas y exhibiendo sobre
+          el pecho las cortas, están vestidos con uniformes negros. “Eh, me
+          asusté y pensé que eras un yuta con esa ropa que te pusiste” le dice
+          un vecino a otro por coincidencia en el color. En otro pasillo, dos
+          pibes al azar son verdugueados mientras los cachean para descubrir que
+          solo tenían un encendedor en el bolsillo y una lata de cerveza en la
+          mano.
         </h4>
-        <h4 className={styles.singularText}>
-          Finalmente, a mediados de enero de este año, se retiró definitivamente
-          del barrio e ingresó la Policía de la Ciudad. Se ven oficiales de esta
-          fuerza apostados en esos espacios. Hay camionetas sobre Av. Perito
-          Moreno, Torres y Bonorino.
-        </h4>
-        <h4 className={styles.singularText}>
-          Los efectivos caminan el barrio empuñando armas largas y exhibiendo
-          sobre el pecho las cortas, están vestidos con uniformes negros. “Eh,
-          me asusté y pensé que eras un yuta con esa ropa que te pusiste” le
-          dice un vecino a otro por coincidencia en el color. En otro pasillo,
-          dos pibes al azar son verdugueados mientras los cachean para descubrir
-          que solo tenían un encendedor en el bolsillo y una lata de cerveza en
-          la mano.
-        </h4>
+
         <h4 className={styles.singularText}>
           No parece haber integración ni intención de concretarla en el futuro.
           No hay ni un atisbo de reflejo identitario entre individuos. Más bien
           se resalta o exacerba la “otredad”, lo ajeno entre esas identidades,
           una suerte de extranjerización mútua, “no sos de acá” y “vos tampoco”.
           Lo que se impone es una coreografía del control y la sospecha
-          constante.
+          constante. No hay diálogo ni vínculo posible, solo vigilancia. Se
+          erige aquí una frontera simbólica que separa cuerpos, historias y
+          territorios. Hay una performance que no es de protección, sino de
+          distancia. Y en esa separación, profundamente política, lo que habita
+          es el miedo y el recelo, que impregnan cada rincón. Como si el Bajo
+          viviera, escindido del “resto”, en un estado de excepción permanente.
         </h4>
-        <h4 className={styles.singularText}>
-          No hay diálogo ni vínculo posible, solo vigilancia. Se erige aquí una
-          frontera simbólica que separa cuerpos, historias y territorios. Hay
-          una performance que no es de protección, sino de distancia. Y en esa
-          separación, profundamente política, lo que habita es el miedo y el
-          recelo, que impregnan cada rincón. Como si el Bajo viviera, escindido
-          del “resto”, en un estado de excepción permanente.
-        </h4>
+
         <h6 className={styles.span}>
           En 2023 hubo un primer intento de retirar las garitas de la
           Gendarmería, pero los vecinos y vecinas se manifestaron para impedirlo
