@@ -16,7 +16,7 @@ const Nota16 = () => {
           plan formulado y ejecutado sin conocer las necesidades de quienes
           habitan el territorio.
         </h4>
-        <h3 className={styles.subTitle}>Un paisaje: ¿Flores o Bajo?</h3>
+        <h3 className={styles.subTitle}>un paisaje: ¿Flores o Bajo?</h3>
         <h4 className={styles.singularText}>
           Establecer los límites del Bajo Flores dentro del mapa es difícil,
           pero no imposible: se trata de un barrio no oficial, con contornos
@@ -57,7 +57,7 @@ const Nota16 = () => {
           Flores, Nueva Pompeya, Lugano, Soldati, Barracas y La Boca.
         </h6>
         <h3 className={styles.subTitle}>
-          Tradición y conflictos: ¿a quién le corresponde?
+          tradición y conflictos: ¿a quién le corresponde?
         </h3>
         <h4 className={styles.singularText}>
           En 2008, el comienzo de la{" "}
@@ -124,7 +124,7 @@ const Nota16 = () => {
           federales siguieron operando.
         </h6>
         <h3 className={styles.subTitle}>
-          La libertad de los orilleros y la sociedad de los otros
+          la libertad de los orilleros y la sociedad de los otros
         </h3>
         <h4 className={styles.singularText}>
           En el Bajo viven argentinos y migrantes peruanos, paraguayos y
@@ -190,7 +190,6 @@ const Nota16 = () => {
           -no menor- del propio arquetipo que cosechó la Policía de la Ciudad en
           la villa.
         </h4>
-        <h4 className={styles.singularText}></h4>
         <h4 className={styles.singularText}>
           De todos modos, el abuso de poder por parte de la Gendarmería también
           fue problemático. Al recordar ese período, se mencionan oficiales que
@@ -200,7 +199,7 @@ const Nota16 = () => {
             className={styles.link}
             href="https://www.tiempoar.com.ar/ta_article/gatillo-facil-en-el-bajo-flores-gendarmes-balearon-a-un-chico-le-negaron-atencion-y-murio-camino-al-hospital/"
           >
-            Facundo Sclazo
+            Facundo Scalzo
           </a>
           ; e incluso humillaciones como la registrada en 2020, donde los
           gendarmes{" "}
@@ -225,7 +224,7 @@ const Nota16 = () => {
           vive en la villa. O sea, te traen un pibe de Misiones, por ejemplo”.
         </h6>
         <h3 className={styles.subTitle}>
-          La fantasía del orden: narcoseguridad
+          la fantasía del orden: narco seguridad
         </h3>
         <h4 className={styles.singularText}>
           El narcomenudeo es un delito, pero en el Bajo, porta la garantía de
@@ -255,7 +254,7 @@ const Nota16 = () => {
             href="https://www.infobae.com/sociedad/policiales/2017/06/30/droga-armas-granadas-y-detonadores-el-resultado-del-allanamiento-a-la-villa-1-11-14/"
           >
             la detención de los cabecillas de bandas narcos
-          </a>
+          </a>{" "}
           en la 1-11-14. En la falta de planificación de este golpe, la
           consecuencia inmediata fue el reflote de zonas liberadas que fueron
           terreno de enfrentamientos entre bandas por el control de ese espacio
@@ -268,7 +267,7 @@ const Nota16 = () => {
           ser una carta de seguridad.
         </h6>
         <h3 className={styles.subTitle}>
-          Construcciones imaginarias: el Bajo Flores es Flores
+          construcciones imaginarias: el Bajo Flores es Flores
         </h3>
         <h4 className={styles.singularText}>
           Hasta enero, el accionar ad hoc de las fuerzas de la Ciudad ocurría en
