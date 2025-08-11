@@ -1,4 +1,3 @@
-
 [
   {
     "id": "i1",
@@ -15,8 +14,14 @@
   {
     "id": "i2",
     "titulo": "Gatillo fácil: 38 casos en seis años",
-    "autorxs": ["LUDMILA FERRER", "MATÍAS FERRARI"],
-    "ilus": ["NICOLÁS CARDELLO", "AMANDA SANDOVAL"],
+    "autorxs": [
+      "LUDMILA FERRER",
+      "MATÍAS FERRARI"
+    ],
+    "ilus": [
+      "NICOLÁS CARDELLO",
+      "AMANDA SANDOVAL"
+    ],
     "fecha": "11/07/2022",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_148160bd4ba3472184da4f0c50326a59~mv2.jpg/v1/fill/w_1140,h_641,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Foto%20Nicol%C3%A1s%20Cardello.jpg",
     "textoBajada": "Las huellas de las balas mortales que disparó la policía porteña pueden rastrearse en este informe exclusivo del Grito del Sur para el Mapa de la Policía. Los barrios populares contabilizan la mayor cantidad de muertos y, entre ellos, el objetivo predilecto de la gorra son los varones jóvenes con escasos recursos económicos. ¿Cuáles son los casos paradigmáticos que aún no encuentran justicia? ¿Qué dicen las organizaciones y los referentes sociales sobre la impunidad y el hermetismo que rodean a las fuerzas de seguridad?",
@@ -27,7 +32,10 @@
   {
     "id": "i3",
     "titulo": "Videovigilancia policial: Tu cara me suena",
-    "autorxs": ["Bibiana Ruiz", "Juan Suárez"],
+    "autorxs": [
+      "Bibiana Ruiz",
+      "Juan Suárez"
+    ],
     "ilus": "Nicolás Daniluk",
     "fecha": "31/05/2022",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_bcc1a31fa0bd4de689f2fc7535bf6e0e~mv2.jpg/v1/fill/w_1116,h_628,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0f4ca0_bcc1a31fa0bd4de689f2fc7535bf6e0e~mv2.jpg",
@@ -64,7 +72,7 @@
     "id": "i6",
     "titulo": "La Metropolitana",
     "autorxs": "Matias Ferrari",
-    "ilus":"Carlos Sainz",
+    "ilus": "Carlos Sainz",
     "fecha": "15/12/2022",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_ab77fcf6bfc24a699113bd1ded52d82b~mv2.jpg/v1/fill/w_1111,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Violencia-institucional-gatillo-f%C3%A1cil%20(1).jpg",
     "textoBajada": "Antes de la Policía de la Ciudad, que nació en 2017, la seguridad de la capital argentina estuvo históricamente a cargo de la Federal. Pero en 2008 Mauricio Macri creó una fuerza propia, la Metropolitana, el germen de la actual Policía porteña. Según un nuevo relevamiento de El Grito del Sur para el Mapa de la Policía, sus agentes asesinaron al menos a 25 personas a través del viejo método del gatillo fácil durante sus ocho años de funcionamiento. Aquí el informe caso por caso.",
@@ -87,7 +95,10 @@
   {
     "id": "i8",
     "titulo": "Cuando la policía es parte crítica de la ruta para denunciar las violencias de género",
-    "autorxs": ["Ines Hayes", "Paula Talento"],
+    "autorxs": [
+      "Ines Hayes",
+      "Paula Talento"
+    ],
     "ilus": "Panchopepe",
     "fecha": "18/05/2023",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_fd75b4a693364c5cb45a47c9c29f8a43~mv2.jpg/v1/fill/w_1118,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PANCHOPEPE%20-%20MAPA%20POLICIA%20-%20obst%C3%A1culos%20denuncias%20violencias%20de%20g%C3%A9nero.jpg",
@@ -133,39 +144,54 @@
     "region": "Caba"
   },
   {
-      "id": "i12",
-      "titulo": "A él lo baleó",
-      "autorxs": "Facundo Lo Duca",
-      "ilus": "Nicolás Daniluk",
-      "fecha": "04/01/2024",
-      "imagen": "https://static.wixstatic.com/media/0f4ca0_235fde651acc4eafbff28ad801eff504~mv2.jpg/v1/fill/w_1213,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOTORIZADO%20FINAL.jpg",
-      "textoBajada": "Gabriel Mastrángelo guarda las huellas de la Policía Motorizada de la Ciudad de Buenos Aires en su cuerpo. Reconstruir lo que vivió hace más de un año es una forma de conocer cómo opera esta división en los barrios porteños, en especial, lo más populares. Una infracción de tránsito, indicios, sospechas, amenazas y otras maneras de tejer un entramado de impunidad.",
-      "dominio": "a-el-lo-baleo",
-      "tipoInvestigacion": "expediente",
-      "region": "Caba"
-    },
-    {
-      "id": "i13",
-      "titulo": "Trans, migrante y peligrosa",
-      "autorxs": "Elisa Corzo",
-      "ilus": "Nicolás Daniluk",
-      "fecha": "29/03/2024",
-      "imagen": "https://static.wixstatic.com/media/0f4ca0_f251793ed7094671bfbee7daf0ddec04~mv2.jpg/v1/fill/w_1211,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TRANS%20MIGRANTE%20x%20Nicol%C3%A1s%20Daniluk%20-%20WEB%20MAPA%20(1).jpg",
-      "textoBajada": "Son el eslabón visible de una cadena de narcotráfico que nadie quiere investigar. Trabajadoras sexuales, travestis trans, migrantes, una combinación perfecta para el armado de causas por tenencia y narcomenudeo. ¿Cómo operan el Centro de Monitoreo Urbano, las comisarías y las brigadas de la Policía de la Ciudad en estas investigaciones?",
-      "dominio": "trans-migrante",
-      "tipoInvestigacion": "informe",
-      "region": "Caba"
-    },
-    {
-      "id": "i14",
-      "titulo": "Nadie sabe lo que un cuerpo puede",
-      "autorxs": "Facundo Cifelli",
-      "ilus": "Panchopepe",
-      "fecha": "19/09/2024",
-      "imagen": "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg",
-      "textoBajada": "Lo que ocurre entre una detención y otra no es más que tiempo que se diluye en sueños de libertad. Un hombre y una maquinaria estatal que lo arrastra y lo devuelve para exponer un cuerpo fracturado, un alma sola. De requisas y hospitales, un circuito que se muestra ineludible dentro las comisarías de la Ciudad de Buenos Aires donde la División de Unidad Táctica de Intervenciones de Alcaildías tiene una sombría preponderancia.",
-      "dominio": "trans-migrante",
-      "tipoInvestigacion": "informe",
-      "region": "Caba"
-    }
+    "id": "i12",
+    "titulo": "A él lo baleó",
+    "autorxs": "Facundo Lo Duca",
+    "ilus": "Nicolás Daniluk",
+    "fecha": "04/01/2024",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_235fde651acc4eafbff28ad801eff504~mv2.jpg/v1/fill/w_1213,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOTORIZADO%20FINAL.jpg",
+    "textoBajada": "Gabriel Mastrángelo guarda las huellas de la Policía Motorizada de la Ciudad de Buenos Aires en su cuerpo. Reconstruir lo que vivió hace más de un año es una forma de conocer cómo opera esta división en los barrios porteños, en especial, lo más populares. Una infracción de tránsito, indicios, sospechas, amenazas y otras maneras de tejer un entramado de impunidad.",
+    "dominio": "a-el-lo-baleo",
+    "tipoInvestigacion": "expediente",
+    "region": "Caba"
+  },
+  {
+    "id": "i13",
+    "titulo": "Trans, migrante y peligrosa",
+    "autorxs": "Elisa Corzo",
+    "ilus": "Nicolás Daniluk",
+    "fecha": "29/03/2024",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_f251793ed7094671bfbee7daf0ddec04~mv2.jpg/v1/fill/w_1211,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TRANS%20MIGRANTE%20x%20Nicol%C3%A1s%20Daniluk%20-%20WEB%20MAPA%20(1).jpg",
+    "textoBajada": "Son el eslabón visible de una cadena de narcotráfico que nadie quiere investigar. Trabajadoras sexuales, travestis trans, migrantes, una combinación perfecta para el armado de causas por tenencia y narcomenudeo. ¿Cómo operan el Centro de Monitoreo Urbano, las comisarías y las brigadas de la Policía de la Ciudad en estas investigaciones?",
+    "dominio": "trans-migrante",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
+  },
+  {
+    "id": "i14",
+    "titulo": "Nadie sabe lo que un cuerpo puede",
+    "autorxs": "Facundo Cifelli",
+    "ilus": "Panchopepe",
+    "fecha": "19/09/2024",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_6ee1dcd0e38b416cbf2f2344eee5ea7f~mv2.jpg/v1/fill/w_1101,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tucu%20x%20panchopepe%20-%20WEB%20MAPA%20(1).jpg",
+    "textoBajada": "Lo que ocurre entre una detención y otra no es más que tiempo que se diluye en sueños de libertad. Un hombre y una maquinaria estatal que lo arrastra y lo devuelve para exponer un cuerpo fracturado, un alma sola. De requisas y hospitales, un circuito que se muestra ineludible dentro las comisarías de la Ciudad de Buenos Aires donde la División de Unidad Táctica de Intervenciones de Alcaildías tiene una sombría preponderancia.",
+    "dominio": "trans-migrante",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
+  },
+  {
+    "id": "i15",
+    "titulo": "El método Grillo: cómo reconstruir una verdad manipulada",
+    "autorxs": [
+      "Facundo Cifelli ",
+      "/ Luz Conde Vicente"
+    ],
+    "ilus": "Nicolás Daniluk",
+    "fecha": "08/07/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_c4a13c0d47c145408974eafc2df6c1c9~mv2.jpg/v1/fill/w_1824,h_843,al_c,q_85,enc_avif,quality_auto/GRILLO-x-nicolas-daniluk---WEB-CRISIS---PORT.jpg",
+    "textoBajada": "La investigación que develó las irregularidades del ataque contra el fotorreportero Pablo Grillo sentó un precedente para la participación ciudadana organizada. Contra la prepotencia de un discurso oficial violento, el registro colectivo y multidisciplinario consiguió dar un salto en la disputa por la verdad. En este artículo te contamos cómo se articuló la reconstrucción forense que hizo tambalear a la versión oficial.",
+    "dominio": "metodo-pablo-grillo",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
+  }
 ]
