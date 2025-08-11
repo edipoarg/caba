@@ -29,18 +29,19 @@ const Investigaciones = () => {
             className={styles.headerIcon}
             iconSize="4rem"
           />
-
           <section className={styles.typeMenu}>
             <h3
-              className={`${styles.type} ${activeFilter === "informe" ? styles.active : ""
-                }`}
+              className={`${styles.type} ${
+                activeFilter === "informe" ? styles.active : ""
+              }`}
               onClick={() => setActiveFilter("informe")}
             >
               Informes
             </h3>
             <h3
-              className={`${styles.type} ${activeFilter === "expediente" ? styles.active : ""
-                }`}
+              className={`${styles.type} ${
+                activeFilter === "expediente" ? styles.active : ""
+              }`}
               onClick={() => setActiveFilter("expediente")}
             >
               Detrás del expediente
