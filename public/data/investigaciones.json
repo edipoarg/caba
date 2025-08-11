@@ -193,5 +193,17 @@
     "dominio": "metodo-pablo-grillo",
     "tipoInvestigacion": "informe",
     "region": "Caba"
+  },
+  {
+    "id": "i16",
+    "titulo": "Bajo Flores: seguridad en las orillas y el desfile de fuerzas",
+    "autorxs": "Luz Conde",
+    "ilus": "Martin Oroná",
+    "fecha": "11/08/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_2d532da2ac1d4cdcb523cf7d5480b7c5~mv2.jpg/v1/fill/w_1919,h_1200,al_c,q_90,enc_avif,quality_auto/BAJO%20FLORES%20x%20Mart%C3%ADn%20Oron%C3%A1%20MAPA%20POLI.jpg",
+    "textoBajada": "La violencia institucional recrudece en el Bajo Flores con el retiro de la Gendarmería y la presencia de oficiales de la Policía de la Ciudad. Las tensiones internas, los acuerdos con el narcotráfico y una administración que no conoce el espacio que gobierna.",
+    "dominio": "seguridad-en-las-orillas",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
   }
 ]

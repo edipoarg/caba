@@ -6,13 +6,13 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
 const tituloNotaPrincipal =
-  "El método Grillo: cómo reconstruir una verdad manipulada";
+  "Bajo Flores: seguridad en las orillas y el desfile de fuerzas";
 const fechaUltimoReporte = "08/12/2024";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_48a8974295c84e0e9bdb33ea96ed467d~mv2.jpg/v1/fill/w_1762,h_1084,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GRILLO%20x%20nicolas%20daniluk%20-%20WEB%20MAPA%20POLI.jpg";
-const fechaNotaPrincipal = "09/07/2025";
-const autorxsNotaPrincipal = ["Facundo Cifelli y  Luz Conde "];
-const ilusNotaPrincipal = "Nicolás Daniluk";
+  "https://static.wixstatic.com/media/0f4ca0_2d532da2ac1d4cdcb523cf7d5480b7c5~mv2.jpg/v1/fill/w_1919,h_1200,al_c,q_90,enc_avif,quality_auto/BAJO%20FLORES%20x%20Mart%C3%ADn%20Oron%C3%A1%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "11/08/2025";
+const autorxsNotaPrincipal = "Luz Conde";
+const ilusNotaPrincipal = "Martin Oroná";
 const numeroReporte = "Quinto";
 
 const Investigaciones = () => {
@@ -29,7 +29,6 @@ const Investigaciones = () => {
             className={styles.headerIcon}
             iconSize="4rem"
           />
-
           <section className={styles.typeMenu}>
             <h3
               className={`${styles.type} ${
@@ -55,7 +54,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/metodo-pablo-grillo">
+            <Link to="/investigacion/seguridad-en-las-orillas">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
