@@ -1272,8 +1272,46 @@
           "type": "Point",
           "coordinates": [-58.43570194743082, -34.62808216542243]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g64",
+          "Nombre": "Matías Sebastián Lobos",
+          "Edad": "33",
+          "Año": 2024,
+          "Fecha": "30/09/2024",
+          "cronica": "El 30 de septiembre del 2024 un hombre fue asesinado por dos efectivos de la Policía de la Ciudad de Buenos Aires, que se encontraban de civil y fuera de servicio, en el marco de un tiroteo desatado por el intento de robo con armas de una camioneta en Villa Zavaleta en el barrio de Barracas. El hombre fue asesinato por un disparo en el pecho y falleció poco después de los hechos en el Hospital Penna. Tras la balacera, los vecinos del barrio intentaron linchar a los oficiales. Ambos fueron atendidos por el SAME por golpes y contusiones.",
+          "Barrio": "Barracas",
+          "Direccion": "Avenida Iriarte 3500",
+          "link": "https://www.minutouno.com/sociedad/villa-zavaleta-dos-policias-se-enfrentaron-tiros-ladrones-y-fueron-agredidos-vecinos-n6065847",
+          "policia_involucrado": "Oficial Agustín Seia, de la Unidad Táctica de Pacificación 2 del barrio Zavaleta.",
+          "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.39774250325139, -34.651905512099745 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g65",
+          "Nombre": "Lucía Martínez",
+          "Edad": "70",
+          "Año": 2025,
+          "Fecha": "23/01/2025",
+          "cronica": "El 23 de enero del 2025, fue detenido un sargento de la Policía Federal, acusado del homicidio de su tía cuando intentaba escaparse de la casa de ella. Fue retenido por los vecinos del edificio y luego detenido por la Policía de la Ciudad",
+          "Barrio": "Villa Urquiza",
+          "Direccion": "Bucarelli 2229",
+          "link": "https://www.infobae.com/sociedad/policiales/2025/01/23/asesinato-en-villa-urquiza-un-policia-fue-detenido-acusado-de-matar-a-su-tia/",
+          "policia_involucrado": "Oficial Germán Balma, custodio de la Secretaría de Seguridad de la Nación.",
+          "fuerza_involucrada": "Policía Federal"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.487168219933565, -34.576616135196325]
+        }
       }
-    
-    
   
 ]}
