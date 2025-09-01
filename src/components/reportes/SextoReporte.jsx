@@ -70,9 +70,8 @@ const SextoReporte = () => {
               repente, pasó un patrullero de la Policía de la Ciudad y bajaron
               varios agentes. La comisaría 9A está a menos de 200 metros, sobre
               la calle Lisandro de la Torre, y es común que cada tanto paren a
-              ver qué hacen los jóvenes. Aquella noche, uno de ellos tenía en la
-              mochila más porro de lo que las normas consideran consumo
-              personal, lo que motivó su detención y averiguación de
+              ver qué hacen los jóvenes. Aquella noche, uno de ellos tenía porro
+              en la mochila, lo que motivó su detención y averiguación de
               antecedentes. Los pibes saben que para que no ocurran excesos
               conviene filmar. Y lo hacen por dos razones: para que quede un
               registro del procedimiento; y para que el policía no se vaya de
