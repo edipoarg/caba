@@ -8,7 +8,7 @@ const menuItems = [
   { path: "/recursos", icon: "recursos" },
   { path: "/investigaciones", icon: "investigaciones" },
   {
-    path: "https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b842b32fa4c4452498e07a1d8b6da1bf.pdf",
+    path: "/reportes",
     icon: "reportes",
   },
   { path: "/gatillo-facil", icon: "gatillo" },

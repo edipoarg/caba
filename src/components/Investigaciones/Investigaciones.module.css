@@ -212,6 +212,18 @@
     background-color: #b9ff39;
 }
 
+.fotoUltimoReporte {
+    padding-left: 0.5rem;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: right center;
+
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
 .datosReporte {
     height: 17vh;
     padding-left: 2vw;

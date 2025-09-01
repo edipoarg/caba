@@ -7,13 +7,13 @@ import { useState } from "react";
 
 const tituloNotaPrincipal =
   "Bajo Flores: seguridad en las orillas y el desfile de fuerzas";
-const fechaUltimoReporte = "08/12/2024";
+const fechaUltimoReporte = "Agosto 2025";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_2d532da2ac1d4cdcb523cf7d5480b7c5~mv2.jpg/v1/fill/w_1919,h_1200,al_c,q_90,enc_avif,quality_auto/BAJO%20FLORES%20x%20Mart%C3%ADn%20Oron%C3%A1%20MAPA%20POLI.jpg";
 const fechaNotaPrincipal = "11/08/2025";
 const autorxsNotaPrincipal = "Luz Conde";
 const ilusNotaPrincipal = "Martin Oroná";
-const numeroReporte = "Quinto";
+const numeroReporte = "6to";
 
 const Investigaciones = () => {
   const [activeFilter, setActiveFilter] = useState(null);
@@ -88,11 +88,12 @@ const Investigaciones = () => {
           </section>
 
           <section className={styles.investCol2}>
-            <Link
-              to="https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b842b32fa4c4452498e07a1d8b6da1bf.pdf"
-              className={styles.ultimoReporteContainer}
-            >
-              <img src="" alt="" className={styles.fotoUltimoReporte} />
+            <Link to="/sexto-reporte" className={styles.ultimoReporteContainer}>
+              <img
+                src="https://static.wixstatic.com/media/0f4ca0_d63db55bd041494a87cfcd6bc25b1110~mv2.jpg/v1/fill/w_1536,h_1024,al_c,q_85,enc_avif,quality_auto/portada%20reporte.jpg"
+                alt=""
+                className={styles.fotoUltimoReporte}
+              />
               <section className={styles.datosReporte}>
                 <h4 className={styles.fechaUltimoReporte}>
                   {fechaUltimoReporte}
