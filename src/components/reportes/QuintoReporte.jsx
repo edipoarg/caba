@@ -293,8 +293,7 @@ const QuintoReporte = () => {
             </h4>
             <h4 className={styles.singularTextBlack}>
               infundir el miedo en quienes se ven afectados por las agresivas
-              políticas del oficialismo, para disuadirlos y que no se
-              movilicen;
+              políticas del oficialismo, para disuadirlos y que no se movilicen;
             </h4>
             <h4 className={styles.singularTextBlack}>
               golpear a las organizaciones populares, históricamente encargadas
