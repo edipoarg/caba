@@ -1,8 +1,8 @@
 import CaseCounter from "./CaseCounter";
-import styles from "./Reportes.module.css";
+import styles from "./CuartoReporte.module.css";
 import Icons from "../iconos/Icons";
 
-const Reportes = () => {
+const QuintoReporte = () => {
   const numeroReporte = 5; // Definimos numeroReporte como una constante con el valor 4
   const fecha = "16 de diciembre 2024";
   const bajada = [
@@ -293,7 +293,7 @@ const Reportes = () => {
             </h4>
             <h4 className={styles.singularTextBlack}>
               infundir el miedo en quienes se ven afectados por las agresivas
-              políticas del oficialismo, para disuadirlos y que no se movilicen;{" "}
+              políticas del oficialismo, para disuadirlos y que no se movilicen;
             </h4>
             <h4 className={styles.singularTextBlack}>
               golpear a las organizaciones populares, históricamente encargadas
@@ -499,4 +499,4 @@ const Reportes = () => {
   );
 };
 
-export default Reportes;
+export default QuintoReporte;
