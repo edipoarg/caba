@@ -1,4 +1,4 @@
-import DenunciaForm from './DenunciaForm';
-import './DenunciaForm.css';
+import DenunciaForm from "./DenunciaForm";
+import "./DenunciaForm.css";
 
 export default DenunciaForm;
