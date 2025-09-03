@@ -6,13 +6,13 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
 const tituloNotaPrincipal =
-  "Bajo Flores: seguridad en las orillas y el desfile de fuerzas";
+  "La policía de la limpieza: una ciudad sin manteros";
 const fechaUltimoReporte = "Agosto 2025";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_2d532da2ac1d4cdcb523cf7d5480b7c5~mv2.jpg/v1/fill/w_1919,h_1200,al_c,q_90,enc_avif,quality_auto/BAJO%20FLORES%20x%20Mart%C3%ADn%20Oron%C3%A1%20MAPA%20POLI.jpg";
-const fechaNotaPrincipal = "11/08/2025";
-const autorxsNotaPrincipal = "Luz Conde";
-const ilusNotaPrincipal = "Martin Oroná";
+  "https://static.wixstatic.com/media/0f4ca0_0805328e6916409593696119918dc74d~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/MANTEROS%20x%20Panchopepe%20-%20WEB%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "3/09/2025";
+const autorxsNotaPrincipal = "Alejandro Martín y Paula Talento";
+const ilusNotaPrincipal = "Panchopepe";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
@@ -54,7 +54,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/seguridad-en-las-orillas">
+            <Link to="/investigacion/la-policia-de-la-limpieza">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}

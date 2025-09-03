@@ -205,5 +205,17 @@
     "dominio": "seguridad-en-las-orillas",
     "tipoInvestigacion": "informe",
     "region": "Caba"
+  },
+  {
+    "id": "i17",
+    "titulo": "La policía de la limpieza: una ciudad sin manteros",
+    "autorxs": "Alejandro Martín y Paula Talento",
+    "ilus": "Panchopepe",
+    "fecha": "3/09/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_0805328e6916409593696119918dc74d~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/MANTEROS%20x%20Panchopepe%20-%20WEB%20MAPA%20POLI.jpg",
+    "textoBajada": "Quien haya caminado por los centros neurálgicos y comerciales de la Ciudad de Buenos Aires notará que las calles han cambiado mucho. En barrios como Once, Flores, Parque Centenario, Parque los Andes y tantos más, ya no hay manteros. El escenario deja contentos a los guardianes del espacio libre, pero la pregunta está en el aire: ¿por qué ya no están?",
+    "dominio": "la-policia-de-la-limpieza",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
   }
 ]
