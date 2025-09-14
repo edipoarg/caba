@@ -114,7 +114,7 @@
         "coordinates": [
           -58.38301903303641,
           -34.625478329993946
-                ]
+        ]
       }
     },
     {
@@ -306,7 +306,7 @@
         "Nombre": "Puños o patadas - Expulsión del espacio físico",
         "policia_involucrado": "No se identificaron",
         "cronica": "Represión a manifestantes que se expresaban en contra del poder judicial y el juicio contra Cristina Fernández de Kirchner"
-            },
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2494,1393 +2494,2381 @@
         ]
       }
     },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r114",
-          "Fecha": "4/6/2024",
-          "Hora": "23:00:00",
-          "Barrio": "Palermo",
-          "Direccion": "Fray Justo Sta. María de Oro 2300",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Policía de la Ciudad",
-          "Nombre": "Amendrentamiento - Expulsión del espacio físico",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "El día 4 de junio de 2024 cerca de las 23:00 horas, en la calle Fray Justo Santa Maria de Oro al 2300, 3 efectivos de la Policía de la ciudad increparon a 7 hombres en situación de calle que estaban durmiendo en colchones en el piso, supuestamente a raíz de llamados de los vecinos de la cuadra. El denunciante discutió con la policía y filmó la situación para que no los echaran. Finalmente, los policías se retiraron y dejaron a las personas seguir durmiendo en el lugar."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.42651709354713,
-            -34.58137035689763
-          ]
-        }
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r114",
+        "Fecha": "4/6/2024",
+        "Hora": "23:00:00",
+        "Barrio": "Palermo",
+        "Direccion": "Fray Justo Sta. María de Oro 2300",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amendrentamiento - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 4 de junio de 2024 cerca de las 23:00 horas, en la calle Fray Justo Santa Maria de Oro al 2300, 3 efectivos de la Policía de la ciudad increparon a 7 hombres en situación de calle que estaban durmiendo en colchones en el piso, supuestamente a raíz de llamados de los vecinos de la cuadra. El denunciante discutió con la policía y filmó la situación para que no los echaran. Finalmente, los policías se retiraron y dejaron a las personas seguir durmiendo en el lugar."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r115",
-          "Fecha": "4/1/2024",
-          "Hora": "1:30:00",
-          "Barrio": "Caballito",
-          "Direccion": "Del Barco Centenera y Hualfin",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Policía de la Ciudad",
-          "Nombre": "Amendrentamiento - Expulsión del espacio físico",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "A través de un operativo entre la Policía de la Ciudad y del Ministerio de Desarrollo Humano y Hábitat desalojan a persona en situación de calle tirando sus pertenencias de forma violenta en las camionetas del gobierno y obligándolo a dejar el lugar donde dormía."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.44076826266837,
-            -34.623658326322804
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42651709354713,
+          -34.58137035689763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r115",
+        "Fecha": "4/1/2024",
+        "Hora": "1:30:00",
+        "Barrio": "Caballito",
+        "Direccion": "Del Barco Centenera y Hualfin",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amendrentamiento - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "A través de un operativo entre la Policía de la Ciudad y del Ministerio de Desarrollo Humano y Hábitat desalojan a persona en situación de calle tirando sus pertenencias de forma violenta en las camionetas del gobierno y obligándolo a dejar el lugar donde dormía."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r116",
-          "Fecha": "10/7/2024",
-          "Hora": "14:30:00",
-          "Barrio": "Paternal",
-          "Direccion": "Donato Álvarez y San Martín",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Policía de Civil",
-          "Nombre": "Amendrentamiento - Expulsión del espacio físico",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "Dos hombres vestidos de civil se me acercaron. Los dos, de canuto, me mostraron sus respectivas credenciales de la PFA, que no pude más que ver por encima. Me pidieron el DNI, me negué, me dijeron que se trataba de \"Control poblacional\". Les di el DNI, me hicieron preguntas sobre drogas: si consumía, si tenía encima, si compraba cerca, etcétera. Corrieron el número de mi DNI por lo que parecía ser una base de datos (es lo poco que pude ver porque me acerqué al celular que estaban usando). No me pidieron nada más. Me dijeron que estaba todo bien y me dejaron ir. Todo el procedimiento duró, como mucho, dos minutos."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.46401420669479,
-            -34.59813516634053
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44076826266837,
+          -34.623658326322804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r116",
+        "Fecha": "10/7/2024",
+        "Hora": "14:30:00",
+        "Barrio": "Paternal",
+        "Direccion": "Donato Álvarez y San Martín",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de Civil",
+        "Nombre": "Amendrentamiento - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Dos hombres vestidos de civil se me acercaron. Los dos, de canuto, me mostraron sus respectivas credenciales de la PFA, que no pude más que ver por encima. Me pidieron el DNI, me negué, me dijeron que se trataba de \"Control poblacional\". Les di el DNI, me hicieron preguntas sobre drogas: si consumía, si tenía encima, si compraba cerca, etcétera. Corrieron el número de mi DNI por lo que parecía ser una base de datos (es lo poco que pude ver porque me acerqué al celular que estaban usando). No me pidieron nada más. Me dijeron que estaba todo bien y me dejaron ir. Todo el procedimiento duró, como mucho, dos minutos."
       },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r117",
-            "Fecha": "27/8/2024",
-            "Hora": "16:10:00",
-            "Barrio": "Recoleta",
-            "Direccion": "Av. Sta. Fe 2501",
-            "Lugar": "en la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Pedido de datos injustificados",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Un policía de la Ciudad en la estación de subte Pueyrredón de la línea “d” de subte frenaba y demoraba aleatoriamente a varones y les solicitaba su número de DNI para introducirlos en una aplicación sin explicar motivos ni referir resultados de búsqueda en el sistema."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.402583921468626,
-              -34.59410047010759
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r118",
-            "Fecha": "26/9/2024",
-            "Hora": "17:20:00",
-            "Barrio": "Retiro",
-            "Direccion": "Estación de tren Mitre - Retiro",
-            "Lugar": "en la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Amedrentamiento - Detención Injustificada",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Dos policías demoraron a un joven por estar con un vapeador en la calle. Le decían cosas como “te querés pasar de vivo vos?” y le pidieron el DNI."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.37472374605191,
-              -34.59156896228299
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r119",
-            "Fecha": "7/10/2024",
-            "Hora": "15:15:00",
-            "Barrio": "Chacarita",
-            "Direccion": "Rosetti y Av. Chorroarín",
-            "Lugar": "en la vía pública",
-            "fuerza_involucrada": "Policía de Civil",
-            "Nombre": "Pedido de datos injustificados",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Dos policías de civil le pidieron del DNI a la denunciante, uno sólo portaba identificación. Como no tenía el documento físico le pidieron sólo el número y a la pregunta de para qué era le respondieron que para averiguación de antecedentes. Al no encontrarle ninguno la dejaron seguir caminando."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.4695167846579,
-              -34.5814142846518
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r120",
-            "Fecha": "16/10/2024",
-            "Hora": "1:00:00",
-            "Barrio": "Recoleta",
-            "Direccion": "Marcelo T. De Alvear 1851",
-            "Lugar": "en la vía pública",
-            "fuerza_involucrada": "Policía de Civil",
-            "Nombre": "Amedrentamiento",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Dos alumnos de la Escuela Superior Carlos Pellegrini salían de la escuela cuando se encontraba tomada para comprar insumos a una farmacia. Al salir vieron un auto rojo que estaba aproximadamente a diez metros del colegio y salieron cuatro policías uniformados que los siguieron durante media cuadra. No pudieron ver la identificación de los policías pero sí anotaron la patente del auto."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.394021984657904,
-              -34.596643418580065
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r121",
-              "Fecha": "2024-11-24",
-              "Hora": "01:30:00",
-              "Barrio": "Monsterrat",
-              "Direccion": "Salta 668",
-              "Lugar": "en la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Amedrentamiento - hostigamiento",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Un patrullero detuvo a dos chicos que parecían menores de edad a quienes amedrentaban diciéndoles que “cerraran el orto” mientras ellos les decían que no habían hecho nada."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.38292584232895,
-                  -34.61600055973933
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46401420669479,
+          -34.59813516634053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r117",
+        "Fecha": "27/8/2024",
+        "Hora": "16:10:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Av. Sta. Fe 2501",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Pedido de datos injustificados",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un policía de la Ciudad en la estación de subte Pueyrredón de la línea “d” de subte frenaba y demoraba aleatoriamente a varones y les solicitaba su número de DNI para introducirlos en una aplicación sin explicar motivos ni referir resultados de búsqueda en el sistema."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r122",
-              "Fecha": "2024-11-23",
-              "Hora": "16:50:00",
-              "Barrio": "San Nicolás",
-              "Direccion": "Maipu y Lavalle",
-              "Lugar": "en la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Amedrentamiento - hostigamiento",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Unos policías sujetaron a un adolescente y un adulto que entraban a un edificio y de forma brusca los colocaron contra la pared. Las dos personas se negaron alegando que no habían hecho nada y en ese momento salió una mujer del edificio donde estaba entrando el menor y comenzó a gritar que es menor de edad y que qué estaban haciendo. Allí el niño entró con la madre y el adulto se quedó en la vereda. Los policías le continuaron gritando e insistiendo que se pusieran contra la pared. Sin embargo al darse cuenta que había gente observando los agentes se retiraron pero antes de irse le dijeron al hombre “ya te vamos a agarrar a vos, tenés la reja marcada en la cara”."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.37673608650655,
-                  -34.602080038973654
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.402583921468626,
+          -34.59410047010759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r118",
+        "Fecha": "26/9/2024",
+        "Hora": "17:20:00",
+        "Barrio": "Retiro",
+        "Direccion": "Estación de tren Mitre - Retiro",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - Detención Injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Dos policías demoraron a un joven por estar con un vapeador en la calle. Le decían cosas como “te querés pasar de vivo vos?” y le pidieron el DNI."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r123",
-              "Fecha": "2024-05-30",
-              "Hora": "09:00:00",
-              "Barrio": "Retiro",
-              "Direccion": "Villa 31",
-              "Lugar": "en la vía pública",
-              "fuerza_involucrada": "Policia de la Ciudad",
-              "Nombre": "Amedrentamiento - Desalojo",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "La justicia ordenó desalojar la Galería sin Frontera en la Villa 31 donde viven 20 mujeres y sus hijos. La mayoría vienen de haber vivido violencia de género."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.37810567252885,
-                  -34.58326318065299
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37472374605191,
+          -34.59156896228299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r119",
+        "Fecha": "7/10/2024",
+        "Hora": "15:15:00",
+        "Barrio": "Chacarita",
+        "Direccion": "Rosetti y Av. Chorroarín",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de Civil",
+        "Nombre": "Pedido de datos injustificados",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Dos policías de civil le pidieron del DNI a la denunciante, uno sólo portaba identificación. Como no tenía el documento físico le pidieron sólo el número y a la pregunta de para qué era le respondieron que para averiguación de antecedentes. Al no encontrarle ninguno la dejaron seguir caminando."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r124",
-              "Fecha": "2024-06-06",
-              "Hora": "12:00:00",
-              "Barrio": "San Nicolás",
-              "Direccion": "Talcahuano y Tucumán",
-              "Lugar": "en la vía pública",
-              "fuerza_involucrada": "Policia Federal",
-              "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Represión policial en protesta judicial."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.38539187116416,
-                  -34.60116923254584
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4695167846579,
+          -34.5814142846518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r120",
+        "Fecha": "16/10/2024",
+        "Hora": "1:00:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Marcelo T. De Alvear 1851",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de Civil",
+        "Nombre": "Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Dos alumnos de la Escuela Superior Carlos Pellegrini salían de la escuela cuando se encontraba tomada para comprar insumos a una farmacia. Al salir vieron un auto rojo que estaba aproximadamente a diez metros del colegio y salieron cuatro policías uniformados que los siguieron durante media cuadra. No pudieron ver la identificación de los policías pero sí anotaron la patente del auto."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r125",
-              "Fecha": "2024-06-06",
-              "Hora": "12:00:00",
-              "Barrio": "San Telmo",
-              "Direccion": "Av. Presidente Julio A. Roca 651",
-              "Lugar": "en la vía pública",
-              "fuerza_involucrada": "Policia de la Ciudad",
-              "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Represión policial a cartoneros en las puertas del ex Ministerio de Desarrollo Productivo."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.375632184656595,
-                  -34.61070535733481
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.394021984657904,
+          -34.596643418580065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r121",
+        "Fecha": "2024-11-24",
+        "Hora": "01:30:00",
+        "Barrio": "Monsterrat",
+        "Direccion": "Salta 668",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - hostigamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un patrullero detuvo a dos chicos que parecían menores de edad a quienes amedrentaban diciéndoles que “cerraran el orto” mientras ellos les decían que no habían hecho nada."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r126",
-          "Fecha": "2024-06-12",
-          "Hora": "13:30:00",
-          "Barrio": "Balvanera",
-          "Direccion": "Entre Ríos e Hipolito Yrigoyen",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Gendarmería y Policía (no encontré cuál)",
-          "Nombre": "Represión a la protesta - Gas pimienta",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "Represión ley Bases: Reprimen a manifestantes y trabajadores de prensa."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.39188919036211,
-            -34.61018484067802
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38292584232895,
+          -34.61600055973933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r122",
+        "Fecha": "2024-11-23",
+        "Hora": "16:50:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Maipu y Lavalle",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - hostigamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Unos policías sujetaron a un adolescente y un adulto que entraban a un edificio y de forma brusca los colocaron contra la pared. Las dos personas se negaron alegando que no habían hecho nada y en ese momento salió una mujer del edificio donde estaba entrando el menor y comenzó a gritar que es menor de edad y que qué estaban haciendo. Allí el niño entró con la madre y el adulto se quedó en la vereda. Los policías le continuaron gritando e insistiendo que se pusieran contra la pared. Sin embargo al darse cuenta que había gente observando los agentes se retiraron pero antes de irse le dijeron al hombre “ya te vamos a agarrar a vos, tenés la reja marcada en la cara”."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r127",
-          "Fecha": "2024-06-12",
-          "Hora": "13:50:00",
-          "Barrio": "Balvanera",
-          "Direccion": "Av. Rivadavia y Callao",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Prefectura Naval",
-          "Nombre": "Represión a la protesta - Gas pimienta",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "Represión Ley Bases: tiraron gas pimienta y golpearon a Carlos Castagneto."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.391707003854656,
-            -34.60923965171021
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37673608650655,
+          -34.602080038973654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r123",
+        "Fecha": "2024-05-30",
+        "Hora": "09:00:00",
+        "Barrio": "Retiro",
+        "Direccion": "Villa 31",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Amedrentamiento - Desalojo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La justicia ordenó desalojar la Galería sin Frontera en la Villa 31 donde viven 20 mujeres y sus hijos. La mayoría vienen de haber vivido violencia de género."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r128",
-          "Fecha": "2024-06-12",
-          "Hora": "13:50:00",
-          "Barrio": "Balvanera",
-          "Direccion": "Av. Rivadavia y Callao",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Prefectura Naval",
-          "Nombre": "Represión a la protesta - Gas pimienta",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "Represión Ley Bases: Prefectura Naval lanza gases a diputados."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.391707003854656,
-            -34.60923965171021
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37810567252885,
+          -34.58326318065299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r124",
+        "Fecha": "2024-06-06",
+        "Hora": "12:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Talcahuano y Tucumán",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policia Federal",
+        "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión policial en protesta judicial."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r129",
-          "Fecha": "2024-06-12",
-          "Hora": "14:00:00",
-          "Barrio": "Balvanera",
-          "Direccion": "Mitre y Callao",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Policía Federal",
-          "Nombre": "Represión a la protesta - Golpes - Detenciones injustificadas",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "Represión Ley Bases: la policía bloquea el acceso a sus viviendas a los vecinos en la zona del Congreso. Detenciones y represión."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.39225597403423,
-            -34.60477248818361
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38539187116416,
+          -34.60116923254584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r125",
+        "Fecha": "2024-06-06",
+        "Hora": "12:00:00",
+        "Barrio": "San Telmo",
+        "Direccion": "Av. Presidente Julio A. Roca 651",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión policial a cartoneros en las puertas del ex Ministerio de Desarrollo Productivo."
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Contador": "r130",
-          "Fecha": "2024-06-13",
-          "Hora": "16:00:00",
-          "Barrio": "Bajo Flores",
-          "Direccion": "Av. Rivera Indarte y Av. Riestra",
-          "Lugar": "en la vía pública",
-          "fuerza_involucrada": "Policía de la Ciudad",
-          "Nombre": "Despliegue represivo, allanamiento y detenciones injustificadas",
-          "policia_involucrado": "No se identificaron",
-          "cronica": "Vecinos y vecinas del Barrio 1-11-14 (Bajo Flores) denuncian que este viernes por la tarde se realizó un allanamiento con un fuerte despliegue represivo por parte de la Policía de la Ciudad. Hubo heridos por balas de goma, gases y golpes."
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.44082398465661,
-            -34.65026588497189
-          ]
-        }
-      },    
-  
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r131",
-            "Fecha": "2024-06-18",
-            "Hora": "12:00:00",
-            "Barrio": "Flores",
-            "Direccion": "Avenida Avellaneda y Helguera",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "Amendrantamiento - Intimidación - Secuestro mercadería",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Operativo en Avenida Avellaneda, Flores. Allanamiento e incautación de mercaderia a vendedores ambulantes."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.4748831227471,
-              -34.62706564980728
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r132",
-            "Fecha": "2025-06-19",
-            "Hora": "11:00:00",
-            "Barrio": "Ezeiza",
-            "Direccion": "Constituyentes 1804",
-            "Lugar": "Complejo Penintenciario Ezeiza",
-            "fuerza_involucrada": "Servicio Peninteciario",
-            "Nombre": "Intimidación-gases",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Represión Ley Bases: entrevista a un vendedor ambulante terminó detenido en el congreso."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.53784118020375,
-              -34.845946323995655
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r133",
-            "Fecha": "2024-06-25",
-            "Hora": "13:30:00",
-            "Barrio": "Balvanera",
-            "Direccion": "Callao y Rivadavia",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "Desalojo vendedores ambulantes",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Desalojo a Vendedor ambulante."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39198961919817,
-              -34.60907306969798
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r134",
-            "Fecha": "2024-07-01",
-            "Hora": "10:00:00",
-            "Barrio": "Villa Martelli",
-            "Direccion": "Avenida Los Constituyentes y gral Paz",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Represión protesta a trabajadores del INTI."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.50919907939663,
-              -34.57002489999999
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r135",
-            "Fecha": "2024-07-02",
-            "Hora": "19:00:00",
-            "Barrio": "Balvanera",
-            "Direccion": "Av de Mayo y Salta",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Grupo de Acción Motorizada (GAM)",
-            "Nombre": "Detención injustificada - Amedrentamiento - Intimidación",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "La policía detuvo a una persona en situación de calle y fue imputada por sedición democrática."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.38349908650754,
-              -34.609176430319586
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r136",
-            "Fecha": "2024-07-12",
-            "Hora": "11:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Lima y Mexico",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "Amedrentamiento y explusión del espoacio público",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Golpes y desalojo en el espacio publico a persona en situación de calle."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.3816469576717,
-              -34.615283399999974
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r137",
-            "Fecha": "2024-07-12",
-            "Hora": "12:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Av. 9 de Julio 1925",
-            "Lugar": "en via pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "Amedentramiento",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Envía policías con armas de fuego a la marcha de residentes (profesionales de salud) que reclaman por cobrar abajo de la línea de pobreza."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.38140466152622,
-              -34.612125562935915
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r138",
-            "Fecha": "2024-07-12",
-            "Hora": "17:00:00",
-            "Barrio": "Retito",
-            "Direccion": "Padre Mujica",
-            "Lugar": "en via pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "Represión- Amedrentamiento - Intimidación",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Persecución y hostigamiento a cartoneros."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.3785431492458,
-              -34.58249271370606
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r139",
-            "Fecha": "2024-07-25",
-            "Hora": "12:30:00",
-            "Barrio": "Constitución",
-            "Direccion": "Constitución y San José",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policia de la Ciudad (de civil)",
-            "Nombre": "disparo",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Constitución: una policía que estaba de civil baleó a una mujer que quiso robarle con un cuchillo."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.38585102883584,
-              -34.624671613338855
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r140",
-            "Fecha": "2024-07-26",
-            "Hora": "14:30:00",
-            "Barrio": "Ciudad Oculta",
-            "Direccion": "Simón Guerrero y Suviría",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policia de la Ciudad",
-            "Nombre": "operatio represivo",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Allanamientos en Barrio 15 (TW Waldo Wolf)."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.49154484892812,
-              -34.67239183688994
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r141",
-            "Fecha": "2024-07-29",
-            "Hora": "16:00:00",
-            "Barrio": "La Boca",
-            "Direccion": "Avenida P. Mendoza y Necochea",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Operativo represivo, desalojo",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Un operativo de desalojo sin orden judicial sino por decreto, a familias que viven sobre Necochea y Pedro de Mendoza."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.3561727,
-              -34.63719689065573
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r142",
-            "Fecha": "2024-07-30",
-            "Hora": "16:00:00",
-            "Barrio": "La Boca",
-            "Direccion": "Avenida P. Mendoza y Necochea",
-            "Lugar": "en vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Operativo represivo, desalojo",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Desalojo contra familias impulsado por el Gobierno de la Ciudad. Los vecinos y vecinas denuncian que el operativo represivo de gran magnitud está siendo llevado adelante a pesar de no presentar orden judicial. Las viviendas se ubican en las calles Necochea y Pedro de Mendoza."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.3561727,
-              -34.63719689065573
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r143",
-            "Fecha": "2024-08-08",
-            "Hora": "19:00:00",
-            "Barrio": "Constitución",
-            "Direccion": "Av. Brasil 1128",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Represión a la protesta - golpes",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "En el marco de los aumentos de transporte, un joven intentó saltar el molinete del tren, la policía quiso detenerlo y la gente en la estación lo defendió. Se produjeron incidentes entre las personas y la policía."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.380558457446426,
-              -34.62807808840207
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r144",
-            "Fecha": "2024-08-14",
-            "Hora": "12:30:00",
-            "Barrio": "Constitución",
-            "Direccion": "Pedro Echagüe 1265",
-            "Lugar": "Otro",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Amedrentamiento - Intimidación",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Por pedido del juez Ercolini la policía federal irrumpió en la sede central de la UTEP en Constitución con violencia, en el lugar donde se desarrolla un comedor preguntando por una cooperativa desconocida que ni siquiera tenía domicilio en el lugar."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.38346618975933,
-              -34.62937448442345
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r145",
-            "Fecha": "2024-08-17",
-            "Hora": "08:30:00",
-            "Barrio": "Caballito",
-            "Direccion": "Parque Centenario",
-            "Lugar": "En una plaza o parque",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Amedrentamiento - Expulsión del espacio físico",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "En el marco de un operativo violento de la policía de la ciudad contra trabajadores, centenares de policías rodearon el Parque Centenario para desalojar e impedir que manteros se instalen, también para detener a vendedores y secuestrarles su mercadería y pertenencias."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.43544609161017,
-              -34.60597555175838
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r146",
-            "Fecha": "2024-08-23",
-            "Hora": "14:30:00",
-            "Barrio": "San Nicolás",
-            "Direccion": "Uruguay 626",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Detención injustificada - Expulsión del espacio físico",
-            "policia_involucrado": "Ezequiel Guerrero",
-            "cronica": "Violenta detención entre cuatro policías de la Ciudad a un vendedor de paltas."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.386859059075306,
-              -34.60123071859744
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r147",
-            "Fecha": "2024-08-26",
-            "Hora": "09:00:00",
-            "Barrio": "La Boca",
-            "Direccion": "Av. Pedro de Mendoza 1488",
-            "Lugar": "En un domicilio",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Desalojo ilegal - Expulsión del espacio físico - Golpes",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "El gobierno de Jorge Macri intentó desalojar a 15 familias del barrio de La Boca en contra de la orden de un juez, por decreto y con un operativo policial desmedido y represivo que violentó a chicos, chicas y mujeres, entre las que había una embarazada y otra con una discapacidad."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.35597330325209,
-              -34.637028007908874
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r148",
-            "Fecha": "2024-08-28",
-            "Hora": "17:00:00",
-            "Barrio": "Balvanera",
-            "Direccion": "Av. Corrientes 3247",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Detención injustificada - Expulsión del espacio físico",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Un grupo de policías de la Ciudad quiso detener y secuestrarle los instrumentos a un grupo de artistas callejeros que tocaban frente al Abasto. Vecinos y transeúntes intervinieron logrando frenar la detención y el secuestro de los instrumentos."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.41097361236839,
-              -34.603805113318785
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r149",
-            "Fecha": "2024-08-28",
-            "Hora": "15:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Av. Rivadavia y Av. Callao",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Represión a la protesta - golpes - gas pimienta",
-            "policia_involucrado": "Agente J. D. Altieri y el Subcomisario Darío Alejandro López",
-            "cronica": "Violenta represión a la protesta a jubilados en la zona del Congreso. La Mesa Coordinadora Nacional de Organizaciones de Jubilados y Pensionados de la República Argentina convocó a una jornada de lucha para decirle “no al veto a la movilidad jubilatoria” y marchar hacia Plaza de Mayo. La Comisión Provincial por la Memoria denunció al menos 10 heridos."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39194670325331,
-              -34.60902891791718
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r150",
-            "Fecha": "2024-09-02",
-            "Hora": "12:30:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Defensa 119",
-            "Lugar": "Otro",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Amedrentamiento - Intimidación - Expulsión del espacio físico",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Desde Madres de Plaza de Mayo denunciaron que el interventor Eduardo Maurizzio, designado de manera ilegal por el denominado ministerio de “Capital Humano”, desplegó a la Policía Federal para cerrar por la fuerza la Universidad, dejando adentro encerrados a la rectora Cristina Caamaño y estudiantes dentro de la sede."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.372238218595946,
-              -34.60910907557746
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r151",
-            "Fecha": "2024-09-04",
-            "Hora": "15:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Av. Entre Ríos y Av. Rivadavia",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Represión a la protesta - golpes",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Violenta represión en la zona del Congreso ante una movilización de jubiladxs contra el ajuste llevado adelante por el gobierno nacional. Se denunció un saldo de 27 heridxs y 2 detenidxs."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39197821859608,
-              -34.609061875462004
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r152",
-            "Fecha": "2024-09-05",
-            "Hora": "14:00:00",
-            "Barrio": "Villa Crespo",
-            "Direccion": "Corrientes y Malabia",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Expulsión del espacio físico",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "La Policía de la Ciudad le secuestró sus paltas a dos vendedores ambulantes."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.439747103253694,
-              -34.59894171581181
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r153",
-            "Fecha": "2024-09-11",
-            "Hora": "03:00:00",
-            "Barrio": "La Boca",
-            "Direccion": "Av. Don Pedro de Mendoza e Iberlucea",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Expulsión del espacio físico - Amedrentamiento",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Durante la madrugada del 11 de septiembre del 2024, personal del gobierno de la ciudad de Espacio Público e Higiene Urbana, junto a un gran operativo policial, desmanteló y trasladó los puestos de las ferias artesanales de Vuelta de Rocha I y II hacia la plaza de los bomberos en el barrio de La Boca."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.361816132087576,
-              -34.63913163218176
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r154",
-            "Fecha": "2024-09-11",
-            "Hora": "16:30:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Plaza Congreso",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Golpes - Represión a la protesta",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Durante la represión a una movilización de jubiladxs al Congreso, un miembro de la Policía Federal atropelló a una jubilada. La gente alrededor bajó al policía de la moto."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39033340325326,
-              -34.6096022096152
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r155",
-            "Fecha": "2024-09-11",
-            "Hora": "11:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Plaza Congreso",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía Federal, Gendarmería, Prefectura, PSA, Policía de la Ciudad y SPF",
-            "Nombre": "Represión a la protesta - Golpes - Gas pimienta - Gases lacrimógenos - Balas de goma",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Brutal represión policial en el marco de la votación en el Congreso sobre el veto del Presidente Javier Milei a la Ley de Movilidad Jubilatoria. Se denunció la participación en el operativo de policías sin identificar."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39033340325326,
-              -34.6096022096152
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r156",
-            "Fecha": "2024-09-11",
-            "Hora": "15:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Plaza Congreso",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía Federal",
-            "Nombre": "Represión a la protesta - Gas pimienta",
-            "policia_involucrado": "Gerardo Ariel Perillo Scampini, el Jefe del Operativo en calle, agente Cristian Rivaldi, agresor.",
-            "cronica": "Un agente de la PFA gaseó una niña de 10 años durante la brutal represión policial en el marco de la votación en el Congreso sobre el veto del Presidente Javier Milei a la Ley de Movilidad Jubilatoria."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39033340325326,
-              -34.6096022096152
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r157",
-            "Fecha": "2024-09-13",
-            "Hora": "21:00:00",
-            "Barrio": "Balvanera",
-            "Direccion": "Av. Belgrano 2670",
-            "Lugar": "Otro",
-            "fuerza_involucrada": "Cuerpo Especial de Seguridad y Vigilancia (civiles)",
-            "Nombre": "Golpes - Amedrentamiento",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "50 agentes del cuerpo golpearon ferozmente a los 19 jóvenes alojados en el Centro de Régimen Cerrado Manuel Belgrano a modo de represalia, incluyendo un caso de un joven siendo empujado por una escalera. Denunciaron que varios tuvieron que ser trasladados a hospitales luego de la paliza recibida, algunos incluso con fracturas."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.40198832821213,
-              -34.60908361623927
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r158",
-            "Fecha": "2024-09-17",
-            "Hora": "17:50:00",
-            "Barrio": "San Nicolás",
-            "Direccion": "Corrientes y Esmeralda",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Detención arbitraria",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Detención violenta de un menor de 16 años por parte de la Policía de la Ciudad"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.37792930140389,
-              -34.603007582111424
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r159",
-            "Fecha": "2024-09-21",
-            "Hora": "14:00:00",
-            "Barrio": "Balvanera",
-            "Direccion": "Perón y Castelli",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Amedrentamiento - Intimidación - Expulsión del espacio físico",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "La Policía de la Ciudad en un gran operativo quiso desalojar manteros y se produjeron incidentes. Los manteros denunciaron que vecinos del barrio gasearon a vendedores senegaleses."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.40485370880252,
-              -34.60750256433014
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r160",
-            "Fecha": "2024-10-02",
-            "Hora": "10:00:00",
-            "Barrio": "Barracas",
-            "Direccion": "Villa 21-24",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Golpes - Detenciones arbitrarias - Gases lacrimógenos - Balas de goma",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Vecinos y vecinas de la Villa 21-24 denunciaron un sorpresivo y violento operativo por parte de la Policía de la Ciudad que terminó con heridos por balas de goma, gases lacrimógenos y 10 detenidos. El GCBA lo publicitó como un \"operativo de saturación\"."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.3992612588243,
-              -34.65467291889918
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r161",
-              "Fecha": "2024-10-04",
-              "Hora": "08:00:00",
-              "Barrio": "Balvanera",
-              "Direccion": "Sarmiento y Pueyrredón",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Hostigamiento - Intimidación - Amedrentamiento",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Megaoperativo \"antimanteros\" en Once desplegado por 600 efectivos de la Policía de la Ciudad, secuestrando mercadería, tirando comida a la basura, realizando 197 allanamientos (algunos sin la debida orden judicial) y requisando a un fotoperiodista."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.4059683185961,
-                  -34.60642360555972
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.375632184656595,
+          -34.61070535733481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r126",
+        "Fecha": "2024-06-12",
+        "Hora": "13:30:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Entre Ríos e Hipolito Yrigoyen",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Gendarmería y Policía (no encontré cuál)",
+        "Nombre": "Represión a la protesta - Gas pimienta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión ley Bases: Reprimen a manifestantes y trabajadores de prensa."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r162",
-              "Fecha": "2024-10-05",
-              "Hora": "09:00:00",
-              "Barrio": "Flores",
-              "Direccion": "Argerich y Bogotá",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Detención injustificada - Pedido de coimas - Golpes",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Vecinos del barrio de Flores denuncian la detención arbitraria de Leonardo Peña, vendedor ambulante, por haberse negado a pagar coimas y filmar a funcionarios policiales."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.472625730238434,
-                  -34.62762409422199
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39188919036211,
+          -34.61018484067802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r127",
+        "Fecha": "2024-06-12",
+        "Hora": "13:50:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Rivadavia y Callao",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Prefectura Naval",
+        "Nombre": "Represión a la protesta - Gas pimienta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión Ley Bases: tiraron gas pimienta y golpearon a Carlos Castagneto."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r163",
-              "Fecha": "2024-10-08",
-              "Hora": "13:00:00",
-              "Barrio": "Balvanera",
-              "Direccion": "Boulogne Sur Mer y Juan Domingo Perón",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Represión a la protesta - Golpes",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Brutal represión a cientos de vendedores ambulantes y feriantes en Once luego de que el gobierno de la ciudad se llevara toda su mercadería y desarmara sus puestos de trabajo."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.40765228791068,
-                  -34.60766885481919
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.391707003854656,
+          -34.60923965171021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r128",
+        "Fecha": "2024-06-12",
+        "Hora": "13:50:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Rivadavia y Callao",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Prefectura Naval",
+        "Nombre": "Represión a la protesta - Gas pimienta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión Ley Bases: Prefectura Naval lanza gases a diputados."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r164",
-              "Fecha": "2024-10-09",
-              "Hora": "16:00:00",
-              "Barrio": "Montserrat",
-              "Direccion": "Plaza Congreso",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Represión a la protesta - Golpes - Detenciones injustificadas",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "El miércoles 9 de octubre del 2024 en la manifestación contra el veto a la Ley de Financiamiento Universitario, la Policía de la Ciudad realizó detenciones arbitrarias, al menos a 7 personas. Dejaron un saldo de 16 heridxs: golpearon a periodistas, estudiantes y mujeres. También detuvieron a un adolescente."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.3902583014036,
-                  -34.60947858568929
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.391707003854656,
+          -34.60923965171021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r129",
+        "Fecha": "2024-06-12",
+        "Hora": "14:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Mitre y Callao",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - Golpes - Detenciones injustificadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión Ley Bases: la policía bloquea el acceso a sus viviendas a los vecinos en la zona del Congreso. Detenciones y represión."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r165",
-              "Fecha": "2024-10-11",
-              "Hora": "15:00:00",
-              "Barrio": "Caballito",
-              "Direccion": "Acoyte y Rivadavia",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Detención injustificada - Amedrentamiento - Intimidación",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Un vendedor de paltas y otro chico que lo intentó defender fueron detenidos por un grupo de 15 agentes de la Policía de la Ciudad en el barrio de Caballito."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.436456287910225,
-                  -34.61820344993885
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39225597403423,
+          -34.60477248818361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r130",
+        "Fecha": "2024-06-13",
+        "Hora": "16:00:00",
+        "Barrio": "Bajo Flores",
+        "Direccion": "Av. Rivera Indarte y Av. Riestra",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Despliegue represivo, allanamiento y detenciones injustificadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Vecinos y vecinas del Barrio 1-11-14 (Bajo Flores) denuncian que este viernes por la tarde se realizó un allanamiento con un fuerte despliegue represivo por parte de la Policía de la Ciudad. Hubo heridos por balas de goma, gases y golpes."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r166",
-              "Fecha": "2024-10-15",
-              "Hora": "12:00:00",
-              "Barrio": "Balvanera",
-              "Direccion": "Av. Independencia 3065",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Amedrentamiento - Intimidación",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Intimidación con filmaciones de la Policía de la Ciudad a estudiantes de psicología en el marco de las tomas por el conflicto universitario."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.40872127441717,
-                  -34.61936785017767
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44082398465661,
+          -34.65026588497189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r131",
+        "Fecha": "2024-06-18",
+        "Hora": "12:00:00",
+        "Barrio": "Flores",
+        "Direccion": "Avenida Avellaneda y Helguera",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Amendrantamiento - Intimidación - Secuestro mercadería",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Operativo en Avenida Avellaneda, Flores. Allanamiento e incautación de mercaderia a vendedores ambulantes."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r167",
-              "Fecha": "2024-10-17",
-              "Hora": "20:00:00",
-              "Barrio": "Balvanera",
-              "Direccion": "Venezuela 1931",
-              "Lugar": "En una Comisaría",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Pedido de coimas - Intimidación",
-              "policia_involucrado": "Dos agentes de la brigada (\"Matías\" y \"Gustavo\") de la Comisaría 3ª de Combate de los Pozos",
-              "cronica": "Denuncia de Juan Grabois de pedido de coimas y secuestro de mercadería a feriantes por parte de agentes (\"Matías\" y \"Gustavo\") de la Policía de la Ciudad de la Comisaría 3ª de Combate de los Pozos."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.393619738263304,
-                  -34.61492516211564
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4748831227471,
+          -34.62706564980728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r132",
+        "Fecha": "2025-06-19",
+        "Hora": "11:00:00",
+        "Barrio": "Ezeiza",
+        "Direccion": "Constituyentes 1804",
+        "Lugar": "Complejo Penintenciario Ezeiza",
+        "fuerza_involucrada": "Servicio Peninteciario",
+        "Nombre": "Intimidación-gases",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión Ley Bases: entrevista a un vendedor ambulante terminó detenido en el congreso."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r168",
-              "Fecha": "2024-10-31",
-              "Hora": "23:00:00",
-              "Barrio": "Constitución",
-              "Direccion": "Juan de Garay y Santiago del Estero",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Detención arbitraria - Golpes",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Brutal detención entre varios policías a Georgina Orellano, referenta de AMMAR, y a otra trabajadora sexual."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.38441228140655,
-                  -34.62684661464564
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.53784118020375,
+          -34.845946323995655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r133",
+        "Fecha": "2024-06-25",
+        "Hora": "13:30:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Desalojo vendedores ambulantes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Desalojo a Vendedor ambulante."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r169",
-              "Fecha": "2024-11-01",
-              "Hora": "11:00:00",
-              "Barrio": "Floresta",
-              "Direccion": "Morón 4149",
-              "Lugar": "Otro",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Amedrentamiento - Intimidación",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "A pedido de funcionarios del gobierno de la Ciudad, efectivos de la policía de la Ciudad ingresaron en la escuela secundaria Larroque para amedrentar docentes que se habían auto convocado contra un acto para promocionar a la escuela como \"escuela piloto\" para una nueva reforma educativa."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.48780441164328,
-                  -34.62740630246397
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39198961919817,
+          -34.60907306969798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r134",
+        "Fecha": "2024-07-01",
+        "Hora": "10:00:00",
+        "Barrio": "Villa Martelli",
+        "Direccion": "Avenida Los Constituyentes y gral Paz",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión protesta a trabajadores del INTI."
       },
-      {
-          "type": "Feature",
-          "properties": {
-              "Contador": "r170",
-              "Fecha": "2024-11-03",
-              "Hora": "16:00:00",
-              "Barrio": "Palermo",
-              "Direccion": "Honduras y Armenia",
-              "Lugar": "En la vía pública",
-              "fuerza_involucrada": "Policía de la Ciudad",
-              "Nombre": "Amedrentamiento - Intimidación",
-              "policia_involucrado": "No se identificaron",
-              "cronica": "Un niño de 13 años fue retenido e intimidado por un grupo de agentes de la Policía de la Ciudad."
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -58.42812203024007,
-                  -34.58994278160073
-              ]
-          }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50919907939663,
+          -34.57002489999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r135",
+        "Fecha": "2024-07-02",
+        "Hora": "19:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av de Mayo y Salta",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Grupo de Acción Motorizada (GAM)",
+        "Nombre": "Detención injustificada - Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La policía detuvo a una persona en situación de calle y fue imputada por sedición democrática."
       },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r171",
-            "Fecha": "2024-11-06",
-            "Hora": "14:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Av de Mayo 600",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "En el marco de una movilización de jubiladxs, Gerardo Mirkin, un jubilado se descompuso y convulsionó luego de que la policía lo golpeara, lo tirara al piso y lo arrastrara."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.37474023208901,
-              -34.60868998702038
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r172",
-            "Fecha": "2024-11-08",
-            "Hora": "16:00:00",
-            "Barrio": "La Boca",
-            "Direccion": "Martín Rodríguez y Lamadrid",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Represión a la protesta - Amedrentamiento",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "En el marco de una movilización de vecinxs de La Boca, un fuerte operativo policial represivo conformado por la Policía de la Ciudad evita avanzar a las personas y produce una fragmentaron la columna en las calles Martín Rodríguez y Lamadrid."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.35939926092344,
-              -34.63743597244297
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r173",
-            "Fecha": "2024-11-20",
-            "Hora": "12:30:00",
-            "Barrio": "Monserrat",
-            "Direccion": "Plaza Congreso",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Detención injustificada",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Un operativo completamente desproporcionado de más de 20 policías para detener a un vendedor ambulante de salchipapa en la Plaza Congreso"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.39024757256788,
-              -34.60954039767525
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r174",
-            "Fecha": "2024-11-22",
-            "Hora": "18:00:00",
-            "Barrio": "San Telmo",
-            "Direccion": "Parque Lezama",
-            "Lugar": "En una plaza o parque",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Golpes - Gas pimienta - Balas de goma",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "En el Parque Lezama, en el marco de una batucada entre egresados de colegios de la zona, se pelearon dos grupos de pibes que fueron fuertemente reprimidos con gases pimienta y balas de goma por la Policía de la Ciudad, dejando un saldo de varios heridos."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.369502359074204,
-              -34.62629624678206
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r175",
-            "Fecha": "2024-11-27",
-            "Hora": "15:00:00",
-            "Barrio": "Caballito",
-            "Direccion": "Del Barco Centenera 111",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Detención injustificada - Amedrentamiento - Intimidación",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "En el barrio de Caballito, se realizó un operativo desmedido de 12 agentes de la Policía de la Ciudad, 4 móviles y 2 motos para detener a una vendedora ambulante de jazmines."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.44116112230997,
-              -34.62098236026167
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "Contador": "r176",
-            "Fecha": "2024-11-28",
-            "Hora": "15:00:00",
-            "Barrio": "Montserrat",
-            "Direccion": "Perú 160",
-            "Lugar": "En la vía pública",
-            "fuerza_involucrada": "Policía de la Ciudad",
-            "Nombre": "Represión a la protesta - Golpes - Amedrentamiento",
-            "policia_involucrado": "No se identificaron",
-            "cronica": "Fuerte represión en el marco de una movilización de enfermerxs a la Legislatura porteña, fueron también reprimidos legiladorxs del FIT y UxP."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -58.37444296733556,
-              -34.60964162877327
-            ]
-          }
-        }         
-    
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38349908650754,
+          -34.609176430319586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r136",
+        "Fecha": "2024-07-12",
+        "Hora": "11:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Lima y Mexico",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Amedrentamiento y explusión del espoacio público",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Golpes y desalojo en el espacio publico a persona en situación de calle."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3816469576717,
+          -34.615283399999974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r137",
+        "Fecha": "2024-07-12",
+        "Hora": "12:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av. 9 de Julio 1925",
+        "Lugar": "en via pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Amedentramiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Envía policías con armas de fuego a la marcha de residentes (profesionales de salud) que reclaman por cobrar abajo de la línea de pobreza."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38140466152622,
+          -34.612125562935915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r138",
+        "Fecha": "2024-07-12",
+        "Hora": "17:00:00",
+        "Barrio": "Retito",
+        "Direccion": "Padre Mujica",
+        "Lugar": "en via pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Represión- Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Persecución y hostigamiento a cartoneros."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3785431492458,
+          -34.58249271370606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r139",
+        "Fecha": "2024-07-25",
+        "Hora": "12:30:00",
+        "Barrio": "Constitución",
+        "Direccion": "Constitución y San José",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad (de civil)",
+        "Nombre": "disparo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Constitución: una policía que estaba de civil baleó a una mujer que quiso robarle con un cuchillo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38585102883584,
+          -34.624671613338855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r140",
+        "Fecha": "2024-07-26",
+        "Hora": "14:30:00",
+        "Barrio": "Ciudad Oculta",
+        "Direccion": "Simón Guerrero y Suviría",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "operatio represivo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Allanamientos en Barrio 15 (TW Waldo Wolf)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49154484892812,
+          -34.67239183688994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r141",
+        "Fecha": "2024-07-29",
+        "Hora": "16:00:00",
+        "Barrio": "La Boca",
+        "Direccion": "Avenida P. Mendoza y Necochea",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Operativo represivo, desalojo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un operativo de desalojo sin orden judicial sino por decreto, a familias que viven sobre Necochea y Pedro de Mendoza."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3561727,
+          -34.63719689065573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r142",
+        "Fecha": "2024-07-30",
+        "Hora": "16:00:00",
+        "Barrio": "La Boca",
+        "Direccion": "Avenida P. Mendoza y Necochea",
+        "Lugar": "en vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Operativo represivo, desalojo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Desalojo contra familias impulsado por el Gobierno de la Ciudad. Los vecinos y vecinas denuncian que el operativo represivo de gran magnitud está siendo llevado adelante a pesar de no presentar orden judicial. Las viviendas se ubican en las calles Necochea y Pedro de Mendoza."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3561727,
+          -34.63719689065573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r143",
+        "Fecha": "2024-08-08",
+        "Hora": "19:00:00",
+        "Barrio": "Constitución",
+        "Direccion": "Av. Brasil 1128",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En el marco de los aumentos de transporte, un joven intentó saltar el molinete del tren, la policía quiso detenerlo y la gente en la estación lo defendió. Se produjeron incidentes entre las personas y la policía."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.380558457446426,
+          -34.62807808840207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r144",
+        "Fecha": "2024-08-14",
+        "Hora": "12:30:00",
+        "Barrio": "Constitución",
+        "Direccion": "Pedro Echagüe 1265",
+        "Lugar": "Otro",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Por pedido del juez Ercolini la policía federal irrumpió en la sede central de la UTEP en Constitución con violencia, en el lugar donde se desarrolla un comedor preguntando por una cooperativa desconocida que ni siquiera tenía domicilio en el lugar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38346618975933,
+          -34.62937448442345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r145",
+        "Fecha": "2024-08-17",
+        "Hora": "08:30:00",
+        "Barrio": "Caballito",
+        "Direccion": "Parque Centenario",
+        "Lugar": "En una plaza o parque",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En el marco de un operativo violento de la policía de la ciudad contra trabajadores, centenares de policías rodearon el Parque Centenario para desalojar e impedir que manteros se instalen, también para detener a vendedores y secuestrarles su mercadería y pertenencias."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43544609161017,
+          -34.60597555175838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r146",
+        "Fecha": "2024-08-23",
+        "Hora": "14:30:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Uruguay 626",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada - Expulsión del espacio físico",
+        "policia_involucrado": "Ezequiel Guerrero",
+        "cronica": "Violenta detención entre cuatro policías de la Ciudad a un vendedor de paltas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.386859059075306,
+          -34.60123071859744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r147",
+        "Fecha": "2024-08-26",
+        "Hora": "09:00:00",
+        "Barrio": "La Boca",
+        "Direccion": "Av. Pedro de Mendoza 1488",
+        "Lugar": "En un domicilio",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Desalojo ilegal - Expulsión del espacio físico - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El gobierno de Jorge Macri intentó desalojar a 15 familias del barrio de La Boca en contra de la orden de un juez, por decreto y con un operativo policial desmedido y represivo que violentó a chicos, chicas y mujeres, entre las que había una embarazada y otra con una discapacidad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.35597330325209,
+          -34.637028007908874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r148",
+        "Fecha": "2024-08-28",
+        "Hora": "17:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Corrientes 3247",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un grupo de policías de la Ciudad quiso detener y secuestrarle los instrumentos a un grupo de artistas callejeros que tocaban frente al Abasto. Vecinos y transeúntes intervinieron logrando frenar la detención y el secuestro de los instrumentos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41097361236839,
+          -34.603805113318785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r149",
+        "Fecha": "2024-08-28",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av. Rivadavia y Av. Callao",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - golpes - gas pimienta",
+        "policia_involucrado": "Agente J. D. Altieri y el Subcomisario Darío Alejandro López",
+        "cronica": "Violenta represión a la protesta a jubilados en la zona del Congreso. La Mesa Coordinadora Nacional de Organizaciones de Jubilados y Pensionados de la República Argentina convocó a una jornada de lucha para decirle “no al veto a la movilidad jubilatoria” y marchar hacia Plaza de Mayo. La Comisión Provincial por la Memoria denunció al menos 10 heridos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39194670325331,
+          -34.60902891791718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r150",
+        "Fecha": "2024-09-02",
+        "Hora": "12:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Defensa 119",
+        "Lugar": "Otro",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Amedrentamiento - Intimidación - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Desde Madres de Plaza de Mayo denunciaron que el interventor Eduardo Maurizzio, designado de manera ilegal por el denominado ministerio de “Capital Humano”, desplegó a la Policía Federal para cerrar por la fuerza la Universidad, dejando adentro encerrados a la rectora Cristina Caamaño y estudiantes dentro de la sede."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.372238218595946,
+          -34.60910907557746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r151",
+        "Fecha": "2024-09-04",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av. Entre Ríos y Av. Rivadavia",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Violenta represión en la zona del Congreso ante una movilización de jubiladxs contra el ajuste llevado adelante por el gobierno nacional. Se denunció un saldo de 27 heridxs y 2 detenidxs."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39197821859608,
+          -34.609061875462004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r152",
+        "Fecha": "2024-09-05",
+        "Hora": "14:00:00",
+        "Barrio": "Villa Crespo",
+        "Direccion": "Corrientes y Malabia",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La Policía de la Ciudad le secuestró sus paltas a dos vendedores ambulantes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.439747103253694,
+          -34.59894171581181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r153",
+        "Fecha": "2024-09-11",
+        "Hora": "03:00:00",
+        "Barrio": "La Boca",
+        "Direccion": "Av. Don Pedro de Mendoza e Iberlucea",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio físico - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Durante la madrugada del 11 de septiembre del 2024, personal del gobierno de la ciudad de Espacio Público e Higiene Urbana, junto a un gran operativo policial, desmanteló y trasladó los puestos de las ferias artesanales de Vuelta de Rocha I y II hacia la plaza de los bomberos en el barrio de La Boca."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.361816132087576,
+          -34.63913163218176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r154",
+        "Fecha": "2024-09-11",
+        "Hora": "16:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Golpes - Represión a la protesta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Durante la represión a una movilización de jubiladxs al Congreso, un miembro de la Policía Federal atropelló a una jubilada. La gente alrededor bajó al policía de la moto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39033340325326,
+          -34.6096022096152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r155",
+        "Fecha": "2024-09-11",
+        "Hora": "11:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía Federal, Gendarmería, Prefectura, PSA, Policía de la Ciudad y SPF",
+        "Nombre": "Represión a la protesta - Golpes - Gas pimienta - Gases lacrimógenos - Balas de goma",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Brutal represión policial en el marco de la votación en el Congreso sobre el veto del Presidente Javier Milei a la Ley de Movilidad Jubilatoria. Se denunció la participación en el operativo de policías sin identificar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39033340325326,
+          -34.6096022096152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r156",
+        "Fecha": "2024-09-11",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - Gas pimienta",
+        "policia_involucrado": "Gerardo Ariel Perillo Scampini, el Jefe del Operativo en calle, agente Cristian Rivaldi, agresor.",
+        "cronica": "Un agente de la PFA gaseó una niña de 10 años durante la brutal represión policial en el marco de la votación en el Congreso sobre el veto del Presidente Javier Milei a la Ley de Movilidad Jubilatoria."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39033340325326,
+          -34.6096022096152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r157",
+        "Fecha": "2024-09-13",
+        "Hora": "21:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Belgrano 2670",
+        "Lugar": "Otro",
+        "fuerza_involucrada": "Cuerpo Especial de Seguridad y Vigilancia (civiles)",
+        "Nombre": "Golpes - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "50 agentes del cuerpo golpearon ferozmente a los 19 jóvenes alojados en el Centro de Régimen Cerrado Manuel Belgrano a modo de represalia, incluyendo un caso de un joven siendo empujado por una escalera. Denunciaron que varios tuvieron que ser trasladados a hospitales luego de la paliza recibida, algunos incluso con fracturas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40198832821213,
+          -34.60908361623927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r158",
+        "Fecha": "2024-09-17",
+        "Hora": "17:50:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Corrientes y Esmeralda",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención arbitraria",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Detención violenta de un menor de 16 años por parte de la Policía de la Ciudad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37792930140389,
+          -34.603007582111424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r159",
+        "Fecha": "2024-09-21",
+        "Hora": "14:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Perón y Castelli",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - Intimidación - Expulsión del espacio físico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La Policía de la Ciudad en un gran operativo quiso desalojar manteros y se produjeron incidentes. Los manteros denunciaron que vecinos del barrio gasearon a vendedores senegaleses."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40485370880252,
+          -34.60750256433014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r160",
+        "Fecha": "2024-10-02",
+        "Hora": "10:00:00",
+        "Barrio": "Barracas",
+        "Direccion": "Villa 21-24",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Golpes - Detenciones arbitrarias - Gases lacrimógenos - Balas de goma",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Vecinos y vecinas de la Villa 21-24 denunciaron un sorpresivo y violento operativo por parte de la Policía de la Ciudad que terminó con heridos por balas de goma, gases lacrimógenos y 10 detenidos. El GCBA lo publicitó como un \"operativo de saturación\"."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3992612588243,
+          -34.65467291889918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r161",
+        "Fecha": "2024-10-04",
+        "Hora": "08:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Sarmiento y Pueyrredón",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento - Intimidación - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Megaoperativo \"antimanteros\" en Once desplegado por 600 efectivos de la Policía de la Ciudad, secuestrando mercadería, tirando comida a la basura, realizando 197 allanamientos (algunos sin la debida orden judicial) y requisando a un fotoperiodista."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4059683185961,
+          -34.60642360555972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r162",
+        "Fecha": "2024-10-05",
+        "Hora": "09:00:00",
+        "Barrio": "Flores",
+        "Direccion": "Argerich y Bogotá",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada - Pedido de coimas - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Vecinos del barrio de Flores denuncian la detención arbitraria de Leonardo Peña, vendedor ambulante, por haberse negado a pagar coimas y filmar a funcionarios policiales."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.472625730238434,
+          -34.62762409422199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r163",
+        "Fecha": "2024-10-08",
+        "Hora": "13:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Boulogne Sur Mer y Juan Domingo Perón",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Brutal represión a cientos de vendedores ambulantes y feriantes en Once luego de que el gobierno de la ciudad se llevara toda su mercadería y desarmara sus puestos de trabajo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40765228791068,
+          -34.60766885481919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r164",
+        "Fecha": "2024-10-09",
+        "Hora": "16:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - Golpes - Detenciones injustificadas",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El miércoles 9 de octubre del 2024 en la manifestación contra el veto a la Ley de Financiamiento Universitario, la Policía de la Ciudad realizó detenciones arbitrarias, al menos a 7 personas. Dejaron un saldo de 16 heridxs: golpearon a periodistas, estudiantes y mujeres. También detuvieron a un adolescente."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3902583014036,
+          -34.60947858568929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r165",
+        "Fecha": "2024-10-11",
+        "Hora": "15:00:00",
+        "Barrio": "Caballito",
+        "Direccion": "Acoyte y Rivadavia",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada - Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un vendedor de paltas y otro chico que lo intentó defender fueron detenidos por un grupo de 15 agentes de la Policía de la Ciudad en el barrio de Caballito."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.436456287910225,
+          -34.61820344993885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r166",
+        "Fecha": "2024-10-15",
+        "Hora": "12:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Av. Independencia 3065",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Intimidación con filmaciones de la Policía de la Ciudad a estudiantes de psicología en el marco de las tomas por el conflicto universitario."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40872127441717,
+          -34.61936785017767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r167",
+        "Fecha": "2024-10-17",
+        "Hora": "20:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Venezuela 1931",
+        "Lugar": "En una Comisaría",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Pedido de coimas - Intimidación",
+        "policia_involucrado": "Dos agentes de la brigada (\"Matías\" y \"Gustavo\") de la Comisaría 3ª de Combate de los Pozos",
+        "cronica": "Denuncia de Juan Grabois de pedido de coimas y secuestro de mercadería a feriantes por parte de agentes (\"Matías\" y \"Gustavo\") de la Policía de la Ciudad de la Comisaría 3ª de Combate de los Pozos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.393619738263304,
+          -34.61492516211564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r168",
+        "Fecha": "2024-10-31",
+        "Hora": "23:00:00",
+        "Barrio": "Constitución",
+        "Direccion": "Juan de Garay y Santiago del Estero",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención arbitraria - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Brutal detención entre varios policías a Georgina Orellano, referenta de AMMAR, y a otra trabajadora sexual."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38441228140655,
+          -34.62684661464564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r169",
+        "Fecha": "2024-11-01",
+        "Hora": "11:00:00",
+        "Barrio": "Floresta",
+        "Direccion": "Morón 4149",
+        "Lugar": "Otro",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "A pedido de funcionarios del gobierno de la Ciudad, efectivos de la policía de la Ciudad ingresaron en la escuela secundaria Larroque para amedrentar docentes que se habían auto convocado contra un acto para promocionar a la escuela como \"escuela piloto\" para una nueva reforma educativa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.48780441164328,
+          -34.62740630246397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r170",
+        "Fecha": "2024-11-03",
+        "Hora": "16:00:00",
+        "Barrio": "Palermo",
+        "Direccion": "Honduras y Armenia",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un niño de 13 años fue retenido e intimidado por un grupo de agentes de la Policía de la Ciudad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42812203024007,
+          -34.58994278160073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r171",
+        "Fecha": "2024-11-06",
+        "Hora": "14:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av de Mayo 600",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - Amedrentamiento - Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En el marco de una movilización de jubiladxs, Gerardo Mirkin, un jubilado se descompuso y convulsionó luego de que la policía lo golpeara, lo tirara al piso y lo arrastrara."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37474023208901,
+          -34.60868998702038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r172",
+        "Fecha": "2024-11-08",
+        "Hora": "16:00:00",
+        "Barrio": "La Boca",
+        "Direccion": "Martín Rodríguez y Lamadrid",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En el marco de una movilización de vecinxs de La Boca, un fuerte operativo policial represivo conformado por la Policía de la Ciudad evita avanzar a las personas y produce una fragmentaron la columna en las calles Martín Rodríguez y Lamadrid."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.35939926092344,
+          -34.63743597244297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r173",
+        "Fecha": "2024-11-20",
+        "Hora": "12:30:00",
+        "Barrio": "Monserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Un operativo completamente desproporcionado de más de 20 policías para detener a un vendedor ambulante de salchipapa en la Plaza Congreso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39024757256788,
+          -34.60954039767525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r174",
+        "Fecha": "2024-11-22",
+        "Hora": "18:00:00",
+        "Barrio": "San Telmo",
+        "Direccion": "Parque Lezama",
+        "Lugar": "En una plaza o parque",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Golpes - Gas pimienta - Balas de goma",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En el Parque Lezama, en el marco de una batucada entre egresados de colegios de la zona, se pelearon dos grupos de pibes que fueron fuertemente reprimidos con gases pimienta y balas de goma por la Policía de la Ciudad, dejando un saldo de varios heridos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.369502359074204,
+          -34.62629624678206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r175",
+        "Fecha": "2024-11-27",
+        "Hora": "15:00:00",
+        "Barrio": "Caballito",
+        "Direccion": "Del Barco Centenera 111",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención injustificada - Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En el barrio de Caballito, se realizó un operativo desmedido de 12 agentes de la Policía de la Ciudad, 4 móviles y 2 motos para detener a una vendedora ambulante de jazmines."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44116112230997,
+          -34.62098236026167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r176",
+        "Fecha": "2024-11-28",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Perú 160",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - Golpes - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Fuerte represión en el marco de una movilización de enfermerxs a la Legislatura porteña, fueron también reprimidos legiladorxs del FIT y UxP."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37444296733556,
+          -34.60964162877327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r177",
+        "Fecha": "2024-04-23",
+        "Hora": "18:00:00",
+        "Barrio": "Retiro",
+        "Direccion": "Plaza San Martín",
+        "Lugar": "Plaza o Parque",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención arbitraria - Golpes - Patadas",
+        "policia_involucrado": "Los Oficiales Fabían Martinez y Ángel Raul Cantero y la agente Lara Coria",
+        "cronica": "El 23 de abril de 2024, tres efectivos de la Policía de la Ciudad perpetraron una brutal golpiza al Abogado de Derechos Humanos, Matías Darabos, perteneciente a la ACVI (Asociación Contra la Violencia Institucional) y AMMAR (Asociación de las Mujeres Meretrices de la Argentina), mientras desconcentraba de la primera Marcha Federal Educativa. Lo increparon en la Plaza San Martín, lo golpearon brutalmente y lo detuvieron. El propio Darabos relata que, para justificar su detención, le plantaron marihuana en su mochila cuando se identificó como abogado. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37609053023975,
+          -34.595060954684726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r178",
+        "Fecha": "2024-12-12",
+        "Hora": "15:45:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Santa Fe y Pueyrredón",
+        "Lugar": "Estación de subte",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Secuestro mercadería - Detención",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Durante la tarde del 12 de diciembre del 2024, en la estación \"Santa Fe\" de la línea H de subte, la policía de la ciudad detuvo a una vendedora ambulante de chipá y le secuestró su mercadería. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40264323208958,
+          -34.594491799139846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r179",
+        "Fecha": "2024-10-17",
+        "Hora": "22:00:00",
+        "Barrio": "Palermo",
+        "Direccion": "Jerónimo Salguero y Cabello",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Ministerio de Seguridad de la Ciudad de Buenos Aires",
+        "Nombre": "Golpes",
+        "policia_involucrado": "Diego Kravetz (Secretario de Seguridad)",
+        "cronica": "Durante la noche del 17 de octubre del 2024 en el barrio de Palermo, Diego Kravetz golpeó tres veces a un joven detenido por la Policía de la Ciudad mientras era secretario de seguridad de la Ciudad de Buenos Aires. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.409266490752564,
+          -34.581061323937504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r180",
+        "Fecha": "2024-08-13",
+        "Hora": "20:00:00",
+        "Barrio": "Retiro",
+        "Direccion": "Villa 31",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Ministerio de Seguridad de la Ciudad de Buenos Aires - Policía de la Ciudad",
+        "Nombre": "Detención arbitraria - Golpes",
+        "policia_involucrado": "Diego Kravetz (Secretario de Seguridad)",
+        "cronica": "Durante la noche del 13 de agosto del 2024, en la Villa 31 dentro del barrio de Retiro, el Secretario de Seguridad de la CABA, Diego Kravetz, participó de la detención de un joven, golpeándolo en la nuca y completando de manera incorrecta el acta de detención para legitimar el accionar policial en el marco de los llamados operativos de \"saturación\" en los barrios populares."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37831606025044,
+          -34.58400594517565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r181",
+        "Fecha": "2024-12-27",
+        "Hora": "17:00:00",
+        "Barrio": "Núñez",
+        "Direccion": "Ex-ESMA",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Personal civil sin identificar",
+        "Nombre": "Inteligencia ilegal",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La Comisión Provincial por la Memoria denunció tareas de inteligencia ilegal durante el abrazo a la Ex-ESMA el 27 de diciembre de 2024. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46325078791374,
+          -34.537983380445716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r182",
+        "Fecha": "2025-01-11",
+        "Hora": "20:00:00",
+        "Barrio": "Villa Lugano",
+        "Direccion": "Villa 15",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detenciones arbitrarias - Disparos - Hostigamiento - ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Durante enero de 2025, vecinos de la Villa 15, ubicada en Villa Lugano, denunciaron ingresos policiales, detenciones arbitrarias y disparos en la calle cuando volvían de sus trabajos por parte de la Policía de la Ciudad.\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49122951305819,
+          -34.67094904044619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r183",
+        "Fecha": "2025-01-29",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - Golpes - ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 29 de enero de 2025, la Policía Federal reprimió la marcha de jubilados y jubiladas frente al Congreso buscando evitar el \"semaforazo\" previsto por los manifestantes, dejando un saldo de varios heridos. Acompañaron la movilización los trabajadores y trabajadoras del Hospital Bonaparte."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39021538606092,
+          -34.609549227955206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r184",
+        "Fecha": "2025-02-04",
+        "Hora": "11:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av. 9 de julio 1925",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - Golpes - Camiones hidrantes ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El día 4 de febrero de 2025, cercano al mediodía, en el marco de un abrazo al Ministerio de Salud convocado por ATE a raíz de los 360 despidos en el sector, la Policía Federal reprimió fuertemente la medida de protesta. El operativo represivo incluyó agentes de a pie, motorizados y camiones hidrantes y fue realizado en el marco del \"protocolo antipiquetes\" del Ministerio de Seguridad de la Nación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381356579529694,
+          -34.61215763997776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r185",
+        "Fecha": "2025-02-02",
+        "Hora": "8:00:00",
+        "Barrio": "Caballito",
+        "Direccion": "Parque Rivadavia",
+        "Lugar": "Plaza o parque",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Desalojo ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El domingo 2 de febrero del 2025 por la mañana, a raíz de una política del Gobierno de Jorge Macri, la Policía de la Ciudad desalojó a los históricos manteros del Parque Rivadavia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4332227467398,
+          -34.61782403708508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r186",
+        "Fecha": "2025-02-14",
+        "Hora": "2:00:00",
+        "Barrio": "Flores",
+        "Direccion": "Nazca y Avellaneda",
+        "Lugar": "Domicilios",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Desalojo - Secuestro mercadería - ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Durante la madrugada del 14 de febrero de 2025, se llevó adelante un megaoperativo en el barrio de Flores para allanar y desalojar a 5000 vendedores-manteros. Para ello, se desplegaron más de 550 inspectores y se realizaron 50 allanamientos en depósitos que almacenaban mercadería y alimentos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.471707503252624,
+          -34.62642315955562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r187",
+        "Fecha": "2025-02-19",
+        "Hora": "13:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Rivadavia y Pueyrredón",
+        "Lugar": "Vía Pública",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Desalojo - Secuestro mercadería - Detenciones",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El miércoles 19 de febrero del 2025, cerca del mediodía, la Policía de la Ciudad desalojó a manteros que querían volver a instalarse en las veredas en la zona de Once. Se les impidió que pudieran instalarse en la zona, se secuestro mercadería y se produjo una detención."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40600433208908,
+          -34.6099549589517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r188",
+        "Fecha": "2025-02-19",
+        "Hora": "18:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía Federal - Prefectura Naval",
+        "Nombre": "Detenciones - Represión a la protesta - Gases",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Represión a la marcha de jubilados y jubiladas frente al Congreso. Durante la represión, detuvieron a dos personas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39042996277434,
+          -34.609549227955206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r189",
+        "Fecha": "2025-02-28",
+        "Hora": "16:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "9 de julio y Corrientes (Obelisco)",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención arbitraria - represión a la protesta",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El viernes 28 de febrero de 2025 por la tarde, en el marco de una sentada en el Obelisco convocada por el Movimiento Popular La Dignidad por el reclamo ante el despido de casi 400 trabajadoras que formaban parte del programa \"Veredas Limpias\", se produjo la detención arbitraria de los dirigentes Rafael Klejzer y Laura Bitto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38156730269189,
+          -34.603728971311355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r190",
+        "Fecha": "2025-03-04",
+        "Hora": "17:30:00",
+        "Barrio": "Flores",
+        "Direccion": "Villa 1-11-14 (Bajo Flores)",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión - Golpes - Lanzamiento de perdigones",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El lunes 4 de marzo del 2025, cerca de las 17:30hs, apenas nombrado el nuevo Ministro de Seguridad de la Ciudad, Horacio Giménez, se llevó adelante una fuerte  represión de los carnavales en la villa 1-11-14. Los vecinos denunciaron un fuerte operativo represivo, que incluyo golpes, garrotazos, perdigones, todo en presencia de niños menores de edad. Como resultado del violento operativo, hubo personas que terminaron hospitalizadas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.440894755685584,
+          -34.650248817277436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r191",
+        "Fecha": "29/02/2025",
+        "Hora": "3:00:00",
+        "Barrio": "Retiro",
+        "Direccion": "Villa 31",
+        "Lugar": "Vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Desalojo ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En la madrugada del 29 de febrero, el Gobierno de la Ciudad de Buenos Aires llevó adelante un operativo de desalojo en la calle Carlos Perette del Barrio 31, en la zona Retiro. Allí se realizaba hace cinco años la “Feria Informal Perette”. Para el operativo, utilizaron once camiones, ocho palas mecánicas, compactadoras y diez grúas e hidrolavadoras. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.372774160226726,
+          -34.58578078648704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r192",
+        "Fecha": "2024-02-01",
+        "Hora": "21:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Plaza Congreso",
+        "Lugar": "Plazoleta cercana al Congreso",
+        "fuerza_involucrada": "Fuerzas Fedetales",
+        "Nombre": "Represión a la protesta - Gas lacrimogeno, gas pimienta y balas de goma en zonas vitales del cuerpo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Matías Aufieri, abogado del Centro de Profesionales por los Derechos Humanos y asesor legislativo del Frente de Izquierda, perdió la visión de su ojo izquierdo porque recibió un disparo de bala de goma durante la represión policial del jueves 1 de febrero del 2024, en el marco de la votación de la Ley Ómnibus."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39192524618308,
+          -34.609055409035875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r193",
+        "Fecha": "2025-02-03",
+        "Hora": "18:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Entre Ríos y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Fuerzas Fedetales",
+        "Nombre": "Represión a la protesta - golpes - gas pimienta-detenciones",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 3 de febrero del 2025 por la tarde, la ministra de Seguridad Patricia Bullrich montó otro operativo intimidatorio y mandó a la Preferctura, la Gendarmería y la Policía Federal a reprimir y detener manifestantes. Fue un operativo desmedido, que se coronó con al menos seis detenidos y legisladores agredidos con gas pimienta en los ojos. Un grupo de jubiladas fue desalojado por la fuerza del edificio anexo de Diputados. Los autoconvocados al cacerolazo también sufieron la persecución policial."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39198961919817,
+          -34.60904657870339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r194",
+        "Fecha": "2025-02-08",
+        "Hora": "17:00:00",
+        "Barrio": "Constitución",
+        "Direccion": "Brasil 1128",
+        "Lugar": "dentro de la estación de tren",
+        "fuerza_involucrada": "Seguridad Privada",
+        "Nombre": "Golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 8 de febrero de 2025 por la tarde, un joven fue golpeado por cinco agentes de seguridad privada, subcontratada por Ferrocarriles Argentino, por saltar un molinete del tren."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3795888308387,
+          -34.62789753674627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r195",
+        "Fecha": "2025-02-20",
+        "Hora": "12:00:00",
+        "Barrio": "Retiro",
+        "Direccion": "Carlos Pellegrini 1200",
+        "Lugar": "Ministerio de capital Humano",
+        "fuerza_involucrada": "Policia Federal y Perfectura",
+        "Nombre": "Golpes - gas lacromógeno",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 20 de febrero de 2025 al mediodía, la Policía Federal y la Prefectura reprimieron con palos y gases lacrimógenos la movilización que trabajadores estatales realizaron frente al Ministerio de Capital Humano."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38660047762973,
+          -34.58901756167784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r196",
+        "Fecha": "2025-02-26",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Policia Federal",
+        "Nombre": "Represión a la protesta - golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 26 de febrero de 2025 por la tarde, un jubilado fue golpeado por la policía, mientras realizaban “semaforazos”, es decir intervenciones en la calle cuando el semáforo estaba en rojo, algo que no impide la circulación del tránsito."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3918783562166,
+          -34.609143034223884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r197",
+        "Fecha": "2025-03-12",
+        "Hora": "14:30:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Perfectura Naval",
+        "Nombre": "Atropello",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 12 de marzo de 2025, previo a la marcha, un vehículo de Prefectura atropelló a un conductor en moto en la esquina del Congreso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3918783562166,
+          -34.609143034223884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r198",
+        "Fecha": "2025-03-12",
+        "Hora": "17:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Rivadavia y Virrey Ceballos",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Policia Federal",
+        "Nombre": "Patean un arma tirada en el suelo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 12 de marzo de 2025, durante la represión a jubilados se observó cómo un policía parece dejar caer una pistola y patearla para quede en un lugar en donde se registraban incidentes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3891795750188,
+          -34.60901499996367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r199",
+        "Fecha": "2025-03-12",
+        "Hora": "16:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Fuerzas Federales",
+        "Nombre": "Represión a la protesta - golpes - gas pimienta-detenciones",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 12 de marzo de 2025, las fuerzas federales llevaron adelante una feroz represión a la manifestación de apoyo a la marcha de los jubilados. Más de 120 personas detenidas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3918783562166,
+          -34.609143034223884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r200",
+        "Fecha": "2025-03-12",
+        "Hora": "17:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Gendarmería",
+        "Nombre": "Represión a la protesta - Gas lacrimogeno a zonas vitales del cuerpo",
+        "policia_involucrado": "Cabo Primero Guerrero",
+        "cronica": "El 12 de marzo de 2025, el reportero gráfico Pablo Grillo fue herido en la cabeza por un cartucho de gas lacrimógeno disparado por las fuerzas de seguridad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3918783562166,
+          -34.609143034223884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r201",
+        "Fecha": "2025-03-12",
+        "Hora": "17:21:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Rivadavia y Rodriguez Peña",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Perfectura Naval",
+        "Nombre": "Represión a la protesta - Golpes - Gas pimienta - Gases lacrimógenos - Balas de goma a zonas vitales del cuerpo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Jonathan Leandro Navarro, hincha de Chacarita y vecino de San Martín, perdió la visión de su ojo izquierdo tras ser herido durante la represión policial ocurrida el miércoles 12 de marzo en las inmediaciones del Congreso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39054044618304,
+          -34.60905365744086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r202",
+        "Fecha": "2025-03-12",
+        "Hora": "16:10:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Entre Rios y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Policía Federal",
+        "Nombre": "Represión a la protesta - gas - golpes",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 12 de marzo de 2025, la Policía Federal empujó de manera violenta a jubiladas y jubilados que se encontraban haciendo el clásico semaforazo de todos los miércoles en el Congreso. En ese marco Beatriz Blanci, de 81 años fue gaseada y empujada por un policia de la Federal, lo que le causó una caida que la dejó con un traumatismo encéfalo craneano, herida cortante e irritación ocular."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.391850144332146,
+          -34.60905540903587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r203",
+        "Fecha": "2025-03-19",
+        "Hora": "8:00:00",
+        "Barrio": "Retiro y otros",
+        "Direccion": "Estaciones de Ferrocarriles",
+        "Lugar": "Cabeceras de Estaciones de trenes de la pcia. de Bs. As.",
+        "fuerza_involucrada": "Fuerzas Federales",
+        "Nombre": "Amedrentamiento - Intimidación",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El Ministerio de Seguridad, comandado por Patricia Bullrich, emitió mensajes intimidatorios en distintas estaciones de trenes de la zona del AMBA hacia los manifestantes, con el fin de amedrentar y disminuir la cantidad de asistentes a la plaza del Congreso. En las redes los usuarios denunciaron que los agentes de Seguridad realizaron cacheos al azar y solicitaron a los pasajeros que presenten el DNI, sin motivo alguno."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37468638536688,
+          -34.59096560576668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r204",
+        "Fecha": "2025-04-02",
+        "Hora": "15:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "Plaza Congreso",
+        "fuerza_involucrada": "Gendarmería, Prefectura y la Policía Federal",
+        "Nombre": "Represión a la protesta - gas pimienta - atropello con motos",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 2 de abril del 2025, las fuerzas de seguridad reprimieron a los jubilados y acompañantes que se manifestaban pacíficamente en la zona del Congreso, en el marco del día nacional en el que se homenajean a los combatientes por Malvinas de 1982. Esto derivó en la hospitalización de un trabajador de prensa, quien fue atropellado por una moto policial. Además, se reportaron múltiples casos de personas afectadas por gases arrojados contra sus rostros."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3918783562166,
+          -34.609143034223884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r205",
+        "Fecha": "2025-04-11",
+        "Hora": "20:00:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Avenida Corrientes y Ecuador",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad de Buenos Aires",
+        "Nombre": "Expulsión del espacio físico - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La organización Buenos Vecinos denunció y hostigó a una mujer de 65 años por vender medias en la vía pública."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40785791968651,
+          -34.604085786766234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r206",
+        "Fecha": "2025-04-23",
+        "Hora": "14:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Callao y Rivadavia",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policia Federal",
+        "Nombre": "Represión a la protesta - golpes - gas pimienta-detenciones",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 23 de abril del 2025, se registraron nuevamente momentos de tensión en las inmediaciones del Congreso en una nueva marcha de los jubilados debido a la intención de los manifestantes de movilizarse desde ese punto hacia la Plaza de Mayo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39196816201448,
+          -34.609020087692834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r215",
+        "Fecha": "29/7/2025",
+        "Hora": "21:30:00",
+        "Barrio": "Recoleta",
+        "Direccion": "Av. Gral. Las Heras 1861",
+        "Lugar": "Comisaría",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Se niegan a tomar una denuncia por violencia de género",
+        "policia_involucrado": "contactar",
+        "cronica": "La denunciante comenta que se acercó a la comisaría  n° 2 para denunciar un maltrato sufrido por un médico del Hospital Rivadavia y le dijeron que no se la podian tomar porque no se trataba de un delito penal. Le dijeron que debía acercarse a Lavalle 1212."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39239916201539,
+          -34.590971799105176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r216",
+        "Fecha": "2025-06-25",
+        "Hora": "22:05:00",
+        "Barrio": "Palermo",
+        "Direccion": "Av. Figueroa Alcorta y San Martin de Tours",
+        "Lugar": "En la via pública ",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Agresion Verbal y amenaza",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 25/6/2025 a las 22 horas, un trabajador de Rappi  se trasladaba en bicicleta para entregar un pedido cuando accidentalmente le  pisó el pie a un efectivo policial. El agente le tira la bicicleta, lo insulta y lo amenaza  de muerte. La situación no pasó a mayores gracias a la presencia de vecinos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.403395689000746,
+          -34.577357797025265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r217",
+        "Fecha": "2025-02-03",
+        "Hora": "17:00:00",
+        "Barrio": "Palermo",
+        "Direccion": "Guatemala entre Borges y Gurruchaga",
+        "Lugar": "En la via pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Golpes",
+        "policia_involucrado": "Benicio Pérez",
+        "cronica": "La denunciante comenta que, el 3 de febrero de 2025, en el barrio de Palermo, presenció cómo se llevaban detenidos a tres chicos que parecían menores de edad, estando esposados. Dos de los chicos le dijeron a la denunciante que la Policía les había pegado. Comentó también que había al menos cuatro patrulleros para la detención de los tres chicos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42502728159521,
+          -34.585941818113106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r218",
+        "Fecha": "2025-06-10",
+        "Hora": "18:24:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Corrientes y Florida",
+        "Lugar": "Estación de Subte",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención arbitraria",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "La denunciante comenta que presenció la detención arbitraria de un joven luego de una movilización a plaza de mayo por parte de 10 agentes de la policía de la Ciudad que irrumpieron en la estación Florida de la linea B para realizar la detención argumentando que el joven habría pateado a un policia durante la manifestación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37523716201476,
+          -34.60314675392718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r219",
+        "Fecha": "2025-05-08",
+        "Hora": "22:00:00",
+        "Barrio": "Palermo",
+        "Direccion": "Arenales 2950",
+        "Lugar": "Enla via pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Expulsión del espacio publico",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Policia de la ciudad hostiga y despierta a personas en situción de calle que dormian en la via pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40681817735893,
+          -34.590468900969334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r220",
+        "Fecha": "2025-04-09",
+        "Hora": "11:34:00",
+        "Barrio": "Balvanera",
+        "Direccion": "Paso Y Juan D. Perón",
+        "Lugar": "En la via pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Personal de Espacio publico acompañado por agentes de la Policía de la Ciudad, persiguen y le impiden el paso a dos hombres de nacionalidad Senegalesa sin ning{un motivo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.403463275506894,
+          -34.60736525438119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r221",
+        "Fecha": "2025-06-19",
+        "Hora": "20:00:00",
+        "Barrio": "Mataderos",
+        "Direccion": "Av. Directorio 6262-50",
+        "Lugar": "Em plaza o parque",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento, amenazas, detención arbitraria",
+        "policia_involucrado": "Mauro Prieto",
+        "cronica": "En un parque de Mataderos, la policia de la Ciudad hostiga y detiene a una persona por tenencia de marihuana y a otro por filmar el operativo, también grita y amenaza  a las personas que están alredor. Las personas involucradas quisieron  hacer la denuncia por hotigamiento policial, pero en la comisaria no se la tomaron."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.501636061524,
+          -34.659708449694286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r222",
+        "Fecha": "2025-07-31",
+        "Hora": "4:00:00",
+        "Barrio": "Palermo",
+        "Direccion": " Bonpland 1660",
+        "Lugar": "Dentro de un  predio",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Detención - Desalojo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "En la madrugada del 31 de julio del 2025, efectivos de la Policía de la Ciudad desalojaron un predio ubicado detrás del Mercado Bonpland donde funcionaba un espacio comunitario. Durante el operativo se detuvo a un empleado del predio."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43802668851241,
+          -34.58338054409358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r223",
+        "Fecha": "2025-08-05",
+        "Hora": "12:00:00",
+        "Barrio": "Constitución",
+        "Direccion": "Salta 1814",
+        "Lugar": "Dentro de un hotel",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Desalojo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 5 de agosto del 2025, personal de la Policía de la Ciudad y representantes de los ministerios de Espacio Público e Higiene Urbana y Desarrollo Humano y Hábitat de la CABA desalojaron a 30 personas de un hotel cerca de la estación Constitutición."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.34899536557343,
+          -34.77566860985414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r224",
+        "Fecha": "2025-08-05",
+        "Hora": "5:00:00",
+        "Barrio": "Villa del Parque",
+        "Direccion": "Santo Tome 2300",
+        "Lugar": "Dentro de un predio",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Desalojo",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "Durante la madrugada del 5 de agosto del 2025, personal de la Policía de la Ciudad desalojó a una cooperativa de cartoneros que funcionaba en un predio en Villa del Parque."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47930845468316,
+          -34.60074547836721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r225",
+        "Fecha": "2025-08-24",
+        "Hora": "20:00:00",
+        "Barrio": "Puerto Madero",
+        "Direccion": "Av. Alicia Moreau de Justo 930",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Hostigamiento - Amedrentamiento - Empujones - Detención",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 24 de agosto del 2025 por la noche, en las cercanías del Puente de la Mujer dentro del barrio de Puerto Madero, un efectivo de la Policía de la Ciudad le sacó las muletas a un vendedor ambulante que tenía una sola pierna. El hombre fue humillado y empujado al piso por el agente policial. Finalmente, fue detenido por atentado y resistencia a la autoridad y derivado al hospital Borda."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.366110819654544,
+          -34.608214503908336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r226",
+        "Fecha": "2025-07-22",
+        "Hora": "12:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Corrientes 900",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Espacio Público e Higiene Urbana",
+        "Nombre": "Hostigamiento - Amedrentamiento",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 22 de julio del 2025 en el barrio de San Nicolás, en las cercanías del Teatro Nacional, una agente de Espacio Público e Higiene Urbana del Gobierno de la Ciudad de Buenos Aires, hostigó y agarró del brazo a un vendedor ambulante mientras vecinos gritaban pidiendo que lo soltaran."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.379272331301564,
+          -34.60358552397342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r227",
+        "Fecha": "2025-07-30",
+        "Hora": "17:00:00",
+        "Barrio": "Montserrat",
+        "Direccion": "Av. de Mayo 1357",
+        "Lugar": "En la vía pública",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "Nombre": "Represión a la protesta - Disparos de perdigones de goma - Gas pimienta - Detenciones ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 30 de julio de 2025, la Policía de la Ciudad reprimió fuertemente la manifestación de lxs jubiladxs y a la prensa en la zona del Congreso. La represión incluyó disparos de perdigones de goma, gas pimienta, personas heridas y detenciones al voleo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.38561509921904,
+          -34.60917379747559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r228",
+        "Fecha": "2025-05-04",
+        "Hora": "17:00:00",
+        "Barrio": "San Nicolás",
+        "Direccion": "Av. Corrientes y Carlos Pellegrini",
+        "Lugar": "Estación de Subte",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Hostigamiento, amenazas, detención arbitraria",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El 4 de mayo en la estación Carlos Pellegrini de la linea B, al menos 4 agentes masculinos y una agente de la policía de la ciudad detienen a un joven en situación de calle, lo insultan, lo amenazan con patearlo y con \"llevarlo al calabozo\". También maltrataron y amenazaron a un transeunte que estaba filmando el operativo policial. Los agentes no tenían identificación en su chaleco."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.380937960163415,
+          -34.603587132954566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "r229",
+        "Fecha": "2025-08-20",
+        "Hora": "10:15:00",
+        "Barrio": "Liniers",
+        "Direccion": "Estacion de trenes de Liniers",
+        "Lugar": "Estación de tren de Liniers",
+        "fuerza_involucrada": "Policia de la Ciudad",
+        "Nombre": "Golpes ",
+        "policia_involucrado": "No se identificaron",
+        "cronica": "El pasado 20/8 a las 10:15 de la mañana, la denunciante llega a la estación de trenes de Liniers y es testigo de una golpiza a un hombre de contextura frágil por parte de 5 policías (uno de ellos de civil). Cuando la denunciante les pide que dejen de golpear al hombre se lo llevan a otro sector de la estación sin dar explicaciones y luego escucha gritos del hombre pidiendo que lo suelten, que estaba esperando el tren para ir a trabajar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52626490248954,
+          -34.63877287411864
+        ]
+      }
+    }
   ]
 }

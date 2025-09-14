@@ -4,11 +4,11 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Investigaciones from "./components/Investigaciones/Investigaciones";
-import Denuncia from "./components/denuncia/Denuncia";
+import DenunciaForm from "./components/denuncia";
 import Denuncias from "./components/denuncias/Denuncias";
 import Recursos from "./components/recursos/Recursos";
 import Jefatura from "./components/jefatura/Jefatura";
-import Reportes2 from "./components/reportes/Reportes2";
+import Reportes from "./components/reportes/Reportes";
 import Nosotrxs from "./components/us/Nosotrxs";
 import Menu from "./components/menu/Menu";
 import GatilloFacil from "./components/gatilloFacil/GatilloFacil";
@@ -22,6 +22,9 @@ import Ficha from "./components/fichas/Ficha";
 import Organizate from "./components/recurso/Organizate";
 import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones";
 import Ahora from "./components/ahora/Ahora";
+import SextoReporte from "./components/reportes/SextoReporte";
+import CuartoReporte from "./components/reportes/CuartoReporte";
+import QuintoReporte from "./components/reportes/QuintoReporte";
 
 // Not using BrowserRouter because of github pages.
 // https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
@@ -32,11 +35,11 @@ const router = createHashRouter([
     children: [
       { path: "/", element: <App /> },
       { path: "/denuncias", element: <Denuncias /> },
-      { path: "/denuncia", element: <Denuncia /> },
+      { path: "/denuncia", element: <DenunciaForm /> },
       { path: "/recursos", element: <Recursos /> },
       { path: "/investigaciones", element: <Investigaciones /> },
       { path: "/jefatura", element: <Jefatura /> },
-      { path: "/reportes", element: <Reportes2 /> },
+      { path: "/reportes", element: <Reportes /> },
       { path: "/nosotrxs", element: <Nosotrxs /> },
       { path: "/menu", element: <Menu /> },
       { path: "/podcast", element: <Podcast /> },
@@ -49,6 +52,9 @@ const router = createHashRouter([
       { path: "/lista", element: <TodasInvestigaciones /> },
       { path: "/ficha/:Contador", element: <Ficha /> },
       { path: "/ahora", element: <Ahora /> },
+      { path: "/cuarto-reporte", element: <CuartoReporte /> },
+      { path: "/quinto-reporte", element: <QuintoReporte /> },
+      { path: "/sexto-reporte", element: <SextoReporte /> },
     ],
   },
 ]);

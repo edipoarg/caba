@@ -6,14 +6,14 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
 const tituloNotaPrincipal =
-  "El método Grillo: cómo reconstruir una verdad manipulada";
-const fechaUltimoReporte = "08/12/2024";
+  "La policía de la limpieza: una ciudad sin manteros";
+const fechaUltimoReporte = "Agosto 2025";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_48a8974295c84e0e9bdb33ea96ed467d~mv2.jpg/v1/fill/w_1762,h_1084,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GRILLO%20x%20nicolas%20daniluk%20-%20WEB%20MAPA%20POLI.jpg";
-const fechaNotaPrincipal = "09/07/2025";
-const autorxsNotaPrincipal = ["Facundo Cifelli y  Luz Conde "];
-const ilusNotaPrincipal = "Nicolás Daniluk";
-const numeroReporte = "Quinto";
+  "https://static.wixstatic.com/media/0f4ca0_0805328e6916409593696119918dc74d~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/MANTEROS%20x%20Panchopepe%20-%20WEB%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "3/09/2025";
+const autorxsNotaPrincipal = "Alejandro Martín y Paula Talento";
+const ilusNotaPrincipal = "Panchopepe";
+const numeroReporte = "6to";
 
 const Investigaciones = () => {
   const [activeFilter, setActiveFilter] = useState(null);
@@ -29,7 +29,6 @@ const Investigaciones = () => {
             className={styles.headerIcon}
             iconSize="4rem"
           />
-
           <section className={styles.typeMenu}>
             <h3
               className={`${styles.type} ${
@@ -55,7 +54,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/metodo-pablo-grillo">
+            <Link to="/investigacion/la-policia-de-la-limpieza">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
@@ -89,11 +88,12 @@ const Investigaciones = () => {
           </section>
 
           <section className={styles.investCol2}>
-            <Link
-              to="https://3bcdb122-7a37-4e33-8ed3-b705eeb52529.filesusr.com/ugd/0f4ca0_b842b32fa4c4452498e07a1d8b6da1bf.pdf"
-              className={styles.ultimoReporteContainer}
-            >
-              <img src="" alt="" className={styles.fotoUltimoReporte} />
+            <Link to="/sexto-reporte" className={styles.ultimoReporteContainer}>
+              <img
+                src="https://static.wixstatic.com/media/0f4ca0_d63db55bd041494a87cfcd6bc25b1110~mv2.jpg/v1/fill/w_1536,h_1024,al_c,q_85,enc_avif,quality_auto/portada%20reporte.jpg"
+                alt=""
+                className={styles.fotoUltimoReporte}
+              />
               <section className={styles.datosReporte}>
                 <h4 className={styles.fechaUltimoReporte}>
                   {fechaUltimoReporte}
