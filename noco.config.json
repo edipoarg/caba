@@ -1,54 +1,24 @@
 {
   "jobs": [
     {
-      "output": "public/data/autorxs.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
-    },
-    {
-      "output": "public/data/caba.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
-    },
-    {
       "output": "public/data/cargos.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
-    },
-    {
-      "output": "public/data/casos.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
+      "tableId": "${NOCODB_TABLE_CARGOS}",
+      "viewId": "${NOCODB_VIEW_CARGOS}"
     },
     {
       "output": "public/data/dependenciasCaba.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
+      "tableId": "${NOCODB_TABLE_DEPENDENCIAS}",
+      "viewId": "${NOCODB_VIEW_DEPENDENCIAS}"
     },
     {
       "output": "public/data/efectivos.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
-    },
-    {
-      "output": "public/data/gatilloCaba.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
-    },
-    {
-      "output": "public/data/investigaciones.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
-    },
-    {
-      "output": "public/data/regiones.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
+      "tableId": "${NOCODB_TABLE_EFECTIVOS}",
+      "viewId": "${NOCODB_VIEW_EFECTIVOS}"
     },
     {
       "output": "public/data/reportesCaba.json",
-      "tableId": "REPLACE_WITH_TABLE_ID",
-      "viewId": "REPLACE_WITH_VIEW_ID_OR_REMOVE"
+      "tableId": "${NOCODB_TABLE_REPORTES}",
+      "viewId": "${NOCODB_VIEW_REPORTES}"
     }
   ]
 }

@@ -79,10 +79,39 @@ function assertEnv() {
   }
 }
 
+function expandEnvVars(str: string): string {
+  return str.replace(/\$\{([^}]+)\}/g, (_, name) => {
+    const value = process.env[name];
+    if (value === undefined) {
+      console.warn(`Environment variable ${name} is not set`);
+      return '';
+    }
+    return value;
+  });
+}
+
 async function readConfig(configPath: string): Promise<ConfigFile> {
   const abs = path.resolve(configPath);
-  const raw = await fs.readFile(abs, 'utf8');
-  return JSON.parse(raw) as ConfigFile;
+  let raw = await fs.readFile(abs, 'utf8');
+  
+  // Expandir variables de entorno en el JSON
+  raw = expandEnvVars(raw);
+  
+  const config = JSON.parse(raw) as ConfigFile;
+  
+  // Validar que no queden variables sin expandir
+  const validateConfig = (obj: any) => {
+    for (const key in obj) {
+      if (typeof obj[key] === 'string' && obj[key].includes('${')) {
+        throw new Error(`Variable de entorno no expandida en ${key}: ${obj[key]}`);
+      } else if (typeof obj[key] === 'object' && obj[key] !== null) {
+        validateConfig(obj[key]);
+      }
+    }
+  };
+  
+  validateConfig(config);
+  return config;
 }
 
 async function fetchAllRecords(tableId: string, viewId?: string): Promise<any[]> {
