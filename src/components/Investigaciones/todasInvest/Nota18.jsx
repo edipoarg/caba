@@ -108,8 +108,8 @@ const Nota18 = () => {
           a eventos deportivos a personas “identificadas y detenidas” en
           situaciones violentas. Lo mismo hizo Bullrich al advertir que las
           fuerzas aplicarían el protocolo antipiquetes contra supuestos
-          barrabravas –los hinchas de varios clubes se habían autoconvocado para
-          apoyar el reclamo de los jubilados–. Horas antes de que los
+          barrabravas -los hinchas de varios clubes se habían autoconvocado para
+          apoyar el reclamo de los jubilados-. Horas antes de que los
           manifestantes llegaran a la plaza, el dispositivo de detenciones
           estaba preparado para trasladar personas hacia adentro del vallado
           colindante al edificio del Congreso y la sede del MPF y, a la vez,
@@ -130,8 +130,8 @@ const Nota18 = () => {
           porteño y 10 en el federal, pero el juez de CABA Pablo Casas se
           declaró incompetente y la totalidad de los casos fue a parar al fiscal
           Carlos Stornelli, quien pidió prisión preventiva para todos y les
-          imputó -sin precisiones ni sustento probatorio- l 15 delitos,
-          incluyendo figuras contra el orden constitucional.
+          imputó -sin precisiones ni sustento probatorio- 15 delitos, incluyendo
+          figuras contra el orden constitucional.
         </h4>
 
         <h3 className={styles.subTitle}>quién las hace</h3>
@@ -216,13 +216,14 @@ const Nota18 = () => {
         <h4 className={styles.singularText}>
           Segundos después del disparo contra Jonathan, personal del SAME
           atendía a Pablo sobre el asfalto entre gases, disparos de balas de
-          goma y el chorro de uno de los hidrantes. Al mismo tiempo,
+          goma y el chorro de uno de los hidrantes. Al mismo tiempo, {""}
           <a
             className={styles.link}
             href="https://argentina.indymedia.org/2025/03/21/video-informe-sobre-la-represion-del-12-de-marzo-de-2025-en-plaza-congreso/"
           >
             una cámara de Indymedia
-          </a>
+          </a>{" "}
+          {""}
           registraba el movimiento de algunos gendarmes ubicados sobre Yrigoyen.
           La toma de las 17:22 muestra una ronda de diálogo entre efectivos de
           la Sección de Empleo Inmediato (SEI) -entre los que se puede
@@ -272,12 +273,18 @@ const Nota18 = () => {
           fue de 21 personas capturadas en su mayoría individualmente, o como
           máximo en grupos de tres, y acusadas bajo las figuras delictivas de
           atentado y resistencia a la autoridad o daños. Todas aparecerían más
-          tarde en el listado de 39 supuestos barrabravas publicado en el
-          Boletín Oficial por orden de Patricia Bullrich. La falta de pruebas,
-          motivos e identificación del personal de las fuerzas involucrado en
-          las detenciones demuestra el objetivo del amedrentamiento político y
-          la criminalización de la protesta por parte del Poder Ejecutivo.
-          Además de{" "}
+          tarde en el listado de 39 supuestos barrabravas publicado en el{" "}
+          <a
+            className={styles.link}
+            href="https://www.boletinoficial.gob.ar/detalleAviso/primera/301218/20231222?busqueda=1"
+          >
+            Boletín Oficial
+          </a>{" "}
+          por orden de Patricia Bullrich. La falta de pruebas, motivos e
+          identificación del personal de las fuerzas involucrado en las
+          detenciones demuestra el objetivo del amedrentamiento político y la
+          criminalización de la protesta por parte del Poder Ejecutivo. Además
+          de{" "}
           <a
             className={styles.link}
             href="https://www.comisionporlamemoria.org/wp-content/uploads/sites/16/2025/07/revista_informe-2025_web.pdf"
@@ -510,7 +517,7 @@ const Nota18 = () => {
           incorporada al expediente a partir de la acción colectiva. El caso es
           paradigmático: Guerrero fue imputado a cuatro meses del hecho y tras
           el tercer pedido por parte de la querella, que esta vez estuvo
-          acompañado del
+          acompañado del {""}
           <a
             className={styles.link}
             href="https://mapadelapolicia.com/#/investigacion/metodo-pablo-grillo"
