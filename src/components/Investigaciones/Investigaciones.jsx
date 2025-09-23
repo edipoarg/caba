@@ -5,8 +5,7 @@ import MapaBlur from "../MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
-const tituloNotaPrincipal =
-  "Quién las hace y quién las paga";
+const tituloNotaPrincipal = "Quién las hace y quién las paga";
 const fechaUltimoReporte = "Agosto 2025";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_31dca841ea5d40e9bda6db9f5aa18afc~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Perillo%20x%20Julieta%20Farfala%20MAPA%20POLI.jpg";
@@ -31,15 +30,17 @@ const Investigaciones = () => {
           />
           <section className={styles.typeMenu}>
             <h3
-              className={`${styles.type} ${activeFilter === "informe" ? styles.active : ""
-                }`}
+              className={`${styles.type} ${
+                activeFilter === "informe" ? styles.active : ""
+              }`}
               onClick={() => setActiveFilter("informe")}
             >
               Informes
             </h3>
             <h3
-              className={`${styles.type} ${activeFilter === "expediente" ? styles.active : ""
-                }`}
+              className={`${styles.type} ${
+                activeFilter === "expediente" ? styles.active : ""
+              }`}
               onClick={() => setActiveFilter("expediente")}
             >
               Detrás del expediente
