@@ -90,6 +90,10 @@
     font-size: 1rem;
 }
 
+.autorxLink:hover {
+  color: #b9ff39;
+}
+
 .notaCompleta {
     background-color: white;
 }
