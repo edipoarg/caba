@@ -135,16 +135,22 @@
     "info": "Egresado de la Tecnicatura en Dirección Cinematográfica en la Universidad del Cine. Docente, diseñador audiovisual, y actualmente editor de video del Mapa de la Policía.",
     "enlaceVer": "/alejandro-martin"
   },
-   {
+  {
     "nombre": "Facundo Enferri",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_2d7fa5d3c9ba435394dfdcc17b74b193~mv2.jpg/v1/fill/w_1280,h_1148,al_c,q_85,enc_avif,quality_auto/FACU%20ENFERRI.jpg",
     "info": "(1995) Periodista mendocino en Buenos Aires. Lector. Redactor de casi todo. Para escribir prefiere el ensayo y la crónica. Estudia Artes de la Escritura (UNA).",
     "enlaceVer": "/facundo-eferri"
   },
-    {
+  {
     "nombre": "Julieta Farfala",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_716bf3ad755e46789c2f52da69136562~mv2.jpeg/v1/crop/x_0,y_132,w_853,h_1015/fill/w_853,h_1015,al_c,q_85,enc_avif,quality_auto/JULIETA%20FARFALA.jpeg",
     "info": "(1987) es ilustradora, diseñadora gráfica y docente. Trabajó para editoriales como Planeta, Catapulta y Eudeba. Fue docente de la Cátedra Ilustración Roldán de la carrera de Diseño Gráfico (FADU-UBA) y realizó el primer año del Programa de Actualización en Ilustración Profesional (FADU-UBA). Participa en proyectos como La Vuelta al Mes.",
     "enlaceVer": "/julieta-farfala"
+  },
+  {
+    "nombre": "Valeria Araujo",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_9aa9fb3fa98e48c7854fa5fe1c161a47~mv2.jpg/v1/crop/x_0,y_0,w_1199,h_1288/fill/w_1199,h_1238,al_c,q_85,enc_avif,quality_auto/Valeria%20Araujo.jpg",
+    "info": "(Ilustradora y diseñadora gráfica, formada en la UBA y en diversos talleres de ilustración e historieta. Trabaja para estudios y agencias, además de dedicarse a la docencia y la edición de fanzines.www.valearaujo.myportfolio.com",
+    "enlaceVer": "/valeria-araujo"
   }
 ]

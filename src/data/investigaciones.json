@@ -217,5 +217,17 @@
     "dominio": "la-policia-de-la-limpieza",
     "tipoInvestigacion": "informe",
     "region": "Caba"
+  },
+  {
+    "id": "i18",
+    "titulo": "Quién las hace y quién las paga",
+    "autorxs": "Facundo Enferri",
+    "ilus": "Julieta Farfala",
+    "fecha": "23/09/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_31dca841ea5d40e9bda6db9f5aa18afc~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Perillo%20x%20Julieta%20Farfala%20MAPA%20POLI.jpg",
+    "textoBajada": "114 detenidos, 672 personas heridas y la judicialización de los hechos: el 12 de marzo de 2025 se vivió una escalada del abuso de las fuerzas de seguridad del gobierno libertario. Crónica de un día fatídico con material exclusivo de las conversaciones entre los responsables del operativo y las reconstrucciones posteriores para encontrarlos.",
+    "dominio": "quien-las-hace",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
   }
 ]
