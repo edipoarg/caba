@@ -19,6 +19,8 @@ import Nota15 from "../todasInvest/Nota15";
 import Nota16 from "../todasInvest/Nota16";
 import Nota17 from "../todasInvest/Nota17";
 import Nota18 from "../todasInvest/Nota18";
+import Nota19 from "../todasInvest/Nota19";
+
 
 
 interface InvestigacionModel {
@@ -56,6 +58,8 @@ const componentesNotas: ComponentesNotas = {
   "seguridad-en-las-orillas": Nota16,
   "la-policia-de-la-limpieza": Nota17,
   "quien-las-hace": Nota18,
+  "doxeo-con-placas": Nota19,
+
 
 };
 

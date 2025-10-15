@@ -229,5 +229,17 @@
     "dominio": "quien-las-hace",
     "tipoInvestigacion": "informe",
     "region": "Caba"
+  },
+  {
+    "id": "i19",
+    "titulo": "Doxeo con chapa: el caso del Gordo Represión y las armas virtuales",
+    "autorxs": "Facundo Loduca",
+    "ilus": "Valeri Araujo",
+    "fecha": "15/10/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_3ae2a46b81e84a25a34e10507ec364bc~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/gordo%20represion%20x%20Valeria%20Araujo%20MAPA%20POLI%20OK.jpg",
+    "textoBajada": "Tras amenazar en la red social X con perseguir a “zurdos y kukas” usando recursos policiales, el policía de la Ciudad Félix Antonio Núñez obtuvo un traslado dentro de la fuerza. A continuación, el caso que expuso los límites del uso de herramientas tecnológicas por parte de los agentes.",
+    "dominio": "doxeo-con-placas",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
   }
 ]
