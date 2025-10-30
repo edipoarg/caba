@@ -41,9 +41,12 @@
 .singularText {
   margin: 0;
   padding: 1vh 0vw;
-  font-size: 1.3rem;
-  text-align: justify;
+  font-size: 1.1rem;
+  text-align: left;
   padding: 1vh 10vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+
 }
 
 .autorxFecha {
@@ -79,7 +82,7 @@
   margin-bottom: 6vh;
   padding-left: 4vw;
   margin-left: 10vw;
-  text-align: justify;
+  text-align: left;
 }
 
 .link {
@@ -186,7 +189,7 @@ p {
 @media (min-width: 768px) {
   .NotaContainer {
     padding: 0vh 7vw;
-    text-align: justify;
+    text-align: left;
     padding-bottom: 0vh;
   }
 
