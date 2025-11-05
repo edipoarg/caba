@@ -20,6 +20,8 @@ import Nota16 from "../todasInvest/Nota16";
 import Nota17 from "../todasInvest/Nota17";
 import Nota18 from "../todasInvest/Nota18";
 import Nota19 from "../todasInvest/Nota19";
+import Nota20 from "../todasInvest/Nota20";
+
 
 
 
@@ -59,7 +61,7 @@ const componentesNotas: ComponentesNotas = {
   "la-policia-de-la-limpieza": Nota17,
   "quien-las-hace": Nota18,
   "doxeo-con-placas": Nota19,
-
+  "cuanto-vale-un-policia": Nota20,
 
 };
 
