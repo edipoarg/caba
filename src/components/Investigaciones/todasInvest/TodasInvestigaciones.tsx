@@ -4,29 +4,35 @@ import { Link } from "react-router-dom";
 import styles from "./TodasInvestigaciones.module.css";
 import Icons from "../../iconos/Icons";
 
-// Definir una interfaz para el tipo de datos de investigación
 interface Investigacion {
   id: string;
   dominio: string;
   imagen: string;
   titulo: string;
-  autorxs: string;
-  ilus: string;
+  autorxs: string[];
+  ilus: string[];
   fecha: string;
   tipoInvestigacion: string;
 }
 
-// Definir una interfaz para las props del componente
+type Autorx = {
+  nombre: string;
+  imagen: string;
+  info: string;
+  enlaceVer: string;
+};
+
 interface TodasInvestigacionesProps {
   filter?: string;
 }
 
-// Componente tipado con TypeScript
 const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
   filter,
 }) => {
-  // Tipar el estado de investigaciones
   const [investigaciones, setInvestigaciones] = useState<Investigacion[]>([]);
+  const [autorxsData, setAutorxsData] = useState<
+    Autorx[] | "loading" | "error"
+  >("loading");
 
   useEffect(() => {
     fetch("/data/investigaciones.json")
@@ -38,12 +44,33 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
       .catch((error) => console.error("Error fetching the data:", error));
   }, []);
 
+  useEffect(() => {
+    fetch("/data/autorxs.json")
+      .then((res) => res.json())
+      .then(setAutorxsData)
+      .catch(() => setAutorxsData("error"));
+  }, []);
+
+  const getAutorxByEnlaceVer = (enlaceVer: string) =>
+    autorxsData !== "loading" && autorxsData !== "error"
+      ? autorxsData.find((a) => a.enlaceVer === enlaceVer)
+      : undefined;
+
+  const NombreLink = ({ enlaceVer }: { enlaceVer: string }) => {
+    const autorx = getAutorxByEnlaceVer(enlaceVer);
+    if (!autorx) return <span>{enlaceVer}</span>;
+    return <Link to={autorx.enlaceVer}>{autorx.nombre}</Link>;
+  };
+
   const filteredInvestigaciones = filter
     ? investigaciones.filter(
       (investigacion) =>
         investigacion.tipoInvestigacion === filter.toLowerCase(),
     )
     : investigaciones;
+
+  if (autorxsData === "loading") return <div>Cargando autorxs...</div>;
+  if (autorxsData === "error") return <div>Error cargando autorxs.</div>;
 
   return (
     <div className={styles.todasContainer}>
@@ -67,11 +94,27 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
             </h2>
             <div className={styles.autorxContainer}>
               <Icons className={styles.icon} icon="autorx" iconSize="medium" />
-              <h5 className={styles.autorx}> {investigacion.autorxs}</h5>
+              <h5 className={styles.autorx}>
+                {investigacion.autorxs &&
+                  investigacion.autorxs.map((enlaceVer, idx) => (
+                    <span key={enlaceVer}>
+                      <NombreLink enlaceVer={enlaceVer} />
+                      {idx < investigacion.autorxs.length - 1 && ", "}
+                    </span>
+                  ))}
+              </h5>
             </div>
             <div className={styles.ilusContainer}>
               <Icons className={styles.icon} icon="ilus" iconSize="medium" />
-              <h5 className={styles.ilus}> {investigacion.ilus}</h5>
+              <h5 className={styles.ilus}>
+                {investigacion.ilus &&
+                  investigacion.ilus.map((enlaceVer, idx) => (
+                    <span key={enlaceVer}>
+                      <NombreLink enlaceVer={enlaceVer} />
+                      {idx < investigacion.ilus.length - 1 && ", "}
+                    </span>
+                  ))}
+              </h5>
             </div>
             <h4 className={styles.autorxFecha}>{investigacion.fecha}</h4>
           </section>
