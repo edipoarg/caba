@@ -5,8 +5,12 @@ const Nota21 = () => {
     <>
       <div className={styles.NotaContainer}>
         <h4 className={styles.singularText}>
-          Las manos contra la pared, las piernas flacas, bien separadas. –¿Ese
-          es tu bolso? Exhibime lo que tenés –le ordena un policía de la ciudad
+          sesgo policial / investigación / un manual para la calle
+        </h4>
+
+        <h4 className={styles.singularText}>
+          Las manos contra la pared, las piernas flacas, bien separadas. -¿Ese
+          es tu bolso? Exhibime lo que tenés -le ordena un policía de la ciudad
           a un joven que acaba de detener sobre la calle Olavarría, en el barrio
           porteño de La Boca.
         </h4>
