@@ -18,7 +18,7 @@
 
 .title {
   margin: 0;
-  font-size: 0.8rem
+  font-size: 0.8rem;
 }
 
 .tipo2Ref,
@@ -61,7 +61,6 @@
 
 /*  PC  */
 @media (min-width: 1200px) {
-
   .filtroTipo {
     width: 7vw;
     align-content: center;

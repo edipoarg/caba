@@ -23,9 +23,6 @@ import Nota19 from "../todasInvest/Nota19";
 import Nota20 from "../todasInvest/Nota20";
 import Nota21 from "../todasInvest/Nota21";
 
-
-
-
 interface InvestigacionModel {
   id: string;
   dominio: string;
@@ -64,7 +61,6 @@ const componentesNotas: ComponentesNotas = {
   "doxeo-con-placas": Nota19,
   "cuanto-vale-un-policia": Nota20,
   "portacion-de-cara": Nota21,
-
 };
 
 const Investigacion = () => {

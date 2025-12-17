@@ -1,18 +1,22 @@
 [
-
-    {
-        "nombre": "Atrapamuros",
-        "url": "https://www.instagram.com/atrapamuros/}",
-        "logo":""
-    },
-    {"nombre":"Correpi", 
-    "url":"https://www.instagram.com/correpi_/",
-    "logo":""},
-    {"nombre":"CELS", 
-    "url":"https://www.instagram.com/cels_argentina/",
-    "logo":"" },
-    {"nombre":"Liga x los DDHH", 
-    "url":"https://www.instagram.com/ligaporlosddhh/",
-    "logo":""}
-
+  {
+    "nombre": "Atrapamuros",
+    "url": "https://www.instagram.com/atrapamuros/}",
+    "logo": ""
+  },
+  {
+    "nombre": "Correpi",
+    "url": "https://www.instagram.com/correpi_/",
+    "logo": ""
+  },
+  {
+    "nombre": "CELS",
+    "url": "https://www.instagram.com/cels_argentina/",
+    "logo": ""
+  },
+  {
+    "nombre": "Liga x los DDHH",
+    "url": "https://www.instagram.com/ligaporlosddhh/",
+    "logo": ""
+  }
 ]

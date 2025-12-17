@@ -40,9 +40,9 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
 
   const filteredInvestigaciones = filter
     ? investigaciones.filter(
-      (investigacion) =>
-        investigacion.tipoInvestigacion === filter.toLowerCase(),
-    )
+        (investigacion) =>
+          investigacion.tipoInvestigacion === filter.toLowerCase(),
+      )
     : investigaciones;
 
   return (

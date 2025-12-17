@@ -162,7 +162,8 @@ const Nota10 = () => {
       </h4>
 
       <h4 className={styles.singularText}>
-        Una condición para entrar es abandonar o dar en adopción a sus mascotas.{" "}
+        Una condición para entrar es abandonar o dar en adopción a sus
+        mascotas.{" "}
       </h4>
 
       <h6 className={styles.span}>

@@ -1,78 +1,73 @@
-.nosotrxsContainer{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    background-color: #e9efdf;
-    color: #131313;
-    box-shadow: 
-     10px -20px 50px rgba(0, 0, 0, 0.5), /* Sombra interna clara en la esquina superior izquierda */
-     -15px -10px 70px rgba(0, 0, 255, 0.1); /* Sombra interna clara en la esquina inferior derecha */
-  }
-
-  .header{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 12vh;  
-  }
-
-  .box{
-    height: 25vh;
-    padding-left: 10vw;
-  }
-  
-
-.bajadaNosotrxs{
-     text-align: justify;
-background-color: #9fff39;
-border-radius: 14px;
-color: #231534;
-padding: 4vh 7vw;
-font-size: 0.8rem;
-margin: 0;
-border: solid 2px;
-box-shadow: 5px 5px 0 3px ;
-margin: 0vh 5vw;
-}
-.bajada{
-    margin: 0;
+.nosotrxsContainer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  background-color: #e9efdf;
+  color: #131313;
+  box-shadow:
+    10px -20px 50px rgba(0, 0, 0, 0.5),
+    /* Sombra interna clara en la esquina superior izquierda */ -15px -10px 70px
+      rgba(0, 0, 255, 0.1); /* Sombra interna clara en la esquina inferior derecha */
 }
 
-
-.titulosNosotrxs{
-    padding-left: 10vw;
-    padding-top: 10vh;
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 12vh;
 }
 
-.bajadaNosotrxs{
-    padding-left: 10vw;
+.box {
+  height: 25vh;
+  padding-left: 10vw;
 }
 
-.logos{
-    padding-left: 10vw;
+.bajadaNosotrxs {
+  text-align: justify;
+  background-color: #9fff39;
+  border-radius: 14px;
+  color: #231534;
+  padding: 4vh 7vw;
+  font-size: 0.8rem;
+  margin: 0;
+  border: solid 2px;
+  box-shadow: 5px 5px 0 3px;
+  margin: 0vh 5vw;
+}
+.bajada {
+  margin: 0;
 }
 
-  
-  body{
-      background-color: #231c26;
-  
-  }
-  
-  
-  
-  .regionTitle{
-    padding-top: 5vh;
-    font-size: 1.2rem;
-  }
-  
-  .deco{
-    font-size: 10px;
-    position: absolute;
-    top: 6vh;
-    right: 10vw;
-  }
-  
-  .sloganContainer{
+.titulosNosotrxs {
+  padding-left: 10vw;
+  padding-top: 10vh;
+}
+
+.bajadaNosotrxs {
+  padding-left: 10vw;
+}
+
+.logos {
+  padding-left: 10vw;
+}
+
+body {
+  background-color: #231c26;
+}
+
+.regionTitle {
+  padding-top: 5vh;
+  font-size: 1.2rem;
+}
+
+.deco {
+  font-size: 10px;
+  position: absolute;
+  top: 6vh;
+  right: 10vw;
+}
+
+.sloganContainer {
   background-color: #9fff39;
   width: 60vw;
   border-radius: 14px;
@@ -83,102 +78,94 @@ margin: 0vh 5vw;
   position: absolute;
   bottom: 35vh;
   left: 20vw;
-  }
-  
-  .slogan{
-    text-align: center;
-    margin: 0;
-  }
-  
-  .thinLine{
-    position: absolute;
-    height: 1px;
-    width: 80vw;
-    background-color: #231c26;
-    top: 90vh;
-    left: 10vw;
-  }
-  
-  .develop{
-    margin: 0;
-    margin: auto;
-    font-size: 0.7rem;
-    position: relative;
-    bottom: 5vh;
-  }
-  
-  
-  
-  @media (min-width: 768px) {
-  
-    .nosotrxsContainer{
-      border: solid 1px;
-      border-color: #131313;
-      background-color: #9fff39;
+}
+
+.slogan {
+  text-align: center;
+  margin: 0;
+}
+
+.thinLine {
+  position: absolute;
+  height: 1px;
+  width: 80vw;
+  background-color: #231c26;
+  top: 90vh;
+  left: 10vw;
+}
+
+.develop {
+  margin: 0;
+  margin: auto;
+  font-size: 0.7rem;
+  position: relative;
+  bottom: 5vh;
+}
+
+@media (min-width: 768px) {
+  .nosotrxsContainer {
+    border: solid 1px;
+    border-color: #131313;
+    background-color: #9fff39;
     width: 90vw;
     margin-left: 10vw;
-    }
-      
-        
-      .sloganContainer{
-  width: 22vw;
-  border-radius: 14px;
-  border: solid 2px;
-  background-color: #131313;
-  color: #9fff39;
-  border-color: #9fff39;
-  padding: 1vh 1vw;
-  font-size: 0.7rem;
-  position: absolute;
-  left: 10vw;
-
-      }
-      .box{
-        height: 12vh;
-        padding-left: 10vw;
-      }   
-      .bajadaNosotrxs{
-        width: 30vw;
-   padding: 4vh 7vw;
-   font-size: 1rem;
-   box-shadow: 5px 5px 0 3px ;
-   margin: 0vh 0vw 0vh 43vw;
-   height: 40vh;
-   }
-
-      .blackContainer{
-        position: absolute;
-        background-color: #131313;
-        top: 14vh;
-        height: 55vh;
-        width: 75vw;
-        left: 5vw;
-        border-radius: 45px;
-      }
-  
-      .thinLine{
-        position: absolute;
-        height: 3px;
-        width: 80vw;
-        background-color: #231c26;
-        top: 80vh;
-        left: 8vw;
-      }
-      .deco{
-        font-size: 15px;
-        position: absolute;
-        top: 75vh;
-        right: 12vw;
-      }
-  
-      .develop{
-        margin: auto;
-        font-size: 0.8rem;
-        position: absolute;
-        top: 85vh;
-        right: 5vw;
-      }
-      
   }
 
-  
+  .sloganContainer {
+    width: 22vw;
+    border-radius: 14px;
+    border: solid 2px;
+    background-color: #131313;
+    color: #9fff39;
+    border-color: #9fff39;
+    padding: 1vh 1vw;
+    font-size: 0.7rem;
+    position: absolute;
+    left: 10vw;
+  }
+  .box {
+    height: 12vh;
+    padding-left: 10vw;
+  }
+  .bajadaNosotrxs {
+    width: 30vw;
+    padding: 4vh 7vw;
+    font-size: 1rem;
+    box-shadow: 5px 5px 0 3px;
+    margin: 0vh 0vw 0vh 43vw;
+    height: 40vh;
+  }
+
+  .blackContainer {
+    position: absolute;
+    background-color: #131313;
+    top: 14vh;
+    height: 55vh;
+    width: 75vw;
+    left: 5vw;
+    border-radius: 45px;
+  }
+
+  .thinLine {
+    position: absolute;
+    height: 3px;
+    width: 80vw;
+    background-color: #231c26;
+    top: 80vh;
+    left: 8vw;
+  }
+  .deco {
+    font-size: 15px;
+    position: absolute;
+    top: 75vh;
+    right: 12vw;
+  }
+
+  .develop {
+    margin: auto;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 85vh;
+    right: 5vw;
+  }
+}

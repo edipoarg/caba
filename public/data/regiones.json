@@ -1,11 +1,10 @@
 {
-    "caba": {
-      "nombre": "CABA",
-      "link": "caba"
-    },
-    "laplata": {
-      "nombre": "La Plata",
-      "link": "laplata"
-    }
+  "caba": {
+    "nombre": "CABA",
+    "link": "caba"
+  },
+  "laplata": {
+    "nombre": "La Plata",
+    "link": "laplata"
   }
-  
+}

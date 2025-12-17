@@ -1,159 +1,156 @@
 .menuContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%;
+  margin: auto;
 }
 
 .header {
-    margin-top: 2vh;
+  margin-top: 2vh;
 }
 
 .postContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3vh;
-    width: 90%;
-    margin: auto;
-    padding-bottom: 14vh;
-    padding-top: 2vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3vh;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 14vh;
+  padding-top: 2vh;
 }
 
 .post {
-    background-color: #9e5cdc;
-    border-radius: 14px;
-    padding-bottom: 5vh;
-    border: solid 1px #9e5cdc;
+  background-color: #9e5cdc;
+  border-radius: 14px;
+  padding-bottom: 5vh;
+  border: solid 1px #9e5cdc;
 }
 
 .title {
-    background-color: #232128;
-    width: 85%;
-    margin: auto;
-    border-radius: 14px;
-    height: 7vh;
-    font-size: 2rem;
-    padding-top: 14vh;
-    padding-left: 5vw;
-    border: solid 1px #9e5cdc;
-    color: #9e5cdc;
+  background-color: #232128;
+  width: 85%;
+  margin: auto;
+  border-radius: 14px;
+  height: 7vh;
+  font-size: 2rem;
+  padding-top: 14vh;
+  padding-left: 5vw;
+  border: solid 1px #9e5cdc;
+  color: #9e5cdc;
 }
 
 .icon {
-    color: #9e5cdc;
-    position: absolute;
-    top: 6vh;
-    left: 9vw;
+  color: #9e5cdc;
+  position: absolute;
+  top: 6vh;
+  left: 9vw;
 }
 
 .buttonTitle {
-    font-size: 0.7rem;
-    margin: 0;
-    padding: 1vh 1vw;
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 1vh 1vw;
 }
 
 .detail {
-    padding: 1vh 2vw;
-    font-size: 1rem;
+  padding: 1vh 2vw;
+  font-size: 1rem;
 }
 
 .titleContainer {
-    padding: 4vh 5vw;
+  padding: 4vh 5vw;
 }
 
 .postTitle {
-    color: white;
-    margin: 0;
-    font-size: 1.5rem;
-    padding-top: 5vh;
+  color: white;
+  margin: 0;
+  font-size: 1.5rem;
+  padding-top: 5vh;
 }
 
 .subtitle {
-    color: #232128;
-    margin: 0;
+  color: #232128;
+  margin: 0;
 }
 
 .submenu {
-    color: white;
-    padding: 0vh 3vw;
-
+  color: white;
+  padding: 0vh 3vw;
 }
 
 .detailType {
-    margin: 0;
-    color: white;
-    font-size: 1rem;
+  margin: 0;
+  color: white;
+  font-size: 1rem;
 }
 
 .link {
-    color: #232128;
-    border: solid 1px #232128;
-    padding: 1vh 5vw;
-    border-radius: 14px;
-    box-shadow: 3px 3px 0 1px #232128;
-    margin-left: 4vw;
-    background-color: #b9ff39;
+  color: #232128;
+  border: solid 1px #232128;
+  padding: 1vh 5vw;
+  border-radius: 14px;
+  box-shadow: 3px 3px 0 1px #232128;
+  margin-left: 4vw;
+  background-color: #b9ff39;
 }
 
 .content {
-    text-align: justify;
-    margin: 0;
-    padding: 2vh 4vw;
-    font-family: Ronnia Thin;
-    font-size: 1rem;
-    margin-bottom: 2vh;
-    color: #232128;
+  text-align: justify;
+  margin: 0;
+  padding: 2vh 4vw;
+  font-family: Ronnia Thin;
+  font-size: 1rem;
+  margin-bottom: 2vh;
+  color: #232128;
 }
 
 @media (min-width: 768px) {
+  .recurso {
+    background-color: #232128;
+    position: absolute;
+    right: 0vw;
+    width: 89vw;
+  }
 
-    .recurso {
-        background-color: #232128;
-        position: absolute;
-        right: 0vw;
-        width: 89vw;
-    }
+  .menuContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+  }
 
-    .menuContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: auto;
-    }
+  .title {
+    width: 20vw;
+    height: 14vh;
+    padding-top: 20vh;
+    padding-left: 3vw;
+  }
 
-    .title {
-        width: 20vw;
-        height: 14vh;
-        padding-top: 20vh;
-        padding-left: 3vw;
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 3vh 0vw;
+  }
 
-    }
+  .postContainer {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3vh;
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 8vh;
+    padding-top: 6vh;
+    background-color: #232128;
+    right: 0;
+  }
 
-    .header {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        padding: 3vh 0vw;
-    }
+  .icon {
+    top: 15vh;
+    left: 6vw;
+  }
 
-    .postContainer {
-        position: absolute;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 3vh;
-        width: 90vw;
-        margin: auto;
-        padding-bottom: 8vh;
-        padding-top: 6vh;
-        background-color: #232128;
-        right: 0;
-    }
-
-    .icon {
-        top: 15vh;
-        left: 6vw;
-    }
-
-    .post {
-        width: 65vw;
-        margin: auto;
-    }
+  .post {
+    width: 65vw;
+    margin: auto;
+  }
 }

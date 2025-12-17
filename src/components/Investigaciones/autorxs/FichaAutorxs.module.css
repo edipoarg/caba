@@ -4,60 +4,60 @@
 .title,
 .data,
 .line {
-    margin: 0;
+  margin: 0;
 }
 
 .fichaAutorxs {
-    height: 90vh;
-    padding: 5vh 8vw;
-    text-align: justify;
+  height: 90vh;
+  padding: 5vh 8vw;
+  text-align: justify;
 }
 
 .header {
-    background-color: white;
-    border-radius: 14px;
-    padding: 5vh 8vw;
-    color: #131313;
+  background-color: white;
+  border-radius: 14px;
+  padding: 5vh 8vw;
+  color: #131313;
 }
 
 .title {
-    font-size: 2rem;
-    padding: 2vh 0vw;
-    color: #9e5cdc
+  font-size: 2rem;
+  padding: 2vh 0vw;
+  color: #9e5cdc;
 }
 
 .line {
-    color: #9e5cdc;
-    text-align: center;
+  color: #9e5cdc;
+  text-align: center;
 }
 
 .post {
-    padding: 4vh 8vw;
-    background-color: black;
-    color: azure;
+  padding: 4vh 8vw;
+  background-color: black;
+  color: azure;
 }
 
 .data {
-    padding: 2vh 0vw;
-    margin: 0;
+  padding: 2vh 0vw;
+  margin: 0;
 }
 
 .img {
-    width: 24vw;
-    height: 24vw;
-    /* Ajusta el ancho según tus necesidades */
-    border-radius: 14px;
-    object-fit: cover;
-    filter: grayscale(100%);
+  width: 24vw;
+  height: 24vw;
+  /* Ajusta el ancho según tus necesidades */
+  border-radius: 14px;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 @media (min-width: 768px) {
-    .fichaAutorxs {
-        position: fixed;
-        right: 10vw;
-        height: 90vh;
-        width: 60vw;
-        padding: 5vh 8vw;
-        text-align: justify;
-    }
+  .fichaAutorxs {
+    position: fixed;
+    right: 10vw;
+    height: 90vh;
+    width: 60vw;
+    padding: 5vh 8vw;
+    text-align: justify;
+  }
 }

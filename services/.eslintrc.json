@@ -1,6 +1,6 @@
 {
-    "env": {
-        "node": true,
-        "commonjs": true
-    }
+  "env": {
+    "node": true,
+    "commonjs": true
+  }
 }

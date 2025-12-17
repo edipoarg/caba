@@ -1,49 +1,48 @@
-.MapaDev{
-    display: flex; 
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #232128;
-    color: #2cb54d;
+.MapaDev {
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #232128;
+  color: #2cb54d;
 }
 
-.emergButton{
-    position: absolute;
-    right: 15vw;
-    top: 4vh;
-    z-index: 1000;
-    border: solid 1px #2cb54d;
-    padding: 1vh 2vw;
-    border-radius: 14px;
-    box-shadow: 1px 1px 0 1px ;
-    backdrop-filter: blur(11.2px);
-    -webkit-backdrop-filter: blur(11.2px);
+.emergButton {
+  position: absolute;
+  right: 15vw;
+  top: 4vh;
+  z-index: 1000;
+  border: solid 1px #2cb54d;
+  padding: 1vh 2vw;
+  border-radius: 14px;
+  box-shadow: 1px 1px 0 1px;
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
 }
 
-.emergButton:hover{
-    border: solid 1px #2cb54d;
-    background-color: #2cb54d;
-    color: #232128;
+.emergButton:hover {
+  border: solid 1px #2cb54d;
+  background-color: #2cb54d;
+  color: #232128;
 }
 
-.emerg{
-    margin: 0;
+.emerg {
+  margin: 0;
 }
 
-.botonFiltrosMain{
-    display: none;
+.botonFiltrosMain {
+  display: none;
 }
 
 @media (min-width: 1000px) {
-    .emergButton{
+  .emergButton {
     right: 5vw;
     top: 4vh;
     font-size: 1.3rem;
     border: solid 1px #2cb54d;
     padding: 2vh 2vw;
     border-radius: 14px;
-    box-shadow: 3px 3px 0 1px ;
-    }
-
+    box-shadow: 3px 3px 0 1px;
+  }
 }
