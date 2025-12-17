@@ -1,111 +1,109 @@
 /* GatilloFacil.module.css */
 .gatilloContainer {
-    position: fixed;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #db8821;
-    padding: 4vh 4vw;
-    overflow-y: auto; /* Permite el desplazamiento vertical */
-    box-sizing: border-box;
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #db8821;
+  padding: 4vh 4vw;
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  box-sizing: border-box;
 }
 
 .header {
-    height: 10vh;
-    border: solid 2px #131313;
-    background-color: #db8821;
-    border-radius: 14px;
-    padding: 5vh 5vw;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    margin: auto;
+  height: 10vh;
+  border: solid 2px #131313;
+  background-color: #db8821;
+  border-radius: 14px;
+  padding: 5vh 5vw;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin: auto;
 }
 
 .title {
-    margin: 0;
-    color: #131313;
-    font-size: 2rem;
-    align-self: center;}
+  margin: 0;
+  color: #131313;
+  font-size: 2rem;
+  align-self: center;
+}
 
 .headerIcon {
-    text-align: right;
+  text-align: right;
 }
 
 .listContainer {
-    position: absolute;
-    box-sizing: border-box;
-  
+  position: absolute;
+  box-sizing: border-box;
 }
 
-.list{
-    padding: 3vh 0vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
+.list {
+  padding: 3vh 0vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
 }
 .item {
-    width: 35vw;
-    margin: 0;
-    padding: 0.5vh 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: solid 1px #131313;
-    border-radius: 14px;
-    padding: 3vh 2vw;
-    margin: 1vh 1vw;
-    background-color: #131313;
-    color: aliceblue;
-    align-items: end;
+  width: 35vw;
+  margin: 0;
+  padding: 0.5vh 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px #131313;
+  border-radius: 14px;
+  padding: 3vh 2vw;
+  margin: 1vh 1vw;
+  background-color: #131313;
+  color: aliceblue;
+  align-items: end;
 }
 
-.itemName{
-    margin: 0;
-    font-size: 1.1rem;
-    color: #db8821;
+.itemName {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #db8821;
 }
 
-.itemData{
-    margin: 0; 
-    font-size: 0.9rem;
+.itemData {
+  margin: 0;
+  font-size: 0.9rem;
 }
 
-.moreButton{
-    margin: 0;
-    border: solid 1px #db8821;
-    border-radius: 14px;
-    padding: 0.5vh 2vw;
-    text-align: center;
-    width: 10vw;
-    box-shadow: 1px 1px 0 1px #db8821;
+.moreButton {
+  margin: 0;
+  border: solid 1px #db8821;
+  border-radius: 14px;
+  padding: 0.5vh 2vw;
+  text-align: center;
+  width: 10vw;
+  box-shadow: 1px 1px 0 1px #db8821;
 }
-.moreButton:hover{
-    color: #232128;
-    background-color: #db8821;
+.moreButton:hover {
+  color: #232128;
+  background-color: #db8821;
 }
 
 /*  PC SCREEN */
 @media (min-width: 1080px) {
+  .header {
+    height: 15vh;
+    width: 70vw;
+  }
 
-    .header {
-        height: 15vh;
-        width: 70vw;
-    }
+  .gatilloContainer {
+    width: 90vw;
+    margin-left: 10vw;
+  }
 
-    .gatilloContainer {
-   width: 90vw;
-   margin-left: 10vw;
-    }
+  .list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+  .item {
+    width: 15vw;
+  }
 
-    .list{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .item{
-width: 15vw;
-    }
-
-    .moreButton{
+  .moreButton {
     width: 3vw;
-    }
+  }
 }

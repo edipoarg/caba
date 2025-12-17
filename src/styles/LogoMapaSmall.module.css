@@ -1,56 +1,53 @@
-.LogoMapa{
+.LogoMapa {
+  position: absolute;
+  left: 5vw;
+  top: 10vh;
+  background-color: #131313;
+  border: solid 1px;
+  border-color: #131313;
+  border-radius: 22px;
+  width: 90vw;
+  height: 10vh;
+}
+
+.Logo {
+  position: absolute;
+  height: 12vh;
+  top: -3vh;
+  left: 3vw;
+}
+
+.LogoTitulo {
+  position: relative;
+  font-size: 15px;
+  top: 2vh; /* Ajusta esta propiedad para subir el título 2 píxeles */
+  left: 70vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 15px;
+  width: 10vw;
+  color: #e9efdf;
+}
+
+@media (min-width: 720px) {
+  .LogoMapa {
     position: absolute;
     left: 5vw;
     top: 10vh;
-    background-color: #131313;
-    border: solid 1px;
-    border-color: #131313;
-    border-radius: 22px;
-    width: 90vw;
-    height: 10vh;
-    }
-    
-    .Logo{
-        position: absolute;
-        height: 12vh;
-        top: -3vh;
-        left: 3vw;
-    }
-    
-    .LogoTitulo{
-    position: relative;
-    font-size: 15px;
-    top: 2vh; /* Ajusta esta propiedad para subir el título 2 píxeles */
-    left: 70vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 15px;
-    width: 10vw;
-    color: #e9efdf;}
+    height: 55vh;
+    width: 35vw;
+    border: solid 3px;
+  }
 
-
-@media (min-width: 720px) {
-    
-.LogoMapa{
-position: absolute;
-left: 5vw;
-top: 10vh;
-height: 55vh;
-width: 35vw;
-border: solid 3px;
-}
-
-.Logo{
+  .Logo {
     height: 15vh;
     top: 1vh;
- 
+  }
 
-}
-
-.LogoTitulo{
+  .LogoTitulo {
     position: relative;
     font-size: 30px;
     top: 15vh; /* Ajusta esta propiedad para subir el título 2 píxeles */
-left: 5vw;
-line-height: 30px;
-    
-}}
+    left: 5vw;
+    line-height: 30px;
+  }
+}

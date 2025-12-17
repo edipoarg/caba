@@ -1,72 +1,69 @@
 .menuContainer {
+  width: 100vw;
+  height: 90vh;
+  /* From https://css.glass */
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  padding-top: 8vh;
+}
+
+.menu {
+  width: 85vw;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #231c26;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 7vw;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  color: #231c26;
+  background-color: #b9ff39;
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px 5px rgba(185, 255, 57, 0.2);
+}
+
+.icon:hover {
+  width: 80px;
+  height: 80px;
+  color: #231c26;
+  background-color: #ba7aff;
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px 5px rgba(86, 71, 102, 0.2);
+}
+
+.iconName {
+  color: #b9ff39;
+  text-align: center;
+}
+
+/*responsive*/
+@media (min-width: 1200px) {
+  .menuContainer {
     width: 100vw;
-    height: 90vh;
+    height: 97vh;
     /* From https://css.glass */
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);
-    padding-top: 8vh;
+    padding-top: 3vh;
   }
-  
+
   .menu {
-    width: 85vw;
-    height: 75vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #231c26;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 7vw;
+    width: 55vw;
+    margin-left: 30vw;
+    margin-top: 5vh;
   }
-  
-  .icon {
-    width: 80px;
-    height: 80px;
-    color: #231c26;
-    background-color: #b9ff39;
-    text-align: center;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 20px 5px rgba(185, 255, 57, 0.2);
-
-  }
-
-  .icon:hover {
-    width: 80px;
-    height: 80px;
-    color: #231c26;
-    background-color: #ba7aff;
-    text-align: center;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 20px 5px rgba(86, 71, 102, 0.2);
-
-  }
-
-  .iconName{
-    color: #b9ff39;
-    text-align: center;
-  }
-  
-/*responsive*/
-  @media (min-width: 1200px) {
-    .menuContainer {
-      width: 100vw;
-      height: 97vh;
-      /* From https://css.glass */
-      backdrop-filter: blur(7.6px);
-      -webkit-backdrop-filter: blur(7.6px);
-      padding-top: 3vh;
-    }
-    
-
-.menu{
-  width: 55vw;
-margin-left: 30vw;
-margin-top: 5vh;
 }
-  }

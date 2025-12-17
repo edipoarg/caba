@@ -14,14 +14,8 @@
   {
     "id": "i2",
     "titulo": "Gatillo fácil: 38 casos en seis años",
-    "autorxs": [
-      "LUDMILA FERRER",
-      "MATÍAS FERRARI"
-    ],
-    "ilus": [
-      "NICOLÁS CARDELLO",
-      "AMANDA SANDOVAL"
-    ],
+    "autorxs": ["LUDMILA FERRER", "MATÍAS FERRARI"],
+    "ilus": ["NICOLÁS CARDELLO", "AMANDA SANDOVAL"],
     "fecha": "11/07/2022",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_148160bd4ba3472184da4f0c50326a59~mv2.jpg/v1/fill/w_1140,h_641,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Foto%20Nicol%C3%A1s%20Cardello.jpg",
     "textoBajada": "Las huellas de las balas mortales que disparó la policía porteña pueden rastrearse en este informe exclusivo del Grito del Sur para el Mapa de la Policía. Los barrios populares contabilizan la mayor cantidad de muertos y, entre ellos, el objetivo predilecto de la gorra son los varones jóvenes con escasos recursos económicos. ¿Cuáles son los casos paradigmáticos que aún no encuentran justicia? ¿Qué dicen las organizaciones y los referentes sociales sobre la impunidad y el hermetismo que rodean a las fuerzas de seguridad?",
@@ -32,10 +26,7 @@
   {
     "id": "i3",
     "titulo": "Videovigilancia policial: Tu cara me suena",
-    "autorxs": [
-      "Bibiana Ruiz",
-      "Juan Suárez"
-    ],
+    "autorxs": ["Bibiana Ruiz", "Juan Suárez"],
     "ilus": "Nicolás Daniluk",
     "fecha": "31/05/2022",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_bcc1a31fa0bd4de689f2fc7535bf6e0e~mv2.jpg/v1/fill/w_1116,h_628,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0f4ca0_bcc1a31fa0bd4de689f2fc7535bf6e0e~mv2.jpg",
@@ -95,10 +86,7 @@
   {
     "id": "i8",
     "titulo": "Cuando la policía es parte crítica de la ruta para denunciar las violencias de género",
-    "autorxs": [
-      "Ines Hayes",
-      "Paula Talento"
-    ],
+    "autorxs": ["Ines Hayes", "Paula Talento"],
     "ilus": "Panchopepe",
     "fecha": "18/05/2023",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_fd75b4a693364c5cb45a47c9c29f8a43~mv2.jpg/v1/fill/w_1118,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PANCHOPEPE%20-%20MAPA%20POLICIA%20-%20obst%C3%A1culos%20denuncias%20violencias%20de%20g%C3%A9nero.jpg",
@@ -182,10 +170,7 @@
   {
     "id": "i15",
     "titulo": "El método Grillo: cómo reconstruir una verdad manipulada",
-    "autorxs": [
-      "Facundo Cifelli ",
-      "/ Luz Conde Vicente"
-    ],
+    "autorxs": ["Facundo Cifelli ", "/ Luz Conde Vicente"],
     "ilus": "Nicolás Daniluk",
     "fecha": "08/07/2025",
     "imagen": "https://static.wixstatic.com/media/0f4ca0_c4a13c0d47c145408974eafc2df6c1c9~mv2.jpg/v1/fill/w_1824,h_843,al_c,q_85,enc_avif,quality_auto/GRILLO-x-nicolas-daniluk---WEB-CRISIS---PORT.jpg",
@@ -251,6 +236,18 @@
     "imagen": "https://static.wixstatic.com/media/0f4ca0_0ea6abf0acab4f75ad7d0f956bf98a61~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Cu%C3%A1nto%20cuesta%20un%20polic%C3%ADa%20x%20Azul%20Blaseotto%20WEB%20MAPA%20POLI.jpg",
     "textoBajada": "Problemas edilicios, falta de formación, sueldos bajos, malabares con los tiempos y  depresión. En qué condiciones trabajan las Fuerzas de Seguridad, cuánto se destina para cada policía y qué hacen para llegar a fin de mes.",
     "dominio": "cuanto-vale-un-policia",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
+  },
+  {
+    "id": "i21",
+    "titulo": "portación de cara: la educación de la Policía de la Ciudad",
+    "autorxs": "Facundo Lo Duca",
+    "ilus": "Panchopepe",
+    "fecha": "17/12/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_223c6c7d53bc40d19eff996a79185e16~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/escuela%20x%20Panchopepe%20-%20WEB%20MAPA.jpg",
+    "textoBajada": "En las aulas del Instituto Superior de Seguridad Pública los aspirantes a oficiales de la Ciudad aprenden técnicas y procedimientos que los preparan para combatir un sesgo del estereotipo delincuencial. El manual al que accedió el Mapa de la Policía.",
+    "dominio": "portacion-de-cara",
     "tipoInvestigacion": "informe",
     "region": "Caba"
   }

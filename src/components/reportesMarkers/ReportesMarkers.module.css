@@ -1,34 +1,32 @@
-
 .reportes {
-    width: 15px;
-    height: 15px;
-    color: #2cb54d;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.5;
-    transform: translate(-20%, -20%);
+  width: 15px;
+  height: 15px;
+  color: #2cb54d;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  transform: translate(-20%, -20%);
 }
 
-
 .reportes:hover {
-    width: 15px;
-    height: 15px;
-    color: white;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.8;
-    transform: translate(-20%, -20%);
+  width: 15px;
+  height: 15px;
+  color: white;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  transform: translate(-20%, -20%);
 }
 
 .selected {
-    width: 15px;
-    height: 15px;
-    color: white;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.8;
-    transform: translate(-20%, -20%);
+  width: 15px;
+  height: 15px;
+  color: white;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  transform: translate(-20%, -20%);
 }

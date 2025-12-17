@@ -1,25 +1,26 @@
-.organizate{
-    height: 80vh;
-    width: 100vw;
-    color: violet;
-    padding: 10vh 10vw;
+.organizate {
+  height: 80vh;
+  width: 100vw;
+  color: violet;
+  padding: 10vh 10vw;
 }
 
-.header{
-    background-color: #232128;
-    color: black;
-    border-radius: 14px;
-    width: 75vw;
-    padding: 5vh 4vw;
-    border: solid 1px #9e5cdc;
-    color: #9e5cdc;
+.header {
+  background-color: #232128;
+  color: black;
+  border-radius: 14px;
+  width: 75vw;
+  padding: 5vh 4vw;
+  border: solid 1px #9e5cdc;
+  color: #9e5cdc;
 }
 
-.title, .subTitle {
-    margin: 0;
-} 
+.title,
+.subTitle {
+  margin: 0;
+}
 
-.title{
-    padding-top: 5vh;
-    font-size: 2rem;
+.title {
+  padding-top: 5vh;
+  font-size: 2rem;
 }

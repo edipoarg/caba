@@ -1,24 +1,23 @@
 .postMenu:hover {
-    background-color: #9e5cdc;
-    color: #232128;
-    padding: 1vh 3vw;
-    margin: 1vh 1vw;
-    border-radius: 14px;
-    border: #9e5cdc;
-    border: solid;
-    border-width: 1px;
-    box-shadow: 0px 0px 0 0px #9e5cdc;
-
+  background-color: #9e5cdc;
+  color: #232128;
+  padding: 1vh 3vw;
+  margin: 1vh 1vw;
+  border-radius: 14px;
+  border: #9e5cdc;
+  border: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 0 0px #9e5cdc;
 }
 
 .postMenu {
-    background-color: #232128;
-    color: #9e5cdc;
-    padding: 1vh 3vw;
-    margin: 1vh 1vw;
-    border-radius: 14px;
-    border: #9e5cdc;
-    border: solid;
-    border-width: 1px;
-    box-shadow: 3px 3px 0 1px #9e5cdc;
+  background-color: #232128;
+  color: #9e5cdc;
+  padding: 1vh 3vw;
+  margin: 1vh 1vw;
+  border-radius: 14px;
+  border: #9e5cdc;
+  border: solid;
+  border-width: 1px;
+  box-shadow: 3px 3px 0 1px #9e5cdc;
 }

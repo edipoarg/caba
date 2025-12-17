@@ -6,7 +6,7 @@ only the main branch is supported. releases that get a security audit are clearl
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.0.x   | :x: |
+| 0.0.x   | :x:                |
 | 0.1.x   | :white_check_mark: |
 
 ## Reporting a Vulnerability

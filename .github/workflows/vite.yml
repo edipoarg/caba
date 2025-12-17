@@ -51,7 +51,7 @@ jobs:
           VITE_API_F_KEY: ${{ secrets.VITE_API_F_KEY }}
           VITE_BASE_ID: ${{ secrets.VITE_BASE_ID }}
         run: |
-         yarn run build && cat public/data/casos.json
+          yarn run build && cat public/data/casos.json
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -62,8 +62,8 @@ jobs:
     needs: build
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

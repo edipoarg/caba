@@ -1,381 +1,381 @@
 .mapa {
-    display: none;
+  display: none;
 }
 
 .denuncias {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr;
-    width: 100vw;
-    max-width: 98vw;
-    height: 90vh;
-    max-height: 90vh;
-    margin: auto;
-    padding: 2vh 1vw;
-    gap: 2vh 0vw;
-    background-color: #2a8842;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  max-width: 98vw;
+  height: 90vh;
+  max-height: 90vh;
+  margin: auto;
+  padding: 2vh 1vw;
+  gap: 2vh 0vw;
+  background-color: #2a8842;
 }
 
 .denunciasContainer {
-    position: absolute;
-    z-index: 3000;
+  position: absolute;
+  z-index: 3000;
 }
 
 .titleContainer {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    width: 95%;
-    margin: auto;
-    max-width: 100%;
-    height: 35vh;
-    max-height: 60vh;
-    padding: 0;
-    border-radius: 14px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    background-color: #232128;
-    color: #2a8842;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 95%;
+  margin: auto;
+  max-width: 100%;
+  height: 35vh;
+  max-height: 60vh;
+  padding: 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: #232128;
+  color: #2a8842;
 }
 
 .headerIcon {
-    text-align: right;
-    padding: 3vh 5vw 0vh 0vh;
+  text-align: right;
+  padding: 3vh 5vw 0vh 0vh;
 }
 
 .title {
-    position: relative;
-    bottom: 10px;
-    padding-left: 2vw;
-    font-size: 40px;
-    margin: 0;
-    padding-top: 10vh;
-    padding-left: 5vh;
+  position: relative;
+  bottom: 10px;
+  padding-left: 2vw;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 10vh;
+  padding-left: 5vh;
 }
 
 .subTitle {
-    padding-left: 2vw;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    border-radius: 14px;
-    margin: 0;
-    padding-left: 5vh;
+  padding-left: 2vw;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  border-radius: 14px;
+  margin: 0;
+  padding-left: 5vh;
 }
 
 .button {
-    width: 13vw;
-    height: 3vh;
-    border-radius: 14px;
-    background-color: #232128;
-    border: solid 1px #2a8842;
-    position: absolute;
-    right: 10vw;
-    top: 23vh;
-    box-shadow: 3px 3px 0 1px #2a8842;
-    padding: 1vh 1vw;
-    text-align: center;
+  width: 13vw;
+  height: 3vh;
+  border-radius: 14px;
+  background-color: #232128;
+  border: solid 1px #2a8842;
+  position: absolute;
+  right: 10vw;
+  top: 23vh;
+  box-shadow: 3px 3px 0 1px #2a8842;
+  padding: 1vh 1vw;
+  text-align: center;
 }
 
 .button:hover {
-    width: 13vw;
-    height: 3vh;
-    border-radius: 14px;
-    background-color: #2a8842;
-    border: solid 1px #232128;
-    position: absolute;
-    box-shadow: 0px 0px 0 0px #2a8842;
-    color: #232128;
+  width: 13vw;
+  height: 3vh;
+  border-radius: 14px;
+  background-color: #2a8842;
+  border: solid 1px #232128;
+  position: absolute;
+  box-shadow: 0px 0px 0 0px #2a8842;
+  color: #232128;
 }
 
 .menuContainer {
-    width: 95%;
-    margin: auto;
-    height: 40vh;
-    display: grid;
-    /* Añadir esta línea */
-    grid-template-columns: 4fr 3fr;
-    border-radius: 14px;
-    gap: 2vh;
+  width: 95%;
+  margin: auto;
+  height: 40vh;
+  display: grid;
+  /* Añadir esta línea */
+  grid-template-columns: 4fr 3fr;
+  border-radius: 14px;
+  gap: 2vh;
 }
 
 .menu {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    border-radius: 14px;
-    gap: 2vh;
-    margin-top: 1vh;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 14px;
+  gap: 2vh;
+  margin-top: 1vh;
 }
 
 .buttonIcon {
-    padding: 0vh 2vw;
-    margin-top: 2vh;
-    text-align: right;
+  padding: 0vh 2vw;
+  margin-top: 2vh;
+  text-align: right;
 }
 
 .buttonContainer {
-    height: 45vh;
-    background-color: #2a8842;
-    border-radius: 14px;
-    color: #232128;
-    border: solid 1px;
-    border-color: #232128;
-    text-align: justify;
-    margin: auto;
-    padding: 3vh 5vw 0vh 5vw;
-    font-size: 0.8rem;
+  height: 45vh;
+  background-color: #2a8842;
+  border-radius: 14px;
+  color: #232128;
+  border: solid 1px;
+  border-color: #232128;
+  text-align: justify;
+  margin: auto;
+  padding: 3vh 5vw 0vh 5vw;
+  font-size: 0.8rem;
 }
 
 .buttonText {
-    padding-top: 2vh;
-    padding-left: 4vw;
-    font-size: 22px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  padding-top: 2vh;
+  padding-left: 4vw;
+  font-size: 22px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .genderContainer {
-    padding-top: 6vh;
+  padding-top: 6vh;
 }
 
 .genderTitle {
-    padding-left: 4vw;
-    font-size: 22px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  padding-left: 4vw;
+  font-size: 22px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .genderSubTitle {
-    padding-left: 4vw;
-    font-size: 0.8rem;
-    margin: 0;
+  padding-left: 4vw;
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 .reportesDenunciasContainer {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    border-radius: 14px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    background-color: #b9ff39;
-    margin-top: 1.5vh;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 14px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: #b9ff39;
+  margin-top: 1.5vh;
 }
 
 .icon {
-    color: #232128;
-    width: 10vw;
-    z-index: 5000;
-    padding-left: 2vw;
+  color: #232128;
+  width: 10vw;
+  z-index: 5000;
+  padding-left: 2vw;
 }
 
 .imagenUltimoReporte {
-    border-radius: 14px;
-    justify-self: right;
-    padding-top: 2vh;
-    height: 10vh;
+  border-radius: 14px;
+  justify-self: right;
+  padding-top: 2vh;
+  height: 10vh;
 }
 
 .title3 {
-    padding-left: 4vw;
-    font-size: 32px;
-    margin: 0;
+  padding-left: 4vw;
+  font-size: 32px;
+  margin: 0;
 }
 
 .subTitle2 {
-    padding-left: 4vw;
-    font-size: 18px;
-    margin: 0;
+  padding-left: 4vw;
+  font-size: 18px;
+  margin: 0;
 }
 
 /*  PC SCREEN */
 @media (min-width: 1080px) {
-    .mapa {
-        display: absolute;
-    }
+  .mapa {
+    display: absolute;
+  }
 
-    .denunciasContainer {
-        position: absolute;
-        z-index: 2000;
-        width: 100vw;
-        height: 100vh;
-        /* From https://css.glass */
-        border-radius: 0px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(11.2px);
-    }
+  .denunciasContainer {
+    position: absolute;
+    z-index: 2000;
+    width: 100vw;
+    height: 100vh;
+    /* From https://css.glass */
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(11.2px);
+  }
 
-    .denuncias {
-        border: solid 6vh;
-        border-right: solid 17vw;
-        background-color: rgba(0, 0, 0, 0.0);
-        border-color: #2a8842;
-        position: fixed;
-        z-index: 3000;
-        top: 20vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr;
-        width: 50vw;
-        max-width: 90vw;
-        height: 35vh;
-        max-height: 100vh;
-        margin: auto;
-        padding: 2vh 1vw;
-        gap: 2vh 0vw;
-        left: 15vw;
-        /* From https://css.glass */
-        border-radius: 0px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(11.2px);
-        -webkit-backdrop-filter: blur(11.2px);
-    }
+  .denuncias {
+    border: solid 6vh;
+    border-right: solid 17vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #2a8842;
+    position: fixed;
+    z-index: 3000;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 50vw;
+    max-width: 90vw;
+    height: 35vh;
+    max-height: 100vh;
+    margin: auto;
+    padding: 2vh 1vw;
+    gap: 2vh 0vw;
+    left: 15vw;
+    /* From https://css.glass */
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.2px);
+    -webkit-backdrop-filter: blur(11.2px);
+  }
 
-    .titleContainer {
-        position: absolute;
-        left: -10px;
-        width: 26vw;
-        height: 40vh;
-        max-height: 60vh;
-        border-radius: 0px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.0);
-        background-color: #2a8842;
-    }
+  .titleContainer {
+    position: absolute;
+    left: -10px;
+    width: 26vw;
+    height: 40vh;
+    max-height: 60vh;
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    background-color: #2a8842;
+  }
 
-    .genderContainer {
-        height: 25vh;
-        padding-top: 4vh;
-    }
+  .genderContainer {
+    height: 25vh;
+    padding-top: 4vh;
+  }
 
-    .buttonContainer {
-        max-height: 32vh;
-        border-radius: 2px;
-        background-color: #232128;
-        color: #2a8842;
-        border-color: #2a8842;
-        box-shadow: 0px 0px 0;
-        padding: 3vh 2vw 0vh 2vw;
-        margin-top: 0;
-        margin-bottom: 0;
-        width: 21vw;
-    }
+  .buttonContainer {
+    max-height: 32vh;
+    border-radius: 2px;
+    background-color: #232128;
+    color: #2a8842;
+    border-color: #2a8842;
+    box-shadow: 0px 0px 0;
+    padding: 3vh 2vw 0vh 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 21vw;
+  }
 
-    .menu {
-        background-color: rgba(0, 0, 0, 0.0);
-        border-radius: 0px;
-        position: absolute;
-        max-height: 35vh;
-        left: 26vw;
-        top: 10px;
-    }
+  .menu {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    position: absolute;
+    max-height: 35vh;
+    left: 26vw;
+    top: 10px;
+  }
 
-    .title {
-        position: relative;
-        bottom: 0vh;
-        padding-left: 4vw;
-        font-size: 40px;
-        color: #232128;
-    }
+  .title {
+    position: relative;
+    bottom: 0vh;
+    padding-left: 4vw;
+    font-size: 40px;
+    color: #232128;
+  }
 
-    .buttonText {
-        padding-left: 3vw;
-        padding-top: 1vh;
-    }
+  .buttonText {
+    padding-left: 3vw;
+    padding-top: 1vh;
+  }
 
-    .subTitle {
-        padding-left: 4vw;
-        padding-top: 2vh;
-    }
+  .subTitle {
+    padding-left: 4vw;
+    padding-top: 2vh;
+  }
 
-    .genderTitle {
-        padding-left: 3vw;
-        position: relative;
-    }
+  .genderTitle {
+    padding-left: 3vw;
+    position: relative;
+  }
 
-    .genderSubTitle {
-        padding-left: 3vw;
-        position: relative;
-        font-size: 1rem;
-    }
+  .genderSubTitle {
+    padding-left: 3vw;
+    position: relative;
+    font-size: 1rem;
+  }
 
-    .reportesDenunciasContainer {
-        width: 15vw;
-        height: 50vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        border-radius: 0px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        background-color: rgba(185, 255, 57, 0.2) !important;
-        border: solid 1px;
-        border-color: #b9ff39;
-        margin-left: 55vw;
-        margin-top: 0vh;
-        color: #b9ff39 !important;
-        backdrop-filter: blur(25.2px);
-        -webkit-backdrop-filter: blur(15.2px);
-    }
+  .reportesDenunciasContainer {
+    width: 15vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgba(185, 255, 57, 0.2) !important;
+    border: solid 1px;
+    border-color: #b9ff39;
+    margin-left: 55vw;
+    margin-top: 0vh;
+    color: #b9ff39 !important;
+    backdrop-filter: blur(25.2px);
+    -webkit-backdrop-filter: blur(15.2px);
+  }
 
-    .reportesDenunciasContainer:hover {
-        background-color: #b9ff39 !important;
-        color: #232128 !important;
-    }
+  .reportesDenunciasContainer:hover {
+    background-color: #b9ff39 !important;
+    color: #232128 !important;
+  }
 
-    .imagenUltimoReporte {
-        border-radius: 14px;
-        justify-self: right;
-        padding-top: 2vh;
-        height: 2vh;
-    }
+  .imagenUltimoReporte {
+    border-radius: 14px;
+    justify-self: right;
+    padding-top: 2vh;
+    height: 2vh;
+  }
 
-    .title3 {
-        padding-left: 2vw;
-        font-size: 32px;
-    }
+  .title3 {
+    padding-left: 2vw;
+    font-size: 32px;
+  }
 
-    .subTitle2 {
-        padding-left: 2vw;
-        font-size: 18px;
-    }
+  .subTitle2 {
+    padding-left: 2vw;
+    font-size: 18px;
+  }
 
-    .headerIcon {
-        position: absolute;
-        padding: 0vh 0vw;
-        color: #232128;
-        left: 4vw;
-        top: 0vh;
-    }
+  .headerIcon {
+    position: absolute;
+    padding: 0vh 0vw;
+    color: #232128;
+    left: 4vw;
+    top: 0vh;
+  }
 
-    .button {
-        width: 6vw;
-        height: 3vh;
-        background-color: #b9ff39;
-        border: solid 1px #232128;
-        right: 14vw;
-        top: 32vh;
-        box-shadow: 3px 3px 0 1px #232128;
-        padding: 1vh 1vw;
-        text-align: center;
-        color: #232128;
-    }
+  .button {
+    width: 6vw;
+    height: 3vh;
+    background-color: #b9ff39;
+    border: solid 1px #232128;
+    right: 14vw;
+    top: 32vh;
+    box-shadow: 3px 3px 0 1px #232128;
+    padding: 1vh 1vw;
+    text-align: center;
+    color: #232128;
+  }
 
-    .button:hover {
-        width: 6vw;
-        height: 3vh;
-        background-color: #232128;
-        border: solid 1px #232128;
-        box-shadow: 0px 0px 0 0px #2a8842;
-        color: #2a8842;
-    }
+  .button:hover {
+    width: 6vw;
+    height: 3vh;
+    background-color: #232128;
+    border: solid 1px #232128;
+    box-shadow: 0px 0px 0 0px #2a8842;
+    color: #2a8842;
+  }
 
-    .icon {
-        right: 3vw;
-        top: 10vh;
-        position: absolute;
-        color: #b9ff39;
-        width: 10vw;
-        z-index: 5000;
-    }
+  .icon {
+    right: 3vw;
+    top: 10vh;
+    position: absolute;
+    color: #b9ff39;
+    width: 10vw;
+    z-index: 5000;
+  }
 }

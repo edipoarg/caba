@@ -9,10 +9,7 @@
   padding-right: 4vw;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  background: linear-gradient(135deg,
-      #0f0f13 0%,
-      #17171d 50%,
-      #1f1f26 100%);
+  background: linear-gradient(135deg, #0f0f13 0%, #17171d 50%, #1f1f26 100%);
   color: white;
   font-family: "Inter", sans-serif;
   min-height: 100vh;
@@ -28,11 +25,13 @@
   margin-bottom: 3rem;
   max-width: 100%;
   overflow: hidden;
-  background: radial-gradient(circle at left,
-      #0f0f13 80%,
-      #292f14 85%,
-      #5c6d1d 90%,
-      #99ff66 100%);
+  background: radial-gradient(
+    circle at left,
+    #0f0f13 80%,
+    #292f14 85%,
+    #5c6d1d 90%,
+    #99ff66 100%
+  );
 }
 
 .textContainer {
@@ -74,7 +73,9 @@
   cursor: pointer;
   font-weight: 600;
   box-shadow: 0 0 10px #99ff661a;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
   max-width: 20vw;
 }
 
@@ -127,8 +128,6 @@
   max-width: 100%;
   box-sizing: border-box;
 }
-
-
 
 .tituloAnterior {
   font-size: 1.1rem;

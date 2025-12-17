@@ -90,7 +90,8 @@ const Nota15 = () => {
           Ministerio de Seguridad emitió un comunicado oficial con un título
           nada inocente: Marcha de las Barras Bravas en las inmediaciones del
           Congreso de la Nación. En el texto, se avisaba que se implementarían
-          “estrictas medidas para garantizar el orden y la seguridad pública”.{" "}
+          “estrictas medidas para garantizar el orden y la seguridad
+          pública”.{" "}
         </h4>
         <h4 className={styles.singularText}>
           {" "}

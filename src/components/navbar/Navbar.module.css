@@ -35,7 +35,6 @@
   justify-items: center;
   justify-self: center;
   color: #2a8842;
-
 }
 
 /* Media query para tablet / PC */
@@ -54,7 +53,6 @@
     text-justify: center;
     justify-items: center;
     justify-self: center;
-
   }
 
   .Button {
@@ -65,5 +63,4 @@
   .Button:hover {
     color: white;
   }
-
 }

@@ -22,7 +22,8 @@ const Nota08 = () => {
         correr al violento, decirle que no puede ingresar a la casa”, dice
         Griselda Galarza. También cuenta que hay demoras en la sustanciación de
         las exclusiones de hogar, medida que tiene que ordenar la Justicia pero
-        que le corresponde garantizar a la policía. Un control que está ausente.{" "}
+        que le corresponde garantizar a la policía. Un control que está
+        ausente.{" "}
       </h4>
 
       <h4 className={styles.singularText}>

@@ -1,10 +1,8 @@
-.root{
-    max-width: calc(100vw);
-    height: auto;
-    margin: 0;
-    padding: 0;
-    background-color: #232128;
-    overflow-x: hidden; /* Oculta el desplazamiento horizontal si es necesario */
-
+.root {
+  max-width: calc(100vw);
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #232128;
+  overflow-x: hidden; /* Oculta el desplazamiento horizontal si es necesario */
 }
-

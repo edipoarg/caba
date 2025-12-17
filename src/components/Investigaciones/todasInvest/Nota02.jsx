@@ -196,7 +196,8 @@ const Nota02 = () => {
         mataron a Mauro Díaz, un vecino de Villa Urquiza que quedó atrapado en
         un tiroteo en la esquina de Nuñez y Zado, en enero de 2018; y a Pablo
         Pereyra, un cartonero que el 31 de diciembre del 2020 recibió un disparo
-        que no era para él, mientras caminaba por el barrio de Constitución.{" "}
+        que no era para él, mientras caminaba por el barrio de
+        Constitución.{" "}
       </h4>
 
       <h4 className={styles.singularText}>

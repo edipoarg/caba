@@ -1,31 +1,31 @@
 .investigacionContainer {
-    background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 
 .fotoInvestigacion {
-    width: 90vw;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+  width: 90vw;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .header {
-    background-color: #231c26;
-    width: 90vw;
-    margin: auto;
-    border-radius: 14px;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
+  background-color: #231c26;
+  width: 90vw;
+  margin: auto;
+  border-radius: 14px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 
 .basicInfo {
-    color: white;
-    padding: 1vh 2vw;
+  color: white;
+  padding: 1vh 2vw;
 }
 
 .title {
-    padding: 1vh 5vw;
-    font-size: 2.2rem;
-    color: #2a8842;
+  padding: 1vh 5vw;
+  font-size: 2.2rem;
+  color: #2a8842;
 }
 
 .title,
@@ -33,113 +33,112 @@
 .date,
 .lead,
 .text {
-    margin: 0
+  margin: 0;
 }
 
 .textContainer {
+  background-color: white;
+  border-radius: 14px;
+  margin: auto;
+  margin-top: 1vh;
+  padding-top: 8vh;
+}
+
+.date {
+  margin-right: 5vw;
+}
+
+.lead {
+  padding: 4vh 5%;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.autorxs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  justify-self: left;
+  padding-left: 4vw;
+  gap: 1vw;
+}
+
+.more {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.date {
+  justify-self: right;
+  padding-right: 2vw;
+  padding-top: 4vh;
+  font-size: 0.8rem;
+}
+
+.autor {
+  justify-self: center;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-self: left;
+  border: solid 1px #b9ff39;
+  border-radius: 14px;
+  padding: 0.5vh 2vw;
+  font-size: 1rem;
+}
+
+.notaCompleta {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100vw;
+  }
+
+  .fotoInvestigacion {
+    height: 65vh;
+    width: 80vw;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .investigacionContainer {
+    background-color: #e6e6e6;
+    height: auto;
+    margin-left: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+  }
+
+  .header {
+    width: 80vw;
+  }
+
+  .notaCompleta {
+    background-color: white;
+    width: 70vw;
+  }
+
+  .textContainer {
     background-color: white;
     border-radius: 14px;
     margin: auto;
     margin-top: 1vh;
-    padding-top: 8vh;
+    width: 80vw;
+    padding-bottom: 10vh;
+  }
 
-}
+  .title {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-size: 3rem;
+    color: #2a8842;
+  }
 
-.date {
-    margin-right: 5vw;
-}
-
-.lead {
-    padding: 4vh 5%;
-    font-size: 1.4rem;
-    text-align: justify;
-}
-
-.autorxs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 3vh;
-    padding-bottom: 1vh;
-    justify-self: left;
-    padding-left: 4vw;
-    gap: 1vw;
-}
-
-.more {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-
-.date {
-    justify-self: right;
-    padding-right: 2vw;
-    padding-top: 4vh;
-    font-size: 0.8rem;
-}
-
-.autor {
-    justify-self: center;
-    justify-items: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-self: left;
-    border: solid 1px #b9ff39;
-    border-radius: 14px;
-    padding: 0.5vh 2vw;
-    font-size: 1rem;
-}
-
-.notaCompleta {
-    background-color: white;
-}
-
-@media (min-width: 768px) {
-    body {
-        width: 100vw;
-    }
-
-    .fotoInvestigacion {
-        height: 65vh;
-        width: 80vw;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .investigacionContainer {
-        background-color: #e6e6e6;
-        height: auto;
-        margin-left: 10vw;
-        padding-top: 2vh;
-        padding-bottom: 5vh;
-    }
-
-    .header {
-        width: 80vw;
-    }
-
-    .notaCompleta {
-        background-color: white;
-        width: 70vw;
-    }
-
-    .textContainer {
-        background-color: white;
-        border-radius: 14px;
-        margin: auto;
-        margin-top: 1vh;
-        width: 80vw;
-        padding-bottom: 10vh;
-    }
-
-    .title {
-        padding-top: 10vh;
-        padding-bottom: 5vh;
-        font-size: 3rem;
-        color: #2a8842;
-    }
-
-    .lead {
-        font-size: 1.5rem;
-    }
+  .lead {
+    font-size: 1.5rem;
+  }
 }

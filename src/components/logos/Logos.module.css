@@ -1,26 +1,26 @@
 .logosList {
-    position: absolute;
-    bottom: 15vh;
-    left: 8vw;
+  position: absolute;
+  bottom: 15vh;
+  left: 8vw;
 }
 
 .logos {
-    height: 3vh;
-    margin: 1.1vw;
+  height: 3vh;
+  margin: 1.1vw;
 }
 
 @media (min-width: 720px) {
-    .logosList {
-        position: absolute;
-        bottom: 5vh;
-        left: 8vw;
-        border: solid 2px;
-        border-radius: 45px;
-        padding: 0vh 3vw;
-    }
+  .logosList {
+    position: absolute;
+    bottom: 5vh;
+    left: 8vw;
+    border: solid 2px;
+    border-radius: 45px;
+    padding: 0vh 3vw;
+  }
 
-    .logos {
-        height: 3vh;
-        margin: 1.1vw;
-    }
+  .logos {
+    height: 3vh;
+    margin: 1.1vw;
+  }
 }

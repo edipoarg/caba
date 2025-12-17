@@ -122,7 +122,8 @@ const Nota07 = () => {
         imaginamos que eso era Inteligencia, o sea gente que iba de civil que
         les pasaban data a los policías. Y así, hablaban entre ellos, iban y
         venían con patrulleros. Tocaban la puerta y no les atendíamos, entonces
-        se ponían muy intensos, y empezaban a golpear fuerte”, contó una alumna.{" "}
+        se ponían muy intensos, y empezaban a golpear fuerte”, contó una
+        alumna.{" "}
       </h4>
       <h4 className={styles.singularText}>
         Para reconstruir los sucesos que movilizaron a cientos de estudiantes
@@ -314,7 +315,8 @@ const Nota07 = () => {
         de este año, mientras se encontraba de vacaciones, Julio recibió un
         mensaje del rector del Acosta. La Dirección Superior de Escuelas,
         dependiente de la Dirección General de Sumarios de la Procuración
-        General de la Ciudad, pedía un informe de su desempeño durante el 2022.{" "}
+        General de la Ciudad, pedía un informe de su desempeño durante el
+        2022.{" "}
       </h4>
       <h4 className={styles.singularText}>
         ─ Creo que esto encuadra en un acoso administrativo ─apunta el
