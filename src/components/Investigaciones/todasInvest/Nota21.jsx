@@ -26,7 +26,7 @@ const Nota21 = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            un video
+            video
           </a>{" "}
           de esas requisas aparece en las redes sociales del Ministerio de
           Seguridad porteño. “Saturación en La Boca: desplegamos un operativo
