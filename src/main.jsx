@@ -4,7 +4,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Investigaciones from "./components/Investigaciones/Investigaciones";
-import Denuncia from "./components/denuncia/Denuncia";
+import DenunciaForm from "./components/denuncia";
 import Denuncias from "./components/denuncias/Denuncias";
 import Recursos from "./components/recursos/Recursos";
 import Jefatura from "./components/jefatura/Jefatura";
@@ -35,7 +35,7 @@ const router = createHashRouter([
     children: [
       { path: "/", element: <App /> },
       { path: "/denuncias", element: <Denuncias /> },
-      { path: "/denuncia", element: <Denuncia /> },
+      { path: "/denuncia", element: <DenunciaForm /> },
       { path: "/recursos", element: <Recursos /> },
       { path: "/investigaciones", element: <Investigaciones /> },
       { path: "/jefatura", element: <Jefatura /> },
