@@ -241,5 +241,17 @@
     "dominio": "doxeo-con-placas",
     "tipoInvestigacion": "informe",
     "region": "Caba"
+  },
+    {
+    "id": "i20",
+    "titulo": "¿Cuánto vale un policía? ",
+    "autorxs": "Juan Manuel Erazo",
+    "ilus": "Azul Blaseotto",
+    "fecha": "5/11/2025",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_0ea6abf0acab4f75ad7d0f956bf98a61~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Cu%C3%A1nto%20cuesta%20un%20polic%C3%ADa%20x%20Azul%20Blaseotto%20WEB%20MAPA%20POLI.jpg",
+    "textoBajada": "Problemas edilicios, falta de formación, sueldos bajos, malabares con los tiempos y  depresión. En qué condiciones trabajan las Fuerzas de Seguridad, cuánto se destina para cada policía y qué hacen para llegar a fin de mes.",
+    "dominio": "cuanto-vale-un-policia",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
   }
 ]

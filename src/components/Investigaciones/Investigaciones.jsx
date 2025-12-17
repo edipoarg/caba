@@ -5,13 +5,13 @@ import MapaBlur from "../MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
-const tituloNotaPrincipal = "¿Cuánto vale un policía?";
+const tituloNotaPrincipal = "portación de cara: la educación de la Policía de la Ciudad";
 const fechaUltimoReporte = "Agosto 2025";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_0ea6abf0acab4f75ad7d0f956bf98a61~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Cu%C3%A1nto%20cuesta%20un%20polic%C3%ADa%20x%20Azul%20Blaseotto%20WEB%20MAPA%20POLI.jpg";
+  "https://static.wixstatic.com/media/0f4ca0_223c6c7d53bc40d19eff996a79185e16~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/escuela%20x%20Panchopepe%20-%20WEB%20MAPA.jpg";
 const fechaNotaPrincipal = "5/11/2025";
-const autorxsNotaPrincipal = "Juan Manuel Erazo";
-const ilusNotaPrincipal = "Azul Blaseotto";
+const autorxsNotaPrincipal = "Facundo Lo Duca";
+const ilusNotaPrincipal = "Panchopepe";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
@@ -53,7 +53,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/cuanto-vale-un-policia">
+            <Link to="/investigacion/portacion-de-cara">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
