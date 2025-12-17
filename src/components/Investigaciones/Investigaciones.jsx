@@ -11,7 +11,7 @@ const fechaUltimoReporte = "Agosto 2025";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_223c6c7d53bc40d19eff996a79185e16~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/escuela%20x%20Panchopepe%20-%20WEB%20MAPA.jpg";
 const fechaNotaPrincipal = "5/11/2025";
-const autorxsNotaPrincipal = "Facundo Lo Duca";
+const autorxsNotaPrincipal = "Facundo Loduca";
 const ilusNotaPrincipal = "Panchopepe";
 const numeroReporte = "6to";
 

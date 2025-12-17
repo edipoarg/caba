@@ -5,10 +5,6 @@ const Nota21 = () => {
     <>
       <div className={styles.NotaContainer}>
         <h4 className={styles.singularText}>
-          sesgo policial / investigación / un manual para la calle
-        </h4>
-
-        <h4 className={styles.singularText}>
           Las manos contra la pared, las piernas flacas, bien separadas. -¿Ese
           es tu bolso? Exhibime lo que tenés -le ordena un policía de la ciudad
           a un joven que acaba de detener sobre la calle Olavarría, en el barrio
@@ -23,8 +19,7 @@ const Nota21 = () => {
           diciembre y en La Boca el operativo de la fuerza porteña dura algunas
           horas. Hay más detenciones. La mayoría de jóvenes que pasaban
           casualmente por esa calle. Todos visten igual: prendas del club de la
-          ribera y zapatillas deportivas. El video de esas requisas aparece en
-          las redes sociales del Ministerio de Seguridad porteño.{" "}
+          ribera y zapatillas deportivas. El{" "}
           <a
             href="https://www.instagram.com/reel/DR5ED7uEcfi/?igsh=MTVqajVnNGp1MzZ5aw=="
             className={styles.link}
@@ -33,8 +28,9 @@ const Nota21 = () => {
           >
             un video
           </a>{" "}
-          “Saturación en La Boca: desplegamos un operativo fuerte en el barrio”,
-          se describe en la publicación.
+          de esas requisas aparece en las redes sociales del Ministerio de
+          Seguridad porteño. “Saturación en La Boca: desplegamos un operativo
+          fuerte en el barrio”, se describe en la publicación.
         </h4>
 
         <h4 className={styles.singularText}>
@@ -50,9 +46,9 @@ const Nota21 = () => {
         <h4 className={styles.singularText}>
           La Unidad 2 sobre descripción criminal del manual de 368 páginas al
           que accedió el Mapa de la Policía, y que se enseña en el primer año de
-          la carrera para aspirantes a oficiales de la Ciudad, describe -a
-          través de una imagen puntual- los elementos que el futuro efectivo
-          deberá tener en cuenta a la hora de identificar o perfilar al posible
+          la carrera para aspirantes a oficiales de la Ciudad, muestra -a través
+          de una imagen puntual- los elementos que el futuro efectivo deberá
+          tener en cuenta a la hora de identificar o perfilar al posible
           sospechoso de un delito.
         </h4>
 
@@ -134,9 +130,9 @@ const Nota21 = () => {
         </h4>
 
         <h4 className={styles.singularText}>
-          Lo que el manual no explica los futuros oficiales, sin embargo, es qué
-          hacer cuando el domicilio a allanar no se encuentra en los barrios más
-          vulnerables de la ciudad, sino en los más exclusivos del país.
+          Lo que el manual no les explica los futuros oficiales, sin embargo, es
+          qué hacer cuando el domicilio a allanar no se encuentra en los barrios
+          más vulnerables de la ciudad, sino en los más exclusivos del país.
         </h4>
 
         <h6 className={styles.span}>
@@ -226,7 +222,7 @@ const Nota21 = () => {
         <h3 className={styles.subTitle}>el margen de error</h3>
 
         <h4 className={styles.singularText}>
-          El 3 de octubre el actor “Osqui” Guzmán
+          El 3 de octubre el actor “Osqui” Guzmán{" "}
           <a
             href="https://cdn.jwplayer.com/previews/jerXFkH6"
             className={styles.link}
@@ -240,7 +236,8 @@ const Nota21 = () => {
           “peligroso ladrón peruano”. El episodio, que transcurrió en las
           afueras de la estación Dorrego de la línea B del subte, luego de que
           las cámaras de reconocimiento facial identificaran erróneamente al
-          actor, expuso el margen de error al que está expuesta la ciudadanía.
+          actor, dejó en evidencia el margen de error al que está expuesta la
+          ciudadanía.
         </h4>
 
         <h4 className={styles.singularText}>
@@ -290,7 +287,7 @@ const Nota21 = () => {
         <h4 className={styles.singularText}>
           Una especialista en temas de seguridad, con diez años de experiencia
           en el Ministerio de Seguridad de la Nación, analizó en off el manual
-          de técnicas y procedimientos policiales del ISP, a pedido del Mapa.
+          de técnicas y procedimientos policiales del ISSP, a pedido del Mapa.
           Entre algunos puntos, destacó una serie de “conceptos preocupantes” en
           cuanto a la formación inicial de los oficiales porteños.
         </h4>
@@ -339,27 +336,15 @@ const Nota21 = () => {
         </h4>
 
         <h4 className={styles.singularText}>
-          El manual contiene varias aristas llamativas que lejos de enseñar a
-          trabajar más allá de los sesgos, los refuerza.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Queda la pregunta sobre cómo contrarrestar acciones injustas por parte
-          de fuerzas que reciben aval político para la violencia.
-        </h4>
-
-        <h4 className={styles.singularText}>
-          Y se perfila una posible respuesta: la observación en la calle, el
-          registro de actos injustos y la articulación con organismos para su
-          fiscalización.El manual al que accedió el Mapa de la Policía contiene
-          varias aristas llamativas que lejos de enseñarles a los oficiales a
-          trabajar más allá de los sesgos, se los refuerza. Queda la pregunta
-          sobre cómo contrarrestar acciones injustas por parte de las fuerzas de
-          seguridad en la calle, fuerzas de seguridad de las que cada vez
-          tenemos más información sobre su educación y que, además, reciben el
-          aval político para la violencia. Y, al mismo tiempo, se perfila una
-          posible respuesta: la observación en la calle, el registro de actos
-          injustos y la articulación con organismos para su fiscalización.
+          El manual al que accedió el Mapa de la Policía contiene varias aristas
+          llamativas que lejos de enseñarles a los oficiales a trabajar más allá
+          de los sesgos, se los refuerza. Queda la pregunta sobre cómo
+          contrarrestar acciones injustas por parte de las fuerzas de seguridad
+          en la calle, fuerzas de seguridad de las que cada vez tenemos más
+          información sobre su educación y que, además, reciben el aval político
+          para la violencia. Y, al mismo tiempo, se perfila una posible
+          respuesta: la observación en la calle, el registro de actos injustos y
+          la articulación con organismos para su fiscalización.
         </h4>
       </div>
     </>
