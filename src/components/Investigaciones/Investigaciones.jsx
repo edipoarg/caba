@@ -12,7 +12,7 @@ const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_e40832bf6e934b57957d16eb9a1b9bb0~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/LUGANO%20x%20Daniluk%20-%20WEB%20MAPA%20POLI.jpg";
 const fechaNotaPrincipal = "9/02/2025";
 const autorxsNotaPrincipal = "Mapa de la Policía";
-const ilusNotaPrincipal = "Daniluk";
+const ilusNotaPrincipal = "Nicolás Daniluk";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
