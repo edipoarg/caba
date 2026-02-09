@@ -6,13 +6,13 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
 const tituloNotaPrincipal =
-  "Portación de cara: la educación de la Policía de la Ciudad";
-const fechaUltimoReporte = "Agosto 2025";
+  "Motosierra con balas: la política que mató a Juan Gabriel";
+const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_223c6c7d53bc40d19eff996a79185e16~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/escuela%20x%20Panchopepe%20-%20WEB%20MAPA.jpg";
-const fechaNotaPrincipal = "5/11/2025";
-const autorxsNotaPrincipal = "Facundo Loduca";
-const ilusNotaPrincipal = "Panchopepe";
+  "https://static.wixstatic.com/media/0f4ca0_e40832bf6e934b57957d16eb9a1b9bb0~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/LUGANO%20x%20Daniluk%20-%20WEB%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "9/02/2025";
+const autorxsNotaPrincipal = "Mapa de la Policía";
+const ilusNotaPrincipal = "Daniluk";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
@@ -54,7 +54,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/portacion-de-cara">
+            <Link to="/investigacion/motosierra-con-balas">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
