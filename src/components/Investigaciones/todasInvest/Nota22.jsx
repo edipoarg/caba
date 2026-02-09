@@ -276,7 +276,7 @@ const Nota22 = () => {
           cargo del actual Jefe de Policía, Comisario Mayor Diego Ariel Casaló.
         </h4>
         <h4 className={styles.singularText}>
-          La creación de estas unidades se remonta a 2012, ante "{" "}
+          La creación de estas unidades se remonta a 2012, ante &quot;
           <a
             href="https://www.argentina.gob.ar/noticias/grodr%C3%ADguez-presidi%C3%B3-acto-por-el-2%C2%BA-aniversario-de-la-creaci%C3%B3n-del-cuerpo-de-prevenci%C3%B3n-barrial#:~:text=Los%20miembros%20del%20Cuerpo%20est%C3%A1n,y%20miembros%20de%20organizaciones%20civiles"
             className={styles.link}
