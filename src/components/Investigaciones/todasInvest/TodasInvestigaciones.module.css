@@ -10,6 +10,7 @@
   padding-bottom: 20vh;
   z-index: 5000;
   margin: 0 auto;
+  
 }
 
 .investContainer {
@@ -128,6 +129,11 @@ p {
   max-width: 80vw;
 }
 
+.image3 {
+  max-width: 40vw;
+  display: block;
+  margin: auto;
+}
 .ilusContainer,
 .autorxContainer {
   display: flex;
