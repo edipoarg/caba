@@ -7,17 +7,18 @@ const Nota22 = () => {
         <h4 className={styles.singularText}>
           El 25 de diciembre de 2025 se viralizó un primer video en el que se
           observa al efectivo Darián Gastón Miño disparando a quemarropa a Juan
-          Gabriel González. El Mapa de la Policía articuló rápidamente <a
+          Gabriel González. El Mapa de la Policía articuló rápidamente{" "}
+          <a
             href="https://www.instagram.com/reel/DSvkFmMDV5R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             className={styles.link}
             target="_blank"
             rel="noopener noreferrer"
           >
-            una
-            reconstrucción
-          </a>{" "} del hecho que se difundió apenas un día después, un
-          montaje de múltiples imágenes tomadas desde varios ángulos que
-          permitió reconocerlo.
+            una reconstrucción
+          </a>{" "}
+          del hecho que se difundió apenas un día después, un montaje de
+          múltiples imágenes tomadas desde varios ángulos que permitió
+          reconocerlo.
         </h4>
         <h4 className={styles.singularText}>
           A diferencia de otras reconstrucciones, esta vez no había cámaras de
@@ -37,21 +38,21 @@ const Nota22 = () => {
         <h3 className={styles.subTitle}>la reconstrucción</h3>
 
         <h4 className={styles.singularText}>
-          La Policía llegó al barrio ese 25 de diciembre <a
+          La Policía llegó al barrio ese 25 de diciembre{" "}
+          <a
             href="https://maps.app.goo.gl/fpZyhPbFwtvDdEYE8 "
             className={styles.link}
             target="_blank"
             rel="noopener noreferrer"
           >
-            -a la intersección de
-            Chilavert y Araujo, en la Villa 20-
-          </a>{" "} cerca de las 13:30 hs por un
-          llamado al servicio del 911 de la dueña de un comercio, quien
-          denunció que un hombre “arrojaba botellas a su local”. La persona
-          señalada como la responsable de los disturbios ya se había ido, así
-          que los agentes Vanesa Valentini, Joel Riquelme y Evelyn Goncebat de
-          la División Unidad Táctica Pacificación VI -más conocida como “La
-          Barrial”- empezaron a entrevistar a la señora.
+            -a la intersección de Chilavert y Araujo, en la Villa 20-
+          </a>{" "}
+          cerca de las 13:30 hs por un llamado al servicio del 911 de la dueña
+          de un comercio, quien denunció que un hombre “arrojaba botellas a su
+          local”. La persona señalada como la responsable de los disturbios ya
+          se había ido, así que los agentes Vanesa Valentini, Joel Riquelme y
+          Evelyn Goncebat de la División Unidad Táctica Pacificación VI -más
+          conocida como “La Barrial”- empezaron a entrevistar a la señora.
         </h4>
         <h4 className={styles.singularText}>
           En ese momento llegó Juan Gabriel con su auto, estacionó sobre la
@@ -115,7 +116,8 @@ const Nota22 = () => {
             rel="noopener noreferrer"
           >
             CORREPI
-          </a>, que intentó asistirlo, la Policía no sólo no le brindó asistencia
+          </a>
+          , que intentó asistirlo, la Policía no sólo no le brindó asistencia
           inmediata, sino que además impidió que otras personas le hicieran
           maniobras de primeros auxilios. Incluso se lo impidieron a su hermana
           Romina, que es enfermera. Finalmente, la autopsia oficial reveló que
@@ -152,8 +154,8 @@ const Nota22 = () => {
           con diferencias de puntos de vista sobre el verdugueo policial y el
           desenlace, las de los oficiales son prácticamente iguales, incluso en
           la cantidad de disparos y tipo de munición que utilizó Miño
-          -declaraciones de Ucedo, Riquelme y Valentini-. Es evidente que se trató de una
-          estrategia de encubrimiento.
+          -declaraciones de Ucedo, Riquelme y Valentini-. Es evidente que se
+          trató de una estrategia de encubrimiento.
         </h4>
 
         <h4 className={styles.singularText}>
@@ -284,8 +286,8 @@ const Nota22 = () => {
 
         <h4 className={styles.singularText}>
           Los primeros agentes que llegaron al lugar pertenecen a la División
-          Unidad Táctica de Pacificación de Barrios VI, una de las siete que posee la
-          Superintendencia de Pacificación de Barrios. Actualmente está
+          Unidad Táctica de Pacificación de Barrios VI, una de las siete que
+          posee la Superintendencia de Pacificación de Barrios. Actualmente está
           dirigida por el Comisario Mayor Diego Conesa y anteriormente estuvo a
           cargo del actual Jefe de Policía, Comisario Mayor Diego Ariel Casaló.
         </h4>
@@ -363,13 +365,12 @@ const Nota22 = () => {
             según materiales de instrucción de la propia Policía de la Ciudad
           </a>{" "}
           , admite distintos tipos de munición, tanto antitumulto como letal.
-          Cabe señalar que los cartuchos antitumulto o
-          disuasivos y los letales se diferencian por varias características de
-          rápido reconocimiento, como su peso y color: en general rojo para la
-          munición letal, y verde o azul para antitumulto. “El que disparó el
-          arma fue el mismo que la cargó, así que es muy poco probable que no
-          supiera exactamente lo que estaba haciendo”, dice la defensa de la
-          familia.
+          Cabe señalar que los cartuchos antitumulto o disuasivos y los letales
+          se diferencian por varias características de rápido reconocimiento,
+          como su peso y color: en general rojo para la munición letal, y verde
+          o azul para antitumulto. “El que disparó el arma fue el mismo que la
+          cargó, así que es muy poco probable que no supiera exactamente lo que
+          estaba haciendo”, dice la defensa de la familia.
         </h4>
         <h4 className={styles.singularText}>
           En los mismos videos de capacitación policial se establece que, tras
@@ -404,11 +405,11 @@ const Nota22 = () => {
         <h4 className={styles.singularText}>
           El asesinato de Juan Gabriel fue, según cuentan los vecinos del
           barrio, aunque fatal e inaceptable, una demostración más del accionar
-          policial en el lugar. Tobías Urquiza, joven militante de La Patria
-          es el Otro, cuenta en diálogo con el Mapa de la Policía que “el
-          verdugueo es constante” y que “no hacen lo mismo con los narcos que
-          todos sabemos quiénes son y dónde están. Paran a los pibes, les sacan
-          un porro, a veces los cagan a palos”.
+          policial en el lugar. Tobías Urquiza, joven militante de La Patria es
+          el Otro, cuenta en diálogo con el Mapa de la Policía que “el verdugueo
+          es constante” y que “no hacen lo mismo con los narcos que todos
+          sabemos quiénes son y dónde están. Paran a los pibes, les sacan un
+          porro, a veces los cagan a palos”.
         </h4>
         <h4 className={styles.singularText}>
           En ese sentido, tanto él como otra vecina relataron que, desde la
