@@ -6,13 +6,13 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 
 const tituloNotaPrincipal =
-  "Motosierra con balas: la política que mató a Juan Gabriel";
+  "Al enemigo, ni aire: los espacios de encierro en CABA";
 const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_e40832bf6e934b57957d16eb9a1b9bb0~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/LUGANO%20x%20Daniluk%20-%20WEB%20MAPA%20POLI.jpg";
-const fechaNotaPrincipal = "9/02/2025";
-const autorxsNotaPrincipal = "Mapa de la Policía";
-const ilusNotaPrincipal = "Nicolás Daniluk";
+  "https://static.wixstatic.com/media/0f4ca0_2cae574368cc436cb2052e03a9fa9e14~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/comisarias%20x%20Azul%20Blaseotto%20-%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "19/03/2026";
+const autorxsNotaPrincipal = "Olivia Milberg, Gilda Izurieta y Cecilia Samanes";
+const ilusNotaPrincipal = "Azul Blaseotto";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
@@ -54,7 +54,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/motosierra-con-balas">
+            <Link to="/investigacion/al-enemigo-ni-aire">
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
