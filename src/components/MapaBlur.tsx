@@ -3,7 +3,7 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
 import LogoMapa from "./LogoMapa";
-// eslint-disable-next-line no-redeclare
+
 import styles from "../styles/MapaBlur.module.css";
 
 import { BarriosCabaSource } from "./Sources";
@@ -33,20 +33,18 @@ const Mapa = () => {
   };
 
   return (
-    <>
-      <section id="MapaDev" className={styles.MapaDev}>
-        <Link to="/denuncia">
-          <div className={styles.emergButton}>
-            <h4 className={styles.emerg}>DENUNCIÁ</h4>
-          </div>
-        </Link>
-        <section className={styles.mapBlur}></section>
-        <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
-          <BarriosCabaSource data={barriosCaba} />
-        </MapGL>
-        <LogoMapa />
-      </section>
-    </>
+    <section id="MapaDev" className={styles.MapaDev}>
+      <Link to="/denuncia">
+        <div className={styles.emergButton}>
+          <h4 className={styles.emerg}>DENUNCIÁ</h4>
+        </div>
+      </Link>
+      <section className={styles.mapBlur}></section>
+      <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
+        <BarriosCabaSource data={barriosCaba} />
+      </MapGL>
+      <LogoMapa />
+    </section>
   );
 };
 

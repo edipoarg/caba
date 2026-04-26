@@ -1,12 +1,12 @@
+import type { Caso } from "../models/casos";
 import {
-  Caso,
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
 } from "../models/casos";
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
-import { Cargo } from "../models/cargos";
+import type { Cargo } from "../models/cargos";
 import { useContext } from "react";
 import { CargosContext } from "../routes/Root";
 
@@ -78,7 +78,7 @@ const getScreenDataForCase =
   };
 
 // Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
-// eslint-disable-next-line no-redeclare
+
 const Screen = ({ caso }: Props) => {
   const cargos = useContext(CargosContext);
   if (cargos === "loading") return <p>Cargando...</p>;

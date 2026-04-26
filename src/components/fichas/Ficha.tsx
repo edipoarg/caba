@@ -1,13 +1,12 @@
 import { useParams } from "react-router-dom";
 import styles from "./Ficha.module.css";
+import type { CasoDependencia, DataDeCasos } from "../../models/casos";
 import {
-  CasoDependencia,
-  DataDeCasos,
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
 } from "../../models/casos";
-import { Cargo } from "../../models/cargos";
+import type { Cargo } from "../../models/cargos";
 import { useContext } from "react";
 import {
   CargosContext,
@@ -181,25 +180,25 @@ const Ficha = () => {
           {casoIsCasoDependencia(caso) && dependenciaOfficerData && (
             <>
               <li className={styles.number}>
-                Nombre y apellido: {dependenciaOfficerData?.nombreCompleto}
+                Nombre y apellido: {dependenciaOfficerData.nombreCompleto}
               </li>
               <li className={styles.number}>
-                Número de legajo: {dependenciaOfficerData?.lps}
+                Número de legajo: {dependenciaOfficerData.lps}
               </li>
               <li className={styles.number}>
-                Grado: {dependenciaOfficerData?.grado}
+                Grado: {dependenciaOfficerData.grado}
               </li>
               <li className={styles.number}>
-                Desde: {dependenciaOfficerData?.desde}
+                Desde: {dependenciaOfficerData.desde}
               </li>
-              {dependenciaOfficerData?.hasta && (
+              {dependenciaOfficerData.hasta && (
                 <li className={styles.number}>
-                  Hasta: {dependenciaOfficerData?.hasta}
+                  Hasta: {dependenciaOfficerData.hasta}
                 </li>
               )}
-              {dependenciaOfficerData?.email && (
+              {dependenciaOfficerData.email && (
                 <li className={styles.number}>
-                  Correo: {dependenciaOfficerData?.email}
+                  Correo: {dependenciaOfficerData.email}
                 </li>
               )}
             </>

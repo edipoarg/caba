@@ -2,14 +2,14 @@ import { Outlet } from "react-router-dom";
 import { createContext, useEffect, useState } from "react";
 import Navbar from "../components/navbar/Navbar.jsx";
 import styles from "./Root.module.css";
-import { Cargo } from "../models/cargos.js";
+import type { Cargo } from "../models/cargos.js";
 import {
   getCargos,
   getDataDeCasosDependencias,
   getDataDeCasosGatillo,
   getDataDeCasosReportes,
 } from "../data/fetching.js";
-import {
+import type {
   CasoDependencia,
   CasoGatillo,
   CasoReportes,

@@ -25,8 +25,6 @@ import Nota21 from "../todasInvest/Nota21";
 import Nota22 from "../todasInvest/Nota22";
 import Nota23 from "../todasInvest/Nota23";
 
-
-
 interface InvestigacionModel {
   id: string;
   dominio: string;
@@ -67,8 +65,6 @@ const componentesNotas: ComponentesNotas = {
   "portacion-de-cara": Nota21,
   "motosierra-con-balas": Nota22,
   "al-enemigo-ni-aire": Nota23,
-
-
 };
 
 const Investigacion = () => {
@@ -114,36 +110,34 @@ const Investigacion = () => {
   const ComponenteNota = dominio ? componentesNotas[dominio] || null : null;
 
   return (
-    <>
-      <section className={styles.investigacionContainer}>
-        <section className={styles.header}>
-          <img
-            src={investigacion.imagen}
-            alt={`Foto de la investigación: ${investigacion.titulo}`}
-            className={styles.fotoInvestigacion}
-          />
-          <section className={styles.basicInfo}>
-            <div className={styles.autorxsContainer}></div>
-            <h1 className={styles.title}>{investigacion.titulo}</h1>
-            <section className={styles.more}>
-              <section className={styles.autorxs}>
-                <h4 className={styles.autor}>{investigacion.autorxs}</h4>
-                <h4 className={styles.autor}>{investigacion.ilus}</h4>
-              </section>
-              <h4 className={styles.date}>{investigacion.fecha}</h4>
+    <section className={styles.investigacionContainer}>
+      <section className={styles.header}>
+        <img
+          src={investigacion.imagen}
+          alt={`Foto de la investigación: ${investigacion.titulo}`}
+          className={styles.fotoInvestigacion}
+        />
+        <section className={styles.basicInfo}>
+          <div className={styles.autorxsContainer}></div>
+          <h1 className={styles.title}>{investigacion.titulo}</h1>
+          <section className={styles.more}>
+            <section className={styles.autorxs}>
+              <h4 className={styles.autor}>{investigacion.autorxs}</h4>
+              <h4 className={styles.autor}>{investigacion.ilus}</h4>
             </section>
-            <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
+            <h4 className={styles.date}>{investigacion.fecha}</h4>
           </section>
-        </section>
-        <section className={styles.textContainer}>
-          {ComponenteNota ? (
-            <ComponenteNota />
-          ) : (
-            <p>Investigación no encontrada.</p>
-          )}
+          <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
         </section>
       </section>
-    </>
+      <section className={styles.textContainer}>
+        {ComponenteNota ? (
+          <ComponenteNota />
+        ) : (
+          <p>Investigación no encontrada.</p>
+        )}
+      </section>
+    </section>
   );
 };
 

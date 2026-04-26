@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "./FichaAutorxs.module.css";
-import { Autor } from "../../../models/autorxs";
+import type { Autor } from "../../../models/autorxs";
 import { fetchAutor } from "../../../data/fetching";
 
 const FichaAutorxs = () => {

@@ -75,44 +75,42 @@ const listaDeLogos = [
 
 const Nosotrxs = () => {
   return (
-    <>
-      <section className={styles.nosotrxsContainer}>
-        <section className={styles.header}>
-          <div className={styles.box}>
-            <h3 className={styles.deco}>////////////////////</h3>
-            <LogoMapaSmall />
-            <section className={styles.sloganContainer}>
-              <h5 className={styles.slogan}>
-                RED DE CUIDADOS CIUDADANOS CONTRA LA VIOLENCIA POLICIAL
-              </h5>
-            </section>
-          </div>
-
-          <section className={styles.bajadaNosotrxs}>
-            <p className={styles.bajada}>
-              El Mapa de la Policía es una herramienta de cuidados ciudadanos
-              para contrarrestar la violencia policial. En un contexto de
-              creciente deterioro social y de un avance represivo que amenaza
-              los consensos democráticos, el Mapa apuesta a la organización
-              desde abajo para denunciar y combatir la crueldad. Nuestra
-              iniciativa parte de una intuición clave: democratizar la
-              información y asumir el compromiso de dar testimonio es hoy un
-              arma fundamental para enfrentar la opacidad de los poderes. Somos
-              una red de personas y organizaciones que queremos construir
-              estrategias novedosas de lucha por los derechos humanos.
-            </p>
+    <section className={styles.nosotrxsContainer}>
+      <section className={styles.header}>
+        <div className={styles.box}>
+          <h3 className={styles.deco}>////////////////////</h3>
+          <LogoMapaSmall />
+          <section className={styles.sloganContainer}>
+            <h5 className={styles.slogan}>
+              RED DE CUIDADOS CIUDADANOS CONTRA LA VIOLENCIA POLICIAL
+            </h5>
           </section>
-        </section>
-
-        <Logos logos={listaDeLogos} />
-
-        <div className={styles.thinLine} />
-        <div className={styles.develop}>
-          {" "}
-          <h4>DESAROLLADA X EDIPO</h4>
         </div>
+
+        <section className={styles.bajadaNosotrxs}>
+          <p className={styles.bajada}>
+            El Mapa de la Policía es una herramienta de cuidados ciudadanos para
+            contrarrestar la violencia policial. En un contexto de creciente
+            deterioro social y de un avance represivo que amenaza los consensos
+            democráticos, el Mapa apuesta a la organización desde abajo para
+            denunciar y combatir la crueldad. Nuestra iniciativa parte de una
+            intuición clave: democratizar la información y asumir el compromiso
+            de dar testimonio es hoy un arma fundamental para enfrentar la
+            opacidad de los poderes. Somos una red de personas y organizaciones
+            que queremos construir estrategias novedosas de lucha por los
+            derechos humanos.
+          </p>
+        </section>
       </section>
-    </>
+
+      <Logos logos={listaDeLogos} />
+
+      <div className={styles.thinLine} />
+      <div className={styles.develop}>
+        {" "}
+        <h4>DESAROLLADA X EDIPO</h4>
+      </div>
+    </section>
   );
 };
 
