@@ -22,7 +22,6 @@ import { SlPencil } from "react-icons/sl";
 import { FaMapMarker } from "react-icons/fa";
 import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
 import { GoPersonFill } from "react-icons/go";
-import PropTypes from "prop-types";
 import {
   RiAlarmWarningLine,
   RiForbid2Line,
@@ -76,20 +75,19 @@ const iconComponents = {
   not: <RiForbid2Line />,
 };
 
-const Icons = ({ icon, className, iconSize }) => {
-  const iconComponent = iconComponents[icon] || null;
+type Props = {
+  icon: keyof typeof iconComponents;
+  className?: string;
+  iconSize: string;
+};
+const Icons: React.FC<Props> = ({ icon, className, iconSize }) => {
+  const iconComponent = iconComponents[icon];
 
   return (
     <div className={className} style={{ fontSize: iconSize }}>
       {iconComponent}
     </div>
   );
-};
-
-Icons.propTypes = {
-  icon: PropTypes.string.isRequired,
-  className: PropTypes.string,
-  iconSize: PropTypes.string.isRequired,
 };
 
 export default Icons;

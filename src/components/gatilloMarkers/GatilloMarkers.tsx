@@ -1,7 +1,7 @@
 import { Marker } from "react-map-gl/maplibre";
 import styles from "./GatilloMarkers.module.css";
 import Icons from "../iconos/Icons";
-import { CasoGatillo, DataDeCasos } from "../../models/casos";
+import type { CasoGatillo, DataDeCasos } from "../../models/casos";
 
 type Props = {
   gatillos: DataDeCasos<CasoGatillo>;

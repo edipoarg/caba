@@ -6,15 +6,12 @@ import { Link } from "react-router-dom";
 import LogoMapa from "../LogoMapa";
 import Screen from "../Screen";
 import "maplibre-gl/dist/maplibre-gl.css";
-
-// GEOJSON IMPORTS
 import {
   departamentos,
   caba,
   barriosCaba,
   laPlata,
 } from "./geojson-data/index";
-
 import {
   DepsSource,
   CabaSource,
@@ -22,15 +19,11 @@ import {
   LaPlataSource,
   DepartamentosLaPlataSource,
 } from "../Sources";
-
-// MARKERS IMPORTS
 import DependenciasMarkers from "../dependenciasMarkers/DependenciasMarkers";
 import GatilloMarkers from "../gatilloMarkers/GatilloMarkers";
 import ReportesMarkers from "../reportesMarkers/ReportesMarkers";
-
-//Filtros Import
 import Filtros from "../filtros/Filtros";
-import { Caso } from "../../models/casos";
+import type { Caso } from "../../models/casos";
 import {
   CasosDependenciaContext,
   CasosGatilloContext,
@@ -39,46 +32,31 @@ import {
 
 type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 
+const mapProps = {
+  initialViewState: {
+    longitude: 58.3816,
+    latitude: -34.6037,
+    zoom: 1,
+    minZoom: 0.5,
+    maxZoom: 25,
+    maxBounds: [
+      [-58.59, -34.8], // Lower-left limit
+      [-58.31, -34.478], // Upper-right limit
+    ],
+  },
+  style: {
+    width: "100vw",
+    height: "100vh",
+  },
+  mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
+};
+
 const Mapa = () => {
   const [currentFilter, setCurrentFilter] = useState<Filtro>("all");
 
   const handleFilterChange = (newFilter: Filtro): void => {
     if (newFilter === currentFilter) setCurrentFilter("all");
     else setCurrentFilter(newFilter);
-  };
-
-  // PROPERTIES OF THE MAP
-  const mapProps = {
-    initialViewState: {
-      longitude: 58.3816,
-      latitude: -34.6037,
-      zoom: 1.5,
-      minZoom: 1,
-      maxZoom: 25,
-      maxBounds: [
-        [-58.59, -34.8], // Lower-left limit
-        [-58.31, -34.478], // Upper-right limit
-      ],
-    },
-    style: {
-      width: "100vw",
-      height: "100vh",
-    },
-
-    //New Style (Full map data)
-    mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
-  };
-
-  //visibilidad Filtro
-  //TODO: Remove this
-  const [filtrosVisible, setFiltrosVisible] = useState(true);
-  const toggleFiltrosVisibility = () => {
-    setFiltrosVisible(!filtrosVisible);
-  };
-  const [isCloseButtonClicked, setIsCloseButtonClicked] = useState(false);
-  const handleClickCloseButton = () => {
-    // Toggle the state when the button is clicked
-    setIsCloseButtonClicked(!isCloseButtonClicked);
   };
 
   const [selectedMarkerId, setSelectedMarkerId] = useState<string | null>(null);
@@ -107,82 +85,57 @@ const Mapa = () => {
     return <p>Ocurrió un error al cargar los casos de gatillo fácil</p>;
 
   return (
-    <>
-      <section id="MapaDev" className={styles.MapaDev}>
-        <Link to="/denuncia">
-          <div className={styles.emergButton}>
-            <h4 className={styles.emerg}>DENUNCIÁ</h4>
-          </div>
-        </Link>
-
-        <Filtros
-          currentFilter={currentFilter}
-          handleFilterChange={handleFilterChange}
-        />
-
-        <div className={styles.botonFiltrosMain}>
-          {/* FIXME: Why is this not a button? */}
-          {/* Render different button content based on the state */}
-          <a
-            aria-label="Hide"
-            onClick={(e) => {
-              e.preventDefault();
-              handleClickCloseButton();
-              toggleFiltrosVisibility();
-            }}
-            href="#"
-            className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
-          >
-            {isCloseButtonClicked ? (
-              <div>
-                <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
-              </div>
-            ) : (
-              <>X</>
-            )}
-          </a>
+    <section id="MapaDev" className={styles.MapaDev}>
+      <Link to="/denuncia">
+        <div className={styles.emergButton}>
+          <h4 className={styles.emerg}>DENUNCIÁ</h4>
         </div>
-        <Screen caso={selectedCase} />
+      </Link>
 
-        <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
-          <NavigationControl position="top-right" />
-          <DepsSource data={departamentos} />
-          <BarriosCabaSource data={barriosCaba} />
-          <CabaSource data={caba} />
-          <LaPlataSource data={laPlata} />
-          <DepartamentosLaPlataSource data={laPlata} />
+      <Filtros
+        currentFilter={currentFilter}
+        handleFilterChange={handleFilterChange}
+      />
+      <Screen caso={selectedCase} />
 
-          {/* Renderiza los marcadores de las dependencias */}
-          {(currentFilter === "all" || currentFilter === "dependencias") && (
-            <DependenciasMarkers
-              dependencias={casosDependencia}
-              setSelectedCase={setSelectedCase}
-              setMarker={setSelectedMarkerId}
-              selected={selectedMarkerId}
-            />
-          )}
+      <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
+        <NavigationControl position="top-right" />
+        <DepsSource data={departamentos} />
+        <BarriosCabaSource data={barriosCaba} />
+        <CabaSource data={caba} />
+        <LaPlataSource data={laPlata} />
+        <DepartamentosLaPlataSource data={laPlata} />
 
-          {(currentFilter === "all" || currentFilter === "gatillo") && (
-            <GatilloMarkers
-              gatillos={casosGatillo}
-              setSelectedCase={setSelectedCase}
-              setMarker={setSelectedMarkerId}
-              selected={selectedMarkerId}
-            />
-          )}
+        {/* Renderiza los marcadores de las dependencias */}
+        {(currentFilter === "all" || currentFilter === "dependencias") && (
+          <DependenciasMarkers
+            dependencias={casosDependencia}
+            setSelectedCase={setSelectedCase}
+            setMarker={setSelectedMarkerId}
+            selected={selectedMarkerId}
+          />
+        )}
 
-          {(currentFilter === "all" || currentFilter === "reportes") && (
-            <ReportesMarkers
-              dataDeReportes={casosReportes}
-              setSelectedCase={setSelectedCase}
-              setMarker={setSelectedMarkerId}
-              selected={selectedMarkerId}
-            />
-          )}
-        </MapGL>
-        <LogoMapa />
-      </section>
-    </>
+        {(currentFilter === "all" || currentFilter === "gatillo") && (
+          <GatilloMarkers
+            gatillos={casosGatillo}
+            setSelectedCase={setSelectedCase}
+            setMarker={setSelectedMarkerId}
+            selected={selectedMarkerId}
+          />
+        )}
+
+        {(currentFilter === "all" || currentFilter === "reportes") && (
+          <ReportesMarkers
+            dataDeReportes={casosReportes}
+            setSelectedCase={setSelectedCase}
+            setMarker={setSelectedMarkerId}
+            selected={selectedMarkerId}
+          />
+        )}
+      </MapGL>
+      <LogoMapa />
+    </section>
   );
 };
 

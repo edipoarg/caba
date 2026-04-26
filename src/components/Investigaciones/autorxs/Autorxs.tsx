@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "./Autorxs.module.css";
-import { Autor } from "../../../models/autorxs";
+import type { Autor } from "../../../models/autorxs";
 import { fetchAutorxs } from "../../../data/fetching";
 
 const Autorxs = () => {

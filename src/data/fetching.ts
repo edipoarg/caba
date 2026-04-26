@@ -1,12 +1,12 @@
-import {
+import type {
   CasoDependencia,
   CasoGatillo,
   CasoReportes,
   DataDeCasos,
 } from "../models/casos";
-import { Cargo } from "../models/cargos";
-import { Autor } from "../models/autorxs";
-import { Investigacion } from "../models/investigacion";
+import type { Cargo } from "../models/cargos";
+import type { Autor } from "../models/autorxs";
+import type { Investigacion } from "../models/investigacion";
 
 export const getCargos = async (): Promise<Cargo[] | null> => {
   const response = await fetch("data/cargos.json");
