@@ -35,13 +35,13 @@ type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 const mapProps = {
   initialViewState: {
     longitude: 58.3816,
-    latitude: -34.6037,
-    zoom: 1,
-    minZoom: 0.5,
+    latitude: -34.3037,
+    zoom: 7,
+    minZoom: 2,
     maxZoom: 25,
     maxBounds: [
-      [-58.59, -34.8], // Lower-left limit
-      [-58.31, -34.478], // Upper-right limit
+      [-58.7, -34.8], // Lower-left limit
+      [-58.25, -34.43], // Upper-right limit
     ],
   },
   style: {
@@ -53,20 +53,15 @@ const mapProps = {
 
 const Mapa = () => {
   const [currentFilter, setCurrentFilter] = useState<Filtro>("all");
-
+  const [selectedMarkerId, setSelectedMarkerId] = useState<string | null>(null);
+  const [selectedCase, setSelectedCase] = useState<Caso | null>(null);
+  const casosDependencia = useContext(CasosDependenciaContext);
+  const casosReportes = useContext(CasosReportesContext);
+  const casosGatillo = useContext(CasosGatilloContext);
   const handleFilterChange = (newFilter: Filtro): void => {
     if (newFilter === currentFilter) setCurrentFilter("all");
     else setCurrentFilter(newFilter);
   };
-
-  const [selectedMarkerId, setSelectedMarkerId] = useState<string | null>(null);
-
-  // SCREEN INFO
-  const [selectedCase, setSelectedCase] = useState<Caso | null>(null);
-
-  const casosDependencia = useContext(CasosDependenciaContext);
-  const casosReportes = useContext(CasosReportesContext);
-  const casosGatillo = useContext(CasosGatilloContext);
 
   if (
     casosDependencia === "loading" ||
@@ -105,8 +100,6 @@ const Mapa = () => {
         <CabaSource data={caba} />
         <LaPlataSource data={laPlata} />
         <DepartamentosLaPlataSource data={laPlata} />
-
-        {/* Renderiza los marcadores de las dependencias */}
         {(currentFilter === "all" || currentFilter === "dependencias") && (
           <DependenciasMarkers
             dependencias={casosDependencia}
@@ -115,7 +108,6 @@ const Mapa = () => {
             selected={selectedMarkerId}
           />
         )}
-
         {(currentFilter === "all" || currentFilter === "gatillo") && (
           <GatilloMarkers
             gatillos={casosGatillo}
@@ -124,7 +116,6 @@ const Mapa = () => {
             selected={selectedMarkerId}
           />
         )}
-
         {(currentFilter === "all" || currentFilter === "reportes") && (
           <ReportesMarkers
             dataDeReportes={casosReportes}
@@ -134,6 +125,7 @@ const Mapa = () => {
           />
         )}
       </MapGL>
+
       <LogoMapa />
     </section>
   );
