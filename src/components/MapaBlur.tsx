@@ -7,7 +7,7 @@ import LogoMapa from "./LogoMapa";
 import styles from "../styles/MapaBlur.module.css";
 
 import { BarriosCabaSource } from "./Sources";
-import { barriosCaba } from "./Mapa/geojson-data";
+import { barriosCaba } from "./Landing/Mapa/geojson-data";
 
 const Mapa = () => {
   // PROPERTIES OF THE MAP

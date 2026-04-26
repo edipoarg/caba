@@ -1,14 +1,14 @@
-import type { Caso } from "../models/casos";
+import type { Caso } from "../../../models/casos";
 import {
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
-} from "../models/casos";
-import styles from "../styles/Screen.module.css";
+} from "../../../models/casos";
+import styles from "./SelectionOverview.module.css";
 import { Link } from "react-router-dom";
-import type { Cargo } from "../models/cargos";
+import type { Cargo } from "../../../models/cargos";
 import { useContext } from "react";
-import { CargosContext } from "../routes/Root";
+import { CargosContext } from "../../../routes/Root";
 
 // Función para recortar texto si supera el límite de caracteres
 const truncateText = (text: string | null, maxLength: number): string => {
@@ -23,7 +23,7 @@ type Props = {
   caso: Caso | null;
 };
 
-type ScreenData = {
+type SelectionOverviewData = {
   title: string;
   date?: string;
   address?: string;
@@ -36,9 +36,9 @@ type ScreenData = {
   level?: string;
 };
 
-const getScreenDataForCase =
+const getSelectionOverviewDataForCase =
   (cargos: Cargo[]) =>
-  (caso: Caso | null): ScreenData => {
+  (caso: Caso | null): SelectionOverviewData => {
     const title = caso?.properties.Nombre ?? "Elegí una dependencia o un caso";
     if (caso !== null) {
       if (casoIsCasoDependencia(caso)) {
@@ -77,15 +77,19 @@ const getScreenDataForCase =
     };
   };
 
-// Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
-
-const Screen = ({ caso }: Props) => {
+const SelectionOverview = ({ caso }: Props) => {
   const cargos = useContext(CargosContext);
   if (cargos === "loading") return <p>Cargando...</p>;
   if (cargos === null)
     return <p>Ocurrió un error al cargar los datos de la página</p>;
 
-  const screenData = getScreenDataForCase(cargos)(caso);
+  if (!caso)
+    return (
+      <section className={styles.SelectionOverview}>
+        <h2>Elegí una dependencia o un caso</h2>
+      </section>
+    );
+  const selectionOverviewData = getSelectionOverviewDataForCase(cargos)(caso);
   const {
     title,
     date,
@@ -97,24 +101,22 @@ const Screen = ({ caso }: Props) => {
     grade,
     authority,
     level,
-  } = screenData;
+  } = selectionOverviewData;
   return (
-    <section className={styles.Screen}>
-      <section className={styles.ComisariaScreen}>
-        <section className={styles.ComisariaData}>
-          <h3 className={styles.level}>{level}</h3>
-          <h2 className={styles.title}>{truncateText(title, 32)}</h2>
-          <h4 className={styles.date}>{date}</h4>
-          <h4 className={styles.address}>{address}</h4>
-          <h4 className={styles.phone}>{phone}</h4>
-          <h4 className={styles.age}>{age}</h4>
-          <h4 className={styles.circs}>{truncateText(circs ?? null, 95)}</h4>
-          {caseId && (
-            <Link to={`/ficha/${caseId}`}>
-              <h3 className={styles.moreButton}>Ver +</h3>
-            </Link>
-          )}
-        </section>
+    <section className={styles.SelectionOverview}>
+      <section className={styles.comisaria}>
+        <h3>{level}</h3>
+        <h2 className={styles.title}>{truncateText(title, 32)}</h2>
+        <h4 className={styles.date}>{date}</h4>
+        <h4 className={styles.address}>{address}</h4>
+        <h4 className={styles.phone}>{phone}</h4>
+        <h4 className={styles.age}>{age}</h4>
+        <h4 className={styles.circs}>{truncateText(circs ?? null, 95)}</h4>
+        {caseId && (
+          <Link to={`/ficha/${caseId}`}>
+            <h3 className={styles.moreButton}>Ver +</h3>
+          </Link>
+        )}
       </section>
       {(grade || authority) && (
         <section className={styles.autoridadData}>
@@ -128,4 +130,4 @@ const Screen = ({ caso }: Props) => {
   );
 };
 
-export default Screen;
+export default SelectionOverview;

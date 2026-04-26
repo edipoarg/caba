@@ -1,4 +1,4 @@
-.Screen {
+.SelectionOverview {
   position: fixed;
   bottom: 28vh;
   left: 0;
@@ -10,7 +10,7 @@
   margin-left: 5vw;
 }
 
-.ComisariaScreen {
+.comisaria {
   padding: 0vh 4vw;
   border: solid 1px;
   z-index: 1000;
@@ -89,15 +89,8 @@
   background-color: #2cb54d;
 }
 
-.AutoridadesScreen {
-  padding: 2vh 4vw;
-  width: 8vw;
-  backdrop-filter: blur(11.2px);
-  -webkit-backdrop-filter: blur(11.2px);
-}
-
 @media (min-width: 1000px) {
-  .Screen {
+  .SelectionOverview {
     position: relative;
     margin-top: 25vh;
     display: grid;
@@ -114,7 +107,7 @@
     padding: 0.3vh 0.5vw;
   }
 
-  .ComisariaScreen {
+  .comisaria {
     width: 12vw;
     margin-top: 35vh;
     max-width: 12vw;

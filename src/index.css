@@ -62,3 +62,15 @@ a {
   color: inherit;
   /* Heredar el color del texto por defecto */
 }
+
+
+html {
+  --mapa-verdeOscuro: #2a8842;
+  --mapa-verdeFluo: #b9ff39;
+  --mapa-violeta: #7b4baf;
+  --mapa-naranja: #d94d2c;
+  --mapa-oscuro: #231c26;
+  --mapa-negro: #131313;
+  --mapa-blanco: #f8f8f8;
+  --mapa-gris: #232128;
+}

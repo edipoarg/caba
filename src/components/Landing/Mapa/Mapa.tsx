@@ -3,8 +3,8 @@ import { useContext, useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import { Link } from "react-router-dom";
-import LogoMapa from "../LogoMapa";
-import Screen from "../Screen";
+import LogoMapa from "../../LogoMapa";
+import SelectionOverview from "../SelectionOverview/SelectionOverview";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
   departamentos,
@@ -18,17 +18,17 @@ import {
   BarriosCabaSource,
   LaPlataSource,
   DepartamentosLaPlataSource,
-} from "../Sources";
-import DependenciasMarkers from "../dependenciasMarkers/DependenciasMarkers";
-import GatilloMarkers from "../gatilloMarkers/GatilloMarkers";
-import ReportesMarkers from "../reportesMarkers/ReportesMarkers";
-import Filtros from "../filtros/Filtros";
-import type { Caso } from "../../models/casos";
+} from "../../Sources";
+import DependenciasMarkers from "../../dependenciasMarkers/DependenciasMarkers";
+import GatilloMarkers from "../../gatilloMarkers/GatilloMarkers";
+import ReportesMarkers from "../../reportesMarkers/ReportesMarkers";
+import Filtros from "../../filtros/Filtros";
+import type { Caso } from "../../../models/casos";
 import {
   CasosDependenciaContext,
   CasosGatilloContext,
   CasosReportesContext,
-} from "../../routes/Root";
+} from "../../../routes/Root";
 
 type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
 
@@ -80,7 +80,9 @@ const Mapa = () => {
     return <p>Ocurrió un error al cargar los casos de gatillo fácil</p>;
 
   return (
-    <section id="MapaDev" className={styles.MapaDev}>
+    <section className={styles.Mapa}>
+      <SelectionOverview caso={selectedCase} />
+
       <Link to="/denuncia">
         <div className={styles.emergButton}>
           <h4 className={styles.emerg}>DENUNCIÁ</h4>
@@ -91,7 +93,6 @@ const Mapa = () => {
         currentFilter={currentFilter}
         handleFilterChange={handleFilterChange}
       />
-      <Screen caso={selectedCase} />
 
       <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
         <NavigationControl position="top-right" />
