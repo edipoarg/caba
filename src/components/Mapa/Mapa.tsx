@@ -59,18 +59,6 @@ const Mapa = () => {
     else setCurrentFilter(newFilter);
   };
 
-  //visibilidad Filtro
-  //TODO: Remove this
-  const [filtrosVisible, setFiltrosVisible] = useState(true);
-  const toggleFiltrosVisibility = () => {
-    setFiltrosVisible(!filtrosVisible);
-  };
-  const [isCloseButtonClicked, setIsCloseButtonClicked] = useState(false);
-  const handleClickCloseButton = () => {
-    // Toggle the state when the button is clicked
-    setIsCloseButtonClicked(!isCloseButtonClicked);
-  };
-
   const [selectedMarkerId, setSelectedMarkerId] = useState<string | null>(null);
 
   // SCREEN INFO
@@ -108,29 +96,6 @@ const Mapa = () => {
         currentFilter={currentFilter}
         handleFilterChange={handleFilterChange}
       />
-
-      <div className={styles.botonFiltrosMain}>
-        {/* FIXME: Why is this not a button? */}
-        {/* Render different button content based on the state */}
-        <a
-          aria-label="Hide"
-          onClick={(e) => {
-            e.preventDefault();
-            handleClickCloseButton();
-            toggleFiltrosVisibility();
-          }}
-          href="#"
-          className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
-        >
-          {isCloseButtonClicked ? (
-            <div>
-              <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
-            </div>
-          ) : (
-            <>X</>
-          )}
-        </a>
-      </div>
       <Screen caso={selectedCase} />
 
       <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
