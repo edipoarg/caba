@@ -7,28 +7,54 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "prettier",
+    "plugin:css-modules/recommended",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
   ],
   parser: "@typescript-eslint/parser",
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
-  parserOptions: { ecmaVersion: "latest", sourceType: "module" },
+  ignorePatterns: ["dist", ".eslintrc.cjs", "vite.config.ts"],
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: "./tsconfig.json",
+  },
   settings: { react: { version: "18.2" } },
-  plugins: ["react-refresh", "@typescript-eslint"],
+  plugins: ["react-refresh", "css-modules"],
   rules: {
-    "react-refresh/only-export-components": [
-      "warn",
+    "@typescript-eslint/consistent-type-imports": "error",
+    'react-refresh/only-export-components': [
+      'warn',
       { allowConstantExport: true },
     ],
-    "linebreak-style": 0,
+    'linebreak-style': 0,
+    "@typescript-eslint/no-unnecessary-condition": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
-        argsIgnorePattern: "^_",
-      },
+        "args": "all",
+        "argsIgnorePattern": "^_",
+        "caughtErrors": "all",
+        "caughtErrorsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
     ],
+    "react/jsx-no-useless-fragment": "error",
+    "react/button-has-type": "error"
   },
-  parserOptions: {
-    project: ["./tsconfig.json"],
-  },
+  overrides: [
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {
+        "@typescript-eslint/no-unnecessary-condition": "off"
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ]
 };

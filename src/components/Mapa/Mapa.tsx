@@ -1,12 +1,11 @@
+import styles from "./Mapa.module.css";
 import { useContext, useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
-import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
 import LogoMapa from "../LogoMapa";
-// eslint-disable-next-line no-redeclare
 import Screen from "../Screen";
-import styles from "./Mapa.module.css";
+import "maplibre-gl/dist/maplibre-gl.css";
 
 // GEOJSON IMPORTS
 import {

@@ -1,29 +1,23 @@
 {
+  "homepage": "https://mapadelapolicia.com/",
   "name": "mapadelapolicia",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 5",
+    "build": "tsc --noEmit && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "tsc && vite build",
-    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "test": "vitest",
-    "config": "tsx ./src/schemas/m2cms.ts ./public/config.yml ./src/schemas/models"
+    "test": "vitest"
   },
   "dependencies": {
-    "@react-email/render": "^0.0.12",
-    "@vitejs/plugin-react-swc": "^3.6.0",
     "airtable": "^0.12.2",
     "firebase": "^10.12.2",
     "maplibre-gl": "^3.5.2",
-    "nodemailer": "^6.9.13",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
     "react-map-gl": "^7.1.6",
     "react-router-dom": "^6.17.0"
@@ -33,20 +27,21 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-css-modules": "^2.12.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
-    "tsx": "^4.7.1",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "typescript-plugin-css-modules": "^5.0.2",
-    "vite": "^4.4.5",
-    "vitest": "^1.4.0",
-    "yaml": "^2.4.0"
+    "vite": "^5",
+    "vite-plugin-image-optimizer": "^1.1.9",
+    "vite-plugin-svgr": "^4.2.0",
+    "vitest": "^1.4.0"
   }
 }
