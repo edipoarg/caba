@@ -14,7 +14,7 @@ const recursosItems = [
   { path: "genero", icon: "genero", nombre: "Recursos de Género" },
   { path: "migrantes", icon: "migrantes", nombre: "Recursos para Migrantes" },
   { path: "filmar", icon: "filmar", nombre: "Cómo Filmar" },
-];
+] as const;
 
 const Recursos = () => {
   return (

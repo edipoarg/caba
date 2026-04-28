@@ -1,5 +1,5 @@
 import CaseCounter from "./CaseCounter";
-import styles from "./CuartoReporte.module.css";
+import styles from "./QuintoReporte.module.css";
 import Icons from "../iconos/Icons";
 
 const QuintoReporte = () => {

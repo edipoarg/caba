@@ -25,7 +25,7 @@ const CuartoReporte = () => {
     <div className={styles.reportContainer}>
       {/* Parte Intro */}
       <section className={styles.indexContainer}>
-        <section className={styles.index}>
+        <section>
           <section className={styles.reportData}>
             <h2>{numeroReporte}° reporte de violencia policial</h2>
             <h3>{fecha}</h3>
