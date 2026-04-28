@@ -46,10 +46,6 @@
   margin: 0;
 }
 
-.botonFiltrosMain {
-  display: none;
-}
-
 @media (min-width: 1000px) {
   .emergButton {
     right: 5vw;

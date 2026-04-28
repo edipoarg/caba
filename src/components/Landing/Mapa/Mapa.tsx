@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import { Link } from "react-router-dom";
-import LogoMapa from "../../LogoMapa";
+import LogoMapa from "../../LogoMapa/LogoMapa";
 import SelectionOverview from "../SelectionOverview/SelectionOverview";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
