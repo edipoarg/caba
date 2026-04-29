@@ -4,5 +4,14 @@
   margin: 0;
   padding: 0;
   background-color: #232128;
-  overflow-x: hidden; /* Oculta el desplazamiento horizontal si es necesario */
+  overflow-x: hidden;
+  /* Oculta el desplazamiento horizontal si es necesario */
+}
+
+/* tablet / PC */
+@media (min-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: row;
+  }
 }

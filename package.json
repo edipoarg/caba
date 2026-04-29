@@ -13,6 +13,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@types/react-lines-ellipsis": "^0.15.6",
     "airtable": "^0.12.2",
     "firebase": "^10.12.2",
     "maplibre-gl": "^3.5.2",

@@ -1,13 +1,20 @@
 .SelectionOverview {
+  /* This makes the container itself not block the background, allowing for interaction with the map */
+  width: 0;
+  height: 0;
+  font-family: Ronnia Thin Condensed, sans-serif;
+}
+
+.SelectionOverview h3,
+.SelectionOverview p {
+  margin: 0;
+}
+
+.SelectionOverview {
   position: fixed;
   bottom: 28vh;
   left: 0;
   z-index: 1000;
-  height: 15vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100vw;
-  margin-left: 5vw;
 }
 
 .comisaria {
@@ -15,14 +22,12 @@
   border: solid 1px;
   z-index: 1000;
   backdrop-filter: blur(11.2px);
-  -webkit-backdrop-filter: blur(11.2px);
-  margin: 0vh 2vw;
 }
 
 .autoridadData {
+  border: solid 1px;
   padding: 2vh 4vw;
   backdrop-filter: blur(11.2px);
-  -webkit-backdrop-filter: blur(11.2px);
   max-width: 30vw;
 }
 
@@ -34,87 +39,82 @@
 
 .grade {
   margin: 0;
-  padding-top: 1vh;
   font-size: 0.9rem;
 }
 
 .address,
 .date {
-  padding-top: 1vh;
-  margin: 0;
   font-size: 0.9rem;
   font-family: "Ronnia Thin Condensed";
 }
 
 .authority {
-  padding-top: 1vh;
-  margin: 0;
   font-size: 1rem;
   font-family: "Ronnia Bold Condensed";
   max-width: 30vw;
 }
 
 .phone {
-  margin: 0;
   padding-bottom: 1vh;
   font-size: 0.9rem;
   font-family: "Ronnia Thin Condensed";
 }
 
 .age {
-  margin: 0;
   font-family: "Ronnia Thin Condensed";
 }
 
 .circs {
-  margin: 0;
-  padding-top: 1vh;
+  margin-top: 1vh;
   padding-bottom: 2vh;
   font-family: "Ronnia Thin Condensed";
 }
 
 .moreButton {
+  font-size: 1.3rem;
+  align-self: center;
   margin: 0;
-  border: solid 1px #2cb54d;
+  border: solid 1px var(--mapa-verde-fluo);
+  color: var(--mapa-verde-fluo);
+  box-shadow: 1px 1px 0 1px var(--mapa-verde-fluo);
   border-radius: 14px;
   padding: 0.5vh 2vw;
   text-align: center;
   width: 10vw;
-  margin-bottom: 2vh;
-  box-shadow: 1px 1px 0 1px;
 }
 
 .moreButton:hover {
-  color: #232128;
-  background-color: #2cb54d;
+  color: var(--mapa-gris);
+  background-color: var(--mapa-verde-fluo);
+  box-shadow: 1px 1px 0 1px var(--mapa-gris);
 }
 
 @media (min-width: 1000px) {
+
   .SelectionOverview {
-    position: relative;
-    margin-top: 25vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 20vw;
-    max-width: 20vw;
-    margin-left: 11vw;
     bottom: unset;
-    top: -20vh;
+    left: 14vw;
+    top: 38vh;
   }
 
   .moreButton {
-    width: 5vw;
+    width: 6rem;
     padding: 0.3vh 0.5vw;
   }
 
   .comisaria {
-    width: 12vw;
-    margin-top: 35vh;
-    max-width: 12vw;
-    padding: 0vh 1vw;
+    width: 14vw;
+    max-width: 14vw;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 15px;
   }
 
   .autoridadData {
-    padding: 2vh 3vw;
+    width: 14vw;
+    max-width: 14vw;
+    padding: 1rem 1rem;
   }
 }

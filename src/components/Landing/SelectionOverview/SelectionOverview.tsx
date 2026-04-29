@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import type { Cargo } from "../../../models/cargos";
 import { useContext } from "react";
 import { CargosContext } from "../../../routes/Root";
+import LinesEllipsis from "react-lines-ellipsis";
 
 // Función para recortar texto si supera el límite de caracteres
 const truncateText = (text: string | null, maxLength: number): string => {
@@ -79,16 +80,11 @@ const getSelectionOverviewDataForCase =
 
 const SelectionOverview = ({ caso }: Props) => {
   const cargos = useContext(CargosContext);
+  if (!caso) return null;
   if (cargos === "loading") return <p>Cargando...</p>;
   if (cargos === null)
     return <p>Ocurrió un error al cargar los datos de la página</p>;
 
-  if (!caso)
-    return (
-      <section className={styles.SelectionOverview}>
-        <h2>Elegí una dependencia o un caso</h2>
-      </section>
-    );
   const selectionOverviewData = getSelectionOverviewDataForCase(cargos)(caso);
   const {
     title,
@@ -104,28 +100,57 @@ const SelectionOverview = ({ caso }: Props) => {
   } = selectionOverviewData;
   return (
     <section className={styles.SelectionOverview}>
-      <section className={styles.comisaria}>
-        <h3>{level}</h3>
-        <h2 className={styles.title}>{truncateText(title, 32)}</h2>
-        <h4 className={styles.date}>{date}</h4>
-        <h4 className={styles.address}>{address}</h4>
-        <h4 className={styles.phone}>{phone}</h4>
-        <h4 className={styles.age}>{age}</h4>
-        <h4 className={styles.circs}>{truncateText(circs ?? null, 95)}</h4>
-        {caseId && (
-          <Link to={`/ficha/${caseId}`}>
-            <h3 className={styles.moreButton}>Ver +</h3>
-          </Link>
-        )}
-      </section>
       {(grade || authority) && (
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
           {authority && (
-            <h2 className={styles.authority}>{truncateText(authority, 35)}</h2>
+            <h2 className={styles.authority}>
+              <LinesEllipsis
+                text={authority}
+                title={authority}
+                maxLine="4"
+                ellipsis="..."
+                trimRight
+                basedOn="letters"
+              />
+            </h2>
           )}
         </section>
       )}
+      <section className={styles.comisaria}>
+        {level && <h3>{level}</h3>}
+        {title && (
+          <p className={styles.title} title={title}>
+            <LinesEllipsis
+              text={title}
+              maxLine="3"
+              ellipsis="..."
+              trimRight
+              basedOn="letters"
+            />
+          </p>
+        )}
+        {date && <p className={styles.date}>{date}</p>}
+        {address && <p className={styles.address}>{address}</p>}
+        {phone && <p className={styles.phone}>{phone}</p>}
+        {age && <p className={styles.age}>{age}</p>}
+        {circs && (
+          <p className={styles.circs}>
+            <LinesEllipsis
+              text={circs}
+              maxLine="4"
+              ellipsis="..."
+              trimRight
+              basedOn="letters"
+            />
+          </p>
+        )}
+        {caseId && (
+          <Link className={styles.moreButton} to={`/ficha/${caseId}`}>
+            <span>Ver +</span>
+          </Link>
+        )}
+      </section>
     </section>
   );
 };

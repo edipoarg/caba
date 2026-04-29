@@ -65,8 +65,9 @@ a {
 
 
 html {
-  --mapa-verdeOscuro: #2a8842;
-  --mapa-verdeFluo: #b9ff39;
+  --mapa-verde-claro: #2cb54d;
+  --mapa-verde-oscuro: #2a8842;
+  --mapa-verde-fluo: #b9ff39;
   --mapa-violeta: #7b4baf;
   --mapa-naranja: #d94d2c;
   --mapa-oscuro: #231c26;
