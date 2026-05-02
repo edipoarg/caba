@@ -12,23 +12,39 @@
 
 .SelectionOverview {
   position: fixed;
-  bottom: 28vh;
-  left: 0;
+  left: 10px;
   z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  bottom: 320px;
+}
+
+.comisaria,
+.autoridadData {
+  border: solid 1px;
+  height: fit-content;
+  min-height: fit-content;
+  min-width: fit-content;
+  flex-shrink: 0;
+  backdrop-filter: blur(11.2px);
+  background-color: rgba(10, 10, 10, 0.2);
 }
 
 .comisaria {
-  padding: 0vh 4vw;
   border: solid 1px;
   z-index: 1000;
-  backdrop-filter: blur(11.2px);
+  width: 180px;
+  max-width: 180px;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-left: 10px;
 }
 
 .autoridadData {
-  border: solid 1px;
-  padding: 2vh 4vw;
-  backdrop-filter: blur(11.2px);
-  max-width: 30vw;
+  padding: 1rem 1rem;
+  width: 150px;
 }
 
 .title {
@@ -52,6 +68,7 @@
   font-size: 1rem;
   font-family: "Ronnia Bold Condensed";
   max-width: 30vw;
+  margin: 0;
 }
 
 .phone {
@@ -78,9 +95,9 @@
   color: var(--mapa-verde-fluo);
   box-shadow: 1px 1px 0 1px var(--mapa-verde-fluo);
   border-radius: 14px;
-  padding: 0.5vh 2vw;
   text-align: center;
-  width: 10vw;
+  width: 100px;
+  padding: 0.3vh 0.5vw;
 }
 
 .moreButton:hover {
@@ -95,21 +112,12 @@
     bottom: unset;
     left: 14vw;
     top: 38vh;
-  }
-
-  .moreButton {
-    width: 6rem;
-    padding: 0.3vh 0.5vw;
+    flex-direction: column;
   }
 
   .comisaria {
-    width: 14vw;
-    max-width: 14vw;
-    padding: 1rem 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
     margin-top: 15px;
+    margin-left: unset;
   }
 
   .autoridadData {
