@@ -11,15 +11,6 @@ import { useContext } from "react";
 import { CargosContext } from "../../../routes/Root";
 import LinesEllipsis from "react-lines-ellipsis";
 
-// Función para recortar texto si supera el límite de caracteres
-const truncateText = (text: string | null, maxLength: number): string => {
-  if (text === null) return "";
-  if (text.length > maxLength) {
-    return text.substring(0, maxLength) + "...";
-  }
-  return text;
-};
-
 type Props = {
   caso: Caso | null;
 };
