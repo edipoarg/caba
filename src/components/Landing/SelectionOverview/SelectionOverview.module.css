@@ -1,6 +1,5 @@
 .SelectionOverview {
   /* This makes the container itself not block the background, allowing for interaction with the map */
-  width: 0;
   height: 0;
   font-family: Ronnia Thin Condensed, sans-serif;
 }
@@ -12,11 +11,15 @@
 
 .SelectionOverview {
   position: fixed;
-  left: 10px;
+  left: 0px;
+  padding: 0 1rem;
+  width: 100vw;
   z-index: 1000;
   display: flex;
   flex-direction: row;
-  bottom: 320px;
+  justify-content: end;
+  top: 150px;
+  gap: 10px;
 }
 
 .comisaria,
@@ -24,27 +27,24 @@
   border: solid 1px;
   height: fit-content;
   min-height: fit-content;
-  min-width: fit-content;
   flex-shrink: 0;
   backdrop-filter: blur(11.2px);
   background-color: rgba(10, 10, 10, 0.2);
+  width: 45vw;
 }
 
 .comisaria {
   border: solid 1px;
   z-index: 1000;
-  width: 180px;
   max-width: 180px;
   padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  margin-left: 10px;
 }
 
 .autoridadData {
   padding: 1rem 1rem;
-  width: 150px;
 }
 
 .title {
@@ -113,6 +113,8 @@
     left: 14vw;
     top: 38vh;
     flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
   }
 
   .comisaria {
