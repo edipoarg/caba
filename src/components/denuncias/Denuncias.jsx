@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Denuncias.module.css";
 import Icons from "../iconos/Icons";
-import Mapa from "../Mapa/Mapa";
+import Mapa from "../Landing/Mapa/Mapa";
 
 const Denuncias = () => {
   return (

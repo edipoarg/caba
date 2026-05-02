@@ -1,29 +1,21 @@
-import type { Caso } from "../models/casos";
+import type { Caso } from "../../../models/casos";
 import {
   casoIsCasoDependencia,
   casoIsCasoGatillo,
   casoIsCasoReportes,
-} from "../models/casos";
-import styles from "../styles/Screen.module.css";
+} from "../../../models/casos";
+import styles from "./SelectionOverview.module.css";
 import { Link } from "react-router-dom";
-import type { Cargo } from "../models/cargos";
+import type { Cargo } from "../../../models/cargos";
 import { useContext } from "react";
-import { CargosContext } from "../routes/Root";
-
-// Función para recortar texto si supera el límite de caracteres
-const truncateText = (text: string | null, maxLength: number): string => {
-  if (text === null) return "";
-  if (text.length > maxLength) {
-    return text.substring(0, maxLength) + "...";
-  }
-  return text;
-};
+import { CargosContext } from "../../../routes/Root";
+import LinesEllipsis from "react-lines-ellipsis";
 
 type Props = {
   caso: Caso | null;
 };
 
-type ScreenData = {
+type SelectionOverviewData = {
   title: string;
   date?: string;
   address?: string;
@@ -36,9 +28,9 @@ type ScreenData = {
   level?: string;
 };
 
-const getScreenDataForCase =
+const getSelectionOverviewDataForCase =
   (cargos: Cargo[]) =>
-  (caso: Caso | null): ScreenData => {
+  (caso: Caso | null): SelectionOverviewData => {
     const title = caso?.properties.Nombre ?? "Elegí una dependencia o un caso";
     if (caso !== null) {
       if (casoIsCasoDependencia(caso)) {
@@ -77,15 +69,14 @@ const getScreenDataForCase =
     };
   };
 
-// Ya le pusimos screen, voy a ignorar esto, dudo muchísimo de que accedamos a Screen como variable global
-
-const Screen = ({ caso }: Props) => {
+const SelectionOverview = ({ caso }: Props) => {
   const cargos = useContext(CargosContext);
+  if (!caso) return null;
   if (cargos === "loading") return <p>Cargando...</p>;
   if (cargos === null)
     return <p>Ocurrió un error al cargar los datos de la página</p>;
 
-  const screenData = getScreenDataForCase(cargos)(caso);
+  const selectionOverviewData = getSelectionOverviewDataForCase(cargos)(caso);
   const {
     title,
     date,
@@ -97,35 +88,62 @@ const Screen = ({ caso }: Props) => {
     grade,
     authority,
     level,
-  } = screenData;
+  } = selectionOverviewData;
   return (
-    <section className={styles.Screen}>
-      <section className={styles.ComisariaScreen}>
-        <section className={styles.ComisariaData}>
-          <h3 className={styles.level}>{level}</h3>
-          <h2 className={styles.title}>{truncateText(title, 32)}</h2>
-          <h4 className={styles.date}>{date}</h4>
-          <h4 className={styles.address}>{address}</h4>
-          <h4 className={styles.phone}>{phone}</h4>
-          <h4 className={styles.age}>{age}</h4>
-          <h4 className={styles.circs}>{truncateText(circs ?? null, 95)}</h4>
-          {caseId && (
-            <Link to={`/ficha/${caseId}`}>
-              <h3 className={styles.moreButton}>Ver +</h3>
-            </Link>
-          )}
-        </section>
-      </section>
+    <section className={styles.SelectionOverview}>
       {(grade || authority) && (
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
           {authority && (
-            <h2 className={styles.authority}>{truncateText(authority, 35)}</h2>
+            <h2 className={styles.authority}>
+              <LinesEllipsis
+                text={authority}
+                title={authority}
+                maxLine="4"
+                ellipsis="..."
+                trimRight
+                basedOn="letters"
+              />
+            </h2>
           )}
         </section>
       )}
+      <section className={styles.comisaria}>
+        {level && <h3>{level}</h3>}
+        {title && (
+          <p className={styles.title} title={title}>
+            <LinesEllipsis
+              text={title}
+              maxLine="3"
+              ellipsis="..."
+              trimRight
+              basedOn="letters"
+            />
+          </p>
+        )}
+        {date && <p className={styles.date}>{date}</p>}
+        {address && <p className={styles.address}>{address}</p>}
+        {phone && <p className={styles.phone}>{phone}</p>}
+        {age && <p className={styles.age}>{age}</p>}
+        {circs && (
+          <p className={styles.circs}>
+            <LinesEllipsis
+              text={circs}
+              maxLine="4"
+              ellipsis="..."
+              trimRight
+              basedOn="letters"
+            />
+          </p>
+        )}
+        {caseId && (
+          <Link className={styles.moreButton} to={`/ficha/${caseId}`}>
+            <span>Ver +</span>
+          </Link>
+        )}
+      </section>
     </section>
   );
 };
 
-export default Screen;
+export default SelectionOverview;

@@ -1,4 +1,4 @@
-import styles from "../styles/LogoMapa.module.css";
+import styles from "./LogoMapa.module.css";
 import { Link } from "react-router-dom";
 
 const LogoMapa = () => {

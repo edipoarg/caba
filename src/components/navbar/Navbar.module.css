@@ -26,6 +26,8 @@
 /* tablet / PC */
 @media (min-width: 768px) {
   .Navbar {
+    position: relative;
+    flex-shrink: 0;
     width: 10vw;
     height: 100vh;
     left: 0;

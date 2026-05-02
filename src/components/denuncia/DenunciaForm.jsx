@@ -2,8 +2,8 @@ import { useState } from "react";
 import { getStorage, ref, uploadBytes } from "firebase/storage";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../../../services/firebase.js";
-
-// Initialize Airtable base
+// TODO pasar esto a modules...
+import "./DenunciaForm.css";
 
 const DenunciaForm = () => {
   const [isSending, setIsSending] = useState(false);

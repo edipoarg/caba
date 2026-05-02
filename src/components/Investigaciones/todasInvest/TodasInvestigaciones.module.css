@@ -97,7 +97,7 @@
   margin: 0;
 }
 
-p {
+.todasContainer p {
   margin: 0;
   padding: 1vh 0vw;
 }
@@ -133,6 +133,7 @@ p {
   display: block;
   margin: auto;
 }
+
 .ilusContainer,
 .autorxContainer {
   display: flex;

@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import styles from "./Nosotros.module.css";
 import Logos from "../logos/Logos";
-import LogoMapaSmall from "../LogoMapaSmall";
+import LogoMapaSmall from "../LogoMapa/Small/LogoMapaSmall";
 const listaDeLogos = [
   {
     image:

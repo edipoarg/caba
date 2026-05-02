@@ -1,4 +1,4 @@
-import styles from "../styles/LogoMapaSmall.module.css";
+import styles from "./LogoMapaSmall.module.css";
 
 const LogoMapa = () => {
   return (

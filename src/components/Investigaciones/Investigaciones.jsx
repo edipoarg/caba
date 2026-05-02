@@ -1,7 +1,7 @@
 import styles from "./Investigaciones.module.css";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
-import MapaBlur from "../MapaBlur";
+import MapaBlur from "../MapaBlur/MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 import { useState } from "react";
 

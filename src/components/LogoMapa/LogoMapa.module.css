@@ -11,7 +11,7 @@
 .LogoTitulo {
   position: relative;
   font-size: 18px;
-  top: -10px; /* Ajusta esta propiedad para subir el título 2 píxeles */
+  top: -10px;
   left: 10px;
   font-family: "Ronnia Heavy";
 }
@@ -30,7 +30,7 @@
   .LogoTitulo {
     position: relative;
     font-size: 2rem;
-    top: -30px; /* Ajusta esta propiedad para subir el título 2 píxeles */
+    top: -30px;
     left: 0;
   }
 }
