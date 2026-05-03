@@ -22,15 +22,14 @@ import {
 import DependenciasMarkers from "../../dependenciasMarkers/DependenciasMarkers";
 import GatilloMarkers from "../../gatilloMarkers/GatilloMarkers";
 import ReportesMarkers from "../../reportesMarkers/ReportesMarkers";
-import Filtros from "../../filtros/Filtros";
+import Filtros from "../filtros/Filtros";
 import type { Caso } from "../../../models/casos";
 import {
   CasosDependenciaContext,
   CasosGatilloContext,
   CasosReportesContext,
 } from "../../../routes/Root";
-
-type Filtro = "reportes" | "dependencias" | "gatillo" | "all";
+import type { Filtro } from "../types";
 
 const mapProps = {
   initialViewState: {
