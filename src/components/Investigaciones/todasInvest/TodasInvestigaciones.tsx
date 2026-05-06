@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./TodasInvestigaciones.module.css";
 import Icons from "../../iconos/Icons";
+import { fetchInvestigaciones } from "../../../data/fetching";
 
 // Definir una interfaz para el tipo de datos de investigación
 interface Investigacion {
@@ -28,13 +29,17 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
   const [investigaciones, setInvestigaciones] = useState<Investigacion[]>([]);
 
   useEffect(() => {
-    fetch("/data/investigaciones.json")
-      .then((response) => response.json())
-      .then((data: Investigacion[]) => {
-        const investigacionesInvertidas = data.reverse().slice(1);
+    const loadInvestigaciones = async () => {
+      try {
+        const data = await fetchInvestigaciones();
+        if (!data) return;
+        const investigacionesInvertidas = [...data].reverse().slice(1);
         setInvestigaciones(investigacionesInvertidas);
-      })
-      .catch((error) => console.error("Error fetching the data:", error));
+      } catch (error) {
+        console.error("Error fetching the data:", error);
+      }
+    };
+    loadInvestigaciones();
   }, []);
 
   const filteredInvestigaciones = filter

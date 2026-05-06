@@ -7,6 +7,9 @@
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 5",
+    "fetch:nocodb": "tsx ./src/scripts/fetch-nocodb.ts",
+    "fetch:nocodb:all": "tsx ./src/scripts/fetch-nocodb.ts",
+    "fetch:nocodb:autorxs-investigaciones": "tsx ./src/scripts/fetch-nocodb.ts noco.config.autorxs-investigaciones.json",
     "build": "tsc --noEmit && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -39,6 +42,7 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
+    "tsx": "^4.18.0",
     "typescript": "^5.5.4",
     "typescript-plugin-css-modules": "^5.0.2",
     "vite": "^5",

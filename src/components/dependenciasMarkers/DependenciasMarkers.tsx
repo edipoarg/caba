@@ -41,6 +41,10 @@ const DependenciasMarkers = ({
     );
   };
 
+  if (!dependencias || !Array.isArray(dependencias.features)) {
+    return null;
+  }
+
   return (
     <>{dependencias.features.map((dependencia) => renderMarker(dependencia))}</>
   );

@@ -38,6 +38,10 @@ const GatilloMarkers = ({
     );
   };
 
+  if (!gatillos || !Array.isArray(gatillos.features)) {
+    return null;
+  }
+
   return <>{gatillos.features.map((gatillo) => renderMarker(gatillo))}</>;
 };
 

@@ -39,6 +39,10 @@ const ReportesMarkers = ({
     );
   };
 
+  if (!dataDeReportes || !Array.isArray(dataDeReportes.features)) {
+    return null;
+  }
+
   return (
     <>{dataDeReportes.features.map((reportes) => renderMarker(reportes))}</>
   );

@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "output": "public/data/cargos.json",
+      "tableId": "${NOCODB_TABLE_CARGOS}",
+      "viewId": "${NOCODB_VIEW_CARGOS}"
+    },
+    {
+      "output": "public/data/dependenciasCaba.json",
+      "tableId": "${NOCODB_TABLE_DEPENDENCIAS}",
+      "viewId": "${NOCODB_VIEW_DEPENDENCIAS}"
+    },
+    {
+      "output": "public/data/efectivos.json",
+      "tableId": "${NOCODB_TABLE_EFECTIVOS}",
+      "viewId": "${NOCODB_VIEW_EFECTIVOS}"
+    },
+    {
+      "output": "public/data/reportesCaba.json",
+      "tableId": "${NOCODB_TABLE_REPORTES}",
+      "viewId": "${NOCODB_VIEW_REPORTES}"
+    },
+    {
+      "output": "public/data/gatilloCaba.json",
+      "tableId": "${NOCODB_TABLE_GATILLO}",
+      "viewId": "${NOCODB_VIEW_GATILLO}"
+    }
+  ]
+}

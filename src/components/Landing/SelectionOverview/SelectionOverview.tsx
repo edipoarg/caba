@@ -97,6 +97,7 @@ const SelectionOverview = ({ caso }: Props) => {
           {authority && (
             <h2 className={styles.authority}>
               <LinesEllipsis
+                component="span"
                 text={authority}
                 title={authority}
                 maxLine="4"
@@ -113,6 +114,7 @@ const SelectionOverview = ({ caso }: Props) => {
         {title && (
           <p className={styles.title} title={title}>
             <LinesEllipsis
+              component="span"
               text={title}
               maxLine="3"
               ellipsis="..."
@@ -128,6 +130,7 @@ const SelectionOverview = ({ caso }: Props) => {
         {circs && (
           <p className={styles.circs}>
             <LinesEllipsis
+              component="span"
               text={circs}
               maxLine="4"
               ellipsis="..."

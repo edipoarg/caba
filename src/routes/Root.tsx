@@ -2,19 +2,19 @@ import { Outlet } from "react-router-dom";
 import { createContext, useEffect, useState } from "react";
 import Navbar from "../components/navbar/Navbar.jsx";
 import styles from "./Root.module.css";
-import type { Cargo } from "../models/cargos.js";
+import type { Cargo } from "../models/cargos";
 import {
   getCargos,
   getDataDeCasosDependencias,
   getDataDeCasosGatillo,
   getDataDeCasosReportes,
-} from "../data/fetching.js";
+} from "../data/fetching";
 import type {
   CasoDependencia,
   CasoGatillo,
   CasoReportes,
   DataDeCasos,
-} from "../models/casos.js";
+} from "../models/casos";
 
 type LoadableData<T> = "loading" | null | T;
 
