@@ -11,7 +11,7 @@ const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_2cae574368cc436cb2052e03a9fa9e14~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/comisarias%20x%20Azul%20Blaseotto%20-%20MAPA%20POLI.jpg";
 const fechaNotaPrincipal = "19/03/2026";
-const autorxsNotaPrincipal = "Olivia Milberg, Gilda Izurieta y Cecilia Samanes";
+const autorxsNotaPrincipal = "Gilda Izurieta y Cecilia Samanes";
 const ilusNotaPrincipal = "Azul Blaseotto";
 const numeroReporte = "6to";
 
