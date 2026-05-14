@@ -11,16 +11,16 @@ const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_2cae574368cc436cb2052e03a9fa9e14~mv2.jpg/v1/fill/w_1918,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/comisarias%20x%20Azul%20Blaseotto%20-%20MAPA%20POLI.jpg";
 const fechaNotaPrincipal = "19/03/2026";
-const autorxsNotaPrincipal = "Olivia Milberg, Gilda Izurieta y Cecilia Samanes";
+const autorxsNotaPrincipal = "Gilda Izurieta y Cecilia Samanes";
 const ilusNotaPrincipal = "Azul Blaseotto";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
-  const [activeFilter, setActiveFilter] = useState(null);
+  const [activeFilter] = useState(null);
 
   return (
     <>
-      <div className={styles.background}></div>
+      <div></div>
       <section className={styles.investContainer}>
         <section className={styles.titleContainer}>
           <h2 className={styles.title}>INVESTIGACIONES</h2>
@@ -30,22 +30,6 @@ const Investigaciones = () => {
             iconSize="4rem"
           />
           <section className={styles.typeMenu}>
-            <h3
-              className={`${styles.type} ${
-                activeFilter === "informe" ? styles.active : ""
-              }`}
-              onClick={() => setActiveFilter("informe")}
-            >
-              Informes
-            </h3>
-            <h3
-              className={`${styles.type} ${
-                activeFilter === "expediente" ? styles.active : ""
-              }`}
-              onClick={() => setActiveFilter("expediente")}
-            >
-              Detrás del expediente
-            </h3>
             <Link to="/reportes">
               <h3 className={styles.type}>Reportes</h3>
             </Link>
@@ -68,13 +52,13 @@ const Investigaciones = () => {
                   <section className={styles.infoBasica}>
                     <section className={styles.autorxsContainer}>
                       <div className={styles.autorxContainer}>
-                        <Icons className={styles.icon} icon="autorx" />
+                        <Icons icon="autorx" />
                         <h5 className={styles.autorx}>
                           {autorxsNotaPrincipal}
                         </h5>
                       </div>
                       <div className={styles.ilusContainer}>
-                        <Icons className={styles.icon} icon="ilus" />
+                        <Icons icon="ilus" />
                         <h5 className={styles.ilus}>{ilusNotaPrincipal}</h5>
                       </div>
                     </section>
@@ -121,7 +105,7 @@ const Investigaciones = () => {
               </section>
             </a>
             <Link to="/autorxs" className={styles.autorxsSectionContainer}>
-              <section className={styles.autorxsSection}>
+              <section>
                 <h2 className={styles.tituloAutorxsSection}>Autorxs</h2>
               </section>
             </Link>
