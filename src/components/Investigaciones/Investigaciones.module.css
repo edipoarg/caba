@@ -1,7 +1,4 @@
 /*contenedor global*/
-.mapa {
-  position: fixed;
-}
 
 .investContainer {
   position: absolute;
@@ -29,18 +26,16 @@
 }
 
 .headerIcon {
-  position: relative;
-  top: 6vh;
   color: #2a8842;
+  padding-left: 4vw;
+  margin: 0;
 }
 
 .title {
-  position: relative;
-  bottom: 10px;
   padding-left: 2vw;
-  font-size: 35px;
+  font-size: 3rem;
   margin: 0;
-  padding-top: 10vh;
+  padding-top: 18vh;
   padding-left: 5vh;
 }
 
@@ -186,10 +181,6 @@
   margin: 0;
 }
 
-.bajadaContainer {
-  display: none;
-}
-
 /*bloque reportes*/
 .investCol2 {
   margin-top: 1vh;
@@ -281,21 +272,6 @@
   display: block;
 }
 
-.play {
-  margin: 0;
-  background-color: #b9ff39;
-  color: #232128;
-  border-radius: 14px;
-  height: 5vh;
-  width: 5vh;
-  align-content: center;
-  text-align: center;
-}
-
-.sectionPodcast {
-  margin: 0;
-}
-
 .bajadaPodcast {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -312,25 +288,6 @@
   padding-left: 2vw;
 }
 
-.todasLink {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  border-radius: 14px;
-  margin: auto;
-  background-color: #e6e6e6;
-  height: 10vh;
-}
-
-.linkIcon {
-  color: #2a8842;
-  margin: auto;
-}
-
-.flecha {
-  margin: 0;
-  padding: 3vh 0vw;
-  text-align: center;
-}
 
 /**************************/
 /* Media query para tablet */
@@ -481,10 +438,6 @@
     padding: 0vh 3vw 1rem 3vw;
   }
 
-  .bajadaContainer {
-    display: block;
-  }
-
   .investCol2 {
     background-color: white;
     margin: 0;
@@ -506,27 +459,4 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
 
-  .todasLinkContainer {
-    width: 10vw;
-  }
-
-  .todasLink {
-    border-radius: 14px;
-    width: 15vw;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 0.9rem;
-    color: #2a8842;
-    padding-top: 3vh;
-    padding-left: 36vw;
-  }
-
-  .linkIcon {
-    border: solid 1px #2a8842;
-    border-radius: 180px;
-    height: 5vh;
-    width: 6vh;
-    text-align: center;
-    padding-top: 1vh;
-  }
 }

@@ -16,11 +16,11 @@ const ilusNotaPrincipal = "Azul Blaseotto";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
-  const [activeFilter, setActiveFilter] = useState(null);
+  const [activeFilter] = useState(null);
 
   return (
     <>
-      <div className={styles.background}></div>
+      <div></div>
       <section className={styles.investContainer}>
         <section className={styles.titleContainer}>
           <h2 className={styles.title}>INVESTIGACIONES</h2>
@@ -30,22 +30,6 @@ const Investigaciones = () => {
             iconSize="4rem"
           />
           <section className={styles.typeMenu}>
-            <h3
-              className={`${styles.type} ${
-                activeFilter === "informe" ? styles.active : ""
-              }`}
-              onClick={() => setActiveFilter("informe")}
-            >
-              Informes
-            </h3>
-            <h3
-              className={`${styles.type} ${
-                activeFilter === "expediente" ? styles.active : ""
-              }`}
-              onClick={() => setActiveFilter("expediente")}
-            >
-              Detrás del expediente
-            </h3>
             <Link to="/reportes">
               <h3 className={styles.type}>Reportes</h3>
             </Link>
@@ -68,13 +52,13 @@ const Investigaciones = () => {
                   <section className={styles.infoBasica}>
                     <section className={styles.autorxsContainer}>
                       <div className={styles.autorxContainer}>
-                        <Icons className={styles.icon} icon="autorx" />
+                        <Icons icon="autorx" />
                         <h5 className={styles.autorx}>
                           {autorxsNotaPrincipal}
                         </h5>
                       </div>
                       <div className={styles.ilusContainer}>
-                        <Icons className={styles.icon} icon="ilus" />
+                        <Icons icon="ilus" />
                         <h5 className={styles.ilus}>{ilusNotaPrincipal}</h5>
                       </div>
                     </section>
@@ -121,7 +105,7 @@ const Investigaciones = () => {
               </section>
             </a>
             <Link to="/autorxs" className={styles.autorxsSectionContainer}>
-              <section className={styles.autorxsSection}>
+              <section>
                 <h2 className={styles.tituloAutorxsSection}>Autorxs</h2>
               </section>
             </Link>
