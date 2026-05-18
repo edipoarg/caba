@@ -33,11 +33,6 @@
   margin: 0;
 }
 
-.filter:hover {
-  background-color: green;
-  color: black;
-}
-
 .selected {
   box-shadow: 0px 0px 0px 2px;
 }
@@ -69,5 +64,10 @@
 
   .filterIcon {
     font-size: 1.7rem;
+  }
+
+  .filter:hover {
+    background-color: green;
+    color: black;
   }
 }
