@@ -107,9 +107,7 @@ const Ficha = () => {
   return (
     <section className={styles.ficha}>
       <div className={styles.data}>
-        <h2 className={styles.title}>
-          {titleByTipoCaso[tipoCaso] ?? "Tipo Desconocido"}
-        </h2>
+        <h2 className={styles.title}>{titleByTipoCaso[tipoCaso]}</h2>
         <ul>
           {casoIsCasoDependencia(caso) && (
             <>

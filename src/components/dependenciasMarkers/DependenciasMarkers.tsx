@@ -1,7 +1,7 @@
 import { Marker } from "react-map-gl/maplibre";
 import styles from "./DependenciasMarkers.module.css";
-import Icons from "../iconos/Icons";
 import type { CasoDependencia, DataDeCasos } from "../../models/casos";
+import { FaMapMarker } from "react-icons/fa";
 
 type Props = {
   dependencias: DataDeCasos<CasoDependencia>;
@@ -32,10 +32,9 @@ const DependenciasMarkers = ({
           setSelectedCase(dependencia);
         }}
       >
-        <Icons
-          icon={"dependencia"}
+        <FaMapMarker
           className={dependenciasStyle}
-          iconSize={"1.2rem"}
+          style={{ fontSize: "1.2rem" }}
         />
       </Marker>
     );
