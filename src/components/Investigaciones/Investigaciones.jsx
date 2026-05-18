@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
 import MapaBlur from "../MapaBlur/MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
-import { useState } from "react";
 
 const tituloNotaPrincipal =
   "Al enemigo, ni aire: los espacios de encierro en CABA";
@@ -16,11 +15,8 @@ const ilusNotaPrincipal = "Azul Blaseotto";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
-  const [activeFilter] = useState(null);
-
   return (
     <>
-      <div></div>
       <section className={styles.investContainer}>
         <section className={styles.titleContainer}>
           <h2 className={styles.title}>INVESTIGACIONES</h2>
@@ -112,7 +108,7 @@ const Investigaciones = () => {
           </section>
         </section>
       </section>
-      <TodasInvestigaciones filter={activeFilter} />
+      <TodasInvestigaciones />
       <MapaBlur />
     </>
   );
