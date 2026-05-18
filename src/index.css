@@ -70,8 +70,10 @@ html {
   --mapa-verde-fluo: #b9ff39;
   --mapa-violeta: #7b4baf;
   --mapa-naranja: #d94d2c;
+  --mapa-mandarina: #db8821;
   --mapa-oscuro: #231c26;
   --mapa-negro: #131313;
   --mapa-blanco: #f8f8f8;
   --mapa-gris: #232128;
+  --mapa-rosa: rgb(230, 115, 234);
 }

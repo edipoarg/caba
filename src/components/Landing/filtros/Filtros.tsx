@@ -1,7 +1,7 @@
 import styles from "./Filtros.module.css";
 import type { Filtro } from "../types";
-import { TbAlertTriangle, TbZoomExclamation } from "react-icons/tb";
-import { GiGunshot } from "react-icons/gi";
+import { TbAlertTriangle } from "react-icons/tb";
+import { FaMapMarker } from "react-icons/fa";
 
 type Props = {
   currentFilter: Filtro;
@@ -12,10 +12,13 @@ export default function Filtros({ currentFilter, handleFilterChange }: Props) {
   return (
     <div className={styles.Filtros}>
       <div
-        className={`${styles.filter} ${currentFilter === "dependencias" ? styles.selected : ""}`}
+        className={`${styles.filter} ${currentFilter === "dependencias" ? styles.selected : ""} ${styles.dependenciasFilter}`}
         onClick={() => handleFilterChange("dependencias")}
       >
-        <TbZoomExclamation className={styles.filterIcon} />
+        <FaMapMarker
+          className={styles.filterIcon}
+          style={{ fontSize: "1.2rem" }}
+        />
         <h4 className={styles.filterName}>Comisarías </h4>
       </div>
 
@@ -28,10 +31,10 @@ export default function Filtros({ currentFilter, handleFilterChange }: Props) {
       </div>
 
       <div
-        className={`${styles.filter} ${currentFilter === "gatillo" ? styles.selected : ""}`}
+        className={`${styles.filter} ${currentFilter === "gatillo" ? styles.selected : ""} ${styles.gatilloFilter}`}
         onClick={() => handleFilterChange("gatillo")}
       >
-        <GiGunshot className={styles.filterIcon} />
+        <TbAlertTriangle className={styles.filterIcon} />
         <h4 className={styles.filterName}> Gatillo Fácil</h4>
       </div>
     </div>

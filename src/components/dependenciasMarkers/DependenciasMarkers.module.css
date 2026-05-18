@@ -1,7 +1,7 @@
 .dependencias {
   width: 15px;
   height: 15px;
-  color: rgb(230, 115, 234);
+  color: var(--mapa-rosa);
   position: absolute;
   align-items: center;
   justify-content: center;
