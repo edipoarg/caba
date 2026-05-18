@@ -1,9 +1,8 @@
 import styles from "./Mapa.module.css";
 import { useContext, useState } from "react";
-import MapGL, { NavigationControl } from "react-map-gl/maplibre";
+import MapGL from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import { Link } from "react-router-dom";
-import LogoMapa from "../../LogoMapa/LogoMapa";
 import SelectionOverview from "../SelectionOverview/SelectionOverview";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
@@ -80,21 +79,29 @@ const Mapa = () => {
 
   return (
     <section className={styles.Mapa}>
-      <SelectionOverview caso={selectedCase} />
-
-      <Link to="/denuncia">
-        <div className={styles.emergButton}>
-          <h4 className={styles.emerg}>DENUNCIÁ</h4>
-        </div>
+      <Link
+        to="/nosotrxs"
+        className={`${styles.LogoMapa} ${selectedCase ? "" : styles.visibleOnMobile}`}
+      >
+        <img id="logo" className={styles.isotipo} src="favicon.png" alt="" />
+        <h3 className={styles.LogoTitulo}>
+          MAPA <br />
+          DE LA
+          <br />
+          POLICIA
+        </h3>
       </Link>
 
+      <SelectionOverview caso={selectedCase} />
+      <Link to="/denuncia" className={styles.emergButton}>
+        <h4>DENUNCIÁ</h4>
+      </Link>
       <Filtros
         currentFilter={currentFilter}
         handleFilterChange={handleFilterChange}
       />
 
       <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
-        <NavigationControl position="top-right" />
         <DepsSource data={departamentos} />
         <BarriosCabaSource data={barriosCaba} />
         <CabaSource data={caba} />
@@ -125,8 +132,6 @@ const Mapa = () => {
           />
         )}
       </MapGL>
-
-      <LogoMapa />
     </section>
   );
 };

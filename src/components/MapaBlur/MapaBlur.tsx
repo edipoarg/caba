@@ -2,7 +2,6 @@ import MapGL from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
-import LogoMapa from "../LogoMapa/LogoMapa";
 import styles from "./MapaBlur.module.css";
 import { BarriosCabaSource } from "../Sources";
 import { barriosCaba } from "../Landing/Mapa/geojson-data";
@@ -41,7 +40,6 @@ const Mapa = () => {
       <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
         <BarriosCabaSource data={barriosCaba} />
       </MapGL>
-      <LogoMapa />
     </section>
   );
 };
