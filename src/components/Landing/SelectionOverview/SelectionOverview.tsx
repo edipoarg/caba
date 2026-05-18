@@ -95,46 +95,47 @@ const SelectionOverview = ({ caso }: Props) => {
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
           {authority && (
-            <h2 className={styles.authority}>
-              <LinesEllipsis
-                text={authority}
-                title={authority}
-                maxLine="4"
-                ellipsis="..."
-                trimRight
-                basedOn="letters"
-              />
-            </h2>
+            <LinesEllipsis
+              text={authority}
+              title={authority}
+              maxLine="4"
+              ellipsis="..."
+              trimRight
+              basedOn="letters"
+              className={styles.authority}
+              component="h2"
+            />
           )}
         </section>
       )}
       <section className={styles.comisaria}>
         {level && <h3>{level}</h3>}
         {title && (
-          <p className={styles.title} title={title}>
-            <LinesEllipsis
-              text={title}
-              maxLine="3"
-              ellipsis="..."
-              trimRight
-              basedOn="letters"
-            />
-          </p>
+          <LinesEllipsis
+            text={title}
+            component="p"
+            maxLine="3"
+            ellipsis="..."
+            trimRight
+            basedOn="letters"
+            className={styles.title}
+            title={title}
+          />
         )}
         {date && <p className={styles.date}>{date}</p>}
         {address && <p className={styles.address}>{address}</p>}
         {phone && <p className={styles.phone}>{phone}</p>}
         {age && <p className={styles.age}>{age}</p>}
         {circs && (
-          <p className={styles.circs}>
-            <LinesEllipsis
-              text={circs}
-              maxLine="4"
-              ellipsis="..."
-              trimRight
-              basedOn="letters"
-            />
-          </p>
+          <LinesEllipsis
+            text={circs}
+            maxLine="4"
+            ellipsis="..."
+            trimRight
+            basedOn="letters"
+            component="p"
+            className={styles.circs}
+          />
         )}
         {caseId && (
           <Link className={styles.moreButton} to={`/ficha/${caseId}`}>

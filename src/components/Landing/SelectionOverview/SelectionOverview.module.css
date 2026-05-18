@@ -11,14 +11,14 @@
 
 .SelectionOverview {
   position: fixed;
-  left: 0px;
   padding: 0 1rem;
   width: 100vw;
   z-index: 1000;
   display: flex;
   flex-direction: row;
   justify-content: end;
-  top: 150px;
+  top: 60px;
+  left: 0px;
   gap: 10px;
 }
 
@@ -35,7 +35,6 @@
 
 .comisaria {
   border: solid 1px;
-  z-index: 1000;
   max-width: 180px;
   padding: 1rem 1rem;
   display: flex;
