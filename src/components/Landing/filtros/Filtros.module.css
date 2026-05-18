@@ -1,6 +1,6 @@
 .Filtros {
   font-size: larger;
-  z-index: 2000;
+  z-index: 2;
   position: fixed;
   backdrop-filter: blur(11.2px);
   display: flex;
