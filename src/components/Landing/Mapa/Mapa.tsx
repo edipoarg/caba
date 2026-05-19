@@ -92,7 +92,10 @@ const Mapa = () => {
         </h3>
       </Link>
 
-      <SelectionOverview caso={selectedCase} />
+      <SelectionOverview
+        caso={selectedCase}
+        onClose={() => setSelectedCase(null)}
+      />
       <Link to="/denuncia" className={styles.emergButton}>
         <h4>DENUNCIÁ</h4>
       </Link>
