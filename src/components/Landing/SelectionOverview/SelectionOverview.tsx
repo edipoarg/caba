@@ -10,9 +10,11 @@ import type { Cargo } from "../../../models/cargos";
 import { useContext } from "react";
 import { CargosContext } from "../../../routes/Root";
 import LinesEllipsis from "react-lines-ellipsis";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 
 type Props = {
   caso: Caso | null;
+  onClose: () => void;
 };
 
 type SelectionOverviewData = {
@@ -69,7 +71,7 @@ const getSelectionOverviewDataForCase =
     };
   };
 
-const SelectionOverview = ({ caso }: Props) => {
+const SelectionOverview = ({ caso, onClose }: Props) => {
   const cargos = useContext(CargosContext);
   if (!caso) return null;
   if (cargos === "loading") return <p>Cargando...</p>;
@@ -109,6 +111,9 @@ const SelectionOverview = ({ caso }: Props) => {
         </section>
       )}
       <section className={styles.comisaria}>
+        <button type="button" className={styles.closeButton} onClick={onClose}>
+          <IoIosCloseCircleOutline size={20} />
+        </button>
         {level && <h3>{level}</h3>}
         {title && (
           <LinesEllipsis
