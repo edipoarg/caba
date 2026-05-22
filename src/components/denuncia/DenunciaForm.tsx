@@ -21,20 +21,43 @@ type ReportFormData = {
   denunciarLegalmente: boolean;
 };
 
-const DenunciaForm = () => {
-  const [fecha, setFecha] = useState<string>("");
-  const [hora, setHora] = useState<string>("");
-  const [lugar, setLugar] = useState<string>("");
-  const [descripcion, setDescripcion] = useState("");
-  const [agresor, setAgresor] = useState("");
-  const [identificacion, setIdentificacion] = useState("");
-  const [patente, setPatente] = useState("");
-  const [nombre, setNombre] = useState("");
-  const [telefono, setTelefono] = useState("");
-  const [email, setEmail] = useState("");
-  const [visibilizar, setVisibilizar] = useState(false);
-  const [denunciarLegalmente, setDenunciarLegalmente] = useState(false);
+const uninitalizedReportFormData: ReportFormData = {
+  agresor: null,
+  denunciarLegalmente: false,
+  descripcion: "",
+  email: "",
+  fecha: "",
+  hora: "",
+  identificacion: null,
+  lugar: "",
+  nombre: "",
+  patente: null,
+  telefono: "",
+  visibilizar: false,
+};
 
+const nonOptionalReportFormDataKeys: (keyof ReportFormData)[] = [
+  "fecha",
+  "hora",
+  "lugar",
+  "descripcion",
+  "nombre",
+  "telefono",
+  "email",
+];
+
+const getUnfilledRequiredFieldsKeys = (formData: ReportFormData) =>
+  Object.entries(formData)
+    .filter(([key]) =>
+      nonOptionalReportFormDataKeys.includes(key as keyof ReportFormData),
+    )
+    .filter(([_key, value]) => value === null || value === "")
+    .map(([key, _value]) => key);
+
+const DenunciaForm = () => {
+  const [formData, setFormData] = useState<ReportFormData>(
+    uninitalizedReportFormData,
+  );
   const [isSending, setIsSending] = useState<boolean>(false);
   const [archivos, setArchivos] = useState<FileList | null>(null);
   const [aceptoTerminos, setAceptoTerminos] = useState(false);
@@ -42,19 +65,7 @@ const DenunciaForm = () => {
   const [success, setSuccess] = useState(false);
 
   const validateForm = () => {
-    const requiredFields = {
-      fecha,
-      hora,
-      lugar,
-      descripcion,
-      nombre,
-      telefono,
-      email,
-    };
-    const emptyFields = Object.entries(requiredFields)
-      .filter(([_, value]) => !value)
-      .map(([key]) => key);
-
+    const emptyFields = getUnfilledRequiredFieldsKeys(formData);
     if (emptyFields.length > 0) {
       setError(
         `Por favor completa los campos obligatorios: ${emptyFields.join(", ")}`,
@@ -63,7 +74,7 @@ const DenunciaForm = () => {
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!emailRegex.test(formData.email)) {
       setError("Por favor ingresa un correo electrónico válido.");
       return false;
     }
@@ -87,17 +98,12 @@ const DenunciaForm = () => {
     setIsSending(true);
 
     try {
-      // Validar campos requeridos
-      if (
-        !fecha ||
-        !hora ||
-        !lugar ||
-        !descripcion ||
-        !nombre ||
-        !telefono ||
-        !email
-      ) {
-        throw new Error("Por favor completa todos los campos requeridos");
+      const emptyFields = getUnfilledRequiredFieldsKeys(formData);
+      if (emptyFields.length > 0) {
+        setError(
+          `Por favor completa los campos obligatorios: ${emptyFields.join(", ")}`,
+        );
+        return false;
       }
 
       const data: ReportFormData & {
@@ -105,18 +111,7 @@ const DenunciaForm = () => {
         estado: "nuevo";
         tieneArchivos: boolean;
       } = {
-        fecha: fecha,
-        hora: hora,
-        lugar: lugar,
-        descripcion: descripcion,
-        agresor: agresor || null,
-        identificacion: identificacion || null,
-        patente: patente || null,
-        nombre: nombre,
-        telefono: telefono,
-        email: email,
-        visibilizar: visibilizar,
-        denunciarLegalmente: denunciarLegalmente,
+        ...formData,
         fechaCreacion: serverTimestamp(),
         estado: "nuevo",
         tieneArchivos: (archivos?.length ?? 0) > 0,
@@ -144,19 +139,8 @@ const DenunciaForm = () => {
       setSuccess(true);
 
       // Resetear formulario
-      setFecha("");
-      setHora("");
-      setLugar("");
-      setDescripcion("");
-      setAgresor("");
-      setIdentificacion("");
-      setPatente("");
+      setFormData(uninitalizedReportFormData);
       setArchivos(null);
-      setNombre("");
-      setTelefono("");
-      setEmail("");
-      setVisibilizar(false);
-      setDenunciarLegalmente(false);
       setAceptoTerminos(false);
     } catch (err) {
       console.error("Error al enviar la denuncia:", err);
@@ -186,9 +170,6 @@ const DenunciaForm = () => {
         <h2>Quiero Denunciar</h2>
         <h4>Un hecho de violencia policial</h4>
       </div>
-
-      {error && <div className={styles["error-message"]}>{error}</div>}
-
       <form onSubmit={handleSubmit}>
         <h3>I. LUGAR Y FECHA</h3>
         <h4>¿Cuándo fue?</h4>
@@ -196,16 +177,26 @@ const DenunciaForm = () => {
           <div className={styles["form-group"]}>
             <input
               type="date"
-              value={fecha}
-              onChange={(e) => setFecha(e.target.value)}
+              value={formData.fecha}
+              onChange={(e) =>
+                setFormData((formData) => ({
+                  ...formData,
+                  fecha: e.target.value,
+                }))
+              }
               required
             />
           </div>
           <div className={styles["form-group"]}>
             <input
               type="time"
-              value={hora}
-              onChange={(e) => setHora(e.target.value)}
+              value={formData.hora}
+              onChange={(e) =>
+                setFormData((formData) => ({
+                  ...formData,
+                  hora: e.target.value,
+                }))
+              }
               required
             />
           </div>
@@ -215,9 +206,14 @@ const DenunciaForm = () => {
         <div className={styles["form-group"]}>
           <input
             type="text"
-            value={lugar}
+            value={formData.lugar}
             placeholder="Especificá el lugar"
-            onChange={(e) => setLugar(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                lugar: e.target.value,
+              }))
+            }
             required
           />
         </div>
@@ -225,9 +221,14 @@ const DenunciaForm = () => {
         <h3>II. DESCRIPCIÓN DEL HECHO</h3>
         <div className={styles["form-group"]}>
           <textarea
-            value={descripcion}
+            value={formData.descripcion}
             placeholder="Describí el hecho"
-            onChange={(e) => setDescripcion(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                descripcion: e.target.value,
+              }))
+            }
             rows={5}
             required
           />
@@ -235,7 +236,15 @@ const DenunciaForm = () => {
 
         <h3>III. DATOS DEL AGRESOR</h3>
         <div className={styles["form-group"]}>
-          <select value={agresor} onChange={(e) => setAgresor(e.target.value)}>
+          <select
+            value={formData.agresor ?? ""}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                agresor: e.target.value,
+              }))
+            }
+          >
             <option value="">Selecciona una opción</option>
             <option value="Policía de la Ciudad">Policía de la Ciudad</option>
             <option value="(DOU) Operaciones Urbanas de Contención">
@@ -254,18 +263,28 @@ const DenunciaForm = () => {
         <div className={styles["form-group"]}>
           <input
             type="text"
-            value={identificacion}
+            value={formData.identificacion ?? ""}
             placeholder="Identificación (número de placa o distintivo)"
-            onChange={(e) => setIdentificacion(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                identificacion: e.target.value,
+              }))
+            }
           />
         </div>
 
         <div className={styles["form-group"]}>
           <input
             type="text"
-            value={patente}
+            value={formData.patente ?? ""}
             placeholder="Patente del móvil (si corresponde)"
-            onChange={(e) => setPatente(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                patente: e.target.value,
+              }))
+            }
           />
         </div>
 
@@ -273,9 +292,14 @@ const DenunciaForm = () => {
         <div className={styles["form-group"]}>
           <input
             type="text"
-            value={nombre}
+            value={formData.nombre}
             placeholder="Tu nombre completo"
-            onChange={(e) => setNombre(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                nombre: e.target.value,
+              }))
+            }
             required
           />
         </div>
@@ -283,9 +307,14 @@ const DenunciaForm = () => {
         <div className={styles["form-group"]}>
           <input
             type="tel"
-            value={telefono}
+            value={formData.telefono}
             placeholder="Tu teléfono"
-            onChange={(e) => setTelefono(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                telefono: e.target.value,
+              }))
+            }
             required
           />
         </div>
@@ -293,9 +322,14 @@ const DenunciaForm = () => {
         <div className={styles["form-group"]}>
           <input
             type="email"
-            value={email}
+            value={formData.email}
             placeholder="Tu correo electrónico"
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                email: e.target.value,
+              }))
+            }
             required
           />
         </div>
@@ -320,8 +354,13 @@ const DenunciaForm = () => {
           <input
             type="checkbox"
             id="visibilizar"
-            checked={visibilizar}
-            onChange={(e) => setVisibilizar(e.target.checked)}
+            checked={formData.visibilizar}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                visibilizar: e.target.checked,
+              }))
+            }
           />
           <label htmlFor="visibilizar">
             Autorizo que mi caso sea difundido en las redes sociales de la
@@ -333,8 +372,13 @@ const DenunciaForm = () => {
           <input
             type="checkbox"
             id="denunciarLegalmente"
-            checked={denunciarLegalmente}
-            onChange={(e) => setDenunciarLegalmente(e.target.checked)}
+            checked={formData.denunciarLegalmente}
+            onChange={(e) =>
+              setFormData((formData) => ({
+                ...formData,
+                denunciarLegalmente: e.target.checked,
+              }))
+            }
           />
           <label htmlFor="denunciarLegalmente">
             Quiero asesoramiento legal para realizar una denuncia formal
@@ -354,6 +398,7 @@ const DenunciaForm = () => {
           </label>
         </div>
 
+        {error && <div className={styles["error-message"]}>{error}</div>}
         <div className={styles["form-actions"]}>
           <button
             type="submit"
