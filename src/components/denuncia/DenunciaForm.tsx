@@ -155,7 +155,7 @@ const DenunciaForm = () => {
   if (success) {
     return (
       <div className={styles["denuncia-success"]}>
-        <h2>¡Gracias por tu denuncia!</h2>
+        <h2>Gracias por tu denuncia</h2>
         <p>
           Hemos recibido tu mensaje y nos pondremos en contacto con vos si es
           necesario.
@@ -166,9 +166,9 @@ const DenunciaForm = () => {
 
   return (
     <div className={styles["denuncia-form-container"]}>
-      <div>
+      <div className={styles["denuncia-title"]}>
         <h2>Quiero Denunciar</h2>
-        <h4>Un hecho de violencia policial</h4>
+        <h4>un hecho de violencia policial</h4>
       </div>
       <form onSubmit={handleSubmit}>
         <h3>I. LUGAR Y FECHA</h3>
