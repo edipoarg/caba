@@ -1,36 +1,45 @@
+import type { FormEventHandler } from "react";
 import { useState } from "react";
 import { getStorage, ref, uploadBytes } from "firebase/storage";
+import type { FieldValue } from "firebase/firestore";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../../../services/firebase.js";
-// TODO pasar esto a modules...
-import "./DenunciaForm.css";
+import styles from "./DenunciaForm.module.css";
+
+type ReportFormData = {
+  fecha: string;
+  hora: string;
+  lugar: string;
+  descripcion: string;
+  agresor: string | null;
+  identificacion: string | null;
+  patente: string | null;
+  nombre: string;
+  telefono: string;
+  email: string;
+  visibilizar: boolean;
+  denunciarLegalmente: boolean;
+};
 
 const DenunciaForm = () => {
-  const [isSending, setIsSending] = useState(false);
-  const [fecha, setFecha] = useState("");
-  const [hora, setHora] = useState("");
-  const [lugar, setLugar] = useState("");
+  const [fecha, setFecha] = useState<string>("");
+  const [hora, setHora] = useState<string>("");
+  const [lugar, setLugar] = useState<string>("");
   const [descripcion, setDescripcion] = useState("");
   const [agresor, setAgresor] = useState("");
   const [identificacion, setIdentificacion] = useState("");
   const [patente, setPatente] = useState("");
-  const [archivos, setArchivos] = useState(null);
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
   const [email, setEmail] = useState("");
   const [visibilizar, setVisibilizar] = useState(false);
   const [denunciarLegalmente, setDenunciarLegalmente] = useState(false);
+
+  const [isSending, setIsSending] = useState<boolean>(false);
+  const [archivos, setArchivos] = useState<FileList | null>(null);
   const [aceptoTerminos, setAceptoTerminos] = useState(false);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
-
-  const handleFileChange = (e) => {
-    setArchivos(e.target.files);
-  };
-
-  const handleCheckboxChange = (setter) => (e) => {
-    setter(e.target.checked);
-  };
 
   const validateForm = () => {
     const requiredFields = {
@@ -67,7 +76,7 @@ const DenunciaForm = () => {
     return true;
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit: FormEventHandler = async (e) => {
     e.preventDefault();
     setError("");
 
@@ -91,8 +100,11 @@ const DenunciaForm = () => {
         throw new Error("Por favor completa todos los campos requeridos");
       }
 
-      // 1. Primero creamos la denuncia para obtener su ID
-      const denunciaRef = await addDoc(collection(db, "denuncias"), {
+      const data: ReportFormData & {
+        fechaCreacion: FieldValue;
+        estado: "nuevo";
+        tieneArchivos: boolean;
+      } = {
         fecha: fecha,
         hora: hora,
         lugar: lugar,
@@ -107,8 +119,11 @@ const DenunciaForm = () => {
         denunciarLegalmente: denunciarLegalmente,
         fechaCreacion: serverTimestamp(),
         estado: "nuevo",
-        tieneArchivos: archivos && archivos.length > 0, // Booleano que indica si hay archivos
-      });
+        tieneArchivos: (archivos?.length ?? 0) > 0,
+      };
+
+      // 1. Primero creamos la denuncia para obtener su ID
+      const denunciaRef = await addDoc(collection(db, "denuncias"), data);
 
       // 2. Subir archivos si los hay
       if (archivos && archivos.length > 0) {
@@ -155,7 +170,7 @@ const DenunciaForm = () => {
 
   if (success) {
     return (
-      <div className="denuncia-success">
+      <div className={styles["denuncia-success"]}>
         <h2>¡Gracias por tu denuncia!</h2>
         <p>
           Hemos recibido tu mensaje y nos pondremos en contacto con vos si es
@@ -166,19 +181,19 @@ const DenunciaForm = () => {
   }
 
   return (
-    <div className="denuncia-form-container">
-      <div className="denuncia-titles">
+    <div className={styles["denuncia-form-container"]}>
+      <div>
         <h2>Quiero Denunciar</h2>
         <h4>Un hecho de violencia policial</h4>
       </div>
 
-      {error && <div className="error-message">{error}</div>}
+      {error && <div className={styles["error-message"]}>{error}</div>}
 
       <form onSubmit={handleSubmit}>
         <h3>I. LUGAR Y FECHA</h3>
         <h4>¿Cuándo fue?</h4>
-        <div className="form-row">
-          <div className="form-group">
+        <div>
+          <div className={styles["form-group"]}>
             <input
               type="date"
               value={fecha}
@@ -186,7 +201,7 @@ const DenunciaForm = () => {
               required
             />
           </div>
-          <div className="form-group">
+          <div className={styles["form-group"]}>
             <input
               type="time"
               value={hora}
@@ -197,7 +212,7 @@ const DenunciaForm = () => {
         </div>
 
         <h4>¿Dónde fue?</h4>
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="text"
             value={lugar}
@@ -208,7 +223,7 @@ const DenunciaForm = () => {
         </div>
 
         <h3>II. DESCRIPCIÓN DEL HECHO</h3>
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <textarea
             value={descripcion}
             placeholder="Describí el hecho"
@@ -219,7 +234,7 @@ const DenunciaForm = () => {
         </div>
 
         <h3>III. DATOS DEL AGRESOR</h3>
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <select value={agresor} onChange={(e) => setAgresor(e.target.value)}>
             <option value="">Selecciona una opción</option>
             <option value="Policía de la Ciudad">Policía de la Ciudad</option>
@@ -236,7 +251,7 @@ const DenunciaForm = () => {
           </select>
         </div>
 
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="text"
             value={identificacion}
@@ -245,7 +260,7 @@ const DenunciaForm = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="text"
             value={patente}
@@ -255,7 +270,7 @@ const DenunciaForm = () => {
         </div>
 
         <h3>IV. TUS DATOS</h3>
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="text"
             value={nombre}
@@ -265,7 +280,7 @@ const DenunciaForm = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="tel"
             value={telefono}
@@ -275,7 +290,7 @@ const DenunciaForm = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="email"
             value={email}
@@ -286,10 +301,12 @@ const DenunciaForm = () => {
         </div>
 
         <h3>V. ARCHIVOS ADJUNTOS</h3>
-        <div className="form-group">
+        <div className={styles["form-group"]}>
           <input
             type="file"
-            onChange={handleFileChange}
+            onChange={(e) => {
+              setArchivos(e.target.files);
+            }}
             multiple
             accept="video/*,image/*,.pdf,.doc,.docx"
           />
@@ -299,12 +316,12 @@ const DenunciaForm = () => {
         </div>
 
         <h3>VI. OPCIONES</h3>
-        <div className="form-checkbox">
+        <div>
           <input
             type="checkbox"
             id="visibilizar"
             checked={visibilizar}
-            onChange={handleCheckboxChange(setVisibilizar)}
+            onChange={(e) => setVisibilizar(e.target.checked)}
           />
           <label htmlFor="visibilizar">
             Autorizo que mi caso sea difundido en las redes sociales de la
@@ -312,24 +329,24 @@ const DenunciaForm = () => {
           </label>
         </div>
 
-        <div className="form-checkbox">
+        <div>
           <input
             type="checkbox"
             id="denunciarLegalmente"
             checked={denunciarLegalmente}
-            onChange={handleCheckboxChange(setDenunciarLegalmente)}
+            onChange={(e) => setDenunciarLegalmente(e.target.checked)}
           />
           <label htmlFor="denunciarLegalmente">
             Quiero asesoramiento legal para realizar una denuncia formal
           </label>
         </div>
 
-        <div className="form-checkbox">
+        <div>
           <input
             type="checkbox"
             id="aceptoTerminos"
             checked={aceptoTerminos}
-            onChange={handleCheckboxChange(setAceptoTerminos)}
+            onChange={(e) => setAceptoTerminos(e.target.checked)}
             required
           />
           <label htmlFor="aceptoTerminos">
@@ -337,8 +354,12 @@ const DenunciaForm = () => {
           </label>
         </div>
 
-        <div className="form-actions">
-          <button type="submit" disabled={isSending} className="submit-button">
+        <div className={styles["form-actions"]}>
+          <button
+            type="submit"
+            disabled={isSending}
+            className={styles["submit-button"]}
+          >
             {isSending ? "Enviando..." : "Enviar denuncia"}
           </button>
         </div>
