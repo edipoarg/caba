@@ -274,5 +274,17 @@
     "dominio": "al-enemigo-ni-aire",
     "tipoInvestigacion": "informe",
     "region": "Caba"
+  },
+  {
+    "id": "i24",
+    "titulo": "El algoritmo te identificó: reconocimiento facial en CABA y la amenaza Palantir",
+    "autorxs": "Matías Castro",
+    "ilus": "Azul Blaseotto",
+    "fecha": "18/6/2026",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_38736d9689fd469cad4486c8996f5bc4~mv2.jpg/v1/fill/w_1980,h_1252,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/VIDEOVIGILANCIA%20x%20Azul%20Blaseotto%20-%20MAPA%20POLI.jpg",
+    "textoBajada": "La estadía de Peter Thiel en la Argentina abrió una serie de incógnitas en la conversación pública vinculadas al control ciudadano, el uso de datos personales y los riesgos que implica que herramientas como las que provee Palantir puedan quedar en manos de la ultraderecha nacional. Sin embargo, la ciudad de Buenos Aires ya implementó su versión criolla. Cómo funciona y quiénes son los dueños de la videovigilancia porteña.",
+    "dominio": "el-algoritmo-te-identifico",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
   }
 ]
