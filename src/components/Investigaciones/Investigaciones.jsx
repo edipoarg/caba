@@ -5,7 +5,7 @@ import MapaBlur from "../MapaBlur/MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 
 const tituloNotaPrincipal =
-  "Al enemigo, ni aire: los espacios de encierro en CABA";
+  "El algoritmo te identificó: reconocimiento facial en CABA y la amenaza Palantir";
 const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_38736d9689fd469cad4486c8996f5bc4~mv2.jpg/v1/fill/w_1980,h_1252,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/VIDEOVIGILANCIA%20x%20Azul%20Blaseotto%20-%20MAPA%20POLI.jpg";
