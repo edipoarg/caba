@@ -24,6 +24,7 @@ import Nota20 from "../todasInvest/Nota20";
 import Nota21 from "../todasInvest/Nota21";
 import Nota22 from "../todasInvest/Nota22";
 import Nota23 from "../todasInvest/Nota23";
+import Nota24 from "../todasInvest/Nota24";
 
 interface InvestigacionModel {
   id: string;
@@ -65,6 +66,7 @@ const componentesNotas: ComponentesNotas = {
   "portacion-de-cara": Nota21,
   "motosierra-con-balas": Nota22,
   "al-enemigo-ni-aire": Nota23,
+  "el-algoritmo-te-identifico": Nota24,
 };
 
 const Investigacion = () => {
@@ -118,7 +120,6 @@ const Investigacion = () => {
           className={styles.fotoInvestigacion}
         />
         <section className={styles.basicInfo}>
-          <div className={styles.autorxsContainer}></div>
           <h1 className={styles.title}>{investigacion.titulo}</h1>
           <section className={styles.more}>
             <section className={styles.autorxs}>
