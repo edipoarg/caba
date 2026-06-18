@@ -73,10 +73,10 @@ const Nota23 = () => {
       <h4 className={styles.singularText}>Fuente: ODIA. Imagen propia.</h4>
 
       <h4 className={styles.singularText}>
-        &quotEl objetivo es que estos delincuentes no convivan con nosotros
+        &quot;El objetivo es que estos delincuentes no convivan con nosotros
         todos los días. La primera garantía es la de la privacidad: el sistema
         sólo trabaja con los prófugos aportados por la CONARC, una base pública
-        que puede leer cualquier ciudadano del país&quot, explicó Diego
+        que puede leer cualquier ciudadano del país&quot;, explicó Diego
         Santilli, ministro de Seguridad y Derechos Humanos al momento de la
         presentación del sistema, el miércoles 24 de abril de 2019.
       </h4>
@@ -96,9 +96,9 @@ const Nota23 = () => {
         entre los que se destacan tres.
       </h4>
       <h4 className={styles.singularText}>
-        Sobre la lista diaria de la CoNaRC: &quotLa base de datos contiene
+        Sobre la lista diaria de la CoNaRC: &quot;La base de datos contiene
         múltiples errores: por ejemplo, dos personas figuran como de 2 y 3 años
-        de edad, buscadas por asalto y robo&quot, de una totalidad de 61 menores
+        de edad, buscadas por asalto y robo&quot;, de una totalidad de 61 menores
         de edad, de quienes también se publican todos sus datos personales.
         Cannataci recuerda en su informe que es derecho de todo niñx que se
         respete plenamente su vida privada durante todo el procedimiento,
@@ -106,19 +106,19 @@ const Nota23 = () => {
         Argentina adhirió en diciembre de 1990.
       </h4>
       <h4 className={styles.singularText}>
-        Sobre la implementación: &quotNo veo la proporcionalidad de instalar una
+        Sobre la implementación: &quot;No veo la proporcionalidad de instalar una
         tecnología con graves implicaciones para la privacidad para buscar en
         una lista de 46 mil personas [N. del R: a mayo de 2019] que actualmente
         incluye a menores y delitos no graves y que no se actualice y compruebe
-        cuidadosamente su exactitud&quot.
+        cuidadosamente su exactitud&quot;.
       </h4>
       <h4 className={styles.singularText}>
-        Sobre la seguridad en la protección de datos: &quotQue el reconocimiento
+        Sobre la seguridad en la protección de datos: &quot;Que el reconocimiento
         facial se esté implementando sin el PIA (Privacy Impact Assessment)
         necesario, así como la consulta deseable y las fuertes salvaguardias,
         también es motivo de preocupación. El Gobierno ha aprobado una
         reglamentación de bajo nivel en materia de biometría, pero no una
-        legislación detallada sobre el uso del reconocimiento facial&quot,
+        legislación detallada sobre el uso del reconocimiento facial&quot;,
         concluye en el punto 21.
       </h4>
 
@@ -165,21 +165,21 @@ const Nota23 = () => {
 
       <h4 className={styles.singularText}>
         El 15 de noviembre de 2018, la ex presidenta Cristina Fernández de
-        Kirchner publicó: &quotAyer por la mañana dos personas sin
+        Kirchner publicó: &quot;Ayer por la mañana dos personas sin
         identificación alguna intentaron colocar 3 cámaras y un domo en la
         esquina de mi casa, aquí en Buenos Aires. Personas de la Policía Federal
         que integra la custodia advirtió esta situación y les consultó qué tipo
-        de tareas estaban realizando&quot. La por entonces senadora llegó en la
+        de tareas estaban realizando&quot;. La por entonces senadora llegó en la
         madrugada a su casa de Recoleta luego de una tensa sesión en la que
         discutió el Presupuesto 2019, y horas después, denunciaba en redes
-        sociales lo que calificó como persecución. Continúa el tweet, &quotles
+        sociales lo que calificó como persecución. Continúa el tweet, &quot;les
         dijeron que eran empleados de la empresa Donaide S.A. (sic) e iban a
         colocar estas cámaras por disposición del Ministerio de Seguridad de la
         Ciudad de Buenos Aires. Sin embargo, no contaban con ninguna
         documentación que acreditara tales circunstancias. Luego de
         identificarse recibieron un llamado, se subieron a su camioneta (sin
         inscripción alguna de la empresa a la que decían pertenecer) y se
-        fueron. Raro, no?&quot. El episodio dejó algunas incógnitas abiertas y
+        fueron. Raro, no?&quot;. El episodio dejó algunas incógnitas abiertas y
         el nombre propio de una empresa.
       </h4>
 
@@ -238,7 +238,7 @@ const Nota23 = () => {
       <h4 className={styles.singularText}>
         Danaide S.A. tiene como presidente a Hernán Carzalo, socio de Mario
         Montoto (MM) en Tecnoview S.A., otra empresa que ofrecía servicios de
-        &quotprovisión de tecnología aplicada a la seguridad&quot. Montoto es
+        &quot;provisión de tecnología aplicada a la seguridad&quot;. Montoto es
         quien inició el negocio de venta e instalación de cámaras en la Ciudad
         de Buenos Aires y es de esos nombres propios que, como Patricia
         Bullrich, cumplen 50 años de vigencia en la política nacional. Como la
@@ -366,7 +366,7 @@ const Nota23 = () => {
         >
           nota en FM La Tribu
         </a>
-        , el abogado sintetizó que &quotpara quienes laburamos en estas
+        , el abogado sintetizó que &quot;para quienes laburamos en estas
         cuestiones, es vivir todo el tiempo en el{" "}
         <a
           href="https://www.youtube.com/watch?v=XsEndSWkfHM"
@@ -379,18 +379,18 @@ const Nota23 = () => {
         de los Simpsons: un tipo aparece con una solución mágica, donde hay un
         funcionario político de turno que por connivencia o desconocimiento
         contrata algo que no tiene idea cómo implementar y para qué, con costos
-        altísimos en términos políticos&quot.
+        altísimos en términos políticos&quot;.
       </h4>
       <h4 className={styles.singularText}>
         La imagen del tecnomagnate radicado en la Ciudad de Buenos Aires que
         juega al ajedrez en un local del Abasto y deja trascender vía
         empresarios que dedica sus horas a elaborar teorías sobre un Anticristo
-        luddita es fascinante. Tomás Pomar reorienta el foco: &quotLa mejor base
+        luddita es fascinante. Tomás Pomar reorienta el foco: &quot;La mejor base
         de datos para hacer cualquier política pública la tiene Mercado Pago.
         Está monitoreando transacciones cotidianas geolocalizadas con
         referencias sobre cuánto es el ingreso de cada persona, con un conjunto
         de datos agregados que ellos van poniendo. Tienen un nivel de
-        capilaridad de información muy interesante&quot. Lo que queda claro es
+        capilaridad de información muy interesante&quot;. Lo que queda claro es
         que en un contexto de tránsito de datos como el que estamos viviendo, la
         videovigilancia no puede ser una decisión unilateral por parte de los
         gobiernos, pero sobre todo no puede ser un bien al servicio de las
