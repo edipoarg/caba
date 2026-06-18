@@ -32,7 +32,7 @@ const FichaAutorxs = () => {
           src={autor.imagen}
           alt={`Foto de ${autor.nombre}`}
         />
-        <div className={styles.headerData}>
+        <div>
           <h3 className={styles.title}>{autor.nombre}</h3>
           <h5 className={styles.data}>{autor.info}</h5>
         </div>
