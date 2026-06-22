@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "mdp-r-1",
+        "Fecha": "15/3/2026",
+        "Hora": "22:15:00",
+        "Barrio": "Centro",
+        "Direccion": "Avenida Luro y Mitre",
+        "Lugar": "Plaza San Martín",
+        "fuerza_involucrada": "Policía de la Provincia de Buenos Aires",
+        "Nombre": "Hostigamiento - Pedido injustificado de antecedentes - Amenazas verbales",
+        "policia_involucrado": "Efectivos de la Comisaría Primera",
+        "cronica": "Un grupo de jóvenes se encontraba en la plaza cuando dos oficiales se acercaron de forma intimidante exigiendo documentación sin motivo aparente. Ante la pregunta de los jóvenes bajo qué causa legal se realizaba el procedimiento, los oficiales respondieron de manera agresiva con amenazas de traslado a la dependencia por 'averiguación de antecedentes' e insultos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.5501, -38.0003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador":  "mdp-r-2",
+        "Fecha": "04/5/2026",
+        "Hora": "18:40:00",
+        "Barrio": "Puerto",
+        "Direccion": "Avenida Edison y Vertiz",
+        "Lugar": "en la vía pública",
+        "fuerza_involucrada": "Prefectura Naval Argentina",
+        "Nombre": "Uso desproporcionado de la fuerza - Detención arbitraria - Impedir filmar",
+        "policia_involucrado": "Efectivos no identificados (sin identificación visible)",
+        "cronica": "Un repartidor fue interceptado al salir de un local por un control de Prefectura. Al cuestionar la violencia del cacheo físico, un transeúnte intentó filmar la situación con su teléfono celular. Los efectivos agredieron verbalmente al testigo e intentaron confiscarle el dispositivo móvil, mientras demoraron al trabajador de manera injustificada durante más de dos horas en el lugar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.5615, -38.0354]
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "mdp-d-1",
+        "Dependencia": "Comisaría",
+        "Nombre": "Comisaría Primera (Centro)",
+        "Organismo": "Policía de la Provincia de Buenos Aires",
+        "Partido": "General Pueyrredón",
+        "Dirección": "Av. Independencia 1751"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.5536, -37.9986]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contador": "mdp-d-2",
+        "Dependencia": "Comisaría",
+        "Nombre": "Comisaría Segunda",
+        "Organismo": "Policía de la Provincia de Buenos Aires",
+        "Partido": "General Pueyrredón",
+        "Dirección": "Castelli 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.5452, -38.0112]
+      }
+    }
+  ]
+}
