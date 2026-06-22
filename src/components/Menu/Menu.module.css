@@ -1,0 +1,67 @@
+.menuContainer {
+  width: 100vw;
+  height: 90vh;
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  padding-top: 8vh;
+}
+
+.menu {
+  width: 100;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--fondo-menu-herramientas);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 7vw;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  color: var(--color-iconos-herramientas);
+  background-color: var(--fondo-iconos-herramientas);
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px 5px var(--fondo-menu-herramientas);
+}
+
+.icon:hover {
+  width: 80px;
+  height: 80px;
+  color: var(--color-iconos-herramientas);
+  background-color: var(--fondo-seleccion-iconos-herramientas);
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px 5px var(--fondo-seleccion-iconos-herramientas);
+}
+
+.iconName {
+  color: var(--nombre-iconos-herramientas);
+  text-align: center;
+}
+
+/*responsive*/
+@media (min-width: 1200px) {
+  .menuContainer {
+    width: 100vw;
+    height: 97vh;
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    padding-top: 3vh;
+  }
+
+  .menu {
+    width: 55vw;
+    margin-left: 30vw;
+    margin-top: 5vh;
+  }
+}

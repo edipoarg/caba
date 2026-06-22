@@ -1,10 +1,6 @@
-.SelectionOverview {
-  /* This makes the container itself not block the background, allowing for interaction with the map */
-  height: 0;
-  font-family: Ronnia Thin Condensed, sans-serif;
-  color: var(--mapa-verde-claro);
-}
-
+/* ==========================================================================
+   1. RESETES Y CONTENEDOR PRINCIPAL
+   ========================================================================== */
 .SelectionOverview h3,
 .SelectionOverview p {
   margin: 0;
@@ -12,30 +8,36 @@
 
 .SelectionOverview {
   position: fixed;
-  padding: 0 1rem;
-  width: 100vw;
+  top: 200px;
+  right: 100px; /* 🎯 Sincronizado a la derecha en móviles */
   z-index: 1000;
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  top: 60px;
-  left: 0px;
   gap: 10px;
+  height: 0;
+  font-family: "Ronnia Thin Condensed", sans-serif;
+  pointer-events: none;
+  --current-color: var(--current-color); /* Variable de color por defecto */
+  color: var(--current-color);
 }
 
+/* ==========================================================================
+   2. TARJETAS / SUB-CONTENEDORES (Comisaría y Autoridad)
+   ========================================================================== */
 .comisaria,
 .autoridadData {
-  border: solid 1px;
   height: fit-content;
   min-height: fit-content;
   flex-shrink: 0;
-  backdrop-filter: blur(11.2px);
   background-color: rgba(10, 10, 10, 0.2);
+  backdrop-filter: blur(11.2px);
   width: 45vw;
+  border: solid 1px var(--current-color);
+  pointer-events: auto;
 }
 
 .comisaria {
-  border: solid 1px;
+  position: relative; /* Eje de coordenadas seguro para la cruz de cierre */
   max-width: 180px;
   padding: 1.5rem 1.5rem 0.8rem 0.8rem;
   display: flex;
@@ -44,103 +46,122 @@
 }
 
 .autoridadData {
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
 
+/* ==========================================================================
+   3. TIPOGRAFÍAS Y ELEMENTOS DE TEXTO
+   ========================================================================== */
 .title {
-  margin: 0;
+  font-family: "Ronnia Bold Condensed", sans-serif;
   font-size: 1rem;
-  font-family: "Ronnia Bold Condensed";
+}
+
+.authority {
+  font-family: "Ronnia Bold Condensed", sans-serif;
+  font-size: 1rem;
+  max-width: 30vw;
 }
 
 .grade {
-  margin: 0;
   font-size: 0.9rem;
 }
 
 .address,
 .date {
+  font-family: "Ronnia Thin Condensed", sans-serif;
   font-size: 0.9rem;
-  font-family: "Ronnia Thin Condensed";
-}
-
-.authority {
-  font-size: 1rem;
-  font-family: "Ronnia Bold Condensed";
-  max-width: 30vw;
-  margin: 0;
 }
 
 .phone {
-  padding-bottom: 1vh;
+  font-family: "Ronnia Thin Condensed", sans-serif;
   font-size: 0.9rem;
-  font-family: "Ronnia Thin Condensed";
+  padding-bottom: 1vh;
 }
 
 .age {
-  font-family: "Ronnia Thin Condensed";
+  font-family: "Ronnia Thin Condensed", sans-serif;
 }
 
 .circs {
+  font-family: "Ronnia Thin Condensed", sans-serif;
   margin-top: 1vh;
   padding-bottom: 2vh;
-  font-family: "Ronnia Thin Condensed";
 }
 
+/* ==========================================================================
+   4. COMPONENTES INTERACTIVOS (Botones y Enlaces)
+   ========================================================================== */
 .moreButton {
-  font-size: 1.3rem;
-  align-self: center;
-  margin: 0;
-  border: solid 1px var(--mapa-verde-fluo);
-  color: var(--mapa-verde-fluo);
-  box-shadow: 1px 1px 0 1px var(--mapa-verde-fluo);
-  border-radius: 14px;
-  text-align: center;
   width: 100px;
   padding: 0.3vh 0.5vw;
+  align-self: center;
+  border: solid 1px var(--current-color);
+  border-radius: 14px;
+  color: var(--current-color);
+  box-shadow: 1px 1px 0 1px var(--current-color);
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .moreButton:hover {
   color: var(--mapa-gris);
-  background-color: var(--mapa-verde-fluo);
-  box-shadow: 1px 1px 0 1px var(--mapa-gris);
+  background-color: var(--current-color);
+  box-shadow: 1px 1px 0 1px var(--current-color);
 }
 
-.comisaria>.closeButton {
-  border-radius: 100%;
+.closeButton {
   position: absolute;
-  right: 0.2rem;
   top: 0.3rem;
-  background: none;
-  color: var(--mapa-verde-claro);
-  border: none;
-  cursor: pointer;
+  right: 0.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  border: none;
+  border-radius: 50%;
+  background: none;
+  color: var(--current-color);
+  cursor: pointer;
 }
 
+/* ==========================================================================
+   5. MODIFICADORES DE COLOR DINÁMICOS
+   ========================================================================== */
+.esComisaria {
+  --current-color: var(--alerta-comisarias) !important;
+}
 
-@media (min-width: 1000px) {
+.esGatillo {
+  --current-color: var(--alerta-gatillo)!important;
+}
 
+.esReporte {
+  --current-color: var(--alerta-reportes)!important;
+}
+
+/* ==========================================================================
+   6. MEDIA QUERIES (Responsivo Escritorio PC)
+   ========================================================================== */
+@media (min-width: 1200px) {
   .SelectionOverview {
-    bottom: unset;
-    left: 14vw;
-    top: 38vh;
+    top: 200px;
+    right:100px; /* 🎯 Alineación perfecta con el margen de tus filtros en PC */
+    left: auto;
+    bottom: auto;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0;
   }
 
   .comisaria {
     margin-top: 15px;
-    margin-left: unset;
+    width: 14vw;
+    max-width: 14vw;
   }
 
   .autoridadData {
     width: 14vw;
     max-width: 14vw;
-    padding: 1rem 1rem;
   }
 }

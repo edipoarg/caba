@@ -62,8 +62,10 @@ export type DataDeCasos<T extends Caso = Caso> = {
 };
 
 export const casoIsCasoDependencia = (c: Caso): c is CasoDependencia =>
-  c.properties.Contador[0] === "d";
+  c.properties.Contador.includes("-d-");
+
 export const casoIsCasoGatillo = (c: Caso): c is CasoGatillo =>
-  c.properties.Contador[0] === "g";
+  c.properties.Contador.includes("-g-");
+
 export const casoIsCasoReportes = (c: Caso): c is CasoReportes =>
-  c.properties.Contador[0] === "r";
+  c.properties.Contador.includes("-r-");

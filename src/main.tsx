@@ -1,33 +1,58 @@
+// ==========================================
+// 1. LIBRERÍAS EXTERNAS (node_modules)
+// ==========================================
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
-import App from "./App";
-import Investigaciones from "./components/Investigaciones/Investigaciones";
-import DenunciaForm from "./components/denuncia/DenunciaForm";
-import Denuncias from "./components/denuncias/Denuncias";
-import Recursos from "./components/recursos/Recursos";
-import Jefatura from "./components/jefatura/Jefatura";
-import Reportes from "./components/reportes/Reportes";
-import Nosotrxs from "./components/us/Nosotrxs";
-import Menu from "./components/menu/Menu";
-import GatilloFacil from "./components/gatilloFacil/GatilloFacil";
-import Podcast from "./components/podcast/Podcast";
-import Recurso from "./components/recurso/Recurso";
-import Autorxs from "./components/Investigaciones/autorxs/Autorxs";
-import FichaAutorxs from "./components/Investigaciones/autorxs/FichaAutorxs";
-import Investigacion from "./components/Investigaciones/investigacion/Investigacion";
-import Root from "./routes/Root";
-import Ficha from "./components/fichas/Ficha";
-import Organizate from "./components/recurso/Organizate";
-import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones";
-import Ahora from "./components/ahora/Ahora";
-import SextoReporte from "./components/reportes/SextoReporte";
-import CuartoReporte from "./components/reportes/CuartoReporte";
-import QuintoReporte from "./components/reportes/QuintoReporte";
 
-// Not using BrowserRouter because of github pages.
-// https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
+// ==========================================
+// 2. ESTILOS GLOBALES
+// ==========================================
+import "./index.css";
+
+// ==========================================
+// 3. ESTRUCTURA Y RUTAS BASE
+// ==========================================
+import Root from "./routes/Root";
+import App from "./App";
+
+// ==========================================
+// 4. COMPONENTES DE PÁGINAS (En PascalCase)
+// ==========================================
+// Bloque Denuncias
+import DenunciaForm from "./components/DenunciaForm/DenunciaForm";
+import Denuncias from "./components/Denuncias/Denuncias";
+
+// Bloque Reportes
+import Reportes from "./components/Reportes/Reportes";
+import CuartoReporte from "./components/Reportes/CuartoReporte";
+import QuintoReporte from "./components/Reportes/QuintoReporte";
+import SextoReporte from "./components/Reportes/SextoReporte";
+
+// Bloque Investigaciones
+import Investigaciones from "./components/Investigaciones/Investigaciones";
+import TodasInvestigaciones from "./components/Investigaciones/TodasInvest/TodasInvestigaciones";
+import Investigacion from "./components/Investigaciones/Investigacion/Investigacion";
+import Autorxs from "./components/Investigaciones/Autorxs/Autorxs";
+import FichaAutorxs from "./components/Investigaciones/Autorxs/FichaAutorxs";
+
+// Bloque Recursos
+import Recursos from "./components/Recursos/Recursos";
+import Recurso from "./components/Recurso/Recurso";
+import Organizate from "./components/Recurso/Organizate";
+
+// Bloque Institucional y Otros
+import Jefatura from "./components/Jefatura/Jefatura";
+import Nosotrxs from "./components/Nosotrxs/Nosotrxs";
+import Menu from "./components/Menu/Menu";
+import Podcast from "./components/Podcast/Podcast";
+import GatilloFacil from "./components/GatilloFacil/GatilloFacil";
+import Ficha from "./components/Fichas/Ficha";
+import Ahora from "./components/Ahora/Ahora";
+
+// ==========================================
+// CONFIGURACIÓN DE ENRUTAMIENTO (HashRouter)
+// ==========================================
 const router = createHashRouter([
   {
     path: "/",

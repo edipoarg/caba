@@ -1,8 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  justify-content: center;
-  align-items: center;
   font-family: "Ronnia Thin Condensed", sans-serif;
 }
 
@@ -38,8 +36,8 @@ p {
 }
 
 main {
-  background-color: #232128;
-  color: white;
+  background-color: var(--main-fondo);
+  color: var(--main-font);
 }
 
 /* Eliminar los estilos por defecto de ul */
@@ -68,6 +66,7 @@ html {
   --mapa-verde-claro: #2cb54d;
   --mapa-verde-oscuro: #2a8842;
   --mapa-verde-fluo: #b9ff39;
+  
   --mapa-violeta: #7b4baf;
   --mapa-naranja: #d94d2c;
   --mapa-mandarina: #db8821;
@@ -77,4 +76,33 @@ html {
   --mapa-gris: #232128;
   --mapa-gris-claro: #504f51;
   --mapa-rosa: rgb(230, 115, 234);
+
+  /* Colores identitarios MAPA */
+  --main-identidad: #2cb54d;
+  --mardel-identidad: rgb(230, 115, 234);
+
+  /* Colores main (no se donde afectan aun) */
+  --main-fondo: #232128;
+  --main-font: white;
+  
+  /* Colores marcas Mapa */
+  --alerta-gatillo: #D90429;
+  --alerta-comisarias: #1F51FF;
+  --alerta-reportes: #f5f50d;
+  --alerta-seleccion: #db8821;
+  
+  /* Colores datos seleccion*/
+  --info-bloque: red;
+
+  /* Colores barra lateral */
+  --fondo-barra-lateral: #131313;
+  --iconos-barra-lateral:   rgb(230, 115, 234);
+  --active-barra-lateral: white;
+
+  /* Colores menu herramientas */
+  --fondo-menu-herramientas:  #131313;
+  --fondo-iconos-herramientas:  #D90429;
+  --fondo-seleccion-iconos-herramientas:  #b9ff39;
+  --color-iconos-herramientas:  #131313;
+  --nombre-iconos-herramientas:  #b9ff39;
 }

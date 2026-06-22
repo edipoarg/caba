@@ -1,139 +1,130 @@
 import styles from "./Mapa.module.css";
-import { useContext, useState } from "react";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom"; 
 import MapGL from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
-import { Link } from "react-router-dom";
-import SelectionOverview from "../SelectionOverview/SelectionOverview";
 import "maplibre-gl/dist/maplibre-gl.css";
-import {
-  departamentos,
-  caba,
-  barriosCaba,
-  laPlata,
-} from "./geojson-data/index";
-import {
-  DepsSource,
-  CabaSource,
-  BarriosCabaSource,
-  LaPlataSource,
-  DepartamentosLaPlataSource,
-} from "../../Sources";
-import DependenciasMarkers from "../../dependenciasMarkers/DependenciasMarkers";
-import GatilloMarkers from "../../gatilloMarkers/GatilloMarkers";
-import ReportesMarkers from "../../reportesMarkers/ReportesMarkers";
-import Filtros from "../filtros/Filtros";
-import type { Caso } from "../../../models/casos";
-import {
-  CasosDependenciaContext,
-  CasosGatilloContext,
-  CasosReportesContext,
-} from "../../../routes/Root";
-import type { Filtro } from "../types";
 
-const mapProps = {
-  initialViewState: {
-    longitude: 58.3816,
-    latitude: -34.3037,
-    zoom: 7,
-    minZoom: 2,
-    maxZoom: 25,
-    maxBounds: [
-      [-58.7, -34.8], // Lower-left limit
-      [-58.25, -34.43], // Upper-right limit
-    ],
-  },
-  style: {
-    width: "100vw",
-    height: "100vh",
-  },
-  mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
-};
+import { REGIONES_CONFIG } from "../../../constants/regiones";
+import DependenciasMarkers from "../../DependenciasMarkers/DependenciasMarkers";
+import GatilloMarkers from "../../GatilloMarkers/GatilloMarkers";
+import ReportesMarkers from "../../ReportesMarkers/ReportesMarkers";
+import LogoMapa from "../../LogoMapa/LogoMapa";
+
+import Filtros, { EstadoFiltros } from "../Filtros/Filtros";
+import SelectionOverview from "../SelectionOverview/SelectionOverview";
+import { limpiarCapasBase } from "./mapaUtils"; 
 
 const Mapa = () => {
-  const [currentFilter, setCurrentFilter] = useState<Filtro>("all");
+  const [ciudadActiva, setCiudadActiva] = useState("mar-del-plata");
+  
+  const [dependencias, setDependencias] = useState<any>(null);
+  const [gatillos, setGatillos] = useState<any>(null);
+  const [reportes, setReportes] = useState<any>(null);
+
+  const [filtros, setFiltros] = useState<EstadoFiltros>({
+    dependencias: true,
+    reportes: true,
+    gatillo: true,
+  });
+
   const [selectedMarkerId, setSelectedMarkerId] = useState<string | null>(null);
-  const [selectedCase, setSelectedCase] = useState<Caso | null>(null);
-  const casosDependencia = useContext(CasosDependenciaContext);
-  const casosReportes = useContext(CasosReportesContext);
-  const casosGatillo = useContext(CasosGatilloContext);
-  const handleFilterChange = (newFilter: Filtro): void => {
-    if (newFilter === currentFilter) setCurrentFilter("all");
-    else setCurrentFilter(newFilter);
+  const [selectedCase, setSelectedCase] = useState<any>(null);
+
+  const configActual = REGIONES_CONFIG[ciudadActiva];
+  
+  const handleToggleFilter = (capa: keyof EstadoFiltros) => {
+    setFiltros((prev) => ({
+      ...prev,
+      [capa]: !prev[capa],
+    }));
   };
 
-  if (
-    casosDependencia === "loading" ||
-    casosReportes === "loading" ||
-    casosGatillo == "loading"
-  )
-    return <p>Cargando...</p>;
+  useEffect(() => {
+    setDependencias(null);
+    setGatillos(null);
+    setReportes(null);
+    setSelectedMarkerId(null);
+    setSelectedCase(null);
 
-  if (casosDependencia === null)
-    return <p>Ocurrió un error al cargar los datos de dependencias</p>;
+    fetch(`/data/${ciudadActiva}/dependencias.json`)
+      .then((res) => res.json())
+      .then((data) => setDependencias(data))
+      .catch((err) => console.error(err));
 
-  if (casosReportes === null)
-    return <p>Ocurrió un error al cargar los datos de reportes</p>;
+    fetch(`/data/${ciudadActiva}/gatillo-facil.json`)
+      .then((res) => res.json())
+      .then((data) => setGatillos(data))
+      .catch((err) => console.error(err));
 
-  if (casosGatillo === null)
-    return <p>Ocurrió un error al cargar los casos de gatillo fácil</p>;
+    fetch(`/data/${ciudadActiva}/reportes.json`)
+      .then((res) => res.json())
+      .then((data) => setReportes(data))
+      .catch((err) => console.error(err));
+  }, [ciudadActiva]);
 
   return (
     <section className={styles.Mapa}>
-      <Link
-        to="/nosotrxs"
-        className={`${styles.LogoMapa} ${selectedCase ? "" : styles.visibleOnMobile}`}
+      
+     {/* 2. LOGO FLOTANTE CENTRALIZADO */}
+      <LogoMapa 
+        nombreCiudad={configActual?.nombre} 
+        ocultarEnMobile={!!selectedCase} // Si hay caso seleccionado, pasa como true
+      />
+      {/* 3. FILTROS FLOTANTES (Esquina superior derecha) */}
+      <Filtros filtros={filtros} onToggleFilter={handleToggleFilter} />
+      
+      <SelectionOverview 
+        caso={selectedCase} 
+        onClose={() => {
+          setSelectedCase(null);       // Al cerrar, limpiamos el caso activo
+          setSelectedMarkerId(null);   // Y despintamos el pin del mapa
+        }} 
+      />
+
+      <MapGL
+        key={ciudadActiva}
+        id="mapa"
+        mapLib={maplibregl}
+        initialViewState={{
+          longitude: configActual.longitude,
+          latitude: configActual.latitude,
+          zoom: configActual.zoom,
+          maxBounds: configActual.maxBounds,
+        }}
+        minZoom={configActual.minZoom}
+        style={{ width: "100vw", height: "100vh" }}
+        mapStyle="https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json"
+        onLoad={(e) => limpiarCapasBase(e.target)}
       >
-        <img id="logo" className={styles.isotipo} src="favicon.png" alt="" />
-        <h3 className={styles.LogoTitulo}>
-          MAPA <br />
-          DE LA
-          <br />
-          POLICIA
-        </h3>
-      </Link>
-
-      <SelectionOverview
-        caso={selectedCase}
-        onClose={() => setSelectedCase(null)}
-      />
-      <Link to="/denuncia" className={styles.emergButton}>
-        <h4>DENUNCIÁ</h4>
-      </Link>
-      <Filtros
-        currentFilter={currentFilter}
-        handleFilterChange={handleFilterChange}
-      />
-
-      <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
-        <DepsSource data={departamentos} />
-        <BarriosCabaSource data={barriosCaba} />
-        <CabaSource data={caba} />
-        <LaPlataSource data={laPlata} />
-        <DepartamentosLaPlataSource data={laPlata} />
-        {(currentFilter === "all" || currentFilter === "dependencias") && (
+        
+        {dependencias && filtros.dependencias && (
           <DependenciasMarkers
-            dependencias={casosDependencia}
+            dependencias={dependencias}
             setSelectedCase={setSelectedCase}
             setMarker={setSelectedMarkerId}
             selected={selectedMarkerId}
           />
         )}
-        {(currentFilter === "all" || currentFilter === "gatillo") && (
+
+        {gatillos && filtros.gatillo && (
           <GatilloMarkers
-            gatillos={casosGatillo}
+            gatillos={gatillos}
             setSelectedCase={setSelectedCase}
             setMarker={setSelectedMarkerId}
             selected={selectedMarkerId}
           />
         )}
-        {(currentFilter === "all" || currentFilter === "reportes") && (
+
+        {reportes && filtros.reportes && (
           <ReportesMarkers
-            dataDeReportes={casosReportes}
+            dataDeReportes={reportes}
             setSelectedCase={setSelectedCase}
             setMarker={setSelectedMarkerId}
             selected={selectedMarkerId}
           />
         )}
+
       </MapGL>
     </section>
   );

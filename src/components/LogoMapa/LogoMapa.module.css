@@ -1,0 +1,67 @@
+.LogoMapa {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 10;
+  text-decoration: none;
+  color: var(--main-identidad);
+  
+  /* Flexbox consistente: El isotipo a la derecha, los textos a la izquierda */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 12px;
+}
+
+.textoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.isotipo {
+  height: 2.5rem;
+  flex-shrink: 0; /* 🚀 Clave: impide que el logo se deforme si se achica la pantalla */
+}
+
+.LogoTitulo {
+  font-size: 18px;
+  font-family: "Ronnia Heavy";
+  margin: 0;
+  line-height: 1.1;
+}
+
+.LogoSubTitulo {
+  font-size: 12px;
+  margin: 4px 0 0 0;
+  font-family: sans-serif;
+}
+
+/* 📱 Lógica de visibilidad en Mobile (cuando el overview está abierto) */
+@media (max-width: 1000px) {
+  .LogoMapa.hiddenOnMobile {
+    display: none !important; /* Desaparece limpiamente sin romper el layout del mapa */
+  }
+}
+
+/* 💻 Desktop: Mantiene el mismo orden flex pero escala de tamaño */
+@media (min-width: 1000px) {
+  .LogoMapa {
+    left: 12vw;
+    top: 3vh;
+  }
+
+  .isotipo {
+    height: 4rem;
+  }
+
+  .LogoTitulo {
+    font-size: 2rem;
+    color: var(--mardel-identidad); 
+  }
+
+  .LogoSubTitulo {
+    font-size: 1rem;
+    color: var(--mardel-identidad); 
+  }
+}

@@ -1,8 +1,8 @@
 import styles from "./Investigaciones.module.css";
 import { Link } from "react-router-dom";
-import Icons from "../iconos/Icons";
+import Icons from "../Iconos/Icons";
 import MapaBlur from "../MapaBlur/MapaBlur";
-import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
+import TodasInvestigaciones from "./TodasInvest/TodasInvestigaciones";
 
 const tituloNotaPrincipal =
   "El algoritmo te identificó: reconocimiento facial en CABA y la amenaza Palantir";

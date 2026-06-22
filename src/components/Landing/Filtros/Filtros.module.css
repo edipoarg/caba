@@ -1,0 +1,81 @@
+/* ==========================================================================
+   1. CONTENEDOR DE FILTROS
+   ========================================================================== */
+.Filtros {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+  backdrop-filter: blur(11.2px);
+  font-size: larger;
+}
+
+/* ==========================================================================
+   2. BOTÓN DE FILTRO INDIVIDUAL
+   ========================================================================== */
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 80px;
+  height: 80px;
+  padding: 6px;
+  border: solid 1px;
+  cursor: pointer;
+  background-color: var(--main-fondo);
+  color: var(--alerta-reportes);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.filterIcon {
+  font-size: 3rem; /* 🎯 Ajustado para Mobile (~32px). ¡Ahora sí va a cambiar! */
+  display: flex;   /* Asegura que el SVG interno se alinee perfectamente */
+}
+
+.filterName {
+  margin: 0;
+  padding: 0;
+  font-size: 14px; /* Un pelín más chico para que conviva bien con el ícono grande */
+}
+
+/* ==========================================================================
+   3. ESTADOS Y VARIANTES DE COLOR
+   ========================================================================== */
+.selected {
+  box-shadow: 0 0 0 2px;
+}
+
+.dependenciasFilter {
+  color: var(--alerta-comisarias);
+}
+
+.gatilloFilter {
+  color: var(--alerta-gatillo);
+}
+
+/* ==========================================================================
+   4. RESPONSIVO (ESCRITORIO PC)
+   ========================================================================== */
+@media (min-width: 1200px) {
+  .Filtros {
+    bottom: 50px;
+    right: 25px; /* 🎯 Margen de referencia para el Overview */
+  }
+
+  .filter {
+    width: 90px;
+    height: 90px;
+  }
+
+  .filterIcon {
+    font-size: 2.4rem; /* 🎯 Un poco más grande en escritorio (~38px) */
+  }
+
+  .filter:hover {
+    background-color: var(--alerta-seleccion);
+    color: black;
+  }
+}

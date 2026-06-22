@@ -1,0 +1,26 @@
+.reportes {
+  width: 15px;
+  height: 15px;
+  color: var(--alerta-reportes);
+  position: absolute;
+  display: flex;       
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  transform: translate(-20%, -20%) scale(1.5); 
+  transition: opacity 0.2s ease, color 0.2s ease, transform 0.2s ease; 
+}
+
+/* 2. HOVER: Solo escribís lo que cambia al pasar el mouse */
+.reportes:hover {
+  color: var(--alerta-seleccion);
+  opacity: 0.8;
+  transform: translate(-20%, -20%) scale(2);
+}
+
+/* 3. SELECTED: Solo lo que cambia cuando el pin está activo */
+.selected {
+  color: var( --alerta-seleccion);
+  opacity: 0.8;
+  transform: translate(-20%, -20%) scale(2);
+}

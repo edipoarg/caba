@@ -1,0 +1,24 @@
+.dependencias {
+  width: 15px;
+  height: 15px;
+  color: var(--alerta-comisarias);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+  opacity: 0.6;
+  transform: translate(-20%, -20%) scale(1); 
+  transition: opacity 0.2s ease, color 0.2s ease, transform 0.2s ease; 
+}
+
+.dependencias:hover {
+  color: var(--alerta-seleccion);
+  opacity: 0.8;
+  transform: translate(-20%, -20%) scale(1.5); 
+}
+
+.selected {
+  color: var(--alerta-seleccion);
+  opacity: 0.8;
+  transform: translate(-20%, -20%) scale(1.5); 
+}

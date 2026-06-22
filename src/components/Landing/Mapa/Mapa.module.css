@@ -4,8 +4,8 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: var(--mapa-gris);
-  color: var(--mapa-verde-claro);
+  background-color: var(--main-fondo);
+  color: var(--main-identidad);
 }
 
 .emergButton,
@@ -17,7 +17,7 @@
   position: absolute;
   left: 2.5vw;
   top: 10px;
-  border: solid 1px var(--mapa-verde-claro);
+  border: solid 1px var(--main-identidad);
   padding: 1vh 2vw;
   border-radius: 14px;
   box-shadow: 1px 1px 0 1px;
@@ -26,9 +26,9 @@
 }
 
 .emergButton:hover {
-  border: solid 1px var(--mapa-verde-claro);
-  background-color: var(--mapa-verde-claro);
-  color: var(--mapa-gris);
+  border: solid 1px var(--main-identidad);
+  background-color: var(--main-identidad);
+  color: var(--main-fondo);
 }
 
 .emergButton>h4 {
@@ -37,10 +37,15 @@
 
 .LogoMapa {
   position: absolute;
-  right: 2rem;
-  top: 1rem;
-  display: none;
-  width: fit-content;
+  top: 25px;
+  left: 25px;
+  z-index: 10;
+  
+  display: flex;
+  flex-direction: row-reverse; /* 👈 Invierte el orden: el icono pasa a la derecha */
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
 }
 
 .LogoMapa.visibleOnMobile {
@@ -72,9 +77,10 @@
   }
 
   .LogoMapa {
-    display: block;
-    left: 14vw;
-    top: 4vh;
+    display: flex;
+    flex-direction: row-reverse;
+    left: 12vw;
+    top: 3vh;
   }
 
   .isotipo {
@@ -86,5 +92,15 @@
     font-size: 2rem;
     top: -30px;
     left: 0;
+    color: var(--mardel-identidad); 
   }
+
+  .LogoSubTitulo {
+    position: relative;
+    font-size: 1rem;
+    top: -65px;
+    left: 0;
+    color: var(--mardel-identidad); 
+  }
+ 
 }
