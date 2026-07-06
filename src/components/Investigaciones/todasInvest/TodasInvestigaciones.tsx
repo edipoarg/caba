@@ -1,31 +1,16 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./TodasInvestigaciones.module.css";
-import Icons from "../../iconos/Icons";
 import { fetchInvestigaciones } from "../../../data/fetching";
+import type { Investigacion } from "../../../models/investigacion";
 
-// Definir una interfaz para el tipo de datos de investigación
-interface Investigacion {
-  id: string;
-  dominio: string;
-  imagen: string;
-  titulo: string;
-  autorxs: string;
-  ilus: string;
-  fecha: string;
-  tipoInvestigacion: string;
-}
-
-// Definir una interfaz para las props del componente
 interface TodasInvestigacionesProps {
   filter?: string;
 }
 
-// Componente tipado con TypeScript
 const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
   filter,
 }) => {
-  // Tipar el estado de investigaciones
   const [investigaciones, setInvestigaciones] = useState<Investigacion[]>([]);
 
   useEffect(() => {
@@ -33,12 +18,15 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
       try {
         const data = await fetchInvestigaciones();
         if (!data) return;
-        const investigacionesInvertidas = [...data].reverse().slice(1);
-        setInvestigaciones(investigacionesInvertidas);
+
+        const todasMenosLaPrincipal = [...data].reverse().slice(1);
+
+        setInvestigaciones(todasMenosLaPrincipal);
       } catch (error) {
         console.error("Error fetching the data:", error);
       }
     };
+
     loadInvestigaciones();
   }, []);
 
@@ -53,7 +41,7 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
     <div className={styles.todasContainer}>
       {filteredInvestigaciones.map((investigacion) => (
         <Link
-          key={investigacion.id}
+          key={investigacion.Id}
           to={`/investigacion/${investigacion.dominio}`}
           className={styles.linkInvestigacion}
         >
@@ -69,14 +57,7 @@ const TodasInvestigaciones: React.FC<TodasInvestigacionesProps> = ({
             <h2 className={styles.tituloInvestigacion}>
               {investigacion.titulo}
             </h2>
-            <div className={styles.autorxContainer}>
-              <Icons className={styles.icon} icon="autorx" iconSize="medium" />
-              <h5 className={styles.autorx}> {investigacion.autorxs}</h5>
-            </div>
-            <div className={styles.ilusContainer}>
-              <Icons className={styles.icon} icon="ilus" iconSize="medium" />
-              <h5 className={styles.ilus}> {investigacion.ilus}</h5>
-            </div>
+
             <h4 className={styles.autorxFecha}>{investigacion.fecha}</h4>
           </section>
         </Link>

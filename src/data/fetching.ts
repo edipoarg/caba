@@ -248,9 +248,13 @@ export const fetchAutorxs = async (): Promise<Autor[] | null> => {
 export const fetchInvestigaciones = async (): Promise<
   Investigacion[] | null
 > => {
-  const response = await fetch(`/data/investigaciones.json`);
+  const response = await fetch("/data/investigaciones.json");
+
+  if (!response.ok) return null;
+
   const data: Investigacion[] = await response.json();
-  return data;
+
+  return Array.isArray(data) ? data : null;
 };
 export const fetchInvestigacionByDominio = async (
   dominio?: string,

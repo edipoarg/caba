@@ -1,12 +1,13 @@
 export type Investigacion = {
-  id: string;
+  Id: number;
   titulo: string;
-  autorxs: string | string[];
-  ilus?: string | string[];
   fecha: string;
   imagen: string;
   textoBajada: string;
   dominio: string;
   tipoInvestigacion: string;
   region: string;
+  Notes: string;
+  CreatedAt: string;
+  UpdatedAt: string;
 };
