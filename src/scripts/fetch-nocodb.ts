@@ -138,6 +138,102 @@ function assertConfig(config: ConfigFile) {
   });
 }
 
+function extractNameValue(value: unknown): string | string[] | undefined {
+  if (value == null) return undefined;
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    return trimmed ? trimmed : undefined;
+  }
+  if (typeof value === 'number' || typeof value === 'boolean') {
+    return String(value);
+  }
+  if (Array.isArray(value)) {
+    const names = value
+      .map((item) => extractNameValue(item))
+      .flatMap((item) => (Array.isArray(item) ? item : item ? [item] : []))
+      .filter((item): item is string => Boolean(item));
+    if (names.length === 0) return undefined;
+    return names.length === 1 ? names[0] : names;
+  }
+  if (typeof value === 'object') {
+    const record = value as Record<string, unknown>;
+    for (const key of ['name', 'nombre', 'title', 'label', 'value', 'display_name', 'displayName']) {
+      const found = extractNameValue(record[key]);
+      if (found) return found;
+    }
+    if (typeof record.id === 'string' || typeof record.id === 'number') {
+      return String(record.id);
+    }
+  }
+  return undefined;
+}
+
+function getDisplayValue(row: Record<string, unknown>, keys: string[]) {
+  for (const key of keys) {
+    const value = extractNameValue(row[key]);
+    if (value) return value;
+  }
+  return undefined;
+}
+
+function parseNotesForNames(notes: unknown) {
+  if (typeof notes !== 'string' || !notes.trim()) return {};
+  const text = notes
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\[(.*?)\]\(.*?\)/g, '$1')
+    .replace(/[*_~`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const authorMatch = text.match(/Por:\s*([^\n]+)/i);
+  const illustrationMatch = text.match(/Ilustraciones?:\s*([^\n]+)/i);
+
+  return {
+    autorxs: authorMatch?.[1]?.trim() || undefined,
+    ilus: illustrationMatch?.[1]?.trim() || undefined,
+  };
+}
+
+function normalizeRow(row: Record<string, unknown>) {
+  const out = { ...row } as Record<string, unknown>;
+
+  const authorValue = getDisplayValue(out, [
+    'autorxs',
+    'Autorxs',
+    'autor',
+    'autores',
+    'author',
+    'author_name',
+    'autorx',
+    'autorxs_id',
+    'nombre',
+  ]);
+  const illustratorValue = getDisplayValue(out, [
+    'ilus',
+    'Ilustradorxs',
+    'ilustrador',
+    'ilustradorxs',
+    'ilustradorx',
+    'illustrator',
+    'illustrator_name',
+    'ilustraciones',
+  ]);
+
+  if (authorValue !== undefined) out.autorxs = authorValue;
+  if (illustratorValue !== undefined) out.ilus = illustratorValue;
+
+  if (!out.autorxs && typeof out.Notes === 'string') {
+    const notesFallback = parseNotesForNames(out.Notes);
+    if (notesFallback.autorxs) out.autorxs = notesFallback.autorxs;
+  }
+  if (!out.ilus && typeof out.Notes === 'string') {
+    const notesFallback = parseNotesForNames(out.Notes);
+    if (notesFallback.ilus) out.ilus = notesFallback.ilus;
+  }
+
+  return out;
+}
+
 async function fetchAllRecords(tableId: string, viewId?: string): Promise<any[]> {
   const headers = {
     'accept': 'application/json',
@@ -223,10 +319,16 @@ async function run() {
       console.log(`Fetching table ${job.tableId}${job.viewId ? ` (view ${job.viewId})` : ''} -> ${job.output}`);
       const rows = await fetchAllRecords(job.tableId, job.viewId);
 
-      // Optionally select specific fields
+      const normalizedRows = rows.map((row) => normalizeRow(row as Record<string, unknown>));
+
       const finalRows = job.fields && job.fields.length
-        ? rows.map(r => Object.fromEntries(Object.entries(r).filter(([k]) => job.fields!.includes(k))))
-        : rows;
+        ? normalizedRows.map((row) => {
+            const allowed = new Set(job.fields!);
+            return Object.fromEntries(
+              Object.entries(row).filter(([k]) => allowed.has(k) || k === 'autorxs' || k === 'ilus'),
+            );
+          })
+        : normalizedRows;
 
       await ensureDirForFile(outAbs);
       await writeJsonAtomic(outAbs, finalRows);
