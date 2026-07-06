@@ -19,20 +19,7 @@
     },
     {
       "output": "public/data/investigaciones.json",
-      "tableId": "mx3xb8p8dk56s9r",
-      "fields": [
-        "titulo",
-        "fecha",
-        "imagen",
-        "textoBajada",
-        "dominio",
-        "tipoInvestigacion",
-        "region",
-        "Id",
-        "CreatedAt",
-        "UpdatedAt",
-        "Notes"
-      ]
+      "tableId": "mx3xb8p8dk56s9r"
     }
   ]
 }
