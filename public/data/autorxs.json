@@ -1,178 +1,925 @@
 [
   {
     "nombre": "Gabriela Figueroa",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/0f4ca0_d22199ced33e4e8e91c103306e516dc0_mv2_QnsNM.jpeg",
+        "title": "0f4ca0_d22199ced33e4e8e91c103306e516dc0~mv2.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 49815,
+        "width": 840,
+        "height": 544,
+        "id": "at21knl987xumhb0",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/ok1eZEkdz_9VyaQ_/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/0f4ca0_d22199ced33e4e8e91c103306e516dc0_mv2_QnsNM.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/QpTZrGJWC4Foc0ns/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/0f4ca0_d22199ced33e4e8e91c103306e516dc0_mv2_QnsNM.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/Ro8W9adu48hSQ7Rn/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/0f4ca0_d22199ced33e4e8e91c103306e516dc0_mv2_QnsNM.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/ZTafFY622RVrOC6q/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/0f4ca0_d22199ced33e4e8e91c103306e516dc0_mv2_QnsNM.jpeg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_d22199ced33e4e8e91c103306e516dc0~mv2.jpeg/v1/fill/w_840,h_544,al_c,lg_1,q_85,enc_auto/0f4ca0_d22199ced33e4e8e91c103306e516dc0~mv2.jpeg",
     "info": "(1982). Tucumana en Buenos Aires. Periodista, abogada, feminista. Estudió la Maestría en Periodismo y Medios de Comunicación en UNLP y aún debe la tesis. Becaria Fundacion Gabo 2019 y Fondo Nacional de las Artes 2021.",
     "twitter": "@gabrielitafi",
     "enlaceVer": "/gabriela-figueroa",
-    "notas": ["1"]
+    "Id": 1,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2026-05-04 17:08:54",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Panchopepe",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/panchopepe_m4Q4r.jpg",
+        "title": "panchopepe.jpg",
+        "mimetype": "image/jpeg",
+        "size": 45775,
+        "width": 717,
+        "height": 464,
+        "id": "atdqqkvcyr1le4mb",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/BJL-6SybaPmeieWu/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/panchopepe_m4Q4r.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/iMS90Pz-igE2Qn80/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/panchopepe_m4Q4r.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/S34u1PGeSvhs29sN/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/panchopepe_m4Q4r.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/B6GruZ1qAD0DbI2s/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/panchopepe_m4Q4r.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_9fe4df519d7b4519868520d0484e8eaa~mv2.jpg/v1/fill/w_717,h_464,al_c,q_80,enc_auto/panchopepe.jpg",
     "info": "Seudónimo  de Francisco Ferreras (1989). Pintor, dibujante, historietista ocasional, co-fundador de la editorial Villacrema. Publicó en 2017 el libro de pinturas ¿Para qué sirven las personas? y en 2019 El lubre. Enseña pintura a jóvenes y adultos.",
-    "enlaceVer": "/panchopepe"
+    "twitter": null,
+    "enlaceVer": "/panchopepe",
+    "Id": 2,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-09-03 14:05:35",
+    "notas": 0,
+    "ilustraciones en notas": 8
   },
   {
     "nombre": "Bibiana Ruiz",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Bibiana Ruiz (1)_V64Ns.jpg",
+        "title": "Bibiana Ruiz (1).jpg",
+        "mimetype": "image/jpeg",
+        "size": 26151,
+        "width": 560,
+        "height": 363,
+        "id": "atd6li1iqidsw39i",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/OT4jpcSu6Bioityx/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Bibiana Ruiz (1)_V64Ns.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/EIg3zKvajSimxnD9/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Bibiana Ruiz (1)_V64Ns.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/ScdS0iafwGXsHL1k/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Bibiana Ruiz (1)_V64Ns.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/r9O80RRZ6RRGlisj/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Bibiana Ruiz (1)_V64Ns.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_4535d6c071e94a90b5dec8a18d09e69b~mv2.jpg/v1/fill/w_560,h_363,al_c,lg_1,q_80,enc_auto/Bibiana%20Ruiz%20(1).jpg",
     "info": "(Catriló, La Pampa, 1979). Periodista freelance, docente y traductora. Pasó por Sociología pero la dejó para irse lejos. Fundamentalista de las lenguas y cantante no revelada. bibiana.tk",
-    "enlaceVer": "/bibiana-ruiz"
+    "twitter": null,
+    "enlaceVer": "/bibiana-ruiz",
+    "Id": 3,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:53:00",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Juan Suárez",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Juan Suárez (1)_vjvH9.jpg",
+        "title": "Juan Suárez (1).jpg",
+        "mimetype": "image/jpeg",
+        "size": 76640,
+        "width": 595,
+        "height": 674,
+        "id": "atxkk8378e9hjc1o",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/uRCJFPwySmRyQNUV/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Juan Suárez (1)_vjvH9.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/_VjxrX8HqwaC85cz/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Juan Suárez (1)_vjvH9.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/ah5N1Ly8q3ltFn5g/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Juan Suárez (1)_vjvH9.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/obdUzS2Ps4QBwAhP/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Juan Suárez (1)_vjvH9.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_6a26096ff85149f380cdd7e6a59a8334~mv2.jpg/v1/fill/w_595,h_674,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Juan%20Su%C3%A1rez%20(1).jpg",
     "info": "(1971). Diseñador gráfico, escribe en código y en prosa. Colabora con Fundación Vía Libre y le gusta investigar sobre el impacto político y social de las nuevas tecnologías.",
-    "enlaceVer": "/juan-suarez"
+    "twitter": null,
+    "enlaceVer": "/juan-suarez",
+    "Id": 4,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:53:10",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Nicolás Daniluk",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/daniluk 02_GbMgK.jpg",
+        "title": "daniluk 02.jpg",
+        "mimetype": "image/jpeg",
+        "size": 90785,
+        "width": 619,
+        "height": 619,
+        "id": "atx8l9k84japu8na",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/9fRoQxpQmCs09pG4/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/daniluk 02_GbMgK.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/8vzg2g15uKH2NQzE/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/daniluk 02_GbMgK.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/9hEVAACwT2eXZ4AX/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/daniluk 02_GbMgK.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/uXahlhBpvF_IOLtB/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/daniluk 02_GbMgK.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_b768ab002f2a46b0aec0f951695c522a~mv2.jpg/v1/fill/w_619,h_619,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/daniluk%2002.jpg",
     "info": "(1981). Ilustrador y dibujante. Publicó sus trabajos en diversos medios, hizo portadas de discos y afiches de películas. Es miembro del grupo de experimentación Un Faulduo y es cofundador de Ruido y Contexto Editora. nicodaniluk.com",
-    "enlaceVer": "/nicolas-daniluk"
+    "twitter": null,
+    "enlaceVer": "/nicolas-daniluk",
+    "Id": 5,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:53:22",
+    "notas": 0,
+    "ilustraciones en notas": 4
   },
   {
     "nombre": "Matias Ferrari",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Matías Ferrari_yVZrc.jpg",
+        "title": "Matías Ferrari.jpg",
+        "mimetype": "image/jpeg",
+        "size": 33200,
+        "width": 600,
+        "height": 388,
+        "id": "atldn39tciqga5qi",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/qNDgxZX10wkyrXXy/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Matías Ferrari_yVZrc.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/3yjsSwck03mILiRr/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Matías Ferrari_yVZrc.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/AUaufnsscID6aUM2/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Matías Ferrari_yVZrc.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/4RhDCz8JXgowWrGH/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Matías Ferrari_yVZrc.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_a2376b21c76e4c4e8404503afc762024~mv2.jpg/v1/fill/w_600,h_388,al_c,lg_1,q_80,enc_auto/Mat%C3%ADas%20Ferrari.jpg",
     "info": "Periodista. Escribe y edita en El Grito del Sur y Diagonales. Pasó por la redacción de Página/12 y colaboró con la investigación del libro “Macristocracia”.",
-    "enlaceVer": "/matias-ferrari"
+    "twitter": null,
+    "enlaceVer": "/matias-ferrari",
+    "Id": 6,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:53:42",
+    "notas": 2,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Ludmila Ferrer",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Ludmila Ferrer_l0m1W.jpg",
+        "title": "Ludmila Ferrer.jpg",
+        "mimetype": "image/jpeg",
+        "size": 47913,
+        "width": 600,
+        "height": 388,
+        "id": "atpjw7yf7tgtbpho",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/RNGIpp9Wlu3PiVFv/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Ludmila Ferrer_l0m1W.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/yipDpBJntbu1VeDt/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Ludmila Ferrer_l0m1W.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/qCd9QM6xuJhCnUhl/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Ludmila Ferrer_l0m1W.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/-93SKJevbMFB4BtF/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Ludmila Ferrer_l0m1W.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_a786962874264390982e5366ef7634d8~mv2.jpg/v1/fill/w_600,h_388,al_c,lg_1,q_80,enc_auto/Ludmila%20Ferrer.jpg",
     "info": "Licenciada en Ciencias de la Comunicación y periodista. Escribe y edita en Página|12 y El Grito del Sur. Rioplatense, bostera y maradoniana. Colaboró en la hechura de “Superdios. La construcción de Maradona como santo laico”.",
-    "enlaceVer": "/ludmila-ferrer"
+    "twitter": null,
+    "enlaceVer": "/ludmila-ferrer",
+    "Id": 7,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:53:55",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Amanda Sandoval",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Amanda Sandoval_50s85.jpg",
+        "title": "Amanda Sandoval.jpg",
+        "mimetype": "image/jpeg",
+        "size": 49092,
+        "width": 918,
+        "height": 594,
+        "id": "atp6rdxccz3hsvkn",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/0jUGOG9Z4qkUa41X/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Amanda Sandoval_50s85.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/K8zLvmB_ZqqiFrMx/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Amanda Sandoval_50s85.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/gn2XiTH9A1ybRNtS/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Amanda Sandoval_50s85.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/ptWzh4qZCruN2qUZ/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Amanda Sandoval_50s85.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_0511648d135c4fc7943e4490f3aab5de~mv2.jpg/v1/fill/w_918,h_594,al_c,q_85,enc_auto/Amanda%20Sandoval.jpg",
     "info": "Migrante chilena, estudiante empedernida de Arquitectura en la UBA, y Artes Visuales en la UNA. Ilustradora, tatuadora, diseñadora gráfica. Colaboradora desde 2018 en EdIPo.",
-    "enlaceVer": "/amanda-sandoval"
+    "twitter": null,
+    "enlaceVer": "/amanda-sandoval",
+    "Id": 8,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:54:07",
+    "notas": 0,
+    "ilustraciones en notas": 1
   },
   {
     "nombre": "Nicolás Cardello",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20220709-WA0026_hoe0J.jpg",
+        "title": "IMG-20220709-WA0026.jpg",
+        "mimetype": "image/jpeg",
+        "size": 71333,
+        "width": 993,
+        "height": 643,
+        "id": "at3a8o2sbaaa6f82",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/zYXLQs1lkeg3buz0/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20220709-WA0026_hoe0J.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/sqzhgR1lpwA4DZ0P/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20220709-WA0026_hoe0J.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/5J7GFocypJx8vO0C/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20220709-WA0026_hoe0J.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/ZnZ8KENIwGQU24-P/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20220709-WA0026_hoe0J.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_4064cabd690b4ae28debb5ff21a7420e~mv2.jpg/v1/fill/w_993,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG-20220709-WA0026.jpg",
     "info": "Documentalista, desarrollador audiovisual y fotógrafo. Formó parte durante 7 años de La Garganta Poderosa como editor fotográfico. Colabora con La Nación Revista y es filmaker del Club Atlético Platense.",
-    "enlaceVer": "/nicolas-cardello"
+    "twitter": null,
+    "enlaceVer": "/nicolas-cardello",
+    "Id": 9,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:54:22",
+    "notas": 0,
+    "ilustraciones en notas": 1
   },
   {
     "nombre": "Estefanía Santoro",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20210701_214923536_SLY35.jpg",
+        "title": "IMG_20210701_214923536.jpg",
+        "mimetype": "image/jpeg",
+        "size": 57254,
+        "width": 993,
+        "height": 643,
+        "id": "at1anxrfgiaupruj",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/CiZoQm-Wm-1fsp3j/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20210701_214923536_SLY35.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/JFiJVZD3rOzzDz9B/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20210701_214923536_SLY35.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/nr3G7rifHAv-O4tw/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20210701_214923536_SLY35.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/41PWI7ujrMHl-31q/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20210701_214923536_SLY35.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_54c45aa138de4fe4ad5cf8101f6b4749~mv2.jpg/v1/fill/w_993,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_20210701_214923536.jpg",
     "info": "1988. Es licenciada en Ciencias de la Comunicación (UBA). Su tesis de grado documenta la representación de las lesbianas en la ficción argentina. Periodista conurbana. Cronista en Revista Cítrica. Colaboradora del Suplemento Las12. Columnista en La Revancha Random y Charco de Arena. Fotógrafa aficionada.",
-    "enlaceVer": "/estefania-santoro"
+    "twitter": null,
+    "enlaceVer": "/estefania-santoro",
+    "Id": 10,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-14 15:54:31",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
-    "nombre": "Elisa Corso",
+    "nombre": "Elisa Corzo",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_DSC0146_NrAA4.jpgURL_DE_LA_IMAGEN_LAU",
+        "title": "_DSC0146.jpgURL_DE_LA_IMAGEN_LAU",
+        "mimetype": "image/jpeg",
+        "size": 62850,
+        "width": 993,
+        "height": 643,
+        "id": "at51rgnx257iudu2",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/YZJFruT_7AaI1MbR/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_DSC0146_NrAA4.jpgURL_DE_LA_IMAGEN_LAU/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/ZNww07U0tmVe8x2U/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_DSC0146_NrAA4.jpgURL_DE_LA_IMAGEN_LAU/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/Veb3R0vJiYjM4pAj/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_DSC0146_NrAA4.jpgURL_DE_LA_IMAGEN_LAU/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/yoKnTi51kN7jM6_q/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_DSC0146_NrAA4.jpgURL_DE_LA_IMAGEN_LAU"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_48969a6c0f6446bf9ce13cfa6f00568d~mv2.jpg/v1/fill/w_993,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/_DSC0146.jpgURL_DE_LA_IMAGEN_LAU",
     "info": "1988. Se formó como periodista en la Universidad Nacional de La Plata y en la comunicación popular. Hoy trabaja en la prensa de ATE y es parte de Edipo (Equipo de Investigación Política).",
-    "enlaceVer": "/elisa-corso"
+    "twitter": null,
+    "enlaceVer": "/elisa-corso",
+    "Id": 11,
+    "CreatedAt": "2025-07-11 19:47:42",
+    "UpdatedAt": "2025-07-15 19:57:36",
+    "notas": 2,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Carlos Sainz",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2022-12-09 at 14_28_10_0t9-l.jpeg",
+        "title": "WhatsApp Image 2022-12-09 at 14_28_10.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 43325,
+        "width": 559,
+        "height": 591,
+        "id": "atf1kjfewr2ltge9",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/J64v0Z7glQmjOJye/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2022-12-09 at 14_28_10_0t9-l.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/GG_ODavb-Y8iuuNo/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2022-12-09 at 14_28_10_0t9-l.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/4cIEaT2l0fa89dEV/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2022-12-09 at 14_28_10_0t9-l.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/WhnQf9GzNG44uH5q/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2022-12-09 at 14_28_10_0t9-l.jpeg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_97a978efa66e4013967069ce142fd67c~mv2.jpeg/v1/fill/w_559,h_591,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-12-09%20at%2014_28_10.jpeg",
     "info": "Se dedica a todo lo que tiene que ver con la imagen y la materialización de ideas. Director creativo graduado en la Escola Massana (UA-BCN 2010) y Comunicación Política (UBA 2022).",
-    "enlaceVer": "/carlos-sainz"
+    "twitter": null,
+    "enlaceVer": "/carlos-sainz",
+    "Id": 12,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-07-14 15:56:39",
+    "notas": 0,
+    "ilustraciones en notas": 1
   },
   {
     "nombre": "Facundo Loduca",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/20230315_101647_edited_4zgpV.jpg",
+        "title": "20230315_101647_edited.jpg",
+        "mimetype": "image/jpeg",
+        "size": 63033,
+        "width": 524,
+        "height": 553,
+        "id": "atemw8fnlvmvfhh0",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/3zqk1nCkjlVixDDn/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/20230315_101647_edited_4zgpV.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/axP9uV0x6EnvqSnY/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/20230315_101647_edited_4zgpV.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/u7JuRcvQaktoW_M2/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/20230315_101647_edited_4zgpV.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/aKca7iYR5HiuUdUj/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/20230315_101647_edited_4zgpV.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_08ac27a5d9524e3c9779d7d90793d6ab~mv2.jpg/v1/fill/w_524,h_553,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/20230315_101647_edited.jpg",
     "info": "(1991). Periodista. Publicó crónicas y reportajes en Brando, RT En Español, Vice News, Lavaca y Revista Cítrica, entre otros. Actualmente integra el equipo periodístico de Perycia.",
-    "enlaceVer": "/facundo-loduca"
+    "twitter": null,
+    "enlaceVer": "/facundo-loduca",
+    "Id": 13,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-10-15 13:23:39",
+    "notas": 3,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Inés Hayes",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-05-15 at 11_20_58_5uCC2.jpeg",
+        "title": "WhatsApp Image 2023-05-15 at 11_20_58.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 35701,
+        "width": 993,
+        "height": 643,
+        "id": "atz5pttklq181gii",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/ZheC_hX37igbis9q/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-05-15 at 11_20_58_5uCC2.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/W9n5BZdeYHxUINQU/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-05-15 at 11_20_58_5uCC2.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/cKQs-7ZDGdww6Wm2/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-05-15 at 11_20_58_5uCC2.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/R4XhSy-IIERjUvKd/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-05-15 at 11_20_58_5uCC2.jpeg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_172be01d7b124a5f8fb1091797cb0490~mv2.jpeg/v1/fill/w_993,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-05-15%20at%2011_20_58.jpeg",
     "info": "(1979). Nuevejuliense. Estudio Comunicación Social en la UNLP. Periodista en la CTA Autónoma, Las 12, Ñ, Canal Abierto, lavaca. Docente en la UBA y la UNLP. En Twitter @ineshayes16.",
-    "enlaceVer": "/ines-hayes"
+    "twitter": null,
+    "enlaceVer": "/ines-hayes",
+    "Id": 14,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-07-14 15:57:33",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Paula Talento",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20230515_114205123_edited_edited_7OlHw.jpg",
+        "title": "IMG_20230515_114205123_edited_edited.jpg",
+        "mimetype": "image/jpeg",
+        "size": 38382,
+        "width": 524,
+        "height": 553,
+        "id": "atuw2g0er1chixzx",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/pQOStchLhXfSPZ-4/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20230515_114205123_edited_edited_7OlHw.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/bhBle-iegqGaZC7i/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20230515_114205123_edited_edited_7OlHw.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/6mJ5DRgSVHsL5Z6g/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20230515_114205123_edited_edited_7OlHw.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/V1IAAngnGuIkV4Bv/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG_20230515_114205123_edited_edited_7OlHw.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_624865cb465d4ff9bf7d219691e67e09~mv2.jpg/v1/fill/w_524,h_553,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_20230515_114205123_edited_edited.jpg",
     "info": "(1983). Barracas es su pueblo. Estudió Ciencia Política, pero debería haber estudiado Trabajo Social. Hizo una maestría en políticas sociales y debe la tesis. Ama leer lo que llegue a sus manos y sólo mira series de suspenso inglesas. Vivió en México, pero la comida no está tan buena.",
-    "enlaceVer": "/paula-talento"
+    "twitter": null,
+    "enlaceVer": "/paula-talento",
+    "Id": 15,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-09-03 14:05:10",
+    "notas": 2,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Gilda Izurieta",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/gilda1_edited_9omx_.jpg",
+        "title": "gilda1_edited.jpg",
+        "mimetype": "image/jpeg",
+        "size": 108716,
+        "width": 993,
+        "height": 643,
+        "id": "at2l89w8nmg58195",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/mytR143vL2kVcRBG/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/gilda1_edited_9omx_.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/LVOmzvTr580NDVDT/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/gilda1_edited_9omx_.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/QNlyp4YARfwS6vqI/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/gilda1_edited_9omx_.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/jJ7uoengxPpKlH1Z/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/gilda1_edited_9omx_.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_340744bd1cf147e4b5d26f4438e37db8~mv2.jpg/v1/fill/w_993,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gilda1_edited.jpg",
     "info": "(1994). Periodista. Conurbana en CABA. Es editora de contenido en IP Noticias Digital y guionista freelancer. Cursa la Licenciatura en Artes de la Escritura en la Universidad Nacional de las Artes.",
-    "enlaceVer": "/gilda-izurieta"
+    "twitter": null,
+    "enlaceVer": "/gilda-izurieta",
+    "Id": 16,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-07-14 15:58:03",
+    "notas": 2,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Brenda Greco",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-10-09 at 13_17_10_ku2py.jpeg",
+        "title": "WhatsApp Image 2023-10-09 at 13_17_10.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 73175,
+        "width": 993,
+        "height": 643,
+        "id": "at3paf4at245cca1",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/bbc4qH67QImHjftG/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-10-09 at 13_17_10_ku2py.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/vdRuSZ1TxJOLmEda/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-10-09 at 13_17_10_ku2py.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/zT2fZEtvaVP0iO15/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-10-09 at 13_17_10_ku2py.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/E6EJ7QmW6pbGfBYB/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-10-09 at 13_17_10_ku2py.jpeg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_de0363a40ef74d8ca270fac1b934e300~mv2.jpeg/v1/fill/w_993,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-10-09%20at%2013_17_10.jpeg",
     "info": "(1988). Dibujante, Diseñadora de Imagen y Sonido. Co-fundadora de Ruido y Contexto Editora, donde publicó fanzines como el Album de figuritas y Libro para colorear. Colaboró también en publicaciones y proyectos de Perú, Estados Unidos, Chile y Uruguay. brendagreco.com",
-    "enlaceVer": "/brenda-greco"
+    "twitter": null,
+    "enlaceVer": "/brenda-greco",
+    "Id": 17,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-07-14 15:58:20",
+    "notas": 0,
+    "ilustraciones en notas": 2
   },
   {
     "nombre": "Facundo Cifelli",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-12-06 at 11_34_19_s9ez7.jpeg",
+        "title": "WhatsApp Image 2023-12-06 at 11_34_19.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 100618,
+        "width": 720,
+        "height": 691,
+        "id": "atp3ua8qr9e24uvq",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/TEURfo6RbIxIsp6l/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-12-06 at 11_34_19_s9ez7.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/4H0M5fS_RiN-PRI7/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-12-06 at 11_34_19_s9ez7.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/ajsOw9Qk4lzgS1VQ/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-12-06 at 11_34_19_s9ez7.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/5m9AEIqqa9XzXH83/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2023-12-06 at 11_34_19_s9ez7.jpeg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_7d94f4de0d894a31a255c827999583bf~mv2.jpeg/v1/crop/x_0,y_48,w_720,h_727/fill/w_720,h_691,al_c,q_85,enc_auto/WhatsApp%20Image%202023-12-06%20at%2011_34_19.jpeg",
     "info": "(1993). Músico frustrado y casi sociólogo. Militante social y estudiante autodidacta.        Coordina espacios cooperativos y de gestión comunitaria",
-    "enlaceVer": "/facundo-ciffeli"
+    "twitter": null,
+    "enlaceVer": "/facundo-ciffeli",
+    "Id": 18,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-07-14 15:58:31",
+    "notas": 3,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "julia Pascolini",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2024-04-19 at 16_10_13_Snmxs.jpeg",
+        "title": "WhatsApp Image 2024-04-19 at 16_10_13.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 40564,
+        "width": 533,
+        "height": 533,
+        "id": "atm8ykz24yopa4xq",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/Cm5t02_9RqAAdrY2/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2024-04-19 at 16_10_13_Snmxs.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/3oKSXsX-hHqNQjvJ/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2024-04-19 at 16_10_13_Snmxs.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/47m0UqBBLG0pL9_w/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2024-04-19 at 16_10_13_Snmxs.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/qhpwbQieE7GkKszq/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/WhatsApp Image 2024-04-19 at 16_10_13_Snmxs.jpeg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_9322af3c173742c1a48bb464261a335e~mv2.jpeg/v1/fill/w_533,h_533,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202024-04-19%20at%2016_10_13.jpeg",
     "info": "(1996). Periodista platense. Docente en contextos de encierro punitivo (cárceles). Fan de escribir y hablar en lugares. Comunicadora por formación y peronista por naturaleza. Estudiante avanzada (madura tirando a pasada) de Comunicación Social por la UNLP. En Instagram @juliapascolini",
-    "enlaceVer": "/julia-pascolini"
+    "twitter": null,
+    "enlaceVer": "/julia-pascolini",
+    "Id": 19,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-07-14 16:00:09",
+    "notas": 0,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Luz Conde",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/luz conde_VQAjQ.jpg",
+        "title": "luz conde.jpg",
+        "mimetype": "image/jpeg",
+        "size": 233943,
+        "width": 1305,
+        "height": 1223,
+        "id": "atgaa7qxoc4md8kl",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/4bgEl6JSC_Ct_r8U/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/luz conde_VQAjQ.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/o1RBkjmJai-JpDJW/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/luz conde_VQAjQ.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/C4jg2jNMemNv1W9c/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/luz conde_VQAjQ.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/B_MyoKQaNf05hxKq/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/luz conde_VQAjQ.jpg"
+      }
+    ],
     "imagen": "https://static.wixstatic.com/media/0f4ca0_ef49406d9165462fa917ce0954f80cc3~mv2.jpg/v1/fill/w_1305,h_1223,al_c,q_85,enc_avif,quality_auto/luz%20conde.jpg",
     "info": "Educadora popular y militante social. Fotógrafa y docente por herencia. De La Matanza al mundo. Estudiante de Letras y escritora noctámbula.",
-    "enlaceVer": "/luz-conde"
+    "twitter": null,
+    "enlaceVer": "/luz-conde",
+    "Id": 20,
+    "CreatedAt": "2025-07-11 19:47:43",
+    "UpdatedAt": "2025-08-07 16:55:52",
+    "notas": 2,
+    "ilustraciones en notas": 0
   },
   {
-    "nombre": "Martin Oroná",
-    "imagen": "",
-    "info": "(1977). Ilustrador. Cursó Diseño Gráfi co en la UBA y estudió ilustración con Ariel Olivetti y Juan Bobillo. Ilustra y diseña juegos de mesa, juguetes y elementos promocionales para licencias. Publicó en Brando, Rolling Stone, Genios, Jardín y Mi Salita. behance.net/martinorona",
-    "enlaceVer": "/martin-orona"
+    "nombre": "Martín Oroná",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20250811-WA0020_NFgqT.jpg",
+        "title": "IMG-20250811-WA0020.jpg",
+        "mimetype": "image/jpeg",
+        "size": 128842,
+        "width": 900,
+        "height": 1600,
+        "id": "atz7udg8garg100t",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/UvxKhR94IvcHFoUR/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20250811-WA0020_NFgqT.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/tZuT2op8CelWZQQt/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20250811-WA0020_NFgqT.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/uJi5WJL0F-3m_DAy/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20250811-WA0020_NFgqT.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/XdNJsL-Zq6yTldNY/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/IMG-20250811-WA0020_NFgqT.jpg"
+      }
+    ],
+    "imagen": null,
+    "info": "(1977). Ilustrador. Cursó Diseño Gráfi co en la UBA y estudió ilustración con Ariel Olivetti y Juan Bobillo. Ilustra y diseña juegos de mesa, juguetes y elementos promocionales para licencias. Publicó en Brando, Rolling Stone, Genios, Jardín y Mi Salita.",
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 21,
+    "CreatedAt": "2025-08-25 14:56:53",
+    "UpdatedAt": null,
+    "notas": 1,
+    "ilustraciones en notas": 1
   },
   {
     "nombre": "Alejandro Martín",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_07e3e5cd0ee84fc8ba40978b66e96738~mv2.jpg/v1/crop/x_0,y_0,w_960,h_1197/fill/w_960,h_1143,al_c,q_85,enc_avif,quality_auto/_MG_3660_baja_cuadrado.jpg",
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_MG_3660_baja_cuadrado_V63WM.jpg",
+        "title": "_MG_3660_baja_cuadrado.jpg",
+        "mimetype": "image/jpeg",
+        "size": 619832,
+        "width": 960,
+        "height": 1200,
+        "id": "aty0nkl5y4dv3z51",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/q1hDwMkzXzhuD7EP/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_MG_3660_baja_cuadrado_V63WM.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/hI9ZMAVj6cPxTCoc/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_MG_3660_baja_cuadrado_V63WM.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/33U-KjuqV_YuFr0W/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_MG_3660_baja_cuadrado_V63WM.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/dBqI6mUE4oNj-RXM/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/_MG_3660_baja_cuadrado_V63WM.jpg"
+      }
+    ],
+    "imagen": null,
     "info": "Egresado de la Tecnicatura en Dirección Cinematográfica en la Universidad del Cine. Docente, diseñador audiovisual, y actualmente editor de video del Mapa de la Policía.",
-    "enlaceVer": "/alejandro-martin"
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 22,
+    "CreatedAt": "2025-09-03 14:05:28",
+    "UpdatedAt": "2025-09-03 14:11:13",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Facundo Enferri",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_2d7fa5d3c9ba435394dfdcc17b74b193~mv2.jpg/v1/fill/w_1280,h_1148,al_c,q_85,enc_avif,quality_auto/FACU%20ENFERRI.jpg",
-    "info": "(1995) Periodista mendocino en Buenos Aires. Lector. Redactor de casi todo. Para escribir prefiere el ensayo y la crónica. Estudia Artes de la Escritura (UNA).",
-    "enlaceVer": "/facundo-eferri"
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/FACU ENFERRI_noAhO.jpg",
+        "title": "FACU ENFERRI.jpg",
+        "mimetype": "image/jpeg",
+        "size": 70130,
+        "width": 1280,
+        "height": 1148,
+        "id": "atf8fpjlperg874p",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/nfy6bqac0Ztfz_P6/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/FACU ENFERRI_noAhO.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/mQ_dElmTqOYKM1hI/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/FACU ENFERRI_noAhO.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/R9EvpS7Eb56smHTd/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/FACU ENFERRI_noAhO.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/hsu40-N5AO-IVfuI/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/FACU ENFERRI_noAhO.jpg"
+      }
+    ],
+    "imagen": null,
+    "info": "(1995) Periodista mendocino en Buenos Aires. Lector. Redactor de casi todo. Para escribir prefiere el ensayo y la crónica. Estudia Artes de la Escritura (UNA).",
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 23,
+    "CreatedAt": "2025-09-16 21:21:14",
+    "UpdatedAt": "2025-09-22 20:54:51",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Julieta Farfala",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_716bf3ad755e46789c2f52da69136562~mv2.jpeg/v1/crop/x_0,y_132,w_853,h_1015/fill/w_853,h_1015,al_c,q_85,enc_avif,quality_auto/JULIETA%20FARFALA.jpeg",
-    "info": "(1987) es ilustradora, diseñadora gráfica y docente. Trabajó para editoriales como Planeta, Catapulta y Eudeba. Fue docente de la Cátedra Ilustración Roldán de la carrera de Diseño Gráfico (FADU-UBA) y realizó el primer año del Programa de Actualización en Ilustración Profesional (FADU-UBA). Participa en proyectos como La Vuelta al Mes.",
-    "enlaceVer": "/julieta-farfala"
-  },
-  {
-    "nombre": "Valeria Araujo",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_9aa9fb3fa98e48c7854fa5fe1c161a47~mv2.jpg/v1/crop/x_0,y_0,w_1199,h_1288/fill/w_1199,h_1238,al_c,q_85,enc_avif,quality_auto/Valeria%20Araujo.jpg",
-    "info": "(Ilustradora y diseñadora gráfica, formada en la UBA y en diversos talleres de ilustración e historieta. Trabaja para estudios y agencias, además de dedicarse a la docencia y la edición de fanzines.www.valearaujo.myportfolio.com",
-    "enlaceVer": "/valeria-araujo"
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/JULIETA FARFALA_2sJWr.jpeg",
+        "title": "JULIETA FARFALA.jpeg",
+        "mimetype": "image/jpeg",
+        "size": 119938,
+        "width": 853,
+        "height": 1280,
+        "id": "atonm1himkrb886x",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/V7wC_dyqkdzhbUo2/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/JULIETA FARFALA_2sJWr.jpeg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/a78mWaJ86TXjYsqh/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/JULIETA FARFALA_2sJWr.jpeg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/ve9cOWnBterKwoXa/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/JULIETA FARFALA_2sJWr.jpeg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/boDCJ0PaPK-mJNUZ/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/JULIETA FARFALA_2sJWr.jpeg"
+      }
+    ],
+    "imagen": null,
+    "info": "(1987) es ilustradora, diseñadora gráfica y docente. Trabajó para editoriales como Planeta, Catapulta y Eudeba. Fue docente de la Cátedra Ilustración Roldán de la carrera de Diseño Gráfico (FADU-UBA) y realizó el primer año del Programa de Actualización en Ilustración Profesional (FADU-UBA). Participa en proyectos como La Vuelta al Mes. julifarfala.com.ar",
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 24,
+    "CreatedAt": "2025-09-22 20:55:11",
+    "UpdatedAt": "2025-09-22 20:58:10",
+    "notas": 0,
+    "ilustraciones en notas": 1
   },
   {
     "nombre": "Juan Manuel Erazo",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_876241254920410eb139eb11a7edc17e~mv2.jpg/v1/crop/x_0,y_81,w_853,h_683/fill/w_853,h_648,al_c,q_85,enc_avif,quality_auto/juan%20erazo.jpg",
-    "info": "(1990). Estudió Historia en la UBA y Derecho en la UNLaM. Habilidoso en el arte de no recibirse. Redactor en Tiempo Argentino. Nacido y criado en La Matanza.",
-    "enlaceVer": "/juan-manuel-erazo"
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/juan erazo_LaqbM.jpg",
+        "title": "juan erazo.jpg",
+        "mimetype": "image/jpeg",
+        "size": 41150,
+        "width": 853,
+        "height": 853,
+        "id": "atsh0gc5a2a4d6qr",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/bT6bP_qPuP_lL7-x/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/juan erazo_LaqbM.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/sEmvERF0hZLaop9j/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/juan erazo_LaqbM.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/czOG8A1lgBjoMvvf/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/juan erazo_LaqbM.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/5UmWftOejohynY8K/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/juan erazo_LaqbM.jpg"
+      }
+    ],
+    "imagen": null,
+    "info": "(1990). Estudió Historia en la UBA y Derecho en la UNLaM. Habilidoso en el arte de no recibirse. Redactor en Tiempo Argentino. Nacido y criado en La Matanza.",
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 25,
+    "CreatedAt": "2025-11-04 12:57:37",
+    "UpdatedAt": "2025-11-04 13:03:26",
+    "notas": 1,
+    "ilustraciones en notas": 0
   },
   {
     "nombre": "Azul Blaseotto",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_f1ba60bfb83446b89380345cf6e414ed~mv2.jpg/v1/fill/w_637,h_608,al_c,lg_1,q_85,enc_avif,quality_auto/Azul%20Blaseotto_PH%20Adrian%20Salgueiro.jpg",
-    "info": "(1974). Artista visual, ilustradora, dibujante documental. Desde 2010 dibuja en vivo los juicios por crímenes de lesa humanidad. Colaboró con numerosos medios. Publicó las novelas gráficas Vamos a la playa (2018) y Vidas de litio (2024). @azul_blaseotto / azulblaseotto.com",
-    "enlaceVer": "/azul-blaseotto"
+    "imagen copy": [
+      {
+        "path": "download/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Azul Blaseotto_PH Adrian Salgueiro_VdulW.jpg",
+        "title": "Azul Blaseotto_PH Adrian Salgueiro.jpg",
+        "mimetype": "image/jpeg",
+        "size": 187901,
+        "width": 531,
+        "height": 507,
+        "id": "at9p9itxd8oz912w",
+        "thumbnails": {
+          "tiny": {
+            "signedPath": "dltemp/7nmO83z4BnwwKLe2/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Azul Blaseotto_PH Adrian Salgueiro_VdulW.jpg/tiny.jpg"
+          },
+          "small": {
+            "signedPath": "dltemp/kYTd0SrY_82igT2l/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Azul Blaseotto_PH Adrian Salgueiro_VdulW.jpg/small.jpg"
+          },
+          "card_cover": {
+            "signedPath": "dltemp/Dh0q3TSkJ08NJOsg/1783369200000/thumbnails/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Azul Blaseotto_PH Adrian Salgueiro_VdulW.jpg/card_cover.jpg"
+          }
+        },
+        "signedPath": "dltemp/CRdTldYgFjHk5NT4/1783369200000/noco/pbarz1fsnnz9he8/mbx2g2esoeu12pn/c5p0e86otlvplkx/Azul Blaseotto_PH Adrian Salgueiro_VdulW.jpg"
+      }
+    ],
+    "imagen": null,
+    "info": "(1974). Artista visual, ilustradora, dibujante documental. Desde 2010 dibuja en vivo los juicios por crímenes de lesa humanidad. Colaboró con numerosos medios. Publicó las novelas gráficas Vamos a la playa (2018) y Vidas de litio (2024).",
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 26,
+    "CreatedAt": "2025-11-04 13:01:44",
+    "UpdatedAt": "2025-11-04 13:03:11",
+    "notas": 0,
+    "ilustraciones en notas": 1
   },
-   {
-    "nombre": "Cecilia Samanes",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_215f86bd67cd4652890d5c7c83012e7e~mv2.jpeg/v1/crop/x_0,y_212,w_640,h_428/fill/w_768,h_513,al_c,lg_1,q_85,enc_avif,quality_auto/ceci.jpeg",
-    "info": "Es Maestranda en DDHH en la UNLa que aún debe la tesis. Profesora y Licenciada en Sociología por la UBA. Analista Programadora. Docente en diversos textos y contextos. Investigadora en temas de crímenes de Estado, genocidios, seguridad y pedagogías críticas.",
-    "enlaceVer": "/cecilia-samanes"
-  },
-   {
-    "nombre": "Olivia Milberg",
-    "imagen": "https://static.wixstatic.com/media/0f4ca0_9f9a49cab63844f88c748ae6a2827a0f~mv2.jpg/v1/crop/x_0,y_437,w_2639,h_1764/fill/w_1918,h_1282,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/7434ee8c-af4b-4c81-8d54-027ee9254ef3.jpg",
-    "info": "Licenciada en Artes de la Escritura (UNA), tesis en curso. Escritora, editora y correctora. Coordina talleres y clínicas literarias. Publicó algunos libros de poesía.",
-    "enlaceVer": "/olivia-milberg"
+  {
+    "nombre": null,
+    "imagen copy": null,
+    "imagen": null,
+    "info": null,
+    "twitter": null,
+    "enlaceVer": null,
+    "Id": 27,
+    "CreatedAt": "2026-05-04 17:13:03",
+    "UpdatedAt": null,
+    "notas": 0,
+    "ilustraciones en notas": 0
   }
 ]

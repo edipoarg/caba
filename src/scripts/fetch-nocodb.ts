@@ -1,6 +1,6 @@
-import 'dotenv/config';
-import fs from 'node:fs/promises';
-import path from 'node:path';
+import "dotenv/config";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 // Types for NocoDB v2 response
 interface NocoListResponse<T = any> {
@@ -14,11 +14,16 @@ interface NocoListResponse<T = any> {
 
 function isTransientError(err: any): boolean {
   if (!err) return false;
-  const msg = String(err.message || err || '').toLowerCase();
-  if (msg.includes('aborted') || msg.includes('timeout') || msg.includes('network')) return true;
+  const msg = String(err.message || err || "").toLowerCase();
+  if (
+    msg.includes("aborted") ||
+    msg.includes("timeout") ||
+    msg.includes("network")
+  )
+    return true;
   // If error has status code
   const status = (err.status ?? err.code ?? undefined) as number | undefined;
-  if (typeof status === 'number') {
+  if (typeof status === "number") {
     if (status === 429) return true;
     if (status >= 500 && status < 600) return true;
   }
@@ -43,38 +48,45 @@ interface ConfigFile {
   jobs: JobConfig[];
 }
 
-const BASE_URL = (process.env.NOCODB_BASE_URL || '').replace(/\/$/, '');
-const API_KEY = process.env.NOCODB_API_KEY || '';
+const BASE_URL = (process.env.NOCODB_BASE_URL || "").replace(/\/$/, "");
+const API_KEY = process.env.NOCODB_API_KEY || "";
 const REQUEST_TIMEOUT_MS = Number(process.env.NOCODB_TIMEOUT_MS || 60000);
 const MAX_RETRIES = Math.max(0, Number(process.env.NOCODB_MAX_RETRIES || 3));
-const RETRY_BASE_DELAY_MS = Math.max(100, Number(process.env.NOCODB_RETRY_BASE_DELAY_MS || 1000));
-const VERBOSE = /^true$/i.test(String(process.env.NOCODB_VERBOSE || ''));
+const RETRY_BASE_DELAY_MS = Math.max(
+  100,
+  Number(process.env.NOCODB_RETRY_BASE_DELAY_MS || 1000),
+);
+const VERBOSE = /^true$/i.test(String(process.env.NOCODB_VERBOSE || ""));
 
 // Resolve a fetch implementation: prefer global (Node 18+), else fallback to node-fetch@2
 let _fetch: any | null = null;
 async function getFetch(): Promise<typeof fetch> {
   if (_fetch) return _fetch;
-  if (typeof (globalThis as any).fetch === 'function') {
+  if (typeof (globalThis as any).fetch === "function") {
     _fetch = (globalThis as any).fetch.bind(globalThis);
     return _fetch;
   }
   try {
-    const mod = await import('node-fetch');
+    const mod = await import("node-fetch");
     // node-fetch@2 default export is a function
     _fetch = (mod as any).default || (mod as any);
     return _fetch;
   } catch (e) {
-    throw new Error('fetch is not defined and node-fetch is not installed. Please install node-fetch@2.');
+    throw new Error(
+      "fetch is not defined and node-fetch is not installed. Please install node-fetch@2.",
+    );
   }
 }
 
 function assertEnv() {
   const missing: string[] = [];
-  if (!BASE_URL) missing.push('NOCODB_BASE_URL');
-  if (!API_KEY) missing.push('NOCODB_API_KEY');
+  if (!BASE_URL) missing.push("NOCODB_BASE_URL");
+  if (!API_KEY) missing.push("NOCODB_API_KEY");
   if (missing.length) {
-    console.error(`Missing env vars: ${missing.join(', ')}`);
-    console.error('Create a .env with these keys or export them in your shell.');
+    console.error(`Missing env vars: ${missing.join(", ")}`);
+    console.error(
+      "Create a .env with these keys or export them in your shell.",
+    );
     process.exit(1);
   }
 }
@@ -84,7 +96,7 @@ function expandEnvVars(str: string): string {
     const value = process.env[name];
     if (value === undefined) {
       console.warn(`Environment variable ${name} is not set`);
-      return '';
+      return "";
     }
     return value;
   });
@@ -92,21 +104,23 @@ function expandEnvVars(str: string): string {
 
 async function readConfig(configPath: string): Promise<ConfigFile> {
   const abs = path.resolve(configPath);
-  let raw = await fs.readFile(abs, 'utf8');
-  
+  let raw = await fs.readFile(abs, "utf8");
+
   // Expandir variables de entorno en el JSON
   raw = expandEnvVars(raw);
-  
+
   const config = JSON.parse(raw) as ConfigFile;
-  
+
   // Validar que no queden variables sin expandir
   const validateConfig = (obj: any, pathParts: string[] = []) => {
     for (const key in obj) {
       const value = obj[key];
-      const keyPath = [...pathParts, key].join('.');
-      if (typeof value === 'string' && value.includes('${')) {
-        throw new Error(`Variable de entorno no expandida en ${keyPath}: ${value}`);
-      } else if (typeof value === 'object' && value !== null) {
+      const keyPath = [...pathParts, key].join(".");
+      if (typeof value === "string" && value.includes("${")) {
+        throw new Error(
+          `Variable de entorno no expandida en ${keyPath}: ${value}`,
+        );
+      } else if (typeof value === "object" && value !== null) {
         validateConfig(value, [...pathParts, key]);
       }
     }
@@ -119,29 +133,40 @@ async function readConfig(configPath: string): Promise<ConfigFile> {
 
 function assertConfig(config: ConfigFile) {
   if (!config.jobs || !Array.isArray(config.jobs) || config.jobs.length === 0) {
-    throw new Error('No jobs found in config; add at least one job.');
+    throw new Error("No jobs found in config; add at least one job.");
   }
 
   config.jobs.forEach((job, index) => {
-    if (!job.output || typeof job.output !== 'string' || !job.output.trim()) {
+    if (!job.output || typeof job.output !== "string" || !job.output.trim()) {
       throw new Error(`Invalid job at index ${index}: output is required.`);
     }
-    if (!job.tableId || typeof job.tableId !== 'string' || !job.tableId.trim()) {
+    if (
+      !job.tableId ||
+      typeof job.tableId !== "string" ||
+      !job.tableId.trim()
+    ) {
       throw new Error(`Invalid job at index ${index}: tableId is required.`);
     }
-    if (job.viewId !== undefined && typeof job.viewId !== 'string') {
-      throw new Error(`Invalid job at index ${index}: viewId must be a string if provided.`);
+    if (job.viewId !== undefined && typeof job.viewId !== "string") {
+      throw new Error(
+        `Invalid job at index ${index}: viewId must be a string if provided.`,
+      );
     }
     if (job.fields !== undefined && !Array.isArray(job.fields)) {
-      throw new Error(`Invalid job at index ${index}: fields must be an array if provided.`);
+      throw new Error(
+        `Invalid job at index ${index}: fields must be an array if provided.`,
+      );
     }
   });
 }
 
-async function fetchAllRecords(tableId: string, viewId?: string): Promise<any[]> {
+async function fetchAllRecords(
+  tableId: string,
+  viewId?: string,
+): Promise<any[]> {
   const headers = {
-    'accept': 'application/json',
-    'xc-token': API_KEY,
+    accept: "application/json",
+    "xc-token": API_KEY,
   } as Record<string, string>;
 
   const records: any[] = [];
@@ -149,10 +174,12 @@ async function fetchAllRecords(tableId: string, viewId?: string): Promise<any[]>
   const pageSize = 1000; // adjust if needed
 
   while (true) {
-    const url = new URL(`${BASE_URL}/api/v2/tables/${encodeURIComponent(tableId)}/records`);
-    url.searchParams.set('limit', String(pageSize));
-    url.searchParams.set('offset', String((page - 1) * pageSize));
-    if (viewId) url.searchParams.set('viewId', viewId);
+    const url = new URL(
+      `${BASE_URL}/api/v2/tables/${encodeURIComponent(tableId)}/records`,
+    );
+    url.searchParams.set("limit", String(pageSize));
+    url.searchParams.set("offset", String((page - 1) * pageSize));
+    if (viewId) url.searchParams.set("viewId", viewId);
     if (VERBOSE) console.log(`[debug] Fetching: ${url.toString()}`);
     const data = (await fetchWithRetry(url, { headers })) as NocoListResponse;
     const batch = data.list || [];
@@ -176,7 +203,7 @@ async function fetchWithRetry(url: URL, opts: RequestInit): Promise<any> {
       const res = await f(url as any, { ...opts, signal: ac.signal });
       clearTimeout(to);
       if (!res.ok) {
-        const text = await res.text().catch(() => '');
+        const text = await res.text().catch(() => "");
         throw new Error(`HTTP ${res.status}: ${text}`);
       }
       return res.json();
@@ -185,14 +212,21 @@ async function fetchWithRetry(url: URL, opts: RequestInit): Promise<any> {
       const transient = isTransientError(err);
       if (!transient || attempt === MAX_RETRIES) break;
       const delay = backoffDelay(attempt);
-      if (VERBOSE) console.warn(`[retry] attempt ${attempt + 1} failed: ${err?.message || err}. Retrying in ${delay}ms...`);
+      if (VERBOSE)
+        console.warn(
+          `[retry] attempt ${attempt + 1} failed: ${err?.message || err}. Retrying in ${delay}ms...`,
+        );
       await new Promise((r) => setTimeout(r, delay));
       attempt += 1;
       // ensure any pending timeout is cleared
-      try { /* no-op if already cleared */ } catch {}
+      try {
+        /* no-op if already cleared */
+      } catch {}
     }
   }
-  throw new Error(`Request failed after ${attempt} attempt(s): ${lastErr?.message || lastErr}`);
+  throw new Error(
+    `Request failed after ${attempt} attempt(s): ${lastErr?.message || lastErr}`,
+  );
 }
 
 async function ensureDirForFile(filePath: string) {
@@ -203,14 +237,14 @@ async function ensureDirForFile(filePath: string) {
 async function writeJsonAtomic(filePath: string, data: unknown) {
   const tmp = `${filePath}.tmp`;
   const json = JSON.stringify(data, null, 2);
-  await fs.writeFile(tmp, json, 'utf8');
+  await fs.writeFile(tmp, json, "utf8");
   await fs.rename(tmp, filePath);
 }
 
 async function run() {
   assertEnv();
   const args = process.argv.slice(2);
-  const configPath = args.length ? args[args.length - 1] : 'noco.config.json';
+  const configPath = args.length ? args[args.length - 1] : "noco.config.json";
   console.log(`Using config file: ${configPath}`);
   const { jobs } = await readConfig(configPath);
 
@@ -220,13 +254,20 @@ async function run() {
   for (const job of jobs) {
     const outAbs = path.resolve(job.output);
     try {
-      console.log(`Fetching table ${job.tableId}${job.viewId ? ` (view ${job.viewId})` : ''} -> ${job.output}`);
+      console.log(
+        `Fetching table ${job.tableId}${job.viewId ? ` (view ${job.viewId})` : ""} -> ${job.output}`,
+      );
       const rows = await fetchAllRecords(job.tableId, job.viewId);
 
       // Optionally select specific fields
-      const finalRows = job.fields && job.fields.length
-        ? rows.map(r => Object.fromEntries(Object.entries(r).filter(([k]) => job.fields!.includes(k))))
-        : rows;
+      const finalRows =
+        job.fields && job.fields.length
+          ? rows.map((r) =>
+              Object.fromEntries(
+                Object.entries(r).filter(([k]) => job.fields!.includes(k)),
+              ),
+            )
+          : rows;
 
       await ensureDirForFile(outAbs);
       await writeJsonAtomic(outAbs, finalRows);

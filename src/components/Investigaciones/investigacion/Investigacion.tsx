@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
-import {
-  fetchInvestigacionByDominio,
-} from "../../../data/fetching";
+import { fetchInvestigacionByDominio } from "../../../data/fetching";
 import Nota01 from "../todasInvest/Nota01";
 import Nota02 from "../todasInvest/Nota02";
 import Nota03 from "../todasInvest/Nota03";
@@ -84,9 +82,8 @@ const Investigacion = () => {
 
     const fetchData = async () => {
       try {
-        const investigacionSeleccionada = await fetchInvestigacionByDominio(
-          dominio,
-        );
+        const investigacionSeleccionada =
+          await fetchInvestigacionByDominio(dominio);
 
         if (investigacionSeleccionada) {
           setInvestigacion(investigacionSeleccionada);

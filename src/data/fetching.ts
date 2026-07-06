@@ -114,9 +114,10 @@ function convertReportesRowsToFeatureCollection(
           coordinates,
         },
         properties: {
-          Contador: typeof row.id === "string" || typeof row.id === "number"
-            ? `r${row.id}`
-            : `r-${Math.random().toString(36).slice(2, 8)}`,
+          Contador:
+            typeof row.id === "string" || typeof row.id === "number"
+              ? `r${row.id}`
+              : `r-${Math.random().toString(36).slice(2, 8)}`,
           Fecha: row.fecha ?? "",
           Hora: row.Hora_Hecho ?? "",
           Barrio: row.barrio_municipio ?? "",
@@ -228,16 +229,20 @@ export const getDataDeCasosGatillo =
   };
 
 export const fetchAutor = async (enlaceVer: string): Promise<Autor | null> => {
-  const response = await fetch("data/autorxs.json");
+  const response = await fetch("/data/autorxs.json");
   const data: Autor[] = await response.json();
-  // Buscar el autor por el enlaceVer
-  return data.find((autor) => autor.enlaceVer === `/${enlaceVer}`) ?? null;
+
+  const slug = enlaceVer.startsWith("/") ? enlaceVer : `/${enlaceVer}`;
+
+  return data.find((autor) => autor.enlaceVer === slug) ?? null;
 };
 
 export const fetchAutorxs = async (): Promise<Autor[] | null> => {
-  const response = await fetch("data/autorxs.json");
-  const data: Autor[] = await response.json();
-  return data;
+  const response = await fetch("/data/autorxs.json");
+
+  if (!response.ok) return null;
+
+  return await response.json();
 };
 
 export const fetchInvestigaciones = async (): Promise<
