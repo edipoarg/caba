@@ -23,7 +23,6 @@
       "fields": [
         "titulo",
         "fecha",
-        "imagen copy",
         "imagen",
         "textoBajada",
         "dominio",
