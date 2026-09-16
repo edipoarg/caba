@@ -4,13 +4,6 @@ const Nota25 = () => {
   return (
     <div className={styles.NotaContainer}>
       <h4 className={styles.singularText}>
-        En Argentina la cantidad de personas que deciden quitarse la vida crece.
-        Al mismo tiempo, hace tiempo que las muertes de policías exponen una
-        crisis opaca: armas, jornadas extenuantes y silencio institucional. La
-        preocupación sobre la salud mental de los agentes y sus consecuencias a
-        nivel social, en primera voz.
-      </h4>
-      <h4 className={styles.singularText}>
         El aumento de titulares que informan sobre suicidios en miembros de las
         distintas fuerza policiales empuja a preguntarse por una problemática
         que se esfuerza por ser un secreto a voces. Si esa población específica
