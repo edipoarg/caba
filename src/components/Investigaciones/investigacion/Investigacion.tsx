@@ -1,3 +1,4 @@
+/* eslint-disable css-modules/no-unused-class */
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
@@ -25,6 +26,7 @@ import Nota21 from "../todasInvest/Nota21";
 import Nota22 from "../todasInvest/Nota22";
 import Nota23 from "../todasInvest/Nota23";
 import Nota24 from "../todasInvest/Nota24";
+import Nota25 from "../todasInvest/Nota25";
 
 interface InvestigacionModel {
   id: string;
@@ -67,6 +69,7 @@ const componentesNotas: ComponentesNotas = {
   "motosierra-con-balas": Nota22,
   "al-enemigo-ni-aire": Nota23,
   "el-algoritmo-te-identifico": Nota24,
+  "la-sociedad-de-los-policías-muertos": Nota25,
 };
 
 const Investigacion = () => {

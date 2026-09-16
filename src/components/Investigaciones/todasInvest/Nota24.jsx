@@ -1,3 +1,4 @@
+/* eslint-disable css-modules/no-unused-class */
 import styles from "./TodasInvestigaciones.module.css";
 
 const Nota23 = () => {
@@ -98,28 +99,28 @@ const Nota23 = () => {
       <h4 className={styles.singularText}>
         Sobre la lista diaria de la CoNaRC: &quot;La base de datos contiene
         múltiples errores: por ejemplo, dos personas figuran como de 2 y 3 años
-        de edad, buscadas por asalto y robo&quot;, de una totalidad de 61 menores
-        de edad, de quienes también se publican todos sus datos personales.
-        Cannataci recuerda en su informe que es derecho de todo niñx que se
-        respete plenamente su vida privada durante todo el procedimiento,
+        de edad, buscadas por asalto y robo&quot;, de una totalidad de 61
+        menores de edad, de quienes también se publican todos sus datos
+        personales. Cannataci recuerda en su informe que es derecho de todo niñx
+        que se respete plenamente su vida privada durante todo el procedimiento,
         conforme indica la Convención por los derechos del niño a la que
         Argentina adhirió en diciembre de 1990.
       </h4>
       <h4 className={styles.singularText}>
-        Sobre la implementación: &quot;No veo la proporcionalidad de instalar una
-        tecnología con graves implicaciones para la privacidad para buscar en
-        una lista de 46 mil personas [N. del R: a mayo de 2019] que actualmente
-        incluye a menores y delitos no graves y que no se actualice y compruebe
-        cuidadosamente su exactitud&quot;.
+        Sobre la implementación: &quot;No veo la proporcionalidad de instalar
+        una tecnología con graves implicaciones para la privacidad para buscar
+        en una lista de 46 mil personas [N. del R: a mayo de 2019] que
+        actualmente incluye a menores y delitos no graves y que no se actualice
+        y compruebe cuidadosamente su exactitud&quot;.
       </h4>
       <h4 className={styles.singularText}>
-        Sobre la seguridad en la protección de datos: &quot;Que el reconocimiento
-        facial se esté implementando sin el PIA (Privacy Impact Assessment)
-        necesario, así como la consulta deseable y las fuertes salvaguardias,
-        también es motivo de preocupación. El Gobierno ha aprobado una
-        reglamentación de bajo nivel en materia de biometría, pero no una
-        legislación detallada sobre el uso del reconocimiento facial&quot;,
-        concluye en el punto 21.
+        Sobre la seguridad en la protección de datos: &quot;Que el
+        reconocimiento facial se esté implementando sin el PIA (Privacy Impact
+        Assessment) necesario, así como la consulta deseable y las fuertes
+        salvaguardias, también es motivo de preocupación. El Gobierno ha
+        aprobado una reglamentación de bajo nivel en materia de biometría, pero
+        no una legislación detallada sobre el uso del reconocimiento
+        facial&quot;, concluye en el punto 21.
       </h4>
 
       <h3 className={styles.subTitle}>los múltiples errores</h3>
@@ -385,9 +386,9 @@ const Nota23 = () => {
         La imagen del tecnomagnate radicado en la Ciudad de Buenos Aires que
         juega al ajedrez en un local del Abasto y deja trascender vía
         empresarios que dedica sus horas a elaborar teorías sobre un Anticristo
-        luddita es fascinante. Tomás Pomar reorienta el foco: &quot;La mejor base
-        de datos para hacer cualquier política pública la tiene Mercado Pago.
-        Está monitoreando transacciones cotidianas geolocalizadas con
+        luddita es fascinante. Tomás Pomar reorienta el foco: &quot;La mejor
+        base de datos para hacer cualquier política pública la tiene Mercado
+        Pago. Está monitoreando transacciones cotidianas geolocalizadas con
         referencias sobre cuánto es el ingreso de cada persona, con un conjunto
         de datos agregados que ellos van poniendo. Tienen un nivel de
         capilaridad de información muy interesante&quot;. Lo que queda claro es

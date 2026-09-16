@@ -5,13 +5,13 @@ import MapaBlur from "../MapaBlur/MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 
 const tituloNotaPrincipal =
-  "El algoritmo te identificó: reconocimiento facial en CABA y la amenaza Palantir";
+  "La sociedad de los policías muertos: el suicidio en las fuerzas de seguridad";
 const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_38736d9689fd469cad4486c8996f5bc4~mv2.jpg/v1/fill/w_1980,h_1252,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/VIDEOVIGILANCIA%20x%20Azul%20Blaseotto%20-%20MAPA%20POLI.jpg";
-const fechaNotaPrincipal = "18/06/2026";
-const autorxsNotaPrincipal = "Matías Castro";
-const ilusNotaPrincipal = "Azul Blaseotto";
+  "https://static.wixstatic.com/media/0f4ca0_36b6abc062ad47a6a0513e26435ed8fe~mv2.jpg/v1/fill/w_1898,h_1200,al_c,q_90,enc_avif,quality_auto/Suicidios%20policias%20x%20Panchopepe%20-%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "16/09/2026";
+const autorxsNotaPrincipal = "Juan Manuel Erazo y Julia Pascolini";
+const ilusNotaPrincipal = "Panchopepe";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
@@ -34,7 +34,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/el-algoritmo-te-identifico">
+            <Link to="/investigacion/la-sociedad-de-los-policías-muertos" className={styles.novedadContainer}>
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}
