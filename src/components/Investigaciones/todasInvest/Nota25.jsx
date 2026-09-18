@@ -414,21 +414,6 @@ const Nota25 = () => {
         empezás a tratar como un robot, cuando te olvidás que es una persona,
         ahí está lo peligroso”.
       </h4>
-            <h4 className={styles.singularText}>
-
-      Las fuerzas de seguridad comenzaron a reconocer el problema y a crear
-      mecanismos propios. Esto las obliga a ocuparse de una cuestión que durante
-      mucho tiempo permaneció encerrada entre los muros de las instituciones.
-      Evidentemente, no alcanza con llenar formularios o establecer protocolos
-      que se activan solo después de un intento de suicidio. Mientras pedir
-      ayuda o necesitar un descanso implique el riesgo de “ser un problema”, la
-      prevención seguirá llegando tarde. Si el endeudamiento obliga a sumar más
-      horas de trabajo, cualquier política de salud mental estará condenada al
-      fracaso. Sobre esto un ex agente de la PFA manifiesta algo que de obvio
-      puede ser brutal: “Cuando al policía lo empezás a tratar como un robot,
-      cuando te olvidás que es una persona, ahí está lo peligroso”.
-            </h4>
-
     </div>
   );
 };
