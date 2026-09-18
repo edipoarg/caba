@@ -414,8 +414,6 @@ const Nota25 = () => {
         empezás a tratar como un robot, cuando te olvidás que es una persona,
         ahí está lo peligroso”.
       </h4>
-        
-
     </div>
   );
 };
