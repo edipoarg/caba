@@ -1,26 +1,57 @@
 .logosList {
-  position: absolute;
-  bottom: 15vh;
-  left: 8vw;
+  width: calc(100% - 12vw);
+
+  margin: 2rem auto;
+
+  padding: 1rem 4vw;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.2rem;
+
+  border: 2px solid var(--mapa-oscuro);
+  border-radius: 45px;
+}
+
+.logosList a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logos {
-  height: 3vh;
-  margin: 1.1vw;
+  display: block;
+
+  width: auto;
+  height: 2.5vh;
+  max-height: 30px;
+
+  margin: 0;
+
+  object-fit: contain;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .logosList {
-    position: absolute;
-    bottom: 5vh;
-    left: 8vw;
-    border: solid 2px;
-    border-radius: 45px;
-    padding: 0vh 3vw;
+    width: calc(100% - 10vw);
+
+    margin: 1.5rem 5vw;
+
+    padding: 0.8rem 2vw;
+
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    gap: 1vw;
   }
 
   .logos {
-    height: 3vh;
-    margin: 1.1vw;
+    height: clamp(18px, 2.2vh, 28px);
+    max-width: 6vw;
   }
 }
