@@ -5,13 +5,13 @@ import MapaBlur from "../MapaBlur/MapaBlur";
 import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 
 const tituloNotaPrincipal =
-  "La sociedad de los policías muertos: el suicidio en las fuerzas de seguridad";
+  "Malvinas como pantalla: el proyecto de Defensa de la Soberanía Nacional y los cañones que apuntan hacia adentro";
 const fechaUltimoReporte = "Febrero 2026";
 const fotoNotaPrincipal =
-  "https://static.wixstatic.com/media/0f4ca0_36b6abc062ad47a6a0513e26435ed8fe~mv2.jpg/v1/fill/w_1898,h_1200,al_c,q_90,enc_avif,quality_auto/Suicidios%20policias%20x%20Panchopepe%20-%20MAPA%20POLI.jpg";
-const fechaNotaPrincipal = "16/09/2026";
-const autorxsNotaPrincipal = "Juan Manuel Erazo y Julia Pascolini";
-const ilusNotaPrincipal = "Panchopepe";
+  "https://static.wixstatic.com/media/0f4ca0_0038e92baaa34ad296db044c24dbf84e~mv2.jpg/v1/fill/w_1898,h_1200,al_c,q_90,enc_avif,quality_auto/LEY%20DE%20DEFENSA%20NACIONAL%20x%20Pitucardi%20-%20MAPA%20POLI.jpg";
+const fechaNotaPrincipal = "29/10/2026";
+const autorxsNotaPrincipal = "Mapa de la Policía";
+const ilusNotaPrincipal = "Pitucardi";
 const numeroReporte = "6to";
 
 const Investigaciones = () => {
@@ -34,7 +34,7 @@ const Investigaciones = () => {
 
         <section className={styles.investigaciones}>
           <section className={styles.investNovedades}>
-            <Link to="/investigacion/la-sociedad-de-los-policías-muertos" className={styles.novedadContainer}>
+            <Link to="/investigacion/malvinas-como-pantalla" className={styles.novedadContainer}>
               <article className={styles.notaPrincipal}>
                 <img
                   src={fotoNotaPrincipal}

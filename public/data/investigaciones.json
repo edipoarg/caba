@@ -288,7 +288,7 @@
     "region": "Caba"
   },
    {
-    "id": "i24",
+    "id": "i25",
     "titulo": "La sociedad de los policías muertos: el suicidio en las fuerzas de seguridad",
     "autorxs": "Juan Manuel Erazo y Julia Pascolini",
     "ilus": "Panchopepe",
@@ -296,6 +296,18 @@
     "imagen": "https://static.wixstatic.com/media/0f4ca0_36b6abc062ad47a6a0513e26435ed8fe~mv2.jpg/v1/fill/w_1898,h_1200,al_c,q_90,enc_avif,quality_auto/Suicidios%20policias%20x%20Panchopepe%20-%20MAPA%20POLI.jpg",
     "textoBajada": "En Argentina la cantidad de personas que deciden quitarse la vida crece. Al mismo tiempo, hace tiempo que las muertes de policías exponen una crisis opaca: armas, jornadas extenuantes y silencio institucional. La preocupación sobre la salud mental de los agentes y sus consecuencias a nivel social, en primera voz.",
     "dominio": "la-sociedad-de-los-policías-muertos",
+    "tipoInvestigacion": "informe",
+    "region": "Caba"
+  },
+   {
+    "id": "i26",
+    "titulo": "Malvinas como pantalla: el proyecto de Defensa de la Soberanía Nacional y los cañones que apuntan hacia adentro",
+    "autorxs": "Mapa de la Policía",
+    "ilus": "Pitucardi",
+    "fecha": "29/10/2026",
+    "imagen": "https://static.wixstatic.com/media/0f4ca0_0038e92baaa34ad296db044c24dbf84e~mv2.jpg/v1/fill/w_1898,h_1200,al_c,q_90,enc_avif,quality_auto/LEY%20DE%20DEFENSA%20NACIONAL%20x%20Pitucardi%20-%20MAPA%20POLI.jpg",
+    "textoBajada": "El Congreso deberá debatir una nueva normativa que lleva el título de la histórica causa por las islas, pero que tiene otras implicancias en la idea del Gobierno sobre el terrorismo y el enemigo de la Nación en el propio territorio.",
+    "dominio": "malvinas-como-pantalla",
     "tipoInvestigacion": "informe",
     "region": "Caba"
   }
