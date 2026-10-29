@@ -271,16 +271,15 @@ const Nota26 = () => {
         (Ley Nº 27.786).&#160;
       </h4>
       <h4 className={styles.singularText}>
-        En conclusión, el proyecto pone sobre la mesa&#160; sanciones que son
-        justas, pero que apenas tocaron los intereses de empresas
-        estadounidenses, se modificaron a gusto y piacere de la Casa Blanca. Y
-        trae aparejada una idea de concentración del Poder Ejecutivo e
-        integración entre carteras a la que este y otros gobiernos intentaron
-        acercarse. Se pone en juego una vez más el rol del Estado como juez y
-        verdugo de sus propios ciudadanos, con un poder exponencial para
-        declarar como enemigo a todo aquel que no cumpla con&#160; sus
-        estándares de obediencia y con la capacidad de las fuerzas armadas de
-        apuntar contra la Nación que juran defender.&#x9;
+        En conclusión, el proyecto pone sobre la mesa sanciones que son justas,
+        pero que apenas tocaron los intereses de empresas estadounidenses, se
+        modificaron a gusto y piacere de la Casa Blanca. Y trae aparejada una
+        idea de concentración del poder en el Ejecutivo e integración entre
+        carteras a la que este y otros gobiernos intentaron acercarse. Se pone
+        en juego una vez más su rol como juez y verdugo de sus propios
+        ciudadanos, con un poder exponencial para declarar como enemigo a todo
+        aquel que no cumpla con sus estándares de obediencia y con la capacidad
+        de las fuerzas armadas de apuntar contra la Nación que juran defender.
       </h4>
     </div>
   );
