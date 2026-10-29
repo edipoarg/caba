@@ -1,0 +1,289 @@
+/* eslint-disable css-modules/no-unused-class */
+import styles from "./TodasInvestigaciones.module.css";
+
+const Nota26 = () => {
+  return (
+    <div className={styles.NotaContainer}>
+      <h4 className={styles.singularText}>
+        Aprovechando el nacionalismo engordado por una semifinal infartante en
+        el Mundial y la bandera casera que la Selección desplegó en los
+        festejos, en septiembre de este año, el Ejecutivo envió al Congreso el
+        Proyecto de Ley de Defensa de la Soberanía Nacional. El entusiasmo
+        alrededor del anuncio por cadena nacional apenas distinguió rivalidades
+        políticas y puso a los legisladores -con la parte que les toca en esta
+        ensalada política- frente a una nueva encerrona: o votan a favor o se
+        exponen a ser llamados apátridas hasta por los propios.&#160;
+      </h4>
+      <h4 className={styles.singularText}>
+        Pero la propuesta no vino solo con mayores restricciones para las
+        empresas extranjeras que exploten los recursos de los espacios marítimos
+        e insulares y sanciones para los Estados que no respeten nuestra
+        soberanía. A partir del&#160; Título II, la seguridad nacional aparece
+        como “una premisa insoslayable”&#160; que “no puede procurarse de manera
+        fragmentada, a través de funciones estatales que actúan de espaldas unas
+        a otras”. Para eso, se afirma que “ningún Estado defiende con eficacia
+        lo que gestiona en compartimentos estancos”. Y es aquí precisamente
+        donde aparece el objetivo más específico: la indiferenciación de
+        funciones entre Seguridad, Defensa e Inteligencia.
+      </h4>
+      <h3 className={styles.subTitle}>por algo son como son</h3>
+      <h4 className={styles.singularText}>
+        Los “compartimentos estancos” de los que habla el proyecto del Gobierno
+        son en realidad funciones diferenciadas. Las leyes de Seguridad
+        Interior, Defensa e Inteligencia vinieron con&#160; el retorno de la
+        democracia a desarmar la doctrina previa. Y lo que se propuso entonces
+        fue la diferenciación orgánica y funcional fundamentalmente de las dos
+        primeras áreas mencionadas: las fuerzas de seguridad intervienen y
+        gestionan los conflictos internos al territorio y las fuerzas armadas
+        repelen amenazas o agresiones externas. Cuando bajo el gobierno de
+        Néstor Kirchner se reglamentó la Ley de Defensa, se aclaró que esas
+        amenazas debían provenir de un actor estatal, pero desde la nueva
+        reglamentación del gobierno de Javier Milei, se estableció que la
+        amenaza externa puede venir también de un actor no estatal. Esto
+        habilita el accionar de las Fuerzas Armadas dentro del territorio.
+      </h4>
+      <h4 className={styles.singularText}>
+        Para el oficialismo, entonces, “una separación artificial de funciones
+        que se encuentran íntimamente coligadas y que resultan indispensables
+        para la prosperidad y la proyección geopolítica de la Nación, generan,
+        en conjunto, un déficit institucional que debe ser superado sin demora”.
+        Pero ignora que la separación de funciones tiende a la especialización
+        de cada área y a la posibilidad de formarlas, capacitarlas y
+        controlarlas de acuerdo a funciones específicas. Por otro lado, en ambas
+        está establecida la articulación y se aclara en qué casos pueden actuar
+        de manera conjunta, bajo qué mando y con qué controles. Las Fuerzas
+        Armadas son entrenadas para la guerra y, dentro de esa lógica, para
+        exterminar al enemigo. Nada que se debiera hacer dentro del
+        territorio.&#160;
+      </h4>
+      <h3 className={styles.subTitle}>ambigüedad deliberada&#160;</h3>
+      <h4 className={styles.singularText}>
+        La apelación a esta “premisa insoslayable” conlleva otras implicancias
+        en el texto propuesto. Entre ellas, la creación del Consejo de Seguridad
+        Nacional (COSENA), que “fijará los lineamientos y objetivos llamados a
+        guiar el accionar de todos los órganos y organismos que integran el
+        mencionado sistema hacia la consecución de nuestra causa nacional”. La
+        idea de “causa nacional” es tan vaga como conveniente para el desarrollo
+        de los títulos posteriores. Tanto es así que los legisladores de la
+        oposición pedían en un principio tratarlos como proyectos aparte, con la
+        atención que le corresponde a cada uno.&#160;
+      </h4>
+      <h4 className={styles.singularText}>
+        El texto detalla que, de ser aprobado, el Consejo será presidido por el
+        Poder Ejecutivo e integrado por el jefe de Gabinete de Ministros, los
+        ministros de Relaciones Exteriores, Comercio Internacional y Culto, de
+        Defensa y de Economía, el secretario de Inteligencia de Estado y el
+        titular de la Secretaría Legal y Técnica de la Presidencia. En las
+        últimas modificaciones que derivaron en el dictamen se sumó la ministra
+        de Seguridad y se planteó la creación de la Comisión Bicameral, que
+        tiene cuatro senadores y cuatro diputados, con deber de secreto y acceso
+        limitado a información.
+      </h4>
+      <h4 className={styles.singularText}>
+        En el Título IV, el proyecto de ley prevé como infracción administrativa
+        “la realización de todo acto, actividad, decisión u operación que afecte
+        o amenace la Seguridad Nacional, cuando provenga de un Estado extranjero
+        u organización extranjera” y suma que “sea realizado por una persona
+        humana o jurídica que actúe en su propio beneficio o, directa o
+        indirectamente, por cuenta, orden, bajo el control, con financiamiento o
+        en beneficio de ellos”. El Gobierno indica que “la iniciativa incorpora
+        una herramienta de tutela institucional frente a formas contemporáneas
+        de afectación estatal que no necesariamente se presentan como una
+        agresión convencional, pero que pueden comprometer la soberanía, la
+        integridad territorial, la infraestructura crítica, la capacidad
+        decisoria del Estado o el normal funcionamiento de sus instituciones”.
+        Queda la duda, nuevamente, sobre qué serían las agresiones no
+        convencionales.&#160;
+      </h4>
+      <h4 className={styles.singularText}>
+        La oposición pidió cambios en este sentido y en el proyecto que se
+        discutirá en el recinto se sustituye la figura que aludía a “campañas
+        coordinadas de desinformación masiva” por la de “campaña de injerencia
+        extranjera”, definida a partir de actuaciones planificadas, sistemáticas
+        y sostenidas, clandestinas, engañosas, coercitivas, ilícitas y con
+        ocultamiento del vínculo extranjero. En ese sentido, se exige con el
+        nuevo texto el conocimiento del nexo con el agente extranjero y se
+        excluyen la actividad diplomática, el periodismo, la investigación
+        académica y la representación abierta de intereses.&#160;
+      </h4>
+      <h4 className={styles.singularText}>
+        Por otro lado, la Ley de Defensa Nacional (Nº 23.554) sufriría graves
+        reformas con el nuevo proyecto. Contrariamente a lo que buscaba a la
+        hora de su sanción, la propuesta del Gobierno le otorga potestad a las
+        Fuerzas Armadas para identificar riesgos, amenazas y desafíos y
+        utilizarlos para repeler y proteger las “infraestructuras críticas”, que
+        define como “aquellas estructuras físicas, redes, sistemas o partes de
+        ellos, públicos o privados, indispensables para el adecuado
+        funcionamiento de los servicios esenciales de la sociedad, la salud, la
+        seguridad, la defensa, la economía y el funcionamiento efectivo del
+        Estado, cuya destrucción o afectación, total o parcial, pueda
+        impactarlos significativamente”. Una definición problemática a la hora
+        de saber en qué situaciones puede intervenir.
+      </h4>
+      <h4 className={styles.singularText}>
+        Más adelante, en el Título VII, el Registro Público de Personas y
+        Entidades vinculadas a actos de Terrorismo y su Financiamiento (RePET)
+        tendría fuerza de ley y se ocuparía, entre otras cosas, de “brindar
+        acceso e intercambio de información sobre personas humanas, jurídicas y
+        entidades vinculadas a actos de terrorismo, su financiamiento y/o al
+        financiamiento de la proliferación de armas de destrucción masiva, y a
+        facilitar la cooperación doméstica e internacional para prevenir,
+        combatir y erradicar esos delitos”. Esto, si se presta atención al
+        artículo 114 del mismo capítulo, también es llamativo, ya que no está
+        condicionado a la existencia de una acción penal, sino que solo
+        “requerirá la existencia de motivos razonables” que no especifica “para
+        sospechar que la persona o entidad se encuentra vinculada con los
+        delitos mencionados o bien se trate de personas o entidades designadas
+        por el Consejo de Seguridad de las Naciones Unidas en ejercicio de las
+        facultades conferidas por el Capítulo VII de la Carta de las Naciones
+        Unidas, conforme los procedimientos que se establezcan en la
+        reglamentación”.&#160;
+      </h4>
+      <h3 className={styles.subTitle}>en qué contexto</h3>
+      <h4 className={styles.singularText}>
+        En 1989, el G7 creó el{" "}
+        <a
+          href="https://biblioteca.gafilat.org/wp-content/uploads/2026/01/Recomendaciones-y-Metodologia-Diciembre-2025.pdf"
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Grupo de Acción Financiera Internacional
+        </a>{" "}
+        (GAFI), una organización intergubernamental que fija estándares
+        internacionales y promueve medidas para prevenir y combatir el lavado de
+        activos, el financiamiento del terrorismo y la proliferación de armas de
+        destrucción masiva. El grupo establece 40 recomendaciones, que se
+        actualizaron en 2025. Argentina forma parte del GAFI desde el año 2000.
+        Estas recomendaciones, así como las leyes “antiterroristas” argentinas,
+        tienen un problema sustancial: no hay una definición concreta de qué es
+        un acto terrorista, sino que refieren a características y a diversas
+        convenciones internacionales y en los mismos sólo hay ejemplos. El
+        delito se define entonces por su intención: se juzga la supuesta
+        intención y no los actos.
+      </h4>
+      <h4 className={styles.singularText}>
+        La Ley Antiterrorista Nº 26.734, sancionada en 2007 y modificada en
+        2011, fue duramente criticada porque se incorporó un artículo que
+        duplica las penas de cualquier delito cuando sea cometido con la
+        finalidad de &quot;aterrorizar a la población u obligar a las
+        autoridades públicas nacionales a realizar un acto o abstenerse de
+        hacerlo&quot;. Términos como &quot;aterrorizar&quot; carecen de una
+        definición jurídica precisa en el derecho penal local. Esta vaguedad
+        vulnera el principio constitucional de legalidad -que exige tipos
+        penales claros y taxativos-, dejando un margen discrecional absoluto
+        para que fiscales y jueces interpreten, por ejemplo, reclamos sociales
+        agudos como actos terroristas. El proyecto de Ley de Defensa de la
+        Soberanía Nacional aparece en ese contexto e inscribe también en el
+        texto la posibilidad de considerar de manera discrecional ciertas
+        acciones como terroristas.&#160;
+      </h4>
+      <h4 className={styles.singularText}>
+        Por otro lado, y como señaló el CELS en su{" "}
+        <a
+          href="https://www.cels.org.ar/web/wp-content/uploads/2026/10/20261012-Analisis-del-CELS-de-la-Ley-de-Soberania-Nacional.pdf"
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          análisis de la propuesta
+        </a>{" "}
+        que impulsa el Gobierno, “la definición abierta de seguridad nacional
+        establece el marco que habilita la intervención del sistema de
+        inteligencia nacional. Y el Consejo además sería el que daría las
+        órdenes de intervención a la SIDE, del mismo modo que decidiría sobre el
+        uso del instrumento militar sobre la base de definiciones totalmente
+        laxas”.
+      </h4>
+      <h4 className={styles.singularText}>
+        Y continúa diciendo: “Dada la probable intervención de la SIDE en todas
+        las actividades de definición e investigación de amenazas en cabeza del
+        Consejo, no queda claro dónde se va a establecer el límite entre
+        actividades de inteligencia e investigaciones administrativas del
+        Consejo, si es que va a existir límite alguno”. En ese sentido, la
+        periodista Luciana Bertoia{" "}
+        <a
+          href="https://www.pagina12.com.ar/2026/09/18/malvinas-la-pantalla-para-aumentar-el-poder-de-los-servicios-y-los-militares/"
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          advirtió rápidamente en{" "}
+        </a>
+        <a
+          href="https://www.pagina12.com.ar/2026/09/18/malvinas-la-pantalla-para-aumentar-el-poder-de-los-servicios-y-los-militares/"
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <em>Página 12</em>
+        </a>{" "}
+        que, entre otras cosas, con la aprobación de la normativa “el Poder
+        Ejecutivo puede investigar a una persona sin que esta sepa o pueda
+        ejercer su derecho a defensa”. Este proyecto va de la mano con lo
+        definido en el{" "}
+        <a
+          href="https://informes.revistacrisis.com.ar/controlar-al-pueblo-para-entregar-la-patria/"
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Plan de Inteligencia Nacional
+        </a>
+        , cuyo contenido está judicializado.
+      </h4>
+      <h3 className={styles.subTitle}>pasito a pasito</h3>
+      <h4 className={styles.singularText}>
+        Hace tiempo que se viene transitando el camino de la indiferenciación
+        entre las funciones de seguridad, defensa e inteligencia en manos del
+        Ejecutivo. Ya desde los años noventa se insiste con el tema de las
+        llamadas “nuevas amenazas de carácter transnacional” -terrorismo,
+        narcotráfico, pobreza, migraciones, crimen organizado- que borran la
+        separación adentro/afuera del territorio sobre el que se basa la
+        diferenciación entre Seguridad y Defensa. Hace tiempo además que se
+        definen peligros o amenazas que se suponen tienen un origen o vínculo
+        externo, pero que en realidad se desarrollan en el interior del
+        territorio y eso habilita a actuar a las Fuerzas Armadas con su lógica
+        de eliminación del enemigo.
+      </h4>
+      <h4 className={styles.singularText}>
+        El proyecto impulsado por el Gobierno apenas prevé revisiones de las
+        decisiones del COSENA por parte de la&#160; Bicameral creada
+        específicamente en el mismo texto, pero redefine el ámbito de acción del
+        poder judicial al dar por tierra con los controles que estaban
+        determinados por las leyes de Defensa, Seguridad e Inteligencia. Tras
+        desgranar los títulos más conflictivos, se puede concluir que el
+        proyecto es amplio y discrecional y que se articula con otras leyes,
+        como por ejemplo la Antiterrorista.
+      </h4>
+      <h4 className={styles.singularText}>
+        En la misma línea fueron las modificaciones de LLA a la Ley de Defensa,
+        el proyecto de reforma de la Ley de Seguridad Interior, e incluso leyes
+        ya sancionadas como la{" "}
+        <a
+          href="https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=410436"
+          className={styles.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Antimafias
+        </a>{" "}
+        (Ley Nº 27.786).&#160;
+      </h4>
+      <h4 className={styles.singularText}>
+        En conclusión, el proyecto pone sobre la mesa&#160; sanciones que son
+        justas, pero que apenas tocaron los intereses de empresas
+        estadounidenses, se modificaron a gusto y piacere de la Casa Blanca. Y
+        trae aparejada una idea de concentración del Poder Ejecutivo e
+        integración entre carteras a la que este y otros gobiernos intentaron
+        acercarse. Se pone en juego una vez más el rol del Estado como juez y
+        verdugo de sus propios ciudadanos, con un poder exponencial para
+        declarar como enemigo a todo aquel que no cumpla con&#160; sus
+        estándares de obediencia y con la capacidad de las fuerzas armadas de
+        apuntar contra la Nación que juran defender.&#x9;
+      </h4>
+    </div>
+  );
+};
+
+export default Nota26;
